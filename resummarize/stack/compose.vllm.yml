@@ -1,0 +1,24 @@
+services:
+  qwen3-embed-vllm:
+    image: vllm/vllm-openai:latest
+    pull_policy: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+    environment:
+      HUGGING_FACE_HUB_TOKEN: ${HF_TOKEN:-}
+    command:
+      - --model
+      - Qwen/Qwen3-Embedding-4B
+      - --task
+      - embed
+      - --served-model-name
+      - Qwen/Qwen3-Embedding-4B
+      - --max-model-len
+      - "32768"
+      - --dtype
+      - float16
+
+volumes:
+  hf_cache:

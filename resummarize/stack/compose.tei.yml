@@ -1,0 +1,22 @@
+services:
+  qwen3-embed-tei:
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.7.2
+    pull_policy: always
+    ports:
+      - "8080:80"
+    volumes:
+      - hf_cache:/data
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    command:
+      - --model-id
+      - Qwen/Qwen3-Embedding-4B
+      - --dtype
+      - float16
+      - --max-client-batch-size
+      - "16"
+      - --max-batch-tokens
+      - "32768"
+
+volumes:
+  hf_cache:

@@ -558,15 +558,25 @@
                 return [...map.entries()].sort((a, b) => b[1] - a[1]);
             };
 
+            const embeddingReady = projects.filter((p) => p.embedding_ready).length;
+            const totalProjects = projects.length;
+
             return {
                 top_categories: count(projects.map((p) => p.category)).slice(0, 8).map(([name, count]) => ({ name, count })),
                 top_concepts: count(projects.flatMap((p) => p.concepts || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
                 top_tags: count(projects.flatMap((p) => p.tags || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
+                top_mined_motifs: count(projects.flatMap((p) => p.mined_motifs || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
                 top_languages: count(projects.flatMap((p) => p.languages || [])).slice(0, 10).map(([name, count]) => ({ name, count })),
+                embedding_coverage: {
+                    ready: embeddingReady,
+                    total: totalProjects,
+                    pct: totalProjects ? Number(((embeddingReady / totalProjects) * 100).toFixed(2)) : 0,
+                },
             };
         }
 
         function normalizeProject(raw) {
+            const embedding = (raw.embedding && typeof raw.embedding === "object") ? raw.embedding : null;
             return {
                 ...raw,
                 name: raw.name || "Unnamed",
@@ -574,6 +584,10 @@
                 category: raw.category || "Exploratory",
                 concepts: Array.isArray(raw.concepts) ? raw.concepts : [],
                 tags: Array.isArray(raw.tags) ? raw.tags : [],
+                mined_motifs: Array.isArray(raw.mined_motifs) ? raw.mined_motifs : [],
+                motif_neighbors: Array.isArray(raw.motif_neighbors) ? raw.motif_neighbors : [],
+                embedding,
+                embedding_ready: Boolean(raw.embedding_ready || embedding),
                 languages: Array.isArray(raw.languages) ? raw.languages : [],
                 display_path: raw.display_path || raw._path || "",
             };
@@ -588,7 +602,10 @@
             const projects = Array.isArray(payload.projects)
                 ? payload.projects.map(normalizeProject)
                 : [];
-            const interests = payload.interests || deriveInterests(projects);
+            const derived = deriveInterests(projects);
+            const interests = payload.interests
+                ? { ...derived, ...payload.interests }
+                : derived;
             return { projects, interests, generatedAt: payload.generated_at || null };
         }
 
@@ -679,7 +696,7 @@
             buildCategoryOptions(state.allProjects);
 
             if (!state.allProjects.length) {
-                setEmpty("No summaries found in ~/.summarization. Run `uv run python ~/bin/resummarize.py` first.", true);
+                setEmpty("No summaries found in ~/.summarization. Run `cargo run --manifest-path ~/dev/starmap/resummarize/Cargo.toml --` first.", true);
                 detailsPanel.innerHTML = `<h2>Atlas Offline</h2><p>Once summaries exist, this map will cluster projects into constellations and motifs.</p>`;
                 if (state.simulation) {
                     state.simulation.stop();
@@ -778,6 +795,7 @@
                     project.category,
                     ...(project.concepts || []),
                     ...(project.tags || []),
+                    ...(project.mined_motifs || []),
                 ]
                     .join(" ")
                     .toLowerCase();
@@ -804,10 +822,14 @@
                     });
                 }
 
-                const mergedConcepts = [...new Set([...(project.concepts || []), ...(project.tags || [])])]
+                const mergedConcepts = [...new Set([
+                    ...(project.concepts || []),
+                    ...(project.tags || []),
+                    ...(project.mined_motifs || []),
+                ])]
                     .map((x) => String(x || "").trim())
                     .filter(Boolean)
-                    .slice(0, 8);
+                    .slice(0, 10);
 
                 mergedConcepts.forEach((concept) => {
                     conceptCounter.set(concept, (conceptCounter.get(concept) || 0) + 1);
@@ -830,7 +852,7 @@
                     type: "project",
                     project,
                     category: project.category,
-                    r: 5 + Math.min(7, (project.concepts.length + project.tags.length) * 0.35),
+                    r: 5 + Math.min(7, (project.concepts.length + project.tags.length + project.mined_motifs.length) * 0.3),
                 });
 
                 links.push({
@@ -840,9 +862,13 @@
                 });
 
                 if (showConcepts) {
-                    const concepts = [...new Set([...(project.concepts || []), ...(project.tags || [])])]
+                    const concepts = [...new Set([
+                        ...(project.concepts || []),
+                        ...(project.tags || []),
+                        ...(project.mined_motifs || []),
+                    ])]
                         .filter((concept) => conceptSet.has(concept))
-                        .slice(0, 7);
+                        .slice(0, 9);
 
                     concepts.forEach((concept) => {
                         const conceptId = `concept:${concept}`;
@@ -1147,7 +1173,7 @@
 
         function projectListByConcept(concept) {
             return state.filteredProjects
-                .filter((p) => [...(p.concepts || []), ...(p.tags || [])].includes(concept))
+                .filter((p) => [...(p.concepts || []), ...(p.tags || []), ...(p.mined_motifs || [])].includes(concept))
                 .slice(0, 10);
         }
 
@@ -1162,10 +1188,13 @@
 
             const topCats = (state.interests?.top_categories || []).slice(0, 4);
             const topConcepts = (state.interests?.top_concepts || []).slice(0, 6);
+            const topMined = (state.interests?.top_mined_motifs || []).slice(0, 6);
             const topLangs = (state.interests?.top_languages || []).slice(0, 5);
+            const embed = state.interests?.embedding_coverage || { ready: 0, total: 0, pct: 0 };
 
             const catLine = topCats.map((c) => `${escapeHtml(c.name)} (${c.count})`).join(" • ") || "No categories yet";
             const concepts = topConcepts.map((c) => `<span class="pill">${escapeHtml(c.name)} · ${c.count}</span>`).join("");
+            const mined = topMined.map((c) => `<span class="pill">${escapeHtml(c.name)} · ${c.count}</span>`).join("");
             const langs = topLangs.map((l) => `<span class="pill">${escapeHtml(l.name)} · ${l.count}</span>`).join("");
 
             detailsPanel.innerHTML = `
@@ -1175,9 +1204,11 @@
                 <p>${catLine}</p>
                 <h3>Recurring Concepts</h3>
                 <div class="pill-row">${concepts || '<span class="pill">No concepts detected</span>'}</div>
+                <h3>Mined Motifs</h3>
+                <div class="pill-row">${mined || '<span class="pill">No mined motifs yet</span>'}</div>
                 <h3>Language Weight</h3>
                 <div class="pill-row">${langs || '<span class="pill">No language signals</span>'}</div>
-                <p class="meta-line">Tip: search, filter category, or toggle concept nodes for different strategic views.</p>
+                <p class="meta-line">Embedding coverage: ${embed.ready || 0}/${embed.total || 0} (${embed.pct || 0}%). Tip: search, filter category, or toggle concept nodes for different strategic views.</p>
             `;
         }
 
@@ -1188,11 +1219,28 @@
                     .slice(0, 12)
                     .map((c) => `<span class="pill">${escapeHtml(c)}</span>`)
                     .join("");
+                const minedPills = [...new Set([...(p.mined_motifs || [])])]
+                    .slice(0, 10)
+                    .map((c) => `<span class="pill">${escapeHtml(c)}</span>`)
+                    .join("");
 
                 const langPills = (p.languages || [])
                     .slice(0, 8)
                     .map((l) => `<span class="pill">${escapeHtml(l)}</span>`)
                     .join("");
+
+                const neighborItems = (p.motif_neighbors || [])
+                    .slice(0, 6)
+                    .map((n) => {
+                        const similarity = Number.isFinite(n.similarity) ? ` · sim ${Number(n.similarity).toFixed(3)}` : "";
+                        const pathSuffix = n.path ? ` <span style="color:#93a7b6">${escapeHtml(n.path)}</span>` : "";
+                        return `<li>${escapeHtml(n.name || "Unnamed")}${similarity}${pathSuffix}</li>`;
+                    })
+                    .join("");
+
+                const embeddingMeta = p.embedding
+                    ? `${escapeHtml(p.embedding.model || "embedding")} · dim ${escapeHtml(String(p.embedding.dim || "?"))}`
+                    : "No embedding metadata";
 
                 detailsPanel.innerHTML = `
                     <h2>${escapeHtml(p.name)}</h2>
@@ -1201,6 +1249,11 @@
                     <div class="pill-row">${langPills || '<span class="pill">Language unknown</span>'}</div>
                     <h3>Motifs</h3>
                     <div class="pill-row">${conceptPills || '<span class="pill">No motifs extracted</span>'}</div>
+                    <h3>Mined Motifs</h3>
+                    <div class="pill-row">${minedPills || '<span class="pill">No mined motifs</span>'}</div>
+                    <h3>Semantic Neighbors</h3>
+                    <ul>${neighborItems || "<li>No semantic neighbors yet</li>"}</ul>
+                    <p class="meta-line">${embeddingMeta}</p>
                     <p class="meta-line">${escapeHtml(p.display_path || p._path || '')}</p>
                 `;
                 return;
@@ -1229,6 +1282,7 @@
         function renderChips() {
             const topCats = (state.interests?.top_categories || []).slice(0, 5);
             const topConcepts = (state.interests?.top_concepts || []).slice(0, 7);
+            const topMined = (state.interests?.top_mined_motifs || []).slice(0, 5);
 
             const chips = [];
             topCats.forEach((cat) => {
@@ -1237,12 +1291,16 @@
             topConcepts.forEach((concept) => {
                 chips.push(`<span class="chip">${escapeHtml(concept.name)} ${concept.count}</span>`);
             });
+            topMined.forEach((motif) => {
+                chips.push(`<span class="chip">${escapeHtml(motif.name)} ${motif.count} mined</span>`);
+            });
 
             chipsEl.innerHTML = chips.join("");
         }
 
         function renderHeader(generatedAt) {
             const topCats = (state.interests?.top_categories || []).slice(0, 3).map((c) => c.name);
+            const embed = state.interests?.embedding_coverage || { ready: 0, total: 0, pct: 0 };
             if (!state.allProjects.length) {
                 summaryText.textContent = "No summaries found yet. Run resummarization to seed the sky.";
                 metaText.textContent = "Expected source: ~/.summarization";
@@ -1254,7 +1312,7 @@
                 : "The map is live; constellation categories are still converging.";
 
             const dateText = generatedAt ? new Date(generatedAt).toLocaleString() : "unknown";
-            metaText.textContent = `${state.allProjects.length} projects sampled • Updated ${dateText}`;
+            metaText.textContent = `${state.allProjects.length} projects sampled • Embeddings ${embed.ready || 0}/${embed.total || 0} (${embed.pct || 0}%) • Updated ${dateText}`;
         }
 
         function setEmpty(message, visible) {

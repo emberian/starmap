@@ -8,3 +8,5 @@ chrono = { version = "0.4", features = ["clock"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 sha2 = "0.10"
+tokio = { version = "1", features = ["rt", "rt-multi-thread"] }
+mistralrs = { git = "https://github.com/ericlbuehler/mistral.rs", rev = "5067d4f31be010a171f1c9fdf1106aaf456b1450", features = ["metal"] }

@@ -14,6 +14,66 @@ HOME = Path.home()
 WEB_ROOT = Path(__file__).resolve().parent
 
 
+def normalize_string_list(value) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    out: list[str] = []
+    for item in value:
+        text = str(item).strip()
+        if text:
+            out.append(text)
+    return out
+
+
+def normalize_motif_neighbors(value) -> list[dict]:
+    if not isinstance(value, list):
+        return []
+
+    neighbors: list[dict] = []
+    for item in value:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name", "")).strip()
+        path = str(item.get("path", "")).strip()
+        similarity = item.get("similarity")
+        if not isinstance(similarity, (int, float)):
+            similarity = None
+        if not name and not path:
+            continue
+        neighbors.append(
+            {
+                "name": name or "Unnamed",
+                "path": path,
+                "similarity": similarity,
+            }
+        )
+    return neighbors[:8]
+
+
+def normalize_embedding(value) -> dict | None:
+    if not isinstance(value, dict):
+        return None
+
+    model = str(value.get("model", "")).strip()
+    backend_url = str(value.get("backend_url", "")).strip()
+    instruction = str(value.get("instruction", "")).strip()
+    updated_at = str(value.get("updated_at", "")).strip()
+    dim = value.get("dim")
+    if not isinstance(dim, int):
+        dim = None
+
+    if not model and not backend_url and dim is None:
+        return None
+
+    return {
+        "model": model,
+        "backend_url": backend_url,
+        "instruction": instruction,
+        "updated_at": updated_at,
+        "dim": dim,
+    }
+
+
 def normalize_project(summary: dict) -> dict:
     project = dict(summary)
     path_value = str(project.get("_path", ""))
@@ -27,9 +87,13 @@ def normalize_project(summary: dict) -> dict:
     project["name"] = project.get("name") or Path(path_value).name or "Unnamed"
     project["description"] = project.get("description") or "No summary available yet."
     project["category"] = project.get("category") or "Exploratory"
-    project["tags"] = project.get("tags") if isinstance(project.get("tags"), list) else []
-    project["concepts"] = project.get("concepts") if isinstance(project.get("concepts"), list) else []
-    project["languages"] = project.get("languages") if isinstance(project.get("languages"), list) else []
+    project["tags"] = normalize_string_list(project.get("tags"))
+    project["concepts"] = normalize_string_list(project.get("concepts"))
+    project["languages"] = normalize_string_list(project.get("languages"))
+    project["mined_motifs"] = normalize_string_list(project.get("mined_motifs"))
+    project["motif_neighbors"] = normalize_motif_neighbors(project.get("_motif_neighbors"))
+    project["embedding"] = normalize_embedding(project.get("_embedding"))
+    project["embedding_ready"] = bool(project.get("embedding"))
     return project
 
 
@@ -59,7 +123,9 @@ def derive_interests(projects: list[dict]) -> dict:
     categories: Counter[str] = Counter()
     concepts: Counter[str] = Counter()
     tags: Counter[str] = Counter()
+    mined_motifs: Counter[str] = Counter()
     languages: Counter[str] = Counter()
+    embeddings_ready = 0
 
     for project in projects:
         if project.get("category"):
@@ -68,14 +134,27 @@ def derive_interests(projects: list[dict]) -> dict:
             concepts[str(concept)] += 1
         for tag in project.get("tags", []):
             tags[str(tag)] += 1
+        for motif in project.get("mined_motifs", []):
+            mined_motifs[str(motif)] += 1
         for language in project.get("languages", []):
             languages[str(language)] += 1
+        if project.get("embedding_ready"):
+            embeddings_ready += 1
+
+    project_count = len(projects)
+    embedding_coverage = 0.0 if project_count == 0 else round((embeddings_ready / project_count) * 100.0, 2)
 
     return {
         "top_categories": top_items(categories, 8),
         "top_concepts": top_items(concepts, 14),
         "top_tags": top_items(tags, 14),
+        "top_mined_motifs": top_items(mined_motifs, 14),
         "top_languages": top_items(languages, 10),
+        "embedding_coverage": {
+            "ready": embeddings_ready,
+            "total": project_count,
+            "pct": embedding_coverage,
+        },
     }
 
 
