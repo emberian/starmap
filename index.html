@@ -508,6 +508,8 @@
         const state = {
             allProjects: [],
             interests: null,
+            metaconstellations: [],
+            metaconstellationsGeneratedAt: null,
             filteredProjects: [],
             nodesById: new Map(),
             neighbors: new Map(),
@@ -566,6 +568,9 @@
                 top_concepts: count(projects.flatMap((p) => p.concepts || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
                 top_tags: count(projects.flatMap((p) => p.tags || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
                 top_mined_motifs: count(projects.flatMap((p) => p.mined_motifs || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
+                top_metaconstellations: count(
+                    projects.flatMap((p) => (p.metaconstellations || []).map((m) => m.name || m))
+                ).slice(0, 10).map(([name, count]) => ({ name, count })),
                 top_languages: count(projects.flatMap((p) => p.languages || [])).slice(0, 10).map(([name, count]) => ({ name, count })),
                 embedding_coverage: {
                     ready: embeddingReady,
@@ -577,6 +582,25 @@
 
         function normalizeProject(raw) {
             const embedding = (raw.embedding && typeof raw.embedding === "object") ? raw.embedding : null;
+            const metaconstellations = Array.isArray(raw.metaconstellations)
+                ? raw.metaconstellations
+                    .map((item) => {
+                        if (typeof item === "string") {
+                            const name = item.trim();
+                            return name ? { id: "", name, score: null, matches: [] } : null;
+                        }
+                        if (!item || typeof item !== "object") return null;
+                        const name = String(item.name || "").trim();
+                        if (!name) return null;
+                        return {
+                            id: String(item.id || "").trim(),
+                            name,
+                            score: Number.isFinite(item.score) ? Number(item.score) : null,
+                            matches: Array.isArray(item.matches) ? item.matches.map((x) => String(x || "").trim()).filter(Boolean) : [],
+                        };
+                    })
+                    .filter(Boolean)
+                : [];
             return {
                 ...raw,
                 name: raw.name || "Unnamed",
@@ -586,6 +610,7 @@
                 tags: Array.isArray(raw.tags) ? raw.tags : [],
                 mined_motifs: Array.isArray(raw.mined_motifs) ? raw.mined_motifs : [],
                 motif_neighbors: Array.isArray(raw.motif_neighbors) ? raw.motif_neighbors : [],
+                metaconstellations,
                 embedding,
                 embedding_ready: Boolean(raw.embedding_ready || embedding),
                 languages: Array.isArray(raw.languages) ? raw.languages : [],
@@ -596,17 +621,32 @@
         function normalizePayload(payload) {
             if (Array.isArray(payload)) {
                 const projects = payload.map(normalizeProject);
-                return { projects, interests: deriveInterests(projects), generatedAt: null };
+                return {
+                    projects,
+                    interests: deriveInterests(projects),
+                    metaconstellations: [],
+                    metaconstellationsGeneratedAt: null,
+                    generatedAt: null,
+                };
             }
 
             const projects = Array.isArray(payload.projects)
                 ? payload.projects.map(normalizeProject)
                 : [];
+            const metaconstellations = Array.isArray(payload.metaconstellations)
+                ? payload.metaconstellations
+                : [];
             const derived = deriveInterests(projects);
             const interests = payload.interests
                 ? { ...derived, ...payload.interests }
                 : derived;
-            return { projects, interests, generatedAt: payload.generated_at || null };
+            return {
+                projects,
+                interests,
+                metaconstellations,
+                metaconstellationsGeneratedAt: payload.metaconstellations_generated_at || null,
+                generatedAt: payload.generated_at || null,
+            };
         }
 
         function projectKey(project) {
@@ -617,8 +657,13 @@
             return `${projectKey(project)}|${project._hash || ""}|${project._updated_at || ""}`;
         }
 
-        function computeSnapshotKey(projects) {
-            return projects.map(projectSignature).sort().join("\n");
+        function computeSnapshotKey(projects, metaconstellations) {
+            const projectPart = projects.map(projectSignature).sort().join("\n");
+            const metaPart = (Array.isArray(metaconstellations) ? metaconstellations : [])
+                .map((meta) => `${String(meta.id || "")}|${String(meta.name || "")}|${String(meta.project_count || 0)}`)
+                .sort()
+                .join("\n");
+            return `${projectPart}\n---\n${metaPart}`;
         }
 
         function computeProjectDiff(previousProjects, nextProjects) {
@@ -688,8 +733,10 @@
 
             state.allProjects = payload.projects;
             state.interests = payload.interests;
+            state.metaconstellations = payload.metaconstellations || [];
+            state.metaconstellationsGeneratedAt = payload.metaconstellationsGeneratedAt || null;
             state.lastGeneratedAt = payload.generatedAt;
-            state.lastSnapshotKey = computeSnapshotKey(payload.projects);
+            state.lastSnapshotKey = computeSnapshotKey(payload.projects, payload.metaconstellations || []);
 
             renderHeader(payload.generatedAt);
             renderChips();
@@ -731,7 +778,7 @@
 
             try {
                 const payload = await fetchPayload();
-                const nextSnapshot = computeSnapshotKey(payload.projects);
+                const nextSnapshot = computeSnapshotKey(payload.projects, payload.metaconstellations || []);
                 const changed = nextSnapshot !== state.lastSnapshotKey;
 
                 if (!state.initialLoadDone || changed || manual) {
@@ -796,11 +843,18 @@
                     ...(project.concepts || []),
                     ...(project.tags || []),
                     ...(project.mined_motifs || []),
+                    ...((project.metaconstellations || []).map((m) => m.name || "")),
                 ]
                     .join(" ")
                     .toLowerCase();
                 return haystack.includes(search);
             });
+        }
+
+        function projectMetaconstellationNames(project) {
+            return (project.metaconstellations || [])
+                .map((item) => String(item?.name || "").trim())
+                .filter(Boolean);
         }
 
         function buildGraphData(projects, showConcepts) {
@@ -1189,12 +1243,22 @@
             const topCats = (state.interests?.top_categories || []).slice(0, 4);
             const topConcepts = (state.interests?.top_concepts || []).slice(0, 6);
             const topMined = (state.interests?.top_mined_motifs || []).slice(0, 6);
+            const topMetas = (state.interests?.top_metaconstellations || []).slice(0, 6);
             const topLangs = (state.interests?.top_languages || []).slice(0, 5);
             const embed = state.interests?.embedding_coverage || { ready: 0, total: 0, pct: 0 };
+            const metaHighlights = [...(state.metaconstellations || [])]
+                .sort((a, b) => Number(b.project_count || 0) - Number(a.project_count || 0))
+                .slice(0, 4)
+                .map((m) => {
+                    const desc = m.description ? ` — ${escapeHtml(m.description)}` : "";
+                    return `<li><strong>${escapeHtml(m.name || "Meta")}</strong> (${Number(m.project_count || 0)})${desc}</li>`;
+                })
+                .join("");
 
             const catLine = topCats.map((c) => `${escapeHtml(c.name)} (${c.count})`).join(" • ") || "No categories yet";
             const concepts = topConcepts.map((c) => `<span class="pill">${escapeHtml(c.name)} · ${c.count}</span>`).join("");
             const mined = topMined.map((c) => `<span class="pill">${escapeHtml(c.name)} · ${c.count}</span>`).join("");
+            const metas = topMetas.map((c) => `<span class="pill">${escapeHtml(c.name)} · ${c.count}</span>`).join("");
             const langs = topLangs.map((l) => `<span class="pill">${escapeHtml(l.name)} · ${l.count}</span>`).join("");
 
             detailsPanel.innerHTML = `
@@ -1206,9 +1270,13 @@
                 <div class="pill-row">${concepts || '<span class="pill">No concepts detected</span>'}</div>
                 <h3>Mined Motifs</h3>
                 <div class="pill-row">${mined || '<span class="pill">No mined motifs yet</span>'}</div>
+                <h3>Metaconstellations</h3>
+                <div class="pill-row">${metas || '<span class="pill">No metaconstellations aligned yet</span>'}</div>
+                <h3>Meta Narratives</h3>
+                <ul>${metaHighlights || "<li>No metaconstellation narratives yet</li>"}</ul>
                 <h3>Language Weight</h3>
                 <div class="pill-row">${langs || '<span class="pill">No language signals</span>'}</div>
-                <p class="meta-line">Embedding coverage: ${embed.ready || 0}/${embed.total || 0} (${embed.pct || 0}%). Tip: search, filter category, or toggle concept nodes for different strategic views.</p>
+                <p class="meta-line">Embedding coverage: ${embed.ready || 0}/${embed.total || 0} (${embed.pct || 0}%). Metaconstellations: ${(state.metaconstellations || []).length}. Tip: search, filter category, or toggle concept nodes for different strategic views.</p>
             `;
         }
 
@@ -1222,6 +1290,10 @@
                 const minedPills = [...new Set([...(p.mined_motifs || [])])]
                     .slice(0, 10)
                     .map((c) => `<span class="pill">${escapeHtml(c)}</span>`)
+                    .join("");
+                const metaconstellationPills = projectMetaconstellationNames(p)
+                    .slice(0, 8)
+                    .map((m) => `<span class="pill">${escapeHtml(m)}</span>`)
                     .join("");
 
                 const langPills = (p.languages || [])
@@ -1251,6 +1323,8 @@
                     <div class="pill-row">${conceptPills || '<span class="pill">No motifs extracted</span>'}</div>
                     <h3>Mined Motifs</h3>
                     <div class="pill-row">${minedPills || '<span class="pill">No mined motifs</span>'}</div>
+                    <h3>Metaconstellations</h3>
+                    <div class="pill-row">${metaconstellationPills || '<span class="pill">Unassigned</span>'}</div>
                     <h3>Semantic Neighbors</h3>
                     <ul>${neighborItems || "<li>No semantic neighbors yet</li>"}</ul>
                     <p class="meta-line">${embeddingMeta}</p>
@@ -1283,6 +1357,7 @@
             const topCats = (state.interests?.top_categories || []).slice(0, 5);
             const topConcepts = (state.interests?.top_concepts || []).slice(0, 7);
             const topMined = (state.interests?.top_mined_motifs || []).slice(0, 5);
+            const topMetas = (state.interests?.top_metaconstellations || []).slice(0, 5);
 
             const chips = [];
             topCats.forEach((cat) => {
@@ -1294,6 +1369,9 @@
             topMined.forEach((motif) => {
                 chips.push(`<span class="chip">${escapeHtml(motif.name)} ${motif.count} mined</span>`);
             });
+            topMetas.forEach((meta) => {
+                chips.push(`<span class="chip">${escapeHtml(meta.name)} ${meta.count} meta</span>`);
+            });
 
             chipsEl.innerHTML = chips.join("");
         }
@@ -1301,6 +1379,7 @@
         function renderHeader(generatedAt) {
             const topCats = (state.interests?.top_categories || []).slice(0, 3).map((c) => c.name);
             const embed = state.interests?.embedding_coverage || { ready: 0, total: 0, pct: 0 };
+            const metaCount = (state.metaconstellations || []).length;
             if (!state.allProjects.length) {
                 summaryText.textContent = "No summaries found yet. Run resummarization to seed the sky.";
                 metaText.textContent = "Expected source: ~/.summarization";
@@ -1312,7 +1391,7 @@
                 : "The map is live; constellation categories are still converging.";
 
             const dateText = generatedAt ? new Date(generatedAt).toLocaleString() : "unknown";
-            metaText.textContent = `${state.allProjects.length} projects sampled • Embeddings ${embed.ready || 0}/${embed.total || 0} (${embed.pct || 0}%) • Updated ${dateText}`;
+            metaText.textContent = `${state.allProjects.length} projects sampled • Embeddings ${embed.ready || 0}/${embed.total || 0} (${embed.pct || 0}%) • Metaconstellations ${metaCount} • Updated ${dateText}`;
         }
 
         function setEmpty(message, visible) {

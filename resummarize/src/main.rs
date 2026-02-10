@@ -15,10 +15,17 @@ use std::thread;
 use std::time::{Instant, UNIX_EPOCH};
 
 const MAX_HASH_FILES: usize = 6000;
-const MAX_STRUCTURE_FILES: usize = 240;
-const MAX_SOURCE_SNIPPETS: usize = 10;
-const MAX_SNIPPET_CHARS: usize = 3000;
-const MAX_README_CHARS: usize = 6000;
+const MAX_STRUCTURE_FILES: usize = 360;
+const MAX_SOURCE_SNIPPETS: usize = 14;
+const MAX_SNIPPET_CHARS: usize = 5000;
+const MAX_README_CHARS: usize = 12_000;
+const MAX_TOP_LANGUAGES: usize = 10;
+const MAX_TOP_KEYWORDS: usize = 48;
+const MIN_TOP_KEYWORD_COUNT: usize = 1;
+const MAX_SUMMARY_TAGS: usize = 16;
+const MAX_SUMMARY_CONCEPTS: usize = 40;
+const MAX_SUMMARY_LANGUAGES: usize = 16;
+const MAX_MINED_MOTIFS: usize = 12;
 
 const PROJECT_INDICATORS: &[&str] = &[
     "Cargo.toml",
@@ -59,16 +66,6 @@ const IGNORE_DIRS: &[&str] = &[
     "vendor",
     "coverage",
     "tmp",
-];
-
-const CATEGORIES: &[&str] = &[
-    "Crypto/ZK",
-    "Compilers/PL",
-    "Runtimes/Systems",
-    "Web/App",
-    "Developer Tooling",
-    "Data/ML",
-    "Exploratory",
 ];
 
 #[derive(Debug, Clone)]
@@ -183,15 +180,89 @@ fn language_by_extension(ext: &str) -> Option<&'static str> {
 fn category_rules() -> Vec<(&'static str, Vec<&'static str>)> {
     vec![
         (
-            "Crypto/ZK",
+            "Zero-Knowledge Proofs",
             vec![
                 "zk",
                 "zero-knowledge",
                 "proof",
                 "snark",
+                "stark",
                 "mina",
                 "cryptography",
                 "signature",
+                "kimchi",
+                "o1js",
+                "arkworks",
+                "poly-commit",
+            ],
+        ),
+        (
+            "Distributed Systems",
+            vec![
+                "consensus",
+                "bft",
+                "p2p",
+                "distributed",
+                "raft",
+                "paxos",
+                "gossip",
+                "iroh",
+                "network",
+                "protocol",
+                "rpc",
+                "capnproto",
+            ],
+        ),
+        (
+            "Formal Methods",
+            vec![
+                "coq",
+                "fstar",
+                "lean",
+                "hol4",
+                "formal",
+                "verification",
+                "proof",
+                "cakeml",
+                "iris",
+                "logic",
+                "smt",
+                "formal-methods",
+                "separation-logic",
+                "itree",
+                "interaction-tree",
+            ],
+        ),
+        (
+            "Capability-Based Security",
+            vec![
+                "ocap",
+                "goblins",
+                "syrup",
+                "security",
+                "permission",
+                "capability",
+                "sandbox",
+                "ocapn",
+                "object-capability",
+            ],
+        ),
+        (
+            "Systems/Runtimes",
+            vec![
+                "runtime",
+                "kernel",
+                "scheduler",
+                "memory",
+                "ffi",
+                "concurrency",
+                "thread",
+                "v8",
+                "jit",
+                "syscall",
+                "dhttp",
+                "elide",
+                "graal",
             ],
         ),
         (
@@ -204,24 +275,77 @@ fn category_rules() -> Vec<(&'static str, Vec<&'static str>)> {
                 "interpreter",
                 "typechecker",
                 "language",
+                "codegen",
+                "llvm",
+                "cranelift",
+                "semantics",
+                "lambda",
+                "sheaf",
+                "ergolang",
+                "egglog",
+                "e-graph",
+                "equality-saturation",
             ],
         ),
         (
-            "Runtimes/Systems",
+            "Simulation/Games",
             vec![
-                "runtime",
-                "kernel",
-                "scheduler",
-                "memory",
-                "ffi",
-                "concurrency",
-                "thread",
+                "engine",
+                "game",
+                "voxel",
+                "physics",
+                "simulation",
+                "rendering",
+                "graphics",
+                "shader",
+                "worldgen",
+                "achron",
+                "veloren",
             ],
         ),
         (
-            "Web/App",
+            "Hardware/ISA",
             vec![
-                "http", "web", "frontend", "react", "next", "api", "server", "client",
+                "risc",
+                "isa",
+                "cpu",
+                "hdl",
+                "verilog",
+                "fpga",
+                "instruction",
+                "assembler",
+                "binary",
+                "absolute-ass",
+            ],
+        ),
+        (
+            "AI/Agents",
+            vec![
+                "model",
+                "training",
+                "inference",
+                "dataset",
+                "vector",
+                "embedding",
+                "llm",
+                "agent",
+                "mcp",
+                "contextos",
+            ],
+        ),
+        (
+            "Data/Databases",
+            vec![
+                "database",
+                "lsm",
+                "storage",
+                "index",
+                "query",
+                "sql",
+                "key-value",
+                "persistence",
+                "fjall",
+                "rocksdb",
             ],
         ),
         (
@@ -234,17 +358,15 @@ fn category_rules() -> Vec<(&'static str, Vec<&'static str>)> {
                 "build",
                 "automation",
                 "script",
+                "format",
+                "lint",
+                "smlfmt",
             ],
         ),
         (
-            "Data/ML",
+            "Web/App",
             vec![
-                "model",
-                "training",
-                "inference",
-                "dataset",
-                "vector",
-                "embedding",
+                "http", "web", "frontend", "react", "next", "api", "server", "client", "ui", "ux",
             ],
         ),
     ]
@@ -899,8 +1021,8 @@ fn gather_project_context(path: &Path) -> ProjectContext {
         });
     }
 
-    let top_languages = top_items(&language_counter, 6, 1);
-    let top_keywords = top_items(&keywords, 15, 2);
+    let top_languages = top_items(&language_counter, MAX_TOP_LANGUAGES, 1);
+    let top_keywords = top_items(&keywords, MAX_TOP_KEYWORDS, MIN_TOP_KEYWORD_COUNT);
 
     ProjectContext {
         file_count,
@@ -998,10 +1120,11 @@ fn fallback_summary(path: &Path, context: &ProjectContext) -> Value {
     json!({
         "name": path.file_name().and_then(|s| s.to_str()).unwrap_or("Unnamed"),
         "description": description,
-        "tags": dedup_strings(tags, 8),
+        "tags": dedup_strings(tags, MAX_SUMMARY_TAGS),
         "category": category,
-        "concepts": dedup_strings(context.top_keywords.clone(), 6),
-        "languages": dedup_strings(context.top_languages.clone(), 8),
+        "concepts": dedup_strings(context.top_keywords.clone(), MAX_SUMMARY_CONCEPTS),
+        "languages": dedup_strings(context.top_languages.clone(), MAX_SUMMARY_LANGUAGES),
+        "maturity": "exploratory",
     })
 }
 
@@ -1056,13 +1179,15 @@ fn build_prompt(path: &Path, context: &ProjectContext) -> String {
         "Schema:",
         "{",
         "  \"name\": \"string\",",
-        "  \"description\": \"one coherent paragraph, 2-4 sentences\",",
+        "  \"description\": \"one coherent paragraph, 2-4 sentences. Use technical, precise language suitable for a systems engineer.\",",
         "  \"tags\": [\"string\"],",
-        "  \"category\": \"one of: Crypto/ZK, Compilers/PL, Runtimes/Systems, Web/App, Developer Tooling, Data/ML, Exploratory\",",
+        "  \"category\": \"string. Derive the most specific and accurate technical domain from the evidence (e.g. 'Simplicial Homotopy Theory', 'Micro-architecture Emulation', 'CRDT Consensus'). Do NOT use generic labels like 'Math' or 'Software'.\",",
         "  \"concepts\": [\"string\"],",
-        "  \"languages\": [\"string\"]",
+        "  \"languages\": [\"string\"],",
+        "  \"maturity\": \"one of: exploratory, prototype, active, stable, archival\"",
         "}",
-        "Keep tags/concepts concrete and non-redundant (max 8 each).",
+        "You may define any category that fits best.",
+        "Keep tags concrete and non-redundant (max 16). Keep concepts concrete and non-redundant (target 16-40 when evidence supports it).",
     ]
     .join("\n");
 
@@ -1177,8 +1302,10 @@ fn sanitize_summary(path: &Path, raw: &Value, context: &ProjectContext) -> Value
         .and_then(|obj| obj.get("category"))
         .and_then(|v| v.as_str())
         .map(|s| s.trim().to_string())
+        .filter(|s| !s.is_empty())
         .unwrap_or_default();
-    if !CATEGORIES.contains(&category.as_str()) {
+
+    if category.is_empty() {
         category = infer_category(&format!(
             "{} {} {}",
             description,
@@ -1187,13 +1314,20 @@ fn sanitize_summary(path: &Path, raw: &Value, context: &ProjectContext) -> Value
         ));
     }
 
+    let maturity = raw_obj
+        .and_then(|obj| obj.get("maturity"))
+        .and_then(|v| v.as_str())
+        .map(|s| s.trim().to_string())
+        .unwrap_or_else(|| "exploratory".to_string());
+
     json!({
         "name": name,
         "description": description,
-        "tags": dedup_strings(tags, 8),
+        "tags": dedup_strings(tags, MAX_SUMMARY_TAGS),
         "category": category,
-        "concepts": dedup_strings(concepts, 8),
-        "languages": dedup_strings(languages, 8),
+        "concepts": dedup_strings(concepts, MAX_SUMMARY_CONCEPTS),
+        "languages": dedup_strings(languages, MAX_SUMMARY_LANGUAGES),
+        "maturity": maturity,
         "evidence": {
             "file_count": context.file_count,
             "has_readme": !context.readme.trim().is_empty(),
@@ -1215,6 +1349,7 @@ fn generate_summary(
 ) -> SummaryGeneration {
     let prompt = build_prompt(path, context);
     let output = Command::new(gemini_bin)
+        .current_dir(std::env::temp_dir())
         .arg("-p")
         .arg(&prompt)
         .arg("--output-format")
@@ -1658,6 +1793,10 @@ fn build_embedding_text(obj: &Map<String, Value>) -> String {
         .get("category")
         .and_then(|v| v.as_str())
         .unwrap_or("Exploratory");
+    let maturity = obj
+        .get("maturity")
+        .and_then(|v| v.as_str())
+        .unwrap_or("exploratory");
 
     let tags = string_array_from_object(obj, "tags");
     let concepts = string_array_from_object(obj, "concepts");
@@ -1666,6 +1805,7 @@ fn build_embedding_text(obj: &Map<String, Value>) -> String {
     let mut lines = vec![
         format!("Project: {name}"),
         format!("Category: {category}"),
+        format!("Maturity: {maturity}"),
         format!("Description: {description}"),
     ];
 
@@ -2228,7 +2368,7 @@ fn update_embeddings_and_motifs(
 
         let mined: Vec<String> = candidates
             .into_iter()
-            .take(6)
+            .take(MAX_MINED_MOTIFS)
             .map(|(term, _)| term)
             .collect();
         if mined.is_empty() {
@@ -2236,7 +2376,7 @@ fn update_embeddings_and_motifs(
         }
 
         let existing_concepts = string_array_from_object(&records[idx].data, "concepts");
-        let merged = merge_concepts(existing_concepts.clone(), &mined, 12);
+        let merged = merge_concepts(existing_concepts.clone(), &mined, MAX_SUMMARY_CONCEPTS);
 
         if merged != existing_concepts {
             let project_path = records[idx]

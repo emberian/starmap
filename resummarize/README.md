@@ -30,6 +30,49 @@ Or via compatibility shim:
 python ~/dev/starmap/resummarize.py --verbose
 ```
 
+## Post-Processing Tools
+
+Run these after a full summarization pass:
+- Shadow root auto-detection prefers `~/.summarize` or `~/.summarization` (whichever has data).
+- You can force a root with `--shadow-root ...` or `STARMAP_SHADOW_ROOT=...`.
+
+### 1) Repair weak summaries
+
+Uses Gemini to detect weak summaries and dispatch a deeper Gemini rewrite only for weak entries.
+
+```bash
+~/dev/starmap/resummarize-repair --verbose
+```
+
+Optional:
+
+```bash
+~/dev/starmap/resummarize-repair \
+  --shadow-root ~/.summarization \
+  --gemini-bin gemini \
+  --dry-run
+```
+
+### 2) Align concepts + build metaconstellations
+
+Uses Gemini to:
+- Align near-duplicate terms across `concepts`, `tags`, and `mined_motifs`.
+- Assign per-project `metaconstellations`.
+- Write `~/.summarization/metaconstellations.json` for serving/rendering.
+
+```bash
+~/dev/starmap/resummarize-align-concepts --verbose
+```
+
+Optional:
+
+```bash
+~/dev/starmap/resummarize-align-concepts \
+  --shadow-root ~/.summarization \
+  --gemini-bin gemini \
+  --dry-run
+```
+
 ## Embeddings
 See `QWEN_EMBEDDINGS.md` for setup and flags.
 
