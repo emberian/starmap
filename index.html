@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ember Constellation Atlas</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
+
+        :root {
+            --bg-void: #050b14;
+            --bg-haze: #0f2033;
+            --bg-nebula: #1b3448;
+            --text-main: #f3efe2;
+            --text-dim: #c2c8cc;
+            --accent-gold: #c5ae75;
+            --accent-ice: #87c1d9;
+            --accent-emerald: #72b8a5;
+            --line-base: rgba(140, 169, 188, 0.30);
+            --line-active: rgba(232, 211, 160, 0.95);
+            --panel-bg: rgba(10, 17, 27, 0.70);
+            --panel-border: rgba(197, 174, 117, 0.35);
+            --chip-bg: rgba(18, 30, 45, 0.82);
+            --chip-border: rgba(135, 193, 217, 0.55);
+            --project-star: #f0d8a4;
+            --concept-star: #7cb8aa;
+            --category-star: #91b7d6;
+        }
+
+        * { box-sizing: border-box; }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            background: radial-gradient(circle at 18% 22%, rgba(80, 124, 157, 0.22), transparent 42%),
+                        radial-gradient(circle at 81% 14%, rgba(145, 92, 54, 0.16), transparent 37%),
+                        radial-gradient(circle at 62% 76%, rgba(85, 130, 111, 0.18), transparent 48%),
+                        linear-gradient(165deg, var(--bg-void), var(--bg-haze) 45%, var(--bg-nebula));
+            color: var(--text-main);
+            font-family: 'Space Mono', ui-monospace, Menlo, monospace;
+        }
+
+        #app {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #starfield {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.65;
+        }
+
+        #graph {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+        }
+
+        #graph svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .hud {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+            right: 18px;
+            z-index: 5;
+            display: grid;
+            grid-template-columns: minmax(260px, 420px) minmax(200px, 1fr);
+            gap: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transform: translateY(-8px);
+            transition: opacity 500ms ease, transform 650ms ease;
+        }
+
+        .loaded .hud {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .panel {
+            pointer-events: auto;
+            border: 1px solid var(--panel-border);
+            border-radius: 14px;
+            background: var(--panel-bg);
+            backdrop-filter: blur(7px);
+            box-shadow: 0 14px 35px rgba(0, 0, 0, 0.32);
+        }
+
+        .title-panel {
+            padding: 14px 16px;
+        }
+
+        .title {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 0.06em;
+            margin: 0;
+            font-size: clamp(1.05rem, 1.5vw, 1.4rem);
+            text-transform: uppercase;
+            color: var(--accent-gold);
+        }
+
+        .subtitle {
+            margin: 6px 0 0;
+            color: var(--text-dim);
+            font-size: 0.82rem;
+            line-height: 1.4;
+        }
+
+        .meta {
+            margin-top: 10px;
+            font-size: 0.73rem;
+            color: #8ba1af;
+        }
+
+        .control-panel {
+            padding: 12px 14px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .control-panel input,
+        .control-panel select,
+        .control-panel button {
+            font: inherit;
+            border-radius: 9px;
+            border: 1px solid rgba(135, 193, 217, 0.35);
+            background: rgba(6, 12, 20, 0.82);
+            color: var(--text-main);
+            padding: 8px 10px;
+        }
+
+        .control-panel input {
+            min-width: 180px;
+            flex: 1 1 200px;
+        }
+
+        .control-panel button {
+            cursor: pointer;
+            transition: border-color 220ms ease, transform 220ms ease;
+        }
+
+        .control-panel button:hover {
+            border-color: var(--accent-gold);
+            transform: translateY(-1px);
+        }
+
+        .sync-status {
+            margin-left: auto;
+            font-size: 0.72rem;
+            color: #9db4c3;
+            letter-spacing: 0.02em;
+            white-space: nowrap;
+        }
+
+        .sync-status.ok {
+            color: #94d1bb;
+        }
+
+        .sync-status.warn {
+            color: #d9bd86;
+        }
+
+        .sync-status.err {
+            color: #d59a91;
+        }
+
+        .toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.76rem;
+            color: var(--text-dim);
+            padding: 0 4px;
+        }
+
+        .toggle input {
+            accent-color: var(--accent-emerald);
+            min-width: 0;
+        }
+
+        .chips {
+            position: absolute;
+            left: 18px;
+            right: 18px;
+            bottom: 18px;
+            z-index: 5;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 600ms ease;
+        }
+
+        .loaded .chips {
+            opacity: 1;
+        }
+
+        .chip {
+            pointer-events: auto;
+            padding: 7px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--chip-border);
+            background: var(--chip-bg);
+            font-size: 0.72rem;
+            color: #d6e4ef;
+            white-space: nowrap;
+            text-shadow: 0 0 8px rgba(160, 198, 220, 0.25);
+        }
+
+        .chip strong {
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .details {
+            position: absolute;
+            top: 108px;
+            right: 18px;
+            width: min(370px, calc(100vw - 36px));
+            max-height: calc(100vh - 190px);
+            z-index: 5;
+            overflow: auto;
+            padding: 14px 16px;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: opacity 550ms ease, transform 700ms ease;
+        }
+
+        .loaded .details {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .details h2,
+        .details h3 {
+            margin: 0;
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+
+        .details h2 {
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+        }
+
+        .details h3 {
+            font-size: 0.9rem;
+            margin-top: 10px;
+            color: #abcee1;
+        }
+
+        .details p {
+            margin: 9px 0;
+            line-height: 1.48;
+            color: #d4d7d8;
+            font-size: 0.82rem;
+        }
+
+        .details ul {
+            margin: 7px 0 0;
+            padding-left: 18px;
+            color: #c3cfd7;
+            font-size: 0.78rem;
+            line-height: 1.42;
+        }
+
+        .details .meta-line {
+            margin-top: 10px;
+            font-size: 0.72rem;
+            color: #8ba1af;
+            word-break: break-word;
+        }
+
+        .pill-row {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .pill {
+            font-size: 0.68rem;
+            padding: 4px 8px;
+            border-radius: 999px;
+            border: 1px solid rgba(135, 193, 217, 0.45);
+            color: #d4e6ef;
+            background: rgba(7, 18, 30, 0.9);
+        }
+
+        .tooltip {
+            position: absolute;
+            z-index: 10;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 180ms ease;
+            max-width: 280px;
+            padding: 8px 10px;
+            border-radius: 10px;
+            border: 1px solid rgba(197, 174, 117, 0.46);
+            background: rgba(8, 14, 24, 0.95);
+            color: #e3e4df;
+            font-size: 0.74rem;
+            line-height: 1.35;
+        }
+
+        .tooltip strong {
+            color: var(--accent-gold);
+            display: block;
+            margin-bottom: 4px;
+            font-size: 0.79rem;
+            font-family: 'Cinzel', serif;
+        }
+
+        .link {
+            stroke: var(--line-base);
+            stroke-width: 1.05;
+            stroke-linecap: round;
+        }
+
+        .node {
+            cursor: pointer;
+        }
+
+        .node.category {
+            fill: var(--category-star);
+        }
+
+        .node.project {
+            fill: var(--project-star);
+        }
+
+        .node.concept {
+            fill: var(--concept-star);
+        }
+
+        .label {
+            fill: #d8e6ef;
+            font-size: 10px;
+            text-shadow: 0 0 8px rgba(4, 9, 15, 0.95);
+            pointer-events: none;
+        }
+
+        .label.category {
+            font-family: 'Cinzel', serif;
+            font-size: 13px;
+            fill: #dfd1ab;
+            letter-spacing: 0.03em;
+        }
+
+        .empty {
+            position: absolute;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 12;
+            text-align: center;
+            font-size: 1rem;
+            color: #d4d1c3;
+            background: rgba(5, 11, 20, 0.72);
+            padding: 20px;
+        }
+
+        .empty.visible {
+            display: flex;
+        }
+
+        .toast-stack {
+            position: absolute;
+            right: 18px;
+            bottom: 118px;
+            z-index: 14;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            pointer-events: none;
+            width: min(360px, calc(100vw - 36px));
+        }
+
+        .toast {
+            pointer-events: none;
+            border-radius: 10px;
+            border: 1px solid rgba(135, 193, 217, 0.4);
+            background: rgba(8, 14, 24, 0.9);
+            color: #dce9f0;
+            padding: 8px 10px;
+            font-size: 0.74rem;
+            line-height: 1.35;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
+            opacity: 0;
+            transform: translateY(6px);
+            animation: toast-in 260ms ease forwards;
+        }
+
+        .toast.ok {
+            border-color: rgba(114, 184, 165, 0.75);
+        }
+
+        .toast.warn {
+            border-color: rgba(197, 174, 117, 0.75);
+        }
+
+        .toast.err {
+            border-color: rgba(186, 115, 104, 0.75);
+        }
+
+        @keyframes toast-in {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 980px) {
+            .hud {
+                grid-template-columns: 1fr;
+                right: 12px;
+                left: 12px;
+                top: 12px;
+            }
+
+            .details {
+                top: auto;
+                bottom: 74px;
+                right: 12px;
+                left: 12px;
+                width: auto;
+                max-height: 38vh;
+            }
+
+            .chips {
+                left: 12px;
+                right: 12px;
+                bottom: 10px;
+            }
+
+            .toast-stack {
+                right: 12px;
+                left: 12px;
+                width: auto;
+                bottom: 118px;
+            }
+
+            .title {
+                font-size: 1.02rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <canvas id="starfield"></canvas>
+        <div id="graph"></div>
+
+        <div class="hud">
+            <section class="panel title-panel">
+                <h1 class="title">Constellation Atlas of Interests</h1>
+                <p class="subtitle" id="summaryText">Sampling project intent from recursive summaries...</p>
+                <div class="meta" id="metaText">Awaiting telemetry.</div>
+            </section>
+
+            <section class="panel control-panel">
+                <input id="searchInput" type="search" placeholder="Search project or concept" autocomplete="off" />
+                <select id="categorySelect">
+                    <option value="all">All categories</option>
+                </select>
+                <label class="toggle">
+                    <input id="conceptToggle" type="checkbox" checked /> Concepts
+                </label>
+                <label class="toggle">
+                    <input id="liveToggle" type="checkbox" checked /> Live Sync
+                </label>
+                <button id="refreshBtn" type="button">Sync Now</button>
+                <button id="recenterBtn" type="button">Recenter</button>
+                <span class="sync-status" id="syncStatus">Sync idle</span>
+            </section>
+        </div>
+
+        <aside class="panel details" id="detailsPanel"></aside>
+
+        <div class="chips" id="chips"></div>
+        <div class="tooltip" id="tooltip"></div>
+        <div class="empty" id="emptyState"></div>
+        <div class="toast-stack" id="toastStack"></div>
+    </div>
+
+    <script>
+        const state = {
+            allProjects: [],
+            interests: null,
+            filteredProjects: [],
+            nodesById: new Map(),
+            neighbors: new Map(),
+            graphData: null,
+            simulation: null,
+            zoom: null,
+            svg: null,
+            g: null,
+            width: window.innerWidth,
+            height: window.innerHeight,
+            selectedId: null,
+            hoveredId: null,
+            searchTerm: "",
+            category: "all",
+            showConcepts: true,
+            liveSync: true,
+            syncIntervalMs: 12000,
+            syncTimer: null,
+            syncInFlight: false,
+            lastSnapshotKey: "",
+            lastGeneratedAt: null,
+            initialLoadDone: false,
+        };
+
+        const emptyState = document.getElementById("emptyState");
+        const summaryText = document.getElementById("summaryText");
+        const metaText = document.getElementById("metaText");
+        const chipsEl = document.getElementById("chips");
+        const detailsPanel = document.getElementById("detailsPanel");
+        const tooltip = document.getElementById("tooltip");
+        const searchInput = document.getElementById("searchInput");
+        const categorySelect = document.getElementById("categorySelect");
+        const conceptToggle = document.getElementById("conceptToggle");
+        const liveToggle = document.getElementById("liveToggle");
+        const refreshBtn = document.getElementById("refreshBtn");
+        const recenterBtn = document.getElementById("recenterBtn");
+        const syncStatus = document.getElementById("syncStatus");
+        const toastStack = document.getElementById("toastStack");
+
+        function deriveInterests(projects) {
+            const count = (arr) => {
+                const map = new Map();
+                arr.forEach((item) => {
+                    const key = String(item || "").trim();
+                    if (!key) return;
+                    map.set(key, (map.get(key) || 0) + 1);
+                });
+                return [...map.entries()].sort((a, b) => b[1] - a[1]);
+            };
+
+            return {
+                top_categories: count(projects.map((p) => p.category)).slice(0, 8).map(([name, count]) => ({ name, count })),
+                top_concepts: count(projects.flatMap((p) => p.concepts || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
+                top_tags: count(projects.flatMap((p) => p.tags || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
+                top_languages: count(projects.flatMap((p) => p.languages || [])).slice(0, 10).map(([name, count]) => ({ name, count })),
+            };
+        }
+
+        function normalizeProject(raw) {
+            return {
+                ...raw,
+                name: raw.name || "Unnamed",
+                description: raw.description || "No summary available yet.",
+                category: raw.category || "Exploratory",
+                concepts: Array.isArray(raw.concepts) ? raw.concepts : [],
+                tags: Array.isArray(raw.tags) ? raw.tags : [],
+                languages: Array.isArray(raw.languages) ? raw.languages : [],
+                display_path: raw.display_path || raw._path || "",
+            };
+        }
+
+        function normalizePayload(payload) {
+            if (Array.isArray(payload)) {
+                const projects = payload.map(normalizeProject);
+                return { projects, interests: deriveInterests(projects), generatedAt: null };
+            }
+
+            const projects = Array.isArray(payload.projects)
+                ? payload.projects.map(normalizeProject)
+                : [];
+            const interests = payload.interests || deriveInterests(projects);
+            return { projects, interests, generatedAt: payload.generated_at || null };
+        }
+
+        function projectKey(project) {
+            return project._path || `${project.name}::${project.display_path}`;
+        }
+
+        function projectSignature(project) {
+            return `${projectKey(project)}|${project._hash || ""}|${project._updated_at || ""}`;
+        }
+
+        function computeSnapshotKey(projects) {
+            return projects.map(projectSignature).sort().join("\n");
+        }
+
+        function computeProjectDiff(previousProjects, nextProjects) {
+            const prevMap = new Map(previousProjects.map((project) => [projectKey(project), project]));
+            const nextMap = new Map(nextProjects.map((project) => [projectKey(project), project]));
+
+            let added = 0;
+            let updated = 0;
+            let removed = 0;
+
+            nextMap.forEach((nextProject, key) => {
+                if (!prevMap.has(key)) {
+                    added += 1;
+                    return;
+                }
+
+                const prevProject = prevMap.get(key);
+                if ((prevProject?._hash || "") !== (nextProject?._hash || "")
+                    || (prevProject?._updated_at || "") !== (nextProject?._updated_at || "")) {
+                    updated += 1;
+                }
+            });
+
+            prevMap.forEach((_, key) => {
+                if (!nextMap.has(key)) {
+                    removed += 1;
+                }
+            });
+
+            return { added, updated, removed, total: added + updated + removed };
+        }
+
+        function setSyncStatus(text, tone = "ok") {
+            syncStatus.textContent = text;
+            syncStatus.classList.remove("ok", "warn", "err");
+            syncStatus.classList.add(tone);
+        }
+
+        function showToast(message, tone = "ok") {
+            const toast = document.createElement("div");
+            toast.className = `toast ${tone}`;
+            toast.textContent = message;
+            toastStack.prepend(toast);
+
+            while (toastStack.childElementCount > 4) {
+                toastStack.lastElementChild?.remove();
+            }
+
+            window.setTimeout(() => {
+                toast.style.opacity = "0";
+                toast.style.transform = "translateY(6px)";
+                window.setTimeout(() => toast.remove(), 200);
+            }, 3600);
+        }
+
+        async function fetchPayload() {
+            const response = await fetch("/api/data", { cache: "no-store" });
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+            return normalizePayload(await response.json());
+        }
+
+        function applyPayload(payload, { announce = false } = {}) {
+            const previousProjects = state.allProjects;
+            const diff = computeProjectDiff(previousProjects, payload.projects);
+
+            state.allProjects = payload.projects;
+            state.interests = payload.interests;
+            state.lastGeneratedAt = payload.generatedAt;
+            state.lastSnapshotKey = computeSnapshotKey(payload.projects);
+
+            renderHeader(payload.generatedAt);
+            renderChips();
+            buildCategoryOptions(state.allProjects);
+
+            if (!state.allProjects.length) {
+                setEmpty("No summaries found in ~/.summarization. Run `uv run python ~/bin/resummarize.py` first.", true);
+                detailsPanel.innerHTML = `<h2>Atlas Offline</h2><p>Once summaries exist, this map will cluster projects into constellations and motifs.</p>`;
+                if (state.simulation) {
+                    state.simulation.stop();
+                }
+                d3.select("#graph").selectAll("*").remove();
+                state.svg = null;
+                state.g = null;
+            } else {
+                setEmpty("", false);
+                if (!state.svg) {
+                    setupScene();
+                }
+                renderGraph();
+            }
+
+            if (announce && diff.total > 0) {
+                const parts = [];
+                if (diff.added) parts.push(`+${diff.added} new`);
+                if (diff.updated) parts.push(`${diff.updated} revised`);
+                if (diff.removed) parts.push(`${diff.removed} retired`);
+                showToast(`Atlas refresh: ${parts.join(", ")}`, "ok");
+            }
+        }
+
+        async function syncData({ manual = false, announce = false } = {}) {
+            if (state.syncInFlight) {
+                return;
+            }
+
+            state.syncInFlight = true;
+            setSyncStatus(manual ? "Syncing now..." : "Live syncing...", "warn");
+
+            try {
+                const payload = await fetchPayload();
+                const nextSnapshot = computeSnapshotKey(payload.projects);
+                const changed = nextSnapshot !== state.lastSnapshotKey;
+
+                if (!state.initialLoadDone || changed || manual) {
+                    applyPayload(payload, { announce });
+                }
+
+                if (manual && state.initialLoadDone && !changed) {
+                    showToast("No new stars yet.", "warn");
+                }
+
+                state.initialLoadDone = true;
+                setSyncStatus(state.liveSync ? "Live sync online" : "Live sync paused", "ok");
+            } catch (error) {
+                console.error(error);
+                if (!state.initialLoadDone) {
+                    setEmpty("Unable to reach /api/data. Start the server with `uv run python dev/starmap/serve.py`.", true);
+                    detailsPanel.innerHTML = `<h2>Sensor Fault</h2><p>${escapeHtml(String(error))}</p>`;
+                    summaryText.textContent = "Telemetry link failed.";
+                    metaText.textContent = "Check starmap server process.";
+                } else {
+                    showToast("Sync failed. Retrying on next pulse.", "err");
+                }
+                setSyncStatus("Sync fault", "err");
+            } finally {
+                state.syncInFlight = false;
+            }
+        }
+
+        function buildCategoryOptions(projects) {
+            const categories = [...new Set(projects.map((p) => p.category).filter(Boolean))].sort();
+            categorySelect.innerHTML = `<option value="all">All categories</option>${categories
+                .map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`)
+                .join("")}`;
+            if (!categories.includes(state.category)) state.category = "all";
+            categorySelect.value = state.category;
+        }
+
+        function escapeHtml(value) {
+            return String(value)
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("'", "&#039;");
+        }
+
+        function currentProjects() {
+            const search = state.searchTerm.trim().toLowerCase();
+            return state.allProjects.filter((project) => {
+                if (state.category !== "all" && project.category !== state.category) {
+                    return false;
+                }
+
+                if (!search) {
+                    return true;
+                }
+
+                const haystack = [
+                    project.name,
+                    project.description,
+                    project.category,
+                    ...(project.concepts || []),
+                    ...(project.tags || []),
+                ]
+                    .join(" ")
+                    .toLowerCase();
+                return haystack.includes(search);
+            });
+        }
+
+        function buildGraphData(projects, showConcepts) {
+            const nodes = [];
+            const links = [];
+
+            const categoryMap = new Map();
+            const conceptCounter = new Map();
+
+            projects.forEach((project) => {
+                const category = project.category || "Exploratory";
+                if (!categoryMap.has(category)) {
+                    categoryMap.set(category, {
+                        id: `category:${category}`,
+                        label: category,
+                        type: "category",
+                        r: 16,
+                        category,
+                    });
+                }
+
+                const mergedConcepts = [...new Set([...(project.concepts || []), ...(project.tags || [])])]
+                    .map((x) => String(x || "").trim())
+                    .filter(Boolean)
+                    .slice(0, 8);
+
+                mergedConcepts.forEach((concept) => {
+                    conceptCounter.set(concept, (conceptCounter.get(concept) || 0) + 1);
+                });
+            });
+
+            const conceptWhitelist = [...conceptCounter.entries()]
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 45)
+                .map(([name]) => name);
+            const conceptSet = new Set(conceptWhitelist);
+
+            categoryMap.forEach((node) => nodes.push(node));
+
+            projects.forEach((project) => {
+                const projectId = `project:${project.name}:${project.display_path}`;
+                nodes.push({
+                    id: projectId,
+                    label: project.name,
+                    type: "project",
+                    project,
+                    category: project.category,
+                    r: 5 + Math.min(7, (project.concepts.length + project.tags.length) * 0.35),
+                });
+
+                links.push({
+                    source: projectId,
+                    target: `category:${project.category || "Exploratory"}`,
+                    type: "belongs",
+                });
+
+                if (showConcepts) {
+                    const concepts = [...new Set([...(project.concepts || []), ...(project.tags || [])])]
+                        .filter((concept) => conceptSet.has(concept))
+                        .slice(0, 7);
+
+                    concepts.forEach((concept) => {
+                        const conceptId = `concept:${concept}`;
+                        if (!nodes.some((n) => n.id === conceptId)) {
+                            nodes.push({
+                                id: conceptId,
+                                label: concept,
+                                type: "concept",
+                                concept,
+                                r: 3 + Math.min(5, Math.sqrt(conceptCounter.get(concept) || 1)),
+                                count: conceptCounter.get(concept) || 1,
+                            });
+                        }
+
+                        links.push({
+                            source: projectId,
+                            target: conceptId,
+                            type: "motif",
+                        });
+                    });
+                }
+            });
+
+            const deduped = [];
+            const seen = new Set();
+            nodes.forEach((node) => {
+                if (!seen.has(node.id)) {
+                    seen.add(node.id);
+                    deduped.push(node);
+                }
+            });
+
+            return { nodes: deduped, links };
+        }
+
+        function setupScene() {
+            const graph = d3.select("#graph");
+            graph.selectAll("*").remove();
+
+            state.width = window.innerWidth;
+            state.height = window.innerHeight;
+
+            state.svg = graph.append("svg")
+                .attr("viewBox", `0 0 ${state.width} ${state.height}`)
+                .attr("preserveAspectRatio", "xMidYMid slice");
+
+            const defs = state.svg.append("defs");
+
+            const glow = defs.append("filter")
+                .attr("id", "star-glow")
+                .attr("x", "-50%")
+                .attr("y", "-50%")
+                .attr("width", "200%")
+                .attr("height", "200%");
+            glow.append("feGaussianBlur").attr("stdDeviation", "2.8").attr("result", "blur");
+            glow.append("feMerge").selectAll("feMergeNode")
+                .data(["blur", "SourceGraphic"])
+                .join("feMergeNode")
+                .attr("in", (d) => d);
+
+            const linkGradient = defs.append("linearGradient")
+                .attr("id", "link-gradient")
+                .attr("x1", "0%")
+                .attr("y1", "0%")
+                .attr("x2", "100%")
+                .attr("y2", "100%");
+            linkGradient.append("stop").attr("offset", "0%").attr("stop-color", "rgba(126, 168, 196, 0.35)");
+            linkGradient.append("stop").attr("offset", "100%").attr("stop-color", "rgba(217, 196, 145, 0.15)");
+
+            state.g = state.svg.append("g");
+            state.g.append("g").attr("class", "link-layer");
+            state.g.append("g").attr("class", "node-layer");
+            state.g.append("g").attr("class", "label-layer");
+
+            state.zoom = d3.zoom()
+                .scaleExtent([0.35, 4.2])
+                .on("zoom", (event) => {
+                    state.g.attr("transform", event.transform);
+                });
+
+            state.svg.call(state.zoom);
+            recenter();
+        }
+
+        function recenter() {
+            if (!state.svg || !state.zoom) return;
+            const transform = d3.zoomIdentity.translate(state.width * 0.5, state.height * 0.5).scale(0.86).translate(-state.width * 0.5, -state.height * 0.5);
+            state.svg.transition().duration(650).call(state.zoom.transform, transform);
+        }
+
+        function renderGraph() {
+            if (!state.allProjects.length) {
+                return;
+            }
+
+            if (!state.svg) {
+                setupScene();
+            }
+
+            if (state.simulation) {
+                state.simulation.stop();
+            }
+
+            state.filteredProjects = currentProjects();
+            const graphData = buildGraphData(state.filteredProjects, state.showConcepts);
+            state.graphData = graphData;
+
+            state.nodesById = new Map(graphData.nodes.map((n) => [n.id, n]));
+            state.neighbors = new Map();
+            graphData.links.forEach((link) => {
+                const source = typeof link.source === "string" ? link.source : link.source.id;
+                const target = typeof link.target === "string" ? link.target : link.target.id;
+                if (!state.neighbors.has(source)) state.neighbors.set(source, new Set([source]));
+                if (!state.neighbors.has(target)) state.neighbors.set(target, new Set([target]));
+                state.neighbors.get(source).add(target);
+                state.neighbors.get(target).add(source);
+            });
+
+            const categoryNodes = graphData.nodes.filter((n) => n.type === "category");
+            const radius = Math.min(state.width, state.height) * 0.29;
+            categoryNodes.forEach((node, index) => {
+                const angle = (index / Math.max(1, categoryNodes.length)) * Math.PI * 2 - Math.PI / 2;
+                node.fx = state.width / 2 + Math.cos(angle) * radius;
+                node.fy = state.height / 2 + Math.sin(angle) * radius;
+            });
+
+            const linkLayer = state.g.select(".link-layer");
+            const nodeLayer = state.g.select(".node-layer");
+            const labelLayer = state.g.select(".label-layer");
+
+            const links = linkLayer.selectAll("line")
+                .data(graphData.links, (d) => `${d.source.id || d.source}->${d.target.id || d.target}`)
+                .join("line")
+                .attr("class", "link")
+                .attr("stroke", "url(#link-gradient)")
+                .attr("stroke-width", (d) => d.type === "belongs" ? 1.5 : 1.0)
+                .attr("stroke-opacity", (d) => d.type === "belongs" ? 0.45 : 0.26);
+
+            const nodes = nodeLayer.selectAll("circle")
+                .data(graphData.nodes, (d) => d.id)
+                .join("circle")
+                .attr("class", (d) => `node ${d.type}`)
+                .attr("r", (d) => d.r)
+                .attr("stroke", (d) => d.type === "project" ? "rgba(250, 231, 186, 0.65)" : "rgba(146, 191, 214, 0.35)")
+                .attr("stroke-width", (d) => d.type === "project" ? 1.1 : 0.8)
+                .attr("filter", "url(#star-glow)")
+                .call(d3.drag()
+                    .on("start", (event, d) => {
+                        if (!event.active) state.simulation.alphaTarget(0.24).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on("drag", (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on("end", (event, d) => {
+                        if (!event.active) state.simulation.alphaTarget(0);
+                        if (d.type !== "category") {
+                            d.fx = null;
+                            d.fy = null;
+                        }
+                    })
+                );
+
+            const labels = labelLayer.selectAll("text")
+                .data(graphData.nodes.filter((d) => d.type === "category" || (d.type === "project" && d.r >= 7.5) || (d.type === "concept" && (d.count || 0) >= 3)), (d) => d.id)
+                .join("text")
+                .attr("class", (d) => `label ${d.type}`)
+                .text((d) => d.label);
+
+            const onHover = (event, d) => {
+                state.hoveredId = d.id;
+                applyHighlight(d.id);
+                showTooltip(event, d);
+            };
+
+            const onMove = (event) => {
+                tooltip.style.left = `${event.pageX + 14}px`;
+                tooltip.style.top = `${event.pageY - 14}px`;
+            };
+
+            const onOut = () => {
+                state.hoveredId = null;
+                hideTooltip();
+                applyHighlight(state.selectedId);
+            };
+
+            nodes.on("mouseover", onHover)
+                .on("mousemove", onMove)
+                .on("mouseout", onOut)
+                .on("click", (_, d) => {
+                    state.selectedId = d.id;
+                    applyHighlight(d.id);
+                    renderDetails(d);
+                });
+
+            labels.on("mouseover", onHover)
+                .on("mousemove", onMove)
+                .on("mouseout", onOut)
+                .on("click", (_, d) => {
+                    state.selectedId = d.id;
+                    applyHighlight(d.id);
+                    renderDetails(d);
+                });
+
+            state.simulation = d3.forceSimulation(graphData.nodes)
+                .force("link", d3.forceLink(graphData.links).id((d) => d.id).distance((d) => d.type === "belongs" ? 102 : 132).strength((d) => d.type === "belongs" ? 0.8 : 0.16))
+                .force("charge", d3.forceManyBody().strength((d) => d.type === "category" ? -560 : d.type === "project" ? -180 : -100))
+                .force("center", d3.forceCenter(state.width / 2, state.height / 2))
+                .force("collide", d3.forceCollide().radius((d) => d.r + (d.type === "category" ? 22 : 7)).iterations(2))
+                .force("project-orbit", d3.forceRadial((d) => d.type === "project" ? Math.min(state.width, state.height) * 0.19 : Math.min(state.width, state.height) * 0.32, state.width / 2, state.height / 2).strength((d) => d.type === "project" ? 0.07 : 0.02))
+                .on("tick", () => {
+                    links
+                        .attr("x1", (d) => d.source.x)
+                        .attr("y1", (d) => d.source.y)
+                        .attr("x2", (d) => d.target.x)
+                        .attr("y2", (d) => d.target.y);
+
+                    nodes
+                        .attr("cx", (d) => d.x)
+                        .attr("cy", (d) => d.y);
+
+                    labels
+                        .attr("x", (d) => d.x + d.r + 4)
+                        .attr("y", (d) => d.y + 3);
+                });
+
+            if (state.selectedId && !state.nodesById.has(state.selectedId)) {
+                state.selectedId = null;
+            }
+
+            applyHighlight(state.selectedId);
+            renderOverview();
+        }
+
+        function applyHighlight(centerId) {
+            const links = state.g.select(".link-layer").selectAll("line");
+            const nodes = state.g.select(".node-layer").selectAll("circle");
+            const labels = state.g.select(".label-layer").selectAll("text");
+
+            if (!centerId || !state.neighbors.has(centerId)) {
+                links.attr("stroke-opacity", (d) => d.type === "belongs" ? 0.45 : 0.26)
+                    .attr("stroke", "url(#link-gradient)")
+                    .attr("stroke-width", (d) => d.type === "belongs" ? 1.5 : 1.0);
+                nodes.attr("opacity", 1).attr("stroke-width", (d) => d.type === "project" ? 1.1 : 0.8);
+                labels.attr("opacity", 0.9);
+                return;
+            }
+
+            const active = state.neighbors.get(centerId);
+
+            links
+                .attr("stroke", (d) => {
+                    const source = d.source.id || d.source;
+                    const target = d.target.id || d.target;
+                    return active.has(source) && active.has(target) ? "var(--line-active)" : "rgba(110, 132, 148, 0.18)";
+                })
+                .attr("stroke-width", (d) => {
+                    const source = d.source.id || d.source;
+                    const target = d.target.id || d.target;
+                    return active.has(source) && active.has(target) ? 2.1 : 0.7;
+                })
+                .attr("stroke-opacity", (d) => {
+                    const source = d.source.id || d.source;
+                    const target = d.target.id || d.target;
+                    return active.has(source) && active.has(target) ? 0.92 : 0.15;
+                });
+
+            nodes
+                .attr("opacity", (d) => active.has(d.id) ? 1 : 0.2)
+                .attr("stroke-width", (d) => d.id === centerId ? 2.4 : (d.type === "project" ? 1.1 : 0.9));
+
+            labels
+                .attr("opacity", (d) => active.has(d.id) || d.id === centerId ? 1 : 0.15);
+        }
+
+        function showTooltip(event, node) {
+            let body = "";
+            if (node.type === "project") {
+                body = `<strong>${escapeHtml(node.project.name)}</strong>${escapeHtml(node.project.category)}<br>${escapeHtml(node.project.display_path || "")}`;
+            } else if (node.type === "category") {
+                const count = state.filteredProjects.filter((p) => p.category === node.category).length;
+                body = `<strong>${escapeHtml(node.label)}</strong>${count} projects in this constellation`;
+            } else {
+                body = `<strong>${escapeHtml(node.label)}</strong>Shared motif across ${(node.count || 0)} projects`;
+            }
+
+            tooltip.innerHTML = body;
+            tooltip.style.opacity = "1";
+            tooltip.style.left = `${event.pageX + 14}px`;
+            tooltip.style.top = `${event.pageY - 14}px`;
+        }
+
+        function hideTooltip() {
+            tooltip.style.opacity = "0";
+        }
+
+        function projectListByCategory(category) {
+            return state.filteredProjects.filter((p) => p.category === category).slice(0, 10);
+        }
+
+        function projectListByConcept(concept) {
+            return state.filteredProjects
+                .filter((p) => [...(p.concepts || []), ...(p.tags || [])].includes(concept))
+                .slice(0, 10);
+        }
+
+        function renderOverview() {
+            if (state.selectedId) {
+                const node = state.nodesById.get(state.selectedId);
+                if (node) {
+                    renderDetails(node);
+                    return;
+                }
+            }
+
+            const topCats = (state.interests?.top_categories || []).slice(0, 4);
+            const topConcepts = (state.interests?.top_concepts || []).slice(0, 6);
+            const topLangs = (state.interests?.top_languages || []).slice(0, 5);
+
+            const catLine = topCats.map((c) => `${escapeHtml(c.name)} (${c.count})`).join(" • ") || "No categories yet";
+            const concepts = topConcepts.map((c) => `<span class="pill">${escapeHtml(c.name)} · ${c.count}</span>`).join("");
+            const langs = topLangs.map((l) => `<span class="pill">${escapeHtml(l.name)} · ${l.count}</span>`).join("");
+
+            detailsPanel.innerHTML = `
+                <h2>Interest Profile</h2>
+                <p>The atlas currently maps <strong>${state.filteredProjects.length}</strong> visible projects across constellations. Select a star to inspect its narrative and connective motifs.</p>
+                <h3>Dominant Constellations</h3>
+                <p>${catLine}</p>
+                <h3>Recurring Concepts</h3>
+                <div class="pill-row">${concepts || '<span class="pill">No concepts detected</span>'}</div>
+                <h3>Language Weight</h3>
+                <div class="pill-row">${langs || '<span class="pill">No language signals</span>'}</div>
+                <p class="meta-line">Tip: search, filter category, or toggle concept nodes for different strategic views.</p>
+            `;
+        }
+
+        function renderDetails(node) {
+            if (node.type === "project") {
+                const p = node.project;
+                const conceptPills = [...new Set([...(p.concepts || []), ...(p.tags || [])])]
+                    .slice(0, 12)
+                    .map((c) => `<span class="pill">${escapeHtml(c)}</span>`)
+                    .join("");
+
+                const langPills = (p.languages || [])
+                    .slice(0, 8)
+                    .map((l) => `<span class="pill">${escapeHtml(l)}</span>`)
+                    .join("");
+
+                detailsPanel.innerHTML = `
+                    <h2>${escapeHtml(p.name)}</h2>
+                    <p>${escapeHtml(p.description)}</p>
+                    <h3>${escapeHtml(p.category)}</h3>
+                    <div class="pill-row">${langPills || '<span class="pill">Language unknown</span>'}</div>
+                    <h3>Motifs</h3>
+                    <div class="pill-row">${conceptPills || '<span class="pill">No motifs extracted</span>'}</div>
+                    <p class="meta-line">${escapeHtml(p.display_path || p._path || '')}</p>
+                `;
+                return;
+            }
+
+            if (node.type === "category") {
+                const projects = projectListByCategory(node.category);
+                detailsPanel.innerHTML = `
+                    <h2>${escapeHtml(node.label)}</h2>
+                    <p>${projects.length} mapped projects currently belong to this constellation.</p>
+                    <h3>Projects</h3>
+                    <ul>${projects.map((p) => `<li>${escapeHtml(p.name)}</li>`).join("") || "<li>No projects</li>"}</ul>
+                `;
+                return;
+            }
+
+            const projects = projectListByConcept(node.concept || node.label);
+            detailsPanel.innerHTML = `
+                <h2>${escapeHtml(node.label)}</h2>
+                <p>This motif links ${node.count || 0} projects in the visible map.</p>
+                <h3>Linked Projects</h3>
+                <ul>${projects.map((p) => `<li>${escapeHtml(p.name)} <span style="color:#9ab0c1">(${escapeHtml(p.category)})</span></li>`).join("") || "<li>No linked projects</li>"}</ul>
+            `;
+        }
+
+        function renderChips() {
+            const topCats = (state.interests?.top_categories || []).slice(0, 5);
+            const topConcepts = (state.interests?.top_concepts || []).slice(0, 7);
+
+            const chips = [];
+            topCats.forEach((cat) => {
+                chips.push(`<span class="chip"><strong>${escapeHtml(cat.name)}</strong> ${cat.count}</span>`);
+            });
+            topConcepts.forEach((concept) => {
+                chips.push(`<span class="chip">${escapeHtml(concept.name)} ${concept.count}</span>`);
+            });
+
+            chipsEl.innerHTML = chips.join("");
+        }
+
+        function renderHeader(generatedAt) {
+            const topCats = (state.interests?.top_categories || []).slice(0, 3).map((c) => c.name);
+            if (!state.allProjects.length) {
+                summaryText.textContent = "No summaries found yet. Run resummarization to seed the sky.";
+                metaText.textContent = "Expected source: ~/.summarization";
+                return;
+            }
+
+            summaryText.textContent = topCats.length
+                ? `Strongest constellations: ${topCats.join(', ')}.`
+                : "The map is live; constellation categories are still converging.";
+
+            const dateText = generatedAt ? new Date(generatedAt).toLocaleString() : "unknown";
+            metaText.textContent = `${state.allProjects.length} projects sampled • Updated ${dateText}`;
+        }
+
+        function setEmpty(message, visible) {
+            emptyState.textContent = message;
+            emptyState.classList.toggle("visible", visible);
+        }
+
+        function setupEvents() {
+            searchInput.addEventListener("input", () => {
+                state.searchTerm = searchInput.value;
+                renderGraph();
+            });
+
+            categorySelect.addEventListener("change", () => {
+                state.category = categorySelect.value;
+                renderGraph();
+            });
+
+            conceptToggle.addEventListener("change", () => {
+                state.showConcepts = conceptToggle.checked;
+                renderGraph();
+            });
+
+            liveToggle.addEventListener("change", () => {
+                state.liveSync = liveToggle.checked;
+                setSyncStatus(state.liveSync ? "Live sync online" : "Live sync paused", state.liveSync ? "ok" : "warn");
+                if (state.liveSync) {
+                    syncData({ manual: false, announce: true });
+                }
+            });
+
+            refreshBtn.addEventListener("click", () => {
+                syncData({ manual: true, announce: true });
+            });
+
+            recenterBtn.addEventListener("click", recenter);
+
+            window.addEventListener("resize", () => {
+                state.width = window.innerWidth;
+                state.height = window.innerHeight;
+                setupStarfield();
+                if (state.allProjects.length) {
+                    setupScene();
+                    renderGraph();
+                }
+            });
+
+            document.addEventListener("visibilitychange", () => {
+                if (!document.hidden && state.liveSync) {
+                    syncData({ manual: false, announce: true });
+                }
+            });
+        }
+
+        function startLiveSyncLoop() {
+            if (state.syncTimer) {
+                window.clearInterval(state.syncTimer);
+            }
+
+            state.syncTimer = window.setInterval(() => {
+                if (!state.liveSync || document.hidden) {
+                    return;
+                }
+                syncData({ manual: false, announce: true });
+            }, state.syncIntervalMs);
+        }
+
+        let stars = [];
+        let starCtx = null;
+        function setupStarfield() {
+            const canvas = document.getElementById("starfield");
+            const ratio = window.devicePixelRatio || 1;
+            canvas.width = Math.floor(window.innerWidth * ratio);
+            canvas.height = Math.floor(window.innerHeight * ratio);
+            canvas.style.width = `${window.innerWidth}px`;
+            canvas.style.height = `${window.innerHeight}px`;
+
+            starCtx = canvas.getContext("2d");
+            starCtx.setTransform(ratio, 0, 0, ratio, 0, 0);
+
+            const count = Math.max(120, Math.floor((window.innerWidth * window.innerHeight) / 9000));
+            stars = Array.from({ length: count }, () => ({
+                x: Math.random() * window.innerWidth,
+                y: Math.random() * window.innerHeight,
+                r: 0.4 + Math.random() * 1.4,
+                b: 0.25 + Math.random() * 0.7,
+                drift: 0.002 + Math.random() * 0.008,
+            }));
+        }
+
+        function animateStarfield(t = 0) {
+            if (!starCtx) {
+                requestAnimationFrame(animateStarfield);
+                return;
+            }
+
+            starCtx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+            stars.forEach((star, i) => {
+                const pulse = 0.55 + 0.45 * Math.sin(t * star.drift + i);
+                starCtx.beginPath();
+                starCtx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
+                starCtx.fillStyle = `rgba(214, 229, 240, ${star.b * pulse})`;
+                starCtx.fill();
+            });
+
+            requestAnimationFrame(animateStarfield);
+        }
+
+        async function init() {
+            setupStarfield();
+            animateStarfield();
+            setupEvents();
+            liveToggle.checked = state.liveSync;
+            startLiveSyncLoop();
+            await syncData({ manual: true, announce: false });
+            document.body.classList.add("loaded");
+        }
+
+        init();
+    </script>
+</body>
+</html>
