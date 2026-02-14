@@ -1,0 +1,232 @@
+{
+  "name": "starmap",
+  "description": "A sophisticated repository indexing pipeline that leverages LLMs and high-dimensional embeddings to generate semantic summaries and discover conceptual alignments across heterogeneous codebases. It automates technical metadata extraction, authorship attribution via git history, and term clustering to build 'metaconstellations' of related projects. The system integrates a Rust-based extraction core with Python post-processing and local embedding infrastructure via vLLM or TEI.",
+  "tags": [
+    "repository-indexing",
+    "llm-summarization",
+    "embeddings",
+    "vector-search",
+    "rust",
+    "python",
+    "gemini-api",
+    "qwen",
+    "vllm",
+    "tei",
+    "git-analysis",
+    "semantic-search",
+    "knowledge-graph",
+    "concept-alignment"
+  ],
+  "category": "Semantic Code Intelligence & Indexing",
+  "concepts": [
+    "Repository Indexing",
+    "LLM-driven Summarization",
+    "Vector Embeddings",
+    "Concept Alignment",
+    "Metaconstellations",
+    "Git Authorship Attribution",
+    "Shadow Root Data Stores",
+    "Local Inference Stacks",
+    "Cosine Similarity",
+    "Motif Mining",
+    "Project Inventory Generation",
+    "Codebase Analysis",
+    "Semantic Term Clustering",
+    "Technology Fingerprinting",
+    "Project Attribution Partitioning"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": false,
+    "sample_files": [
+      "resummarize/src/main.rs",
+      "resummarize-align-concepts.py",
+      "resummarize-repair.py",
+      "serve.py",
+      "starmap_lib.py"
+    ]
+  },
+  "_hash": "e25ea20289f07611e639d0bc09ca2d9692bb1b3dfe2fab099b5d0b080de38218",
+  "_path": "/Users/ember/dev/starmap",
+  "_updated_at": "2026-02-14T00:56:30.632116Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8821cc633875e35fe51c41dccf28dad053bb72012dfe067d03245f456765f038",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:54.787252+00:00"
+  },
+  "mined_motifs": [
+    "mcp",
+    "lsp",
+    "parser",
+    "tree-sitter",
+    "Foreign Function Interface (FFI)",
+    "bindings",
+    "ffi",
+    "systems-programming",
+    "Asynchronous Event Handling",
+    "Automated Code Refactoring",
+    "Code Navigation",
+    "CodeLens Execution"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.754
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.734
+    },
+    {
+      "name": "cline",
+      "path": "/Users/ember/dev/cline",
+      "similarity": 0.732
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.731
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.73
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.728
+    },
+    {
+      "name": "git2-rs",
+      "path": "/Users/ember/dev/gh/forks/git2-rs",
+      "similarity": 0.727
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.725
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Repository Indexing",
+      "LLM-driven Summarization",
+      "Vector Embeddings",
+      "Concept Alignment",
+      "Metaconstellations",
+      "Git Authorship Attribution",
+      "Shadow Root Data Stores",
+      "Local Inference Stacks",
+      "Cosine Similarity",
+      "Motif Mining",
+      "Project Inventory Generation",
+      "Codebase Analysis",
+      "Semantic Term Clustering",
+      "Technology Fingerprinting",
+      "Project Attribution Partitioning"
+    ],
+    "tags": [
+      "repository-indexing",
+      "llm-summarization",
+      "embeddings",
+      "vector-search",
+      "Rust Language Ecosystem",
+      "python",
+      "gemini-api",
+      "qwen",
+      "vllm",
+      "tei",
+      "git-analysis",
+      "semantic-search",
+      "knowledge-graph",
+      "concept-alignment"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "lsp",
+      "parser",
+      "tree-sitter",
+      "foreign-function-interface",
+      "Foreign Function Interface",
+      "Systems Programming",
+      "Asynchronous Event Handling",
+      "Automated Code Refactoring",
+      "Code Navigation",
+      "CodeLens Execution"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 10.709,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.505,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.202,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.101,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.085,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.08,
+        "matches": [
+          "knowledge-graph"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.632116Z"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "name": "blackwing",
+  "description": "A multi-paradigm game engine and framework designed for narrative, RPG, strategy, and action games with a heavy emphasis on scriptable content. It features a robust ECS architecture, a Rhai-based scripting system for game logic, and a comprehensive content management system using self-contained game bundles. The project includes specialized modules for grid-based strategy, turn-based RPG mechanics, and real-time Zelda-style action physics.",
+  "tags": [
+    "game-engine",
+    "ecs",
+    "rhai-scripting",
+    "wasm",
+    "rpg-framework",
+    "strategy-game",
+    "action-game",
+    "rust",
+    "typescript",
+    "tauri",
+    "leptos",
+    "narrative-engine",
+    "tilemap",
+    "collision-detection",
+    "pathfinding",
+    "lsp"
+  ],
+  "category": "Multi-Paradigm Game Engine Framework",
+  "concepts": [
+    "Entity Component System (ECS)",
+    "Scriptable Game Systems",
+    "Rhai Scripting Integration",
+    "Deterministic RNG",
+    "Narrative Dialogue Trees",
+    "Grid-based Pathfinding",
+    "Turn-based Battle Mechanics",
+    "AABB Collision Detection",
+    "Real-time Physics Integration",
+    "Content Bundle Serialization",
+    "WASM-based Game Runtime",
+    "Language Server Protocol (LSP) for Game Scripts",
+    "Static Analysis for Narrative Flows",
+    "Symbolic Execution for Game State",
+    "Reactive UI Components",
+    "Multi-platform Deployment (Web/Desktop)"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "JavaScript",
+    "Rhai",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1146,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "package.json",
+      "crates/blackwing-action/src/lib.rs",
+      "crates/blackwing-bundle/src/content/mod.rs",
+      "crates/blackwing-bundle/src/lib.rs"
+    ]
+  },
+  "_hash": "1305141da01ed3abfcd721cc1e002dff9cfb058e34e963b14c194d0f0f5bc3a1",
+  "_path": "/Users/ember/dev/bw-exp0",
+  "_updated_at": "2026-02-14T00:56:23.628134Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Entity Component System (ECS)",
+      "Scriptable Game Systems",
+      "Rhai Scripting Integration",
+      "Deterministic RNG",
+      "Narrative Dialogue Trees",
+      "Grid-based Pathfinding",
+      "Turn-based Battle Mechanics",
+      "AABB Collision Detection",
+      "Real-time Physics Integration",
+      "Content Bundle Serialization",
+      "WASM-based Game Runtime",
+      "Language Server Protocol (LSP) for Game Scripts",
+      "Static Analysis for Narrative Flows",
+      "Symbolic Execution for Game State",
+      "Reactive UI Components",
+      "Multi-platform Deployment (Web/Desktop)"
+    ],
+    "tags": [
+      "game-engine",
+      "ecs",
+      "rhai-scripting",
+      "WebAssembly",
+      "rpg-framework",
+      "strategy-game",
+      "action-game",
+      "Rust Language Ecosystem",
+      "typescript",
+      "tauri",
+      "leptos",
+      "narrative-engine",
+      "tilemap",
+      "collision-detection",
+      "pathfinding",
+      "lsp"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "state-management",
+      "game-engine",
+      "WebAssembly",
+      "axum",
+      "sqlite",
+      "Hot Reloading",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "cpp",
+      "westwood-studios"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 8.286,
+        "matches": [
+          "game-engine",
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.798,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.475,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.473,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.464,
+        "matches": [
+          "ecs"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.394,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.628134Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "69794ddc0e47df954eeb1407f73b807df66b9e7ccd63a122f71db80e0db4fc0a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:42.751069+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "state-management",
+    "game-development",
+    "WebAssembly",
+    "axum",
+    "sqlite",
+    "Hot Reloading",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "cpp",
+    "westwood-studios"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.838
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.833
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.815
+    },
+    {
+      "name": "Blackwing",
+      "path": "/Users/ember/dev/bw-exp1",
+      "similarity": 0.815
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.814
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.814
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.813
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/multiway-tug",
+      "similarity": 0.813
+    }
+  ]
+}

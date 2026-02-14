@@ -1,0 +1,238 @@
+{
+  "name": "Qwen3-TTS",
+  "description": "An end-to-end speech generation framework featuring discrete multi-codebook latent modeling and a dual-track hybrid streaming architecture. It employs custom 12Hz and 25Hz tokenizers for high-fidelity acoustic compression and supports multi-lingual synthesis, zero-shot voice cloning, and natural language-driven prosody control. The system achieves sub-100ms inference latency through a lightweight non-diffusion Transformer (non-DiT) architecture optimized for real-time interactive deployment.",
+  "tags": [
+    "text-to-speech",
+    "voice-cloning",
+    "neural-audio-codec",
+    "streaming-inference",
+    "transformer",
+    "acoustic-modeling",
+    "speech-tokenization",
+    "zero-shot-learning",
+    "prosody-control",
+    "multilingual-tts",
+    "vector-quantization",
+    "bigvgan",
+    "flash-attention",
+    "gradio-demo",
+    "pytorch",
+    "huggingface-transformers"
+  ],
+  "category": "Neural Speech Synthesis & Acoustic Tokenization",
+  "concepts": [
+    "Discrete Multi-codebook Latent Modeling",
+    "Dual-Track Hybrid Streaming Architecture",
+    "Zero-shot Voice Cloning",
+    "Residual Vector Quantization (RVQ)",
+    "Mel-spectrogram Reconstruction",
+    "Neural Audio Compression",
+    "Instruction-based Voice Design",
+    "Cross-lingual Prosody Transfer",
+    "End-to-End Acoustic Modeling",
+    "Low-latency Stream Synthesis",
+    "ECAPA-TDNN Speaker Encoding",
+    "Rotary Positional Embeddings (RoPE)",
+    "FlashAttention-2 Optimization",
+    "Squeeze-and-Excitation Networks",
+    "Time-Delay Neural Networks (TDNN)",
+    "BigVGAN Vocoding",
+    "Diffusion Transformer (DiT) Decoders",
+    "Paralinguistic Information Preservation",
+    "X-vector Embeddings",
+    "Multi-lingual Tokenization"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 31,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "qwen_tts/__init__.py",
+      "qwen_tts/core/__init__.py",
+      "qwen_tts/core/models/__init__.py",
+      "qwen_tts/core/models/modeling_qwen3_tts.py"
+    ]
+  },
+  "_hash": "61fba9862f9ab5157bd966bd1cdd1458ea38dc3e23abc6260f1c8f86d01c8c68",
+  "_path": "/Users/ember/src/Qwen3-TTS",
+  "_updated_at": "2026-02-14T00:56:32.018208Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2efefb3c1fd2ee327aadb580a3d31419a194d0feb65d7b9f61f29239d3915660",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:54.343484+00:00"
+  },
+  "mined_motifs": [
+    "python",
+    "rust",
+    "algorithmic-news-curation",
+    "ascii-art",
+    "automated-news-formatting",
+    "broadcast-journalism-prosody",
+    "broadcast-simulation",
+    "character-ai",
+    "cli-application",
+    "content-aware-tts",
+    "content-categorization",
+    "dynamic-voice-design"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "chetgpt",
+      "path": "/Users/ember/dev/chetgpt",
+      "similarity": 0.817
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.806
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.801
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.799
+    },
+    {
+      "name": "neural-assemblies",
+      "path": "/Users/ember/dev/neural-assemblies",
+      "similarity": 0.794
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.79
+    },
+    {
+      "name": "XRAgents",
+      "path": "/Users/ember/dev/XRAgents",
+      "similarity": 0.789
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.788
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Discrete Multi-codebook Latent Modeling",
+      "Dual-Track Hybrid Streaming Architecture",
+      "Zero-shot Voice Cloning",
+      "Residual Vector Quantization (RVQ)",
+      "Mel-spectrogram Reconstruction",
+      "Neural Audio Compression",
+      "Instruction-based Voice Design",
+      "Cross-lingual Prosody Transfer",
+      "End-to-End Acoustic Modeling",
+      "Low-latency Stream Synthesis",
+      "ECAPA-TDNN Speaker Encoding",
+      "Rotary Positional Embeddings (RoPE)",
+      "FlashAttention-2 Optimization",
+      "Squeeze-and-Excitation Networks",
+      "Time-Delay Neural Networks (TDNN)",
+      "BigVGAN Vocoding",
+      "Diffusion Transformer (DiT) Decoders",
+      "Paralinguistic Information Preservation",
+      "X-vector Embeddings",
+      "Multi-lingual Tokenization"
+    ],
+    "tags": [
+      "text-to-speech",
+      "voice-cloning",
+      "neural-audio-codec",
+      "streaming-inference",
+      "transformer",
+      "acoustic-modeling",
+      "speech-tokenization",
+      "zero-shot-learning",
+      "prosody-control",
+      "multilingual-tts",
+      "vector-quantization",
+      "bigvgan",
+      "flash-attention",
+      "gradio-demo",
+      "pytorch",
+      "huggingface-transformers"
+    ],
+    "mined_motifs": [
+      "python",
+      "Rust Language Ecosystem",
+      "algorithmic-news-curation",
+      "ascii-art",
+      "automated-news-formatting",
+      "broadcast-journalism-prosody",
+      "broadcast-simulation",
+      "character-ai",
+      "cli-application",
+      "content-aware-tts",
+      "content-categorization",
+      "dynamic-voice-design"
+    ],
+    "metaconstellations": [
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 9.649,
+        "matches": [
+          "neural-audio-codec",
+          "transformer",
+          "voice-cloning"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.251,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 3.946,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 2.504,
+        "matches": []
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 2.48,
+        "matches": []
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 2.451,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.018208Z"
+  }
+}

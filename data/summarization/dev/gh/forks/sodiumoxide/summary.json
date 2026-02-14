@@ -1,0 +1,276 @@
+{
+  "name": "sodiumoxide",
+  "description": "Sodiumoxide provides type-safe Rust bindings for the libsodium cryptographic library, focusing on high-speed, easy-to-use primitives for network communication and data protection. It abstracts the underlying NaCl C implementation into ergonomic Rust interfaces for authenticated encryption, digital signatures, and hashing while leveraging Rust's ownership model to ensure memory safety. The project facilitates secure application development by providing robust implementations of modern algorithms like Ed25519, Curve25519, and XSalsa20-Poly1305.",
+  "tags": [
+    "rust",
+    "cryptography",
+    "libsodium",
+    "nacl",
+    "ffi",
+    "ed25519",
+    "curve25519",
+    "salsa20",
+    "poly1305",
+    "chacha20",
+    "aead",
+    "sha512",
+    "siphash",
+    "scrypt",
+    "blake2b",
+    "hmac"
+  ],
+  "category": "Applied Cryptography",
+  "concepts": [
+    "Authenticated Encryption with Associated Data (AEAD)",
+    "Public-key Authenticated Encryption",
+    "Secret-key Authenticated Encryption",
+    "Digital Signatures",
+    "Cryptographic Hashing",
+    "Password-based Key Derivation Functions (PBKDF)",
+    "Elliptic Curve Diffie-Hellman (ECDH)",
+    "Message Authentication Codes (MAC)",
+    "One-time Message Authentication",
+    "Scalar Multiplication on Elliptic Curves",
+    "Stream Ciphers",
+    "Type-safe Cryptographic Wrappers",
+    "Secure Random Number Generation",
+    "Short-input Pseudorandom Functions",
+    "Constant-time Verification",
+    "Memory-hard Functions",
+    "Key Exchange",
+    "Nonce-based Encryption",
+    "Sealed Boxes",
+    "Symmetric Encryption",
+    "Asymmetric Encryption",
+    "High-speed Cryptographic Primitives",
+    "Zero-copy FFI Bindings",
+    "Unforgeability under Chosen-Message Attacks",
+    "Privacy and Authenticity",
+    "Network Communication Security",
+    "Keypair Generation",
+    "Digest Computation",
+    "HMAC-SHA-512/256",
+    "SipHash-2-4",
+    "XSalsa20-Poly1305",
+    "ChaCha20-Poly1305",
+    "Ed25519 Signature Scheme",
+    "Curve25519 Scalar Multiplication"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 94,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "libsodium-sys/lib.rs",
+      "src/crypto/auth/mod.rs",
+      "src/crypto/box_/mod.rs",
+      "src/crypto/hash/mod.rs"
+    ]
+  },
+  "_hash": "f9b37e8b295906c77db8fa8aa9b361efc9186db947920b390012fb40028c20cf",
+  "_path": "/Users/ember/dev/gh/forks/sodiumoxide",
+  "_updated_at": "2026-02-14T00:56:26.718358Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Authenticated Encryption with Associated Data (AEAD)",
+      "Public-key Authenticated Encryption",
+      "Secret-key Authenticated Encryption",
+      "Digital Signatures",
+      "Cryptographic Hashing",
+      "Password-based Key Derivation Functions (PBKDF)",
+      "Elliptic Curve Diffie-Hellman (ECDH)",
+      "Message Authentication Codes (MAC)",
+      "One-time Message Authentication",
+      "Scalar Multiplication on Elliptic Curves",
+      "Stream Ciphers",
+      "Type-safe Cryptographic Wrappers",
+      "Secure Random Number Generation",
+      "Short-input Pseudorandom Functions",
+      "Constant-time Verification",
+      "Memory-hard Functions",
+      "Key Exchange",
+      "Nonce-based Encryption",
+      "Sealed Boxes",
+      "Symmetric Encryption",
+      "Asymmetric Encryption",
+      "High-speed Cryptographic Primitives",
+      "Zero-copy FFI Bindings",
+      "Unforgeability under Chosen-Message Attacks",
+      "Privacy and Authenticity",
+      "Network Communication Security",
+      "Keypair Generation",
+      "Digest Computation",
+      "HMAC-SHA-512/256",
+      "SipHash-2-4",
+      "XSalsa20-Poly1305",
+      "ChaCha20-Poly1305",
+      "Ed25519 Signature Scheme",
+      "Curve25519 Scalar Multiplication"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cryptography",
+      "libsodium",
+      "nacl",
+      "foreign-function-interface",
+      "ed25519",
+      "curve25519",
+      "salsa20",
+      "poly1305",
+      "chacha20",
+      "aead",
+      "sha512",
+      "siphash",
+      "scrypt",
+      "blake2b",
+      "hmac"
+    ],
+    "mined_motifs": [
+      "zero-knowledge-proofs",
+      "multi-scalar-multiplication",
+      "Sponge Construction",
+      "poseidon-hash",
+      "Modular Arithmetic",
+      "Affine Coordinates",
+      "Field Inversion",
+      "Hash-to-Curve",
+      "Projective Coordinates",
+      "Scalar Multiplication",
+      "bls12-381",
+      "Finite Field Arithmetic"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 11.076,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 8.077,
+        "matches": [
+          "zero-knowledge-proofs",
+          "poseidon-hash",
+          "category:Applied Cryptography"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 6.677,
+        "matches": [
+          "cryptography",
+          "category:Applied Cryptography"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.475,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.474,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.467,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.718358Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6741ee8a4e9e885cc211fa50db266a4bdf02690674a93b28b6cdc3a446c635ba",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:28.177470+00:00"
+  },
+  "mined_motifs": [
+    "zero-knowledge",
+    "Multi-Scalar Multiplication (MSM)",
+    "Sponge Construction",
+    "poseidon-hash",
+    "Modular Arithmetic",
+    "Affine Coordinates",
+    "Field Inversion",
+    "Hash-to-Curve",
+    "Projective Coordinates",
+    "Scalar Multiplication",
+    "bls12-381",
+    "Finite Field Arithmetic"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.867
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.867
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.859
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.859
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.856
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.856
+    }
+  ]
+}

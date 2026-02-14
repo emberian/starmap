@@ -1,0 +1,258 @@
+{
+  "name": "rust",
+  "description": "The official source repository for the Rust programming language, encompassing the full-stage compiler (rustc), the standard library (std, core, alloc), and critical developer tooling. It implements a multi-pass compilation architecture, including AST parsing, HIR lowering, MIR optimization, and diverse codegen backends such as LLVM, Cranelift, and GCC.",
+  "tags": [
+    "compiler",
+    "standard-library",
+    "rustc",
+    "codegen",
+    "bootstrap",
+    "static-analysis",
+    "low-level",
+    "systems-programming",
+    "language-design",
+    "memory-safety",
+    "intermediate-representation",
+    "linkage",
+    "diagnostics",
+    "macros",
+    "ffi",
+    "type-system"
+  ],
+  "category": "Compiler Infrastructure",
+  "concepts": [
+    "Abstract Syntax Tree (AST)",
+    "Higher-level Intermediate Representation (HIR)",
+    "Mid-level Intermediate Representation (MIR)",
+    "Borrow Checking",
+    "Monomorphization",
+    "Type Inference",
+    "Trait Resolution",
+    "Affine Type Systems",
+    "LLVM IR Generation",
+    "Cranelift Codegen",
+    "AOT Compilation",
+    "JIT Compilation",
+    "Arena Allocation",
+    "Procedural Macros",
+    "Foreign Function Interface (FFI)",
+    "Zero-cost Abstractions",
+    "Unsafe Rust",
+    "Standard Library Design",
+    "Cross-compilation",
+    "Dataflow Analysis"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "Shell",
+    "C",
+    "Python",
+    "TypeScript",
+    "C++"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 51271,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "compiler/rustc/src/main.rs",
+      "compiler/rustc_abi/src/lib.rs",
+      "compiler/rustc_arena/src/lib.rs",
+      "compiler/rustc_ast/src/attr/mod.rs"
+    ]
+  },
+  "_hash": "c258714d0b87f8401866b796ebac028454ba26c7777daf7b68225781d343a4b9",
+  "_path": "/Users/ember/dev/rust",
+  "_updated_at": "2026-02-14T00:56:30.113455Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Abstract Syntax Tree",
+      "Higher-level Intermediate Representation (HIR)",
+      "Mid-level Intermediate Representation (MIR)",
+      "Borrow Checking",
+      "Monomorphization",
+      "Type Inference",
+      "Trait Resolution",
+      "Affine Type Systems",
+      "LLVM IR Generation",
+      "Cranelift Codegen",
+      "AOT Compilation",
+      "JIT Compilation",
+      "Arena Allocation",
+      "Procedural Macros",
+      "foreign-function-interface",
+      "Zero-cost Abstractions",
+      "Unsafe Rust",
+      "Standard Library Design",
+      "Cross-compilation",
+      "Dataflow Analysis"
+    ],
+    "tags": [
+      "compiler-design",
+      "standard-library",
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "bootstrap",
+      "static-analysis",
+      "systems-programming",
+      "Systems Programming",
+      "language-design",
+      "memory-safety",
+      "linkage",
+      "diagnostics",
+      "macros",
+      "foreign-function-interface",
+      "type-system"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "lexical-analysis",
+      "parser",
+      "SIMD Intrinsics",
+      "llvm",
+      "toolchain",
+      "rustdoc",
+      "abstract-syntax-tree",
+      "bison",
+      "flex",
+      "AST"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.367,
+        "matches": [
+          "abstract syntax tree",
+          "ast",
+          "parser",
+          "compiler-design",
+          "llvm",
+          "category:Compiler Infrastructure"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 13.774,
+        "matches": [
+          "abstract-syntax-tree",
+          "compiler-design",
+          "lexical-analysis",
+          "llvm",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.117,
+        "matches": [
+          "abstract syntax tree",
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.114,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.102,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.336,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.113455Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "521a60db056418a22f8e3a5a133d2026eda881140350ae2c8e9aeba696114b83",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:31.931582+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Lexical Analysis",
+    "lexer",
+    "parser",
+    "SIMD Intrinsics",
+    "llvm",
+    "toolchain",
+    "rustdoc",
+    "ast",
+    "bison",
+    "flex",
+    "Abstract Syntax Tree"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/gh/forks/rust",
+      "similarity": 0.924
+    },
+    {
+      "name": "rest_easy",
+      "path": "/Users/ember/dev/gh/rest_easy",
+      "similarity": 0.819
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.813
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.812
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.81
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.799
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.799
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.798
+    }
+  ]
+}

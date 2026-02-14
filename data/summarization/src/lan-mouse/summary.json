@@ -1,0 +1,241 @@
+{
+  "name": "lan-mouse",
+  "description": "A high-performance software KVM switch implemented in Rust for seamless mouse and keyboard sharing across multiple local devices. It leverages platform-specific backends including Wayland (via libei and wlroots), X11, Windows, and macOS to capture and emulate input events. The system employs a custom UDP-based protocol for low-latency event streaming and a TCP layer for reliable state synchronization and configuration.",
+  "tags": [
+    "kvm-switch",
+    "input-sharing",
+    "rust",
+    "wayland",
+    "libei",
+    "wlroots",
+    "x11",
+    "cross-platform",
+    "udp-protocol",
+    "gtk4",
+    "libadwaita",
+    "daemon",
+    "ipc",
+    "virtual-input",
+    "remote-control",
+    "nix"
+  ],
+  "category": "Input Redirection and Virtualization",
+  "concepts": [
+    "Software KVM",
+    "Input Capture",
+    "Input Emulation",
+    "UDP Event Streaming",
+    "Wayland Compositor Integration",
+    "Libei Protocol",
+    "XDG Desktop Portal",
+    "Client-Server Architecture",
+    "IPC Communication",
+    "Scancode Translation",
+    "OS-Specific Hooks",
+    "Liveness Tracking",
+    "Network Transparency",
+    "Pointer Constraints",
+    "Layer Shell",
+    "Libadwaita UI",
+    "Zero-configuration networking",
+    "Input Event Serialization"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 77,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "input-capture/src/lib.rs",
+      "input-emulation/src/lib.rs",
+      "input-event/src/lib.rs"
+    ]
+  },
+  "_hash": "4e7936ace661ddba45cc6b68ac55563d09522d0755a1ae58386e3d6742959667",
+  "_path": "/Users/ember/src/lan-mouse",
+  "_updated_at": "2026-02-14T00:56:33.100195Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "81e3bda76b1473951bce934983b1a7cb57e6cb769a880ce6d2995b2eb82641bf",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:34.318475+00:00"
+  },
+  "mined_motifs": [
+    "uinput",
+    "ioctl",
+    "low-latency",
+    "ffi",
+    "linux",
+    "systems-programming",
+    "Foreign Function Interface (FFI)",
+    "toolchain",
+    "Absolute and Relative Axis Tracking",
+    "Async I/O Streams",
+    "Character Device Handling",
+    "Event Stream Synchronization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "evdev",
+      "path": "/Users/ember/dev/gh/evdev",
+      "similarity": 0.871
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.851
+    },
+    {
+      "name": "Weylus",
+      "path": "/Users/ember/src/Weylus",
+      "similarity": 0.848
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.846
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.845
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.843
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.841
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.841
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Software KVM",
+      "Input Capture",
+      "Input Emulation",
+      "UDP Event Streaming",
+      "Wayland Compositor Integration",
+      "Libei Protocol",
+      "XDG Desktop Portal",
+      "Client-Server Architecture",
+      "IPC Communication",
+      "Scancode Translation",
+      "OS-Specific Hooks",
+      "Liveness Tracking",
+      "Network Transparency",
+      "Pointer Constraints",
+      "Layer Shell",
+      "Libadwaita UI",
+      "Zero-configuration networking",
+      "Input Event Serialization"
+    ],
+    "tags": [
+      "kvm-switch",
+      "input-sharing",
+      "Rust Language Ecosystem",
+      "wayland",
+      "libei",
+      "wlroots",
+      "x11",
+      "cross-platform",
+      "udp-protocol",
+      "gtk4",
+      "libadwaita",
+      "daemon",
+      "ipc",
+      "virtual-input",
+      "remote-control",
+      "nix"
+    ],
+    "mined_motifs": [
+      "uinput",
+      "ioctl",
+      "low-latency",
+      "foreign-function-interface",
+      "linux",
+      "Systems Programming",
+      "toolchain",
+      "Absolute and Relative Axis Tracking",
+      "Async I/O Streams",
+      "Character Device Handling",
+      "Event Stream Synchronization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 10.977,
+        "matches": [
+          "ipc",
+          "wayland",
+          "ioctl",
+          "category:Input Redirection and Virtualization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.291,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 6.89,
+        "matches": [
+          "foreign-function-interface",
+          "ioctl"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.492,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 4.034,
+        "matches": [
+          "uinput"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.684,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.100195Z"
+  }
+}

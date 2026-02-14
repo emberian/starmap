@@ -1,0 +1,227 @@
+{
+  "name": "rust-lpsolve",
+  "description": "A high-level Rust wrapper and integrated development environment for the lpsolve linear programming library. It provides a type-safe builder API for Mixed Integer Linear Programming (MILP), handles complex indexing conventions, and includes a bundled distribution of the underlying LGPL C library with LUSOL basis factorizations.",
+  "tags": [
+    "rust",
+    "linear-programming",
+    "milp",
+    "optimization-solver",
+    "simplex-method",
+    "branch-and-bound",
+    "ffi",
+    "gui-ide",
+    "lusol",
+    "sparse-matrix",
+    "mathematical-modeling",
+    "operations-research"
+  ],
+  "category": "Mixed Integer Linear Programming",
+  "concepts": [
+    "Simplex Algorithm",
+    "Branch and Bound",
+    "Revised Simplex Method",
+    "Basis Factorization",
+    "LU Decomposition",
+    "Sparse Matrix Compression",
+    "Sensitivity Analysis",
+    "Dual Simplex",
+    "Presolve Heuristics",
+    "Integer Programming",
+    "Binary Variables",
+    "Semicontinuous Variables",
+    "Special Ordered Sets (SOS)",
+    "MPS File Format",
+    "Harwell-Boeing Format"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "Yacc",
+    "Lex"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 188,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "lpsolve-ide/src/main.rs",
+      "lpsolve-ide/src/model/mod.rs",
+      "lpsolve-ide/src/ui/mod.rs",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "3cd2c2deb1feeae1d08a26e452dcf04aa21b95e9267f1d507b05680652ea9407",
+  "_path": "/Users/ember/dev/rust-lpsolve",
+  "_updated_at": "2026-02-14T00:56:30.119557Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Simplex Algorithm",
+      "Branch and Bound",
+      "Revised Simplex Method",
+      "Basis Factorization",
+      "LU Decomposition",
+      "Sparse Matrix Compression",
+      "Sensitivity Analysis",
+      "Dual Simplex",
+      "Presolve Heuristics",
+      "Integer Programming",
+      "Binary Variables",
+      "Semicontinuous Variables",
+      "Special Ordered Sets (SOS)",
+      "MPS File Format",
+      "Harwell-Boeing Format"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "linear-programming",
+      "milp",
+      "optimization-solver",
+      "simplex-method",
+      "branch-and-bound",
+      "foreign-function-interface",
+      "gui-ide",
+      "lusol",
+      "sparse-matrix",
+      "mathematical-modeling",
+      "operations-research"
+    ],
+    "mined_motifs": [
+      "Linear Algebra",
+      "systems-programming",
+      "foreign-function-interface",
+      "Resource Acquisition Is Initialization (RAII)",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "2D Matrix Representation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.062,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.665,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.272,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.474,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.456,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.665,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.119557Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e8fd0a0d533eb10a8eb5ffaed42786951906afa03252a24f63d0d63f07d7d74a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:32.569859+00:00"
+  },
+  "mined_motifs": [
+    "linear-algebra",
+    "low-level",
+    "Foreign Function Interface (FFI)",
+    "resource-management",
+    "Lexical Analysis",
+    "Tokenization",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "2D Matrix Representation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.86
+    },
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/libblas-sys",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.844
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.842
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.841
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.841
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.839
+    }
+  ]
+}

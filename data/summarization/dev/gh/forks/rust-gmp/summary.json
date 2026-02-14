@@ -1,0 +1,253 @@
+{
+  "name": "rust-gmp",
+  "description": "This crate provides idiomatic Rust bindings for the GNU Multiple Precision Arithmetic Library (GMP), facilitating high-performance arbitrary-precision calculations. It encapsulates low-level FFI primitives for integers, rationals, and floating-point numbers into memory-safe types while implementing standard traits for operator overloading and string conversion. The library manages complex C-style lifecycles via RAII and provides thread-safe access to GMP's robust suite of numeric algorithms.",
+  "tags": [
+    "rust",
+    "gmp",
+    "bignum",
+    "arbitrary-precision",
+    "numerics",
+    "ffi",
+    "mpz",
+    "mpq",
+    "mpf",
+    "math",
+    "arithmetic",
+    "bigint",
+    "bindings",
+    "safe-wrappers"
+  ],
+  "category": "Arbitrary-Precision Numerics",
+  "concepts": [
+    "Arbitrary-Precision Integers (mpz)",
+    "Arbitrary-Precision Rationals (mpq)",
+    "Arbitrary-Precision Floating-Point (mpf)",
+    "Foreign Function Interface (FFI)",
+    "RAII Memory Management",
+    "Operator Overloading",
+    "Modular Arithmetic",
+    "Greatest Common Divisor (GCD)",
+    "Primality Testing",
+    "Random Number Generation",
+    "Mersenne Twister",
+    "Linear Congruential Generator",
+    "Bitwise Operations",
+    "Scientific Computing",
+    "Number Theory",
+    "Limb-based Storage",
+    "Modular Exponentiation",
+    "Square Root Calculation",
+    "Rational Normalization",
+    "Floating-Point Precision Control",
+    "Base Conversion",
+    "Miller-Rabin Primality Test",
+    "Euclidean Algorithm",
+    "BigNum Performance Optimization",
+    "Integer Factorization Primitives",
+    "Hamming Distance",
+    "Population Count"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/mpz.rs",
+      "src/test.rs",
+      "src/mpf.rs"
+    ]
+  },
+  "_hash": "4d42ff3c3b3cceebcdfa2b266c8746421f54918719378cbbf52b2b65221c6a98",
+  "_path": "/Users/ember/dev/gh/forks/rust-gmp",
+  "_updated_at": "2026-02-14T00:56:26.574985Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Arbitrary-Precision Integers (mpz)",
+      "Arbitrary-Precision Rationals (mpq)",
+      "Arbitrary-Precision Floating-Point (mpf)",
+      "foreign-function-interface",
+      "RAII Memory Management",
+      "Operator Overloading",
+      "Modular Arithmetic",
+      "Greatest Common Divisor (GCD)",
+      "Primality Testing",
+      "Random Number Generation",
+      "Mersenne Twister",
+      "Linear Congruential Generator",
+      "Bitwise Operations",
+      "Scientific Computing",
+      "Number Theory",
+      "Limb-based Storage",
+      "Modular Exponentiation",
+      "Square Root Calculation",
+      "Rational Normalization",
+      "Floating-Point Precision Control",
+      "Base Conversion",
+      "Miller-Rabin Primality Test",
+      "Euclidean Algorithm",
+      "BigNum Performance Optimization",
+      "Integer Factorization Primitives",
+      "Hamming Distance",
+      "Population Count"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "gmp",
+      "bignum",
+      "arbitrary-precision",
+      "numerics",
+      "foreign-function-interface",
+      "mpz",
+      "mpq",
+      "mpf",
+      "math",
+      "arithmetic",
+      "bigint",
+      "Foreign Function Interface",
+      "safe-wrappers"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "Static Linking",
+      "blas",
+      "Linear Algebra",
+      "numerical-computing",
+      "openblas",
+      "Memory Layout",
+      "Memory Management",
+      "Systems Programming",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.048,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.289,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.497,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.475,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.397,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.674,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.574985Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "29cc991e83039d3f2e02544ade1e6875e8e70a4689614fdf33163108f7d58f66",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:11.350340+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "Static Linking",
+    "blas",
+    "linear-algebra",
+    "numerical-computing",
+    "openblas",
+    "Memory Layout",
+    "memory-management",
+    "systems-programming",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/libblas-sys",
+      "similarity": 0.881
+    },
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/forks/libblas-sys-1",
+      "similarity": 0.878
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.868
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.865
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.859
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.856
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.856
+    }
+  ]
+}

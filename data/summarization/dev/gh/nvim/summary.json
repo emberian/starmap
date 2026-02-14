@@ -1,0 +1,238 @@
+{
+  "name": "kickstart-modular.nvim",
+  "description": "A modularized fork of kickstart.nvim designed as a pedagogical starting point for Neovim configuration. It employs a multi-file architecture using the lazy.nvim plugin manager to organize LSP integration, treesitter-based parsing, and telescope-driven fuzzy finding. The project emphasizes clarity and extensibility while maintaining a lightweight footprint for rapid developer environment bootstrapping.",
+  "tags": [
+    "neovim",
+    "lua",
+    "lsp",
+    "treesitter",
+    "telescope",
+    "lazy-nvim",
+    "kickstart",
+    "modular-design",
+    "dotfiles",
+    "plugin-management",
+    "editor-setup",
+    "ide-scaffolding"
+  ],
+  "category": "Modular Text Editor Orchestration",
+  "concepts": [
+    "Asynchronous Plugin Loading",
+    "Language Server Protocol (LSP) Integration",
+    "Tree-sitter Parsing",
+    "Fuzzy Search Heuristics",
+    "Modular Software Design",
+    "Keybinding Management",
+    "Context-Aware Linting",
+    "Code Formatting Pipelines",
+    "Interactive UI Components",
+    "Git Lifecycle Integration",
+    "Plugin Dependency Resolution",
+    "Environment Bootstrapping",
+    "Lua Scripting Environment",
+    "Extensible Editor Architecture",
+    "Completion Engines",
+    "Snippet Expansion",
+    "Debug Adapter Protocol (DAP)",
+    "Incremental Selection",
+    "Workspace Diagnostics",
+    "Plugin Lazy-loading",
+    "Virtual Text",
+    "Status Line Customization",
+    "File Tree Navigation",
+    "Keychord Mapping",
+    "Health Checking",
+    "Configuration Versioning",
+    "External Dependency Management",
+    "Theming and Aesthetics"
+  ],
+  "languages": [
+    "Lua"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 27,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "c499222b356b31934937799a2fb2d731f3e1e2cf6d777701c00a623a3943a355",
+  "_path": "/Users/ember/dev/gh/nvim",
+  "_updated_at": "2026-02-14T00:56:27.841738Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Asynchronous Plugin Loading",
+      "Language Server Protocol (LSP) Integration",
+      "Tree-sitter Parsing",
+      "Fuzzy Search Heuristics",
+      "Modular Software Design",
+      "Keybinding Management",
+      "Context-Aware Linting",
+      "Code Formatting Pipelines",
+      "Interactive UI Components",
+      "Git Lifecycle Integration",
+      "Plugin Dependency Resolution",
+      "Environment Bootstrapping",
+      "Lua Scripting Environment",
+      "Extensible Editor Architecture",
+      "Completion Engines",
+      "Snippet Expansion",
+      "Debug Adapter Protocol (DAP)",
+      "Incremental Selection",
+      "Workspace Diagnostics",
+      "Plugin Lazy-loading",
+      "Virtual Text",
+      "Status Line Customization",
+      "File Tree Navigation",
+      "Keychord Mapping",
+      "Health Checking",
+      "Configuration Versioning",
+      "External Dependency Management",
+      "Theming and Aesthetics"
+    ],
+    "tags": [
+      "neovim",
+      "lua",
+      "lsp",
+      "treesitter",
+      "telescope",
+      "lazy-nvim",
+      "kickstart",
+      "modular-design",
+      "dotfiles",
+      "plugin-management",
+      "editor-setup",
+      "ide-scaffolding"
+    ],
+    "mined_motifs": [
+      "vim",
+      "Language Server Protocol",
+      "diagnostics",
+      "language-server",
+      "lexical-analysis",
+      "Compiler Engineering",
+      "Rust Language Ecosystem",
+      "Bundle Specification",
+      "CLI Interface",
+      "Compatibility Layering",
+      "Declarative Configuration",
+      "Extension Registry"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.415,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.387,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.384,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.611,
+        "matches": []
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.601,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.595,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.841738Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fad5d1656857198ebb82592a72d28e58cc6055dc363020c6752a6a1bb2274e99",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:07.096513+00:00"
+  },
+  "mined_motifs": [
+    "vim",
+    "Language Server Protocol",
+    "diagnostics",
+    "language-server",
+    "Tokenization",
+    "compiler-design",
+    "rust",
+    "Bundle Specification",
+    "CLI Interface",
+    "Compatibility Layering",
+    "Declarative Configuration",
+    "Extension Registry"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.875
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.847
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.845
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.841
+    },
+    {
+      "name": "dotfiles",
+      "path": "/Users/ember/dev/gh/dotfiles",
+      "similarity": 0.84
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.838
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.835
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.829
+    }
+  ]
+}

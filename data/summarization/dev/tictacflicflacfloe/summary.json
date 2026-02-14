@@ -1,0 +1,222 @@
+{
+  "name": "tictacflicflacfloe",
+  "description": "An exploration of extended abstract strategy games on a 3x3 grid, introducing layered symbol mechanics (X, O, T, S) and multi-occupancy square rules. The project comprises a bit-packed game logic engine, a state-space exhaustive explorer for symmetry-aware canonicalization and win-condition analysis, and a WASM-based interactive frontend.",
+  "tags": [
+    "rust",
+    "wasm",
+    "egui",
+    "trunk",
+    "game-theory",
+    "abstract-strategy",
+    "state-space-exploration",
+    "combinatorial-games",
+    "bit-packing",
+    "formal-verification",
+    "pwa",
+    "cross-platform",
+    "mathematics",
+    "search-algorithms"
+  ],
+  "category": "Combinatorial Game Theory",
+  "concepts": [
+    "Bit-packed state representation",
+    "D4 Symmetry Group Canonicalization",
+    "State space enumeration",
+    "Terminal state analysis",
+    "Layered game mechanics",
+    "WASM interoperability",
+    "Reactive UI programming",
+    "Symmetry-aware hashing",
+    "Win-loss-draw evaluation",
+    "Static game solving"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "Shell",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 34,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/ttfff-explore/src/lib.rs",
+      "crates/ttfff-explore/src/main.rs",
+      "crates/ttfff-logic/src/lib.rs",
+      "crates/ttfff-play/src/main.rs"
+    ]
+  },
+  "_hash": "828f8e74ead063c2a4801ba09d9e44f017bb067f9487893f6a3118cc548ce3ef",
+  "_path": "/Users/ember/dev/tictacflicflacfloe",
+  "_updated_at": "2026-02-14T00:56:30.935634Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8f5cfeb94bcc18caef6dc5d10cefff9bbdedaf64fc2bbe5305e4dec4b026cac6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:58.106197+00:00"
+  },
+  "mined_motifs": [
+    "game-engine",
+    "board-game",
+    "leptos",
+    "Terminal User Interface",
+    "area-control",
+    "card-game",
+    "tui",
+    "simulation",
+    "Component-based UI",
+    "terminal-ui",
+    "game-ai",
+    "minimax"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/multiway-tug",
+      "similarity": 0.758
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/gh/multiway-tug",
+      "similarity": 0.755
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/automatafl",
+      "similarity": 0.743
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.737
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.736
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.727
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.716
+    },
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/esgea",
+      "similarity": 0.716
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Bit-packed state representation",
+      "D4 Symmetry Group Canonicalization",
+      "State space enumeration",
+      "Terminal state analysis",
+      "Layered game mechanics",
+      "WASM interoperability",
+      "Reactive UI programming",
+      "Symmetry-aware hashing",
+      "Win-loss-draw evaluation",
+      "Static game solving"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "egui",
+      "trunk",
+      "game-theory",
+      "abstract-strategy",
+      "state-space-exploration",
+      "combinatorial-games",
+      "bit-packing",
+      "formal-methods",
+      "pwa",
+      "cross-platform",
+      "mathematics",
+      "search-algorithms"
+    ],
+    "mined_motifs": [
+      "game-engine",
+      "board-game",
+      "leptos",
+      "Terminal User Interface",
+      "area-control",
+      "card-game",
+      "tui",
+      "real-time-simulation",
+      "Component-based UI",
+      "terminal-ui",
+      "game-ai",
+      "minimax"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.445,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.123,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.104,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.043,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.037,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.016,
+        "matches": [
+          "real-time-simulation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.935634Z"
+  }
+}

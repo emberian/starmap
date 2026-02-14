@@ -1,0 +1,222 @@
+{
+  "name": "rust-cfg",
+  "description": "A Rust library providing fundamental data structures for representing and manipulating Context-Free Grammars. It defines an efficient representation for terminals and non-terminals using integer-based indexing and provides facilities for defining production rules and symbol naming. The implementation enables programmatic grammar construction with validation checks for start symbols and variable definitions.",
+  "tags": [
+    "rust",
+    "cfg",
+    "formal-languages",
+    "grammar-parsing",
+    "context-free-grammar",
+    "production-rules",
+    "symbol-table",
+    "language-theory",
+    "compiler-design"
+  ],
+  "category": "Formal Grammar Representation",
+  "concepts": [
+    "Context-Free Grammar",
+    "Production Rules",
+    "Terminal Symbols",
+    "Non-terminal Symbols",
+    "Symbol Indexing",
+    "Grammar Validation",
+    "Start Symbols",
+    "Formal Language Theory",
+    "Symbol Naming",
+    "Symbol Table",
+    "Rule Bodies",
+    "Grammar Representation",
+    "Integer-based Symbols",
+    "Variable Mapping",
+    "Symbol Differentiation",
+    "Grammar Construction",
+    "Production Sequences"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "7265fca1f2b1fbf5b0618df170abdcba854f8b40825de13b6d377b760e599427",
+  "_path": "/Users/ember/dev/gh/rust-cfg",
+  "_updated_at": "2026-02-14T00:56:28.351048Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Context-Free Grammar",
+      "Production Rules",
+      "Terminal Symbols",
+      "Non-terminal Symbols",
+      "Symbol Indexing",
+      "Grammar Validation",
+      "Start Symbols",
+      "Formal Language Theory",
+      "Symbol Naming",
+      "Symbol Table",
+      "Rule Bodies",
+      "Grammar Representation",
+      "Integer-based Symbols",
+      "Variable Mapping",
+      "Symbol Differentiation",
+      "Grammar Construction",
+      "Production Sequences"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cfg",
+      "formal-languages",
+      "grammar-parsing",
+      "context-free-grammar",
+      "production-rules",
+      "symbol-table",
+      "language-theory",
+      "Compiler Engineering"
+    ],
+    "mined_motifs": [
+      "parser",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "s-expression",
+      "AST",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "Resource Acquisition Is Initialization (RAII)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 13.987,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression",
+          "grammar-parsing"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.187,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.637,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.607,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.58,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 4.145,
+        "matches": [
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.351048Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "867bca929eba9398d5609ca22da607604f7394b1c479199f5b7bbc5c9e81329b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:19.067293+00:00"
+  },
+  "mined_motifs": [
+    "parser",
+    "Tokenization",
+    "Lexical Analysis",
+    "lexer",
+    "ast",
+    "s-expression",
+    "tokenization",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "resource-management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.936
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.915
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.909
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.907
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.903
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.899
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.896
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.894
+    }
+  ]
+}

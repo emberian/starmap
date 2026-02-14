@@ -1,0 +1,243 @@
+{
+  "name": "opencl3",
+  "description": "A high-level, object-oriented Rust interface for the Khronos OpenCL 3.0 specification, providing idiomatic wrappers for heterogeneous parallel computing. It employs the RAII pattern for automatic resource management of OpenCL objects and supports advanced features like Shared Virtual Memory (SVM) with optional Serde integration. The crate enables fine-grained control over command queues, kernel execution, and event-driven synchronization across diverse hardware including GPUs, CPUs, and FPGAs.",
+  "tags": [
+    "opencl",
+    "rust",
+    "gpgpu",
+    "parallel-computing",
+    "heterogeneous-computing",
+    "gpu-programming",
+    "svm",
+    "api-bindings",
+    "raii",
+    "khronos",
+    "cl3",
+    "acceleration"
+  ],
+  "category": "Heterogeneous Parallel Computing",
+  "concepts": [
+    "RAII",
+    "Shared Virtual Memory (SVM)",
+    "GPGPU",
+    "Heterogeneous Parallelism",
+    "Command Queues",
+    "Kernel Execution",
+    "Memory Buffers",
+    "Event Synchronization",
+    "Platform Introspection",
+    "Device Partitioning",
+    "Sub-devices",
+    "Directed Acyclic Graph (DAG)",
+    "Serde Serialization",
+    "OpenCL Extensions",
+    "ICD Loader",
+    "Program Compilation",
+    "SPIR-V Support",
+    "Memory Mapping",
+    "Atomic Operations",
+    "Command Buffers",
+    "Work-group Functions",
+    "Host-Device Synchronization",
+    "Profiling",
+    "OpenGL Interoperability"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 37,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/device.rs",
+      "src/command_queue.rs",
+      "src/kernel.rs"
+    ]
+  },
+  "_hash": "396beae1037b045930e954fc1b42654472bb7b88c536e8bef44a9c079d2e1f15",
+  "_path": "/Users/ember/src/opencl3",
+  "_updated_at": "2026-02-14T00:56:33.264028Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0d3ec1e02c56157e5ab17d9642ce47863b6af4b11fb878d2388c8eee60bd2a90",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:52.176856+00:00"
+  },
+  "mined_motifs": [
+    "hardware-abstraction",
+    "low-level",
+    "graphics-api",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "cuda",
+    "intel",
+    "nvidia",
+    "Device Discovery"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.9
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.899
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.859
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.856
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.846
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.845
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.843
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "Shared Virtual Memory (SVM)",
+      "GPGPU Compute",
+      "Heterogeneous Parallelism",
+      "Command Queues",
+      "Kernel Execution",
+      "Memory Buffers",
+      "Event Synchronization",
+      "Platform Introspection",
+      "Device Partitioning",
+      "Sub-devices",
+      "directed-acyclic-graph",
+      "Serde Serialization",
+      "OpenCL Extensions",
+      "ICD Loader",
+      "Program Compilation",
+      "SPIR-V Support",
+      "Memory Mapping",
+      "Atomic Operations",
+      "Command Buffers",
+      "Work-group Functions",
+      "Host-Device Synchronization",
+      "Profiling",
+      "OpenGL Interoperability"
+    ],
+    "tags": [
+      "opencl",
+      "Rust Language Ecosystem",
+      "GPGPU Compute",
+      "concurrency",
+      "heterogeneous-computing",
+      "gpu-programming",
+      "svm",
+      "api-bindings",
+      "Resource Acquisition Is Initialization (RAII)",
+      "khronos",
+      "cl3",
+      "acceleration"
+    ],
+    "mined_motifs": [
+      "hardware-abstraction",
+      "systems-programming",
+      "graphics-api",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "cuda",
+      "intel",
+      "nvidia",
+      "Device Discovery"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.301,
+        "matches": [
+          "concurrency",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.508,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.503,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.495,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.48,
+        "matches": [
+          "profiling"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.466,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.264028Z"
+  }
+}

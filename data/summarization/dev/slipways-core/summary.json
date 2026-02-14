@@ -1,0 +1,251 @@
+{
+  "name": "slipways-core",
+  "description": "This repository encapsulates the core gameplay mechanics, entity definitions, and scenario logic for the strategy title Slipways. It implements a data-driven architecture using Python for behavior scripts and state transitions, alongside spreadsheets for object property configuration. Additionally, it integrates a high-performance Rust solver for exploring and optimizing complex trade-network graphs and economic constraints.",
+  "tags": [
+    "slipways",
+    "game-logic",
+    "python",
+    "rust",
+    "strategy-game",
+    "procedural-generation",
+    "optimization",
+    "modding",
+    "scripting-engine",
+    "economic-simulation",
+    "state-machine",
+    "data-driven",
+    "game-design",
+    "solver",
+    "trade-mechanics",
+    "campaign-scripting"
+  ],
+  "category": "Data-Driven Economic Simulation Engine",
+  "concepts": [
+    "Event-driven gameplay loops",
+    "Procedural map generation",
+    "Trade network optimization",
+    "Data-driven entity configuration",
+    "Economic resource modeling",
+    "Scenario scripting",
+    "State transition handling",
+    "Heuristic optimization",
+    "Game mechanics abstraction",
+    "Scoring algorithm design",
+    "Quest generation systems",
+    "Modular content packaging",
+    "Computational game analysis",
+    "Graph-based connectivity logic",
+    "Resource allocation strategies",
+    "Heuristic-driven AI solving",
+    "Constraint satisfaction",
+    "Dynamic difficulty adjustment",
+    "Package-based dependency injection",
+    "Simulation state serialization",
+    "Resource flow simulation",
+    "Mission-based progression logic",
+    "Sector quirk mutation",
+    "Automated testing of game states"
+  ],
+  "languages": [
+    "Python",
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 125,
+    "has_readme": true,
+    "sample_files": [
+      "files/slipways-solver/src/main.rs",
+      "files/core/quests.py",
+      "files/core/mutators.py",
+      "files/modes/campaign-diaspora/m-baqar/baq-final.py",
+      "files/menus/pages.py"
+    ]
+  },
+  "_hash": "fdfc12f2d71817b2ec4019a08693838e4020fdbe7f1f84473c13af863e58d9df",
+  "_path": "/Users/ember/dev/slipways-core",
+  "_updated_at": "2026-02-14T00:56:30.368133Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fa86359ee68c85166e8953f704fa63535f639da5c0865f6d900380ffc760fae7",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:50.487077+00:00"
+  },
+  "mined_motifs": [
+    "cpp",
+    "networking",
+    "game-engine",
+    "physics-engine",
+    "multiplayer",
+    "simulation",
+    "real-time-strategy",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "westwood-studios",
+    "Network Synchronization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.843
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.832
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.829
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.829
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.826
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.825
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.823
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.822
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Event-driven gameplay loops",
+      "Procedural map generation",
+      "Trade network optimization",
+      "Data-driven entity configuration",
+      "Economic resource modeling",
+      "Scenario scripting",
+      "State transition handling",
+      "Heuristic optimization",
+      "Game mechanics abstraction",
+      "Scoring algorithm design",
+      "Quest generation systems",
+      "Modular content packaging",
+      "Computational game analysis",
+      "Graph-based connectivity logic",
+      "Resource allocation strategies",
+      "Heuristic-driven AI solving",
+      "Constraint satisfaction",
+      "Dynamic difficulty adjustment",
+      "Package-based dependency injection",
+      "Simulation state serialization",
+      "Resource flow simulation",
+      "Mission-based progression logic",
+      "Sector quirk mutation",
+      "Automated testing of game states"
+    ],
+    "tags": [
+      "slipways",
+      "game-engine",
+      "python",
+      "Rust Language Ecosystem",
+      "strategy-game",
+      "Procedural Generation",
+      "optimization",
+      "modding",
+      "scripting-engine",
+      "economic-simulation",
+      "state-machine",
+      "data-driven",
+      "game-design",
+      "solver",
+      "trade-mechanics",
+      "campaign-scripting"
+    ],
+    "mined_motifs": [
+      "cpp",
+      "networking",
+      "game-engine",
+      "physics-engine",
+      "multiplayer",
+      "real-time-simulation",
+      "real-time-strategy",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "westwood-studios",
+      "Network Synchronization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.476,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.471,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.466,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.457,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.444,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.401,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.368133Z"
+  }
+}

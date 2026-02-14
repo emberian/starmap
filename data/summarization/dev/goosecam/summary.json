@@ -1,0 +1,222 @@
+{
+  "name": "goosecam",
+  "description": "An augmented reality application built with the Bevy engine that integrates real-time webcam telemetry with interactive 2D assets. It employs ONNX-based computer vision for frame segmentation and background removal, overlaying a procedurally animated goose entity onto processed video streams.",
+  "tags": [
+    "rust",
+    "bevy-engine",
+    "computer-vision",
+    "augmented-reality",
+    "onnx-runtime",
+    "webcam-api",
+    "real-time-rendering",
+    "image-processing",
+    "background-removal",
+    "sprite-animation",
+    "nokhwa",
+    "game-loop",
+    "procedural-animation",
+    "video-segmentation"
+  ],
+  "category": "Augmented Reality Computer Vision",
+  "concepts": [
+    "Entity Component System (ECS)",
+    "Real-time Buffer Processing",
+    "ONNX Inference Engine Pipeline",
+    "Semantic Segmentation",
+    "RGB-to-RGBA Pixel Manipulation",
+    "Asynchronous Frame Acquisition",
+    "Procedural Sprite Hierarchies",
+    "State-based Animation Controllers",
+    "Hardware-accelerated Rendering",
+    "Cross-platform Video Capture"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/goose.rs",
+      "src/webcam.rs",
+      "src/processing.rs"
+    ]
+  },
+  "_hash": "094968d8df6ec4757b00348a08a41fbf0e3706e25bedad81276f2df47a14273e",
+  "_path": "/Users/ember/dev/goosecam",
+  "_updated_at": "2026-02-14T00:56:29.080416Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Entity Component System (ECS)",
+      "Real-time Buffer Processing",
+      "ONNX Inference Engine Pipeline",
+      "Semantic Segmentation",
+      "RGB-to-RGBA Pixel Manipulation",
+      "Asynchronous Frame Acquisition",
+      "Procedural Sprite Hierarchies",
+      "State-based Animation Controllers",
+      "Hardware-accelerated Rendering",
+      "Cross-platform Video Capture"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "bevy-engine",
+      "computer-vision",
+      "augmented-reality",
+      "onnx-runtime",
+      "webcam-api",
+      "Computer Graphics & Rendering",
+      "image-processing",
+      "background-removal",
+      "sprite-animation",
+      "nokhwa",
+      "game-loop",
+      "procedural-animation",
+      "video-segmentation"
+    ],
+    "mined_motifs": [
+      "glfw",
+      "opengl",
+      "Texture Mapping",
+      "glsl",
+      "systems-programming",
+      "Procedural Generation",
+      "graphics-engine",
+      "Non-blocking I/O",
+      "Computer Graphics & Rendering",
+      "shader-programming",
+      "3d-graphics",
+      "Arc-ball Camera"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.173,
+        "matches": [
+          "shader-programming",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.764,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.759,
+        "matches": [
+          "procedural generation",
+          "game-loop"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.343,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.323,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 3.927,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.080416Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "26d8cfb92b52fd3183bfa99ca7fe93ad7a9877b74232955e1963e381f08fc383",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:41.745954+00:00"
+  },
+  "mined_motifs": [
+    "glfw",
+    "opengl",
+    "Texture Mapping",
+    "glsl",
+    "low-level",
+    "procedural-generation",
+    "graphics-engine",
+    "Non-blocking I/O",
+    "graphics-programming",
+    "shader-programming",
+    "3d-graphics",
+    "Arc-ball Camera"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.798
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.795
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.792
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.791
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.788
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.787
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.787
+    },
+    {
+      "name": "good_night",
+      "path": "/Users/ember/dev/shitheap/good_night",
+      "similarity": 0.787
+    }
+  ]
+}

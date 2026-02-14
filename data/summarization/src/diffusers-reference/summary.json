@@ -1,0 +1,280 @@
+{
+  "name": "diffusers-reference",
+  "description": "A comprehensive modular library for state-of-the-art pretrained diffusion models supporting image, audio, and video generation. It provides a unified API for complex inference pipelines, interchangeable noise schedulers, and diverse model architectures including UNets and Transformers. The framework supports multiple backends like PyTorch and Flax, focusing on customizability for both research and production workflows.",
+  "tags": [
+    "diffusion-models",
+    "pytorch",
+    "stable-diffusion",
+    "huggingface",
+    "generative-ai",
+    "image-generation",
+    "video-generation",
+    "transformers",
+    "controlnet",
+    "lora",
+    "onnx",
+    "flax",
+    "deep-learning",
+    "machine-learning",
+    "computer-vision",
+    "denoising"
+  ],
+  "category": "Latent Diffusion Frameworks",
+  "concepts": [
+    "Denoising Diffusion Probabilistic Models (DDPM)",
+    "Latent Diffusion Models (LDM)",
+    "Classifier-Free Guidance (CFG)",
+    "Ancestral Sampling",
+    "Flow Matching",
+    "Vision Transformers (ViT)",
+    "UNet Architectures",
+    "Variational Autoencoders (VAE)",
+    "ControlNet Adapters",
+    "Low-Rank Adaptation (LoRA)",
+    "Textual Inversion",
+    "DreamBooth",
+    "Latent Consistency Models (LCM)",
+    "Score-based Generative Modeling",
+    "Noise Schedulers",
+    "IP-Adapter",
+    "T2I-Adapter",
+    "Image-to-Image Translation",
+    "Inpainting and Outpainting",
+    "Text-to-Video Generation",
+    "Audio Diffusion",
+    "Model Quantization",
+    "BitsAndBytes",
+    "GGUF Format",
+    "Attention Slicing",
+    "CPU Offloading",
+    "ONNX Runtime Support",
+    "Flax/JAX Backend",
+    "Pipeline Orchestration",
+    "Multi-GPU Inference",
+    "Distributed Training",
+    "K-Diffusion",
+    "DPM-Solver",
+    "Euler Scheduling",
+    "PNDM",
+    "DDIM",
+    "Temporal Attention",
+    "Motion Modules",
+    "Zero-Shot Video Generation",
+    "Guidance Scale Optimization"
+  ],
+  "languages": [
+    "Python",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2366,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "Makefile",
+      "examples/server-async/utils/__init__.py",
+      "src/diffusers/__init__.py",
+      "src/diffusers/commands/__init__.py"
+    ]
+  },
+  "_hash": "a774439f62d2f919685b1eea5d56c6bb095e0d2425a1cb2f2d8f9d8c6ae338cd",
+  "_path": "/Users/ember/src/diffusers-reference",
+  "_updated_at": "2026-02-14T00:56:32.645532Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "89df12e0dc8db3377c25d897fef025bb4d746034012f93dcc3814deb6cdb097c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:09.772206+00:00"
+  },
+  "mined_motifs": [
+    "transformer",
+    "rust",
+    "cuda",
+    "typescript",
+    "Attention Masking",
+    "Bitwise Quantization",
+    "CUDA Kernels",
+    "Context Parallelism",
+    "DTensor",
+    "Distributed Checkpointing",
+    "Dynamic Resolution",
+    "EMA Weights"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "TurboDiffusion",
+      "path": "/Users/ember/src/TurboDiffusion",
+      "similarity": 0.884
+    },
+    {
+      "name": "flux-reference",
+      "path": "/Users/ember/src/flux-reference",
+      "similarity": 0.823
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.784
+    },
+    {
+      "name": "Qwen3-TTS",
+      "path": "/Users/ember/src/Qwen3-TTS",
+      "similarity": 0.784
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.776
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.775
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.775
+    },
+    {
+      "name": "ezgen",
+      "path": "/Users/ember/hellas/ezgen",
+      "similarity": 0.774
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Denoising Diffusion Probabilistic Models (DDPM)",
+      "Latent Diffusion Models (LDM)",
+      "Classifier-Free Guidance (CFG)",
+      "Ancestral Sampling",
+      "Flow Matching",
+      "Vision Transformers (ViT)",
+      "UNet Architectures",
+      "Variational Autoencoders (VAE)",
+      "ControlNet Adapters",
+      "Low-Rank Adaptation (LoRA)",
+      "Textual Inversion",
+      "DreamBooth",
+      "Latent Consistency Models (LCM)",
+      "Score-based Generative Modeling",
+      "Noise Schedulers",
+      "IP-Adapter",
+      "T2I-Adapter",
+      "Image-to-Image Translation",
+      "Inpainting and Outpainting",
+      "Text-to-Video Generation",
+      "Audio Diffusion",
+      "Model Quantization",
+      "BitsAndBytes",
+      "GGUF Format",
+      "Attention Slicing",
+      "CPU Offloading",
+      "ONNX Runtime Support",
+      "Flax/JAX Backend",
+      "Pipeline Orchestration",
+      "Multi-GPU Inference",
+      "Distributed Training",
+      "K-Diffusion",
+      "DPM-Solver",
+      "Euler Scheduling",
+      "PNDM",
+      "DDIM",
+      "Temporal Attention",
+      "Motion Modules",
+      "Zero-Shot Video Generation",
+      "Guidance Scale Optimization"
+    ],
+    "tags": [
+      "diffusion-models",
+      "pytorch",
+      "stable-diffusion",
+      "huggingface",
+      "generative-ai",
+      "image-generation",
+      "video-generation",
+      "transformers",
+      "controlnet",
+      "lora",
+      "onnx",
+      "flax",
+      "deep-learning",
+      "machine-learning",
+      "computer-vision",
+      "denoising"
+    ],
+    "mined_motifs": [
+      "transformer",
+      "Rust Language Ecosystem",
+      "cuda",
+      "typescript",
+      "Attention Masking",
+      "Bitwise Quantization",
+      "CUDA Kernels",
+      "Context Parallelism",
+      "DTensor",
+      "Distributed Checkpointing",
+      "Dynamic Resolution",
+      "EMA Weights"
+    ],
+    "metaconstellations": [
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 8.265,
+        "matches": [
+          "diffusion-models",
+          "transformer"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 6.901,
+        "matches": [
+          "generative-ai",
+          "transformer"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 6.755,
+        "matches": [
+          "cuda",
+          "lora"
+        ]
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 2.45,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.443,
+        "matches": []
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 2.436,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.645532Z"
+  }
+}

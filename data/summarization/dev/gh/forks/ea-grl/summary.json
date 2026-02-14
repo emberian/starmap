@@ -1,0 +1,238 @@
+{
+  "name": "ea-grl",
+  "description": "A high-performance, decentralized spatial computing platform forked from Third Room, leveraging the Matrix protocol for secure communication and state synchronization. It utilizes a multi-threaded architecture with a data-oriented Entity Component System (ECS) to manage complex 3D environments rendered through Three.js. The platform integrates WebSG for scene graph management, Rapier for deterministic physics, and a WebAssembly-based scripting runtime powered by QuickJS to enable extensible, interoperable virtual worlds.",
+  "tags": [
+    "matrix-protocol",
+    "ecs",
+    "bitecs",
+    "threejs",
+    "webgl",
+    "webxr",
+    "wasm",
+    "quickjs",
+    "gltf",
+    "physics-engine",
+    "rapier",
+    "decentralized",
+    "metaverse",
+    "spatial-audio",
+    "asset-pipeline",
+    "p2p-networking"
+  ],
+  "category": "Decentralized Spatial Computing Engine",
+  "concepts": [
+    "Matrix Protocol",
+    "Entity Component System",
+    "Web Scene Graph (WebSG)",
+    "Triple Buffering",
+    "Main-Thread/Worker Isolation",
+    "Deterministic Physics Simulation",
+    "GLTF Extension Pipelines",
+    "WASM Scripting Runtime",
+    "End-to-End Encryption (E2EE)",
+    "Spatial Audio Emitters",
+    "Network State Replication",
+    "Resource Management",
+    "WebXR Avatar Rigs",
+    "Asynchronous Asset Loading",
+    "SharedArrayBuffer Synchronization",
+    "Real-time Collision Detection"
+  ],
+  "languages": [
+    "TypeScript",
+    "C",
+    "C++",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1083,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/engine/renderer/materials/index.ts",
+      "src/ui/views/session/chat/tiles/index.tsx",
+      "src/ui/views/session/world-chat/tiles/index.tsx",
+      "src/engine/scripting/websg.ts"
+    ]
+  },
+  "_hash": "bc13ddd29c85cd0304c59c6d7cbccd677555d73d3ef73fd1ac509e0c6ad3d6a8",
+  "_path": "/Users/ember/dev/gh/forks/ea-grl",
+  "_updated_at": "2026-02-14T00:56:25.496244Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Matrix Protocol",
+      "Entity Component System",
+      "Web Scene Graph (WebSG)",
+      "Triple Buffering",
+      "Main-Thread/Worker Isolation",
+      "Deterministic Physics Simulation",
+      "GLTF Extension Pipelines",
+      "WASM Scripting Runtime",
+      "End-to-End Encryption (E2EE)",
+      "Spatial Audio Emitters",
+      "Network State Replication",
+      "Resource Management",
+      "WebXR Avatar Rigs",
+      "Asynchronous Asset Loading",
+      "SharedArrayBuffer Synchronization",
+      "Real-time Collision Detection"
+    ],
+    "tags": [
+      "matrix-protocol",
+      "ecs",
+      "bitecs",
+      "threejs",
+      "webgl",
+      "webxr",
+      "WebAssembly",
+      "quickjs",
+      "gltf",
+      "physics-engine",
+      "rapier",
+      "decentralized",
+      "metaverse",
+      "spatial-audio",
+      "asset-pipeline",
+      "p2p-networking"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "react",
+      "webassembly",
+      "game-engine",
+      "multiplayer",
+      "nix",
+      "real-time-simulation",
+      "axum",
+      "sqlite",
+      "cellular-automata",
+      "Asset Pipeline Optimization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.659,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.312,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.289,
+        "matches": [
+          "ecs"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.277,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.271,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.269,
+        "matches": [
+          "game-engine"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.496244Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3f6c5bfd59e3c60dd50f9cd2c09ef9dcdbff4562cf9e95db3259d7c788320094",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:27.118988+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "react",
+    "webassembly",
+    "game-engine",
+    "multiplayer",
+    "nix",
+    "Real-time Simulation",
+    "axum",
+    "sqlite",
+    "Cellular Automata",
+    "cellular-automata",
+    "Asset Pipeline Optimization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ea-grl2",
+      "path": "/Users/ember/dev/ea-grl2",
+      "similarity": 0.945
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.809
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.77
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.761
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.761
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.757
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.753
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.75
+    }
+  ]
+}

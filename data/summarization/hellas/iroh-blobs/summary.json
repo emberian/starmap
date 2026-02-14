@@ -1,0 +1,242 @@
+{
+  "name": "iroh-blobs",
+  "description": "A high-performance content-addressed blob transfer protocol and storage implementation for the iroh network stack. It leverages BLAKE3-verified streaming via Bao to enable efficient range requests and incremental verification over QUIC. The crate provides both persistent (redb-backed) and in-memory storage backends with a robust tagging system for lifecycle management.",
+  "tags": [
+    "iroh",
+    "blake3",
+    "bao",
+    "quic",
+    "p2p",
+    "content-addressing",
+    "verified-streaming",
+    "rust",
+    "distributed-systems",
+    "cas",
+    "redb",
+    "streaming-protocol"
+  ],
+  "category": "Content-Addressed Verified Streaming",
+  "concepts": [
+    "BLAKE3 hashing",
+    "Bao verified streaming",
+    "Content-addressed storage",
+    "QUIC transport",
+    "Blob sequence (HashSeq)",
+    "Outboard metadata",
+    "Range requests",
+    "Garbage collection (GC)",
+    "Tagging",
+    "BaoBatchWriter",
+    "Redb storage engine",
+    "State machine (FSM) protocol",
+    "Concurrent downloader",
+    "Protocol ALPN",
+    "Incremental verification",
+    "Blob tickets",
+    "Sparse memory files",
+    "Content-addressed links"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 81,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/store/fs.rs",
+      "src/rpc/client/blobs.rs",
+      "src/downloader.rs"
+    ]
+  },
+  "_hash": "cba05823bd0fd95c2521dea7e0acdd99d7b23c4f52925150bcc80521cec9d61f",
+  "_path": "/Users/ember/hellas/iroh-blobs",
+  "_updated_at": "2026-02-14T00:56:31.613309Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "375e4649d0831d389900559fe8bd6b494428e8879fd73668f390c00f4202cdd4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:36.374476+00:00"
+  },
+  "mined_motifs": [
+    "networking",
+    "quorum-certificates",
+    "Content-Addressable Storage",
+    "dht",
+    "state-machine",
+    "Partial Synchrony",
+    "Quorum Certificates",
+    "autobahn-protocol",
+    "bft-consensus",
+    "Byzantine Fault Tolerance (BFT)",
+    "byzantine-fault-tolerance",
+    "cryptography"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "iroh-blobs",
+      "path": "/Users/ember/dev/gh/forks/iroh-blobs",
+      "similarity": 0.946
+    },
+    {
+      "name": "iroh",
+      "path": "/Users/ember/hellas/iroh",
+      "similarity": 0.809
+    },
+    {
+      "name": "iroh-gossip",
+      "path": "/Users/ember/dev/gh/forks/iroh-gossip",
+      "similarity": 0.785
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.761
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.756
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.755
+    },
+    {
+      "name": "noosphere",
+      "path": "/Users/ember/dev/noosphere",
+      "similarity": 0.752
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.745
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "BLAKE3 hashing",
+      "Bao verified streaming",
+      "Content-addressed storage",
+      "QUIC transport",
+      "Blob sequence (HashSeq)",
+      "Outboard metadata",
+      "Range requests",
+      "Garbage collection (GC)",
+      "Tagging",
+      "BaoBatchWriter",
+      "Redb storage engine",
+      "State machine (FSM) protocol",
+      "Concurrent downloader",
+      "Protocol ALPN",
+      "Incremental verification",
+      "Blob tickets",
+      "Sparse memory files",
+      "Content-addressed links"
+    ],
+    "tags": [
+      "iroh",
+      "blake3",
+      "bao",
+      "quic",
+      "p2p",
+      "Content-Addressable Storage (CAS)",
+      "verified-streaming",
+      "Rust Language Ecosystem",
+      "distributed-systems",
+      "redb",
+      "streaming-protocol"
+    ],
+    "mined_motifs": [
+      "networking",
+      "quorum-certificates",
+      "Content-Addressable Storage (CAS)",
+      "dht",
+      "state-machine",
+      "Partial Synchrony",
+      "autobahn-protocol",
+      "Distributed Consensus",
+      "byzantine-fault-tolerance",
+      "cryptography"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 16.304,
+        "matches": [
+          "p2p",
+          "quic",
+          "verified-streaming",
+          "bao",
+          "blake3",
+          "iroh",
+          "category:Content-Addressed Verified Streaming"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 12.313,
+        "matches": [
+          "content-addressable storage (cas)",
+          "quic",
+          "dht",
+          "iroh",
+          "p2p"
+        ]
+      },
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 9.503,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "quorum-certificates",
+          "autobahn-protocol"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 8.001,
+        "matches": [
+          "distributed-systems",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.0,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 6.676,
+        "matches": [
+          "distributed consensus",
+          "p2p"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.613309Z"
+  }
+}

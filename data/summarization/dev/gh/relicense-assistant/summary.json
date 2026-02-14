@@ -1,0 +1,234 @@
+{
+  "name": "relicense-assistant",
+  "description": "An automation toolkit designed to facilitate the transition of Rust projects from single MIT or Apache-2.0 licenses to a dual-licensing model. The system orchestrates the entire lifecycle of a relicensing campaign, from harvesting repository metadata via crates.io to managing contributor consent checklists and submitting automated pull requests.",
+  "tags": [
+    "rust",
+    "crates-io",
+    "licensing",
+    "github-api",
+    "automation",
+    "compliance",
+    "mit-license",
+    "apache-2-0",
+    "oss-maintenance",
+    "workflow-orchestration",
+    "python",
+    "bash",
+    "git-automation",
+    "contributor-tracking"
+  ],
+  "category": "OSS License Migration Automation",
+  "concepts": [
+    "Crates.io metadata harvesting",
+    "GitHub API integration",
+    "Contributor consent tracking",
+    "Dual-license transition (MIT/Apache-2.0)",
+    "Automated pull request generation",
+    "GitHub issue checklists",
+    "Cargo.toml manifest patching",
+    "Legal workflow orchestration",
+    "Repository crawling",
+    "Rate-limited API interaction",
+    "State persistence for batch processing",
+    "Template-based license generation",
+    "README metadata injection",
+    "Hub CLI integration",
+    "Comment-driven consensus detection",
+    "Branch and fork management",
+    "GPG-less commit signing",
+    "Exception-driven error logging"
+  ],
+  "languages": [
+    "Python",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 38,
+    "has_readme": true,
+    "sample_files": [
+      "relicense.sh",
+      "update_checklists.py",
+      "update_issues.py",
+      "open_issues.py",
+      "crawl.py"
+    ]
+  },
+  "_hash": "7df874ed9ca2dcb1001ddf0ed83f078338fbc84e5efbc81f6c5ae650906f4af2",
+  "_path": "/Users/ember/dev/gh/relicense-assistant",
+  "_updated_at": "2026-02-14T00:56:28.105674Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Crates.io metadata harvesting",
+      "GitHub API integration",
+      "Contributor consent tracking",
+      "Dual-license transition (MIT/Apache-2.0)",
+      "Automated pull request generation",
+      "GitHub issue checklists",
+      "Cargo.toml manifest patching",
+      "Legal workflow orchestration",
+      "Repository crawling",
+      "Rate-limited API interaction",
+      "State persistence for batch processing",
+      "Template-based license generation",
+      "README metadata injection",
+      "Hub CLI integration",
+      "Comment-driven consensus detection",
+      "Branch and fork management",
+      "GPG-less commit signing",
+      "Exception-driven error logging"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "crates-io",
+      "licensing",
+      "github-api",
+      "automation",
+      "compliance",
+      "mit-license",
+      "apache-2-0",
+      "oss-maintenance",
+      "workflow-orchestration",
+      "python",
+      "bash",
+      "git-automation",
+      "contributor-tracking"
+    ],
+    "mined_motifs": [
+      "Metadata Extraction",
+      "json",
+      "foreign-function-interface",
+      "systems-programming",
+      "API Rate Limit Management",
+      "Asynchronous Metadata Ingestion",
+      "Categorical Data Reduction",
+      "Copyleft vs Permissive Trends",
+      "Crate Version History Tracking",
+      "Data Persistence Layer",
+      "Dependency Graph Metadata",
+      "Ecosystem Evolution Monitoring"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.168,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.434,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.412,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.38,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.957,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 2.613,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.105674Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4f3aca56c58e6b8c433e9a952a3428e44052fee618fd8e6ac821853198eb6e80",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:14.368841+00:00"
+  },
+  "mined_motifs": [
+    "Metadata Extraction",
+    "json",
+    "Foreign Function Interface (FFI)",
+    "system-programming",
+    "API Rate Limit Management",
+    "Asynchronous Metadata Ingestion",
+    "Categorical Data Reduction",
+    "Copyleft vs Permissive Trends",
+    "Crate Version History Tracking",
+    "Data Persistence Layer",
+    "Dependency Graph Metadata",
+    "Ecosystem Evolution Monitoring"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "crates_io_licenses_over_time",
+      "path": "/Users/ember/dev/gh/crates_io_licenses_over_time",
+      "similarity": 0.844
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.842
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.825
+    },
+    {
+      "name": "cargo-public-api",
+      "path": "/Users/ember/src/cargo-public-api",
+      "similarity": 0.824
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.822
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.82
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.819
+    },
+    {
+      "name": "rustaceans.org",
+      "path": "/Users/ember/dev/gh/forks/rustaceans.org",
+      "similarity": 0.818
+    }
+  ]
+}

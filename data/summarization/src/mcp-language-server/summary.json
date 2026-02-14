@@ -1,0 +1,223 @@
+{
+  "name": "mcp-language-server",
+  "description": "A Model Context Protocol (MCP) implementation that bridges Large Language Models with the Language Server Protocol (LSP). It exposes high-precision static analysis tools like symbol definition retrieval, reference tracking, and diagnostic reporting by proxying requests to standard LSP backends like pyright, tsserver, and gopls.",
+  "tags": [
+    "mcp",
+    "lsp",
+    "language-server",
+    "go",
+    "static-analysis",
+    "code-navigation",
+    "llm-tooling",
+    "json-rpc",
+    "workspace-automation",
+    "refactoring",
+    "diagnostics",
+    "codelens"
+  ],
+  "category": "LSP-MCP Bridge Middleware",
+  "concepts": [
+    "Language Server Protocol",
+    "Model Context Protocol",
+    "JSON-RPC 2.0",
+    "Static Analysis Tooling",
+    "Code Navigation",
+    "Workspace Diagnostics",
+    "Text Document Synchronization",
+    "Automated Code Refactoring",
+    "Symbol Resolution",
+    "Reference Analysis",
+    "CodeLens Execution",
+    "Asynchronous Event Handling",
+    "FileSystem Watcher Integration",
+    "Type-Safe Protocol Marshalling"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 42,
+    "has_readme": true,
+    "sample_files": [
+      "go.mod",
+      "cmd/generate/main.go",
+      "cmd/test-lsp/main.go",
+      "main.go",
+      "internal/protocol/tsjson.go"
+    ]
+  },
+  "_hash": "6167fef5de6f7c306a7232ca1d072fe375c1e0fe6e8cc62fff9cab94dc2471e7",
+  "_path": "/Users/ember/src/mcp-language-server",
+  "_updated_at": "2026-02-14T00:56:33.146480Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "99c51c2026cb4bb936935706e95e674dab4014ec1a46225cd5a578dde7c980db",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:40.432680+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "typescript",
+    "blockchain",
+    "Child Process Communication",
+    "Context-Aware Completion",
+    "Dependent Type Theory",
+    "Elaboration Diagnostics",
+    "Formal Verification",
+    "Go-to-Definition",
+    "Mathematical Notation",
+    "Proof Assistants",
+    "Proof State Visualization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.872
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.87
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.866
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.862
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.86
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.86
+    },
+    {
+      "name": "rmcp-sdk",
+      "path": "/Users/ember/src/rmcp-sdk",
+      "similarity": 0.859
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.859
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Language Server Protocol",
+      "Model Context Protocol",
+      "JSON-RPC 2.0",
+      "Static Analysis Tooling",
+      "Code Navigation",
+      "Workspace Diagnostics",
+      "Text Document Synchronization",
+      "Automated Code Refactoring",
+      "Symbol Resolution",
+      "Reference Analysis",
+      "CodeLens Execution",
+      "Asynchronous Event Handling",
+      "FileSystem Watcher Integration",
+      "Type-Safe Protocol Marshalling"
+    ],
+    "tags": [
+      "model-context-protocol",
+      "lsp",
+      "language-server",
+      "go",
+      "static-analysis",
+      "code-navigation",
+      "llm-tooling",
+      "json-rpc",
+      "workspace-automation",
+      "refactoring",
+      "diagnostics",
+      "codelens"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "typescript",
+      "blockchain",
+      "Child Process Communication",
+      "Context-Aware Completion",
+      "Dependent Type Theory",
+      "Elaboration Diagnostics",
+      "Formal Verification",
+      "Go-to-Definition",
+      "Mathematical Notation",
+      "Proof Assistants",
+      "Proof State Visualization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 6.738,
+        "matches": [
+          "json-rpc",
+          "category:LSP-MCP Bridge Middleware"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.566,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.549,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 5.523,
+        "matches": [
+          "formal verification"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.516,
+        "matches": [
+          "formal verification"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 5.508,
+        "matches": [
+          "dependent type theory"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.146480Z"
+  }
+}

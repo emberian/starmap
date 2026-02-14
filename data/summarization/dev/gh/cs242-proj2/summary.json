@@ -1,0 +1,199 @@
+{
+  "name": "cs242-proj2",
+  "description": "A Spring Boot micro-service implementing a genre-based song metadata repository. It leverages Java binary serialization for state persistence and provides a RESTful interface for managing song entries and genre classifications. The system integrates a basic HTML frontend and demonstrates core MVC principles within the Spring ecosystem.",
+  "tags": [
+    "java",
+    "spring-boot",
+    "rest-api",
+    "serialization",
+    "media-metadata",
+    "mvc",
+    "gradle",
+    "web-service"
+  ],
+  "category": "RESTful Media Metadata Service",
+  "concepts": [
+    "Spring Boot",
+    "Java Binary Serialization",
+    "RESTful Web Services",
+    "MVC Architecture",
+    "Persistent State Management",
+    "Data Beans",
+    "MIME Type Handling",
+    "Genre-based Classification",
+    "Dependency Injection",
+    "Request Mapping"
+  ],
+  "languages": [
+    "Java",
+    "HTML"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": false,
+    "sample_files": [
+      "src/main/java/brickettes/SongCollection.java",
+      "src/main/java/brickettes/SongBean.java",
+      "src/main/java/brickettes/SongCollectionController.java",
+      "src/main/java/brickettes/Application.java"
+    ]
+  },
+  "_hash": "4f1ed5eb7b841cfde237ad7606e7d804895fbdc435c69b99c95257160f120174",
+  "_path": "/Users/ember/dev/gh/cs242-proj2",
+  "_updated_at": "2026-02-14T00:56:24.859417Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Spring Boot",
+      "Java Binary Serialization",
+      "RESTful Web Services",
+      "MVC Architecture",
+      "Persistent State Management",
+      "Data Beans",
+      "MIME Type Handling",
+      "Genre-based Classification",
+      "Dependency Injection",
+      "Request Mapping"
+    ],
+    "tags": [
+      "java",
+      "spring-boot",
+      "rest-api",
+      "Data Serialization",
+      "media-metadata",
+      "mvc",
+      "gradle",
+      "web-service"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "library-management",
+      "iron-framework",
+      "backend",
+      "python",
+      "rpc-framework",
+      "schema-compiler",
+      "JSON Deserialization",
+      "http",
+      "cryptographic-hashing",
+      "entity-relational-mapping",
+      "external-service-integration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.628,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.192,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.392,
+        "matches": []
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 2.392,
+        "matches": []
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.386,
+        "matches": []
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.383,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.859417Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "43400620f532205e94158714525ff83d8e5246db3530caded25d2a7beba76081",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:47.679294+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "library-management",
+    "iron-framework",
+    "backend",
+    "python",
+    "rpc-framework",
+    "schema-compiler",
+    "JSON Deserialization",
+    "http",
+    "cryptographic-hashing",
+    "entity-relational-mapping",
+    "external-service-integration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.786
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.778
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.766
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.764
+    },
+    {
+      "name": "cs142-proj2",
+      "path": "/Users/ember/dev/gh/cs142-proj2",
+      "similarity": 0.76
+    },
+    {
+      "name": "Protogen",
+      "path": "/Users/ember/dev/gh/Protogen",
+      "similarity": 0.756
+    },
+    {
+      "name": "alexandria-client",
+      "path": "/Users/ember/dev/gh/alexandria-client",
+      "similarity": 0.756
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.754
+    }
+  ]
+}

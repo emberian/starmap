@@ -1,0 +1,233 @@
+{
+  "name": "jj (Jujutsu)",
+  "description": "Jujutsu is a Git-compatible version control system designed for speed, correctness, and ease of history manipulation. It employs a working-copy-as-a-commit model where changes are automatically snapshotted, and it treats merge conflicts as first-class, evaluatable objects in its graph. The system features a functional revset language for commit selection, a robust operation log with built-in undo capabilities, and automatic propagation of rebases and conflict resolutions.",
+  "tags": [
+    "vcs",
+    "git-compatible",
+    "dvcs",
+    "rust",
+    "revsets",
+    "conflict-resolution",
+    "rebase",
+    "snapshotting",
+    "mercurial-inspired",
+    "darcs-inspired",
+    "version-control",
+    "history-rewriting",
+    "operation-log",
+    "cli"
+  ],
+  "category": "Distributed Version Control System",
+  "concepts": [
+    "Working-copy-as-a-commit",
+    "First-class Conflict Objects",
+    "Revset Query Language",
+    "Operation Log and Undo",
+    "Automatic Parent Rebasing",
+    "Storage Backend Abstraction",
+    "Git Colocation",
+    "Physical vs. Logical Storage",
+    "Snapshot-based Versioning",
+    "Conflict Propagation",
+    "Concurrent Replication Safety",
+    "Change ID vs. Commit ID",
+    "Immutable Revsets",
+    "Template-based Output Formatting",
+    "Staging-area Elimination"
+  ],
+  "languages": [
+    "Rust",
+    "Shell",
+    "Nix",
+    "TypeScript",
+    "Python",
+    "Pest"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 652,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "pyproject.toml",
+      "flake.nix",
+      "cli/examples/custom-backend/main.rs",
+      "cli/examples/custom-command/main.rs"
+    ]
+  },
+  "_hash": "2c777d4e2cad41609063fb2c37db3af554a15ec2f5e5654f7be3006d767c69f8",
+  "_path": "/Users/ember/src/jj",
+  "_updated_at": "2026-02-14T00:56:33.015512Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ddc84c3179124b4c8cec0caff800bdb26961d3e4eaead42afe8a90ef90fc2c9e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:30.481456+00:00"
+  },
+  "mined_motifs": [
+    "git",
+    "Delta Compression",
+    "distributed-systems",
+    "collaboration",
+    "Version Control Systems",
+    "Attribute Filtering",
+    "Conflict Resolution",
+    "Content-Addressable Storage",
+    "D/F Conflicts",
+    "Index Staging",
+    "Object Database (ODB)",
+    "Packfile Processing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.835
+    },
+    {
+      "name": "git2-rs",
+      "path": "/Users/ember/dev/gh/forks/git2-rs",
+      "similarity": 0.784
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.78
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.778
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.777
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.775
+    },
+    {
+      "name": "Outlet",
+      "path": "/Users/ember/dev/gh/forks/Outlet",
+      "similarity": 0.772
+    },
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.772
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Working-copy-as-a-commit",
+      "First-class Conflict Objects",
+      "Revset Query Language",
+      "Operation Log and Undo",
+      "Automatic Parent Rebasing",
+      "Storage Backend Abstraction",
+      "Git Colocation",
+      "Physical vs. Logical Storage",
+      "Snapshot-based Versioning",
+      "Conflict Propagation",
+      "Concurrent Replication Safety",
+      "Change ID vs. Commit ID",
+      "Immutable Revsets",
+      "Template-based Output Formatting",
+      "Staging-area Elimination"
+    ],
+    "tags": [
+      "vcs",
+      "git-compatible",
+      "dvcs",
+      "Rust Language Ecosystem",
+      "revsets",
+      "conflict-resolution",
+      "rebase",
+      "snapshotting",
+      "mercurial-inspired",
+      "darcs-inspired",
+      "version-control",
+      "history-rewriting",
+      "operation-log",
+      "cli"
+    ],
+    "mined_motifs": [
+      "git",
+      "Delta Compression",
+      "distributed-systems",
+      "collaboration",
+      "Version Control Systems",
+      "Attribute Filtering",
+      "Conflict Resolution",
+      "Content-Addressable Storage (CAS)",
+      "D/F Conflicts",
+      "Index Staging",
+      "Object Database (ODB)",
+      "Packfile Processing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.325,
+        "matches": [
+          "content-addressable storage (cas)"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.323,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.321,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.316,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.316,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.316,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.015512Z"
+  }
+}

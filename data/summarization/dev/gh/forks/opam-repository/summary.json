@@ -1,0 +1,263 @@
+{
+  "name": "opam-repository",
+  "description": "opam-repository appears to be a web/app project using Shell, OCaml, C. The available files suggest focus areas around opam, oasis, remove, ocaml.",
+  "tags": [
+    "Shell",
+    "OCaml",
+    "C",
+    "C++",
+    "Python",
+    "opam",
+    "oasis",
+    "remove",
+    "meta",
+    "install",
+    "flowtype",
+    "jenga",
+    "core",
+    "mirage",
+    "build",
+    "config.ml"
+  ],
+  "category": "Web/App",
+  "concepts": [
+    "opam",
+    "oasis",
+    "remove",
+    "ocaml",
+    "meta",
+    "install",
+    "flowtype",
+    "jenga",
+    "core",
+    "mirage",
+    "build",
+    "config.ml",
+    "warn",
+    "error",
+    "configure",
+    "test",
+    "disable",
+    "oasis2opam",
+    "ocamlfind",
+    "utop",
+    "ocamlnet",
+    "clangml",
+    "atdgen",
+    "camlp5",
+    "coqide",
+    "menhir",
+    "stog",
+    "bisect",
+    "cppo",
+    "obuild",
+    "uninstall",
+    "make",
+    "with",
+    "0001",
+    "corebuild",
+    "makefile",
+    "string",
+    "usbmux",
+    "yojson",
+    "detect"
+  ],
+  "languages": [
+    "Shell",
+    "OCaml",
+    "C",
+    "C++",
+    "Python"
+  ],
+  "maturity": "exploratory",
+  "_hash": "a8d5f5a8e4463cbb02bbfc6ef43b71cecf5e7e1e39e43e54b02f2ae0f87dff59",
+  "_path": "/Users/ember/dev/gh/forks/opam-repository",
+  "_updated_at": "2026-02-14T00:56:26.231279Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "opam",
+      "oasis",
+      "remove",
+      "ocaml",
+      "meta",
+      "install",
+      "flowtype",
+      "jenga",
+      "core",
+      "mirage",
+      "build",
+      "config.ml",
+      "warn",
+      "error",
+      "configure",
+      "test",
+      "disable",
+      "oasis2opam",
+      "ocamlfind",
+      "utop",
+      "ocamlnet",
+      "clangml",
+      "atdgen",
+      "camlp5",
+      "coqide",
+      "menhir",
+      "stog",
+      "bisect",
+      "cppo",
+      "obuild",
+      "uninstall",
+      "make",
+      "with",
+      "0001",
+      "corebuild",
+      "makefile",
+      "string",
+      "usbmux",
+      "yojson",
+      "detect"
+    ],
+    "tags": [
+      "Shell",
+      "OCaml",
+      "C",
+      "C++",
+      "Python",
+      "opam",
+      "oasis",
+      "remove",
+      "meta",
+      "install",
+      "flowtype",
+      "jenga",
+      "core",
+      "mirage",
+      "build",
+      "config.ml"
+    ],
+    "mined_motifs": [
+      "dune",
+      "main",
+      "day1",
+      "day10",
+      "day12",
+      "day13",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "JavaScript",
+      "config"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 2.185,
+        "matches": []
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.14,
+        "matches": []
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.14,
+        "matches": []
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 2.112,
+        "matches": []
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.1,
+        "matches": []
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.087,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.231279Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6c587c91c81af9d4428838e1ff0e0271a110943ab7383d7401112e74f83b76e9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:59.188338+00:00"
+  },
+  "mined_motifs": [
+    "dune",
+    "main",
+    "day1",
+    "day10",
+    "day12",
+    "day13",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "JavaScript",
+    "config"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.781
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.734
+    },
+    {
+      "name": "macports-ports",
+      "path": "/Users/ember/dev/macports-ports",
+      "similarity": 0.718
+    },
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.702
+    },
+    {
+      "name": "aoc23",
+      "path": "/Users/ember/dev/gh/aoc23",
+      "similarity": 0.702
+    },
+    {
+      "name": "aoc",
+      "path": "/Users/ember/dev/aoc",
+      "similarity": 0.699
+    },
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.688
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.683
+    }
+  ]
+}

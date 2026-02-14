@@ -1,0 +1,257 @@
+{
+  "name": "byteorder",
+  "description": "This crate provides low-level primitives for encoding and decoding numeric types with explicit big-endian or little-endian byte ordering. It implements a set of extension traits for standard input/output interfaces, enabling seamless integration with stream-based data processing workflows. Designed for systems-level performance, it supports no_std environments and includes optimized routines for fixed-width and arbitrary-width integer types.",
+  "tags": [
+    "rust",
+    "endianness",
+    "big-endian",
+    "little-endian",
+    "binary-serialization",
+    "io-extension",
+    "no-std",
+    "numeric-encoding",
+    "performance-optimized",
+    "byte-manipulation",
+    "data-marshalling",
+    "bit-level-io",
+    "cross-platform",
+    "systems-programming",
+    "crate",
+    "library"
+  ],
+  "category": "Binary Endianness Marshalling",
+  "concepts": [
+    "big-endian encoding",
+    "little-endian encoding",
+    "host byte order",
+    "byte swapping",
+    "trait-based extensions",
+    "stream-based deserialization",
+    "buffer-oriented serialization",
+    "IEEE 754 floating point",
+    "signed integer encoding",
+    "unsigned integer encoding",
+    "variable-width integers",
+    "memory safety",
+    "no_std compatibility",
+    "conditional compilation",
+    "zero-cost abstractions",
+    "bitwise shifting",
+    "sign extension",
+    "panic-safe indexing",
+    "input validation",
+    "output buffering",
+    "binary format compatibility",
+    "data alignment",
+    "low-level hardware abstraction",
+    "architectural independence",
+    "pointer manipulation",
+    "transmute-based optimization",
+    "benchmarking"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 10,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/lib.rs",
+      "src/new.rs",
+      "benches/bench.rs"
+    ]
+  },
+  "_hash": "f23cae82441711364cf2a5518734a4e46226c845cea0ad918c603832baf92ef4",
+  "_path": "/Users/ember/dev/gh/forks/byteorder",
+  "_updated_at": "2026-02-14T00:56:25.336959Z",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "big-endian encoding",
+      "little-endian encoding",
+      "host byte order",
+      "byte swapping",
+      "trait-based extensions",
+      "stream-based deserialization",
+      "buffer-oriented serialization",
+      "IEEE 754 floating point",
+      "signed integer encoding",
+      "unsigned integer encoding",
+      "variable-width integers",
+      "memory safety",
+      "no_std compatibility",
+      "conditional compilation",
+      "zero-cost abstractions",
+      "bitwise shifting",
+      "sign extension",
+      "panic-safe indexing",
+      "input validation",
+      "output buffering",
+      "binary format compatibility",
+      "data alignment",
+      "low-level hardware abstraction",
+      "architectural independence",
+      "pointer manipulation",
+      "transmute-based optimization",
+      "benchmarking"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "endianness",
+      "big-endian",
+      "little-endian",
+      "Data Serialization",
+      "io-extension",
+      "numeric-encoding",
+      "performance-optimized",
+      "byte-manipulation",
+      "Binary Serialization",
+      "bit-level-io",
+      "cross-platform",
+      "Systems Programming",
+      "crate",
+      "library"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "zero-copy",
+      "systems-programming",
+      "foreign-function-interface",
+      "performance",
+      "data-interchange",
+      "deserialization",
+      "serde",
+      "binary-protocol",
+      "capnproto",
+      "schema-compiler"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.266,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.241,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.893,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.531,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.467,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.455,
+        "matches": [
+          "benchmarking"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.336959Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e5f695a49ce51c8ee05012c1d31611cf177315a39efe3abc508d26b9b89b91f7",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:19.378125+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "zero-copy",
+    "low-level",
+    "Foreign Function Interface",
+    "ffi",
+    "performance",
+    "data-interchange",
+    "deserialization",
+    "serde",
+    "binary-protocol",
+    "capnproto",
+    "schema-compiler"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.886
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.855
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.853
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.851
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.846
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.841
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.84
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.839
+    }
+  ]
+}

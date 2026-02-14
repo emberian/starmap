@@ -1,0 +1,199 @@
+{
+  "name": "cs447",
+  "description": "A collection of algorithmic implementations for the Subset Sum problem and its variants, specifically focusing on dynamic programming and two-pointer optimizations. The codebase includes solutions for exact target sums, modular arithmetic targets (multiples of 100), and efficient pair-sum identification in sorted arrays using binary search.",
+  "tags": [
+    "algorithms",
+    "subset-sum",
+    "dynamic-programming",
+    "modular-arithmetic",
+    "two-pointer-algorithm",
+    "binary-search",
+    "cpp",
+    "academic-coursework",
+    "problem-solving"
+  ],
+  "category": "Combinatorial Optimization Algorithms",
+  "concepts": [
+    "subset sum problem",
+    "dynamic programming",
+    "modular subset sum",
+    "two-pointer technique",
+    "binary search",
+    "computational complexity",
+    "array manipulation",
+    "dynamic memory management"
+  ],
+  "languages": [
+    "C++",
+    "Makefile"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": false,
+    "sample_files": [
+      "hw1/subsum_hw.cpp",
+      "hw1/subsum_mod100.cpp",
+      "hw1/ss2.cpp"
+    ]
+  },
+  "_hash": "86f2dbc9baf1069491757dc8f27b20ab013d9c5a417366ff1fcc5b1ba65fb394",
+  "_path": "/Users/ember/dev/gh/cs447",
+  "_updated_at": "2026-02-14T00:56:24.956548Z",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "subset sum problem",
+      "dynamic programming",
+      "modular subset sum",
+      "two-pointer technique",
+      "binary search",
+      "computational complexity",
+      "array manipulation",
+      "dynamic memory management"
+    ],
+    "tags": [
+      "algorithms",
+      "subset-sum",
+      "dynamic-programming",
+      "modular-arithmetic",
+      "two-pointer-algorithm",
+      "binary-search",
+      "cpp",
+      "academic-coursework",
+      "problem-solving"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "AST",
+      "Lexical Analysis",
+      "templates",
+      "data-structures",
+      "recursion",
+      "Depth-First Search",
+      "Type Inference",
+      "Lexical Scoping",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 8.183,
+        "matches": [
+          "ast",
+          "lexical analysis"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.809,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.402,
+        "matches": [
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.575,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.568,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.565,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.956548Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "15b16ae71ed1e6b6ebb74caed90da6f93cadfb4f67f632220f1a1963c0e73bb1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:52.838664+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "templates",
+    "data-structures",
+    "recursion",
+    "Depth-First Search",
+    "Type Inference",
+    "Lexical Scoping",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.867
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.853
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.836
+    },
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.831
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.83
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.826
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.823
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "name": "heavy_wizardry",
+  "description": "A minimalist exploration into the manual construction of ELF (Executable and Linkable Format) binaries using assembly. The project focuses on hand-crafting executable headers and program tables to achieve extreme size optimization or demonstrate non-standard binary layouts. It serves as a low-level demonstration of system bootstrapping and the intricacies of the ELF specification.",
+  "tags": [
+    "elf",
+    "assembly",
+    "low-level",
+    "binary-manipulation",
+    "size-optimization",
+    "executable-format",
+    "systems-programming"
+  ],
+  "category": "ELF Binary Crafting",
+  "concepts": [
+    "ELF Header",
+    "Program Header Table",
+    "Entry Point Specification",
+    "System Call Interface",
+    "Binary Layout Optimization",
+    "Machine Code Injection",
+    "Hand-crafted Binaries"
+  ],
+  "languages": [
+    "Assembly"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "8539b6e9e1d90549a66448fab78fb8a1cb977cb8d80e7a63ef84d50c61439d7a",
+  "_path": "/Users/ember/dev/gh/heavy_wizardry",
+  "_updated_at": "2026-02-14T00:56:27.300574Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "ELF Header",
+      "Program Header Table",
+      "Entry Point Specification",
+      "System Call Interface",
+      "Binary Layout Optimization",
+      "Machine Code Injection",
+      "Hand-crafted Binaries"
+    ],
+    "tags": [
+      "elf",
+      "assembly",
+      "systems-programming",
+      "binary-manipulation",
+      "size-optimization",
+      "executable-format",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "static-linking",
+      "Rust Language Ecosystem",
+      "lexical-analysis",
+      "Compiler Engineering",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "Lexical Scoping",
+      "abstract-syntax-tree",
+      "bison"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.252,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 8.232,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.227,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.435,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.425,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.657,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.300574Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1aba4b5a01f89c68dae15f59b46fc3587e9d1d5aeb4a922113bf3f6604c651aa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:48.727238+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "static-linking",
+    "rust",
+    "Tokenization",
+    "compiler-design",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "Lexical Scoping",
+    "Lexical Analysis",
+    "ast",
+    "bison"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "objtab",
+      "path": "/Users/ember/dev/objtab",
+      "similarity": 0.86
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.858
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.846
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.841
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.836
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.83
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.83
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.828
+    }
+  ]
+}

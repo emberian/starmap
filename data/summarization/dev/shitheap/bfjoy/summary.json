@@ -1,0 +1,210 @@
+{
+  "name": "bfjoy",
+  "description": "An experimental research prototype exploring the synthesis of Brainfuck's minimalistic tape-based memory model with the functional, stack-oriented combinators of the Joy programming language. It aims to provide a formal substrate for investigating hybrid concatenative-esoteric execution models and their semantic properties within a low-level runtime context.",
+  "tags": [
+    "brainfuck",
+    "joy",
+    "concatenative",
+    "esoteric",
+    "stack-oriented",
+    "low-level",
+    "minimalism",
+    "runtime",
+    "language-design",
+    "experimental"
+  ],
+  "category": "Concatenative Esoteric Language Design",
+  "concepts": [
+    "Stack-oriented Programming",
+    "Memory Tape Manipulation",
+    "Function Composition",
+    "Combinators",
+    "Formal Semantics",
+    "Point-free Style",
+    "Turing Completeness",
+    "Esoteric Language Design",
+    "Hybrid Execution Models",
+    "Minimalistic State Machines"
+  ],
+  "languages": [
+    "OCaml",
+    "Python"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 0,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/shitheap/bfjoy",
+  "_updated_at": "2026-02-14T00:56:30.225422Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Stack-oriented Programming",
+      "Memory Tape Manipulation",
+      "Function Composition",
+      "Combinators",
+      "formal-methods",
+      "Point-free Style",
+      "Turing Completeness",
+      "Esoteric Language Design",
+      "Hybrid Execution Models",
+      "Minimalistic State Machines"
+    ],
+    "tags": [
+      "brainfuck",
+      "joy",
+      "concatenative",
+      "esoteric",
+      "stack-oriented",
+      "systems-programming",
+      "minimalism",
+      "runtime",
+      "language-design",
+      "experimental"
+    ],
+    "mined_motifs": [
+      "interpreter",
+      "functional-programming",
+      "Lexical Scoping",
+      "compiler-design",
+      "dynamic-typing",
+      "AST",
+      "Lexical Analysis",
+      "logic-programming",
+      "symbolic-computation",
+      "c",
+      "repl",
+      "bytecode"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 10.912,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "bytecode",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.746,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.707,
+        "matches": [
+          "compiler-design",
+          "bytecode"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.324,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.311,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.309,
+        "matches": [
+          "formal-methods"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.225422Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b3e7227b750927c7d712ca0610f83d72c6030f270e97c74962a9f625293786ac",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:38.329559+00:00"
+  },
+  "mined_motifs": [
+    "interpreter",
+    "functional-programming",
+    "Lexical Scoping",
+    "compiler",
+    "dynamic-typing",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "logic-programming",
+    "symbolic-computation",
+    "c",
+    "repl",
+    "bytecode"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sol",
+      "path": "/Users/ember/dev/gh/forks/sol",
+      "similarity": 0.789
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.788
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.787
+    },
+    {
+      "name": "libreDSSP",
+      "path": "/Users/ember/dev/gh/forks/libreDSSP",
+      "similarity": 0.786
+    },
+    {
+      "name": "cbfi",
+      "path": "/Users/ember/dev/gh/cbfi-rs",
+      "similarity": 0.785
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.784
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.783
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.783
+    }
+  ]
+}

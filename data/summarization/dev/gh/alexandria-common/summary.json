@@ -1,0 +1,219 @@
+{
+  "name": "alexandria-common",
+  "description": "Alexandria-common serves as the shared data model layer for the Alexandria library management system, defining core schemas for inventory, users, and transaction history. It implements serializable domain objects and enums to represent library actions and permission levels, facilitating consistent data exchange across the project's ecosystem. The implementation focuses on mapping application-level logic to relational database primitives using early Rust serialization patterns.",
+  "tags": [
+    "rust",
+    "library-management",
+    "domain-models",
+    "serialization",
+    "database-schema",
+    "inventory-tracking",
+    "shared-primitives",
+    "access-control"
+  ],
+  "category": "Library Information System Middleware",
+  "concepts": [
+    "ISBN Indexing",
+    "User Authentication",
+    "Permission Gradation",
+    "Transaction Archiving",
+    "Inventory Auditing",
+    "Circulation Workflow",
+    "Object Serialization",
+    "Relational Schema Mapping",
+    "Temporal Metadata",
+    "State Representation",
+    "Domain-Driven Design",
+    "Book Lifecycle Management",
+    "Entity Relationships",
+    "Primitive Type Marshalling",
+    "Resource Allocation Tracking",
+    "Shared Library Primitives",
+    "Data Marshalling",
+    "Identity Management",
+    "Record Persistence",
+    "Status Enumeration"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "70f545b0b80fd48d0efe38f39dd65e8b7d09aa42dbd3ede9bc7d8ea9d76e3235",
+  "_path": "/Users/ember/dev/gh/alexandria-common",
+  "_updated_at": "2026-02-14T00:56:24.387375Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "ISBN Indexing",
+      "User Authentication",
+      "Permission Gradation",
+      "Transaction Archiving",
+      "Inventory Auditing",
+      "Circulation Workflow",
+      "Object Serialization",
+      "Relational Schema Mapping",
+      "Temporal Metadata",
+      "State Representation",
+      "Domain-Driven Design",
+      "Book Lifecycle Management",
+      "Entity Relationships",
+      "Primitive Type Marshalling",
+      "Resource Allocation Tracking",
+      "Shared Library Primitives",
+      "Data Marshalling",
+      "Identity Management",
+      "Record Persistence",
+      "Status Enumeration"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "library-management",
+      "domain-models",
+      "Data Serialization",
+      "database-schema",
+      "inventory-tracking",
+      "shared-primitives",
+      "access-control"
+    ],
+    "mined_motifs": [
+      "rest-api",
+      "backend",
+      "cryptographic-hashing",
+      "entity-relational-mapping",
+      "external-service-integration",
+      "google-books-api",
+      "inventory-state-tracking",
+      "iron-framework",
+      "isbn-api",
+      "isbn-metadata-retrieval",
+      "Data Serialization",
+      "Rust Language Ecosystem"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.562,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.507,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 5.442,
+        "matches": [
+          "access-control"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 4.048,
+        "matches": [
+          "access-control"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.723,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.72,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.387375Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ae630ebbd5f375815c52b829a59f509062d45cc0855cfe26b32e3b8e8f9bd843",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:25.233203+00:00"
+  },
+  "mined_motifs": [
+    "rest-api",
+    "backend",
+    "cryptographic-hashing",
+    "entity-relational-mapping",
+    "external-service-integration",
+    "google-books-api",
+    "inventory-state-tracking",
+    "iron-framework",
+    "isbn-api",
+    "isbn-metadata-retrieval",
+    "json-serialization",
+    "legacy-rust"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.909
+    },
+    {
+      "name": "alexandria-client",
+      "path": "/Users/ember/dev/gh/alexandria-client",
+      "similarity": 0.884
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.884
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.879
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.878
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.871
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.868
+    }
+  ]
+}

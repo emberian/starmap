@@ -1,0 +1,231 @@
+{
+  "name": "webapp2-auto",
+  "description": "A Rust-based WebAssembly frontend for the Automatafl game, leveraging the Leptos framework to provide a reactive, client-side rendered user interface. It incorporates SVG-based board rendering, real-time game state updates via WebSockets, and a robust asynchronous API client for authentication and lobby management. The application follows a component-based architecture designed for high-performance browser execution with modular subsystems for chat, game views, and matchmaking.",
+  "tags": [
+    "rust",
+    "wasm",
+    "leptos",
+    "websocket",
+    "svg-rendering",
+    "frontend",
+    "trunk",
+    "reactive-ui",
+    "game-client",
+    "webassembly",
+    "client-side-rendering",
+    "gloo-net",
+    "futures"
+  ],
+  "category": "Reactive WebAssembly Game Client",
+  "concepts": [
+    "Client-Side Rendering (CSR)",
+    "Reactive Signals and Effects",
+    "Asynchronous API Interaction",
+    "WebSocket State Synchronization",
+    "SVG Vector Graphics Rendering",
+    "Component-Based Architecture",
+    "Token-Based Authentication",
+    "Pub/Sub Messaging",
+    "Finite State Machine View Management",
+    "Local Storage Persistence",
+    "Real-time Bidirectional Communication",
+    "Modular Rust Crates",
+    "Wasm-Bindgen Integration",
+    "Event-Driven UI"
+  ],
+  "languages": [
+    "Rust",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/board.rs",
+      "src/game_view.rs",
+      "src/auth.rs"
+    ]
+  },
+  "_hash": "ba8211ed1537306303005fc78c8e2a377bf8b572568b88bb8c10cb363c1939be",
+  "_path": "/Users/ember/dev/webapp2-auto",
+  "_updated_at": "2026-02-14T00:56:30.983649Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1584a2568b90749d968e66951b895cf2b63b55c08672b00a8e662f62317cd9fe",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:04.465358+00:00"
+  },
+  "mined_motifs": [
+    "ssr",
+    "hydration",
+    "server-functions",
+    "signals",
+    "full-stack",
+    "matchmaking",
+    "websockets",
+    "reactivity",
+    "csr",
+    "web-sys",
+    "api-design",
+    "axum"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.878
+    },
+    {
+      "name": "automatafl-react",
+      "path": "/Users/ember/dev/automatafl-react",
+      "similarity": 0.878
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.869
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.858
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.852
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.843
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/leptos-book",
+      "similarity": 0.842
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/shylem/leptos-book",
+      "similarity": 0.839
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Client-Side Rendering (CSR)",
+      "Reactive Signals and Effects",
+      "Asynchronous API Interaction",
+      "WebSocket State Synchronization",
+      "SVG Vector Graphics Rendering",
+      "Component-Based Architecture",
+      "Token-Based Authentication",
+      "Pub/Sub Messaging",
+      "Finite State Machine View Management",
+      "Local Storage Persistence",
+      "Real-time Bidirectional Communication",
+      "Modular Rust Crates",
+      "Wasm-Bindgen Integration",
+      "Event-Driven UI"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "leptos",
+      "websocket",
+      "svg-rendering",
+      "frontend",
+      "trunk",
+      "reactive-ui",
+      "game-client",
+      "client-side-rendering",
+      "gloo-net",
+      "futures"
+    ],
+    "mined_motifs": [
+      "ssr",
+      "hydration",
+      "server-functions",
+      "fine-grained-reactivity",
+      "full-stack",
+      "matchmaking",
+      "websockets",
+      "reactivity",
+      "csr",
+      "web-sys",
+      "api-design",
+      "axum"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 18.061,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "leptos",
+          "server-functions",
+          "web-sys"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.448,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.448,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.429,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.423,
+        "matches": [
+          "api-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.362,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.983649Z"
+  }
+}

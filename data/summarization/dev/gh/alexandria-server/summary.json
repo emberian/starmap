@@ -1,0 +1,216 @@
+{
+  "name": "alexandria-server",
+  "description": "A legacy Rust backend for a library management system utilizing the Iron web framework and PostgreSQL for persistent storage. It provides RESTful endpoints for book inventory management, student record tracking, and transactional history logging, including integration with the Google Books API for ISBN metadata retrieval. The system implements scrypt-based password hashing and structured permission levels for granular user access control.",
+  "tags": [
+    "rust",
+    "iron-framework",
+    "postgresql",
+    "rest-api",
+    "isbn-api",
+    "google-books-api",
+    "scrypt",
+    "backend",
+    "library-management",
+    "legacy-rust"
+  ],
+  "category": "Digital Library Management",
+  "concepts": [
+    "restful-api-design",
+    "middleware-composition",
+    "postgresql-data-persistence",
+    "isbn-metadata-retrieval",
+    "scrypt-password-hashing",
+    "json-serialization",
+    "entity-relational-mapping",
+    "external-service-integration",
+    "user-authorization-levels",
+    "inventory-state-tracking",
+    "percent-encoding",
+    "static-asset-serving",
+    "request-body-parsing",
+    "runtime-configuration-loading",
+    "cryptographic-hashing",
+    "structured-logging"
+  ],
+  "languages": [
+    "Rust",
+    "SQL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "42d2db7cc4977a62451ad07016e5127896073cdbe5a0771b9b10337c7849fcca",
+  "_path": "/Users/ember/dev/gh/alexandria-server",
+  "_updated_at": "2026-02-14T00:56:24.393598Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "restful-api-design",
+      "middleware-composition",
+      "postgresql-data-persistence",
+      "isbn-metadata-retrieval",
+      "scrypt-password-hashing",
+      "Data Serialization",
+      "entity-relational-mapping",
+      "external-service-integration",
+      "user-authorization-levels",
+      "inventory-state-tracking",
+      "percent-encoding",
+      "static-asset-serving",
+      "request-body-parsing",
+      "runtime-configuration-loading",
+      "cryptographic-hashing",
+      "structured-logging"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "iron-framework",
+      "postgresql",
+      "rest-api",
+      "isbn-api",
+      "google-books-api",
+      "scrypt",
+      "backend",
+      "library-management"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "JSON Deserialization",
+      "systems-programming",
+      "Base URL Abstraction",
+      "Extensible Error Enums",
+      "Generic Data Access Controls",
+      "Generic Server Abstraction",
+      "Hyper HTTP Client",
+      "ISBN-based Indexing",
+      "Library Domain Model Integration",
+      "Macro-based Error Handling",
+      "Network Request Lifecycle"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.93,
+        "matches": [
+          "data serialization",
+          "postgresql"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.507,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.497,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.998,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.724,
+        "matches": []
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.708,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.393598Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6a76fccc2faf34309ddf2cfca696249c8d05859b82d45aa8ae722405661368c5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:25.992432+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "JSON Deserialization",
+    "system-programming",
+    "Base URL Abstraction",
+    "Extensible Error Enums",
+    "Generic Data Access Controls",
+    "Generic Server Abstraction",
+    "Hyper HTTP Client",
+    "ISBN-based Indexing",
+    "Library Domain Model Integration",
+    "Macro-based Error Handling",
+    "Network Request Lifecycle"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "alexandria-client",
+      "path": "/Users/ember/dev/gh/alexandria-client",
+      "similarity": 0.912
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.909
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.899
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.872
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.864
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.863
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.856
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.852
+    }
+  ]
+}

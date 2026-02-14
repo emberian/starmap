@@ -1,0 +1,233 @@
+{
+  "name": "Memento MCP",
+  "description": "Memento MCP is a high-performance knowledge graph memory system designed for Large Language Models using the Model Context Protocol. It implements a temporal knowledge graph with native Neo4j support for unified graph and vector storage, enabling semantic retrieval through OpenAI embeddings. The system features sophisticated relationship management including temporal versioning, confidence decay, and hybrid search capabilities for persistent ontological memory.",
+  "tags": [
+    "mcp",
+    "knowledge-graph",
+    "neo4j",
+    "semantic-search",
+    "vector-search",
+    "temporal",
+    "llm-memory",
+    "typescript",
+    "embeddings",
+    "openai",
+    "graph-database",
+    "ontological-memory"
+  ],
+  "category": "Temporal Knowledge Graph Memory Systems",
+  "concepts": [
+    "Knowledge Graph",
+    "Model Context Protocol (MCP)",
+    "Semantic Retrieval",
+    "Temporal Awareness",
+    "Vector Embeddings",
+    "Confidence Decay",
+    "Neo4j Integration",
+    "Graph Database Schema",
+    "Semantic Search",
+    "Ontological Memory",
+    "Entity History Tracking",
+    "Versioned Relationships",
+    "Hybrid Search",
+    "LLM Context Management",
+    "OpenAI Embeddings",
+    "Temporal Consistency",
+    "Point-in-Time Recovery",
+    "Relationship Strength Decay"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 281,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/index.ts",
+      "src/server/handlers/toolHandlers/index.ts",
+      "src/storage/neo4j/Neo4jStorageProvider.ts",
+      "src/KnowledgeGraphManager.ts"
+    ]
+  },
+  "_hash": "fddb2c9812a00e2e683173168706cab7a336c2c62bca0ab3bf32bbde36ccffa3",
+  "_path": "/Users/ember/src/mcp-memento",
+  "_updated_at": "2026-02-14T00:56:33.154627Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "22bcdec7d14da4ca1ca20271975b888cd786fe75e612c1ed697826a78c4976d3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:41.147237+00:00"
+  },
+  "mined_motifs": [
+    "context-management",
+    "Discrete-Time Simulation",
+    "Paradox Detection",
+    "Timewaves",
+    "causality",
+    "chronoport",
+    "event-sourcing",
+    "paradox-detection",
+    "rust",
+    "simulation",
+    "time-travel",
+    "wasm"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.772
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.745
+    },
+    {
+      "name": "minataur2",
+      "path": "/Users/ember/dev/minataur2",
+      "similarity": 0.745
+    },
+    {
+      "name": "Achron",
+      "path": "/Users/ember/dev/Achron",
+      "similarity": 0.744
+    },
+    {
+      "name": "ticklogseq",
+      "path": "/Users/ember/dev/ticklogseq",
+      "similarity": 0.742
+    },
+    {
+      "name": "resequence-rs",
+      "path": "/Users/ember/dev/resequence-rs",
+      "similarity": 0.739
+    },
+    {
+      "name": "lunar-logseq",
+      "path": "/Users/ember/dev/lunar-logseq",
+      "similarity": 0.737
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.735
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Knowledge Graph",
+      "model-context-protocol",
+      "Semantic Retrieval",
+      "Temporal Awareness",
+      "Vector Embeddings",
+      "Confidence Decay",
+      "Neo4j Integration",
+      "Graph Database Schema",
+      "Semantic Search",
+      "Ontological Memory",
+      "Entity History Tracking",
+      "Versioned Relationships",
+      "Hybrid Search",
+      "LLM Context Management",
+      "OpenAI Embeddings",
+      "Temporal Consistency",
+      "Point-in-Time Recovery",
+      "Relationship Strength Decay"
+    ],
+    "tags": [
+      "model-context-protocol",
+      "knowledge-graph",
+      "neo4j",
+      "semantic-search",
+      "vector-search",
+      "temporal",
+      "llm-memory",
+      "typescript",
+      "embeddings",
+      "openai",
+      "graph-database",
+      "ontological-memory"
+    ],
+    "mined_motifs": [
+      "context-management",
+      "Discrete-Time Simulation",
+      "Paradox Detection",
+      "Timewaves",
+      "causality",
+      "chronoport",
+      "event-sourcing",
+      "paradox-detection",
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "time-travel",
+      "WebAssembly"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 7.979,
+        "matches": [
+          "context-management",
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 6.483,
+        "matches": [
+          "time-travel",
+          "timewaves"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.154,
+        "matches": [
+          "event-sourcing"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.152,
+        "matches": [
+          "event-sourcing"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.15,
+        "matches": [
+          "knowledge-graph"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.108,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.154627Z"
+  }
+}

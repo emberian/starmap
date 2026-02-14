@@ -1,0 +1,200 @@
+{
+  "name": "MessagesTest",
+  "description": "A cross-platform Apple ecosystem prototype implementing an iMessage app extension alongside a companion watchOS application. The project leverages MSMessagesAppViewController for interactive message payloads and SwiftUI for the wearable interface, focusing on lifecycle management and state synchronization across the Messages framework and WatchKit.",
+  "tags": [
+    "swift",
+    "ios-extension",
+    "watchos",
+    "imessage-extension",
+    "messages-framework",
+    "swiftui",
+    "xctest",
+    "apple-watch",
+    "app-sandbox",
+    "uikit"
+  ],
+  "category": "iMessage Extension Development",
+  "concepts": [
+    "MSMessagesAppViewController lifecycle",
+    "MSConversation management",
+    "SwiftUI Scene structure",
+    "XCUITest automated interaction",
+    "App Extension sandboxing",
+    "Interactive message payloads",
+    "watchOS complication integration",
+    "Asynchronous UI testing",
+    "Swift Testing framework",
+    "Provisioning entitlements"
+  ],
+  "languages": [
+    "Swift"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 22,
+    "has_readme": false,
+    "sample_files": [
+      "MessagesTest MessagesExtension/MessagesViewController.swift",
+      "MessagesWatch Watch AppUITests/MessagesWatch_Watch_AppUITests.swift",
+      "MessagesWatch Watch AppUITests/MessagesWatch_Watch_AppUITestsLaunchTests.swift",
+      "MessagesWatch Watch App/ContentView.swift",
+      "MessagesWatch Watch AppTests/MessagesWatch_Watch_AppTests.swift"
+    ]
+  },
+  "_hash": "09447ffc37583c0b7afb972d437f2be708da471e2a7851ef4ae8867d020b61f2",
+  "_path": "/Users/ember/dev/MessagesTest",
+  "_updated_at": "2026-02-14T00:56:23.390794Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "MSMessagesAppViewController lifecycle",
+      "MSConversation management",
+      "SwiftUI Scene structure",
+      "XCUITest automated interaction",
+      "App Extension sandboxing",
+      "Interactive message payloads",
+      "watchOS complication integration",
+      "Asynchronous UI testing",
+      "Swift Testing framework",
+      "Provisioning entitlements"
+    ],
+    "tags": [
+      "swift",
+      "ios-extension",
+      "watchos",
+      "imessage-extension",
+      "messages-framework",
+      "swiftui",
+      "xctest",
+      "apple-watch",
+      "app-sandbox",
+      "uikit"
+    ],
+    "mined_motifs": [
+      "SwiftData",
+      "typescript",
+      "context-management",
+      "Apple-Ecosystem",
+      "Application Life Cycle",
+      "Asset Management",
+      "CRUD",
+      "Conditional Compilation",
+      "Data Binding",
+      "Desktop-Development",
+      "Entitlements Management",
+      "In-memory Model Storage"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.253,
+        "matches": [
+          "context-management"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 2.509,
+        "matches": []
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 2.493,
+        "matches": []
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 2.488,
+        "matches": []
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 2.488,
+        "matches": []
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 2.488,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.390794Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "77e8dd1115c6fd54ef04e4fa4ae0d67ed392dd2af0111ee6bdbbf81256fe1a1b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:21.143289+00:00"
+  },
+  "mined_motifs": [
+    "SwiftData",
+    "typescript",
+    "context-management",
+    "Apple-Ecosystem",
+    "Application Life Cycle",
+    "Asset Management",
+    "CRUD",
+    "Conditional Compilation",
+    "Data Binding",
+    "Desktop-Development",
+    "Entitlements Management",
+    "In-memory Model Storage"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "etool",
+      "path": "/Users/ember/dev/etool",
+      "similarity": 0.826
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.801
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.794
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.788
+    },
+    {
+      "name": "Duratory",
+      "path": "/Users/ember/dev/Duratory",
+      "similarity": 0.786
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.786
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.785
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.785
+    }
+  ]
+}

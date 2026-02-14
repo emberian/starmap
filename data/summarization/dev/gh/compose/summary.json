@@ -1,0 +1,188 @@
+{
+  "name": "compose",
+  "description": "A minimalist C++ utility providing a template-based wrapper for functional composition. It defines a generic `Composed` class that encapsulates two callable entities, enabling the execution of nested function applications through a variadic call operator. The implementation explores the boundaries of C++ template deduction and type-safe function chaining.",
+  "tags": [
+    "cpp",
+    "templates",
+    "functional-programming",
+    "function-composition",
+    "header-only",
+    "variadic-templates"
+  ],
+  "category": "Generic Meta-programming",
+  "concepts": [
+    "Function Composition",
+    "Variadic Templates",
+    "Type Inference",
+    "Operator Overloading",
+    "Template Specialization",
+    "Higher-order Functions",
+    "Callable Wrappers"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": [
+      "compose.cpp",
+      "compose.h"
+    ]
+  },
+  "_hash": "964d2768bf5df288dd32aff0052b5830bdaac075c42bd629f022a969f40e78e5",
+  "_path": "/Users/ember/dev/gh/compose",
+  "_updated_at": "2026-02-14T00:56:24.796635Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Function Composition",
+      "Variadic Templates",
+      "Type Inference",
+      "Operator Overloading",
+      "Template Specialization",
+      "Higher-order Functions",
+      "Callable Wrappers"
+    ],
+    "tags": [
+      "cpp",
+      "templates",
+      "functional-programming",
+      "function-composition",
+      "header-only",
+      "variadic-templates"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Lexical Scoping",
+      "Code Generation",
+      "symbol-table",
+      "Compiler Engineering",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "Applicative-order Evaluation",
+      "Compound Data",
+      "Higher-order Procedures",
+      "Iterative Processes"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.34,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.527,
+        "matches": [
+          "code generation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.5,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.71,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.709,
+        "matches": []
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.708,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.796635Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7213ef56602eb3b07e42491a1b04dd830d5f490f20160650de7f83597f08a402",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:41.844299+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Lexical Scoping",
+    "Code Generation",
+    "symbol-table",
+    "compiler-design",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "Applicative-order Evaluation",
+    "Compound Data",
+    "Higher-order Procedures",
+    "Iterative Processes"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.889
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.875
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.867
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.867
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.866
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.866
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.861
+    }
+  ]
+}

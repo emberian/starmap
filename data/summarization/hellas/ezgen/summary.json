@@ -1,0 +1,242 @@
+{
+  "name": "ezgen",
+  "description": "A distributed job orchestration and billing platform for generative AI inference, facilitating media generation through models such as Flux and Stable Diffusion. It integrates a Rust-based API gateway with gRPC-driven worker nodes and a Stripe-backed credit system for multi-tenant monetization. The project utilizes Nix for reproducible environment provisioning and CUDA-accelerated Python runtimes to execute high-performance inference tasks.",
+  "tags": [
+    "distributed-systems",
+    "generative-ai",
+    "grpc",
+    "rust",
+    "axum",
+    "stripe-billing",
+    "nix-flakes",
+    "cuda",
+    "image-generation",
+    "api-gateway",
+    "microservices",
+    "job-orchestration",
+    "postgresql",
+    "typescript",
+    "react",
+    "inference-engine"
+  ],
+  "category": "Distributed Generative Inference Orchestration",
+  "concepts": [
+    "gRPC Service Communication",
+    "OAuth2 GitHub Integration",
+    "Stripe Metered Billing",
+    "Distributed Task Orchestration",
+    "CUDA GPU Acceleration",
+    "Nix-based Reproducibility",
+    "Multi-tenant Resource Control",
+    "API Key Lifecycle Management",
+    "Asynchronous Result Reconciliation",
+    "Generative Media Pipelines",
+    "SQL Migration Management",
+    "Backend-for-Frontend (BFF) Architecture",
+    "Protobuf Schema Enforcement",
+    "Isolated Model Workers",
+    "Telemetry and Trace Batching",
+    "Content-addressable Weight Loading",
+    "Webhook Idempotency",
+    "Single-Page Application State",
+    "High-Performance Rust Concurrency",
+    "Docker Image Derivation"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "Python",
+    "Nix",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 190,
+    "has_readme": true,
+    "sample_files": [
+      "flake.nix",
+      "api/crates/accounts-api/src/db/auth/mod.rs",
+      "api/crates/accounts-api/src/db/billing/mod.rs",
+      "api/crates/accounts-api/src/db/mod.rs",
+      "api/crates/accounts-api/src/handler/billing/mod.rs"
+    ]
+  },
+  "_hash": "e08ecd09ba4d6241060048f5f86ee6e945c9e6154209fa67e8601e05d76adfea",
+  "_path": "/Users/ember/hellas/ezgen",
+  "_updated_at": "2026-02-14T00:56:31.374309Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e81501481a615645cdc514a590a87b49319d1c79997c69581d6032195eb0b3cc",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:29.477105+00:00"
+  },
+  "mined_motifs": [
+    "orchestration",
+    "Agent Lifecycle Supervision",
+    "Agent Presence Tracking",
+    "Agent Role Specialization",
+    "Agent-to-Agent Messaging",
+    "Asynchronous Task Chains",
+    "Busy/Sleep Mode Arbitration",
+    "Cognitive Loop Monitoring",
+    "Context Expertise Retrieval",
+    "Convex Persistence Layer",
+    "Cost-Tracking Analytics",
+    "Cross-Agent Memory Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.833
+    },
+    {
+      "name": "runpod-rs",
+      "path": "/Users/ember/hellas/runpod-rs",
+      "similarity": 0.827
+    },
+    {
+      "name": "infra",
+      "path": "/Users/ember/hellas/infra",
+      "similarity": 0.82
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.81
+    },
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.808
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.806
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.805
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "gRPC Service Communication",
+      "OAuth2 GitHub Integration",
+      "Stripe Metered Billing",
+      "Distributed Task Orchestration",
+      "CUDA GPU Acceleration",
+      "Nix-based Reproducibility",
+      "Multi-tenant Resource Control",
+      "API Key Lifecycle Management",
+      "Asynchronous Result Reconciliation",
+      "Generative Media Pipelines",
+      "SQL Migration Management",
+      "Backend-for-Frontend (BFF) Architecture",
+      "Protobuf Schema Enforcement",
+      "Isolated Model Workers",
+      "Telemetry and Trace Batching",
+      "Content-addressable Weight Loading",
+      "Webhook Idempotency",
+      "Single-Page Application State",
+      "High-Performance Rust Concurrency",
+      "Docker Image Derivation"
+    ],
+    "tags": [
+      "distributed-systems",
+      "generative-ai",
+      "grpc",
+      "Rust Language Ecosystem",
+      "axum",
+      "stripe-billing",
+      "nix-flakes",
+      "cuda",
+      "image-generation",
+      "api-gateway",
+      "microservices",
+      "job-orchestration",
+      "postgresql",
+      "typescript",
+      "react",
+      "inference-engine"
+    ],
+    "mined_motifs": [
+      "orchestration",
+      "Agent Lifecycle Supervision",
+      "Agent Presence Tracking",
+      "Agent Role Specialization",
+      "Agent-to-Agent Messaging",
+      "Asynchronous Task Chains",
+      "Busy/Sleep Mode Arbitration",
+      "Cognitive Loop Monitoring",
+      "Context Expertise Retrieval",
+      "Convex Persistence Layer",
+      "Cost-Tracking Analytics",
+      "Cross-Agent Memory Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.516,
+        "matches": [
+          "orchestration"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 5.457,
+        "matches": [
+          "generative-ai"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.407,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.406,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.406,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.406,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.374309Z"
+  }
+}

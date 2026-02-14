@@ -1,0 +1,234 @@
+{
+  "name": "sax-rs",
+  "description": "A Rust wrapper for the libxml2 SAX parser that provides a streaming, event-based interface for memory-efficient XML document traversal. It abstracts low-level C callbacks through a Foreign Function Interface (FFI) and emits structured events via Rust’s channel primitives. The implementation includes support for CDATA blocks, comments, and attribute parsing, alongside detailed error reporting sourced from the underlying parser state.",
+  "tags": [
+    "rust",
+    "xml",
+    "sax",
+    "libxml2",
+    "ffi",
+    "streaming",
+    "parser",
+    "event-driven",
+    "system-bindings"
+  ],
+  "category": "Streaming XML Processing",
+  "concepts": [
+    "SAX (Simple API for XML)",
+    "libxml2",
+    "Foreign Function Interface (FFI)",
+    "Streaming I/O",
+    "Event-Driven Programming",
+    "CDATA Processing",
+    "Error Propagation",
+    "Rust Channel Primitives",
+    "XML Attribute Handling",
+    "XML Namespaces",
+    "Memory Safety in FFI",
+    "Parser Callbacks",
+    "Static Library Initialization",
+    "Tokenization",
+    "XML Character Encoding",
+    "Document Traversal",
+    "FFI Type Mapping",
+    "Result-based Error Handling",
+    "Iterator Pattern",
+    "C Pointer Arithmetic",
+    "Native Library Linkage"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/ffi.rs",
+      "src/sax.rs",
+      "src/extfn.rs"
+    ]
+  },
+  "_hash": "c6c60ecb67cae704597330132e67b2c4e47f0f28feeb1c1d0f0506a3570701bd",
+  "_path": "/Users/ember/dev/gh/forks/sax-rs",
+  "_updated_at": "2026-02-14T00:56:26.649212Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "SAX (Simple API for XML)",
+      "libxml2",
+      "foreign-function-interface",
+      "Streaming I/O",
+      "Event-Driven Programming",
+      "CDATA Processing",
+      "Error Propagation",
+      "Rust Channel Primitives",
+      "XML Attribute Handling",
+      "XML Namespaces",
+      "Memory Safety in FFI",
+      "Parser Callbacks",
+      "Static Library Initialization",
+      "lexical-analysis",
+      "XML Character Encoding",
+      "Document Traversal",
+      "FFI Type Mapping",
+      "Result-based Error Handling",
+      "Iterator Pattern",
+      "C Pointer Arithmetic",
+      "Native Library Linkage"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "xml",
+      "sax",
+      "libxml2",
+      "foreign-function-interface",
+      "streaming",
+      "parser",
+      "event-driven",
+      "system-bindings"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "Compiler Engineering",
+      "Data Serialization",
+      "abstract-syntax-tree",
+      "s-expression",
+      "Recursive Descent Parsing",
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "Attribute parsing",
+      "Buffer-based reading",
+      "CDATA handling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.069,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.672,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.285,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.499,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.496,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.484,
+        "matches": [
+          "compiler engineering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.649212Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bac9178e266632afb18ce8500c5a850a9714698cb505ef44a9718cd0bd402d06",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:20.975362+00:00"
+  },
+  "mined_motifs": [
+    "lexer",
+    "compiler-design",
+    "serialization",
+    "Lexical Analysis",
+    "ast",
+    "s-expression",
+    "Recursive Descent Parsing",
+    "resource-management",
+    "low-level",
+    "Attribute parsing",
+    "Buffer-based reading",
+    "CDATA handling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "xml-rs",
+      "path": "/Users/ember/dev/gh/forks/xml-rs",
+      "similarity": 0.95
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.875
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.854
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.852
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.852
+    }
+  ]
+}

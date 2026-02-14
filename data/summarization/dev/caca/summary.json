@@ -1,0 +1,221 @@
+{
+  "name": "caca",
+  "description": "A high-performance cellular automata simulation engine leveraging WGPU for GPU-accelerated compute and rendering. It supports various CA rule-sets including classic Life-like totalistic rules and spatially-partitioned stochastic transitions, targetable to both native and WebAssembly/WebGPU platforms.",
+  "tags": [
+    "rust",
+    "webgpu",
+    "wgpu",
+    "cellular-automata",
+    "compute-shader",
+    "wgsl",
+    "wasm",
+    "egui",
+    "simulation",
+    "gpgpu",
+    "game-of-life",
+    "real-time-graphics"
+  ],
+  "category": "GPGPU Simulation",
+  "concepts": [
+    "Cellular Automata",
+    "Compute Shaders",
+    "Totalistic Rules",
+    "Cross-platform WebGPU",
+    "GPU Buffer Management",
+    "Spatial Partitioning",
+    "Workgroup Intrinsics",
+    "WebAssembly Bindings",
+    "Stochastic State Transitions",
+    "Double Buffering",
+    "Vertex/Fragment Rendering Pipelines",
+    "Immediate Mode GUI"
+  ],
+  "languages": [
+    "Rust",
+    "WGSL",
+    "TypeScript",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 17,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/gpu.rs",
+      "src/app.rs"
+    ]
+  },
+  "_hash": "2d4ce8abc8ad09496deda36920cf428bef920d17b394a0e4d937b0c0ed8f3e22",
+  "_path": "/Users/ember/dev/caca",
+  "_updated_at": "2026-02-14T00:56:23.656527Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "cellular-automata",
+      "Compute Shaders",
+      "Totalistic Rules",
+      "Cross-platform WebGPU",
+      "GPU Buffer Management",
+      "Spatial Partitioning",
+      "Workgroup Intrinsics",
+      "WebAssembly Bindings",
+      "Stochastic State Transitions",
+      "Double Buffering",
+      "Vertex/Fragment Rendering Pipelines",
+      "Immediate Mode GUI"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "webgpu",
+      "wgpu",
+      "cellular-automata",
+      "GPGPU Compute",
+      "wgsl",
+      "WebAssembly",
+      "egui",
+      "real-time-simulation",
+      "game-of-life",
+      "real-time-graphics"
+    ],
+    "mined_motifs": [
+      "glsl",
+      "Moore neighborhood",
+      "real-time-simulation",
+      "GPGPU Rendering",
+      "WebAssembly Interop",
+      "react",
+      "WebAssembly",
+      "webgl",
+      "concurrency",
+      "B/S Notation (Birth/Survival)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.259,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "glsl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.913,
+        "matches": [
+          "gpgpu compute",
+          "glsl"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.402,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.401,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.396,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.389,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.656527Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "564170d9b6322daa14a0bac9c4a215a366aabab8b8e8fce2a6ae65daaf1cc470",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:45.130917+00:00"
+  },
+  "mined_motifs": [
+    "glsl",
+    "Moore neighborhood",
+    "real-time",
+    "GPGPU Rendering",
+    "Real-time Simulation",
+    "WebAssembly Interop",
+    "react",
+    "wasm-bindgen",
+    "webassembly",
+    "webgl",
+    "parallel-computing",
+    "B/S Notation (Birth/Survival)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.956
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.87
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.856
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.845
+    },
+    {
+      "name": "mesmerize",
+      "path": "/Users/ember/dev/shitheap/tjmes",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.821
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.818
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.815
+    }
+  ]
+}

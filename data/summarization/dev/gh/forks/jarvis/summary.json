@@ -1,0 +1,239 @@
+{
+  "name": "jarvis",
+  "description": "A medical simulation and visualization platform developed in Unity that bridges physical sensor data with high-fidelity virtual environments. The system utilizes Arduino-based hardware for real-time biometric telemetry, rendering interactive surgical and morgue scenarios using Physically Based Rendering (PBR) workflows. It is designed for clinical training and immersive physiological data integration within 3D spaces.",
+  "tags": [
+    "unity",
+    "csharp",
+    "arduino",
+    "medical-simulation",
+    "pbr",
+    "telemetry",
+    "biometrics",
+    "vr",
+    "surgical-training",
+    "morgue-simulation",
+    "hardware-integration",
+    "iot",
+    "real-time-rendering",
+    "bluetooth-le",
+    "digital-twin"
+  ],
+  "category": "Biometric Surgical Simulation",
+  "concepts": [
+    "Physically Based Rendering (PBR)",
+    "Real-time Biometric Telemetry",
+    "Hardware-in-the-loop Simulation",
+    "Virtual Clinical Environment",
+    "Asynchronous Serial Communication",
+    "Surgical Workflow Modeling",
+    "Anatomy Visualization",
+    "Sensor Data Fusion",
+    "Interactive UI/UX for VR",
+    "Spatial Audio Integration",
+    "Digital Twin Construction",
+    "Medical Education Technology",
+    "Embedded Systems Integration",
+    "3D Asset Pipeline Management",
+    "Shader Optimization",
+    "Event-driven Scripting",
+    "Bluetooth Low Energy Communication",
+    "Procedural Texture Mapping",
+    "Medical Instrument Simulation",
+    "Telemetry Visualization",
+    "PBR Material Workflows",
+    "Clinical Procedural Training"
+  ],
+  "languages": [
+    "C#",
+    "C++",
+    "Arduino"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 973,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "f454d76d4c5b15624975adc206300881f8cbd614d5cd3c0582f5e2b1b509333d",
+  "_path": "/Users/ember/dev/gh/forks/jarvis",
+  "_updated_at": "2026-02-14T00:56:25.915972Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Physically Based Rendering (PBR)",
+      "Real-time Biometric Telemetry",
+      "Hardware-in-the-loop Simulation",
+      "Virtual Clinical Environment",
+      "Asynchronous Serial Communication",
+      "Surgical Workflow Modeling",
+      "Anatomy Visualization",
+      "Sensor Data Fusion",
+      "Interactive UI/UX for VR",
+      "Spatial Audio Integration",
+      "Digital Twin Construction",
+      "Medical Education Technology",
+      "Embedded Systems Integration",
+      "3D Asset Pipeline Management",
+      "Shader Optimization",
+      "Event-driven Scripting",
+      "Bluetooth Low Energy Communication",
+      "Procedural Texture Mapping",
+      "Medical Instrument Simulation",
+      "Telemetry Visualization",
+      "PBR Material Workflows",
+      "Clinical Procedural Training"
+    ],
+    "tags": [
+      "unity",
+      "csharp",
+      "arduino",
+      "medical-simulation",
+      "pbr",
+      "telemetry",
+      "biometrics",
+      "vr",
+      "surgical-training",
+      "morgue-simulation",
+      "hardware-integration",
+      "iot",
+      "Computer Graphics & Rendering",
+      "bluetooth-le",
+      "digital-twin"
+    ],
+    "mined_motifs": [
+      "cellular-automata",
+      "real-time-simulation",
+      "spatial-computing",
+      "toolchain",
+      "HTTP-based simulation bridge",
+      "JSON state serialization",
+      "RESTful state synchronization",
+      "TCP socket configuration",
+      "Ultraleap gestural interaction",
+      "Unity-Processing runtime integration",
+      "VR interaction design"
+    ],
+    "metaconstellations": [
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 12.369,
+        "matches": [
+          "physically based rendering (pbr)",
+          "sensor data fusion",
+          "biometrics",
+          "telemetry",
+          "category:Biometric Surgical Simulation"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.822,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.774,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.606,
+        "matches": []
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.576,
+        "matches": []
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 2.565,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.915972Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6b59947b6298a58dfeed90723e26a97957cbe5378534eeabad629f912d1f714c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:43.720365+00:00"
+  },
+  "mined_motifs": [
+    "cellular-automata",
+    "real-time",
+    "spatial-computing",
+    "simulation",
+    "toolchain",
+    "HTTP-based simulation bridge",
+    "JSON state serialization",
+    "RESTful state synchronization",
+    "TCP socket configuration",
+    "Ultraleap gestural interaction",
+    "Unity-Processing runtime integration",
+    "VR interaction design"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "antfarm",
+      "path": "/Users/ember/dev/gh/antfarm",
+      "similarity": 0.831
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.831
+    },
+    {
+      "name": "humanbody",
+      "path": "/Users/ember/dev/humanbody",
+      "similarity": 0.82
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.82
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.817
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.816
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.813
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.81
+    }
+  ]
+}

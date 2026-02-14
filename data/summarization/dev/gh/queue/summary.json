@@ -1,0 +1,238 @@
+{
+  "name": "queue",
+  "description": "A lightweight task orchestration system composed of a Lua-based IRC bot and a PostgreSQL-backed web service for persistent item tracking. The architecture leverages the Lanes library for multi-threaded concurrency within the bot and provides a RESTful API wrapper for external management. A minimal web interface facilitates real-time queue monitoring using client-side Handlebars templating and asynchronous requests.",
+  "tags": [
+    "lua",
+    "irc-bot",
+    "postgresql",
+    "task-queue",
+    "webservice",
+    "concurrency",
+    "lanes",
+    "luairc",
+    "rest-api",
+    "sql",
+    "handlebars",
+    "jquery",
+    "luasocket",
+    "luasql"
+  ],
+  "category": "Distributed Task Orchestration",
+  "concepts": [
+    "asynchronous-task-processing",
+    "irc-protocol-implementation",
+    "relational-data-modeling",
+    "concurrency-primitives",
+    "socket-programming",
+    "templating-logic",
+    "persistent-storage",
+    "event-loop-architecture",
+    "database-abstraction-layer",
+    "restful-architecture",
+    "frontend-backend-separation",
+    "real-time-notifications",
+    "lua-runtime-environment",
+    "scriptable-bots",
+    "sql-schema-design",
+    "middleware-wrappers",
+    "client-side-rendering",
+    "shared-state-concurrency",
+    "message-routing",
+    "schema-initialization"
+  ],
+  "languages": [
+    "Lua",
+    "SQL",
+    "JavaScript",
+    "HTML"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "webui/jquery.min.js",
+      "webui/handlebars.js"
+    ]
+  },
+  "_hash": "4383648cb9ef682bc8a6719b56d2c0def56b948c6a5de0af9bfda553639707be",
+  "_path": "/Users/ember/dev/gh/queue",
+  "_updated_at": "2026-02-14T00:56:28.083984Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "asynchronous-task-processing",
+      "irc-protocol-implementation",
+      "relational-data-modeling",
+      "concurrency-primitives",
+      "socket-programming",
+      "templating-logic",
+      "persistent-storage",
+      "event-loop-architecture",
+      "database-abstraction-layer",
+      "restful-architecture",
+      "frontend-backend-separation",
+      "real-time-notifications",
+      "lua-runtime-environment",
+      "scriptable-bots",
+      "sql-schema-design",
+      "middleware-wrappers",
+      "client-side-rendering",
+      "Concurrency & Synchronization",
+      "message-routing",
+      "schema-initialization"
+    ],
+    "tags": [
+      "lua",
+      "irc-bot",
+      "postgresql",
+      "task-queue",
+      "webservice",
+      "Concurrency & Synchronization",
+      "lanes",
+      "luairc",
+      "rest-api",
+      "sql",
+      "handlebars",
+      "jquery",
+      "luasocket",
+      "luasql"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "django",
+      "enterprise-software",
+      "open-source",
+      "typescript",
+      "webhooks",
+      "Rust Language Ecosystem",
+      "Asynchronous Event Processing",
+      "Bot Lifecycle Management",
+      "Callback Subscription Patterns",
+      "Decorator-based Event Handling",
+      "Decoupled Service Architecture"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.452,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.449,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.448,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.448,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.448,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.402,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.083984Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "89c97420e047a168677c3a60b8f17cd8971bd539122187ba0262aa09fe4e9755",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:12.413815+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "django",
+    "enterprise-software",
+    "open-source",
+    "typescript",
+    "webhooks",
+    "rust",
+    "Asynchronous Event Processing",
+    "Bot Lifecycle Management",
+    "Callback Subscription Patterns",
+    "Decorator-based Event Handling",
+    "Decoupled Service Architecture"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.846
+    },
+    {
+      "name": "tulip",
+      "path": "/Users/ember/dev/gh/forks/tulip",
+      "similarity": 0.84
+    },
+    {
+      "name": "wsapi",
+      "path": "/Users/ember/dev/gh/forks/wsapi",
+      "similarity": 0.834
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.83
+    },
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.829
+    },
+    {
+      "name": "queuebotv2",
+      "path": "/Users/ember/dev/gh/queuebotv2",
+      "similarity": 0.829
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.825
+    },
+    {
+      "name": "qwobot",
+      "path": "/Users/ember/dev/qwobot",
+      "similarity": 0.824
+    }
+  ]
+}

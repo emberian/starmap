@@ -1,0 +1,201 @@
+{
+  "name": "compare",
+  "description": "An experimental Rust library providing extensible, trait-based comparators for defining and manipulating total orders on collections. It enables complex ordering logic through functional adaptors, including reversed and lexicographical compositions, while maintaining compatibility with `#![no_std]` environments.",
+  "tags": [
+    "rust",
+    "comparators",
+    "total-order",
+    "data-structures",
+    "no-std",
+    "trait-objects",
+    "functional-programming",
+    "lexicographical-order",
+    "sorting",
+    "utility"
+  ],
+  "category": "Generic Programming & Abstract Algebra",
+  "concepts": [
+    "Total Ordering",
+    "Comparator Adaptors",
+    "Lexicographical Composition",
+    "Key Extraction",
+    "Natural Ordering Delegation",
+    "Trait-based Polymorphism",
+    "Zero-cost Abstractions",
+    "Order Manipulation"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "deploy-docs.sh"
+    ]
+  },
+  "_hash": "436668eb49c3690d6452ce346817b0f497536dcf86daf311e0e0b53475182864",
+  "_path": "/Users/ember/dev/compare",
+  "_updated_at": "2026-02-14T00:56:23.725731Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Total Ordering",
+      "Comparator Adaptors",
+      "Lexicographical Composition",
+      "Key Extraction",
+      "Natural Ordering Delegation",
+      "Trait-based Polymorphism",
+      "Zero-cost Abstractions",
+      "Order Manipulation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "comparators",
+      "total-order",
+      "data-structures",
+      "trait-objects",
+      "functional-programming",
+      "lexicographical-order",
+      "sorting",
+      "utility"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "Linear Algebra",
+      "Depth-First Search",
+      "Interior Mutability",
+      "Memory Management",
+      "Object Graph Traversal"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 10.853,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.465,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.277,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.246,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.452,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.447,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.725731Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e46fe8e40a2e1db247716ec32a74d58e5620b57904f221623de8666ba9745cba",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:52.681666+00:00"
+  },
+  "mined_motifs": [
+    "Lexical Analysis",
+    "Tokenization",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "linear-algebra",
+    "Depth-First Search",
+    "Interior Mutability",
+    "Manual Memory Management",
+    "Object Graph Traversal"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.798
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.784
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.783
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.781
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.774
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.773
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.773
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.772
+    }
+  ]
+}

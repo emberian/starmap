@@ -1,0 +1,2450 @@
+{
+  "/Users/ember/dev/-live-dev-env-abcdeez": [
+    0.661133,
+    0.639557
+  ],
+  "/Users/ember/dev/-live-dev-env2-abcdeez": [
+    0.180055,
+    0.524682
+  ],
+  "/Users/ember/dev/-live-web-editor-abcdeez": [
+    0.65082,
+    0.654123
+  ],
+  "/Users/ember/dev/Achron": [
+    0.796963,
+    0.942312
+  ],
+  "/Users/ember/dev/CakeML": [
+    0.575501,
+    0.160656
+  ],
+  "/Users/ember/dev/DriverTest": [
+    0.76977,
+    0.449463
+  ],
+  "/Users/ember/dev/Duratory": [
+    0.351555,
+    0.301369
+  ],
+  "/Users/ember/dev/FStar": [
+    0.571902,
+    0.152154
+  ],
+  "/Users/ember/dev/HOL": [
+    0.567013,
+    0.158013
+  ],
+  "/Users/ember/dev/MessagesTest": [
+    0.373501,
+    0.321726
+  ],
+  "/Users/ember/dev/RuPaulyML": [
+    0.618628,
+    0.18749
+  ],
+  "/Users/ember/dev/XRAgents": [
+    0.456416,
+    0.325373
+  ],
+  "/Users/ember/dev/abcdeez": [
+    0.584174,
+    0.371216
+  ],
+  "/Users/ember/dev/abcdeez2": [
+    0.581765,
+    0.368299
+  ],
+  "/Users/ember/dev/absass": [
+    0.689959,
+    0.515824
+  ],
+  "/Users/ember/dev/accordion-sim": [
+    0.798493,
+    0.716471
+  ],
+  "/Users/ember/dev/alt-tab-macos": [
+    0.296342,
+    0.371404
+  ],
+  "/Users/ember/dev/annas-mcp": [
+    0.401497,
+    0.518192
+  ],
+  "/Users/ember/dev/aoc": [
+    0.106871,
+    0.448021
+  ],
+  "/Users/ember/dev/app.factshift.com": [
+    0.760002,
+    0.729761
+  ],
+  "/Users/ember/dev/assemblies": [
+    0.641846,
+    0.372749
+  ],
+  "/Users/ember/dev/async_ssl": [
+    0.458397,
+    0.039674
+  ],
+  "/Users/ember/dev/automatafl": [
+    0.716441,
+    0.942263
+  ],
+  "/Users/ember/dev/automatafl-react": [
+    0.666591,
+    0.908054
+  ],
+  "/Users/ember/dev/bantaML": [
+    0.703411,
+    0.356522
+  ],
+  "/Users/ember/dev/bcknd": [
+    0.512009,
+    0.588529
+  ],
+  "/Users/ember/dev/bead-calculus": [
+    0.604744,
+    0.330767
+  ],
+  "/Users/ember/dev/billary-board": [
+    0.63566,
+    0.48832
+  ],
+  "/Users/ember/dev/binsize": [
+    0.146751,
+    0.582519
+  ],
+  "/Users/ember/dev/blackwing-v0": [
+    0.762489,
+    0.860847
+  ],
+  "/Users/ember/dev/booty-haul": [
+    0.779724,
+    0.830304
+  ],
+  "/Users/ember/dev/booty-hunt": [
+    0.793239,
+    0.885374
+  ],
+  "/Users/ember/dev/brorb": [
+    0.79664,
+    0.792879
+  ],
+  "/Users/ember/dev/buckeye": [
+    0.85817,
+    0.77821
+  ],
+  "/Users/ember/dev/bw-exp0": [
+    0.729809,
+    0.89162
+  ],
+  "/Users/ember/dev/bw-exp1": [
+    0.762143,
+    0.871429
+  ],
+  "/Users/ember/dev/byzzbench": [
+    0.4413,
+    0.09755
+  ],
+  "/Users/ember/dev/caca": [
+    0.86521,
+    0.794041
+  ],
+  "/Users/ember/dev/caca2": [
+    0.836334,
+    0.790011
+  ],
+  "/Users/ember/dev/cargo": [
+    0.631398,
+    0.411258
+  ],
+  "/Users/ember/dev/cargo-hold": [
+    0.741817,
+    0.865057
+  ],
+  "/Users/ember/dev/chaingang": [
+    0.779681,
+    0.637119
+  ],
+  "/Users/ember/dev/chetgpt": [
+    0.525734,
+    0.307945
+  ],
+  "/Users/ember/dev/claudesurf": [
+    0.447534,
+    0.362113
+  ],
+  "/Users/ember/dev/cline": [
+    0.487926,
+    0.346856
+  ],
+  "/Users/ember/dev/codrawer-bridge": [
+    0.461295,
+    0.33885
+  ],
+  "/Users/ember/dev/collected-writings": [
+    0.478215,
+    0.394038
+  ],
+  "/Users/ember/dev/compare": [
+    0.813603,
+    0.289564
+  ],
+  "/Users/ember/dev/corn-sprite": [
+    0.699633,
+    0.512992
+  ],
+  "/Users/ember/dev/cosi-book": [
+    0.476003,
+    0.459768
+  ],
+  "/Users/ember/dev/cracked-coconut": [
+    0.223211,
+    0.454616
+  ],
+  "/Users/ember/dev/crate-mcp": [
+    0.342016,
+    0.706566
+  ],
+  "/Users/ember/dev/ea-grl": [
+    0.80327,
+    0.815555
+  ],
+  "/Users/ember/dev/ea-grl2": [
+    0.855448,
+    0.862329
+  ],
+  "/Users/ember/dev/earthdiver": [
+    0.586545,
+    0.562434
+  ],
+  "/Users/ember/dev/ember@54.212.243.200": [
+    0.489343,
+    0.59702
+  ],
+  "/Users/ember/dev/embershot": [
+    0.786689,
+    0.182832
+  ],
+  "/Users/ember/dev/envmap-sample": [
+    0.580139,
+    0.471663
+  ],
+  "/Users/ember/dev/ergolang": [
+    0.604047,
+    0.27917
+  ],
+  "/Users/ember/dev/erp": [
+    0.479746,
+    0.378244
+  ],
+  "/Users/ember/dev/esgea": [
+    0.704393,
+    0.936891
+  ],
+  "/Users/ember/dev/etool": [
+    0.356949,
+    0.326932
+  ],
+  "/Users/ember/dev/factshift-redux": [
+    0.466689,
+    0.166069
+  ],
+  "/Users/ember/dev/febart": [
+    0.528527,
+    0.306033
+  ],
+  "/Users/ember/dev/fireflies": [
+    0.786701,
+    0.786731
+  ],
+  "/Users/ember/dev/fk-proj": [
+    0.568516,
+    0.284517
+  ],
+  "/Users/ember/dev/friskingdom": [
+    0.809777,
+    0.826785
+  ],
+  "/Users/ember/dev/frisqueendom": [
+    0.80181,
+    0.848406
+  ],
+  "/Users/ember/dev/frp-for-frpools": [
+    0.585761,
+    0.757533
+  ],
+  "/Users/ember/dev/gcx": [
+    0.340561,
+    0.672549
+  ],
+  "/Users/ember/dev/gerbil": [
+    0.552768,
+    0.089961
+  ],
+  "/Users/ember/dev/gh/ArkeOS": [
+    0.687175,
+    0.509107
+  ],
+  "/Users/ember/dev/gh/C-Utilities": [
+    0.237879,
+    0.441897
+  ],
+  "/Users/ember/dev/gh/ConcreteSemantics": [
+    0.559487,
+    0.183
+  ],
+  "/Users/ember/dev/gh/Kale": [
+    0.626406,
+    0.307835
+  ],
+  "/Users/ember/dev/gh/LetsPlay": [
+    0.75727,
+    0.850188
+  ],
+  "/Users/ember/dev/gh/OPENGL": [
+    0.974383,
+    0.711837
+  ],
+  "/Users/ember/dev/gh/Protogen": [
+    0.671654,
+    0.102484
+  ],
+  "/Users/ember/dev/gh/RuPaulyML": [
+    0.617116,
+    0.197749
+  ],
+  "/Users/ember/dev/gh/SAL": [
+    0.177648,
+    0.370428
+  ],
+  "/Users/ember/dev/gh/TEMP-rust-png": [
+    0.923021,
+    0.376695
+  ],
+  "/Users/ember/dev/gh/Thinkful-Unit3-Lesson2-Assignment4": [
+    0.873543,
+    0.141365
+  ],
+  "/Users/ember/dev/gh/UInt64": [
+    0.694106,
+    0.207096
+  ],
+  "/Users/ember/dev/gh/Utilities": [
+    0.691123,
+    0.242092
+  ],
+  "/Users/ember/dev/gh/abcdeez": [
+    0.592909,
+    0.338471
+  ],
+  "/Users/ember/dev/gh/absass": [
+    0.698349,
+    0.512491
+  ],
+  "/Users/ember/dev/gh/alexandria": [
+    0.441879,
+    0.442776
+  ],
+  "/Users/ember/dev/gh/alexandria-client": [
+    0.448545,
+    0.526427
+  ],
+  "/Users/ember/dev/gh/alexandria-common": [
+    0.474905,
+    0.475472
+  ],
+  "/Users/ember/dev/gh/alexandria-server": [
+    0.444235,
+    0.536117
+  ],
+  "/Users/ember/dev/gh/alexandria-web-client": [
+    0.462502,
+    0.506253
+  ],
+  "/Users/ember/dev/gh/antfarm": [
+    0.790651,
+    0.799643
+  ],
+  "/Users/ember/dev/gh/aoc23": [
+    0.107237,
+    0.438709
+  ],
+  "/Users/ember/dev/gh/arduino-display": [
+    0.706716,
+    0.528857
+  ],
+  "/Users/ember/dev/gh/audiokart": [
+    0.792428,
+    0.615743
+  ],
+  "/Users/ember/dev/gh/automatafl": [
+    0.692564,
+    0.892128
+  ],
+  "/Users/ember/dev/gh/bantaML": [
+    0.63204,
+    0.216152
+  ],
+  "/Users/ember/dev/gh/bfcpu": [
+    0.691022,
+    0.522028
+  ],
+  "/Users/ember/dev/gh/blake2": [
+    0.22106,
+    0.044612
+  ],
+  "/Users/ember/dev/gh/blender-graphify": [
+    0.931164,
+    0.659267
+  ],
+  "/Users/ember/dev/gh/blog": [
+    0.465359,
+    0.749305
+  ],
+  "/Users/ember/dev/gh/blosc-sys": [
+    0.749152,
+    0.191665
+  ],
+  "/Users/ember/dev/gh/cargo-lite": [
+    0.58853,
+    0.456544
+  ],
+  "/Users/ember/dev/gh/cbfi-rs": [
+    0.665298,
+    0.38589
+  ],
+  "/Users/ember/dev/gh/clarkson-cs470": [
+    0.574927,
+    0.339257
+  ],
+  "/Users/ember/dev/gh/cmoss": [
+    0.740948,
+    0.483402
+  ],
+  "/Users/ember/dev/gh/cmr.github.io": [
+    0.474964,
+    0.724762
+  ],
+  "/Users/ember/dev/gh/cmr32": [
+    0.739922,
+    0.451081
+  ],
+  "/Users/ember/dev/gh/cmr_rrt": [
+    0.733165,
+    0.412925
+  ],
+  "/Users/ember/dev/gh/coda_net2": [
+    0.151438,
+    0.437366
+  ],
+  "/Users/ember/dev/gh/compose": [
+    0.630703,
+    0.340005
+  ],
+  "/Users/ember/dev/gh/computer-graphics-book": [
+    0.957409,
+    0.650031
+  ],
+  "/Users/ember/dev/gh/connectfour": [
+    0.75843,
+    0.973996
+  ],
+  "/Users/ember/dev/gh/crap_rsa": [
+    0.252372,
+    0.070165
+  ],
+  "/Users/ember/dev/gh/crate-mcp": [
+    0.28927,
+    0.642601
+  ],
+  "/Users/ember/dev/gh/crates_io_licenses_over_time": [
+    0.445674,
+    0.651419
+  ],
+  "/Users/ember/dev/gh/cs142-proj1": [
+    0.662362,
+    0.422101
+  ],
+  "/Users/ember/dev/gh/cs142-proj2": [
+    0.639104,
+    0.310686
+  ],
+  "/Users/ember/dev/gh/cs242-proj1": [
+    0.74285,
+    0.854919
+  ],
+  "/Users/ember/dev/gh/cs242-proj2": [
+    0.457768,
+    0.538508
+  ],
+  "/Users/ember/dev/gh/cs242_hw3": [
+    0.751456,
+    0.842818
+  ],
+  "/Users/ember/dev/gh/cs341": [
+    0.676844,
+    0.347777
+  ],
+  "/Users/ember/dev/gh/cs344": [
+    0.628541,
+    0.302038
+  ],
+  "/Users/ember/dev/gh/cs444-lab1": [
+    0.814829,
+    0.440254
+  ],
+  "/Users/ember/dev/gh/cs444-lab5": [
+    0.690766,
+    0.271611
+  ],
+  "/Users/ember/dev/gh/cs445": [
+    0.648776,
+    0.401817
+  ],
+  "/Users/ember/dev/gh/cs447": [
+    0.633262,
+    0.316662
+  ],
+  "/Users/ember/dev/gh/cs456": [
+    0.247581,
+    0.095989
+  ],
+  "/Users/ember/dev/gh/cs465-hw1": [
+    0.654313,
+    0.321706
+  ],
+  "/Users/ember/dev/gh/derpfs": [
+    0.795595,
+    0.425265
+  ],
+  "/Users/ember/dev/gh/didijustdrinkwater": [
+    0.359507,
+    0.288258
+  ],
+  "/Users/ember/dev/gh/doc_builder": [
+    0.36729,
+    0.72518
+  ],
+  "/Users/ember/dev/gh/docs": [
+    0.389732,
+    0.724598
+  ],
+  "/Users/ember/dev/gh/dotfiles": [
+    0.534181,
+    0.417281
+  ],
+  "/Users/ember/dev/gh/ecs": [
+    0.796549,
+    0.927392
+  ],
+  "/Users/ember/dev/gh/eggplant": [
+    0.934306,
+    0.706494
+  ],
+  "/Users/ember/dev/gh/emberian": [
+    0.016743,
+    0.480511
+  ],
+  "/Users/ember/dev/gh/esgea": [
+    0.710746,
+    0.940533
+  ],
+  "/Users/ember/dev/gh/evdev": [
+    0.820323,
+    0.505316
+  ],
+  "/Users/ember/dev/gh/forks/Baystation12": [
+    0.788221,
+    0.835783
+  ],
+  "/Users/ember/dev/gh/forks/CS452-LAB1": [
+    0.100796,
+    0.499187
+  ],
+  "/Users/ember/dev/gh/forks/CS452-LAB2": [
+    0.991872,
+    0.709441
+  ],
+  "/Users/ember/dev/gh/forks/CS452-LAB3": [
+    0.96809,
+    0.702529
+  ],
+  "/Users/ember/dev/gh/forks/CS452-LAB5": [
+    0.96,
+    0.72379
+  ],
+  "/Users/ember/dev/gh/forks/IACR-eprint-mirror": [
+    0.396482,
+    0.264668
+  ],
+  "/Users/ember/dev/gh/forks/Outlet": [
+    0.410108,
+    0.413536
+  ],
+  "/Users/ember/dev/gh/forks/Pillow": [
+    0.93565,
+    0.387894
+  ],
+  "/Users/ember/dev/gh/forks/Piston-Tutorials": [
+    0.977241,
+    0.718524
+  ],
+  "/Users/ember/dev/gh/forks/VisualRust": [
+    0.739119,
+    0.48512
+  ],
+  "/Users/ember/dev/gh/forks/annas-mcp": [
+    0.400374,
+    0.523731
+  ],
+  "/Users/ember/dev/gh/forks/apitrace": [
+    0.988749,
+    0.679392
+  ],
+  "/Users/ember/dev/gh/forks/ark-blst": [
+    0.183349,
+    0.094158
+  ],
+  "/Users/ember/dev/gh/forks/audec": [
+    0.817014,
+    0.603458
+  ],
+  "/Users/ember/dev/gh/forks/bitflags": [
+    0.810939,
+    0.241889
+  ],
+  "/Users/ember/dev/gh/forks/blas": [
+    0.905978,
+    0.286715
+  ],
+  "/Users/ember/dev/gh/forks/blog.rust-lang.org": [
+    0.493469,
+    0.705166
+  ],
+  "/Users/ember/dev/gh/forks/blstrs": [
+    0.181655,
+    0.108001
+  ],
+  "/Users/ember/dev/gh/forks/byteorder": [
+    0.698371,
+    0.120018
+  ],
+  "/Users/ember/dev/gh/forks/capnproto-rust": [
+    0.685345,
+    0.094377
+  ],
+  "/Users/ember/dev/gh/forks/cargo": [
+    0.183295,
+    0.546864
+  ],
+  "/Users/ember/dev/gh/forks/cgmath-rs": [
+    0.909026,
+    0.358208
+  ],
+  "/Users/ember/dev/gh/forks/color-rs": [
+    0.893621,
+    0.362763
+  ],
+  "/Users/ember/dev/gh/forks/cons-list": [
+    0.816464,
+    0.21566
+  ],
+  "/Users/ember/dev/gh/forks/cosi-book": [
+    0.473493,
+    0.453335
+  ],
+  "/Users/ember/dev/gh/forks/crates_io_api": [
+    0.428869,
+    0.596618
+  ],
+  "/Users/ember/dev/gh/forks/dbus-rust": [
+    0.837817,
+    0.368354
+  ],
+  "/Users/ember/dev/gh/forks/dsl": [
+    0.812873,
+    0.379755
+  ],
+  "/Users/ember/dev/gh/forks/ea-grl": [
+    0.840407,
+    0.869144
+  ],
+  "/Users/ember/dev/gh/forks/ears": [
+    0.825886,
+    0.591645
+  ],
+  "/Users/ember/dev/gh/forks/easyply": [
+    0.682657,
+    0.356035
+  ],
+  "/Users/ember/dev/gh/forks/ec-gpu": [
+    0.204921,
+    0.090759
+  ],
+  "/Users/ember/dev/gh/forks/fixedbitset": [
+    0.798177,
+    0.169118
+  ],
+  "/Users/ember/dev/gh/forks/fontconfig-rs": [
+    0.816818,
+    0.373781
+  ],
+  "/Users/ember/dev/gh/forks/fun-with-threads": [
+    0.741654,
+    0.272016
+  ],
+  "/Users/ember/dev/gh/forks/gfx-rs": [
+    0.970967,
+    0.662369
+  ],
+  "/Users/ember/dev/gh/forks/gfx-rs.github.io": [
+    0.950479,
+    0.639249
+  ],
+  "/Users/ember/dev/gh/forks/git2-rs": [
+    0.787621,
+    0.348368
+  ],
+  "/Users/ember/dev/gh/forks/gl-rs": [
+    0.992926,
+    0.681524
+  ],
+  "/Users/ember/dev/gh/forks/glium": [
+    0.983087,
+    0.674376
+  ],
+  "/Users/ember/dev/gh/forks/grease-bench": [
+    0.822086,
+    0.411542
+  ],
+  "/Users/ember/dev/gh/forks/hammer.rs": [
+    0.782769,
+    0.328316
+  ],
+  "/Users/ember/dev/gh/forks/http-parser": [
+    0.69786,
+    0.254124
+  ],
+  "/Users/ember/dev/gh/forks/iiag": [
+    0.764232,
+    0.974681
+  ],
+  "/Users/ember/dev/gh/forks/iroh-blobs": [
+    0.433358,
+    0.038577
+  ],
+  "/Users/ember/dev/gh/forks/iroh-gossip": [
+    0.417503,
+    0.038549
+  ],
+  "/Users/ember/dev/gh/forks/iron-test": [
+    0.760066,
+    0.334041
+  ],
+  "/Users/ember/dev/gh/forks/jarvis": [
+    0.787938,
+    0.780035
+  ],
+  "/Users/ember/dev/gh/forks/kiss3d": [
+    0.942192,
+    0.695081
+  ],
+  "/Users/ember/dev/gh/forks/lazy-static.rs": [
+    0.81252,
+    0.290218
+  ],
+  "/Users/ember/dev/gh/forks/lean": [
+    0.550157,
+    0.16803
+  ],
+  "/Users/ember/dev/gh/forks/libblas-sys-1": [
+    0.900588,
+    0.285114
+  ],
+  "/Users/ember/dev/gh/forks/libfringe": [
+    0.777689,
+    0.338772
+  ],
+  "/Users/ember/dev/gh/forks/libgit2": [
+    0.644071,
+    0.249249
+  ],
+  "/Users/ember/dev/gh/forks/liblapack-sys": [
+    0.901732,
+    0.286606
+  ],
+  "/Users/ember/dev/gh/forks/libnss-rs": [
+    0.820382,
+    0.396076
+  ],
+  "/Users/ember/dev/gh/forks/library_dev": [
+    0.548677,
+    0.184639
+  ],
+  "/Users/ember/dev/gh/forks/libreDSSP": [
+    0.66941,
+    0.365504
+  ],
+  "/Users/ember/dev/gh/forks/libudev-rs": [
+    0.83662,
+    0.482866
+  ],
+  "/Users/ember/dev/gh/forks/luapgsql": [
+    0.872805,
+    0.141521
+  ],
+  "/Users/ember/dev/gh/forks/meeting-minutes": [
+    0.473402,
+    0.716794
+  ],
+  "/Users/ember/dev/gh/forks/meta": [
+    0.699055,
+    0.332478
+  ],
+  "/Users/ember/dev/gh/forks/mount": [
+    0.494957,
+    0.616073
+  ],
+  "/Users/ember/dev/gh/forks/nix-rust": [
+    0.818337,
+    0.446578
+  ],
+  "/Users/ember/dev/gh/forks/noise-rs": [
+    0.876474,
+    0.418108
+  ],
+  "/Users/ember/dev/gh/forks/nom": [
+    0.496223,
+    0.048884
+  ],
+  "/Users/ember/dev/gh/forks/opam-repository": [
+    0.148186,
+    0.425579
+  ],
+  "/Users/ember/dev/gh/forks/persistent": [
+    0.484221,
+    0.598437
+  ],
+  "/Users/ember/dev/gh/forks/poly-commit": [
+    0.223754,
+    0.144287
+  ],
+  "/Users/ember/dev/gh/forks/pool": [
+    0.811676,
+    0.220947
+  ],
+  "/Users/ember/dev/gh/forks/programming_in_lean": [
+    0.548347,
+    0.178065
+  ],
+  "/Users/ember/dev/gh/forks/proof-systems": [
+    0.248816,
+    0.155553
+  ],
+  "/Users/ember/dev/gh/forks/protoproto": [
+    0.372367,
+    0.015556
+  ],
+  "/Users/ember/dev/gh/forks/redox-tween": [
+    0.879315,
+    0.366687
+  ],
+  "/Users/ember/dev/gh/forks/ring": [
+    0.211087,
+    0.042671
+  ],
+  "/Users/ember/dev/gh/forks/rparse": [
+    0.672749,
+    0.312051
+  ],
+  "/Users/ember/dev/gh/forks/ruplace-target": [
+    0.503596,
+    0.459902
+  ],
+  "/Users/ember/dev/gh/forks/rust": [
+    0.651029,
+    0.437137
+  ],
+  "/Users/ember/dev/gh/forks/rust-antlr": [
+    0.731671,
+    0.33798
+  ],
+  "/Users/ember/dev/gh/forks/rust-core_io": [
+    0.759723,
+    0.45168
+  ],
+  "/Users/ember/dev/gh/forks/rust-gmp": [
+    0.894653,
+    0.289302
+  ],
+  "/Users/ember/dev/gh/forks/rust-gpu-tools": [
+    0.902697,
+    0.569175
+  ],
+  "/Users/ember/dev/gh/forks/rust-grammar": [
+    0.729244,
+    0.363458
+  ],
+  "/Users/ember/dev/gh/forks/rust-image": [
+    0.92501,
+    0.372885
+  ],
+  "/Users/ember/dev/gh/forks/rust-incidents": [
+    0.827027,
+    0.323063
+  ],
+  "/Users/ember/dev/gh/forks/rust-intovec": [
+    0.774607,
+    0.157147
+  ],
+  "/Users/ember/dev/gh/forks/rust-phf": [
+    0.779513,
+    0.252125
+  ],
+  "/Users/ember/dev/gh/forks/rust-postgres": [
+    0.877232,
+    0.142868
+  ],
+  "/Users/ember/dev/gh/forks/rust-sdl2": [
+    0.863447,
+    0.504405
+  ],
+  "/Users/ember/dev/gh/forks/rust-wiki-backup": [
+    0.444635,
+    0.716854
+  ],
+  "/Users/ember/dev/gh/forks/rust-zmq": [
+    0.756372,
+    0.24835
+  ],
+  "/Users/ember/dev/gh/forks/rustaceans.org": [
+    0.491179,
+    0.684537
+  ],
+  "/Users/ember/dev/gh/forks/rustsqlite": [
+    0.870614,
+    0.20425
+  ],
+  "/Users/ember/dev/gh/forks/sElement": [
+    0.118778,
+    0.522029
+  ],
+  "/Users/ember/dev/gh/forks/sax-rs": [
+    0.76717,
+    0.305602
+  ],
+  "/Users/ember/dev/gh/forks/seL4": [
+    0.572951,
+    0.156938
+  ],
+  "/Users/ember/dev/gh/forks/servo": [
+    0.638514,
+    0.629673
+  ],
+  "/Users/ember/dev/gh/forks/shellspiel": [
+    0.849512,
+    0.837328
+  ],
+  "/Users/ember/dev/gh/forks/shutdown_hooks_rs": [
+    0.83509,
+    0.385877
+  ],
+  "/Users/ember/dev/gh/forks/shuteye": [
+    0.834092,
+    0.369063
+  ],
+  "/Users/ember/dev/gh/forks/signal": [
+    0.839511,
+    0.415421
+  ],
+  "/Users/ember/dev/gh/forks/simplesched": [
+    0.723927,
+    0.245248
+  ],
+  "/Users/ember/dev/gh/forks/sinful.js": [
+    0.667064,
+    0.199118
+  ],
+  "/Users/ember/dev/gh/forks/sodiumoxide": [
+    0.258769,
+    0.10567
+  ],
+  "/Users/ember/dev/gh/forks/sol": [
+    0.660305,
+    0.403634
+  ],
+  "/Users/ember/dev/gh/forks/spaceapi-server-rs": [
+    0.446775,
+    0.55713
+  ],
+  "/Users/ember/dev/gh/forks/speculate.rs": [
+    0.768756,
+    0.303462
+  ],
+  "/Users/ember/dev/gh/forks/sphere": [
+    0.916003,
+    0.323892
+  ],
+  "/Users/ember/dev/gh/forks/spin-rs": [
+    0.816912,
+    0.24865
+  ],
+  "/Users/ember/dev/gh/forks/stainless": [
+    0.766283,
+    0.325791
+  ],
+  "/Users/ember/dev/gh/forks/static": [
+    0.47936,
+    0.624146
+  ],
+  "/Users/ember/dev/gh/forks/subtle": [
+    0.216029,
+    0.037667
+  ],
+  "/Users/ember/dev/gh/forks/synfone2": [
+    0.797419,
+    0.619392
+  ],
+  "/Users/ember/dev/gh/forks/term": [
+    0.84945,
+    0.358728
+  ],
+  "/Users/ember/dev/gh/forks/this-week-in-rust": [
+    0.44771,
+    0.744054
+  ],
+  "/Users/ember/dev/gh/forks/travis-core": [
+    0.450756,
+    0.384381
+  ],
+  "/Users/ember/dev/gh/forks/trayer-srg": [
+    0.728896,
+    0.591033
+  ],
+  "/Users/ember/dev/gh/forks/tulip": [
+    0.412527,
+    0.365967
+  ],
+  "/Users/ember/dev/gh/forks/ua-parser": [
+    0.696233,
+    0.353891
+  ],
+  "/Users/ember/dev/gh/forks/vscode-lean": [
+    0.528309,
+    0.256573
+  ],
+  "/Users/ember/dev/gh/forks/vundle": [
+    0.52931,
+    0.408888
+  ],
+  "/Users/ember/dev/gh/forks/winapi-rs": [
+    0.845391,
+    0.430931
+  ],
+  "/Users/ember/dev/gh/forks/wsapi": [
+    0.523169,
+    0.612085
+  ],
+  "/Users/ember/dev/gh/forks/xml-rs": [
+    0.757106,
+    0.278645
+  ],
+  "/Users/ember/dev/gh/fuckplace": [
+    0.466635,
+    0.546147
+  ],
+  "/Users/ember/dev/gh/gerphius": [
+    0.866381,
+    0.815365
+  ],
+  "/Users/ember/dev/gh/gfx-rs-deadlock-example": [
+    0.981118,
+    0.686115
+  ],
+  "/Users/ember/dev/gh/gists": [
+    0.415576,
+    0.425539
+  ],
+  "/Users/ember/dev/gh/github-api-testing": [
+    0.375284,
+    0.440699
+  ],
+  "/Users/ember/dev/gh/google-breakpad": [
+    0.783662,
+    0.405905
+  ],
+  "/Users/ember/dev/gh/google-breakpad-sys": [
+    0.778598,
+    0.409506
+  ],
+  "/Users/ember/dev/gh/gridsearch": [
+    0.781908,
+    0.395942
+  ],
+  "/Users/ember/dev/gh/heavy_wizardry": [
+    0.662328,
+    0.172556
+  ],
+  "/Users/ember/dev/gh/hgl-rs": [
+    0.99639,
+    0.692704
+  ],
+  "/Users/ember/dev/gh/homie": [
+    0.723666,
+    0.546008
+  ],
+  "/Users/ember/dev/gh/how-long-does-it-take-to-spawn-a-thread": [
+    0.790057,
+    0.314305
+  ],
+  "/Users/ember/dev/gh/hprof": [
+    0.796345,
+    0.325645
+  ],
+  "/Users/ember/dev/gh/httpz": [
+    0.368548,
+    0.465427
+  ],
+  "/Users/ember/dev/gh/icfp2020": [
+    0.77576,
+    0.192773
+  ],
+  "/Users/ember/dev/gh/imm3d": [
+    0.93664,
+    0.633445
+  ],
+  "/Users/ember/dev/gh/imperious": [
+    0.424849,
+    0.421496
+  ],
+  "/Users/ember/dev/gh/incinerator": [
+    0.796303,
+    0.188894
+  ],
+  "/Users/ember/dev/gh/ioctl": [
+    0.77819,
+    0.471128
+  ],
+  "/Users/ember/dev/gh/ion": [
+    0.689921,
+    0.353951
+  ],
+  "/Users/ember/dev/gh/jubilant-train": [
+    0.816026,
+    0.779333
+  ],
+  "/Users/ember/dev/gh/lambda": [
+    0.693238,
+    0.33208
+  ],
+  "/Users/ember/dev/gh/leafy": [
+    0.532678,
+    0.627538
+  ],
+  "/Users/ember/dev/gh/lets-build-a-compiler": [
+    0.705482,
+    0.428702
+  ],
+  "/Users/ember/dev/gh/libb2-sys": [
+    0.223607,
+    0.043195
+  ],
+  "/Users/ember/dev/gh/libblake2": [
+    0.219647,
+    0.036293
+  ],
+  "/Users/ember/dev/gh/libblas-sys": [
+    0.902282,
+    0.28762
+  ],
+  "/Users/ember/dev/gh/library-project": [
+    0.513494,
+    0.438425
+  ],
+  "/Users/ember/dev/gh/linalg": [
+    0.890469,
+    0.30274
+  ],
+  "/Users/ember/dev/gh/linenoise-rs": [
+    0.814637,
+    0.336404
+  ],
+  "/Users/ember/dev/gh/lunar.town": [
+    0.452025,
+    0.746254
+  ],
+  "/Users/ember/dev/gh/maze": [
+    0.816323,
+    0.707218
+  ],
+  "/Users/ember/dev/gh/minesweep": [
+    0.164812,
+    0.524305
+  ],
+  "/Users/ember/dev/gh/miniblog": [
+    0.370549,
+    0.456228
+  ],
+  "/Users/ember/dev/gh/multiway-tug": [
+    0.720687,
+    0.966244
+  ],
+  "/Users/ember/dev/gh/nice_glfw": [
+    1.0,
+    0.688455
+  ],
+  "/Users/ember/dev/gh/nvim": [
+    0.533576,
+    0.407411
+  ],
+  "/Users/ember/dev/gh/one-hour-roguelike": [
+    0.739627,
+    0.989935
+  ],
+  "/Users/ember/dev/gh/pct": [
+    0.712631,
+    0.321649
+  ],
+  "/Users/ember/dev/gh/pdo.sd4": [
+    0.678768,
+    0.886773
+  ],
+  "/Users/ember/dev/gh/picocom": [
+    0.760584,
+    0.451515
+  ],
+  "/Users/ember/dev/gh/piday-automata": [
+    0.805897,
+    0.779554
+  ],
+  "/Users/ember/dev/gh/proto-dumping-ground": [
+    0.377293,
+    0.018555
+  ],
+  "/Users/ember/dev/gh/pyspades": [
+    0.728312,
+    0.928741
+  ],
+  "/Users/ember/dev/gh/queue": [
+    0.477962,
+    0.524628
+  ],
+  "/Users/ember/dev/gh/queuebotv2": [
+    0.460489,
+    0.572805
+  ],
+  "/Users/ember/dev/gh/raytrace": [
+    0.959008,
+    0.706322
+  ],
+  "/Users/ember/dev/gh/relicense-assistant": [
+    0.456461,
+    0.663363
+  ],
+  "/Users/ember/dev/gh/rest_easy": [
+    0.425939,
+    0.692573
+  ],
+  "/Users/ember/dev/gh/resume": [
+    0.521673,
+    0.453324
+  ],
+  "/Users/ember/dev/gh/reu_unif": [
+    0.71353,
+    0.27037
+  ],
+  "/Users/ember/dev/gh/rust-bench": [
+    0.80271,
+    0.3838
+  ],
+  "/Users/ember/dev/gh/rust-bitmap": [
+    0.817025,
+    0.201064
+  ],
+  "/Users/ember/dev/gh/rust-cc": [
+    0.810417,
+    0.319119
+  ],
+  "/Users/ember/dev/gh/rust-cfg": [
+    0.732095,
+    0.332303
+  ],
+  "/Users/ember/dev/gh/rust-cgroup": [
+    0.827705,
+    0.350554
+  ],
+  "/Users/ember/dev/gh/rust-dotenv": [
+    0.733214,
+    0.374472
+  ],
+  "/Users/ember/dev/gh/rust-examples": [
+    0.838663,
+    0.392917
+  ],
+  "/Users/ember/dev/gh/rust-log-viewer": [
+    0.752708,
+    0.495996
+  ],
+  "/Users/ember/dev/gh/rust-logo-3d": [
+    0.88497,
+    0.540075
+  ],
+  "/Users/ember/dev/gh/rust-metal-sketch": [
+    0.974257,
+    0.664008
+  ],
+  "/Users/ember/dev/gh/rust-signal": [
+    0.843586,
+    0.389593
+  ],
+  "/Users/ember/dev/gh/rust-ttt": [
+    0.721788,
+    0.937699
+  ],
+  "/Users/ember/dev/gh/rustdoc_ng": [
+    0.366925,
+    0.725401
+  ],
+  "/Users/ember/dev/gh/s_lf": [
+    0.459582,
+    0.176147
+  ],
+  "/Users/ember/dev/gh/serde-reflect": [
+    0.712685,
+    0.110545
+  ],
+  "/Users/ember/dev/gh/seven-hour-roguelike": [
+    0.76505,
+    0.966937
+  ],
+  "/Users/ember/dev/gh/sicp": [
+    0.609498,
+    0.258476
+  ],
+  "/Users/ember/dev/gh/simple-sexp": [
+    0.735168,
+    0.299437
+  ],
+  "/Users/ember/dev/gh/simplebuilder": [
+    0.560907,
+    0.462028
+  ],
+  "/Users/ember/dev/gh/simplectic-c": [
+    0.878035,
+    0.448545
+  ],
+  "/Users/ember/dev/gh/tbot": [
+    0.453662,
+    0.288813
+  ],
+  "/Users/ember/dev/gh/terminfo-rs": [
+    0.845695,
+    0.332956
+  ],
+  "/Users/ember/dev/gh/totient": [
+    0.713648,
+    0.2868
+  ],
+  "/Users/ember/dev/gh/tree-generator": [
+    0.766431,
+    0.395349
+  ],
+  "/Users/ember/dev/gh/tweed": [
+    0.508337,
+    0.650179
+  ],
+  "/Users/ember/dev/gh/ual-tool": [
+    0.702843,
+    0.396007
+  ],
+  "/Users/ember/dev/gh/udev-dl": [
+    0.820306,
+    0.473942
+  ],
+  "/Users/ember/dev/gh/univ190": [
+    0.014677,
+    0.479897
+  ],
+  "/Users/ember/dev/gh/url": [
+    0.710443,
+    0.312306
+  ],
+  "/Users/ember/dev/gh/util": [
+    0.231384,
+    0.420543
+  ],
+  "/Users/ember/dev/gh/vscode-rustup": [
+    0.751544,
+    0.47618
+  ],
+  "/Users/ember/dev/gh/wordfoo": [
+    0.785856,
+    0.23876
+  ],
+  "/Users/ember/dev/gh/yeet.plus": [
+    0.604446,
+    0.686751
+  ],
+  "/Users/ember/dev/gh/zkbox": [
+    0.279434,
+    0.192624
+  ],
+  "/Users/ember/dev/gitops-infrastructure": [
+    0.324098,
+    0.205669
+  ],
+  "/Users/ember/dev/glosco": [
+    0.471389,
+    0.066414
+  ],
+  "/Users/ember/dev/goosecam": [
+    0.937685,
+    0.703957
+  ],
+  "/Users/ember/dev/graal": [
+    0.605941,
+    0.535971
+  ],
+  "/Users/ember/dev/green-factory": [
+    0.762317,
+    0.866615
+  ],
+  "/Users/ember/dev/how-long-does-it-take-to-spawn-a-thread": [
+    0.779455,
+    0.303497
+  ],
+  "/Users/ember/dev/httpz": [
+    0.195875,
+    0.551612
+  ],
+  "/Users/ember/dev/humanbody": [
+    0.770779,
+    0.763953
+  ],
+  "/Users/ember/dev/incinerator": [
+    0.805009,
+    0.216671
+  ],
+  "/Users/ember/dev/interval-heap": [
+    0.831637,
+    0.267687
+  ],
+  "/Users/ember/dev/kimchi-playground": [
+    0.242313,
+    0.164052
+  ],
+  "/Users/ember/dev/lcrio": [
+    0.346502,
+    0.688245
+  ],
+  "/Users/ember/dev/leptos": [
+    0.569564,
+    0.757847
+  ],
+  "/Users/ember/dev/live_dev_env4": [
+    0.659019,
+    0.646394
+  ],
+  "/Users/ember/dev/loicense": [
+    0.150789,
+    0.575647
+  ],
+  "/Users/ember/dev/lunar-logseq": [
+    0.445976,
+    0.354168
+  ],
+  "/Users/ember/dev/luteastress": [
+    0.782217,
+    0.732338
+  ],
+  "/Users/ember/dev/macports-ports": [
+    0.285914,
+    0.391313
+  ],
+  "/Users/ember/dev/megadrag": [
+    0.382792,
+    0.443097
+  ],
+  "/Users/ember/dev/megastructure-maintenance-crew": [
+    0.748106,
+    0.831827
+  ],
+  "/Users/ember/dev/mina": [
+    0.295345,
+    0.165846
+  ],
+  "/Users/ember/dev/mina-src": [
+    0.166749,
+    0.36043
+  ],
+  "/Users/ember/dev/mina-state-proof": [
+    0.292838,
+    0.179024
+  ],
+  "/Users/ember/dev/mina-stealth-fixes": [
+    0.296132,
+    0.173107
+  ],
+  "/Users/ember/dev/mina2": [
+    0.166856,
+    0.372015
+  ],
+  "/Users/ember/dev/mina3": [
+    0.294318,
+    0.179034
+  ],
+  "/Users/ember/dev/minataur2": [
+    0.328551,
+    0.188692
+  ],
+  "/Users/ember/dev/mkcx": [
+    0.346148,
+    0.672516
+  ],
+  "/Users/ember/dev/mm2": [
+    0.423031,
+    0.204922
+  ],
+  "/Users/ember/dev/moltmirror": [
+    0.433973,
+    0.207346
+  ],
+  "/Users/ember/dev/mrmeistopheles": [
+    0.460118,
+    0.585064
+  ],
+  "/Users/ember/dev/muchin-clean": [
+    0.846789,
+    0.048142
+  ],
+  "/Users/ember/dev/multiway-tug": [
+    0.718171,
+    0.968684
+  ],
+  "/Users/ember/dev/neocadia": [
+    0.711647,
+    0.859836
+  ],
+  "/Users/ember/dev/network-census": [
+    0.830435,
+    0.465449
+  ],
+  "/Users/ember/dev/neural-assemblies": [
+    0.619751,
+    0.331267
+  ],
+  "/Users/ember/dev/noosphere": [
+    0.450072,
+    0.089057
+  ],
+  "/Users/ember/dev/o1hub": [
+    0.450434,
+    0.388041
+  ],
+  "/Users/ember/dev/o1js": [
+    0.250932,
+    0.19204
+  ],
+  "/Users/ember/dev/o1js-groth16": [
+    0.234666,
+    0.182891
+  ],
+  "/Users/ember/dev/o1js-hints": [
+    0.187953,
+    0.130632
+  ],
+  "/Users/ember/dev/objtab": [
+    0.662025,
+    0.154923
+  ],
+  "/Users/ember/dev/old-automatafl-backend-idea": [
+    0.661063,
+    0.916345
+  ],
+  "/Users/ember/dev/open-collaboration-tools": [
+    0.462548,
+    0.310352
+  ],
+  "/Users/ember/dev/openmina": [
+    0.324811,
+    0.138866
+  ],
+  "/Users/ember/dev/orb.farm": [
+    0.823588,
+    0.798346
+  ],
+  "/Users/ember/dev/peters-broken-shit/libs/mach-glfw": [
+    0.998691,
+    0.695053
+  ],
+  "/Users/ember/dev/peters-broken-shit/libs/vulkan-zig": [
+    0.929058,
+    0.765705
+  ],
+  "/Users/ember/dev/peters-broken-shit/src": [
+    0.955163,
+    0.7297
+  ],
+  "/Users/ember/dev/pinatatown": [
+    0.768502,
+    0.824245
+  ],
+  "/Users/ember/dev/playground": [
+    0.518321,
+    0.092139
+  ],
+  "/Users/ember/dev/plymouth-rock": [
+    0.821564,
+    0.795003
+  ],
+  "/Users/ember/dev/polyml": [
+    0.598226,
+    0.182808
+  ],
+  "/Users/ember/dev/proof-systems": [
+    0.254538,
+    0.146042
+  ],
+  "/Users/ember/dev/public-docs": [
+    0.334856,
+    0.713217
+  ],
+  "/Users/ember/dev/qwobot": [
+    0.523549,
+    0.546153
+  ],
+  "/Users/ember/dev/recraft": [
+    0.587921,
+    0.484697
+  ],
+  "/Users/ember/dev/redb": [
+    0.778771,
+    0.037869
+  ],
+  "/Users/ember/dev/redux-rs": [
+    0.845448,
+    0.067586
+  ],
+  "/Users/ember/dev/resequence-rs": [
+    0.807102,
+    0.891684
+  ],
+  "/Users/ember/dev/rhaposPDE": [
+    0.611083,
+    0.229063
+  ],
+  "/Users/ember/dev/rtt": [
+    0.719612,
+    0.352456
+  ],
+  "/Users/ember/dev/rust": [
+    0.636632,
+    0.465165
+  ],
+  "/Users/ember/dev/rust-lpsolve": [
+    0.882883,
+    0.279307
+  ],
+  "/Users/ember/dev/rust_live_env": [
+    0.661238,
+    0.64081
+  ],
+  "/Users/ember/dev/rustc.js": [
+    0.6471,
+    0.588784
+  ],
+  "/Users/ember/dev/semantic-scholar-fastmcp-mcp-server": [
+    0.401101,
+    0.52536
+  ],
+  "/Users/ember/dev/serde-reflect": [
+    0.711105,
+    0.122217
+  ],
+  "/Users/ember/dev/shattered-pixel-dungeon": [
+    0.780318,
+    0.964371
+  ],
+  "/Users/ember/dev/shitheap/'logseq": [
+    0.436155,
+    0.341873
+  ],
+  "/Users/ember/dev/shitheap/absass": [
+    0.685837,
+    0.505525
+  ],
+  "/Users/ember/dev/shitheap/ants": [
+    0.011671,
+    0.479525
+  ],
+  "/Users/ember/dev/shitheap/bfjoy": [
+    0.646978,
+    0.394584
+  ],
+  "/Users/ember/dev/shitheap/billary-board": [
+    0.660632,
+    0.119706
+  ],
+  "/Users/ember/dev/shitheap/da250-tj-chris": [
+    0.89199,
+    0.779376
+  ],
+  "/Users/ember/dev/shitheap/erp": [
+    0.486526,
+    0.384954
+  ],
+  "/Users/ember/dev/shitheap/esgea": [
+    0.00987,
+    0.477354
+  ],
+  "/Users/ember/dev/shitheap/fuckin_bullshit": [
+    0.013959,
+    0.48423
+  ],
+  "/Users/ember/dev/shitheap/good_night": [
+    0.947307,
+    0.688845
+  ],
+  "/Users/ember/dev/shitheap/homie": [
+    0.720131,
+    0.545395
+  ],
+  "/Users/ember/dev/shitheap/jourtress": [
+    0.012219,
+    0.471372
+  ],
+  "/Users/ember/dev/shitheap/megadrag": [
+    0.664622,
+    0.545513
+  ],
+  "/Users/ember/dev/shitheap/o1hub": [
+    0.010075,
+    0.474654
+  ],
+  "/Users/ember/dev/shitheap/shits-fucked-yo": [
+    0.00462,
+    0.482781
+  ],
+  "/Users/ember/dev/shitheap/shitting_furiously": [
+    0.919037,
+    0.761911
+  ],
+  "/Users/ember/dev/shitheap/ski-vpn": [
+    0.000663,
+    0.47147
+  ],
+  "/Users/ember/dev/shitheap/sparklyfarts": [
+    0.827755,
+    0.603059
+  ],
+  "/Users/ember/dev/shitheap/stronk": [
+    0.799148,
+    0.604812
+  ],
+  "/Users/ember/dev/shitheap/tj-binomheap": [
+    0.81757,
+    0.246735
+  ],
+  "/Users/ember/dev/shitheap/tjmes": [
+    0.905632,
+    0.74478
+  ],
+  "/Users/ember/dev/shitting_furiously": [
+    0.932838,
+    0.744518
+  ],
+  "/Users/ember/dev/shylem": [
+    0.594169,
+    0.737458
+  ],
+  "/Users/ember/dev/slipways-core": [
+    0.772204,
+    0.889169
+  ],
+  "/Users/ember/dev/snarky": [
+    0.239163,
+    0.166774
+  ],
+  "/Users/ember/dev/spweebo'ard": [
+    0.636208,
+    0.600324
+  ],
+  "/Users/ember/dev/spween": [
+    0.685443,
+    0.699342
+  ],
+  "/Users/ember/dev/spwsft": [
+    0.548961,
+    0.378895
+  ],
+  "/Users/ember/dev/sscvid": [
+    0.0,
+    0.468134
+  ],
+  "/Users/ember/dev/starmap": [
+    0.508886,
+    0.374847
+  ],
+  "/Users/ember/dev/subconscious": [
+    0.291842,
+    0.375165
+  ],
+  "/Users/ember/dev/this-week-in-rust": [
+    0.461874,
+    0.740992
+  ],
+  "/Users/ember/dev/thy-of-ocaml": [
+    0.151408,
+    0.382788
+  ],
+  "/Users/ember/dev/ticklogseq": [
+    0.431428,
+    0.350421
+  ],
+  "/Users/ember/dev/tictacflicflacfloe": [
+    0.714761,
+    0.974514
+  ],
+  "/Users/ember/dev/tinytable": [
+    0.754518,
+    0.848237
+  ],
+  "/Users/ember/dev/tt": [
+    0.691762,
+    0.376615
+  ],
+  "/Users/ember/dev/tulip.fg-goose.online": [
+    0.416976,
+    0.355383
+  ],
+  "/Users/ember/dev/tulip2": [
+    0.413815,
+    0.348777
+  ],
+  "/Users/ember/dev/ual-tool": [
+    0.719397,
+    0.373951
+  ],
+  "/Users/ember/dev/verimina": [
+    0.325169,
+    0.162513
+  ],
+  "/Users/ember/dev/vscode-rustup": [
+    0.746927,
+    0.495692
+  ],
+  "/Users/ember/dev/webapp2-auto": [
+    0.652171,
+    0.876378
+  ],
+  "/Users/ember/dev/yeet+": [
+    0.6103,
+    0.667109
+  ],
+  "/Users/ember/dev/zed": [
+    0.478732,
+    0.330723
+  ],
+  "/Users/ember/dev/zkbox": [
+    0.354896,
+    0.221761
+  ],
+  "/Users/ember/dev/zulip-api": [
+    0.425877,
+    0.574003
+  ],
+  "/Users/ember/dev/zwobot": [
+    0.665086,
+    0.795801
+  ],
+  "/Users/ember/hellas/algebra": [
+    0.224925,
+    0.118758
+  ],
+  "/Users/ember/hellas/ark-blst": [
+    0.177251,
+    0.107271
+  ],
+  "/Users/ember/hellas/ark-std": [
+    0.254115,
+    0.143305
+  ],
+  "/Users/ember/hellas/blst": [
+    0.216648,
+    0.084392
+  ],
+  "/Users/ember/hellas/blstrs": [
+    0.174143,
+    0.104129
+  ],
+  "/Users/ember/hellas/catgrad": [
+    0.603701,
+    0.355729
+  ],
+  "/Users/ember/hellas/consensus-experiments": [
+    0.426274,
+    0.107882
+  ],
+  "/Users/ember/hellas/crypto-primitives": [
+    0.231483,
+    0.113972
+  ],
+  "/Users/ember/hellas/devvber": [
+    0.364821,
+    0.0
+  ],
+  "/Users/ember/hellas/ec-gpu": [
+    0.211488,
+    0.088649
+  ],
+  "/Users/ember/hellas/egglog": [
+    0.673051,
+    0.397527
+  ],
+  "/Users/ember/hellas/eggrad": [
+    0.586598,
+    0.346661
+  ],
+  "/Users/ember/hellas/ezgen": [
+    0.412609,
+    0.317095
+  ],
+  "/Users/ember/hellas/ff": [
+    0.172615,
+    0.07813
+  ],
+  "/Users/ember/hellas/group": [
+    0.170665,
+    0.087244
+  ],
+  "/Users/ember/hellas/hades-v0/components": [
+    0.382294,
+    0.070231
+  ],
+  "/Users/ember/hellas/hades-v0/visualizers": [
+    0.377792,
+    0.066604
+  ],
+  "/Users/ember/hellas/hellas-common": [
+    0.248261,
+    0.059555
+  ],
+  "/Users/ember/hellas/hellas-morpheus": [
+    0.393696,
+    0.050645
+  ],
+  "/Users/ember/hellas/infra": [
+    0.398164,
+    0.303779
+  ],
+  "/Users/ember/hellas/iroh": [
+    0.422719,
+    0.02813
+  ],
+  "/Users/ember/hellas/iroh-blobs": [
+    0.407915,
+    0.046906
+  ],
+  "/Users/ember/hellas/iroh-gossip": [
+    0.412674,
+    0.031353
+  ],
+  "/Users/ember/hellas/mini-sui": [
+    0.358707,
+    0.027956
+  ],
+  "/Users/ember/hellas/open-hypergraphs": [
+    0.78126,
+    0.379229
+  ],
+  "/Users/ember/hellas/original-stingrayish-protocol": [
+    0.369566,
+    0.01053
+  ],
+  "/Users/ember/hellas/pairing": [
+    0.158544,
+    0.105931
+  ],
+  "/Users/ember/hellas/poly-commit": [
+    0.227884,
+    0.157405
+  ],
+  "/Users/ember/hellas/proto-dumping-ground": [
+    0.389975,
+    0.034409
+  ],
+  "/Users/ember/hellas/protoproto": [
+    0.371565,
+    0.024227
+  ],
+  "/Users/ember/hellas/protoproto2": [
+    0.363195,
+    0.002034
+  ],
+  "/Users/ember/hellas/runpod-rs": [
+    0.89881,
+    0.560873
+  ],
+  "/Users/ember/hellas/rust-gpu-tools": [
+    0.891741,
+    0.564938
+  ],
+  "/Users/ember/hellas/serde_bare": [
+    0.683918,
+    0.089125
+  ],
+  "/Users/ember/hellas/subtle": [
+    0.218056,
+    0.032844
+  ],
+  "/Users/ember/shitheap": [
+    0.914065,
+    0.769768
+  ],
+  "/Users/ember/src/CnC_Generals_Zero_Hour": [
+    0.791587,
+    0.980956
+  ],
+  "/Users/ember/src/CnC_Red_Alert": [
+    0.780944,
+    1.0
+  ],
+  "/Users/ember/src/CnC_Renegade": [
+    0.780661,
+    0.976689
+  ],
+  "/Users/ember/src/CnC_Tiberian_Dawn": [
+    0.777482,
+    0.993091
+  ],
+  "/Users/ember/src/CommonCrypt/CommonCrypto": [
+    0.247006,
+    0.385194
+  ],
+  "/Users/ember/src/GynCycle": [
+    0.777535,
+    0.740567
+  ],
+  "/Users/ember/src/Jai-Code-Collection": [
+    0.656389,
+    0.6659
+  ],
+  "/Users/ember/src/Qwen3-TTS": [
+    0.528028,
+    0.309266
+  ],
+  "/Users/ember/src/TurboDiffusion": [
+    0.543612,
+    0.323485
+  ],
+  "/Users/ember/src/Weylus": [
+    0.698209,
+    0.619916
+  ],
+  "/Users/ember/src/airshipper": [
+    0.68202,
+    0.918326
+  ],
+  "/Users/ember/src/astrolog": [
+    0.576461,
+    0.376862
+  ],
+  "/Users/ember/src/autobahn-artifact": [
+    0.401532,
+    0.053306
+  ],
+  "/Users/ember/src/binius": [
+    0.219765,
+    0.112247
+  ],
+  "/Users/ember/src/bolero": [
+    0.765837,
+    0.314267
+  ],
+  "/Users/ember/src/capnproto-java": [
+    0.679809,
+    0.123248
+  ],
+  "/Users/ember/src/capnweb": [
+    0.510214,
+    0.023026
+  ],
+  "/Users/ember/src/cargo-public-api": [
+    0.346789,
+    0.716936
+  ],
+  "/Users/ember/src/conduit": [
+    0.426848,
+    0.238768
+  ],
+  "/Users/ember/src/contextOS": [
+    0.440815,
+    0.307839
+  ],
+  "/Users/ember/src/cosmopolitan": [
+    0.610332,
+    0.470922
+  ],
+  "/Users/ember/src/cqrs": [
+    0.883663,
+    0.036041
+  ],
+  "/Users/ember/src/crates_llms_txt": [
+    0.339615,
+    0.711705
+  ],
+  "/Users/ember/src/cxx-qt": [
+    0.576397,
+    0.486289
+  ],
+  "/Users/ember/src/diffusers-reference": [
+    0.542587,
+    0.329463
+  ],
+  "/Users/ember/src/eclipse-biscuit/biscuit": [
+    0.397587,
+    0.154447
+  ],
+  "/Users/ember/src/eclipse-biscuit/biscuit-cli": [
+    0.39413,
+    0.1514
+  ],
+  "/Users/ember/src/eclipse-biscuit/biscuit-java": [
+    0.170455,
+    0.372399
+  ],
+  "/Users/ember/src/eclipse-biscuit/biscuit-rust": [
+    0.398477,
+    0.153012
+  ],
+  "/Users/ember/src/eclipse-biscuit/biscuit-swift": [
+    0.389869,
+    0.166587
+  ],
+  "/Users/ember/src/eclipse-biscuit/website": [
+    0.406494,
+    0.157039
+  ],
+  "/Users/ember/src/engine-sim": [
+    0.773284,
+    0.756825
+  ],
+  "/Users/ember/src/ensue": [
+    0.258002,
+    0.538386
+  ],
+  "/Users/ember/src/ensue-db-ts-client": [
+    0.261679,
+    0.199432
+  ],
+  "/Users/ember/src/es-entity": [
+    0.887492,
+    0.044743
+  ],
+  "/Users/ember/src/eventcore": [
+    0.874226,
+    0.040205
+  ],
+  "/Users/ember/src/eventually-rs": [
+    0.882217,
+    0.054095
+  ],
+  "/Users/ember/src/express": [
+    0.525568,
+    0.618156
+  ],
+  "/Users/ember/src/fjall": [
+    0.775963,
+    0.038859
+  ],
+  "/Users/ember/src/flux-reference": [
+    0.532779,
+    0.33353
+  ],
+  "/Users/ember/src/fly-macaroon": [
+    0.395577,
+    0.149425
+  ],
+  "/Users/ember/src/fmodel-rust": [
+    0.856477,
+    0.109915
+  ],
+  "/Users/ember/src/fmodel-rust-demo": [
+    0.880843,
+    0.075275
+  ],
+  "/Users/ember/src/fmodel-rust-postgres": [
+    0.891243,
+    0.070521
+  ],
+  "/Users/ember/src/guile-goblins": [
+    0.502882,
+    0.020549
+  ],
+  "/Users/ember/src/hickory-dns": [
+    0.474109,
+    0.069132
+  ],
+  "/Users/ember/src/hints": [
+    0.196357,
+    0.129639
+  ],
+  "/Users/ember/src/iris-lean": [
+    0.546624,
+    0.171285
+  ],
+  "/Users/ember/src/itree-program-logic": [
+    0.545043,
+    0.170074
+  ],
+  "/Users/ember/src/jj": [
+    0.517647,
+    0.291999
+  ],
+  "/Users/ember/src/joda-time": [
+    0.196451,
+    0.42263
+  ],
+  "/Users/ember/src/jwilger-claude-code-setup": [
+    0.39718,
+    0.416852
+  ],
+  "/Users/ember/src/keygen-rs": [
+    0.19579,
+    0.552189
+  ],
+  "/Users/ember/src/lan-mouse": [
+    0.71606,
+    0.585656
+  ],
+  "/Users/ember/src/learn-ocaml-beta": [
+    0.135405,
+    0.464168
+  ],
+  "/Users/ember/src/leptos": [
+    0.573478,
+    0.761983
+  ],
+  "/Users/ember/src/leptos-book": [
+    0.568776,
+    0.782429
+  ],
+  "/Users/ember/src/llama.cpp": [
+    0.594845,
+    0.401092
+  ],
+  "/Users/ember/src/lockstitch": [
+    0.214258,
+    0.034438
+  ],
+  "/Users/ember/src/lsm-tree": [
+    0.783589,
+    0.060034
+  ],
+  "/Users/ember/src/mathlib": [
+    0.559761,
+    0.1645
+  ],
+  "/Users/ember/src/mcp-language-server": [
+    0.491521,
+    0.341648
+  ],
+  "/Users/ember/src/mcp-memento": [
+    0.424055,
+    0.297617
+  ],
+  "/Users/ember/src/mcp-rust-docs": [
+    0.33896,
+    0.68755
+  ],
+  "/Users/ember/src/mcp-rust-sdk": [
+    0.373142,
+    0.615195
+  ],
+  "/Users/ember/src/mechcommander2": [
+    0.782817,
+    0.995735
+  ],
+  "/Users/ember/src/mica": [
+    0.962681,
+    0.601793
+  ],
+  "/Users/ember/src/mistral.rs": [
+    0.572924,
+    0.417778
+  ],
+  "/Users/ember/src/modget": [
+    0.580581,
+    0.460333
+  ],
+  "/Users/ember/src/moltbook-api": [
+    0.135187,
+    0.536928
+  ],
+  "/Users/ember/src/native_model": [
+    0.681738,
+    0.089983
+  ],
+  "/Users/ember/src/node": [
+    0.542301,
+    0.577013
+  ],
+  "/Users/ember/src/ocapn": [
+    0.493572,
+    0.020266
+  ],
+  "/Users/ember/src/ocapn-rs": [
+    0.495849,
+    0.020045
+  ],
+  "/Users/ember/src/ocapn-test-suite": [
+    0.501392,
+    0.01076
+  ],
+  "/Users/ember/src/ocapn.org": [
+    0.496591,
+    0.013133
+  ],
+  "/Users/ember/src/opencl3": [
+    0.896172,
+    0.550702
+  ],
+  "/Users/ember/src/persy": [
+    0.777583,
+    0.025337
+  ],
+  "/Users/ember/src/qt6": [
+    0.582539,
+    0.512573
+  ],
+  "/Users/ember/src/qt6-build/qtbase/doc/global/app-examples-template": [
+    0.526433,
+    0.474686
+  ],
+  "/Users/ember/src/qt6-build/qtbase/doc/global/tools-doc-front-page": [
+    0.503268,
+    0.472793
+  ],
+  "/Users/ember/src/qt6-build/qtbase/mkspecs/modules": [
+    0.553593,
+    0.47645
+  ],
+  "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/extensions": [
+    0.738832,
+    0.613255
+  ],
+  "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/protocols/wayland": [
+    0.719433,
+    0.598071
+  ],
+  "/Users/ember/src/qt6-build/qtbase/src/3rdparty/libjpeg": [
+    0.932291,
+    0.381234
+  ],
+  "/Users/ember/src/racket-capnp": [
+    0.660865,
+    0.099681
+  ],
+  "/Users/ember/src/racket-goblins": [
+    0.511478,
+    0.03353
+  ],
+  "/Users/ember/src/rcgen": [
+    0.278511,
+    0.079409
+  ],
+  "/Users/ember/src/redux-rs": [
+    0.846637,
+    0.085143
+  ],
+  "/Users/ember/src/resp": [
+    0.413729,
+    0.48896
+  ],
+  "/Users/ember/src/rmcp-sdk": [
+    0.382333,
+    0.593318
+  ],
+  "/Users/ember/src/rust-docs-mcp": [
+    0.332498,
+    0.689394
+  ],
+  "/Users/ember/src/rust-signals": [
+    0.861612,
+    0.312953
+  ],
+  "/Users/ember/src/rustdoc-md": [
+    0.333012,
+    0.71928
+  ],
+  "/Users/ember/src/shylem/leptos": [
+    0.569967,
+    0.762346
+  ],
+  "/Users/ember/src/shylem/leptos-book": [
+    0.570267,
+    0.776709
+  ],
+  "/Users/ember/src/shylem/leptos-chartistry": [
+    0.567037,
+    0.781246
+  ],
+  "/Users/ember/src/shylem/leptos-use": [
+    0.576889,
+    0.777847
+  ],
+  "/Users/ember/src/shylem/xilem": [
+    0.601058,
+    0.737411
+  ],
+  "/Users/ember/src/smlfmt": [
+    0.596563,
+    0.178899
+  ],
+  "/Users/ember/src/spw-workbench/__MACOSX/spw-workbench": [
+    0.00691,
+    0.477274
+  ],
+  "/Users/ember/src/spw-workbench/spw-workbench": [
+    0.653831,
+    0.463265
+  ],
+  "/Users/ember/src/sqlite-es": [
+    0.884525,
+    0.042512
+  ],
+  "/Users/ember/src/state_machine_exp": [
+    0.836537,
+    0.042515
+  ],
+  "/Users/ember/src/surrealdb": [
+    0.771617,
+    0.023548
+  ],
+  "/Users/ember/src/syrup": [
+    0.681377,
+    0.091255
+  ],
+  "/Users/ember/src/tsuzuri": [
+    0.881675,
+    0.039818
+  ],
+  "/Users/ember/src/veloren": [
+    0.809978,
+    0.907536
+  ],
+  "/Users/ember/src/xilem": [
+    0.594236,
+    0.751069
+  ],
+  "/Users/ember/src/zig": [
+    0.64769,
+    0.428291
+  ],
+  "/Users/ember/src/zulip-terminal": [
+    0.185055,
+    0.356115
+  ]
+}

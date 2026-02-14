@@ -1,0 +1,226 @@
+{
+  "name": "totient",
+  "description": "A minimalist computational utility for investigating prime number distributions and gaps. The program iterates through large integer ranges using a brute-force primality test to identify primes where the gap between consecutive primes exceeds the square root of the value, assisting in empirical number theory research.",
+  "tags": [
+    "rust",
+    "prime-numbers",
+    "number-theory",
+    "computational-math",
+    "prime-gaps",
+    "research-tool",
+    "brute-force",
+    "integer-arithmetic"
+  ],
+  "category": "Computational Number Theory",
+  "concepts": [
+    "Prime Gaps",
+    "Primality Testing",
+    "Consecutive Primes",
+    "Square Root Bounds",
+    "Iterative Search",
+    "Numerical Analysis",
+    "Computational Mathematics",
+    "Number Theoretic Conjectures",
+    "Heuristic Search",
+    "Prime Distribution",
+    "Brute-force Search",
+    "Gap Conjectures",
+    "Computational Investigation",
+    "Mathematical Research",
+    "Trial Division",
+    "Successive Difference",
+    "Large Integer Iteration",
+    "Empirical Verification",
+    "Bound Analysis",
+    "Search Optimization",
+    "Integer Division",
+    "Prime Density",
+    "Oppermann's Conjecture",
+    "Cramer's Conjecture"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": [
+      "totient.rs"
+    ]
+  },
+  "_hash": "5857a681309403f8cda1830c9895a10bdf8b3eaf3f30f2a28da4b458bc7d6633",
+  "_path": "/Users/ember/dev/gh/totient",
+  "_updated_at": "2026-02-14T00:56:28.682622Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Prime Gaps",
+      "Primality Testing",
+      "Consecutive Primes",
+      "Square Root Bounds",
+      "Iterative Search",
+      "Numerical Analysis",
+      "Computational Mathematics",
+      "Number Theoretic Conjectures",
+      "Heuristic Search",
+      "Prime Distribution",
+      "Brute-force Search",
+      "Gap Conjectures",
+      "Computational Investigation",
+      "Mathematical Research",
+      "Trial Division",
+      "Successive Difference",
+      "Large Integer Iteration",
+      "Empirical Verification",
+      "Bound Analysis",
+      "Search Optimization",
+      "Integer Division",
+      "Prime Density",
+      "Oppermann's Conjecture",
+      "Cramer's Conjecture"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "prime-numbers",
+      "number-theory",
+      "computational-math",
+      "prime-gaps",
+      "research-tool",
+      "brute-force",
+      "integer-arithmetic"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lisp",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Recursive Descent Parsing",
+      "lexical-analysis",
+      "Rust Language Ecosystem",
+      "Applicative-order Evaluation",
+      "Compound Data",
+      "Higher-order Procedures",
+      "Iterative Processes",
+      "Lambda Abstraction",
+      "Lexical Scoping"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.457,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.438,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.428,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.42,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.631,
+        "matches": []
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.629,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.682622Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "216baebc50cf9873d76b1dc406362013f29adecedc662e73b967f7b0bf53367c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:32.371113+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "lisp",
+    "resource-management",
+    "Recursive Descent Parsing",
+    "Tokenization",
+    "rust-lang",
+    "Applicative-order Evaluation",
+    "Compound Data",
+    "Higher-order Procedures",
+    "Iterative Processes",
+    "Lambda Abstraction",
+    "Lexical Scoping"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.855
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.851
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.847
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.842
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.838
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.838
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.836
+    }
+  ]
+}

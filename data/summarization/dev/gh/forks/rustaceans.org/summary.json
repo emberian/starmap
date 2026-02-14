@@ -1,0 +1,196 @@
+{
+  "name": "rustaceans.org",
+  "description": "A community-maintained metadata registry for Rust language contributors, serving as the primary data source for the rustaceans.org directory. It utilizes a GitOps workflow where members manage personal profiles through structured JSON files submitted via GitHub Pull Requests. The repository facilitates decentralized identity management and community networking by providing a version-controlled record of contributor interests and communication handles.",
+  "tags": [
+    "rust",
+    "registry",
+    "gitops",
+    "json",
+    "community",
+    "identity",
+    "directory",
+    "metadata",
+    "open-registry"
+  ],
+  "category": "Distributed Identity Registry",
+  "concepts": [
+    "Collaborative Data Management",
+    "Pull Request Workflow",
+    "Structured Metadata",
+    "Community Profiling",
+    "Decentralized Data Entry",
+    "Versioned Identity",
+    "Git-based Submission"
+  ],
+  "languages": [
+    "JSON"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 33,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "fdf5ce62a74a320359aa77190728be3130225a324b3978c9a72be552c64eb250",
+  "_path": "/Users/ember/dev/gh/forks/rustaceans.org",
+  "_updated_at": "2026-02-14T00:56:26.634411Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Collaborative Data Management",
+      "Pull Request Workflow",
+      "Structured Metadata",
+      "Community Profiling",
+      "Decentralized Data Entry",
+      "Versioned Identity",
+      "Git-based Submission"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "registry",
+      "gitops",
+      "json",
+      "community",
+      "identity",
+      "directory",
+      "metadata",
+      "open-registry"
+    ],
+    "mined_motifs": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "Compiler Engineering",
+      "parser",
+      "API Stability",
+      "Algebraic Data Types",
+      "Atom Feed",
+      "Borrowing",
+      "Cargo Package Manager",
+      "Compiler Evolution",
+      "Fearless Concurrency",
+      "Historical Documentation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.795,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.435,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.431,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.421,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.409,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 3.991,
+        "matches": [
+          "parser"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.634411Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7bc4d8a225460cb2914e18090492605fa8685278ec3b650ae3b397f50016fd47",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:19.127554+00:00"
+  },
+  "mined_motifs": [
+    "resource-management",
+    "system-programming",
+    "compiler-design",
+    "parser",
+    "API Stability",
+    "Algebraic Data Types",
+    "Atom Feed",
+    "Borrowing",
+    "Cargo Package Manager",
+    "Compiler Evolution",
+    "Fearless Concurrency",
+    "Historical Documentation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.841
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.841
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.835
+    },
+    {
+      "name": "git2-rs",
+      "path": "/Users/ember/dev/gh/forks/git2-rs",
+      "similarity": 0.835
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.834
+    }
+  ]
+}

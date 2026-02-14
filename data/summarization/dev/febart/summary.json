@@ -1,0 +1,259 @@
+{
+  "name": "febart",
+  "description": "febart is an automated video production and curriculum orchestration framework designed for the programmatic generation of pedagogical content focused on psychophysics. The system utilizes a curriculum-as-code approach where TypeScript definitions drive a complex pipeline integrating Manim for mathematical visualizations, AI-driven TTS for character-based Socratic dialogues, and FFmpeg for final assembly. It bridges the gap between formal mathematical derivations and multimedia storytelling through a structured asset management and rendering orchestration system.",
+  "tags": [
+    "typescript",
+    "python",
+    "manim",
+    "ffmpeg",
+    "video-automation",
+    "curriculum-as-code",
+    "psychophysics",
+    "signal-processing",
+    "tts",
+    "react",
+    "astro",
+    "pedagogy",
+    "information-theory",
+    "animation-engine",
+    "multimedia-pipeline"
+  ],
+  "category": "Multimedia Educational Content Synthesis",
+  "concepts": [
+    "Weber's Law",
+    "Fechner's Law",
+    "Signal-to-Noise Ratio",
+    "Channel Capacity",
+    "Information Theory",
+    "Logarithmic Encoding",
+    "Sensory Dimensionality Reduction",
+    "Retinal Receptive Fields",
+    "Center-Surround Antagonism",
+    "Ganzfeld Effect",
+    "Chromatic Opponent Channels",
+    "Attention Bottlenecks",
+    "Change Blindness",
+    "Efficient Coding Hypothesis",
+    "Metamerism",
+    "Spectral Power Distribution",
+    "Foveal Vision",
+    "Peripheral Vision",
+    "Socratic Pedagogy",
+    "Automated Video Assembly",
+    "Visual Prompt Engineering",
+    "Manim Animation System",
+    "Curriculum-as-Code",
+    "Lossy Compression",
+    "Gain Control",
+    "Motion Detection Circuits",
+    "Multisensory Binding",
+    "Dynamic Range Problem",
+    "Just-Noticeable Difference",
+    "Orthogonal Sensory Dimensions"
+  ],
+  "languages": [
+    "TypeScript",
+    "Python",
+    "Shell",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1779,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "manim/shared/__init__.py",
+      "src/data/psychophysics/index.ts",
+      "src/types/index.ts",
+      "web/src/components/widgets/index.ts"
+    ]
+  },
+  "_hash": "fbca6541c17f302790c3ca77d0d1950154c9d07ea156b5b6e02a9731077d32ea",
+  "_path": "/Users/ember/dev/febart",
+  "_updated_at": "2026-02-14T00:56:24.095614Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Weber's Law",
+      "Fechner's Law",
+      "Signal-to-Noise Ratio",
+      "Channel Capacity",
+      "Information Theory",
+      "Logarithmic Encoding",
+      "Sensory Dimensionality Reduction",
+      "Retinal Receptive Fields",
+      "Center-Surround Antagonism",
+      "Ganzfeld Effect",
+      "Chromatic Opponent Channels",
+      "Attention Bottlenecks",
+      "Change Blindness",
+      "Efficient Coding Hypothesis",
+      "Metamerism",
+      "Spectral Power Distribution",
+      "Foveal Vision",
+      "Peripheral Vision",
+      "Socratic Pedagogy",
+      "Automated Video Assembly",
+      "Visual Prompt Engineering",
+      "Manim Animation System",
+      "Curriculum-as-Code",
+      "Lossy Compression",
+      "Gain Control",
+      "Motion Detection Circuits",
+      "Multisensory Binding",
+      "Dynamic Range Problem",
+      "Just-Noticeable Difference",
+      "Orthogonal Sensory Dimensions"
+    ],
+    "tags": [
+      "typescript",
+      "python",
+      "manim",
+      "ffmpeg",
+      "video-automation",
+      "curriculum-as-code",
+      "psychophysics",
+      "signal-processing",
+      "tts",
+      "react",
+      "astro",
+      "pedagogy",
+      "information-theory",
+      "animation-engine",
+      "multimedia-pipeline"
+    ],
+    "mined_motifs": [
+      "physics-engine",
+      "Attention Masking",
+      "Bitwise Quantization",
+      "CUDA Kernels",
+      "Context Parallelism",
+      "DTensor",
+      "Distributed Checkpointing",
+      "Dynamic Resolution",
+      "EMA Weights",
+      "Euler Sampling",
+      "Flow Matching",
+      "Fully Sharded Data Parallel"
+    ],
+    "metaconstellations": [
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 8.17,
+        "matches": [
+          "pedagogy",
+          "curriculum-as-code",
+          "manim"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.267,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 3.714,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.421,
+        "matches": []
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 2.413,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.408,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.095614Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ede449b89cfd06d12e1ace2c9be96b825e244da90af7a31934e70bc178522ea2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:06.202635+00:00"
+  },
+  "mined_motifs": [
+    "physics-engine",
+    "Attention Masking",
+    "Bitwise Quantization",
+    "CUDA Kernels",
+    "Context Parallelism",
+    "DTensor",
+    "Distributed Checkpointing",
+    "Dynamic Resolution",
+    "EMA Weights",
+    "Euler Sampling",
+    "Flow Matching",
+    "Fully Sharded Data Parallel"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "TurboDiffusion",
+      "path": "/Users/ember/src/TurboDiffusion",
+      "similarity": 0.774
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.765
+    },
+    {
+      "name": "fk-proj",
+      "path": "/Users/ember/dev/fk-proj",
+      "similarity": 0.76
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.753
+    },
+    {
+      "name": "chaingang",
+      "path": "/Users/ember/dev/chaingang",
+      "similarity": 0.753
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.752
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.75
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.75
+    }
+  ]
+}

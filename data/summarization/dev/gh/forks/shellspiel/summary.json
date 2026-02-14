@@ -1,0 +1,247 @@
+{
+  "name": "shellspiel",
+  "description": "shellspiel is a real-time artillery game that leverages a hybrid engine composed of Rust-based cellular automata and WebGL-driven fluid simulations. The core simulation logic is compiled to WebAssembly for high-performance particle updates, while the rendering pipeline utilizes fragment shaders and the REGL library for efficient GPGPU computations. The architecture integrates a React-based user interface with a Firebase backend to support social features and persistent user-generated content.",
+  "tags": [
+    "artillery-game",
+    "rust",
+    "webassembly",
+    "webgl",
+    "glsl",
+    "react",
+    "firebase",
+    "fluid-dynamics",
+    "cellular-automata",
+    "gpgpu",
+    "wasm-bindgen",
+    "physics-engine",
+    "mobile-web",
+    "simulation",
+    "particle-physics",
+    "typescript"
+  ],
+  "category": "Particle-based Artillery Simulation",
+  "concepts": [
+    "Eulerian Fluid Dynamics",
+    "Cellular Automata Updates",
+    "WebAssembly Interop",
+    "Fragment Shader Optimization",
+    "GPGPU Rendering",
+    "Grid-based Physics",
+    "Real-time Simulation",
+    "State Serialization",
+    "Reactive UI Components",
+    "Serverless Infrastructure",
+    "Document Storage",
+    "User Authentication",
+    "Cross-Platform Optimization",
+    "Undo/Redo Architecture",
+    "Particle-Fluid Interaction",
+    "Spatial Grid Management",
+    "Discrete Element Methods",
+    "Vorticity Confinement",
+    "Advection-Diffusion Solvers"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "TypeScript",
+    "GLSL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 75,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "crate/src/lib.rs",
+      "functions/src/index.ts",
+      "js/index.js",
+      "crate/src/species.rs"
+    ]
+  },
+  "_hash": "bc8dd1b7e9039adf1b104faf7b2bd88f89176c564408da2b155274a257548d49",
+  "_path": "/Users/ember/dev/gh/forks/shellspiel",
+  "_updated_at": "2026-02-14T00:56:26.666853Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Eulerian Fluid Dynamics",
+      "Cellular Automata Updates",
+      "WebAssembly Interop",
+      "Fragment Shader Optimization",
+      "GPGPU Rendering",
+      "Grid-based Physics",
+      "real-time-simulation",
+      "State Serialization",
+      "Reactive UI Components",
+      "Serverless Infrastructure",
+      "Document Storage",
+      "User Authentication",
+      "Cross-Platform Optimization",
+      "Undo/Redo Architecture",
+      "Particle-Fluid Interaction",
+      "Spatial Grid Management",
+      "Discrete Element Methods",
+      "Vorticity Confinement",
+      "Advection-Diffusion Solvers"
+    ],
+    "tags": [
+      "artillery-game",
+      "Rust Language Ecosystem",
+      "webassembly",
+      "webgl",
+      "glsl",
+      "react",
+      "firebase",
+      "fluid-dynamics",
+      "cellular-automata",
+      "GPGPU Compute",
+      "physics-engine",
+      "mobile-web",
+      "real-time-simulation",
+      "particle-physics",
+      "typescript"
+    ],
+    "mined_motifs": [
+      "WebAssembly",
+      "cellular-automata",
+      "Stochastic State Transitions",
+      "Totalistic Rules",
+      "egui",
+      "webgpu",
+      "wgpu",
+      "wgsl",
+      "leptos",
+      "Component-Based Architecture",
+      "Relational Data Modeling",
+      "sqlite"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.569,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "fluid-dynamics",
+          "glsl"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.748,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.726,
+        "matches": [
+          "gpgpu compute",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.423,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.345,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.337,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.666853Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7249f0577433de0369f756505be87e9779f3d3317a237ba49d150c03eb5193ef",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:23.580747+00:00"
+  },
+  "mined_motifs": [
+    "wasm",
+    "Cellular Automata",
+    "Stochastic State Transitions",
+    "Totalistic Rules",
+    "egui",
+    "webgpu",
+    "wgpu",
+    "wgsl",
+    "leptos",
+    "Component-Based Architecture",
+    "Relational Data Modeling",
+    "sqlite"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.818
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.812
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.812
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.806
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.805
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/automatafl",
+      "similarity": 0.797
+    },
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.795
+    },
+    {
+      "name": "booty-hunt",
+      "path": "/Users/ember/dev/booty-hunt",
+      "similarity": 0.794
+    }
+  ]
+}

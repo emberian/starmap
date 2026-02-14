@@ -1,0 +1,229 @@
+{
+  "name": "C-Utilities",
+  "description": "C-Utilities appears to be a web/app project using C/C++, C++. The available files suggest focus areas around array, asynchashtable, asynclinkedlist, asynclist.",
+  "tags": [
+    "C/C++",
+    "C++",
+    "array",
+    "asynchashtable",
+    "asynclinkedlist",
+    "asynclist",
+    "asyncqueue",
+    "asyncstack",
+    "datastream",
+    "hashtable",
+    "linkedlist",
+    "list",
+    "memory",
+    "misc",
+    "queue",
+    "stack"
+  ],
+  "category": "Web/App",
+  "concepts": [
+    "array",
+    "asynchashtable",
+    "asynclinkedlist",
+    "asynclist",
+    "asyncqueue",
+    "asyncstack",
+    "datastream",
+    "hashtable",
+    "linkedlist",
+    "list",
+    "memory",
+    "misc",
+    "queue",
+    "stack",
+    "strings",
+    "tcpclient",
+    "tcpserver",
+    "time",
+    "cmakelists",
+    "common",
+    "license",
+    "readme"
+  ],
+  "languages": [
+    "C/C++",
+    "C++"
+  ],
+  "maturity": "exploratory",
+  "_hash": "f1b9ecaaa1546a2ca19d58dcdfadd39346f5b9446ed05fa4c3d126fd6922770d",
+  "_path": "/Users/ember/dev/gh/C-Utilities",
+  "_updated_at": "2026-02-14T00:56:24.212887Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "array",
+      "asynchashtable",
+      "asynclinkedlist",
+      "asynclist",
+      "asyncqueue",
+      "asyncstack",
+      "datastream",
+      "hashtable",
+      "linkedlist",
+      "list",
+      "memory",
+      "misc",
+      "queue",
+      "stack",
+      "strings",
+      "tcpclient",
+      "tcpserver",
+      "time",
+      "cmakelists",
+      "common",
+      "license",
+      "readme"
+    ],
+    "tags": [
+      "C/C++",
+      "C++",
+      "array",
+      "asynchashtable",
+      "asynclinkedlist",
+      "asynclist",
+      "asyncqueue",
+      "asyncstack",
+      "datastream",
+      "hashtable",
+      "linkedlist",
+      "list",
+      "memory",
+      "misc",
+      "queue",
+      "stack"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "socket",
+      "C",
+      "posix",
+      "http",
+      "config",
+      "info",
+      "event",
+      "thread",
+      "main",
+      "channel",
+      "client"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 4.777,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 4.716,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 4.711,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 3.356,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 3.33,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 2.003,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.212887Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a22e9a355b9d5def943a893e1318644de6769cbe3cb8ac4445005d5d0a478bb1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:13.348324+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "socket",
+    "C",
+    "posix",
+    "http",
+    "config",
+    "info",
+    "event",
+    "thread",
+    "main",
+    "channel",
+    "client"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "util",
+      "path": "/Users/ember/dev/gh/util",
+      "similarity": 0.852
+    },
+    {
+      "name": "Utilities",
+      "path": "/Users/ember/dev/gh/Utilities",
+      "similarity": 0.696
+    },
+    {
+      "name": "cracked-coconut",
+      "path": "/Users/ember/dev/cracked-coconut",
+      "similarity": 0.668
+    },
+    {
+      "name": "CommonCrypto",
+      "path": "/Users/ember/src/CommonCrypt/CommonCrypto",
+      "similarity": 0.662
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.661
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.66
+    },
+    {
+      "name": "dsl",
+      "path": "/Users/ember/dev/gh/forks/dsl",
+      "similarity": 0.651
+    }
+  ]
+}

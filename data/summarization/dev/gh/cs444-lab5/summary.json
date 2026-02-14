@@ -1,0 +1,247 @@
+{
+  "name": "cs444-lab5",
+  "description": "An implementation of Single-Producer Multiple-Consumer (SPMC) synchronization primitives exploring the trade-offs between locking granularity and performance. The repository includes coarse-grained mutex wrappers, optimized locking structures, and lockless implementations targeting POSIX thread environments. It serves as a pedagogical reference for concurrent data structure design, addressing issues such as busy-waiting, critical section contention, and memory safety in shared-memory systems.",
+  "tags": [
+    "spmc",
+    "pthreads",
+    "mutex",
+    "concurrency",
+    "operating-systems",
+    "synchronization",
+    "bounded-queue",
+    "multithreading",
+    "lockless",
+    "shared-memory",
+    "thread-safety",
+    "critical-section",
+    "producer-consumer",
+    "c",
+    "posix",
+    "threading-primitives"
+  ],
+  "category": "Shared-Memory Synchronization",
+  "concepts": [
+    "Single-Producer Multiple-Consumer (SPMC)",
+    "Thread Synchronization",
+    "Mutual Exclusion",
+    "Coarse-grained Locking",
+    "Pthread API",
+    "Bounded Buffer",
+    "Busy-waiting",
+    "Critical Sections",
+    "Lock-free Programming",
+    "Condition Variables",
+    "Data Race Prevention",
+    "Opaque Pointers",
+    "Dynamic Memory Allocation",
+    "Memory Consistency",
+    "Thread Joining",
+    "Deadlock Prevention",
+    "Resource Contention",
+    "Task Scheduling",
+    "Inter-thread Communication",
+    "Queue Management",
+    "Atomic Operations",
+    "Memory Barriers",
+    "POSIX Threads",
+    "Shared Memory"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "spmc_dumb.c",
+      "spmc_moal.c",
+      "spmc_moal.h"
+    ]
+  },
+  "_hash": "47c85bd571b7f1c9f0e6341504f5ca4eb4f77e6d1d2754988a73e26df89d1c07",
+  "_path": "/Users/ember/dev/gh/cs444-lab5",
+  "_updated_at": "2026-02-14T00:56:24.943921Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Single-Producer Multiple-Consumer (SPMC)",
+      "Thread Synchronization",
+      "Mutual Exclusion",
+      "Coarse-grained Locking",
+      "Pthread API",
+      "Bounded Buffer",
+      "Busy-waiting",
+      "Critical Sections",
+      "Lock-free Programming",
+      "Condition Variables",
+      "Data Race Prevention",
+      "Opaque Pointers",
+      "Memory Management",
+      "Memory Consistency",
+      "Thread Joining",
+      "Deadlock Prevention",
+      "Resource Contention",
+      "Task Scheduling",
+      "Inter-thread Communication",
+      "Queue Management",
+      "Atomic Operations",
+      "Memory Barriers",
+      "POSIX Threads",
+      "Shared Memory"
+    ],
+    "tags": [
+      "spmc",
+      "pthreads",
+      "mutex",
+      "Concurrency & Synchronization",
+      "operating-systems",
+      "bounded-queue",
+      "lockless",
+      "shared-memory",
+      "critical-section",
+      "producer-consumer",
+      "c",
+      "posix",
+      "threading-primitives"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "benchmarking",
+      "recursion",
+      "data-structures",
+      "Lexical Scoping",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "Atomics Performance",
+      "Barrier Synchronization",
+      "Context Switching",
+      "Critical Section Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.239,
+        "matches": [
+          "context switching",
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 6.819,
+        "matches": [
+          "rust language ecosystem",
+          "posix"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.468,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.441,
+        "matches": [
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.436,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 4.031,
+        "matches": [
+          "posix"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.943921Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "60f86faf761bd7c02bae3206ed67f911cc8495cffcd060aec7a5eb8278ea3b2d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:51.524693+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "benchmarking",
+    "recursion",
+    "data-structures",
+    "Lexical Scoping",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "Atomics Performance",
+    "Barrier Synchronization",
+    "Context Switching",
+    "Critical Section Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fun-with-threads",
+      "path": "/Users/ember/dev/gh/forks/fun-with-threads",
+      "similarity": 0.899
+    },
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.864
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.852
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.849
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.844
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.841
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.84
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.837
+    }
+  ]
+}

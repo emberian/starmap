@@ -1,0 +1,222 @@
+{
+  "name": "rust-postgres",
+  "description": "A pure-Rust client implementation of the PostgreSQL wire protocol (v3), providing a high-level, type-safe interface for database interactions. It features native support for prepared statements, transactions with savepoints, lazy query execution for large datasets, and a built-in fixed-size connection pool. The driver enforces strict type correspondence between Rust and PostgreSQL types through extensible ToSql and FromSql traits.",
+  "tags": [
+    "rust",
+    "postgresql",
+    "database-driver",
+    "sql",
+    "wire-protocol",
+    "connection-pooling",
+    "type-safe",
+    "persistence",
+    "backend",
+    "client-library"
+  ],
+  "category": "Relational Database Driver",
+  "concepts": [
+    "PostgreSQL Frontend/Backend Protocol v3",
+    "Prepared Statements",
+    "Transaction Isolation",
+    "SQLSTATE Error Handling",
+    "Binary Data Serialization",
+    "OID Type Mapping",
+    "Connection Pooling",
+    "Lazy Iterators",
+    "Savepoints",
+    "Synchronous I/O",
+    "MD5 Authentication",
+    "Trait-based Type Conversion"
+  ],
+  "languages": [
+    "Rust",
+    "SQL",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "src/postgres/lib.rs",
+      "src/postgres/pool/mod.rs",
+      "src/postgres/test.rs",
+      "src/postgres/error.rs",
+      "src/postgres/types.rs"
+    ]
+  },
+  "_hash": "d8cdb0f62ae5565239b2c1ce23964282984e2f470afcc7cf098dd02072b9a4ef",
+  "_path": "/Users/ember/dev/gh/forks/rust-postgres",
+  "_updated_at": "2026-02-14T00:56:26.615235Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "PostgreSQL Frontend/Backend Protocol v3",
+      "Prepared Statements",
+      "Transaction Isolation",
+      "SQLSTATE Error Handling",
+      "Binary Data Serialization",
+      "OID Type Mapping",
+      "Connection Pooling",
+      "Lazy Iterators",
+      "Savepoints",
+      "Synchronous I/O",
+      "MD5 Authentication",
+      "Trait-based Type Conversion"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "postgresql",
+      "database-driver",
+      "sql",
+      "wire-protocol",
+      "connection-pooling",
+      "type-safe",
+      "persistence",
+      "backend",
+      "client-library"
+    ],
+    "mined_motifs": [
+      "cqrs",
+      "ddd",
+      "event-sourcing",
+      "libpq",
+      "relational-database",
+      "Optimistic Concurrency Control",
+      "macros",
+      "sqlx",
+      "ANSI C compliance",
+      "Asynchronous NOTIFY support",
+      "Binary OID mapping",
+      "C pointer boxing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 12.329,
+        "matches": [
+          "cqrs",
+          "event-sourcing",
+          "persistence",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 9.613,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 6.814,
+        "matches": [
+          "connection pooling",
+          "postgresql"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.338,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.95,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.778,
+        "matches": [
+          "persistence"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.615235Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "845785703c5b977be692d53aaa21b9f2f6478a1acf62c92da7117faad8a1e6a2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:16.368218+00:00"
+  },
+  "mined_motifs": [
+    "cqrs",
+    "ddd",
+    "event-sourcing",
+    "libpq",
+    "relational-database",
+    "Optimistic Concurrency Control",
+    "macros",
+    "sqlx",
+    "ANSI C compliance",
+    "Asynchronous NOTIFY support",
+    "Binary OID mapping",
+    "C pointer boxing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "luapgsql",
+      "path": "/Users/ember/dev/gh/forks/luapgsql",
+      "similarity": 0.857
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.852
+    },
+    {
+      "name": "rustsqlite",
+      "path": "/Users/ember/dev/gh/forks/rustsqlite",
+      "similarity": 0.842
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.821
+    },
+    {
+      "name": "Thinkful-Unit3-Lesson2-Assignment4",
+      "path": "/Users/ember/dev/gh/Thinkful-Unit3-Lesson2-Assignment4",
+      "similarity": 0.818
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.812
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.808
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.808
+    }
+  ]
+}

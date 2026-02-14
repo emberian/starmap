@@ -1,0 +1,198 @@
+{
+  "name": "megadrag",
+  "description": "An exploratory micro-architectural performance analysis tool designed to simulate and quantify instruction latency and pipeline stalls. It serves as a low-level testbed for experimental systems engineering projects and high-performance runtime optimization within the user's research environment.",
+  "tags": [
+    "performance-analysis",
+    "micro-architecture",
+    "simulation",
+    "latency",
+    "pipeline-stalls",
+    "systems-programming",
+    "instruction-set-architecture",
+    "experimental",
+    "benchmarking",
+    "low-level"
+  ],
+  "category": "Micro-architecture Performance Analysis",
+  "concepts": [
+    "pipeline-latency-simulation",
+    "instruction-drag-metrics",
+    "micro-architectural-bottlenecks",
+    "cycle-accurate-analysis",
+    "runtime-performance-modeling",
+    "systems-optimization",
+    "stall-cycle-quantification",
+    "experimental-isa-validation"
+  ],
+  "languages": [
+    "OCaml",
+    "AsciiDoc"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "a0cbeee0ee7799d6299da5e0390fbb9593c4917e2b7cdeed3da3d43bce37ff61",
+  "_path": "/Users/ember/dev/shitheap/megadrag",
+  "_updated_at": "2026-02-14T00:56:30.273307Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a5d48af35ddf70efbb9442c08775ad037b144f040f8cda45f98432a75ffa4aa1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:42.989256+00:00"
+  },
+  "mined_motifs": [
+    "Load-Store Architecture",
+    "Register Allocation",
+    "assembler",
+    "16-bit Instruction Set",
+    "Arithmetic Logic Unit (ALU)",
+    "Calling Convention Specification",
+    "Generalized Bitwise Logic",
+    "Instruction Encoding",
+    "Pest Grammar Parsing",
+    "Abstract Interpretation",
+    "FPGA",
+    "ISA"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "audiokart",
+      "path": "/Users/ember/dev/gh/audiokart",
+      "similarity": 0.807
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.806
+    },
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.797
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.796
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.793
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/shitheap/absass",
+      "similarity": 0.791
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.787
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "pipeline-latency-simulation",
+      "instruction-drag-metrics",
+      "micro-architectural-bottlenecks",
+      "cycle-accurate-analysis",
+      "runtime-performance-modeling",
+      "systems-optimization",
+      "stall-cycle-quantification",
+      "experimental-isa-validation"
+    ],
+    "tags": [
+      "performance-analysis",
+      "micro-architecture",
+      "real-time-simulation",
+      "latency",
+      "pipeline-stalls",
+      "Systems Programming",
+      "instruction-set-architecture",
+      "experimental",
+      "benchmarking",
+      "systems-programming"
+    ],
+    "mined_motifs": [
+      "Load-Store Architecture",
+      "Register Allocation",
+      "assembler",
+      "16-bit Instruction Set",
+      "Arithmetic Logic Unit (ALU)",
+      "Calling Convention Specification",
+      "Generalized Bitwise Logic",
+      "Instruction Encoding",
+      "Pest Grammar Parsing",
+      "Abstract Interpretation",
+      "FPGA",
+      "ISA"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 6.77,
+        "matches": [
+          "benchmarking",
+          "performance-analysis"
+        ]
+      },
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 5.41,
+        "matches": [
+          "fpga",
+          "isa"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.38,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.311,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.309,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.305,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.273307Z"
+  }
+}

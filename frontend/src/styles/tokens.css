@@ -1,0 +1,16 @@
+:root {
+  --bg-void: #050b14;
+  --bg-haze: #0f2033;
+  --bg-nebula: #1b3448;
+  --text-main: #f3efe2;
+  --text-dim: #c2c8cc;
+  --accent-gold: #c5ae75;
+  --accent-ice: #87c1d9;
+  --accent-emerald: #72b8a5;
+  --line-base: rgba(140, 169, 188, 0.30);
+  --line-active: rgba(232, 211, 160, 0.95);
+  --panel-bg: rgba(10, 17, 27, 0.70);
+  --panel-border: rgba(197, 174, 117, 0.35);
+  --chip-bg: rgba(18, 30, 45, 0.82);
+  --chip-border: rgba(135, 193, 217, 0.55);
+}

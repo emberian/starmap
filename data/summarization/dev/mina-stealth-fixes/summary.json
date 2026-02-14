@@ -1,0 +1,268 @@
+{
+  "name": "mina-stealth-fixes",
+  "description": "An implementation of the Mina Protocol, a layer-1 blockchain that utilizes recursive zero-knowledge proofs to maintain a constant-size chain regardless of transaction volume. The system integrates a core OCaml consensus engine with a Rust-based cryptographic backend and a TypeScript SDK for privacy-preserving smart contracts. It features a decentralized peer-to-peer network layer using libp2p and automated infrastructure for large-scale testnet orchestration.",
+  "tags": [
+    "blockchain",
+    "zero-knowledge-proofs",
+    "zk-snark",
+    "ocaml",
+    "rust",
+    "cryptography",
+    "consensus",
+    "libp2p",
+    "smart-contracts",
+    "recursive-snarks",
+    "layer-1",
+    "proof-of-stake",
+    "p2p",
+    "mina-protocol",
+    "succinct-blockchain",
+    "zkapps"
+  ],
+  "category": "Succinct Recursive ZK-SNARK Blockchain",
+  "concepts": [
+    "Recursive zk-SNARKs",
+    "Ouroboros Samasika Consensus",
+    "Zero-Knowledge Smart Contracts",
+    "Plonk Proof System",
+    "Pickles Proof System",
+    "Kimchi Proof System",
+    "Pasta Curves (Pallas and Vesta)",
+    "Poseidon Hash Function",
+    "Scan State",
+    "Transaction SNARK",
+    "Blockchain Compression",
+    "Succinct Ledger Representation",
+    "Staged Ledger",
+    "Snark Workers",
+    "Verifiable Random Functions (VRF)",
+    "Archive Nodes",
+    "Rosetta API Integration",
+    "GossipSub P2P Networking",
+    "Decentralized Infrastructure Orchestration",
+    "Formal Verification Context",
+    "zkApp SDK (o1js)",
+    "Lightweight Node Verification",
+    "Proof-of-Stake"
+  ],
+  "languages": [
+    "OCaml",
+    "Rust",
+    "TypeScript",
+    "Go",
+    "Shell",
+    "Nix",
+    "JavaScript",
+    "Python",
+    "C++"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 22014,
+    "has_readme": true,
+    "sample_files": [
+      "dune-project",
+      "flake.nix",
+      "Makefile",
+      "automation/scripts/github_branch_autosync/github_autosync/gcloud_entrypoint/__init__.py",
+      "automation/scripts/github_branch_autosync/github_autosync/gcloud_entrypoint/lib/__init__.py"
+    ]
+  },
+  "_hash": "5672d2ba5a3da6d74f86c45022378f0be05fcb3c0ce85a8a0b2304f29092940a",
+  "_path": "/Users/ember/dev/mina-stealth-fixes",
+  "_updated_at": "2026-02-14T00:56:29.371905Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Recursive zk-SNARKs",
+      "Ouroboros Samasika Consensus",
+      "Zero-Knowledge Smart Contracts",
+      "Plonk Proof System",
+      "Pickles Proof System",
+      "Kimchi Proof System",
+      "Pasta Curves (Pallas and Vesta)",
+      "Poseidon Hash Function",
+      "Scan State",
+      "Transaction SNARK",
+      "Blockchain Compression",
+      "Succinct Ledger Representation",
+      "Staged Ledger",
+      "Snark Workers",
+      "Verifiable Random Functions (VRF)",
+      "Archive Nodes",
+      "Rosetta API Integration",
+      "GossipSub P2P Networking",
+      "Decentralized Infrastructure Orchestration",
+      "Formal Verification Context",
+      "zkApp SDK (o1js)",
+      "Lightweight Node Verification",
+      "Proof-of-Stake"
+    ],
+    "tags": [
+      "blockchain",
+      "Zero-Knowledge Proofs (ZKP)",
+      "ZK-SNARKs",
+      "ocaml",
+      "Rust Language Ecosystem",
+      "cryptography",
+      "consensus",
+      "libp2p",
+      "smart-contracts",
+      "Recursive SNARKs",
+      "layer-1",
+      "proof-of-stake",
+      "p2p",
+      "Mina Protocol",
+      "succinct-blockchain",
+      "zkapps"
+    ],
+    "mined_motifs": [
+      "zero-knowledge-proofs",
+      "Account Updates",
+      "typescript",
+      "Pasta Curves",
+      "Transition Frontier",
+      "Arithmetic Circuits",
+      "Pickles SNARK",
+      "distributed-systems",
+      "Ouroboros Samasika",
+      "kimchi",
+      "plonk"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 15.415,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks",
+          "zk-snarks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 9.815,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "pickles snark",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 8.454,
+        "matches": [
+          "recursive snarks",
+          "kimchi",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 8.407,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi",
+          "plonk"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.368,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.282,
+        "matches": [
+          "consensus",
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.371905Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1718befd4cb5f6d891da21b2cf5e4aa987386c7aa2a4213827b287ffe29ffff2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:59.316342+00:00"
+  },
+  "mined_motifs": [
+    "Recursive SNARKs",
+    "zk-snarks",
+    "Account Updates",
+    "typescript",
+    "Pasta Curves",
+    "Transition Frontier",
+    "Arithmetic Circuits",
+    "Pickles SNARK",
+    "distributed-systems",
+    "Ouroboros Samasika",
+    "kimchi",
+    "plonk"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.964
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.947
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.928
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.917
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.915
+    },
+    {
+      "name": "verimina",
+      "path": "/Users/ember/dev/verimina",
+      "similarity": 0.893
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.889
+    },
+    {
+      "name": "minataur2",
+      "path": "/Users/ember/dev/minataur2",
+      "similarity": 0.885
+    }
+  ]
+}

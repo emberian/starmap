@@ -1,0 +1,232 @@
+{
+  "name": "automatafl-react",
+  "description": "Automatafl-react is a specialized web frontend for a tactical board game that integrates cellular automata mechanics with competitive multiplayer elements. Built on a reactive architecture using React and Zustand, the system facilitates real-time state synchronization through a dual-channel communication layer employing both WebSockets and EventSource. The application manages complex game lifecycles, encompassing matchmaking queues, move conflict resolution, and Elo-based ranking, while providing administrative interfaces for health monitoring and snapshot restoration.",
+  "tags": [
+    "react",
+    "typescript",
+    "vite",
+    "zustand",
+    "immer",
+    "websockets",
+    "eventsource",
+    "jwt-auth",
+    "matchmaking",
+    "elo-rating",
+    "reactive-ui",
+    "game-engine-client",
+    "admin-dashboard",
+    "real-time-sync"
+  ],
+  "category": "Asynchronous Tactical Game Frontend",
+  "concepts": [
+    "event-driven-architecture",
+    "reactive-state-management",
+    "real-time-synchronization",
+    "game-lifecycle-management",
+    "conflict-resolution-algorithms",
+    "asynchronous-multiplayer",
+    "cellular-automata-integration",
+    "elo-rating-systems",
+    "matchmaking-orchestration",
+    "administrative-monitoring",
+    "session-persistence",
+    "event-source-streaming",
+    "websocket-communication",
+    "tactical-strategy-mechanics",
+    "immutable-state-updates",
+    "hierarchical-navigation"
+  ],
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 41,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/components/GameView.tsx",
+      "src/state/app-state.ts",
+      "src/api/client.ts",
+      "src/App.tsx"
+    ]
+  },
+  "_hash": "09467337f7e104d60e30a4d268fef21502a3a782674ff61a6056e5e1e84a5fd8",
+  "_path": "/Users/ember/dev/automatafl-react",
+  "_updated_at": "2026-02-14T00:56:23.558309Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "event-driven-architecture",
+      "reactive-state-management",
+      "real-time-synchronization",
+      "game-lifecycle-management",
+      "conflict-resolution-algorithms",
+      "asynchronous-multiplayer",
+      "cellular-automata-integration",
+      "elo-rating-systems",
+      "matchmaking-orchestration",
+      "administrative-monitoring",
+      "session-persistence",
+      "event-source-streaming",
+      "websocket-communication",
+      "tactical-strategy-mechanics",
+      "immutable-state-updates",
+      "hierarchical-navigation"
+    ],
+    "tags": [
+      "react",
+      "typescript",
+      "vite",
+      "zustand",
+      "immer",
+      "websockets",
+      "eventsource",
+      "jwt-auth",
+      "matchmaking",
+      "elo-rating",
+      "reactive-ui",
+      "game-engine-client",
+      "admin-dashboard",
+      "real-time-sync"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "axum",
+      "WebAssembly",
+      "api-design",
+      "distributed-systems",
+      "real-time-simulation",
+      "leptos",
+      "python",
+      "full-stack",
+      "game-server",
+      "Asynchronous Programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.862,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.494,
+        "matches": [
+          "api-design"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.465,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.459,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.45,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.449,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.558309Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "698d9212c4d3943230a764368a502bf0f6d6fbf1438380574fa9431ab42a8aca",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:33.979293+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "axum",
+    "wasm",
+    "api-design",
+    "distributed-systems",
+    "real-time",
+    "leptos",
+    "python",
+    "WebAssembly",
+    "full-stack",
+    "game-server",
+    "tokio"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.907
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.894
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.878
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.841
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.835
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.832
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.831
+    }
+  ]
+}

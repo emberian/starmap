@@ -1,0 +1,222 @@
+{
+  "name": "fireflies",
+  "description": "A web-based simulation environment designed to model and visualize emergent synchronization patterns in firefly populations using phase-coupled oscillator logic. The project leverages the Next.js App Router and TypeScript to implement agent-based dynamics where decentralized entities reach spontaneous order through local interactions. It provides a performant frontend scaffold for exploring biological entrainment and non-linear systems theory.",
+  "tags": [
+    "nextjs",
+    "typescript",
+    "tailwind-css",
+    "simulation",
+    "agent-based-modeling",
+    "synchronization",
+    "biological-oscillators",
+    "emergent-behavior",
+    "phase-coupling",
+    "visualization",
+    "nonlinear-dynamics",
+    "decentralized-systems"
+  ],
+  "category": "Biological Oscillator Simulation",
+  "concepts": [
+    "Phase-coupled Oscillators",
+    "Kuramoto Model",
+    "Pulse-coupled Synchronization",
+    "Agent-based Modeling",
+    "Spontaneous Order",
+    "Biological Entrainment",
+    "Decentralized Coordination",
+    "Nonlinear Dynamics",
+    "Emergent Properties",
+    "Signal Propagation",
+    "Collective Behavior",
+    "Spatial Simulation",
+    "State Synchronization",
+    "Temporal Dynamics",
+    "Vector Mathematics",
+    "React Hooks for Animation"
+  ],
+  "languages": [
+    "TypeScript",
+    "CSS"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 19,
+    "has_readme": false,
+    "sample_files": [
+      "firefly-simulator/app/page.tsx",
+      "firefly-simulator/app/layout.tsx",
+      "firefly-simulator/tailwind.config.ts",
+      "firefly-simulator/next-env.d.ts",
+      "firefly-simulator/next.config.ts"
+    ]
+  },
+  "_hash": "c6f59c3d1cb1c7cd7cc059fd5ebd0997eddde4131fdfa11400a82f686a96740c",
+  "_path": "/Users/ember/dev/fireflies",
+  "_updated_at": "2026-02-14T00:56:24.101029Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Phase-coupled Oscillators",
+      "Kuramoto Model",
+      "Pulse-coupled Synchronization",
+      "Agent-based Modeling",
+      "Spontaneous Order",
+      "Biological Entrainment",
+      "Decentralized Coordination",
+      "Nonlinear Dynamics",
+      "Emergent Properties",
+      "Signal Propagation",
+      "Collective Behavior",
+      "Spatial Simulation",
+      "State Synchronization",
+      "Temporal Dynamics",
+      "Vector Mathematics",
+      "React Hooks for Animation"
+    ],
+    "tags": [
+      "nextjs",
+      "typescript",
+      "tailwind-css",
+      "real-time-simulation",
+      "agent-based-modeling",
+      "Concurrency & Synchronization",
+      "biological-oscillators",
+      "emergent-behavior",
+      "phase-coupling",
+      "visualization",
+      "nonlinear-dynamics",
+      "decentralized-systems"
+    ],
+    "mined_motifs": [
+      "cellular-automata",
+      "react",
+      "real-time-simulation",
+      "Double buffering",
+      "Moore neighborhood",
+      "vite",
+      "spatial-computing",
+      "webgl",
+      "Rust Language Ecosystem",
+      "Cellular replication rules",
+      "Discrete dynamical systems",
+      "Dynamic asset scaling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.818,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.367,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.917,
+        "matches": [
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 2.605,
+        "matches": []
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.602,
+        "matches": []
+      },
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 2.601,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.101029Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1b58d7253f3d1c91779e917d5d59f31fb174a481e8d12a28a647cdf6744d7363",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:06.952992+00:00"
+  },
+  "mined_motifs": [
+    "cellular-automata",
+    "react",
+    "real-time",
+    "Double buffering",
+    "Moore neighborhood",
+    "vite",
+    "spatial-computing",
+    "webgl",
+    "rust",
+    "Cellular replication rules",
+    "Discrete dynamical systems",
+    "Dynamic asset scaling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.847
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.834
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.832
+    },
+    {
+      "name": "automatafl-react",
+      "path": "/Users/ember/dev/automatafl-react",
+      "similarity": 0.828
+    },
+    {
+      "name": "humanbody",
+      "path": "/Users/ember/dev/humanbody",
+      "similarity": 0.825
+    },
+    {
+      "name": "antfarm",
+      "path": "/Users/ember/dev/gh/antfarm",
+      "similarity": 0.822
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.822
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.821
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "name": "google-breakpad",
+  "description": "Google Breakpad is a comprehensive multi-platform crash-reporting system that implements client-side minidump generation and server-side stackwalking for post-mortem analysis. It provides robust libraries for capturing process state across Linux, Windows, and macOS, utilizing platform-specific primitives such as Mach IPC, ptrace, and structured exception handling. The framework includes a sophisticated processor capable of resolving symbolic information from DWARF, STABS, and PDB formats to reconstruct human-readable backtraces from binary memory dumps.",
+  "tags": [
+    "crash-reporting",
+    "minidump",
+    "stackwalking",
+    "symbol-resolution",
+    "dwarf",
+    "stabs",
+    "pdb",
+    "post-mortem-analysis",
+    "exception-handling",
+    "multi-platform",
+    "backtrace",
+    "debug-symbols",
+    "elf-parsing",
+    "mach-o",
+    "ptrace"
+  ],
+  "category": "Post-mortem Crash Reporting & Stackwalking",
+  "concepts": [
+    "minidump-generation",
+    "stack-frame-pointer-recovery",
+    "symbol-stripping",
+    "dwarf-reader",
+    "stabs-reader",
+    "macho-parser",
+    "elf-parser",
+    "pdb-source-line-writing",
+    "call-frame-information",
+    "stack-unwinding",
+    "exception-handler-nesting",
+    "crash-generation-server",
+    "crash-generation-client",
+    "memory-dump-processing",
+    "exploitability-analysis",
+    "source-line-resolver",
+    "instruction-pointer-resolution",
+    "register-context-restoration",
+    "symbol-supplier-interface",
+    "microdump-format",
+    "minidump-descriptor",
+    "address-space-mapping",
+    "shared-library-enumeration",
+    "process-state-serialization",
+    "ptrace-dumper",
+    "mach-ipc-transport",
+    "crash-report-uploading",
+    "stackwalker-x86",
+    "stackwalker-arm64",
+    "stackwalker-mips",
+    "stackwalker-ppc",
+    "binary-translation-compatibility",
+    "cfi-assembler",
+    "memory-mapped-file-access",
+    "guid-generation"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "Shell",
+    "Go",
+    "Python",
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 563,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/processor/stackwalker_x86_unittest.cc",
+      "src/common/dwarf/dwarf2reader_cfi_unittest.cc",
+      "src/common/dwarf/dwarf2reader.cc",
+      "src/third_party/curl/curl.h"
+    ]
+  },
+  "_hash": "f875b0ae0eb62f1fc3355ef10f771491f8afaf217aa652a63d3bb87b0da65381",
+  "_path": "/Users/ember/dev/gh/google-breakpad",
+  "_updated_at": "2026-02-14T00:56:27.264346Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "minidump-generation",
+      "stack-frame-pointer-recovery",
+      "symbol-stripping",
+      "dwarf-reader",
+      "stabs-reader",
+      "macho-parser",
+      "elf-parser",
+      "pdb-source-line-writing",
+      "call-frame-information",
+      "stack-unwinding",
+      "exception-handler-nesting",
+      "crash-generation-server",
+      "crash-generation-client",
+      "memory-dump-processing",
+      "exploitability-analysis",
+      "source-line-resolver",
+      "instruction-pointer-resolution",
+      "register-context-restoration",
+      "symbol-supplier-interface",
+      "microdump-format",
+      "minidump-descriptor",
+      "address-space-mapping",
+      "shared-library-enumeration",
+      "process-state-serialization",
+      "ptrace-dumper",
+      "mach-ipc-transport",
+      "crash-report-uploading",
+      "stackwalker-x86",
+      "stackwalker-arm64",
+      "stackwalker-mips",
+      "stackwalker-ppc",
+      "binary-translation-compatibility",
+      "cfi-assembler",
+      "memory-mapped-file-access",
+      "guid-generation"
+    ],
+    "tags": [
+      "crash-reporting",
+      "minidump",
+      "stackwalking",
+      "symbol-resolution",
+      "dwarf",
+      "stabs",
+      "pdb",
+      "post-mortem-analysis",
+      "exception-handling",
+      "multi-platform",
+      "backtrace",
+      "debug-symbols",
+      "elf-parsing",
+      "mach-o",
+      "ptrace"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "cross-platform",
+      "Systems Programming",
+      "java",
+      "Address Mapping",
+      "Binary Analysis",
+      "CFI Unwinding",
+      "Call Stack Reconstruction",
+      "Crash Generation Client-Server",
+      "Cross-platform Exception Handling",
+      "DWARF Reader",
+      "Debug Information Parsing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.149,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.369,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 3.946,
+        "matches": [
+          "crash-reporting"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.556,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.553,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.54,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.264346Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bebc56d19785486ce4c85b07127a5efd55cab0ee639d77d2d284c6d55c374460",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:46.622524+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "cross-platform",
+    "systems-programming",
+    "java",
+    "Address Mapping",
+    "Binary Analysis",
+    "CFI Unwinding",
+    "Call Stack Reconstruction",
+    "Crash Generation Client-Server",
+    "Cross-platform Exception Handling",
+    "DWARF Reader",
+    "Debug Information Parsing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "google-breakpad-sys",
+      "path": "/Users/ember/dev/gh/google-breakpad-sys",
+      "similarity": 0.949
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.81
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.809
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.806
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.804
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.804
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.803
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.799
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "name": "ion",
+  "description": "A lightweight tree-walk interpreter for a custom imperative language featuring static variable definitions and arithmetic expression evaluation. The system implements a regex-based recursive descent parser to construct an abstract syntax tree (AST) and maintains a symbol environment for stateful execution.",
+  "tags": [
+    "interpreter",
+    "parser",
+    "abstract-syntax-tree",
+    "recursive-descent",
+    "regex-parsing",
+    "tree-walk",
+    "lexical-analysis",
+    "rust-lang",
+    "symbol-table",
+    "arithmetic-evaluator",
+    "type-definitions",
+    "cli-tool",
+    "test-runner",
+    "static-analysis",
+    "systems-programming"
+  ],
+  "category": "Interpreted Domain-Specific Language",
+  "concepts": [
+    "Abstract Syntax Tree",
+    "Recursive Descent Parsing",
+    "Environment Mapping",
+    "Statement Execution",
+    "Expression Evaluation",
+    "Tokenization via Regular Expressions",
+    "Variable Binding",
+    "Negative-Positive Test Harness",
+    "Type Annotation Parsing",
+    "Unary and Binary Operators",
+    "Boxed Recursion for AST Nodes"
+  ],
+  "languages": [
+    "Rust",
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 25,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/main.rs",
+      "src/parser.rs",
+      "test/test.py"
+    ]
+  },
+  "_hash": "000bef4f60eb986ed6c5f0369bb07f6a5fa6ecc6523932dc4672a3d3d9084177",
+  "_path": "/Users/ember/dev/gh/ion",
+  "_updated_at": "2026-02-14T00:56:27.531160Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "AST",
+      "Recursive Descent Parsing",
+      "Environment Mapping",
+      "Statement Execution",
+      "Expression Evaluation",
+      "Tokenization via Regular Expressions",
+      "Variable Binding",
+      "Negative-Positive Test Harness",
+      "Type Annotation Parsing",
+      "Unary and Binary Operators",
+      "Boxed Recursion for AST Nodes"
+    ],
+    "tags": [
+      "interpreter",
+      "parser",
+      "AST",
+      "recursive-descent",
+      "regex-parsing",
+      "tree-walk",
+      "Lexical Analysis",
+      "Rust Language Ecosystem",
+      "symbol-table",
+      "arithmetic-evaluator",
+      "type-definitions",
+      "cli-tool",
+      "test-runner",
+      "static-analysis",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "abstract-syntax-tree",
+      "functional-programming",
+      "logic-programming",
+      "syntax-analysis",
+      "dynamic-typing",
+      "repl",
+      "lexical-analysis",
+      "cli",
+      "WebAssembly",
+      "Lexical Scoping",
+      "runtime"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 13.783,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "recursive-descent"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.566,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.08,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.798,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.682,
+        "matches": [
+          "webassembly",
+          "runtime"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.331,
+        "matches": [
+          "logic-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.531160Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6db5a12fbf6af3da22350d19eb82f9d3475f67fa4ae686f11d5a7126a3e34784",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:56.058694+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "ast",
+    "functional-programming",
+    "logic-programming",
+    "syntax-analysis",
+    "dynamic-typing",
+    "repl",
+    "tokenization",
+    "cli",
+    "wasm",
+    "Lexical Scoping",
+    "runtime"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.825
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.808
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.807
+    },
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/gh/ual-tool",
+      "similarity": 0.804
+    },
+    {
+      "name": "sol",
+      "path": "/Users/ember/dev/gh/forks/sol",
+      "similarity": 0.802
+    },
+    {
+      "name": "lambda",
+      "path": "/Users/ember/dev/gh/lambda",
+      "similarity": 0.8
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.793
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.793
+    }
+  ]
+}

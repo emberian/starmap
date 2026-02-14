@@ -1,0 +1,254 @@
+{
+  "name": "kimchi-playground",
+  "description": "A sophisticated suite of zero-knowledge proof system components centered on the Kimchi PLONKish arithmetization and the Pickles inductive recursion framework. It provides high-performance implementations of cryptographic primitives including the Pasta elliptic curve cycle, Poseidon transcript hashing, and optimized polynomial commitment schemes. The repository also features the Snarky circuit-writing DSL and a ZK-VM implementation targeting MIPS-based fault proofs for the Optimism rollup stack.",
+  "tags": [
+    "kimchi",
+    "pickles",
+    "snarky",
+    "plonk",
+    "zksnark",
+    "mina-protocol",
+    "pasta-curves",
+    "recursion",
+    "polynomial-commitment",
+    "poseidon-hash",
+    "zkvm",
+    "cryptography",
+    "mips",
+    "optimism",
+    "cannon",
+    "lookup-tables"
+  ],
+  "category": "Recursive Zero-Knowledge Proof Systems",
+  "concepts": [
+    "PLONKish Arithmetization",
+    "Inductive Proof Accumulation",
+    "Polynomial Commitment Schemes",
+    "Cycles of Elliptic Curves",
+    "Fiat-Shamir Heuristic",
+    "Lookup Arguments",
+    "Foreign Field Arithmetic",
+    "Recursive SNARKs",
+    "Multi-Scalar Multiplication",
+    "Custom Gate Design",
+    "Sponge Constructions",
+    "Zero-Knowledge Virtual Machines",
+    "MIPS Instruction Set Emulation",
+    "Fault Proof Architectures",
+    "Interactive Oracle Proofs",
+    "Arithmetic Constraint Systems"
+  ],
+  "languages": [
+    "Rust",
+    "OCaml",
+    "Shell",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 17157,
+    "has_readme": false,
+    "sample_files": [
+      "proof-systems/book/src/lib.rs",
+      "proof-systems/curves/src/lib.rs",
+      "proof-systems/curves/src/pasta/curves/mod.rs",
+      "proof-systems/curves/src/pasta/fields/mod.rs",
+      "proof-systems/curves/src/pasta/mod.rs"
+    ]
+  },
+  "_hash": "a191fb036fc56e01f9c5da9ed711f6bcfc2f177b649aed48696135a1718dcd00",
+  "_path": "/Users/ember/dev/kimchi-playground",
+  "_updated_at": "2026-02-14T00:56:29.149414Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "PLONKish Arithmetization",
+      "Inductive Proof Accumulation",
+      "Polynomial Commitment Schemes",
+      "Cycles of Elliptic Curves",
+      "Fiat-Shamir Heuristic",
+      "Lookup Arguments",
+      "Foreign Field Arithmetic",
+      "zero-knowledge-proofs",
+      "Multi-Scalar Multiplication",
+      "Custom Gate Design",
+      "Sponge Constructions",
+      "Zero-Knowledge Virtual Machines",
+      "MIPS Instruction Set Emulation",
+      "Fault Proof Architectures",
+      "Interactive Oracle Proofs",
+      "Arithmetic Constraint Systems"
+    ],
+    "tags": [
+      "kimchi",
+      "pickles",
+      "snarky",
+      "plonk",
+      "ZK-SNARKs",
+      "Mina Protocol",
+      "pasta-curves",
+      "recursion",
+      "polynomial-commitment",
+      "poseidon-hash",
+      "zkvm",
+      "cryptography",
+      "mips",
+      "optimism",
+      "cannon",
+      "lookup-tables"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "zero-knowledge-proofs",
+      "polynomial-commitments",
+      "Arithmetic Circuits",
+      "Sponge Construction",
+      "Custom Gates",
+      "Lookup Tables",
+      "Evaluation Proofs",
+      "multi-scalar-multiplication",
+      "Succinctness",
+      "arkworks"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 12.576,
+        "matches": [
+          "mina protocol",
+          "zk-snarks",
+          "pasta-curves",
+          "pickles",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 12.573,
+        "matches": [
+          "zero-knowledge-proofs",
+          "arkworks",
+          "kimchi",
+          "pickles",
+          "plonk",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 11.199,
+        "matches": [
+          "polynomial commitment schemes",
+          "kimchi",
+          "pasta-curves",
+          "plonk",
+          "snarky"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.72,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 8.381,
+        "matches": [
+          "polynomial commitment schemes",
+          "arkworks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 6.975,
+        "matches": [
+          "zero-knowledge-proofs",
+          "snarky"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.149414Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "48e14fd88e880480f8cbd7288bf38afbe875dee93a67b3cbdf9eb34a5a060529",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:49.260749+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "zero-knowledge",
+    "polynomial-commitments",
+    "Arithmetic Circuits",
+    "Sponge Construction",
+    "Custom Gates",
+    "Lookup Tables",
+    "Evaluation Proofs",
+    "Multi-Scalar Multiplication (MSM)",
+    "zk-snarks",
+    "Succinctness",
+    "arkworks"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.935
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.929
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.888
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.882
+    },
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.877
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.876
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.873
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/hellas/poly-commit",
+      "similarity": 0.867
+    }
+  ]
+}

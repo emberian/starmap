@@ -1,0 +1,201 @@
+{
+  "name": "ensue",
+  "description": "ensue appears to be a ai/agents project using TypeScript. The available files suggest focus areas around package, agent, ensue, build.",
+  "tags": [
+    "TypeScript",
+    "package",
+    "agent",
+    "ensue",
+    "build",
+    "index",
+    "llms",
+    "lock",
+    "read",
+    "readme",
+    "sdk.test",
+    "tsconfig",
+    "typedoc",
+    "types",
+    "write"
+  ],
+  "category": "AI/Agents",
+  "concepts": [
+    "package",
+    "agent",
+    "ensue",
+    "build",
+    "index",
+    "llms",
+    "lock",
+    "read",
+    "readme",
+    "sdk.test",
+    "tsconfig",
+    "typedoc",
+    "types",
+    "write"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "maturity": "exploratory",
+  "_hash": "78bc56f9c984377b9578171abb3086a011667baebf31db6d6b47a62827664f11",
+  "_path": "/Users/ember/src/ensue",
+  "_updated_at": "2026-02-14T00:56:32.695696Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3adab0f141db50abfed837f00780651290b8f73fa7ceab288364a743dd56aa2a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:15.845526+00:00"
+  },
+  "mined_motifs": [
+    "ai-agents",
+    "cargo",
+    "main",
+    "A* Pathfinding",
+    "00790bde39e7",
+    "0314",
+    "074656393e80",
+    "0c01caa898b6",
+    "0f9e6d9f",
+    "207f829caa7e",
+    "21382611",
+    "21b655d7f42b"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ensue-db-ts-client",
+      "path": "/Users/ember/src/ensue-db-ts-client",
+      "similarity": 0.652
+    },
+    {
+      "name": "neocadia",
+      "path": "/Users/ember/dev/neocadia",
+      "similarity": 0.644
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.64
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/gh/crate-mcp",
+      "similarity": 0.64
+    },
+    {
+      "name": "pinatatown",
+      "path": "/Users/ember/dev/pinatatown",
+      "similarity": 0.629
+    },
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/shitheap/esgea",
+      "similarity": 0.626
+    },
+    {
+      "name": "ants",
+      "path": "/Users/ember/dev/shitheap/ants",
+      "similarity": 0.625
+    },
+    {
+      "name": "jwilger-claude-code-setup",
+      "path": "/Users/ember/src/jwilger-claude-code-setup",
+      "similarity": 0.621
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "package",
+      "agent",
+      "ensue",
+      "build",
+      "index",
+      "llms",
+      "lock",
+      "read",
+      "readme",
+      "sdk.test",
+      "tsconfig",
+      "typedoc",
+      "types",
+      "write"
+    ],
+    "tags": [
+      "TypeScript",
+      "package",
+      "agent",
+      "ensue",
+      "build",
+      "index",
+      "llms",
+      "lock",
+      "read",
+      "readme",
+      "sdk.test",
+      "tsconfig",
+      "typedoc",
+      "types",
+      "write"
+    ],
+    "mined_motifs": [
+      "ai-agents",
+      "cargo",
+      "main",
+      "A* Pathfinding",
+      "00790bde39e7",
+      "0314",
+      "074656393e80",
+      "0c01caa898b6",
+      "0f9e6d9f",
+      "207f829caa7e",
+      "21382611",
+      "21b655d7f42b"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 4.77,
+        "matches": [
+          "ai-agents"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.444,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.275,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 3.055,
+        "matches": [
+          "category:AI/Agents"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.695696Z"
+  }
+}

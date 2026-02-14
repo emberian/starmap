@@ -1,0 +1,204 @@
+{
+  "name": "sElement",
+  "description": "sElement appears to be a data/databases project using JavaScript. The available files suggest focus areas around jquery, browser, deps, msie.",
+  "tags": [
+    "JavaScript",
+    "jquery",
+    "browser",
+    "deps",
+    "msie",
+    "order",
+    "readme",
+    "sbrowser",
+    "scss",
+    "sdocument",
+    "sdomsettabletokenlist",
+    "sdomstringmap",
+    "sdomtokenlist",
+    "selement",
+    "sevent",
+    "shtmlcollection"
+  ],
+  "category": "Data/Databases",
+  "concepts": [
+    "jquery",
+    "browser",
+    "deps",
+    "msie",
+    "order",
+    "readme",
+    "sbrowser",
+    "scss",
+    "sdocument",
+    "sdomsettabletokenlist",
+    "sdomstringmap",
+    "sdomtokenlist",
+    "selement",
+    "sevent",
+    "shtmlcollection",
+    "sutra",
+    "swindow"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "maturity": "exploratory",
+  "_hash": "fefbb275ff7af9debca479b61f9cf56c94d3ed6f6bc96d8dcaa5452fa59b5059",
+  "_path": "/Users/ember/dev/gh/forks/sElement",
+  "_updated_at": "2026-02-14T00:56:26.643630Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "jquery",
+      "browser",
+      "deps",
+      "msie",
+      "order",
+      "readme",
+      "sbrowser",
+      "scss",
+      "sdocument",
+      "sdomsettabletokenlist",
+      "sdomstringmap",
+      "sdomtokenlist",
+      "selement",
+      "sevent",
+      "shtmlcollection",
+      "sutra",
+      "swindow"
+    ],
+    "tags": [
+      "JavaScript",
+      "jquery",
+      "browser",
+      "deps",
+      "msie",
+      "order",
+      "readme",
+      "sbrowser",
+      "scss",
+      "sdocument",
+      "sdomsettabletokenlist",
+      "sdomstringmap",
+      "sdomtokenlist",
+      "selement",
+      "sevent",
+      "shtmlcollection"
+    ],
+    "mined_motifs": [
+      "index",
+      "package",
+      "test",
+      "icon",
+      "main",
+      "build",
+      "info",
+      "sqlite3",
+      "license",
+      "Shell",
+      "config",
+      "cargo"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.253,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.152,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.048,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 2.812,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.643630Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9c8ed6d198eeee45627af12db9b536a0d6ebd2fbe9bab5dff2397f2e1f6de975",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:20.244332+00:00"
+  },
+  "mined_motifs": [
+    "index",
+    "package",
+    "test",
+    "icon",
+    "main",
+    "build",
+    "info",
+    "sqlite3",
+    "license",
+    "Shell",
+    "config",
+    "cargo"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "moltbook-api",
+      "path": "/Users/ember/src/moltbook-api",
+      "similarity": 0.682
+    },
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.674
+    },
+    {
+      "name": "Jai-Code-Collection",
+      "path": "/Users/ember/src/Jai-Code-Collection",
+      "similarity": 0.633
+    },
+    {
+      "name": "jourtress",
+      "path": "/Users/ember/dev/shitheap/jourtress",
+      "similarity": 0.616
+    },
+    {
+      "name": "loicense",
+      "path": "/Users/ember/dev/loicense",
+      "similarity": 0.613
+    },
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/shitheap/esgea",
+      "similarity": 0.612
+    },
+    {
+      "name": "emberian",
+      "path": "/Users/ember/dev/gh/emberian",
+      "similarity": 0.612
+    }
+  ]
+}

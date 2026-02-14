@@ -1,0 +1,222 @@
+{
+  "name": "alexandria-client",
+  "description": "A Rust-based API client library for the Alexandria digital library system, facilitating high-level interaction with Alexandria servers. It provides abstractions for querying book metadata by ISBN or collection indices using the Hyper HTTP stack and legacy Rust serialization patterns. The implementation employs a type-safe state pattern to distinguish between authenticated and unauthenticated server sessions, ensuring structured access to library resources.",
+  "tags": [
+    "rust",
+    "api-client",
+    "hyper",
+    "json",
+    "library-management",
+    "books",
+    "http",
+    "rest",
+    "digital-library",
+    "isbn",
+    "serialization"
+  ],
+  "category": "Digital Library Client",
+  "concepts": [
+    "RESTful API Interaction",
+    "Type-Safe State Pattern",
+    "JSON Deserialization",
+    "Hyper HTTP Client",
+    "ISBN-based Indexing",
+    "Generic Server Abstraction",
+    "Macro-based Error Handling",
+    "Protocol-based Authentication",
+    "Base URL Abstraction",
+    "URL Parsing and Validation",
+    "Status Code Mapping",
+    "Trait-based Protocol Implementation",
+    "Safe Result Propagation",
+    "Extensible Error Enums",
+    "Network Request Lifecycle",
+    "Library Domain Model Integration",
+    "Generic Data Access Controls",
+    "Phantom Type State Management"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "22c177ea983f7fa60d76dc520239277b804c4fd6071c5bafa273a189e128add5",
+  "_path": "/Users/ember/dev/gh/alexandria-client",
+  "_updated_at": "2026-02-14T00:56:24.382003Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "RESTful API Interaction",
+      "Type-Safe State Pattern",
+      "JSON Deserialization",
+      "Hyper HTTP Client",
+      "ISBN-based Indexing",
+      "Generic Server Abstraction",
+      "Macro-based Error Handling",
+      "Protocol-based Authentication",
+      "Base URL Abstraction",
+      "URL Parsing and Validation",
+      "Status Code Mapping",
+      "Trait-based Protocol Implementation",
+      "Safe Result Propagation",
+      "Extensible Error Enums",
+      "Network Request Lifecycle",
+      "Library Domain Model Integration",
+      "Generic Data Access Controls",
+      "Phantom Type State Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "api-client",
+      "hyper",
+      "json",
+      "library-management",
+      "books",
+      "http",
+      "rest",
+      "digital-library",
+      "isbn",
+      "Data Serialization"
+    ],
+    "mined_motifs": [
+      "rest-api",
+      "iron-framework",
+      "parser",
+      "backend",
+      "cryptographic-hashing",
+      "entity-relational-mapping",
+      "external-service-integration",
+      "google-books-api",
+      "inventory-state-tracking",
+      "isbn-api",
+      "isbn-metadata-retrieval",
+      "Data Serialization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.884,
+        "matches": [
+          "data serialization",
+          "isbn"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.803,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.441,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 3.994,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.66,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.636,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.382003Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5a5e8462d8b9b2d3aaaba7fba937c279366b2fe17b8311a830c17016393a839c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:24.567869+00:00"
+  },
+  "mined_motifs": [
+    "rest-api",
+    "iron-framework",
+    "parser",
+    "backend",
+    "cryptographic-hashing",
+    "entity-relational-mapping",
+    "external-service-integration",
+    "google-books-api",
+    "inventory-state-tracking",
+    "isbn-api",
+    "isbn-metadata-retrieval",
+    "json-serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.912
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.884
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.879
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.854
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.848
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.839
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.835
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "libudev-rs",
+  "description": "A safe, idiomatic Rust wrapper around the native Linux libudev library for hardware device discovery and event monitoring. It leverages RAII patterns and Rust's ownership model to manage libudev contexts, device enumeration, and real-time kernel event sockets. The library facilitates querying sysfs attributes, device properties, and hierarchical relationships within the Linux device tree.",
+  "tags": [
+    "udev",
+    "linux",
+    "hardware",
+    "rust",
+    "bindings",
+    "sysfs",
+    "raii",
+    "ffi",
+    "netlink",
+    "device-discovery",
+    "event-monitoring",
+    "systemd"
+  ],
+  "category": "Linux Device Management FFI",
+  "concepts": [
+    "Resource Acquisition Is Initialization (RAII)",
+    "Foreign Function Interface (FFI)",
+    "Linux Device Tree",
+    "Sysfs Virtual Filesystem",
+    "Kernel Event Monitoring",
+    "Netlink Socket Communication",
+    "Device Enumeration",
+    "Reference Counting",
+    "Subsystem Filtering",
+    "Lifetime Management",
+    "Device Attributes",
+    "Device Properties",
+    "Major/Minor Device Numbers",
+    "Device Node Resolution",
+    "Parent-Child Device Hierarchy",
+    "Non-blocking Socket I/O",
+    "OS String Interoperability",
+    "Errno-based Error Handling",
+    "Udev Context Management",
+    "Event Polling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/device.rs",
+      "src/enumerator.rs",
+      "src/monitor.rs"
+    ]
+  },
+  "_hash": "a43e2b16f9424d86d341d155e9311c91b42d22fa5d81493d4f68f20eabd6b050",
+  "_path": "/Users/ember/dev/gh/forks/libudev-rs",
+  "_updated_at": "2026-02-14T00:56:25.997874Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "foreign-function-interface",
+      "Linux Device Tree",
+      "Sysfs Virtual Filesystem",
+      "Kernel Event Monitoring",
+      "Netlink Socket Communication",
+      "Device Enumeration",
+      "Reference Counting",
+      "Subsystem Filtering",
+      "Lifetime Management",
+      "Device Attributes",
+      "Device Properties",
+      "Major/Minor Device Numbers",
+      "Device Node Resolution",
+      "Parent-Child Device Hierarchy",
+      "Non-blocking Socket I/O",
+      "OS String Interoperability",
+      "Errno-based Error Handling",
+      "Udev Context Management",
+      "Event Polling"
+    ],
+    "tags": [
+      "udev",
+      "linux",
+      "hardware",
+      "Rust Language Ecosystem",
+      "Foreign Function Interface",
+      "sysfs",
+      "Resource Acquisition Is Initialization (RAII)",
+      "foreign-function-interface",
+      "netlink",
+      "device-discovery",
+      "event-monitoring",
+      "systemd"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "kernel-interface",
+      "ioctl",
+      "cgroups",
+      "systems-programming",
+      "libc",
+      "ABI Compatibility",
+      "C-compatible Layouts",
+      "Code Generation",
+      "Declarative FFI Bindings",
+      "Device Discovery",
+      "Dynamic Dispatch"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 11.041,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "libc"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 10.996,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 9.654,
+        "matches": [
+          "cgroups",
+          "systems programming",
+          "sysfs"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.851,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.378,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.333,
+        "matches": [
+          "code generation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.997874Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f9ce2f63feb21386fac07eff9a2f65fdd1f80bfb4fce2fcb855fd95c6a01e053",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:52.799680+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "kernel-interface",
+    "ioctl",
+    "cgroups",
+    "low-level",
+    "libc",
+    "ABI Compatibility",
+    "C-compatible Layouts",
+    "Code Generation",
+    "Declarative FFI Bindings",
+    "Device Discovery",
+    "Dynamic Dispatch"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.913
+    },
+    {
+      "name": "evdev",
+      "path": "/Users/ember/dev/gh/evdev",
+      "similarity": 0.877
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.871
+    },
+    {
+      "name": "grease-bench",
+      "path": "/Users/ember/dev/gh/forks/grease-bench",
+      "similarity": 0.854
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.853
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.841
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.84
+    }
+  ]
+}

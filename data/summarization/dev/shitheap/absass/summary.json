@@ -1,0 +1,244 @@
+{
+  "name": "absass",
+  "description": "A word-size agnostic RISC architecture featuring a uniform 16-bit instruction format and a generalized bitwise boolean instruction set. The repository provides a comprehensive hardware-software co-design ecosystem, including RTL implementations in SpinalHDL and MyHDL, a Rust-based emulator with symbolic analysis capabilities, and custom compiler toolchains featuring automated register allocation.",
+  "tags": [
+    "RISC",
+    "ISA",
+    "SpinalHDL",
+    "MyHDL",
+    "Rust",
+    "emulator",
+    "compiler",
+    "FPGA",
+    "FTDI",
+    "symbolic-execution",
+    "RTL",
+    "HDL",
+    "assembler",
+    "computer-architecture"
+  ],
+  "category": "Processor ISA and RTL Implementation",
+  "concepts": [
+    "Instruction Set Architecture",
+    "Load-Store Architecture",
+    "Symbolic Execution",
+    "Abstract Interpretation",
+    "Register Allocation",
+    "Hardware Description Languages",
+    "Register-Transfer Level",
+    "Calling Conventions",
+    "Bitwise Logic",
+    "Formal Verification",
+    "FPGA Prototyping",
+    "UART Communication",
+    "Automata-based Parsing",
+    "Hardware-Software Co-design"
+  ],
+  "languages": [
+    "Rust",
+    "Scala",
+    "Python",
+    "MoonScript",
+    "TeX",
+    "Lua"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 77,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "assc/src/main.rs",
+      "assrs/src/lib.rs",
+      "fart/src/main.rs",
+      "assc/src/gen/rall.rs"
+    ]
+  },
+  "_hash": "3d598107bbf5d678c5267ac8d3880bbd773c45c07912916b90f4ed1f88eed56e",
+  "_path": "/Users/ember/dev/shitheap/absass",
+  "_updated_at": "2026-02-14T00:56:30.215880Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Instruction Set Architecture",
+      "Load-Store Architecture",
+      "Symbolic Execution",
+      "Abstract Interpretation",
+      "Register Allocation",
+      "Hardware Description Languages",
+      "Register-Transfer Level",
+      "Calling Conventions",
+      "Bitwise Logic",
+      "Formal Verification",
+      "FPGA Prototyping",
+      "UART Communication",
+      "Automata-based Parsing",
+      "Hardware-Software Co-design"
+    ],
+    "tags": [
+      "RISC",
+      "ISA",
+      "SpinalHDL",
+      "MyHDL",
+      "Rust Language Ecosystem",
+      "emulator",
+      "compiler-design",
+      "FPGA",
+      "FTDI",
+      "symbolic-execution",
+      "RTL",
+      "HDL",
+      "assembler",
+      "computer-architecture"
+    ],
+    "mined_motifs": [
+      "Intermediate Representation",
+      "AST",
+      "Lexical Analysis",
+      "parser",
+      "16-bit Instruction Set",
+      "Arithmetic Logic Unit (ALU)",
+      "Calling Convention Specification",
+      "Generalized Bitwise Logic",
+      "Instruction Encoding",
+      "Pest Grammar Parsing",
+      "Memory-Mapped I/O",
+      "Peripheral Interfacing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 16.628,
+        "matches": [
+          "instruction set architecture",
+          "register-transfer level",
+          "fpga",
+          "hdl",
+          "isa",
+          "rtl",
+          "spinalhdl",
+          "category:Processor ISA and RTL Implementation"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 13.938,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.983,
+        "matches": [
+          "formal verification",
+          "symbolic-execution"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.937,
+        "matches": [
+          "compiler-design",
+          "parser"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.922,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.591,
+        "matches": [
+          "isa"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.215880Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0d6d7329ef13083d6a54896c41b9df6220365f76de4d3b7ee6700fb6be397ee9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:37.545572+00:00"
+  },
+  "mined_motifs": [
+    "Intermediate Representation",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "parser",
+    "16-bit Instruction Set",
+    "Arithmetic Logic Unit (ALU)",
+    "Calling Convention Specification",
+    "Generalized Bitwise Logic",
+    "Instruction Encoding",
+    "Pest Grammar Parsing",
+    "Memory-Mapped I/O",
+    "Peripheral Interfacing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.946
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.942
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.874
+    },
+    {
+      "name": "bfcpu",
+      "path": "/Users/ember/dev/gh/bfcpu",
+      "similarity": 0.868
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.866
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.861
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.85
+    }
+  ]
+}

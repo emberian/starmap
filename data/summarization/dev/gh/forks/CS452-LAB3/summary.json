@@ -1,0 +1,237 @@
+{
+  "name": "CS452-LAB3",
+  "description": "A cross-language graphics laboratory demonstrating 3D polyhedral transformations using modern OpenGL. It provides equivalent implementations in Rust (using glfw and hgl) and C++ (using SDL2 and GLEW) for real-time vertex manipulation, including translation, scaling, and Euler rotation via shader uniforms.",
+  "tags": [
+    "opengl",
+    "rust",
+    "cpp",
+    "glsl",
+    "graphics",
+    "transformations",
+    "vertex-shaders",
+    "fragment-shaders",
+    "glfw",
+    "sdl2",
+    "linear-algebra",
+    "cgmath",
+    "glm",
+    "polyhedron",
+    "real-time-rendering",
+    "shader-programming"
+  ],
+  "category": "Computer Graphics Pipeline",
+  "concepts": [
+    "Model-View-Projection Matrices",
+    "Vertex Buffer Objects (VBO)",
+    "Vertex Array Objects (VAO)",
+    "Element Buffer Objects (EBO)",
+    "Shader Compilation",
+    "Uniform Transformation",
+    "Input Polling",
+    "Euler Angles",
+    "Coordinate System Scaling",
+    "3D Geometry Rendering",
+    "OpenGL Core Profile",
+    "Depth Testing",
+    "Perspective Projection",
+    "GLSL Version 140",
+    "Interoperability",
+    "Matrix Composition"
+  ],
+  "languages": [
+    "Rust",
+    "C++",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "main.rs",
+      "Example/initShaders.h",
+      "Example/transformations.cpp"
+    ]
+  },
+  "_hash": "d15f4d689e37b5e24b959c51428cee0b5b726afe6e6520766e97d3e3cdd1aa89",
+  "_path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+  "_updated_at": "2026-02-14T00:56:25.076122Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Model-View-Projection Matrices",
+      "Vertex Buffer Objects (VBO)",
+      "Vertex Array Objects (VAO)",
+      "Element Buffer Objects (EBO)",
+      "Shader Compilation",
+      "Uniform Transformation",
+      "Input Polling",
+      "Euler Angles",
+      "Coordinate System Scaling",
+      "3D Geometry Rendering",
+      "OpenGL Core Profile",
+      "Depth Testing",
+      "Perspective Projection",
+      "GLSL Version 140",
+      "Interoperability",
+      "Matrix Composition"
+    ],
+    "tags": [
+      "opengl",
+      "Rust Language Ecosystem",
+      "cpp",
+      "glsl",
+      "Computer Graphics & Rendering",
+      "transformations",
+      "vertex-shaders",
+      "fragment-shaders",
+      "glfw",
+      "sdl2",
+      "Linear Algebra",
+      "cgmath",
+      "glm",
+      "polyhedron",
+      "shader-programming"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "Computer Graphics & Rendering",
+      "vao",
+      "vbo",
+      "Double Buffering",
+      "Fragment Shading",
+      "Vertex Array Objects",
+      "Vertex Buffer Objects",
+      "Texture Mapping",
+      "gpu-programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 11.081,
+        "matches": [
+          "shader-programming",
+          "fragment-shaders",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 7.005,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.976,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.456,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.433,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 4.099,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.076122Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f6cc79c1b6d51a300265aa187d49bc8b9c3c5567ec189a87fee44dda4a70f72c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:05.559169+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "rendering",
+    "vao",
+    "vbo",
+    "graphics-programming",
+    "computer-graphics",
+    "Double Buffering",
+    "Fragment Shading",
+    "Vertex Array Objects",
+    "Vertex Buffer Objects",
+    "Texture Mapping",
+    "gpu-programming"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.917
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.911
+    },
+    {
+      "name": "CS452-LAB2",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB2",
+      "similarity": 0.885
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.882
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.881
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.875
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.87
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.862
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "name": "recraft",
+  "description": "A comprehensive modding toolchain and source development environment for Minecraft: Java Edition, centered on decompiling, modifying, and recompiling game binaries. It utilizes a TypeScript-based CLI built with Bun to automate the lifecycle of JAR extraction, library configuration, and incremental source recompilation. The workspace includes a fully mapped Minecraft source tree with custom entity integrations and asset management systems.",
+  "tags": [
+    "minecraft",
+    "modding",
+    "decompiler",
+    "compiler",
+    "java",
+    "typescript",
+    "reverse-engineering",
+    "bytecode",
+    "game-development",
+    "toolchain",
+    "recompilation",
+    "assets",
+    "jar-manipulation",
+    "mojang",
+    "lwjgl",
+    "bun"
+  ],
+  "category": "Minecraft Bytecode & Source Engineering",
+  "concepts": [
+    "Bytecode Decompilation",
+    "Java Source Recompilation",
+    "Minecraft Registry Management",
+    "Entity Component Architecture",
+    "Procedural World Generation",
+    "NBT Serialization",
+    "DataFixerUpper (DFU) Migrations",
+    "Loot Table Schemas",
+    "Blockstate Logic",
+    "Netty-based Game Networking",
+    "LWJGL Rendering Pipeline",
+    "CLI Lifecycle Automation",
+    "Asset Pipeline Integration",
+    "Dependency Resolution",
+    "Class Preservation Strategy",
+    "Mojang Authlib Integration",
+    "Command Dispatcher (Brigadier)",
+    "Creative Mode Tab Bootstrap",
+    "Structure Piece Generation",
+    "Animation Definition Schemas",
+    "Minecraft Data Pack Protocols",
+    "Client/Server Synchronization",
+    "Input Mapping (GLFW)",
+    "Text Rendering (FreeType)",
+    "Natives Management",
+    "JAR Patching"
+  ],
+  "languages": [
+    "Java",
+    "TypeScript",
+    "Shell",
+    "JSON"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 43633,
+    "has_readme": true,
+    "sample_files": [
+      "tool/src/index.ts",
+      "mc-26.1/src/net/minecraft/world/item/CreativeModeTabs.java",
+      "mc-26.1/src/net/minecraft/client/Minecraft.java",
+      "mc-26.1/src/net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces.java",
+      "mc-26.1/src/net/minecraft/server/network/ServerGamePacketListenerImpl.java"
+    ]
+  },
+  "_hash": "ff5460d0dad954fd20ba7056f15a06875b715ab7ed29f093613f7a27c9b191e3",
+  "_path": "/Users/ember/dev/recraft",
+  "_updated_at": "2026-02-14T00:56:29.981527Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Bytecode Decompilation",
+      "Java Source Recompilation",
+      "Minecraft Registry Management",
+      "Entity Component Architecture",
+      "Procedural World Generation",
+      "NBT Serialization",
+      "DataFixerUpper (DFU) Migrations",
+      "Loot Table Schemas",
+      "Blockstate Logic",
+      "Netty-based Game Networking",
+      "LWJGL Rendering Pipeline",
+      "CLI Lifecycle Automation",
+      "Asset Pipeline Integration",
+      "Dependency Resolution",
+      "Class Preservation Strategy",
+      "Mojang Authlib Integration",
+      "Command Dispatcher (Brigadier)",
+      "Creative Mode Tab Bootstrap",
+      "Structure Piece Generation",
+      "Animation Definition Schemas",
+      "Minecraft Data Pack Protocols",
+      "Client/Server Synchronization",
+      "Input Mapping (GLFW)",
+      "Text Rendering (FreeType)",
+      "Natives Management",
+      "JAR Patching"
+    ],
+    "tags": [
+      "minecraft",
+      "modding",
+      "decompiler",
+      "compiler-design",
+      "java",
+      "typescript",
+      "reverse-engineering",
+      "bytecode",
+      "game-engine",
+      "toolchain",
+      "recompilation",
+      "assets",
+      "jar-manipulation",
+      "mojang",
+      "lwjgl",
+      "bun"
+    ],
+    "mined_motifs": [
+      "Recursive Descent Parsing",
+      "lexical-analysis",
+      "Compiler Engineering",
+      "interpreter",
+      "Lexical Analysis",
+      "Rust Language Ecosystem",
+      "game-engine",
+      "Automated Mod Updates",
+      "Command-line Interface Design",
+      "Constraint Validation",
+      "Local State Persistence",
+      "Metadata Parsing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.465,
+        "matches": [
+          "compiler-design",
+          "lexical-analysis",
+          "bytecode"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 8.058,
+        "matches": [
+          "lexical analysis",
+          "bytecode",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 6.648,
+        "matches": [
+          "compiler engineering",
+          "bytecode"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.302,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.292,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.277,
+        "matches": [
+          "lexical analysis"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.981527Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2c071823f10835fcc93040f5fa2218868f217cb4fbea95013e6427ffbf71747e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:26.794482+00:00"
+  },
+  "mined_motifs": [
+    "Recursive Descent Parsing",
+    "Tokenization",
+    "compiler-design",
+    "interpreter",
+    "lexical-analysis",
+    "rust",
+    "game-engine",
+    "Automated Mod Updates",
+    "Command-line Interface Design",
+    "Constraint Validation",
+    "Local State Persistence",
+    "Metadata Parsing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "modget",
+      "path": "/Users/ember/src/modget",
+      "similarity": 0.799
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.789
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.777
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.773
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.767
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.767
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.766
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.766
+    }
+  ]
+}

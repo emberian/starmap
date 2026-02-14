@@ -1,0 +1,249 @@
+{
+  "name": "mina3",
+  "description": "Mina is a layer-1 blockchain protocol utilizing recursive zero-knowledge proofs to maintain a constant-sized state of approximately 22KB. The repository contains the core OCaml implementation of the protocol, Rust-based cryptographic stubs for the Kimchi proof system, and a suite of infrastructure tools for network orchestration, archive nodes, and Rosetta API integration. It supports programmable smart contracts called zkApps, which leverage succinct proofs to ensure privacy and scalability.",
+  "tags": [
+    "blockchain",
+    "zk-snarks",
+    "cryptocurrency",
+    "recursive-snarks",
+    "proof-of-stake",
+    "zero-knowledge-proofs",
+    "succinct-blockchain",
+    "smart-contracts",
+    "zkapps",
+    "layer-1",
+    "cryptography",
+    "distributed-systems",
+    "mina-protocol"
+  ],
+  "category": "Zero-Knowledge Succinct Blockchain",
+  "concepts": [
+    "Recursive SNARKs",
+    "Ouroboros Samasika Consensus",
+    "Kimchi Proof System",
+    "Pickles SNARK",
+    "Pasta Curves (Pallas/Vesta)",
+    "Constant-sized Ledger",
+    "zkApps",
+    "Merkle Tree Accumulators",
+    "libp2p Gossipsub",
+    "Archive Node Persistence",
+    "Rosetta API Implementation",
+    "Plonk-based IOPs",
+    "Succinct State Transition",
+    "Prover-Verifier Architecture",
+    "Scan State Parallelization",
+    "SnarkyJS (o1js)"
+  ],
+  "languages": [
+    "OCaml",
+    "Rust",
+    "TypeScript",
+    "Shell",
+    "Go",
+    "JavaScript",
+    "Python",
+    "Nix",
+    "C++",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 20749,
+    "has_readme": true,
+    "sample_files": [
+      "dune-project",
+      "flake.nix",
+      "Makefile",
+      "automation/services/echo/index.js",
+      "automation/services/graphql-public-proxy/src/index.js"
+    ]
+  },
+  "_hash": "e816a3fc77d64cf26b996553af74ff010045abb93c612387c498a52c7e06940a",
+  "_path": "/Users/ember/dev/mina3",
+  "_updated_at": "2026-02-14T00:56:29.388342Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "zero-knowledge-proofs",
+      "Ouroboros Samasika Consensus",
+      "Kimchi Proof System",
+      "Pickles SNARK",
+      "Pasta Curves (Pallas/Vesta)",
+      "Constant-sized Ledger",
+      "zkApps",
+      "Merkle Tree Accumulators",
+      "libp2p Gossipsub",
+      "Archive Node Persistence",
+      "Rosetta API Implementation",
+      "Plonk-based IOPs",
+      "Succinct State Transition",
+      "Prover-Verifier Architecture",
+      "Scan State Parallelization",
+      "SnarkyJS (o1js)"
+    ],
+    "tags": [
+      "blockchain",
+      "zero-knowledge-proofs",
+      "cryptocurrency",
+      "Recursive SNARKs",
+      "proof-of-stake",
+      "Zero-Knowledge Proofs (ZKP)",
+      "succinct-blockchain",
+      "smart-contracts",
+      "zkapps",
+      "layer-1",
+      "cryptography",
+      "distributed-systems",
+      "Mina Protocol"
+    ],
+    "mined_motifs": [
+      "libp2p",
+      "Rust Language Ecosystem",
+      "Staged Ledger",
+      "ocaml",
+      "Account Updates",
+      "Arithmetic Circuits",
+      "kimchi",
+      "plonk",
+      "typescript",
+      "Pickles Proof System",
+      "Recursive zk-SNARKs",
+      "Scan State"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 12.603,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 9.791,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "pickles snark",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 8.435,
+        "matches": [
+          "recursive snarks",
+          "kimchi",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 8.376,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi",
+          "plonk"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.352,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 7.006,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "plonk"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.388342Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2325752f3aacab55b47f2d27281037df225e2d4cb5858813fd54c8f38deb1389",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:00.913504+00:00"
+  },
+  "mined_motifs": [
+    "libp2p",
+    "rust",
+    "Staged Ledger",
+    "ocaml",
+    "Account Updates",
+    "Arithmetic Circuits",
+    "kimchi",
+    "plonk",
+    "typescript",
+    "Pickles Proof System",
+    "Recursive zk-SNARKs",
+    "Scan State"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.96
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.947
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.937
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.904
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.894
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.891
+    },
+    {
+      "name": "verimina",
+      "path": "/Users/ember/dev/verimina",
+      "similarity": 0.875
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.871
+    }
+  ]
+}

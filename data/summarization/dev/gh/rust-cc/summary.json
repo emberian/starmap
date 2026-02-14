@@ -1,0 +1,201 @@
+{
+  "name": "rust-cc",
+  "description": "A primitive cycle collector for Rust that provides a trait-based mechanism for breaking reference cycles in reference-counted pointer graphs. It implements a depth-first search algorithm to traverse object graphs via user-defined reference enumeration and provides a manual collection trigger to resolve leaks in 'Rc' and 'RefCell' based structures.",
+  "tags": [
+    "rust",
+    "garbage-collection",
+    "cycle-collection",
+    "memory-management",
+    "reference-counting",
+    "cyclic-references",
+    "resource-management"
+  ],
+  "category": "Garbage Collection Algorithms",
+  "concepts": [
+    "Object Graph Traversal",
+    "Reference Cycle Detection",
+    "Trait-based Polymorphism",
+    "Manual Memory Management",
+    "Weak Reference Cleanup",
+    "Depth-First Search",
+    "Smart Pointers",
+    "Interior Mutability"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "examples/simple.rs"
+    ]
+  },
+  "_hash": "bd994e41929b73e036a4a08bace8fdfa97ba3dde2d7f8f2952a5629327bcf4a7",
+  "_path": "/Users/ember/dev/gh/rust-cc",
+  "_updated_at": "2026-02-14T00:56:28.331364Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Object Graph Traversal",
+      "Reference Cycle Detection",
+      "Trait-based Polymorphism",
+      "Memory Management",
+      "Weak Reference Cleanup",
+      "Depth-First Search",
+      "Smart Pointers",
+      "Interior Mutability"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "garbage-collection",
+      "cycle-collection",
+      "Memory Management",
+      "reference-counting",
+      "cyclic-references",
+      "Resource Acquisition Is Initialization (RAII)"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lexical-analysis",
+      "systems-programming",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "Recursive Descent Parsing",
+      "Attribute Caching",
+      "Control Groups (cgroups)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.193,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.795,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.441,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.416,
+        "matches": [
+          "garbage-collection",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.626,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.597,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.331364Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "17b48756704bc8a5f4e6cdf67fefae48883ab285d994891e6f58724ac7af0ed6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:18.484638+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Tokenization",
+    "low-level",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "Recursive Descent Parsing",
+    "Attribute Caching",
+    "Control Groups (cgroups)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.92
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.903
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.902
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.901
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.895
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.891
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.888
+    }
+  ]
+}

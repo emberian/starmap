@@ -1,0 +1,247 @@
+{
+  "name": "udev-dl",
+  "description": "udev-dl is a Rust library that implements a dynamic loading interface for the Linux libudev shared object, utilizing runtime symbol resolution via dlopen and dlsym. It provides a macro-driven framework to map C-style function signatures to Rust structures, effectively decoupling applications from hard link-time dependencies on the udev subsystem. This architecture enables robust hardware interaction and device discovery while maintaining flexibility in environments where specific library versions may vary or be absent.",
+  "tags": [
+    "rust",
+    "udev",
+    "libudev",
+    "dlopen",
+    "ffi",
+    "dynamic-loading",
+    "runtime-linking",
+    "linux",
+    "hardware",
+    "device-management",
+    "systems-programming",
+    "bindings",
+    "shared-libraries",
+    "dylib"
+  ],
+  "category": "Dynamic FFI Binding Generation",
+  "concepts": [
+    "Dynamic Library Loading",
+    "Runtime Symbol Resolution",
+    "Foreign Function Interface (FFI)",
+    "Link-time Decoupling",
+    "Metaprogramming",
+    "Function Pointer Transmutation",
+    "Linux Kernel Device Management",
+    "Shared Object Introspection",
+    "C-compatible Layouts",
+    "Dynamic Linker Interaction",
+    "Symbol Mapping",
+    "Code Generation",
+    "Declarative FFI Bindings",
+    "Search Path Traversal",
+    "Symbol Lookup Error Handling",
+    "Opaque Type Definitions",
+    "Reference Counting",
+    "Type Marshalling",
+    "Variadic C Function Support",
+    "Runtime Linking",
+    "Dynamic Dispatch",
+    "ABI Compatibility",
+    "Device Discovery",
+    "Hardware Abstraction Layers"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "1c7678a58562ddb4566a2031c9dd5d9c0b1178837bbdded392c38b18564f6d5a",
+  "_path": "/Users/ember/dev/gh/udev-dl",
+  "_updated_at": "2026-02-14T00:56:28.708750Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Dynamic Library Loading",
+      "Runtime Symbol Resolution",
+      "foreign-function-interface",
+      "Link-time Decoupling",
+      "Metaprogramming",
+      "Function Pointer Transmutation",
+      "Linux Kernel Device Management",
+      "Shared Object Introspection",
+      "C-compatible Layouts",
+      "Dynamic Linker Interaction",
+      "Symbol Mapping",
+      "Code Generation",
+      "Declarative FFI Bindings",
+      "Search Path Traversal",
+      "Symbol Lookup Error Handling",
+      "Opaque Type Definitions",
+      "Reference Counting",
+      "Type Marshalling",
+      "Variadic C Function Support",
+      "Runtime Linking",
+      "Dynamic Dispatch",
+      "ABI Compatibility",
+      "Device Discovery",
+      "Hardware Abstraction Layers"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "udev",
+      "libudev",
+      "dlopen",
+      "foreign-function-interface",
+      "dynamic-loading",
+      "runtime-linking",
+      "linux",
+      "hardware",
+      "device-management",
+      "Systems Programming",
+      "Foreign Function Interface",
+      "shared-libraries",
+      "dylib"
+    ],
+    "mined_motifs": [
+      "sysfs",
+      "Device Enumeration",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "cuda",
+      "GPGPU Compute",
+      "hardware-abstraction"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.165,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.397,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 6.995,
+        "matches": [
+          "systems programming",
+          "sysfs"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.599,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.564,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.535,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.708750Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a3d58d7eb2a1da6b513f3762665397e8e9bb71f983a0fbaa3186293f4fbc7db0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:35.160429+00:00"
+  },
+  "mined_motifs": [
+    "sysfs",
+    "Device Enumeration",
+    "low-level",
+    "resource-management",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "cuda",
+    "gpgpu",
+    "hardware-abstraction"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libudev-rs",
+      "path": "/Users/ember/dev/gh/forks/libudev-rs",
+      "similarity": 0.913
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.902
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.891
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.889
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.888
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.887
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.883
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.88
+    }
+  ]
+}

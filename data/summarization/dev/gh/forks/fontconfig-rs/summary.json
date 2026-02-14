@@ -1,0 +1,206 @@
+{
+  "name": "fontconfig-rs",
+  "description": "A Rust wrapper providing high-level and low-level bindings to the FreeDesktop fontconfig library for system-wide font discovery and matching. It facilitates querying font properties, resolving font patterns, and retrieving filesystem paths for specific font families and styles via a safe RAII-based interface.",
+  "tags": [
+    "rust",
+    "fontconfig",
+    "ffi",
+    "font-management",
+    "linux",
+    "freedesktop",
+    "bindings",
+    "font-discovery",
+    "system-fonts"
+  ],
+  "category": "Font Configuration and Discovery",
+  "concepts": [
+    "FFI",
+    "Font Pattern Matching",
+    "System Font Discovery",
+    "RAII",
+    "Native Library Wrapper",
+    "Linux Font Management",
+    "Libfontconfig",
+    "Pattern Substitution",
+    "Font Set Resolution",
+    "C Interoperability",
+    "Pkg-config Integration"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "fontconfig-sys/lib.rs",
+      "src/lib.rs",
+      "fontconfig-sys/build.rs"
+    ]
+  },
+  "_hash": "cccb11431da90264dfc260a25cc7ca1bf560a67ae6e60d79025f185bcf2be66a",
+  "_path": "/Users/ember/dev/gh/forks/fontconfig-rs",
+  "_updated_at": "2026-02-14T00:56:25.537825Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "foreign-function-interface",
+      "Font Pattern Matching",
+      "System Font Discovery",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Native Library Wrapper",
+      "Linux Font Management",
+      "Libfontconfig",
+      "Pattern Substitution",
+      "Font Set Resolution",
+      "Foreign Function Interface",
+      "Pkg-config Integration"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "fontconfig",
+      "foreign-function-interface",
+      "font-management",
+      "linux",
+      "freedesktop",
+      "Foreign Function Interface",
+      "font-discovery",
+      "system-fonts"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "foreign-function-interface",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Attribute Caching",
+      "Control Groups (cgroups)",
+      "Controller Discovery",
+      "Linux Kernel Primitives",
+      "Memory Usage Tracking",
+      "Path Resolution",
+      "Process Isolation",
+      "Procfs Parsing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.259,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.222,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.464,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.406,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.647,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.619,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.537825Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "93ba93d9de0617f6e013826bc27d78e1e8d8ea554d591fcb837de9a3c83426d0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:32.243668+00:00"
+  },
+  "mined_motifs": [
+    "system-programming",
+    "Foreign Function Interface (FFI)",
+    "resource-management",
+    "low-level",
+    "Attribute Caching",
+    "Control Groups (cgroups)",
+    "Controller Discovery",
+    "Linux Kernel Primitives",
+    "Memory Usage Tracking",
+    "Path Resolution",
+    "Process Isolation",
+    "Procfs Parsing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.862
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.849
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.841
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.839
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.836
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.836
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "name": "CommonCrypto",
+  "description": "CommonCrypto appears to be a exploratory project using C/C++. The available files suggest focus areas around commoncrypto, commoncryptoerror, commoncryptor, commondigest.",
+  "tags": [
+    "C/C++",
+    "commoncrypto",
+    "commoncryptoerror",
+    "commoncryptor",
+    "commondigest",
+    "commonhmac",
+    "commonkeyderivation",
+    "commonrandom",
+    "commonsymmetrickeywrap"
+  ],
+  "category": "Exploratory",
+  "concepts": [
+    "commoncrypto",
+    "commoncryptoerror",
+    "commoncryptor",
+    "commondigest",
+    "commonhmac",
+    "commonkeyderivation",
+    "commonrandom",
+    "commonsymmetrickeywrap"
+  ],
+  "languages": [
+    "C/C++"
+  ],
+  "maturity": "exploratory",
+  "_hash": "2f7e6a8b508bac47c9d52cc21ca7035cd180d741f2b15506b07e285c5dbccfa3",
+  "_path": "/Users/ember/src/CommonCrypt/CommonCrypto",
+  "_updated_at": "2026-02-14T00:56:31.998871Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bea1ee316396f8b78d2a076b5ecfc0c35d22d27e8eed576989915c7825909172",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:51.583331+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "cmakelists",
+    "common",
+    "socket",
+    "C",
+    "doxyfile",
+    "license",
+    "thread",
+    "time",
+    "array",
+    "asynchashtable",
+    "asynclinkedlist"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "util",
+      "path": "/Users/ember/dev/gh/util",
+      "similarity": 0.715
+    },
+    {
+      "name": "macports-ports",
+      "path": "/Users/ember/dev/macports-ports",
+      "similarity": 0.705
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.694
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.694
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.692
+    },
+    {
+      "name": "libblake2",
+      "path": "/Users/ember/dev/gh/libblake2",
+      "similarity": 0.687
+    },
+    {
+      "name": "lockstitch",
+      "path": "/Users/ember/src/lockstitch",
+      "similarity": 0.683
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.672
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "commoncrypto",
+      "commoncryptoerror",
+      "commoncryptor",
+      "commondigest",
+      "commonhmac",
+      "commonkeyderivation",
+      "commonrandom",
+      "commonsymmetrickeywrap"
+    ],
+    "tags": [
+      "C/C++",
+      "commoncrypto",
+      "commoncryptoerror",
+      "commoncryptor",
+      "commondigest",
+      "commonhmac",
+      "commonkeyderivation",
+      "commonrandom",
+      "commonsymmetrickeywrap"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "cmakelists",
+      "common",
+      "socket",
+      "C",
+      "doxyfile",
+      "license",
+      "thread",
+      "time",
+      "array",
+      "asynchashtable",
+      "asynclinkedlist"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 4.911,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 4.911,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.118,
+        "matches": []
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.114,
+        "matches": []
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.065,
+        "matches": []
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 2.055,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.998871Z"
+  }
+}

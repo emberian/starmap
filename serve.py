@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.11"
+# dependencies = []
+# ///
+# Optional deps for live UMAP recomputation: numpy, umap-learn, scikit-learn
+# Not needed when pre-baked umap_coords.json is present in the data directory.
+import hashlib
 import http.server
 import json
 import os
 import socketserver
+import sys
+import threading
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -10,7 +19,9 @@ from urllib.parse import urlparse
 
 PORT = int(os.environ.get("STARMAP_PORT", "8317"))
 HOME = Path.home()
-WEB_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent
+DIST_DIR = PROJECT_ROOT / "dist"
+WEB_ROOT = DIST_DIR if DIST_DIR.is_dir() else PROJECT_ROOT
 
 
 def resolve_shadow_root() -> Path:
@@ -19,6 +30,7 @@ def resolve_shadow_root() -> Path:
         return Path(os.path.expanduser(env_value))
 
     candidates = [
+        PROJECT_ROOT / "data" / "summarization",
         Path(os.path.expanduser("~/.summarize")),
         Path(os.path.expanduser("~/.summarization")),
     ]
@@ -45,6 +57,164 @@ def resolve_shadow_root() -> Path:
 
 
 SHADOW_ROOT = resolve_shadow_root()
+
+# Add project root to sys.path so we can import starmap_lib.
+sys.path.insert(0, str(WEB_ROOT))
+
+# ---------------------------------------------------------------------------
+# UMAP 2D layout computation with caching
+# ---------------------------------------------------------------------------
+
+_umap_lock = threading.Lock()
+_umap_cache: dict = {"key": "", "coords": {}}
+_UMAP_CACHE_FILE = SHADOW_ROOT / ".starmap_umap_cache.json"
+
+
+def _embedding_cache_key(embeddings: dict[str, list[float]]) -> str:
+    import numpy as np
+
+    parts: list[str] = []
+    for path in sorted(embeddings.keys()):
+        vec_bytes = np.array(embeddings[path], dtype=np.float32).tobytes()
+        vec_hash = hashlib.sha256(vec_bytes).hexdigest()[:16]
+        parts.append(f"{path}:{vec_hash}")
+    return hashlib.sha256("\n".join(parts).encode()).hexdigest()
+
+
+def _load_disk_cache() -> dict | None:
+    if not _UMAP_CACHE_FILE.exists():
+        return None
+    try:
+        with _UMAP_CACHE_FILE.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def _save_disk_cache(key: str, coords: dict[str, list[float]]) -> None:
+    try:
+        _UMAP_CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with _UMAP_CACHE_FILE.open("w", encoding="utf-8") as f:
+            json.dump({"key": key, "coords": coords}, f)
+    except Exception:
+        pass
+
+
+def _run_reduction(matrix):
+    """Try UMAP, fall back to TSNE, then PCA."""
+    import numpy as np
+
+    # Try UMAP
+    try:
+        import umap as umap_lib
+
+        reducer = umap_lib.UMAP(
+            n_components=2,
+            n_neighbors=min(15, max(2, len(matrix) - 1)),
+            min_dist=0.1,
+            metric="cosine",
+            random_state=42,
+        )
+        print("[umap] Computing 2D layout via UMAP...", file=sys.stderr)
+        return reducer.fit_transform(matrix)
+    except Exception as exc:
+        print(f"[umap] UMAP failed ({exc}), trying TSNE...", file=sys.stderr)
+
+    # Try TSNE
+    try:
+        from sklearn.manifold import TSNE
+
+        perplexity = min(30, max(2, len(matrix) - 1))
+        reducer = TSNE(
+            n_components=2,
+            perplexity=perplexity,
+            metric="cosine",
+            random_state=42,
+            init="random",
+        )
+        print("[umap] Computing 2D layout via TSNE...", file=sys.stderr)
+        return reducer.fit_transform(matrix)
+    except Exception as exc:
+        print(f"[umap] TSNE failed ({exc}), trying PCA...", file=sys.stderr)
+
+    # PCA fallback
+    from sklearn.decomposition import PCA
+
+    reducer = PCA(n_components=2, random_state=42)
+    print("[umap] Computing 2D layout via PCA...", file=sys.stderr)
+    return reducer.fit_transform(matrix)
+
+
+def _load_prebaked_coords() -> dict[str, list[float]] | None:
+    """Load pre-exported UMAP coordinates from data/summarization/umap_coords.json."""
+    coords_file = SHADOW_ROOT / "umap_coords.json"
+    if not coords_file.exists():
+        return None
+    try:
+        with coords_file.open("r", encoding="utf-8") as f:
+            coords = json.load(f)
+        if isinstance(coords, dict) and len(coords) > 0:
+            return coords
+    except Exception:
+        pass
+    return None
+
+
+def compute_umap_coords() -> dict[str, list[float]]:
+    """Return {project_path: [x, y]} with 2D coordinates normalized to [0, 1]."""
+    global _umap_cache
+
+    from starmap_lib import load_embeddings
+
+    embeddings = load_embeddings(SHADOW_ROOT)
+    if len(embeddings) < 3:
+        # No embedding vectors available — use pre-baked coords if present
+        prebaked = _load_prebaked_coords()
+        if prebaked:
+            print(f"[umap] Using pre-baked coordinates for {len(prebaked)} projects", file=sys.stderr)
+            return prebaked
+        return {}
+
+    import numpy as np
+
+    key = _embedding_cache_key(embeddings)
+
+    with _umap_lock:
+        # In-memory cache
+        if _umap_cache["key"] == key:
+            return _umap_cache["coords"]
+
+        # Disk cache
+        disk = _load_disk_cache()
+        if disk and disk.get("key") == key:
+            _umap_cache = {"key": key, "coords": disk["coords"]}
+            return disk["coords"]
+
+        # Compute
+        paths = sorted(embeddings.keys())
+        matrix = np.array([embeddings[p] for p in paths], dtype=np.float32)
+
+        raw_coords = _run_reduction(matrix)
+
+        # Normalize to [0, 1]
+        mins = raw_coords.min(axis=0)
+        maxs = raw_coords.max(axis=0)
+        ranges = maxs - mins
+        ranges[ranges < 1e-12] = 1.0
+        normalized = (raw_coords - mins) / ranges
+
+        coords = {
+            path: [round(float(normalized[i, 0]), 6), round(float(normalized[i, 1]), 6)]
+            for i, path in enumerate(paths)
+        }
+
+        _umap_cache = {"key": key, "coords": coords}
+        _save_disk_cache(key, coords)
+        print(
+            f"[umap] Computed 2D layout for {len(paths)} projects",
+            file=sys.stderr,
+        )
+        return coords
 
 
 def normalize_string_list(value) -> list[str]:
@@ -218,7 +388,10 @@ def load_metaconstellations() -> dict:
     }
 
 
-def normalize_project(summary: dict) -> dict:
+def normalize_project(
+    summary: dict,
+    umap_coords: dict[str, list[float]] | None = None,
+) -> dict:
     project = dict(summary)
     path_value = str(project.get("_path", ""))
 
@@ -230,21 +403,74 @@ def normalize_project(summary: dict) -> dict:
     project["display_path"] = display_path
     project["name"] = project.get("name") or Path(path_value).name or "Unnamed"
     project["description"] = project.get("description") or "No summary available yet."
-    project["category"] = project.get("category") or "Exploratory"
-    project["tags"] = normalize_string_list(project.get("tags"))
-    project["concepts"] = normalize_string_list(project.get("concepts"))
     project["languages"] = normalize_string_list(project.get("languages"))
-    project["mined_motifs"] = normalize_string_list(project.get("mined_motifs"))
+    project["attribution"] = str(project.get("attribution", "interests")).strip()
     project["motif_neighbors"] = normalize_motif_neighbors(project.get("_motif_neighbors"))
-    project["metaconstellations"] = normalize_project_metaconstellations(
-        project.get("metaconstellations")
-    )
+
+    # Raw ground-truth fields (from initial LLM scan).
+    raw_category = project.get("category") or "Exploratory"
+    raw_concepts = normalize_string_list(project.get("concepts"))
+    raw_tags = normalize_string_list(project.get("tags"))
+    raw_mined = normalize_string_list(project.get("mined_motifs"))
+
+    # Prefer aligned overlay when available, fall back to raw.
+    alignment = project.get("_alignment") or {}
+    aligned_at = str(alignment.get("aligned_at", "")).strip()
+    updated_at = str(project.get("_updated_at", "")).strip()
+
+    # Staleness: project was re-summarized after alignment was computed.
+    alignment_stale = bool(aligned_at and updated_at and updated_at > aligned_at)
+
+    if alignment_stale:
+        # Alignment is outdated — use raw fields until next alignment pass.
+        project["category"] = raw_category
+        project["concepts"] = raw_concepts
+        project["tags"] = raw_tags
+        project["mined_motifs"] = raw_mined
+        project["metaconstellations"] = normalize_project_metaconstellations(
+            project.get("metaconstellations")
+        )
+    else:
+        project["category"] = alignment.get("category") or raw_category
+        project["concepts"] = normalize_string_list(alignment.get("concepts")) or raw_concepts
+        project["tags"] = normalize_string_list(alignment.get("tags")) or raw_tags
+        project["mined_motifs"] = normalize_string_list(alignment.get("mined_motifs")) or raw_mined
+        project["metaconstellations"] = normalize_project_metaconstellations(
+            alignment.get("metaconstellations") or project.get("metaconstellations")
+        )
+
+    project["alignment_stale"] = alignment_stale
+
+    # Pass raw values through so the frontend can show original terminology.
+    project["raw_category"] = raw_category
+    project["raw_concepts"] = raw_concepts
+    project["raw_tags"] = raw_tags
+    project["raw_mined_motifs"] = raw_mined
     project["embedding"] = normalize_embedding(project.get("_embedding"))
     project["embedding_ready"] = bool(project.get("embedding"))
+
+    # UMAP 2D coordinates
+    if umap_coords and path_value in umap_coords:
+        xy = umap_coords[path_value]
+        project["umap_x"] = xy[0]
+        project["umap_y"] = xy[1]
+    else:
+        project["umap_x"] = None
+        project["umap_y"] = None
+
+    # Strip internal/heavy fields the frontend doesn't need.
+    # Keep _path, _hash, _updated_at (used by frontend for keying and diff detection).
+    for key in list(project.keys()):
+        if key.startswith("_") and key not in ("_path", "_hash", "_updated_at"):
+            del project[key]
+    project.pop("evidence", None)
+
     return project
 
 
-def load_projects() -> list[dict]:
+def load_projects(
+    umap_coords: dict[str, list[float]] | None = None,
+) -> list[dict]:
     if not SHADOW_ROOT.exists():
         return []
 
@@ -254,7 +480,7 @@ def load_projects() -> list[dict]:
             with summary_path.open("r", encoding="utf-8") as handle:
                 data = json.load(handle)
             if isinstance(data, dict):
-                projects.append(normalize_project(data))
+                projects.append(normalize_project(data, umap_coords))
         except Exception:
             continue
 
@@ -313,7 +539,8 @@ def derive_interests(projects: list[dict]) -> dict:
 
 
 def build_payload() -> dict:
-    projects = load_projects()
+    umap_coords = compute_umap_coords()
+    projects = load_projects(umap_coords)
     meta_payload = load_metaconstellations()
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -331,40 +558,35 @@ class StarmapHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(WEB_ROOT), **kwargs)
 
+    def _send_json(self, payload: dict | list, *, cache: bool = False) -> None:
+        body = json.dumps(payload).encode("utf-8")
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        if not cache:
+            self.send_header("Cache-Control", "no-store")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
     def do_GET(self):
         parsed = urlparse(self.path)
         route = parsed.path
 
         if route == "/api/data":
-            payload = build_payload()
-            body = json.dumps(payload).encode("utf-8")
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-            return
+            return self._send_json(build_payload())
 
         if route == "/api/metaconstellations":
-            payload = load_metaconstellations()
-            body = json.dumps(payload).encode("utf-8")
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-            return
+            return self._send_json(load_metaconstellations())
 
         if route == "/api/health":
-            body = json.dumps({"ok": True, "shadow_exists": SHADOW_ROOT.exists()}).encode("utf-8")
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-            return
+            return self._send_json({"ok": True, "shadow_exists": SHADOW_ROOT.exists()})
+
+        # SPA fallback: if serving from dist/ and the path isn't a real file,
+        # serve index.html so client-side routing works.
+        if DIST_DIR.is_dir():
+            file_path = DIST_DIR / route.lstrip("/")
+            if not file_path.is_file() and not route.startswith("/api/"):
+                self.path = "/index.html"
 
         return super().do_GET()
 
@@ -374,7 +596,12 @@ class ThreadingTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
 
 
 def main() -> None:
+    print(f"Shadow root: {SHADOW_ROOT}")
+    print(f"Web root: {WEB_ROOT}")
     print(f"Serving Starmap at http://localhost:{PORT}")
+    # Pre-warm UMAP cache on startup
+    coords = compute_umap_coords()
+    print(f"UMAP layout: {len(coords)} projects positioned")
     with ThreadingTCPServer(("", PORT), StarmapHandler) as httpd:
         httpd.serve_forever()
 

@@ -1,0 +1,35 @@
+{
+  "name": "fuckin_bullshit",
+  "description": "fuckin_bullshit appears to be a exploratory project using mixed tooling. The available files suggest focus areas around repository structure and source files.",
+  "tags": [],
+  "category": "Exploratory",
+  "concepts": [],
+  "languages": [],
+  "maturity": "exploratory",
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/shitheap/fuckin_bullshit",
+  "_updated_at": "2026-02-11T08:55:30.351644Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ff2182dac12d3ffba3aa63a93ed435e0181c53a79427f4dda4eaae8c38ce4da4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:40.662317+00:00"
+  },
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [],
+    "tags": [],
+    "mined_motifs": [],
+    "metaconstellations": [],
+    "aligner": "gemini",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-11T08:55:30.351636Z"
+  }
+}

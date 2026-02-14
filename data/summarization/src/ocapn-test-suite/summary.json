@@ -1,0 +1,263 @@
+{
+  "name": "ocapn-test-suite",
+  "description": "A comprehensive compliance and interoperability test suite for the Capability Transport Protocol (CapTP) and Object Capability Network (OCapN) specifications. It facilitates the validation of core distributed object-capability primitives, including promise pipelining, third-party handoffs, and distributed garbage collection across diverse transport layers. The framework leverages the Syrup serialization format and provides modular netlayer implementations for Tor Onion services and TCP to ensure cross-implementation consistency.",
+  "tags": [
+    "captp",
+    "ocapn",
+    "object-capabilities",
+    "syrup-serialization",
+    "distributed-systems",
+    "protocol-compliance",
+    "onion-routing",
+    "promise-pipelining",
+    "handoffs",
+    "security-testing",
+    "python",
+    "network-protocols",
+    "cryptography",
+    "distributed-gc"
+  ],
+  "category": "Distributed Object-Capability Protocols",
+  "concepts": [
+    "Capability Transport Protocol",
+    "Object Capability Network",
+    "Syrup Serialization",
+    "Distributed Garbage Collection",
+    "Promise Pipelining",
+    "Third-party Handoffs",
+    "Sturdyrefs",
+    "Swiss Numbers",
+    "Netlayer Abstraction",
+    "Tor Onion Services",
+    "Gifter-Exporter-Receiver Pattern",
+    "Vat-to-Vat Communication",
+    "Remote Object References",
+    "Asynchronous Messaging",
+    "Cryptographic Signatures",
+    "Protocol Versioning",
+    "Session Management",
+    "Reference Counting",
+    "Promise Resolution",
+    "Handoff Certificates",
+    "Location URIs",
+    "SOCKS5 Proxy Integration",
+    "Syrup Record Types",
+    "Peer Authentication",
+    "Distributed Capability Safety",
+    "Message Serialization",
+    "Network Transport Security"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 23,
+    "has_readme": true,
+    "sample_files": [
+      "contrib/__init__.py",
+      "netlayers/__init__.py",
+      "tests/__init__.py",
+      "utils/__init__.py",
+      "utils/captp_types.py"
+    ]
+  },
+  "_hash": "ede9807579868ccaa65ed01fb74939cc66e8c9fdbc4d9850cdc3adcf37549e6c",
+  "_path": "/Users/ember/src/ocapn-test-suite",
+  "_updated_at": "2026-02-14T00:56:33.251460Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ae08726381c4601ad24acc8aa23334bfdc24425e1e1a8208a2e0c58b3d4a8d34",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:50.689924+00:00"
+  },
+  "mined_motifs": [
+    "capability-security",
+    "rpc",
+    "serialization",
+    "spritely",
+    "p2p",
+    "ocap",
+    "Distributed Objects",
+    "Object-Capability Model",
+    "Capability Transport Protocol (CapTP)",
+    "guile-scheme",
+    "p2p-networking",
+    "Actor Model"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.927
+    },
+    {
+      "name": "ocapn.org",
+      "path": "/Users/ember/src/ocapn.org",
+      "similarity": 0.905
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.893
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.877
+    },
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.849
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.846
+    },
+    {
+      "name": "guile-goblins",
+      "path": "/Users/ember/src/guile-goblins",
+      "similarity": 0.846
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.84
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Capability Transport Protocol",
+      "Object Capability Network",
+      "Syrup Serialization",
+      "Distributed Garbage Collection",
+      "Promise Pipelining",
+      "Third-party Handoffs",
+      "Sturdyrefs",
+      "Swiss Numbers",
+      "Netlayer Abstraction",
+      "Tor Onion Services",
+      "Gifter-Exporter-Receiver Pattern",
+      "Vat-to-Vat Communication",
+      "Remote Object References",
+      "Asynchronous Messaging",
+      "Cryptographic Signatures",
+      "Protocol Versioning",
+      "Session Management",
+      "Reference Counting",
+      "Promise Resolution",
+      "Handoff Certificates",
+      "Location URIs",
+      "SOCKS5 Proxy Integration",
+      "Syrup Record Types",
+      "Peer Authentication",
+      "Distributed Capability Safety",
+      "Message Serialization",
+      "Network Transport Security"
+    ],
+    "tags": [
+      "captp",
+      "ocapn",
+      "object-capabilities",
+      "syrup-serialization",
+      "distributed-systems",
+      "protocol-compliance",
+      "onion-routing",
+      "promise-pipelining",
+      "handoffs",
+      "security-testing",
+      "python",
+      "network-protocols",
+      "cryptography",
+      "distributed-gc"
+    ],
+    "mined_motifs": [
+      "capability-security",
+      "rpc",
+      "Data Serialization",
+      "spritely",
+      "p2p",
+      "object-capabilities",
+      "Distributed Objects",
+      "Object-Capability Model",
+      "captp",
+      "guile-scheme",
+      "p2p-networking",
+      "Actor Model"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 17.825,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "object-capabilities",
+          "p2p",
+          "spritely",
+          "sturdyrefs",
+          "category:Distributed Object-Capability Protocols"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 9.625,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking",
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.225,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 6.937,
+        "matches": [
+          "object-capabilities",
+          "distributed capability safety"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 6.821,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.514,
+        "matches": [
+          "p2p"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.251460Z"
+  }
+}

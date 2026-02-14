@@ -1,0 +1,241 @@
+{
+  "name": "dbus-rust",
+  "description": "A low-level Foreign Function Interface (FFI) wrapper providing Rust bindings for the libdbus-1 C library. The project implements core DBus abstractions including connection management, error handling, and message dispatching status, aimed at enabling inter-process communication within Rust applications. It features ergonomic type definitions for DBus interfaces, methods, and signals while interfacing directly with native system-bus components.",
+  "tags": [
+    "rust",
+    "dbus",
+    "ffi",
+    "ipc",
+    "bindings",
+    "libdbus",
+    "message-bus",
+    "low-level",
+    "system-programming",
+    "linux-api"
+  ],
+  "category": "Inter-Process Communication",
+  "concepts": [
+    "Foreign Function Interface",
+    "Message Dispatching",
+    "Reference Counting",
+    "Error Handling Patterns",
+    "Inter-Process Communication",
+    "Protocol Bindings",
+    "Shared Library Linkage",
+    "System Bus",
+    "Session Bus",
+    "Signal Handling",
+    "Method Invocation",
+    "Unsafe Rust",
+    "Memory Management",
+    "External Linkage",
+    "C String Interop",
+    "Enum Mapping",
+    "Type Safety",
+    "DBus Error Initialization",
+    "Result Pattern",
+    "Interface Modeling",
+    "Member Definitions",
+    "Asynchronous Event Loops",
+    "Message Serialization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "bb0198438bad5d99b0c60061f44ddf81967675ede3b1211bdc733179c45bcd19",
+  "_path": "/Users/ember/dev/gh/forks/dbus-rust",
+  "_updated_at": "2026-02-14T00:56:25.485956Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "foreign-function-interface",
+      "Message Dispatching",
+      "Reference Counting",
+      "Error Handling Patterns",
+      "Inter-Process Communication",
+      "Protocol Bindings",
+      "Shared Library Linkage",
+      "System Bus",
+      "Session Bus",
+      "Signal Handling",
+      "Method Invocation",
+      "Unsafe Rust",
+      "Memory Management",
+      "External Linkage",
+      "C String Interop",
+      "Enum Mapping",
+      "Type Safety",
+      "DBus Error Initialization",
+      "Result Pattern",
+      "Interface Modeling",
+      "Member Definitions",
+      "Asynchronous Event Loops",
+      "Message Serialization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "dbus",
+      "foreign-function-interface",
+      "ipc",
+      "Foreign Function Interface",
+      "libdbus",
+      "message-bus",
+      "systems-programming",
+      "linux-api"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "foreign-function-interface",
+      "libc",
+      "linux",
+      "sockets",
+      "posix",
+      "Dynamic Dispatch",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Asynchronous interrupt handling",
+      "C-string interoperability",
+      "External C function bindings",
+      "FFI linkage to libc"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 12.42,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 11.053,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 9.662,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.253,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 5.435,
+        "matches": [
+          "ipc"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.406,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.485956Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4cc1fb1aaabbef45b8aaa73c255640ff4a9751ee2ffaa404d4cbce480622c843",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:25.459897+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "Foreign Function Interface (FFI)",
+    "libc",
+    "linux",
+    "sockets",
+    "posix",
+    "Dynamic Dispatch",
+    "resource-management",
+    "Asynchronous interrupt handling",
+    "C-string interoperability",
+    "External C function bindings",
+    "FFI linkage to libc"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.871
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.858
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.849
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.847
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.839
+    }
+  ]
+}

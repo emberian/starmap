@@ -1,0 +1,239 @@
+{
+  "name": "mica",
+  "description": "A cross-platform GPU-accelerated exporter for Procreate (.procreate) files, utilizing WGPU for high-performance layer compositing and rendering. It implements a specialized parser for Apple's NSKeyedArchive format and handles tiled raster data compressed with LZO or LZ4 algorithms. The system enables accurate reproduction of digital art layers by simulating Procreate's blending pipeline and premultiplied alpha compositing.",
+  "tags": [
+    "rust",
+    "wgpu",
+    "procreate",
+    "gpu-acceleration",
+    "image-processing",
+    "compositing",
+    "nskeyedarchive",
+    "lzo",
+    "lz4",
+    "cross-platform",
+    "renderer",
+    "wgsl"
+  ],
+  "category": "Raster Graphics Composition",
+  "concepts": [
+    "NSKeyedArchive Serialization",
+    "GPU-Accelerated Compositing",
+    "LZO Decompression",
+    "LZ4 Frame Format",
+    "Premultiplied Alpha Blending",
+    "Tiled Rasterization",
+    "WGPU Rendering Pipeline",
+    "Digital Art Asset Extraction",
+    "Shader-based Blending (WGSL)",
+    "Apple Property List (plist) Parsing",
+    "Parallel Data Processing (Rayon)",
+    "Async Runtime (Tokio)",
+    "Zip Archive Extraction",
+    "Binary Format Reverse Engineering",
+    "Layer Hierarchy Flattening",
+    "Memory-mapped I/O",
+    "Color Blending Modes",
+    "Serverless Execution (AWS Lambda)",
+    "S3 Data Streaming",
+    "Texture Buffer Alignment"
+  ],
+  "languages": [
+    "Rust",
+    "WGSL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 33,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "libs/lz4_flex/src/block/mod.rs",
+      "libs/lz4_flex/src/frame/mod.rs",
+      "libs/lz4_flex/src/lib.rs",
+      "src/compositor/mod.rs"
+    ]
+  },
+  "_hash": "0594819548806cb2d3facdc7d6fb6e6920d280eeedc882496b5af39081e16481",
+  "_path": "/Users/ember/src/mica",
+  "_updated_at": "2026-02-14T00:56:33.190026Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ad64e4061224ea5d189ca891f713b5ef1eac139dedd8d1b3ceec02487653ff0f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:44.345055+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "hardware-abstraction",
+    "opengl",
+    "graphics-api",
+    "compression",
+    "Command Queue Management",
+    "Huffman Coding",
+    "codec",
+    "graphics",
+    "png",
+    "glfw",
+    "glsl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.84
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.835
+    },
+    {
+      "name": "TEMP-rust-png",
+      "path": "/Users/ember/dev/gh/TEMP-rust-png",
+      "similarity": 0.831
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.829
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.828
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.821
+    },
+    {
+      "name": "rust-image",
+      "path": "/Users/ember/dev/gh/forks/rust-image",
+      "similarity": 0.82
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.819
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "NSKeyedArchive Serialization",
+      "GPU-Accelerated Compositing",
+      "LZO Decompression",
+      "LZ4 Frame Format",
+      "Premultiplied Alpha Blending",
+      "Tiled Rasterization",
+      "WGPU Rendering Pipeline",
+      "Digital Art Asset Extraction",
+      "Shader-based Blending (WGSL)",
+      "Apple Property List (plist) Parsing",
+      "Parallel Data Processing (Rayon)",
+      "Async Runtime (Tokio)",
+      "Zip Archive Extraction",
+      "Binary Format Reverse Engineering",
+      "Layer Hierarchy Flattening",
+      "Memory-mapped I/O",
+      "Color Blending Modes",
+      "Serverless Execution (AWS Lambda)",
+      "S3 Data Streaming",
+      "Texture Buffer Alignment"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "wgpu",
+      "procreate",
+      "low-level-graphics",
+      "image-processing",
+      "compositing",
+      "nskeyedarchive",
+      "lzo",
+      "lz4",
+      "cross-platform",
+      "renderer",
+      "wgsl"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "hardware-abstraction",
+      "opengl",
+      "graphics-api",
+      "compression",
+      "Command Queue Management",
+      "Huffman Coding",
+      "codec",
+      "Computer Graphics & Rendering",
+      "png",
+      "glfw",
+      "glsl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.23,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.884,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 5.457,
+        "matches": [
+          "opengl",
+          "wgpu"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.426,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.426,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 4.061,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.190026Z"
+  }
+}

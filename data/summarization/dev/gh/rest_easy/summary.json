@@ -1,0 +1,220 @@
+{
+  "name": "rest_easy",
+  "description": "A legacy Rust compiler plugin that implements a custom lint to signal the transition from static analysis to the code generation phase. By hooking into the crate validation pass, it notifies the developer once the compiler has completed all checks that could result in a compilation error, indicating that the remaining build time is dedicated to translation. This provides an early success signal for long-running builds before the computationally intensive codegen process begins.",
+  "tags": [
+    "rust",
+    "rustc",
+    "compiler-plugin",
+    "lint",
+    "static-analysis",
+    "codegen",
+    "diagnostics",
+    "tooling",
+    "rust-internals",
+    "build-workflow"
+  ],
+  "category": "Compiler Frontend Instrumentation",
+  "concepts": [
+    "Rustc Lint API",
+    "Crate Checking",
+    "Translation Phase Transition",
+    "Compiler Hooks",
+    "Plugin Registration",
+    "Build Notification",
+    "Static Analysis Hook",
+    "Rust Compiler Internals",
+    "Diagnostic Emission",
+    "Codegen Signaling",
+    "Crate Metadata Analysis",
+    "Syntax Extension",
+    "Compiler Registry",
+    "Lint Array",
+    "Lint Pass Implementation",
+    "Feature Gates",
+    "Plugin Registrar",
+    "Abstract Syntax Tree (AST) Processing"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "examples/tryit.rs"
+    ]
+  },
+  "_hash": "e7350d32620b7a71d370002058bf4f203d68bd5328d80f0c76be4d094a347cf3",
+  "_path": "/Users/ember/dev/gh/rest_easy",
+  "_updated_at": "2026-02-14T00:56:28.111530Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Rustc Lint API",
+      "Crate Checking",
+      "Translation Phase Transition",
+      "Compiler Hooks",
+      "Plugin Registration",
+      "Build Notification",
+      "Static Analysis Hook",
+      "Rust Compiler Internals",
+      "Diagnostic Emission",
+      "Codegen Signaling",
+      "Crate Metadata Analysis",
+      "Syntax Extension",
+      "Compiler Registry",
+      "Lint Array",
+      "Lint Pass Implementation",
+      "Feature Gates",
+      "Plugin Registrar",
+      "Abstract Syntax Tree (AST) Processing"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "compiler-plugin",
+      "lint",
+      "static-analysis",
+      "Compiler Engineering",
+      "diagnostics",
+      "tooling",
+      "rust-internals",
+      "build-workflow"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "rustdoc",
+      "JSON serialization",
+      "lexical-analysis",
+      "Recursive Descent Parsing",
+      "benchmarking",
+      "AST cleaning",
+      "ast-transformation",
+      "attribute parsing",
+      "compiler-api",
+      "crate analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.421,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.405,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.392,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.381,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.772,
+        "matches": [
+          "rustdoc"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.606,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.111530Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "05d2670f63ca770e002f267fd37af6c95098d21941cbb58d74fe71cf529ca838",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:15.067488+00:00"
+  },
+  "mined_motifs": [
+    "code-generation",
+    "rustdoc",
+    "JSON serialization",
+    "Tokenization",
+    "compiler-design",
+    "Recursive Descent Parsing",
+    "benchmarking",
+    "AST cleaning",
+    "ast-transformation",
+    "attribute parsing",
+    "compiler-api",
+    "crate analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/gh/forks/rust",
+      "similarity": 0.835
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.835
+    },
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.828
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.827
+    },
+    {
+      "name": "rust-bench",
+      "path": "/Users/ember/dev/gh/rust-bench",
+      "similarity": 0.821
+    }
+  ]
+}

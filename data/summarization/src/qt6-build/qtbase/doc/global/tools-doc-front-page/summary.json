@@ -1,0 +1,231 @@
+{
+  "name": "tools-doc-front-page",
+  "description": "A standardized QDoc template and asset collection designed for generating consistent entry points for Qt tool documentation. It provides a structured layout developed by the Qt UX team to ensure uniformity across tools such as Qt Creator and Qt Design Studio. The project enforces a prescriptive information architecture for installation guides, getting started tutorials, and reference documentation.",
+  "tags": [
+    "qdoc",
+    "qt",
+    "documentation-template",
+    "technical-writing",
+    "ux-design",
+    "iconography",
+    "static-site-generation",
+    "information-architecture",
+    "qtbase"
+  ],
+  "category": "Technical Documentation Scaffolding",
+  "concepts": [
+    "QDoc",
+    "Information Architecture",
+    "Consistent UX",
+    "Documentation Onboarding",
+    "Topic Mapping",
+    "Iconographic Systems",
+    "Structural Templates",
+    "User Interface Documentation",
+    "Documentation Scaffolding",
+    "Standardized Layouts",
+    "Documentation Taxonomy",
+    "UI Consistency",
+    "Content Strategy",
+    "Asset Management",
+    "QDoc Macros",
+    "Cross-Reference Linking",
+    "Theming Documentation",
+    "Documentation Workflow",
+    "User Onboarding Flow",
+    "Visual Hierarchy",
+    "Component-Based Documentation",
+    "Metadata Organization",
+    "Navigation Structure",
+    "Template-driven Authoring"
+  ],
+  "languages": [
+    "QDoc",
+    "Markdown"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 15,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "f5af760976f2e72fd4d907182fd90ff3aa7817a83eb9a4eac318ffe057f022c0",
+  "_path": "/Users/ember/src/qt6-build/qtbase/doc/global/tools-doc-front-page",
+  "_updated_at": "2026-02-14T00:56:33.433058Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "990b41d61ea5f6a6998522f66b2fb3a06d83b4753bb15225e1588d00243c54da",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:55.144970+00:00"
+  },
+  "mined_motifs": [
+    "Documentation-as-Code",
+    "documentation",
+    "IP Address Management",
+    "clarkson-university",
+    "mdbook",
+    "server-management",
+    "systems-administration",
+    "Static Site Generation",
+    "markdown",
+    "static-site-generator",
+    "Application Example Documentation",
+    "Automated Documentation Generation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "app-examples-template",
+      "path": "/Users/ember/src/qt6-build/qtbase/doc/global/app-examples-template",
+      "similarity": 0.905
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.827
+    },
+    {
+      "name": "qtbase-mkspecs-modules",
+      "path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+      "similarity": 0.826
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/gh/forks/cosi-book",
+      "similarity": 0.803
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/cosi-book",
+      "similarity": 0.8
+    },
+    {
+      "name": "resume",
+      "path": "/Users/ember/dev/gh/resume",
+      "similarity": 0.799
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.798
+    },
+    {
+      "name": "cxx-qt",
+      "path": "/Users/ember/src/cxx-qt",
+      "similarity": 0.796
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "QDoc",
+      "Information Architecture",
+      "Consistent UX",
+      "Documentation Onboarding",
+      "Topic Mapping",
+      "Iconographic Systems",
+      "Structural Templates",
+      "User Interface Documentation",
+      "Documentation Scaffolding",
+      "Standardized Layouts",
+      "Documentation Taxonomy",
+      "UI Consistency",
+      "Content Strategy",
+      "Asset Management",
+      "QDoc Macros",
+      "Cross-Reference Linking",
+      "Theming Documentation",
+      "Documentation Workflow",
+      "User Onboarding Flow",
+      "Visual Hierarchy",
+      "Component-Based Documentation",
+      "Metadata Organization",
+      "Navigation Structure",
+      "Template-driven Authoring"
+    ],
+    "tags": [
+      "qdoc",
+      "qt",
+      "documentation-template",
+      "technical-writing",
+      "ux-design",
+      "iconography",
+      "static-site-generation",
+      "information-architecture",
+      "qtbase"
+    ],
+    "mined_motifs": [
+      "Documentation-as-Code",
+      "documentation",
+      "IP Address Management",
+      "clarkson-university",
+      "mdbook",
+      "server-management",
+      "systems-administration",
+      "Static Site Generation",
+      "markdown",
+      "static-site-generator",
+      "Application Example Documentation",
+      "Automated Documentation Generation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 11.141,
+        "matches": [
+          "documentation-as-code",
+          "static-site-generation",
+          "mdbook",
+          "qdoc"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 9.611,
+        "matches": [
+          "markdown",
+          "static-site-generation",
+          "documentation-as-code"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 6.839,
+        "matches": [
+          "documentation",
+          "static-site-generation"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.534,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.507,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.506,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.433058Z"
+  }
+}

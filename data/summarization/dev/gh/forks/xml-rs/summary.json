@@ -1,0 +1,228 @@
+{
+  "name": "xml-rs",
+  "description": "A pure-Rust XML library providing a pull-based parser and a streaming emitter inspired by Java's StAX API. It implements a memory-efficient, event-driven interface for reading and writing XML documents with comprehensive namespace support. The project prioritizes a streaming architecture to handle large documents without requiring full DOM construction in memory.",
+  "tags": [
+    "rust",
+    "xml",
+    "stax",
+    "pull-parser",
+    "streaming",
+    "parser",
+    "emitter",
+    "event-driven",
+    "namespace",
+    "lexer",
+    "xml-1.0",
+    "serialization"
+  ],
+  "category": "Streaming XML Processing",
+  "concepts": [
+    "Pull parsing",
+    "StAX-like API",
+    "Streaming XML",
+    "Event-based parsing",
+    "Namespace stack management",
+    "Lexical scanning",
+    "XML serialization",
+    "Attribute parsing",
+    "Entity resolution",
+    "CDATA handling",
+    "Processing instructions",
+    "XML 1.0 compliance",
+    "XML 1.1 compliance",
+    "Buffer-based reading",
+    "Iterative event stream",
+    "Qualified names (QName)"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/reader/mod.rs",
+      "src/writer/mod.rs",
+      "src/reader/parser.rs"
+    ]
+  },
+  "_hash": "4da8c4ac7ec2e760ebaa624446728a745ef5627ad0230cd03951a6392018b3df",
+  "_path": "/Users/ember/dev/gh/forks/xml-rs",
+  "_updated_at": "2026-02-14T00:56:27.221217Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Pull parsing",
+      "StAX-like API",
+      "Streaming XML",
+      "Event-based parsing",
+      "Namespace stack management",
+      "lexical-analysis",
+      "XML serialization",
+      "Attribute parsing",
+      "Entity resolution",
+      "CDATA handling",
+      "Processing instructions",
+      "XML 1.0 compliance",
+      "XML 1.1 compliance",
+      "Buffer-based reading",
+      "Iterative event stream",
+      "Qualified names (QName)"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "xml",
+      "stax",
+      "pull-parser",
+      "streaming",
+      "parser",
+      "emitter",
+      "event-driven",
+      "namespace",
+      "lexical-analysis",
+      "xml-1.0",
+      "Data Serialization"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "Compiler Engineering",
+      "libxml2",
+      "abstract-syntax-tree",
+      "s-expression",
+      "Recursive Descent Parsing",
+      "Resource Acquisition Is Initialization (RAII)",
+      "C Pointer Arithmetic",
+      "CDATA Processing",
+      "Document Traversal"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.052,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.654,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.499,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.487,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.483,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.459,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.221217Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "72cd72cab50d63da0b6902926c9c29de3801e8d96d18d906efcee5bf5cd7ad51",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:42.812367+00:00"
+  },
+  "mined_motifs": [
+    "Tokenization",
+    "compiler-design",
+    "libxml2",
+    "Lexical Analysis",
+    "ast",
+    "s-expression",
+    "tokenization",
+    "Recursive Descent Parsing",
+    "resource-management",
+    "C Pointer Arithmetic",
+    "CDATA Processing",
+    "Document Traversal"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sax-rs",
+      "path": "/Users/ember/dev/gh/forks/sax-rs",
+      "similarity": 0.95
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.858
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.854
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.852
+    }
+  ]
+}

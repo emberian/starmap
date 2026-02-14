@@ -1,0 +1,242 @@
+{
+  "name": "mesmerize",
+  "description": "Mesmerize is a GPGPU compute framework written in Rust that utilizes Vulkano to orchestrate real-time stochastic simulations. It abstracts the complexity of Vulkan pipeline state management, including descriptor set layouts and command buffer recording, to execute GLSL-based 'scramble' and 'drift' kernels. The application integrates with Winit for windowing and event handling, providing a high-performance environment for visualizing discrete state evolutions on the GPU.",
+  "tags": [
+    "vulkan",
+    "rust",
+    "gpgpu",
+    "vulkano",
+    "compute-shader",
+    "glsl",
+    "winit",
+    "simulation",
+    "real-time",
+    "graphics",
+    "rendering",
+    "parallel-computing"
+  ],
+  "category": "GPGPU Compute Pipeline",
+  "concepts": [
+    "Compute Pipeline State",
+    "Vulkano Framework",
+    "Descriptor Set Layouts",
+    "Command Buffer Recording",
+    "Swapchain Image Synchronization",
+    "GpuFuture Management",
+    "Stochastic Drift Kernels",
+    "Image Memory Barriers",
+    "Physical Device Selection",
+    "Queue Family Management",
+    "Winit Event Loop",
+    "Shader Module Specialization",
+    "Image View Creation",
+    "Surface Capability Negotiation",
+    "Logical Device Instantiation",
+    "Memory Layout Optimization",
+    "Subresource Range Specification",
+    "Compute Pipeline Binding",
+    "Uniform Buffer Updates",
+    "Validation Layer Integration",
+    "GLSL Compute Shaders",
+    "Image Subresource Layouts",
+    "Real-time Visualization",
+    "Async GPU Execution"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "f12f6f4730f2edfb94df27da0708878905a8f9e3a03407067320bda18f33e882",
+  "_path": "/Users/ember/dev/shitheap/tjmes",
+  "_updated_at": "2026-02-14T00:56:30.332338Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "56b3b8d22347d22012082636cbf9cb049872ee8ef3397853327a44feeef0ecda",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:47.791448+00:00"
+  },
+  "mined_motifs": [
+    "hardware-abstraction",
+    "low-level",
+    "gpu-compute",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "cuda",
+    "intel",
+    "nvidia",
+    "opencl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitheap/shitting_furiously",
+      "similarity": 0.851
+    },
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.841
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.823
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitting_furiously",
+      "similarity": 0.823
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.821
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.817
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Compute Pipeline State",
+      "Vulkano Framework",
+      "Descriptor Set Layouts",
+      "Command Buffer Recording",
+      "Swapchain Image Synchronization",
+      "GpuFuture Management",
+      "Stochastic Drift Kernels",
+      "Image Memory Barriers",
+      "Physical Device Selection",
+      "Queue Family Management",
+      "Winit Event Loop",
+      "Shader Module Specialization",
+      "Image View Creation",
+      "Surface Capability Negotiation",
+      "Logical Device Instantiation",
+      "Memory Layout Optimization",
+      "Subresource Range Specification",
+      "Compute Pipeline Binding",
+      "Uniform Buffer Updates",
+      "Validation Layer Integration",
+      "GLSL Compute Shaders",
+      "Image Subresource Layouts",
+      "Real-time Visualization",
+      "Async GPU Execution"
+    ],
+    "tags": [
+      "vulkan",
+      "Rust Language Ecosystem",
+      "GPGPU Compute",
+      "vulkano",
+      "glsl",
+      "winit",
+      "real-time-simulation",
+      "Computer Graphics & Rendering",
+      "concurrency"
+    ],
+    "mined_motifs": [
+      "hardware-abstraction",
+      "systems-programming",
+      "GPGPU Compute",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "cuda",
+      "intel",
+      "nvidia",
+      "opencl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 11.104,
+        "matches": [
+          "gpgpu compute",
+          "vulkan",
+          "glsl",
+          "vulkano"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.128,
+        "matches": [
+          "concurrency",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.797,
+        "matches": [
+          "real-time-simulation",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.435,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.383,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.321,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.332338Z"
+  }
+}

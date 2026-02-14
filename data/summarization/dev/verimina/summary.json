@@ -1,0 +1,257 @@
+{
+  "name": "verimina",
+  "description": "A formal verification suite targeting the Mina blockchain protocol using the Isabelle/HOL proof assistant. It mechanizes the security properties of the Ouroboros family of consensus algorithms—specifically Samasika, Genesis, and Praos—alongside the logic governing Zero-Knowledge Applications (zkApps) and proof aggregation. The framework provides a rigorous foundation for reasoning about chain selection, succinct state transitions, and recursive cryptographic proofs.",
+  "tags": [
+    "Isabelle/HOL",
+    "Formal Verification",
+    "Mina Protocol",
+    "Blockchain",
+    "Ouroboros Samasika",
+    "Ouroboros Genesis",
+    "Ouroboros Praos",
+    "zkApps",
+    "SNARKs",
+    "Recursive Proofs",
+    "Consensus Protocols",
+    "Proof-of-Stake",
+    "Theorem Proving",
+    "Succinctness",
+    "Cryptographic Verification",
+    "Mechanized Proofs"
+  ],
+  "category": "Formal Verification of Succinct Proof-of-Stake Consensus",
+  "concepts": [
+    "Ouroboros Samasika Consensus",
+    "Ouroboros Genesis Chain Selection",
+    "Ouroboros Praos Proof-of-Stake",
+    "Zero-Knowledge Application Logic",
+    "Recursive SNARK Aggregation",
+    "Succinct Blockchain Verification",
+    "Isabelle/HOL Theorem Proving",
+    "Fork Choice Rules",
+    "Network Synchrony Assumptions",
+    "Byzantine Fault Tolerance",
+    "Mechanized Security Proofs",
+    "State Transition Systems",
+    "Cryptographic Hardness Assumptions",
+    "Recursive Proof Composition",
+    "In-Protocol zkApp Execution",
+    "Succinct State Updates",
+    "Proof-of-Stake Liveness",
+    "Persistence and Safety",
+    "Dynamic Availability",
+    "Honest Majority Assumptions",
+    "Slot and Epoch Mechanics",
+    "VRF-based Leader Election",
+    "Density-based Chain Selection",
+    "Zero-Knowledge Circuit Logic",
+    "Account-based State Models",
+    "Transaction Verification Logic"
+  ],
+  "languages": [
+    "Isabelle"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "0f9c3dfd5bf598c94484d77b52f51ce5fa0d849f52c7722fb81626e04eaf2921",
+  "_path": "/Users/ember/dev/verimina",
+  "_updated_at": "2026-02-14T00:56:30.972074Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1a8edddd4d5cf1ffa7ee9c949dac0224ec8808e879c5d5dfccb2ca8eff60f3b9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:03.183853+00:00"
+  },
+  "mined_motifs": [
+    "mina-protocol",
+    "zero-knowledge-proofs",
+    "smart-contracts",
+    "cryptography",
+    "libp2p",
+    "rust",
+    "Kimchi Proof System",
+    "Recursive SNARKs",
+    "recursive-snarks",
+    "succinct-blockchain",
+    "Staged Ledger",
+    "distributed-systems"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.906
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.905
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.895
+    },
+    {
+      "name": "mina-state-proof",
+      "path": "/Users/ember/dev/mina-state-proof",
+      "similarity": 0.894
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.893
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.889
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.875
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.875
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Ouroboros Samasika Consensus",
+      "Ouroboros Genesis Chain Selection",
+      "Ouroboros Praos Proof-of-Stake",
+      "Zero-Knowledge Application Logic",
+      "Recursive SNARKs",
+      "Succinct Blockchain Verification",
+      "Isabelle/HOL Theorem Proving",
+      "Fork Choice Rules",
+      "Network Synchrony Assumptions",
+      "distributed-systems",
+      "Mechanized Security Proofs",
+      "State Transition Systems",
+      "Cryptographic Hardness Assumptions",
+      "Recursive Proof Composition",
+      "In-Protocol zkApp Execution",
+      "Succinct State Updates",
+      "Proof-of-Stake Liveness",
+      "Persistence and Safety",
+      "Dynamic Availability",
+      "Honest Majority Assumptions",
+      "Slot and Epoch Mechanics",
+      "VRF-based Leader Election",
+      "Density-based Chain Selection",
+      "Zero-Knowledge Circuit Logic",
+      "Account-based State Models",
+      "Transaction Verification Logic"
+    ],
+    "tags": [
+      "Formal Methods & Verification",
+      "Formal Verification",
+      "Mina Protocol",
+      "Blockchain",
+      "Ouroboros Samasika",
+      "Ouroboros Genesis",
+      "Ouroboros Praos",
+      "zkApps",
+      "ZK-SNARKs",
+      "Recursive Proofs",
+      "Consensus Protocols",
+      "Proof-of-Stake",
+      "Theorem Proving",
+      "Succinctness",
+      "Cryptographic Verification",
+      "Mechanized Proofs"
+    ],
+    "mined_motifs": [
+      "Mina Protocol",
+      "Zero-Knowledge Proofs (ZKP)",
+      "smart-contracts",
+      "cryptography",
+      "libp2p",
+      "Rust Language Ecosystem",
+      "Kimchi Proof System",
+      "zero-knowledge-proofs",
+      "Recursive SNARKs",
+      "succinct-blockchain",
+      "Staged Ledger",
+      "distributed-systems"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 13.916,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks",
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 9.504,
+        "matches": [
+          "formal verification",
+          "theorem proving",
+          "category:Formal Verification of Succinct Proof-of-Stake Consensus"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.33,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 8.304,
+        "matches": [
+          "cryptography",
+          "formal methods & verification"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.297,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 5.544,
+        "matches": [
+          "recursive snarks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.972074Z"
+  }
+}

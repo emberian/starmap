@@ -1,0 +1,224 @@
+{
+  "name": "tt",
+  "description": "A self-hosting tree rewriting system and domain-specific language for subtree isomorphism and transformation. It implements a C-like tokenizer to generate document trees and provides a rule-based engine capable of Turing-complete computation through iterative pattern matching and replacement. The system includes a LISP-style evaluator and supports complex tree operations such as sequence splicing, set-based matching, and logical conjunction/disjunction within rules.",
+  "tags": [
+    "tree-rewriting",
+    "subtree-isomorphism",
+    "dsl",
+    "term-rewriting",
+    "compiler-compiler",
+    "self-hosting",
+    "formal-languages",
+    "tokenizer",
+    "pattern-matching",
+    "turing-complete",
+    "abstract-syntax-tree",
+    "transformation-engine"
+  ],
+  "category": "Term Rewriting System",
+  "concepts": [
+    "Subtree Isomorphism",
+    "Tree Transformation",
+    "Self-hosting Compiler",
+    "Chomsky Hierarchy Type-0",
+    "Recursive Pattern Matching",
+    "Document Trees",
+    "Rule-based Rewriting",
+    "S-expression Transformation",
+    "C-style Tokenization",
+    "Logical Conjunction in Matching",
+    "Sequence Splicing",
+    "Set Permutation Matching",
+    "Fixed-point Iteration",
+    "Quiescence-based Execution"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 15,
+    "has_readme": true,
+    "sample_files": [
+      "rws.py",
+      "ttr.py",
+      "ttl.py",
+      "ctok.py",
+      "ttexec.py"
+    ]
+  },
+  "_hash": "75c61e429221e5424bfa652d29e58cb627d105bbd2994578d5dfdb27bcf1a04c",
+  "_path": "/Users/ember/dev/tt",
+  "_updated_at": "2026-02-14T00:56:30.948181Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "71f6d0092860c93328315441539452a02b282c7da1de7ce6392c94b4d6c1ee8a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:59.472048+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "parser",
+    "Abstract Syntax Tree",
+    "Tokenization",
+    "Lexical Analysis",
+    "ast",
+    "Term Rewriting System (TRS)",
+    "symbolic-computation",
+    "webassembly",
+    "cli",
+    "Recursive Descent Parsing",
+    "interpreter"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rtt",
+      "path": "/Users/ember/dev/rtt",
+      "similarity": 0.915
+    },
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/ual-tool",
+      "similarity": 0.784
+    },
+    {
+      "name": "ion",
+      "path": "/Users/ember/dev/gh/ion",
+      "similarity": 0.737
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.736
+    },
+    {
+      "name": "piston_meta",
+      "path": "/Users/ember/dev/gh/forks/meta",
+      "similarity": 0.733
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.715
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.714
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.712
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Subtree Isomorphism",
+      "Tree Transformation",
+      "Self-hosting Compiler",
+      "Chomsky Hierarchy Type-0",
+      "Recursive Pattern Matching",
+      "Document Trees",
+      "Rule-based Rewriting",
+      "S-expression Transformation",
+      "C-style Tokenization",
+      "Logical Conjunction in Matching",
+      "Sequence Splicing",
+      "Set Permutation Matching",
+      "Fixed-point Iteration",
+      "Quiescence-based Execution"
+    ],
+    "tags": [
+      "tree-rewriting",
+      "subtree-isomorphism",
+      "dsl",
+      "term-rewriting",
+      "compiler-compiler",
+      "self-hosting",
+      "formal-languages",
+      "lexical-analysis",
+      "pattern-matching",
+      "turing-complete",
+      "AST",
+      "transformation-engine"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "parser",
+      "AST",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "Term Rewriting System (TRS)",
+      "symbolic-computation",
+      "webassembly",
+      "cli",
+      "Recursive Descent Parsing",
+      "interpreter"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.345,
+        "matches": [
+          "ast",
+          "parser"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.334,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.084,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.082,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.08,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.079,
+        "matches": [
+          "dsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.948181Z"
+  }
+}

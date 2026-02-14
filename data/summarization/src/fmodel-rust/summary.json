@@ -1,0 +1,228 @@
+{
+  "name": "fmodel-rust",
+  "description": "A functional domain modeling library for Rust that implements tactical Domain-Driven Design patterns optimized for Event Sourcing and CQRS. It provides formal abstractions for decision-making (Deciders), state evolution (Views), and orchestration (Sagas) using algebraic data types and pure functions.",
+  "tags": [
+    "rust",
+    "event-sourcing",
+    "cqrs",
+    "domain-driven-design",
+    "functional-programming",
+    "saga-pattern",
+    "materialized-views",
+    "algebraic-data-types",
+    "async-rust",
+    "onion-architecture",
+    "decider-pattern"
+  ],
+  "category": "Functional Domain Modeling",
+  "concepts": [
+    "Event Sourcing",
+    "Command Query Responsibility Segregation (CQRS)",
+    "Tactical Domain-Driven Design",
+    "Algebraic Data Types (ADT)",
+    "State Evolution",
+    "Pure Decision Functions",
+    "Saga Orchestration",
+    "Materialized Views",
+    "Event-Sourced Aggregates",
+    "State-Stored Aggregates",
+    "Given-When-Then Specification DSL",
+    "Async Trait Composition",
+    "Optimistic Locking",
+    "Denormalization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 10,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/aggregate.rs",
+      "src/decider.rs",
+      "src/view.rs"
+    ]
+  },
+  "_hash": "9f46123bde0e0a93bd430f773d8885b3694ef880fed8ff3575a96d50ca6df517",
+  "_path": "/Users/ember/src/fmodel-rust",
+  "_updated_at": "2026-02-14T00:56:32.753989Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "04acdf73496e38e858f26ee4834eea6cfb54bf14d498182308812ffd1b6a6465",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:23.213928+00:00"
+  },
+  "mined_motifs": [
+    "ddd",
+    "postgresql",
+    "Optimistic Concurrency Control",
+    "persistence",
+    "Command Query Responsibility Segregation",
+    "sqlx",
+    "distributed-systems",
+    "Decider Pattern",
+    "Newtype Pattern",
+    "Domain-Driven Design",
+    "Bounded Contexts",
+    "Domain Events"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fmodel-rust-demo",
+      "path": "/Users/ember/src/fmodel-rust-demo",
+      "similarity": 0.93
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.923
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.893
+    },
+    {
+      "name": "cqrs-es",
+      "path": "/Users/ember/src/cqrs",
+      "similarity": 0.887
+    },
+    {
+      "name": "eventcore",
+      "path": "/Users/ember/src/eventcore",
+      "similarity": 0.886
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.885
+    },
+    {
+      "name": "tsuzuri",
+      "path": "/Users/ember/src/tsuzuri",
+      "similarity": 0.88
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.878
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Event Sourcing",
+      "Command Query Responsibility Segregation (CQRS)",
+      "Tactical Domain-Driven Design",
+      "Algebraic Data Types (ADT)",
+      "State Evolution",
+      "Pure Decision Functions",
+      "Saga Orchestration",
+      "Materialized Views",
+      "Event-Sourced Aggregates",
+      "State-Stored Aggregates",
+      "Given-When-Then Specification DSL",
+      "Async Trait Composition",
+      "Optimistic Locking",
+      "Denormalization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "event-sourcing",
+      "cqrs",
+      "domain-driven-design",
+      "functional-programming",
+      "saga-pattern",
+      "materialized-views",
+      "algebraic-data-types",
+      "rust",
+      "onion-architecture",
+      "decider-pattern"
+    ],
+    "mined_motifs": [
+      "ddd",
+      "postgresql",
+      "Optimistic Concurrency Control",
+      "persistence",
+      "Command Query Responsibility Segregation",
+      "sqlx",
+      "distributed-systems",
+      "Decider Pattern",
+      "Newtype Pattern",
+      "Domain-Driven Design",
+      "Bounded Contexts",
+      "Domain Events"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 16.744,
+        "matches": [
+          "cqrs",
+          "distributed-systems",
+          "event-sourcing",
+          "persistence",
+          "domain events",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 11.203,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs",
+          "decider-pattern"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.63,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.553,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.53,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.53,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.753989Z"
+  }
+}

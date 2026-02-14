@@ -1,0 +1,266 @@
+{
+  "name": "tsuzuri",
+  "description": "A modular Rust framework designed for Event Sourcing and CQRS architectures, emphasizing type-safe domain-driven design and high-performance state management. It provides a core set of abstractions for aggregate roots, command handlers, and event journals, alongside production-ready persistence adapters for AWS DynamoDB and LibSQL. The framework natively supports advanced features such as snapshotting for performance optimization, inverted indexing for discovery, and integration with AWS Kinesis and DynamoDB Streams for downstream projection processing.",
+  "tags": [
+    "rust",
+    "event-sourcing",
+    "cqrs",
+    "ddd",
+    "dynamodb",
+    "kinesis",
+    "aws-lambda",
+    "distributed-systems",
+    "stream-processing",
+    "persistence",
+    "snapshotting",
+    "inverted-index",
+    "microservices",
+    "serverless",
+    "outbox-pattern",
+    "async-rust"
+  ],
+  "category": "Event Sourcing & CQRS Framework",
+  "concepts": [
+    "Aggregate Root",
+    "Command Handler",
+    "Domain Event",
+    "Integration Event",
+    "Event Store",
+    "Snapshot Provider",
+    "Projection Processor",
+    "Change Data Capture (CDC)",
+    "DynamoDB Streams",
+    "Kinesis Data Streams",
+    "Sequence Number",
+    "Message Envelope",
+    "Inverted Index Store",
+    "Outbox Status",
+    "Shard Partitioning",
+    "LocalStack Debugging",
+    "Async Trait Implementation",
+    "Transactional Write",
+    "Event Journal",
+    "Aggregate Repository",
+    "Event Serialization",
+    "Pagination Stream",
+    "Conflict Detection",
+    "Read Model",
+    "State Reconstitution",
+    "Command Dispatch",
+    "Event Routing",
+    "Type-Safe Routing"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 83,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "tsuzuri/src/lib.rs",
+      "tsuzuri-dynamodb/src/lib.rs",
+      "tsuzuri-dynamodb/tests/common/mod.rs",
+      "tsuzuri-libsql/src/lib.rs"
+    ]
+  },
+  "_hash": "5af042eb07e346fbc3ef7f50a7b8c1a25706ed6c4e6dbce73e0e94e9e11d179c",
+  "_path": "/Users/ember/src/tsuzuri",
+  "_updated_at": "2026-02-14T00:56:34.013363Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "53eeabf48946715cde7d5df284cb7b44d3540ae527a71364bbc8d20ad0abf027",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:16.731700+00:00"
+  },
+  "mined_motifs": [
+    "Optimistic Concurrency Control",
+    "postgresql",
+    "Event Sourcing",
+    "Command Query Responsibility Segregation",
+    "sqlx",
+    "event-store",
+    "Materialized Views",
+    "algebraic-data-types",
+    "Bounded Contexts",
+    "Domain Events",
+    "Aggregate Pattern",
+    "Event Replay"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cqrs-es",
+      "path": "/Users/ember/src/cqrs",
+      "similarity": 0.937
+    },
+    {
+      "name": "eventcore",
+      "path": "/Users/ember/src/eventcore",
+      "similarity": 0.907
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.905
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.899
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.88
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.868
+    },
+    {
+      "name": "fmodel-rust-demo",
+      "path": "/Users/ember/src/fmodel-rust-demo",
+      "similarity": 0.86
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.85
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Aggregate Root",
+      "Command Handler",
+      "Domain Event",
+      "Integration Event",
+      "Event Store",
+      "Snapshot Provider",
+      "Projection Processor",
+      "Change Data Capture (CDC)",
+      "DynamoDB Streams",
+      "Kinesis Data Streams",
+      "Sequence Number",
+      "Message Envelope",
+      "Inverted Index Store",
+      "Outbox Status",
+      "Shard Partitioning",
+      "LocalStack Debugging",
+      "Async Trait Implementation",
+      "Transactional Write",
+      "Event Journal",
+      "Aggregate Repository",
+      "Event Serialization",
+      "Pagination Stream",
+      "Conflict Detection",
+      "Read Model",
+      "State Reconstitution",
+      "Command Dispatch",
+      "Event Routing",
+      "Type-Safe Routing"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "event-sourcing",
+      "cqrs",
+      "ddd",
+      "dynamodb",
+      "kinesis",
+      "aws-lambda",
+      "distributed-systems",
+      "stream-processing",
+      "persistence",
+      "snapshotting",
+      "inverted-index",
+      "microservices",
+      "serverless",
+      "outbox-pattern",
+      "rust"
+    ],
+    "mined_motifs": [
+      "Optimistic Concurrency Control",
+      "postgresql",
+      "Event Sourcing",
+      "Command Query Responsibility Segregation",
+      "sqlx",
+      "event-sourcing",
+      "Materialized Views",
+      "algebraic-data-types",
+      "Bounded Contexts",
+      "Domain Events",
+      "Aggregate Pattern",
+      "Event Replay"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 18.049,
+        "matches": [
+          "cqrs",
+          "distributed-systems",
+          "event-sourcing",
+          "persistence",
+          "domain events",
+          "event store",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 9.744,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.573,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.435,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.435,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.435,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.013363Z"
+  }
+}

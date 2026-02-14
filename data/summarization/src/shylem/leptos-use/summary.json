@@ -1,0 +1,261 @@
+{
+  "name": "leptos-use",
+  "description": "leptos-use is an extensive suite of reactive composables for the Leptos framework, designed to facilitate type-safe interactions between Rust-based WebAssembly applications and standard browser APIs. It provides ergonomic abstractions for complex tasks such as state persistence, sensory input processing, and asynchronous coordination, drawing heavily from functional reactive programming paradigms. By supporting isomorphic execution, the library ensures that utilities behave predictably across client-side hydration and server-side rendering contexts.",
+  "tags": [
+    "leptos",
+    "rust",
+    "wasm",
+    "hooks",
+    "reactive-programming",
+    "web-api",
+    "ssr",
+    "composables",
+    "browser-sensors",
+    "state-management",
+    "webassembly",
+    "frontend-engineering",
+    "rust-web"
+  ],
+  "category": "Isomorphic Reactive Runtime Extensions",
+  "concepts": [
+    "Signals",
+    "Reactivity",
+    "Isomorphic Rendering",
+    "WebAssembly",
+    "Browser APIs",
+    "DOM Event Delegation",
+    "Debouncing",
+    "Throttling",
+    "Persistence Layer",
+    "Intersection Observer API",
+    "Resize Observer API",
+    "Mutation Observer API",
+    "Media Query Interop",
+    "Geolocation API",
+    "Broadcast Channel API",
+    "Clipboard API",
+    "Web Workers",
+    "Service Workers",
+    "HTTP Cookies",
+    "Intl Number Formatting",
+    "Mathematical Reactive Projections",
+    "Component Lifecycle Management",
+    "Responsive Design Breakpoints",
+    "Device Orientation API",
+    "Pixel Ratio Monitoring",
+    "Visibility API",
+    "Animation Frames",
+    "Async Task Scheduling",
+    "Type-safe Codecs",
+    "State Synchronization"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 921,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "examples/on_click_outside/src/main.rs",
+      "examples/signal_debounced/src/main.rs",
+      "examples/signal_throttled/src/main.rs",
+      "examples/src/lib.rs"
+    ]
+  },
+  "_hash": "65a587670eecde1de1b26a13ed4fae2090c7e29ed7b849044e06ae7d6d559f49",
+  "_path": "/Users/ember/src/shylem/leptos-use",
+  "_updated_at": "2026-02-14T00:56:33.964265Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b2095856abf0dc2a2536f30afc3785a3f0a26ca18d3ea69a1add0326d6db494b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:09.472083+00:00"
+  },
+  "mined_motifs": [
+    "hydration",
+    "server-functions",
+    "full-stack",
+    "frontend",
+    "csr",
+    "web-sys",
+    "declarative-ui",
+    "fine-grained-reactivity",
+    "isomorphic",
+    "web-framework",
+    "Hydration",
+    "Resources"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.928
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/leptos-book",
+      "similarity": 0.921
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.921
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/shylem/leptos-book",
+      "similarity": 0.911
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/shylem/leptos",
+      "similarity": 0.878
+    },
+    {
+      "name": "leptos-chartistry",
+      "path": "/Users/ember/src/shylem/leptos-chartistry",
+      "similarity": 0.873
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.858
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.853
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "fine-grained-reactivity",
+      "Reactivity",
+      "Isomorphic Rendering",
+      "WebAssembly",
+      "Browser APIs",
+      "DOM Event Delegation",
+      "Debouncing",
+      "Throttling",
+      "Persistence Layer",
+      "Intersection Observer API",
+      "Resize Observer API",
+      "Mutation Observer API",
+      "Media Query Interop",
+      "Geolocation API",
+      "Broadcast Channel API",
+      "Clipboard API",
+      "Web Workers",
+      "Service Workers",
+      "HTTP Cookies",
+      "Intl Number Formatting",
+      "Mathematical Reactive Projections",
+      "Component Lifecycle Management",
+      "Responsive Design Breakpoints",
+      "Device Orientation API",
+      "Pixel Ratio Monitoring",
+      "Visibility API",
+      "Animation Frames",
+      "Async Task Scheduling",
+      "Type-safe Codecs",
+      "State Synchronization"
+    ],
+    "tags": [
+      "leptos",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "hooks",
+      "reactive-programming",
+      "web-api",
+      "ssr",
+      "composables",
+      "browser-sensors",
+      "state-management",
+      "frontend-engineering",
+      "rust-web"
+    ],
+    "mined_motifs": [
+      "hydration",
+      "server-functions",
+      "full-stack",
+      "frontend",
+      "csr",
+      "web-sys",
+      "declarative-ui",
+      "fine-grained-reactivity",
+      "isomorphic",
+      "web-framework",
+      "Resources"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 18.09,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "leptos",
+          "server-functions",
+          "web-sys"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.489,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.482,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.48,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.446,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 2.661,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.964265Z"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "name": "iiag",
+  "description": "A traditional roguelike game implemented in C using ncurses for terminal-based display and Lua for gameplay logic scripting. It features a sophisticated entity-component-like architecture for creatures and items, procedural zone generation with connectivity, and a discrete-time action heap for turn-based scheduling.",
+  "tags": [
+    "roguelike",
+    "ncurses",
+    "lua-scripting",
+    "procedural-generation",
+    "turn-based",
+    "game-engine",
+    "c-programming",
+    "entity-system"
+  ],
+  "category": "Roguelike Engine Architecture",
+  "concepts": [
+    "discrete-time event simulation",
+    "procedural dungeon generation",
+    "ncurses display management",
+    "lua-c interoperability",
+    "priority-queue action scheduling",
+    "field-of-view algorithms",
+    "stochastic entity generation",
+    "inventory management systems",
+    "trigger-based event handling",
+    "weighted random selection"
+  ],
+  "languages": [
+    "C",
+    "Lua",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 56,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "src/main.c",
+      "src/creature.c",
+      "src/walls.h",
+      "src/player.c"
+    ]
+  },
+  "_hash": "7292c4ee8bbd089dfe3e21dc8ac2a3d776678a852b2cc59423347e24f05f1185",
+  "_path": "/Users/ember/dev/gh/forks/iiag",
+  "_updated_at": "2026-02-14T00:56:25.621944Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "discrete-time event simulation",
+      "procedural dungeon generation",
+      "ncurses display management",
+      "lua-c interoperability",
+      "priority-queue action scheduling",
+      "field-of-view algorithms",
+      "stochastic entity generation",
+      "inventory management systems",
+      "trigger-based event handling",
+      "weighted random selection"
+    ],
+    "tags": [
+      "roguelike",
+      "ncurses",
+      "lua-scripting",
+      "Procedural Generation",
+      "turn-based",
+      "game-engine",
+      "c-programming",
+      "entity-system"
+    ],
+    "mined_motifs": [
+      "cpp",
+      "Rust Language Ecosystem",
+      "A* Pathfinding",
+      "westwood-studios",
+      "Procedural Content Generation",
+      "dungeon-crawler",
+      "terminal-ui",
+      "ecs",
+      "rpg",
+      "real-time-strategy",
+      "networking",
+      "real-time-simulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 9.635,
+        "matches": [
+          "ecs",
+          "procedural generation",
+          "roguelike"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.5,
+        "matches": [
+          "procedural content generation"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.424,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.408,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.351,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.301,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.621944Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fcc3ca68b0bf9cb74dab44cd68012dad30af0e12d172e189664c3e7e8f199a07",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:40.659218+00:00"
+  },
+  "mined_motifs": [
+    "cpp",
+    "rust",
+    "A* Pathfinding",
+    "westwood-studios",
+    "Procedural Content Generation",
+    "dungeon-crawler",
+    "terminal-ui",
+    "ecs",
+    "rpg",
+    "real-time-strategy",
+    "networking",
+    "simulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "seven-hour-roguelike",
+      "path": "/Users/ember/dev/gh/seven-hour-roguelike",
+      "similarity": 0.851
+    },
+    {
+      "name": "shattered-pixel-dungeon",
+      "path": "/Users/ember/dev/shattered-pixel-dungeon",
+      "similarity": 0.827
+    },
+    {
+      "name": "one-hour-roguelike",
+      "path": "/Users/ember/dev/gh/one-hour-roguelike",
+      "similarity": 0.82
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.818
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.818
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.806
+    },
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.801
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.8
+    }
+  ]
+}

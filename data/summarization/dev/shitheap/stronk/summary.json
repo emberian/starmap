@@ -1,0 +1,233 @@
+{
+  "name": "stronk",
+  "description": "A Rust-based digital signal processing toolkit focused on the design and implementation of FIR and IIR filter architectures. It provides specialized support for Butterworth filter approximations, Karplus-Strong string synthesis, and bilinear transforms for mapping Laplace-space poles to the Z-domain. The system includes utilities for frequency response analysis and real-time audio streaming via the CPAL host interface.",
+  "tags": [
+    "rust",
+    "dsp",
+    "audio-synthesis",
+    "iir-filter",
+    "fir-filter",
+    "butterworth-filter",
+    "karplus-strong",
+    "cpal",
+    "complex-analysis",
+    "signal-processing",
+    "bilinear-transform",
+    "gnuplot"
+  ],
+  "category": "Digital Signal Processing Synthesis",
+  "concepts": [
+    "Karplus-Strong Synthesis",
+    "Butterworth Filter Design",
+    "Infinite Impulse Response",
+    "Finite Impulse Response",
+    "Bilinear Transform",
+    "Pole-Zero Analysis",
+    "Real-time Audio Output",
+    "Complex Signal Processing",
+    "Bandpass Filtering",
+    "Frequency Response Modeling",
+    "Z-transform",
+    "Matched Z-transform",
+    "Impulse Response Analysis",
+    "Feedback Delay Networks",
+    "Biquad Cascading",
+    "Numerical Audio Synthesis",
+    "Complex Plane Mapping",
+    "Sample Rate Synchronization",
+    "Linear Phase Approximation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/filter.rs",
+      "src/iir_filters.rs"
+    ]
+  },
+  "_hash": "f0dd67b57f60a5c53ee9ecd5e046f2ccaf8c66895da0be6a2c0871354ed75d71",
+  "_path": "/Users/ember/dev/shitheap/stronk",
+  "_updated_at": "2026-02-14T00:56:30.311433Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ae4906ba739da29f998f3270e80a4b8e553da4dd531fac392581bdfc6d12c91b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:46.156939+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "systems-programming",
+    "Recursive Descent Parsing",
+    "Lexical Analysis",
+    "parser",
+    "Waveform Generation",
+    "Tokenization",
+    "ffi",
+    "Abstract Syntax Trees",
+    "Additive Synthesis",
+    "Arithmetic Audio Combinators",
+    "Binary Wire Protocols"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "synfone2",
+      "path": "/Users/ember/dev/gh/forks/synfone2",
+      "similarity": 0.89
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.834
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.832
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.829
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.829
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.828
+    },
+    {
+      "name": "audiokart",
+      "path": "/Users/ember/dev/gh/audiokart",
+      "similarity": 0.827
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Karplus-Strong Synthesis",
+      "Butterworth Filter Design",
+      "Infinite Impulse Response",
+      "Finite Impulse Response",
+      "Bilinear Transform",
+      "Pole-Zero Analysis",
+      "Real-time Audio Output",
+      "Complex Signal Processing",
+      "Bandpass Filtering",
+      "Frequency Response Modeling",
+      "Z-transform",
+      "Matched Z-transform",
+      "Impulse Response Analysis",
+      "Feedback Delay Networks",
+      "Biquad Cascading",
+      "Numerical Audio Synthesis",
+      "Complex Plane Mapping",
+      "Sample Rate Synchronization",
+      "Linear Phase Approximation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "dsp",
+      "audio-synthesis",
+      "iir-filter",
+      "fir-filter",
+      "butterworth-filter",
+      "karplus-strong",
+      "cpal",
+      "complex-analysis",
+      "signal-processing",
+      "bilinear-transform",
+      "gnuplot"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "Systems Programming",
+      "Recursive Descent Parsing",
+      "lexical-analysis",
+      "parser",
+      "Waveform Generation",
+      "foreign-function-interface",
+      "AST",
+      "Additive Synthesis",
+      "Arithmetic Audio Combinators",
+      "Binary Wire Protocols"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.611,
+        "matches": [
+          "ast",
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.234,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.819,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.442,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.435,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.431,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.311433Z"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "name": "app.factshift.com",
+  "description": "A modular interactive environment for graph-based conceptual modeling, leveraging D3.js to execute complex force-directed simulations within a multi-modal web interface. The system employs a custom domain-specific language (SPW) and a robust hotkey orchestration layer to manipulate topological constraints, node velocities, and semantic attributes in real-time. It integrates service workers for progressive enhancement and supports extensible 'superpower' modules for dynamic graph transformations and persistent state management.",
+  "tags": [
+    "d3.js",
+    "force-directed-graph",
+    "vite",
+    "interactive-visualization",
+    "graph-simulation",
+    "concept-mapping",
+    "domain-specific-language",
+    "pwa",
+    "javascript",
+    "service-worker",
+    "semantic-modeling",
+    "hotkey-driven-ui",
+    "svg-rendering",
+    "state-persistence",
+    "topology-manipulation",
+    "modular-architecture"
+  ],
+  "category": "Force-Directed Conceptual Graph Environment",
+  "concepts": [
+    "Force-Directed Simulation",
+    "Graph Topology",
+    "Node-Link Diagrams",
+    "Collision Detection",
+    "Velocity Decay",
+    "Alpha Target",
+    "Charge Force",
+    "Link Strength",
+    "Center Force",
+    "Interactive Storytelling",
+    "Modal State Transitions",
+    "Domain-Specific Language Parsing",
+    "Dynamic Parameter Injection",
+    "Hotkey Orchestration",
+    "Service Worker Lifecycle",
+    "Semantic Node Classification",
+    "MD5 Identity Hashing",
+    "Focal Point Interactivity",
+    "Reflexive UI Patterns",
+    "Data Normalization",
+    "Event Delegation",
+    "Scalable Vector Graphics",
+    "Boon/Bane/Bone Operations",
+    "SPW Syntax Processing",
+    "Progressive Enhancement",
+    "Local Storage Persistence",
+    "WebSocket Communication",
+    "Z-Index Depth Management",
+    "Visual Feedback Loops",
+    "Concept Pruning",
+    "Hyperlink Superpowers",
+    "Asset Management",
+    "Reactive UI Layouts",
+    "Graph Reinitialization",
+    "Simulation Reheating",
+    "Coordinate Normalization"
+  ],
+  "languages": [
+    "JavaScript",
+    "SCSS",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 229,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/js/index.js",
+      "src/js/modes/index.js",
+      "src/js/ui/websocket-container.js",
+      "src/js/modes/reflex/mode-reflex.js"
+    ]
+  },
+  "_hash": "b5d2c59a23b9391a3438fd960ed308a2fd969f344a067a6cbf3b321ac59c94df",
+  "_path": "/Users/ember/dev/app.factshift.com",
+  "_updated_at": "2026-02-14T00:56:23.523096Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Force-Directed Simulation",
+      "Graph Topology",
+      "Node-Link Diagrams",
+      "Collision Detection",
+      "Velocity Decay",
+      "Alpha Target",
+      "Charge Force",
+      "Link Strength",
+      "Center Force",
+      "Interactive Storytelling",
+      "Modal State Transitions",
+      "Domain-Specific Language Parsing",
+      "Dynamic Parameter Injection",
+      "Hotkey Orchestration",
+      "Service Worker Lifecycle",
+      "Semantic Node Classification",
+      "MD5 Identity Hashing",
+      "Focal Point Interactivity",
+      "Reflexive UI Patterns",
+      "Data Normalization",
+      "Event Delegation",
+      "Scalable Vector Graphics",
+      "Boon/Bane/Bone Operations",
+      "SPW Syntax Processing",
+      "Progressive Enhancement",
+      "Local Storage Persistence",
+      "WebSocket Communication",
+      "Z-Index Depth Management",
+      "Visual Feedback Loops",
+      "Concept Pruning",
+      "Hyperlink Superpowers",
+      "Asset Management",
+      "Reactive UI Layouts",
+      "Graph Reinitialization",
+      "Simulation Reheating",
+      "Coordinate Normalization"
+    ],
+    "tags": [
+      "d3.js",
+      "force-directed-graph",
+      "vite",
+      "interactive-visualization",
+      "graph-simulation",
+      "concept-mapping",
+      "domain-specific-language",
+      "pwa",
+      "javascript",
+      "service-worker",
+      "semantic-modeling",
+      "hotkey-driven-ui",
+      "svg-rendering",
+      "state-persistence",
+      "topology-manipulation",
+      "modular-architecture"
+    ],
+    "mined_motifs": [
+      "bootstrap",
+      "functional-programming",
+      "typescript",
+      "Adiabatic energy conservation",
+      "Camshaft lobe profile simulation",
+      "Choked flow modeling",
+      "Combustion thermodynamics",
+      "Constraint-based physics solving",
+      "Convolution filtering",
+      "Crankcase pressure modeling",
+      "Direct throttle linkage modeling",
+      "Domain-specific scripting runtime"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.578,
+        "matches": []
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 2.565,
+        "matches": []
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 2.563,
+        "matches": []
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.562,
+        "matches": []
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.559,
+        "matches": []
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.554,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.523096Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d763c9069945a5b1db8e791c65f33c45f7c36d197f35ce31af531055df45eaae",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:31.051497+00:00"
+  },
+  "mined_motifs": [
+    "bootstrap",
+    "functional-programming",
+    "typescript",
+    "Adiabatic energy conservation",
+    "Camshaft lobe profile simulation",
+    "Choked flow modeling",
+    "Combustion thermodynamics",
+    "Constraint-based physics solving",
+    "Convolution filtering",
+    "Crankcase pressure modeling",
+    "Direct throttle linkage modeling",
+    "Domain-specific scripting runtime"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.829
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.822
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.819
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.816
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.815
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.812
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.811
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.81
+    }
+  ]
+}

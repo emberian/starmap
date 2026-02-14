@@ -1,0 +1,256 @@
+{
+  "name": "loicense",
+  "description": "loicense appears to be a data/databases project using Kotlin, C, Java. The available files suggest focus areas around test, package, readme, info.",
+  "tags": [
+    "Kotlin",
+    "C",
+    "Java",
+    "Rust",
+    "C/C++",
+    "TypeScript",
+    "JavaScript",
+    "Shell",
+    "Python",
+    "test",
+    "package",
+    "readme",
+    "info",
+    "sqlite3",
+    "fts3",
+    "build"
+  ],
+  "category": "Data/Databases",
+  "concepts": [
+    "test",
+    "package",
+    "readme",
+    "info",
+    "sqlite3",
+    "fts3",
+    "build",
+    "cargo",
+    "fts5",
+    "icon",
+    "worker",
+    "common",
+    "config",
+    "javascript",
+    "appicon",
+    "launcher",
+    "base",
+    "index",
+    "makefile",
+    "mutex",
+    "node",
+    "demo",
+    "hash",
+    "rtree",
+    "sqlite",
+    "tsconfig",
+    "main",
+    "malloc",
+    "parse",
+    "speedtest1",
+    "vtab",
+    "apis.d",
+    "backup",
+    "expr",
+    "init",
+    "model",
+    "vacuum",
+    "without",
+    "dark"
+  ],
+  "languages": [
+    "Kotlin",
+    "C",
+    "Java",
+    "Rust",
+    "C/C++",
+    "TypeScript",
+    "JavaScript",
+    "Shell",
+    "Python"
+  ],
+  "maturity": "exploratory",
+  "_hash": "9f9b3377b879b20f6d4a1752c47ff571e01cdd5d12ee29bfb1cd33e8883a1be3",
+  "_path": "/Users/ember/dev/loicense",
+  "_updated_at": "2026-02-14T00:56:29.308636Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "test",
+      "package",
+      "readme",
+      "info",
+      "sqlite3",
+      "fts3",
+      "build",
+      "cargo",
+      "fts5",
+      "icon",
+      "worker",
+      "common",
+      "config",
+      "javascript",
+      "appicon",
+      "launcher",
+      "base",
+      "index",
+      "makefile",
+      "mutex",
+      "node",
+      "demo",
+      "hash",
+      "rtree",
+      "sqlite",
+      "tsconfig",
+      "main",
+      "malloc",
+      "parse",
+      "speedtest1",
+      "vtab",
+      "apis.d",
+      "backup",
+      "expr",
+      "init",
+      "model",
+      "vacuum",
+      "without",
+      "dark"
+    ],
+    "tags": [
+      "Kotlin",
+      "C",
+      "Java",
+      "Rust Language Ecosystem",
+      "C/C++",
+      "TypeScript",
+      "JavaScript",
+      "Shell",
+      "Python",
+      "test",
+      "package",
+      "readme",
+      "info",
+      "sqlite3",
+      "fts3",
+      "build"
+    ],
+    "mined_motifs": [
+      "license",
+      "wrangler",
+      "install",
+      "manifest",
+      "generate",
+      "auth",
+      "clean",
+      "compile",
+      "lockfile",
+      "paths",
+      "registry",
+      "bold"
+    ],
+    "metaconstellations": [
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 5.059,
+        "matches": [
+          "sqlite",
+          "category:Data/Databases"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.846,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.557,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.377,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.201,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 2.169,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.308636Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ed4e8941643e4d14875e179e30df2c599806248006b8ed8801b93c95f9fcf4df",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:52.170184+00:00"
+  },
+  "mined_motifs": [
+    "license",
+    "wrangler",
+    "install",
+    "manifest",
+    "generate",
+    "auth",
+    "clean",
+    "compile",
+    "lockfile",
+    "paths",
+    "registry",
+    "bold"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "binsize",
+      "path": "/Users/ember/dev/binsize",
+      "similarity": 0.849
+    },
+    {
+      "name": "rustsqlite",
+      "path": "/Users/ember/dev/gh/forks/rustsqlite",
+      "similarity": 0.69
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.668
+    },
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.661
+    }
+  ]
+}

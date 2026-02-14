@@ -1,0 +1,258 @@
+{
+  "name": "guile-goblins",
+  "description": "A distributed object programming environment ported to GNU Guile, implementing a transactional actor model rooted in Object Capability (OCap) security principles. It facilitates secure, distributed asynchronous message passing across heterogeneous netlayers—including Tor/Onion and libp2p—using the CapTP and OCapN protocols. The system features integrated persistence, a dedicated serialization format known as Syrup, and cross-platform capabilities via WebAssembly integration.",
+  "tags": [
+    "actor-model",
+    "object-capabilities",
+    "distributed-systems",
+    "guile-scheme",
+    "captp",
+    "ocapn",
+    "syrup-serialization",
+    "asynchronous-messaging",
+    "webassembly",
+    "p2p-networking",
+    "onion-routing",
+    "functional-programming",
+    "persistent-storage",
+    "secure-computation"
+  ],
+  "category": "Object Capability Distributed Runtimes",
+  "concepts": [
+    "Actor Model",
+    "Vats",
+    "Object Capabilities (OCap)",
+    "Distributed Transactions",
+    "Capability Transport Protocol (CapTP)",
+    "Object Capability Network (OCapN)",
+    "Syrup Serialization",
+    "Asynchronous Message Passing",
+    "SturdyRefs",
+    "Netlayers",
+    "Onion Routing",
+    "libp2p",
+    "Local Transactions",
+    "Message Sequencing",
+    "Distributed Garbage Collection",
+    "Promises and Vows",
+    "Reification",
+    "Sealers and Unsealers",
+    "Facet Pattern",
+    "Mint/Purses Pattern",
+    "Temporal Logic (Tickers)",
+    "Persistence Stores",
+    "WebAssembly FFI",
+    "Scheme Macro Systems"
+  ],
+  "languages": [
+    "Scheme",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 162,
+    "has_readme": true,
+    "sample_files": [
+      "js/goblins.js",
+      "hoot-ffi/imports.js",
+      "js/test.js",
+      "live-guile.sh",
+      "bootstrap.sh"
+    ]
+  },
+  "_hash": "0b34fcbce1fa3e3ab1801b80c7e3149e24e361a4143aebf47880d31da9cd3396",
+  "_path": "/Users/ember/src/guile-goblins",
+  "_updated_at": "2026-02-14T00:56:32.983430Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "91aa6abf95bdf034c5d0f4fa5caeb90815cd2f11608fd47af450f5562a35c414",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:25.791769+00:00"
+  },
+  "mined_motifs": [
+    "Promise Pipelining",
+    "promise-pipelining",
+    "capability-security",
+    "cryptography",
+    "Netlayer Abstraction",
+    "Tor Onion Services",
+    "p2p",
+    "ocap",
+    "spritely",
+    "Message Serialization",
+    "Vat-to-Vat Communication",
+    "Swiss Numbers"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.91
+    },
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.864
+    },
+    {
+      "name": "ocapn.org",
+      "path": "/Users/ember/src/ocapn.org",
+      "similarity": 0.858
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.849
+    },
+    {
+      "name": "ocapn-test-suite",
+      "path": "/Users/ember/src/ocapn-test-suite",
+      "similarity": 0.846
+    },
+    {
+      "name": "Gerbil Scheme",
+      "path": "/Users/ember/dev/gerbil",
+      "similarity": 0.836
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.827
+    },
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.819
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Actor Model",
+      "Vats",
+      "Object Capabilities (OCap)",
+      "Distributed Transactions",
+      "captp",
+      "Object Capability Network (OCapN)",
+      "Syrup Serialization",
+      "Asynchronous Message Passing",
+      "SturdyRefs",
+      "Netlayers",
+      "Onion Routing",
+      "libp2p",
+      "Local Transactions",
+      "Message Sequencing",
+      "Distributed Garbage Collection",
+      "Promises and Vows",
+      "Reification",
+      "Sealers and Unsealers",
+      "Facet Pattern",
+      "Mint/Purses Pattern",
+      "Temporal Logic (Tickers)",
+      "Persistence Stores",
+      "WebAssembly FFI",
+      "Scheme Macro Systems"
+    ],
+    "tags": [
+      "actor-model",
+      "object-capabilities",
+      "distributed-systems",
+      "guile-scheme",
+      "captp",
+      "ocapn",
+      "syrup-serialization",
+      "asynchronous-messaging",
+      "webassembly",
+      "p2p-networking",
+      "onion-routing",
+      "functional-programming",
+      "persistent-storage",
+      "secure-computation"
+    ],
+    "mined_motifs": [
+      "Promise Pipelining",
+      "promise-pipelining",
+      "capability-security",
+      "cryptography",
+      "Netlayer Abstraction",
+      "Tor Onion Services",
+      "p2p",
+      "object-capabilities",
+      "spritely",
+      "Message Serialization",
+      "Vat-to-Vat Communication",
+      "Swiss Numbers"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 19.181,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "object-capabilities",
+          "p2p",
+          "spritely",
+          "sturdyrefs",
+          "vats",
+          "category:Object Capability Distributed Runtimes"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.181,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.181,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 6.778,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.472,
+        "matches": [
+          "p2p"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 5.467,
+        "matches": [
+          "object-capabilities"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.983430Z"
+  }
+}

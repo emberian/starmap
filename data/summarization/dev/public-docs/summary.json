@@ -1,0 +1,207 @@
+{
+  "name": "public-docs",
+  "description": "A CLI tool and MCP server utility that extracts and formats the public API of Rust crates by leveraging rustdoc JSON artifacts. It automates workspace dependency resolution, nightly toolchain management, and regular expression-based filtering to provide LLM-optimized representations of a crate's public interface.",
+  "tags": [
+    "rust",
+    "cargo",
+    "rustdoc",
+    "mcp-server",
+    "api-extraction",
+    "static-analysis",
+    "nightly-rust",
+    "dependency-resolution",
+    "llm-context",
+    "documentation-tool",
+    "registry-crawler",
+    "cli"
+  ],
+  "category": "Rust Documentation Tooling",
+  "concepts": [
+    "Rustdoc JSON Backend",
+    "Workspace Dependency Graph Resolution",
+    "Toolchain Management",
+    "Public API Surface Analysis",
+    "Conditional Compilation Handling",
+    "Registry Package Resolution",
+    "JSON-based API Representation",
+    "Semantic Versioning Analysis"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "b5434831d3ee1b635766eaf73aa180e9cfbda22b43445b4f61b7748080f04502",
+  "_path": "/Users/ember/dev/public-docs",
+  "_updated_at": "2026-02-14T00:56:29.877331Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Rustdoc JSON Backend",
+      "Workspace Dependency Graph Resolution",
+      "Toolchain Management",
+      "Public API Surface Analysis",
+      "Conditional Compilation Handling",
+      "Registry Package Resolution",
+      "JSON-based API Representation",
+      "Semantic Versioning Analysis"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cargo",
+      "rustdoc",
+      "Model Context Protocol",
+      "api-extraction",
+      "static-analysis",
+      "nightly-rust",
+      "dependency-resolution",
+      "llm-context",
+      "documentation-tool",
+      "registry-crawler",
+      "cli"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "documentation-generator",
+      "json-rpc",
+      "developer-tools",
+      "docs-rs",
+      "crates-io",
+      "metadata-extraction",
+      "API diffing algorithms",
+      "api-diff",
+      "api-surface",
+      "auto trait tracking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 6.755,
+        "matches": [
+          "dependency-resolution",
+          "cargo"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.534,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.455,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.367,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.306,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.962,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.877331Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3293910769f431d8f820df598815efbbb896b45634d260f06565295dc1946ad3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:25.039109+00:00"
+  },
+  "mined_motifs": [
+    "mcp",
+    "documentation-generator",
+    "Model Context Protocol (MCP)",
+    "json-rpc",
+    "developer-tools",
+    "docs-rs",
+    "crates-io",
+    "metadata-extraction",
+    "API diffing algorithms",
+    "api-diff",
+    "api-surface",
+    "auto trait tracking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo-public-api",
+      "path": "/Users/ember/src/cargo-public-api",
+      "similarity": 0.907
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.902
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.901
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.9
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.871
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.859
+    },
+    {
+      "name": "crates_llms_txt",
+      "path": "/Users/ember/src/crates_llms_txt",
+      "similarity": 0.849
+    },
+    {
+      "name": "doc_builder",
+      "path": "/Users/ember/dev/gh/doc_builder",
+      "similarity": 0.838
+    }
+  ]
+}

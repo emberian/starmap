@@ -1,0 +1,253 @@
+{
+  "name": "frisqueendom",
+  "description": "Frisqueendom is a sophisticated 3D sports simulator centered on ultimate frisbee mechanics, utilizing a custom aerodynamic physics engine written in Rust and compiled to WebAssembly for high-performance flight calculations. The project integrates complex team AI behaviors, procedural skeletal animations, and a multi-layered career management system within a Three.js-based rendering environment. It supports local and LAN multiplayer via a custom relay protocol and features extensive automated testing for both physics integration and gameplay logic.",
+  "tags": [
+    "ultimate-frisbee",
+    "aerodynamics",
+    "physics-engine",
+    "webassembly",
+    "three-js",
+    "rust",
+    "typescript",
+    "game-ai",
+    "sports-simulation",
+    "procedural-animation",
+    "lan-multiplayer",
+    "career-mode",
+    "simulation",
+    "webgl",
+    "wasm-pack",
+    "testing-suite"
+  ],
+  "category": "Aerodynamic Sports Simulation",
+  "concepts": [
+    "aerodynamic disc flight mechanics",
+    "wind field sampling and turbulence",
+    "WASM-to-TypeScript interoperability",
+    "procedural skeletal animation",
+    "team-level AI strategy (stacks and zones)",
+    "individual player behavior trees",
+    "LAN relay networking protocol",
+    "rigid body physics integration",
+    "spatial field boundary validation",
+    "stamina-driven movement modeling",
+    "career progression and roster management",
+    "match state orchestration",
+    "audio engine synthesis",
+    "replay recording and serialization",
+    "post-processing shader effects",
+    "UI-based match configuration",
+    "automated integration testing",
+    "seeded random number generation",
+    "dynamic weather impact modeling",
+    "spirit of the game scoring logic",
+    "numerical integration (Euler/RK4)",
+    "quaternion-based orientation tracking",
+    "lift and drag coefficient modeling",
+    "pathfinding and interception AI"
+  ],
+  "languages": [
+    "TypeScript",
+    "Rust",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 140,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "frisque-physics/src/lib.rs",
+      "src/ui/Menus.ts",
+      "src/main.ts",
+      "src/management/Career.ts"
+    ]
+  },
+  "_hash": "c9651bbf48a614e37c2f7f128c679bc0b1fab496d55d12e2ce019917ccea59e5",
+  "_path": "/Users/ember/dev/frisqueendom",
+  "_updated_at": "2026-02-14T00:56:24.123896Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "aerodynamic disc flight mechanics",
+      "wind field sampling and turbulence",
+      "WASM-to-TypeScript interoperability",
+      "procedural skeletal animation",
+      "team-level AI strategy (stacks and zones)",
+      "individual player behavior trees",
+      "LAN relay networking protocol",
+      "rigid body physics integration",
+      "spatial field boundary validation",
+      "stamina-driven movement modeling",
+      "career progression and roster management",
+      "match state orchestration",
+      "audio engine synthesis",
+      "replay recording and serialization",
+      "post-processing shader effects",
+      "UI-based match configuration",
+      "automated integration testing",
+      "seeded random number generation",
+      "dynamic weather impact modeling",
+      "spirit of the game scoring logic",
+      "numerical integration (Euler/RK4)",
+      "quaternion-based orientation tracking",
+      "lift and drag coefficient modeling",
+      "pathfinding and interception AI"
+    ],
+    "tags": [
+      "ultimate-frisbee",
+      "aerodynamics",
+      "physics-engine",
+      "webassembly",
+      "three-js",
+      "Rust Language Ecosystem",
+      "typescript",
+      "game-ai",
+      "sports-simulation",
+      "procedural-animation",
+      "lan-multiplayer",
+      "career-mode",
+      "real-time-simulation",
+      "webgl",
+      "testing-suite"
+    ],
+    "mined_motifs": [
+      "react",
+      "glsl",
+      "procedural-audio",
+      "fluid-dynamics",
+      "vite",
+      "thermodynamics",
+      "GPGPU Rendering",
+      "real-time-simulation",
+      "WebAssembly Interop",
+      "cellular-automata",
+      "WebAssembly"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.456,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "fluid-dynamics",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.356,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.211,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.209,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.205,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.197,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.123896Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "729fa81c3d3c2f31ac511e2cad66d9f26eed10fc20999dc6f2a1e63ccc514052",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:09.589377+00:00"
+  },
+  "mined_motifs": [
+    "react",
+    "glsl",
+    "procedural-audio",
+    "fluid-dynamics",
+    "vite",
+    "thermodynamics",
+    "GPGPU Rendering",
+    "Real-time Simulation",
+    "WebAssembly Interop",
+    "cellular-automata",
+    "wasm-bindgen",
+    "real-time-simulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.896
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.774
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.77
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.763
+    },
+    {
+      "name": "booty-hunt",
+      "path": "/Users/ember/dev/booty-hunt",
+      "similarity": 0.759
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.758
+    },
+    {
+      "name": "accordion-sim",
+      "path": "/Users/ember/dev/accordion-sim",
+      "similarity": 0.757
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.755
+    }
+  ]
+}

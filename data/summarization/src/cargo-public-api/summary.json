@@ -1,0 +1,229 @@
+{
+  "name": "cargo-public-api",
+  "description": "A comprehensive toolchain for listing and diffing the public API of Rust library crates by leveraging rustdoc JSON artifacts. It facilitates automated semver violation detection and public API surface tracking through a CLI subcommand and a set of reusable library crates. The system includes specialized components for managing rustup toolchains, building rustdoc JSON, and rendering semantic diffs between commits or published versions.",
+  "tags": [
+    "rust",
+    "cargo-subcommand",
+    "public-api",
+    "semver",
+    "rustdoc-json",
+    "api-diff",
+    "static-analysis",
+    "ci-automation",
+    "code-evolution",
+    "api-surface"
+  ],
+  "category": "API Surface Analysis",
+  "concepts": [
+    "rustdoc JSON parsing",
+    "public item extraction",
+    "API diffing algorithms",
+    "semver violation detection",
+    "automated CI regression testing",
+    "git repository inspection",
+    "crates.io version comparison",
+    "blanket implementation analysis",
+    "auto trait tracking",
+    "snapshot assertion testing",
+    "rustup toolchain management",
+    "proc-macro API analysis",
+    "feature-flag activation logic",
+    "visibility-aware item filtering",
+    "diff denial policies",
+    "workspace inheritance support",
+    "virtual manifest handling",
+    "rustdoc unstable options",
+    "terminal color rendering",
+    "crate version resolution"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 180,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "cargo-public-api/src/main.rs",
+      "cargo-public-api/tests/create_test_git_repo/mod.rs",
+      "public-api/src/lib.rs",
+      "public-api/tests/common/mod.rs"
+    ]
+  },
+  "_hash": "627587d1df141374d927587804344927eacb11f6a21ed000a82fce8b1c11c9e1",
+  "_path": "/Users/ember/src/cargo-public-api",
+  "_updated_at": "2026-02-14T00:56:32.343029Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ead4ed3c594f13cc0f540faf9234f6d36cf54425dfc22f72e66c45e0ebec5c44",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:03.028270+00:00"
+  },
+  "mined_motifs": [
+    "rustdoc",
+    "cargo",
+    "cli",
+    "developer-tools",
+    "mcp",
+    "documentation-generator",
+    "Metadata Extraction",
+    "metadata-extraction",
+    "Conditional Compilation Handling",
+    "JSON-based API Representation",
+    "Public API Surface Analysis",
+    "Registry Package Resolution"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.907
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.848
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.847
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.842
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.83
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.828
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "rustdoc JSON parsing",
+      "public item extraction",
+      "API diffing algorithms",
+      "semver violation detection",
+      "automated CI regression testing",
+      "git repository inspection",
+      "crates.io version comparison",
+      "blanket implementation analysis",
+      "auto trait tracking",
+      "snapshot assertion testing",
+      "rustup toolchain management",
+      "proc-macro API analysis",
+      "feature-flag activation logic",
+      "visibility-aware item filtering",
+      "diff denial policies",
+      "workspace inheritance support",
+      "virtual manifest handling",
+      "rustdoc unstable options",
+      "terminal color rendering",
+      "crate version resolution"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cargo-subcommand",
+      "public-api",
+      "semver",
+      "rustdoc-json",
+      "api-diff",
+      "static-analysis",
+      "ci-automation",
+      "code-evolution",
+      "api-surface"
+    ],
+    "mined_motifs": [
+      "rustdoc",
+      "cargo",
+      "cli",
+      "developer-tools",
+      "model-context-protocol",
+      "documentation-generator",
+      "Metadata Extraction",
+      "metadata-extraction",
+      "Conditional Compilation Handling",
+      "JSON-based API Representation",
+      "Public API Surface Analysis",
+      "Registry Package Resolution"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.422,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.349,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.953,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.917,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.917,
+        "matches": [
+          "rustdoc"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 2.636,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.343029Z"
+  }
+}

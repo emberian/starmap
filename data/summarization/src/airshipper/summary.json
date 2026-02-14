@@ -1,0 +1,245 @@
+{
+  "name": "airshipper",
+  "description": "A specialized game launcher and distribution infrastructure designed for the Veloren voxel engine, featuring a comprehensive Rust-based ecosystem. It utilizes an Iced-powered GUI for client-side version management and a Rocket-based server for automated artifact ingestion from GitLab CI pipelines. The architecture integrates deeply with Nix for reproducible builds and employs asynchronous I/O to handle high-concurrency downloads and system process management.",
+  "tags": [
+    "veloren",
+    "game-launcher",
+    "rust",
+    "iced-gui",
+    "rocket-rs",
+    "nix-flake",
+    "gitlab-webhooks",
+    "artifact-tracking",
+    "cross-platform",
+    "async-tokio",
+    "sqlite-diesel",
+    "auto-update",
+    "ron-serialization",
+    "desktop-client",
+    "distribution-server",
+    "linux-packaging"
+  ],
+  "category": "Game Distribution Infrastructure",
+  "concepts": [
+    "Asynchronous Asset Downloading",
+    "GitLab CI Artifact Integration",
+    "Cross-Platform GUI Rendering",
+    "NixOS Reproducible Environments",
+    "Declarative Configuration Serialization",
+    "Database Fairings",
+    "Webhook Payload Verification",
+    "Dynamic Path Resolution",
+    "Process Lifecycle Supervision",
+    "Semantic Versioning Traversal",
+    "Nightly Build Streamtracking",
+    "Rust Macros for GUI Components",
+    "Custom Widget Implementation",
+    "HTTP Middleware & Routing",
+    "SQLite Persistence Layer",
+    "Nix Patcher Scripts",
+    "Profile-based Game Instances",
+    "Logging Decorators",
+    "Conditional Compilation Paths",
+    "Wix/NSIS Installer Generation"
+  ],
+  "languages": [
+    "Rust",
+    "Nix",
+    "Shell",
+    "SQL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 138,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "client/src/cli/mod.rs",
+      "client/src/gui/components/mod.rs",
+      "client/src/gui/mod.rs"
+    ]
+  },
+  "_hash": "e251578b6b9f743d59fcf0e15115a2842082af6a74d3c00848ddff9b69e5e86a",
+  "_path": "/Users/ember/src/airshipper",
+  "_updated_at": "2026-02-14T00:56:32.296534Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bdfad0a2ea39fa19fc22eb7145cce2a9bf5f0796da63ac9dd1c4c556d6743466",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:57.239307+00:00"
+  },
+  "mined_motifs": [
+    "axum",
+    "matchmaking",
+    "websockets",
+    "game-engine",
+    "api-design",
+    "distributed-systems",
+    "real-time",
+    "multiplayer",
+    "networking",
+    "game-server",
+    "Non-blocking I/O",
+    "tokio"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.85
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.84
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.828
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.817
+    },
+    {
+      "name": "automatafl-react",
+      "path": "/Users/ember/dev/automatafl-react",
+      "similarity": 0.805
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.799
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.797
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.783
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Asynchronous Asset Downloading",
+      "GitLab CI Artifact Integration",
+      "Cross-Platform GUI Rendering",
+      "NixOS Reproducible Environments",
+      "Declarative Configuration Serialization",
+      "Database Fairings",
+      "Webhook Payload Verification",
+      "Dynamic Path Resolution",
+      "Process Lifecycle Supervision",
+      "Semantic Versioning Traversal",
+      "Nightly Build Streamtracking",
+      "Rust Macros for GUI Components",
+      "Custom Widget Implementation",
+      "HTTP Middleware & Routing",
+      "SQLite Persistence Layer",
+      "Nix Patcher Scripts",
+      "Profile-based Game Instances",
+      "Logging Decorators",
+      "Conditional Compilation Paths",
+      "Wix/NSIS Installer Generation"
+    ],
+    "tags": [
+      "veloren",
+      "game-launcher",
+      "Rust Language Ecosystem",
+      "iced-gui",
+      "rocket-rs",
+      "nix-flake",
+      "gitlab-webhooks",
+      "artifact-tracking",
+      "cross-platform",
+      "async-tokio",
+      "sqlite-diesel",
+      "auto-update",
+      "ron-serialization",
+      "desktop-client",
+      "distribution-server",
+      "linux-packaging"
+    ],
+    "mined_motifs": [
+      "axum",
+      "matchmaking",
+      "websockets",
+      "game-engine",
+      "api-design",
+      "distributed-systems",
+      "real-time-simulation",
+      "multiplayer",
+      "networking",
+      "game-server",
+      "Non-blocking I/O",
+      "Asynchronous Programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.395,
+        "matches": [
+          "api-design"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.38,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.374,
+        "matches": [
+          "nix-flake"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.368,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.347,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.343,
+        "matches": [
+          "real-time-simulation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.296534Z"
+  }
+}

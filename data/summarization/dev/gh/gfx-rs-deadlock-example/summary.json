@@ -1,0 +1,208 @@
+{
+  "name": "gfx-rs-deadlock-example",
+  "description": "A minimal reproduction case designed to demonstrate or investigate a deadlock condition within the legacy gfx-rs rendering pipeline. It utilizes an early multi-threaded architecture where the GLFW event loop on the main thread communicates with a spawned rendering task via a command queue and device synchronization primitives.",
+  "tags": [
+    "rust",
+    "gfx-rs",
+    "glfw",
+    "graphics-api",
+    "deadlock-reproduction",
+    "multithreading",
+    "opengl",
+    "renderer",
+    "gpu-synchronization",
+    "legacy-rust"
+  ],
+  "category": "Graphics Hardware Abstraction Layer",
+  "concepts": [
+    "Command Queue Synchronization",
+    "Cross-thread Resource Ownership",
+    "Event Loop Integration",
+    "Vertex Shading",
+    "Fragment Shading",
+    "RAII Resource Management",
+    "Implicit State Machines",
+    "FFI Safety",
+    "Manual Thread Affinity"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "e64944279865a582b63c45f12395c00d9f3c4ee354d346221dbb9fd8f4434613",
+  "_path": "/Users/ember/dev/gh/gfx-rs-deadlock-example",
+  "_updated_at": "2026-02-14T00:56:27.240428Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Command Queue Synchronization",
+      "Cross-thread Resource Ownership",
+      "Event Loop Integration",
+      "Vertex Shading",
+      "Fragment Shading",
+      "RAII Resource Management",
+      "Implicit State Machines",
+      "FFI Safety",
+      "Manual Thread Affinity"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "gfx-rs",
+      "glfw",
+      "graphics-api",
+      "deadlock-reproduction",
+      "Concurrency & Synchronization",
+      "opengl",
+      "renderer",
+      "gpu-synchronization"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "glsl",
+      "Computer Graphics & Rendering",
+      "texture-mapping",
+      "hardware-abstraction",
+      "type-safety",
+      "shader-compilation",
+      "Vertex Array Objects",
+      "Vertex Buffer Objects",
+      "vao",
+      "vbo"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.532,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.819,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.3,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.277,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 4.032,
+        "matches": [
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 3.961,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.240428Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "907b4d030f9f1262c055e8d7be2001e7a6af8d3a9a141a027d5790505b211588",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:44.695109+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "glsl",
+    "rendering",
+    "texture-mapping",
+    "hardware-abstraction",
+    "type-safety",
+    "shader-compilation",
+    "graphics",
+    "Vertex Array Objects",
+    "Vertex Buffer Objects",
+    "vao",
+    "vbo"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.863
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.846
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.838
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.835
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.834
+    },
+    {
+      "name": "gfx-rs.github.io",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+      "similarity": 0.83
+    },
+    {
+      "name": "nice_glfw",
+      "path": "/Users/ember/dev/gh/nice_glfw",
+      "similarity": 0.829
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.828
+    }
+  ]
+}

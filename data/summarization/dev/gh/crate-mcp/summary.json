@@ -1,0 +1,172 @@
+{
+  "name": "crate-mcp",
+  "description": "crate-mcp appears to be a ai/agents project using Rust. The available files suggest focus areas around cargo, main, readme.",
+  "tags": [
+    "Rust",
+    "cargo",
+    "main",
+    "readme"
+  ],
+  "category": "AI/Agents",
+  "concepts": [
+    "cargo",
+    "main",
+    "readme"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "_hash": "98c822547119658fa3b2ecc4805f755c2001dee661ce496c2b6120a3a09ac9a9",
+  "_path": "/Users/ember/dev/gh/crate-mcp",
+  "_updated_at": "2026-02-14T00:56:24.826067Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "cargo",
+      "main",
+      "readme"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cargo",
+      "main",
+      "readme"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "rustdoc",
+      "static-analysis",
+      "json-rpc",
+      "crates-io",
+      "lab1",
+      "lite",
+      "developer-tools",
+      "llm-context",
+      "Model Context Protocol",
+      "cli"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.155,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.108,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.084,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.006,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.683,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 3.584,
+        "matches": [
+          "model context protocol"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.826067Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cd888557314e107fdc9f235652c8e5cfe9f39f91f77594a86080daa0c7a0d3ae",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:44.016615+00:00"
+  },
+  "mined_motifs": [
+    "mcp",
+    "rustdoc",
+    "static-analysis",
+    "Model Context Protocol (MCP)",
+    "json-rpc",
+    "crates-io",
+    "lab1",
+    "lite",
+    "developer-tools",
+    "llm-context",
+    "mcp-server",
+    "cli"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.771
+    },
+    {
+      "name": "CS452-LAB1",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB1",
+      "similarity": 0.754
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.754
+    },
+    {
+      "name": "lcrio",
+      "path": "/Users/ember/dev/lcrio",
+      "similarity": 0.747
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.739
+    },
+    {
+      "name": "mcp-rust-sdk",
+      "path": "/Users/ember/src/mcp-rust-sdk",
+      "similarity": 0.735
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.726
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.722
+    }
+  ]
+}

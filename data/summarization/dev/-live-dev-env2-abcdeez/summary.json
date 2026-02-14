@@ -1,0 +1,233 @@
+{
+  "name": "-live-dev-env2-abcdeez",
+  "description": "-live-dev-env2-abcdeez appears to be a developer tooling project using JavaScript, Shell. The available files suggest focus areas around test, build, tinyemu, manager.",
+  "tags": [
+    "JavaScript",
+    "Shell",
+    "test",
+    "build",
+    "tinyemu",
+    "manager",
+    "package",
+    "quick",
+    "result",
+    "cleanup",
+    "compiler",
+    "config",
+    "create",
+    "dist",
+    "dockerfile",
+    "editor"
+  ],
+  "category": "Developer Tooling",
+  "concepts": [
+    "test",
+    "build",
+    "tinyemu",
+    "manager",
+    "package",
+    "quick",
+    "result",
+    "cleanup",
+    "compiler",
+    "config",
+    "create",
+    "dist",
+    "dockerfile",
+    "editor",
+    "files",
+    "filesystem",
+    "index",
+    "integration",
+    "lock",
+    "makefile",
+    "preview",
+    "readme",
+    "setup",
+    "tests",
+    "xilem"
+  ],
+  "languages": [
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "4ee4f90d777a5c88c2899e8943c13a3aeb161308bcc46926a4772d2692f5f6d1",
+  "_path": "/Users/ember/dev/-live-dev-env2-abcdeez",
+  "_updated_at": "2026-02-14T00:56:23.333136Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "test",
+      "build",
+      "tinyemu",
+      "manager",
+      "package",
+      "quick",
+      "result",
+      "cleanup",
+      "compiler-design",
+      "config",
+      "create",
+      "dist",
+      "dockerfile",
+      "editor",
+      "files",
+      "filesystem",
+      "index",
+      "integration",
+      "lock",
+      "makefile",
+      "preview",
+      "readme",
+      "setup",
+      "tests",
+      "xilem"
+    ],
+    "tags": [
+      "JavaScript",
+      "Shell",
+      "test",
+      "build",
+      "tinyemu",
+      "manager",
+      "package",
+      "quick",
+      "result",
+      "cleanup",
+      "compiler-design",
+      "config",
+      "create",
+      "dist",
+      "dockerfile",
+      "editor"
+    ],
+    "mined_motifs": [
+      "cargo",
+      "icon",
+      "main",
+      "license",
+      "Rust Language Ecosystem",
+      "install",
+      "manifest",
+      "bench",
+      "TypeScript",
+      "appicon",
+      "dark",
+      "launcher"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 4.738,
+        "matches": [
+          "cargo",
+          "category:Developer Tooling"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 4.521,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.481,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 3.221,
+        "matches": [
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 3.143,
+        "matches": [
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.104,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.333136Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7c92b11cce5c29bb37a7aa081356b367207bdd7602357ccd15a3c67d0f3c75ad",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:15.666478+00:00"
+  },
+  "mined_motifs": [
+    "cargo",
+    "icon",
+    "main",
+    "license",
+    "Rust",
+    "install",
+    "manifest",
+    "bench",
+    "TypeScript",
+    "appicon",
+    "dark",
+    "launcher"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.706
+    },
+    {
+      "name": "minesweep",
+      "path": "/Users/ember/dev/gh/minesweep",
+      "similarity": 0.664
+    },
+    {
+      "name": "keygen-rs",
+      "path": "/Users/ember/src/keygen-rs",
+      "similarity": 0.643
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.631
+    },
+    {
+      "name": "coda_net2",
+      "path": "/Users/ember/dev/gh/coda_net2",
+      "similarity": 0.628
+    },
+    {
+      "name": "-live-web-editor-abcdeez",
+      "path": "/Users/ember/dev/-live-web-editor-abcdeez",
+      "similarity": 0.62
+    }
+  ]
+}

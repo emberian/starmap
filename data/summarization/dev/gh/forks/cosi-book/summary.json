@@ -1,0 +1,230 @@
+{
+  "name": "cosi-book",
+  "description": "A comprehensive technical knowledge base for the Clarkson Open Source Institute (COSI) labs, implemented as a version-controlled mdBook. It documents critical infrastructure including network topologies, IP allocations, rack layouts, and physical server specifications, alongside operational configurations for core services like DNS, DHCP, and firewalls. The repository integrates a containerized deployment workflow using Docker and Nginx to serve the documentation as a static site.",
+  "tags": [
+    "mdbook",
+    "documentation",
+    "infrastructure",
+    "networking",
+    "server-management",
+    "dns",
+    "dhcp",
+    "docker",
+    "nginx",
+    "clarkson-university",
+    "cosi",
+    "systems-administration",
+    "lab-ops",
+    "markdown",
+    "devops"
+  ],
+  "category": "Academic Lab Infrastructure & Systems Administration",
+  "concepts": [
+    "Network Topology",
+    "IP Address Management",
+    "DNS Architecture",
+    "DHCP Service",
+    "Firewall Configuration",
+    "Server Specifications",
+    "Virtualization",
+    "Rack Management",
+    "Static Site Generation",
+    "Infrastructure Documentation",
+    "Documentation-as-Code",
+    "Containerization",
+    "Reverse Proxy",
+    "Laboratory Operations",
+    "Knowledge Transfer",
+    "Hardware Inventory"
+  ],
+  "languages": [
+    "Markdown",
+    "TOML",
+    "Dockerfile",
+    "YAML",
+    "Nginx Config"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 30,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "6a8503267c193b2a314785c39b4756e2543fbdc5f4c8655e14e8ab1e6538efd1",
+  "_path": "/Users/ember/dev/gh/forks/cosi-book",
+  "_updated_at": "2026-02-14T00:56:25.470898Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Network Topology",
+      "IP Address Management",
+      "DNS Architecture",
+      "DHCP Service",
+      "Firewall Configuration",
+      "Server Specifications",
+      "Virtualization",
+      "Rack Management",
+      "Static Site Generation",
+      "Infrastructure Documentation",
+      "Documentation-as-Code",
+      "Containerization",
+      "Reverse Proxy",
+      "Laboratory Operations",
+      "Knowledge Transfer",
+      "Hardware Inventory"
+    ],
+    "tags": [
+      "mdbook",
+      "documentation",
+      "infrastructure",
+      "networking",
+      "server-management",
+      "dns",
+      "dhcp",
+      "docker",
+      "nginx",
+      "clarkson-university",
+      "cosi",
+      "systems-administration",
+      "lab-ops",
+      "markdown",
+      "devops"
+    ],
+    "mined_motifs": [
+      "static-site-generator",
+      "bootstrap",
+      "Bare-metal Server Orchestration",
+      "Containerized Deployment",
+      "Continuous Integration Typos Checking",
+      "DHCP Configuration",
+      "Documentation Versioning",
+      "Firewall Policy Documentation",
+      "Kerberos Authentication",
+      "Markdown-based Knowledge Base",
+      "Network Topology Mapping",
+      "Recursive and Authoritative DNS"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 7.033,
+        "matches": [
+          "documentation-as-code",
+          "mdbook"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 6.912,
+        "matches": [
+          "markdown",
+          "documentation-as-code"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 5.524,
+        "matches": [
+          "documentation"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 5.357,
+        "matches": [
+          "virtualization"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.355,
+        "matches": [
+          "virtualization"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.638,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.470898Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "539acaa25fde30142190bdac521301c69e70f4442684097c07bf5c2c0e8f3f77",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:23.752309+00:00"
+  },
+  "mined_motifs": [
+    "static-site-generator",
+    "bootstrap",
+    "Bare-metal Server Orchestration",
+    "Containerized Deployment",
+    "Continuous Integration Typos Checking",
+    "DHCP Configuration",
+    "Documentation Versioning",
+    "Firewall Policy Documentation",
+    "Kerberos Authentication",
+    "Markdown-based Knowledge Base",
+    "Network Topology Mapping",
+    "Recursive and Authoritative DNS"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/cosi-book",
+      "similarity": 0.959
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.889
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.852
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.841
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.839
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.839
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.836
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.835
+    }
+  ]
+}

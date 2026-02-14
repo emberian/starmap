@@ -1,0 +1,229 @@
+{
+  "name": "envmap-sample",
+  "description": "An experimental build system and sample project designed to compile Java applications into Actually Portable Executables (APE) by integrating GraalVM Native Image with Cosmopolitan Libc. It automates the orchestration of patching GraalVM, bootstrapping a LabsJDK-based toolchain, and leveraging cosmocc for cross-architecture static linking. The resulting binaries are platform-agnostic, single-file executables capable of running across various operating systems and architectures without an external runtime environment.",
+  "tags": [
+    "graalvm",
+    "native-image",
+    "cosmopolitan-libc",
+    "ape",
+    "actually-portable-executable",
+    "cross-compilation",
+    "static-linking",
+    "labs-jdk",
+    "cosmocc",
+    "java",
+    "shell-automation",
+    "toolchain"
+  ],
+  "category": "Cross-Platform AOT Runtime Engineering",
+  "concepts": [
+    "Ahead-of-Time Compilation",
+    "Actually Portable Executable (APE)",
+    "SubstrateVM",
+    "Static Linking",
+    "Cross-Platform Portability",
+    "Multi-architecture Binaries",
+    "System Call Abstraction",
+    "Toolchain Bootstrap",
+    "Patch Management",
+    "LabsJDK Integration",
+    "ELF Header Manipulation",
+    "User-space Emulation",
+    "Fat Binaries",
+    "MX Build Tool",
+    "Automated Patching",
+    "Polyglot Binaries",
+    "Static Analysis",
+    "Runtime Specialization"
+  ],
+  "languages": [
+    "Shell",
+    "Java",
+    "Makefile"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 26,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "patches/EnvMap.java",
+      "scripts/download-partials-setup.sh",
+      "scripts/apelinkpls.sh",
+      "scripts/setup-requirements.sh"
+    ]
+  },
+  "_hash": "bac611d66c6dfdad59931c37fbb19a583470ea79b5dd568ecb7652ac83121632",
+  "_path": "/Users/ember/dev/envmap-sample",
+  "_updated_at": "2026-02-14T00:56:24.052285Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Ahead-of-Time Compilation",
+      "Actually Portable Executable (APE)",
+      "SubstrateVM",
+      "Static Linking",
+      "Cross-Platform Portability",
+      "Multi-architecture Binaries",
+      "System Call Abstraction",
+      "Toolchain Bootstrap",
+      "Patch Management",
+      "LabsJDK Integration",
+      "ELF Header Manipulation",
+      "User-space Emulation",
+      "Fat Binaries",
+      "MX Build Tool",
+      "Automated Patching",
+      "Polyglot Binaries",
+      "Static Analysis",
+      "Runtime Specialization"
+    ],
+    "tags": [
+      "graalvm",
+      "native-image",
+      "cosmopolitan-libc",
+      "ape",
+      "actually-portable-executable",
+      "cross-compilation",
+      "static-linking",
+      "labs-jdk",
+      "cosmocc",
+      "java",
+      "shell-automation",
+      "toolchain"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "performance",
+      "Systems Programming",
+      "blockchain",
+      "ARM64 Veneer Analysis",
+      "Ahead-of-Time (AOT) Compilation",
+      "Asynchronous RPC Dispatch",
+      "Asynchronous Runtime Integration (Tokio)",
+      "Automated Native Binding Generation",
+      "Binary Layout Optimization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.351,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 6.926,
+        "matches": [
+          "native-image",
+          "graalvm"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 6.907,
+        "matches": [
+          "graalvm",
+          "native-image"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.555,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.553,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 4.135,
+        "matches": [
+          "graalvm"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.052285Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e240cd997546f0234959f855dbaa99e18c5042b3469d6e32e337aaf27722f2d3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:01.127387+00:00"
+  },
+  "mined_motifs": [
+    "rust-lang",
+    "Foreign Function Interface (FFI)",
+    "performance",
+    "systems-programming",
+    "rust",
+    "blockchain",
+    "ARM64 Veneer Analysis",
+    "Ahead-of-Time (AOT) Compilation",
+    "Asynchronous RPC Dispatch",
+    "Asynchronous Runtime Integration (Tokio)",
+    "Automated Native Binding Generation",
+    "Binary Layout Optimization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.876
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.875
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.87
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.87
+    },
+    {
+      "name": "cosmopolitan",
+      "path": "/Users/ember/src/cosmopolitan",
+      "similarity": 0.87
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.867
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.866
+    }
+  ]
+}

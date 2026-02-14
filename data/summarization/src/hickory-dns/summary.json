@@ -1,0 +1,274 @@
+{
+  "name": "hickory-dns",
+  "description": "A modular and memory-safe DNS implementation written in Rust, featuring comprehensive support for client, server, resolver, and recursor roles. It integrates modern transport protocols including DNS-over-TLS, DNS-over-HTTPS, and DNS-over-QUIC alongside robust DNSSEC validation using NSEC3. The architecture prioritizes security and high-performance asynchronous I/O, providing a resilient alternative to legacy DNS infrastructure.",
+  "tags": [
+    "dns",
+    "dnssec",
+    "rust",
+    "doh",
+    "dot",
+    "doq",
+    "mdns",
+    "resolver",
+    "server",
+    "nameserver",
+    "recursion",
+    "async",
+    "networking",
+    "cryptography",
+    "security",
+    "rfc"
+  ],
+  "category": "DNS Systems Engineering",
+  "concepts": [
+    "DNSSEC",
+    "NSEC3",
+    "DNS-over-HTTPS",
+    "DNS-over-TLS",
+    "DNS-over-QUIC",
+    "Recursive Resolution",
+    "Authoritative Name Server",
+    "mDNS",
+    "DNS-SD",
+    "Dynamic DNS Update",
+    "EDNS(0)",
+    "TSIG",
+    "SIG(0)",
+    "Zone Transfers",
+    "Message Serialization",
+    "Asynchronous Networking",
+    "Cryptography Provider Abstraction",
+    "Trust Anchor Management",
+    "Negative Caching",
+    "ANAME Records",
+    "Service Discovery",
+    "Root Zone Hints",
+    "Resource Record Management",
+    "Multiplexing",
+    "DNS Header Compression",
+    "TTL Management",
+    "Cache Invalidation",
+    "Forwarding DNS",
+    "DNS Message Signing",
+    "SQLite Zone Storage",
+    "Prometheus Metrics",
+    "TOML Configuration",
+    "Memory Safety",
+    "Bailiwick Validation"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 554,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "bin/src/config/mod.rs",
+      "bin/src/lib.rs",
+      "bin/tests/integration/main.rs",
+      "bin/tests/integration/server_harness/mod.rs"
+    ]
+  },
+  "_hash": "c2f8144942a3b9595a032aaffadbc2ab9729d65434c6857721d3e48217c23328",
+  "_path": "/Users/ember/src/hickory-dns",
+  "_updated_at": "2026-02-14T00:56:32.989171Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7c08d55ba1b52efd16285b681907d75c9d910973ae2496a1f98ce832a97ca081",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:26.756576+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "ffi",
+    "posix",
+    "authentication",
+    "ed25519",
+    "Distributed Garbage Collection",
+    "Promise Pipelining",
+    "capability-security",
+    "captp",
+    "ocapn",
+    "tls",
+    "Asynchronous I/O"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.831
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.825
+    },
+    {
+      "name": "rcgen",
+      "path": "/Users/ember/src/rcgen",
+      "similarity": 0.824
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.823
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.821
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.82
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.819
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.818
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "DNSSEC",
+      "NSEC3",
+      "DNS-over-HTTPS",
+      "DNS-over-TLS",
+      "DNS-over-QUIC",
+      "Recursive Resolution",
+      "Authoritative Name Server",
+      "mDNS",
+      "DNS-SD",
+      "Dynamic DNS Update",
+      "EDNS(0)",
+      "TSIG",
+      "SIG(0)",
+      "Zone Transfers",
+      "Message Serialization",
+      "Asynchronous Networking",
+      "Cryptography Provider Abstraction",
+      "Trust Anchor Management",
+      "Negative Caching",
+      "ANAME Records",
+      "Service Discovery",
+      "Root Zone Hints",
+      "Resource Record Management",
+      "Multiplexing",
+      "DNS Header Compression",
+      "TTL Management",
+      "Cache Invalidation",
+      "Forwarding DNS",
+      "DNS Message Signing",
+      "SQLite Zone Storage",
+      "Prometheus Metrics",
+      "TOML Configuration",
+      "Memory Safety",
+      "Bailiwick Validation"
+    ],
+    "tags": [
+      "dns",
+      "dnssec",
+      "Rust Language Ecosystem",
+      "doh",
+      "dot",
+      "doq",
+      "mdns",
+      "resolver",
+      "server",
+      "nameserver",
+      "recursion",
+      "Asynchronous Programming",
+      "networking",
+      "cryptography",
+      "security",
+      "rfc"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "foreign-function-interface",
+      "posix",
+      "authentication",
+      "ed25519",
+      "Distributed Garbage Collection",
+      "Promise Pipelining",
+      "capability-security",
+      "captp",
+      "ocapn",
+      "tls",
+      "Asynchronous I/O"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 8.223,
+        "matches": [
+          "captp",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 6.802,
+        "matches": [
+          "rust language ecosystem",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 6.799,
+        "matches": [
+          "foreign-function-interface",
+          "posix"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.423,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.423,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.423,
+        "matches": [
+          "asynchronous programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.989171Z"
+  }
+}

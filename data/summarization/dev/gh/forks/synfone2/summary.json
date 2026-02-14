@@ -1,0 +1,239 @@
+{
+  "name": "synfone2",
+  "description": "A modular digital signal processing engine and domain-specific language implemented in Rust for real-time audio synthesis. The system features a recursive descent parser that compiles a functional DSL into a graph of signal generators, supporting primitive oscillators, mathematical combinators, and conditional logic. It incorporates a structured binary network protocol for remote control and PCM data transmission, utilizing an internal buffer management system that distinguishes between sample-rate and control-rate processing.",
+  "tags": [
+    "rust",
+    "dsp",
+    "audio-synthesis",
+    "dsl",
+    "parser",
+    "pcm",
+    "oscillator",
+    "signal-processing",
+    "network-protocol",
+    "real-time-audio",
+    "additive-synthesis",
+    "modular-synth"
+  ],
+  "category": "Modular Digital Signal Processing Engine",
+  "concepts": [
+    "Signal Processing Graphs",
+    "Recursive Descent Parsing",
+    "PCM Serialization",
+    "Control Rate vs Sample Rate",
+    "Waveform Generation",
+    "Functional Audio Composition",
+    "Binary Wire Protocols",
+    "Lexical Analysis",
+    "Linear Sample Buffers",
+    "Frequency Modulation",
+    "Additive Synthesis",
+    "Conditional Logic in DSP",
+    "Relational Operators",
+    "Endian-aware Serialization",
+    "Dynamic Generator Dispatch",
+    "Parameter Mapping",
+    "Oscillator Phase Accumulation",
+    "Noise Generation",
+    "Arithmetic Audio Combinators",
+    "Abstract Syntax Trees",
+    "Unit Generator Architecture"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 18,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lang/mod.rs",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/synth/mod.rs"
+    ]
+  },
+  "_hash": "2b9f8a11c0ace6bbb08c39f4745a0f54e9dcc55f74f1881f3687787d0aae1bec",
+  "_path": "/Users/ember/dev/gh/forks/synfone2",
+  "_updated_at": "2026-02-14T00:56:26.970083Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Signal Processing Graphs",
+      "Recursive Descent Parsing",
+      "PCM Serialization",
+      "Control Rate vs Sample Rate",
+      "Waveform Generation",
+      "Functional Audio Composition",
+      "Binary Wire Protocols",
+      "lexical-analysis",
+      "Linear Sample Buffers",
+      "Frequency Modulation",
+      "Additive Synthesis",
+      "Conditional Logic in DSP",
+      "Relational Operators",
+      "Endian-aware Serialization",
+      "Dynamic Generator Dispatch",
+      "Parameter Mapping",
+      "Oscillator Phase Accumulation",
+      "Noise Generation",
+      "Arithmetic Audio Combinators",
+      "AST",
+      "Unit Generator Architecture"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "dsp",
+      "audio-synthesis",
+      "dsl",
+      "parser",
+      "pcm",
+      "oscillator",
+      "signal-processing",
+      "network-protocol",
+      "real-time-audio",
+      "additive-synthesis",
+      "modular-synth"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "physics-engine",
+      "lexical-analysis",
+      "Bandpass Filtering",
+      "Bilinear Transform",
+      "Biquad Cascading",
+      "Butterworth Filter Design",
+      "Complex Plane Mapping",
+      "Complex Signal Processing",
+      "Feedback Delay Networks",
+      "Finite Impulse Response",
+      "Frequency Response Modeling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.566,
+        "matches": [
+          "ast",
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.179,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.768,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.387,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.372,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.36,
+        "matches": [
+          "dsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.970083Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ad5374151c5428e652ac4c93f1a34f44fe3a8576754af3aa7e9784c714f24cb5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:34.527523+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "physics-engine",
+    "Tokenization",
+    "Bandpass Filtering",
+    "Bilinear Transform",
+    "Biquad Cascading",
+    "Butterworth Filter Design",
+    "Complex Plane Mapping",
+    "Complex Signal Processing",
+    "Feedback Delay Networks",
+    "Finite Impulse Response",
+    "Frequency Response Modeling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "stronk",
+      "path": "/Users/ember/dev/shitheap/stronk",
+      "similarity": 0.89
+    },
+    {
+      "name": "audec",
+      "path": "/Users/ember/dev/gh/forks/audec",
+      "similarity": 0.835
+    },
+    {
+      "name": "audiokart",
+      "path": "/Users/ember/dev/gh/audiokart",
+      "similarity": 0.829
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.821
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.818
+    },
+    {
+      "name": "chaingang",
+      "path": "/Users/ember/dev/chaingang",
+      "similarity": 0.815
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.813
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.811
+    }
+  ]
+}

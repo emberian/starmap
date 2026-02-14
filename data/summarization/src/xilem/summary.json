@@ -1,0 +1,250 @@
+{
+  "name": "xilem",
+  "description": "Xilem is an experimental reactive UI framework for Rust that implements a retained-mode architecture using lightweight view objects and tree diffing. Drawing inspiration from Flutter, SwiftUI, and Elm, it separates high-level view logic from a stable widget tree managed by the Masonry toolkit. The framework leverages Vello for GPU-accelerated 2D graphics and Parley for advanced text layout, emphasizing strong typing and efficient state reconciliation.",
+  "tags": [
+    "rust",
+    "ui",
+    "gui",
+    "reactive",
+    "framework",
+    "masonry",
+    "vello",
+    "parley",
+    "winit",
+    "cross-platform",
+    "accessibility",
+    "layout",
+    "graphics",
+    "state-management",
+    "retained-mode"
+  ],
+  "category": "Reactive User Interface Architecture",
+  "concepts": [
+    "Reactive UI",
+    "Retained Mode",
+    "Tree Diffing",
+    "Widget Toolkit",
+    "Pass System",
+    "Flex Layout",
+    "Grid Layout",
+    "Z-stack",
+    "Memoization",
+    "Lenses",
+    "Type Erasure",
+    "AnyView",
+    "Accessibility API",
+    "GPU Rendering",
+    "Text Shaping",
+    "Event Propagation",
+    "Animation Pass",
+    "Virtual Scrolling",
+    "Compositional UI",
+    "State Reconciliation",
+    "Window Management",
+    "Data Lensing",
+    "Component Memoization"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 477,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "masonry/src/doc/mod.rs",
+      "masonry/src/lib.rs",
+      "masonry/src/properties/mod.rs",
+      "masonry/src/properties/types/mod.rs"
+    ]
+  },
+  "_hash": "83b764e7cc9500e39b58bd4c879833c9a2a082880525d9b9c051fe09568a4ce4",
+  "_path": "/Users/ember/src/xilem",
+  "_updated_at": "2026-02-14T00:56:34.215463Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b4c00fe2faf4d51da2d689912484b3527da1846d9b33889d4cca6a822492577b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:18.269136+00:00"
+  },
+  "mined_motifs": [
+    "ssr",
+    "hydration",
+    "server-functions",
+    "wasm",
+    "signals",
+    "Functional Reactive UI",
+    "declarative-ui",
+    "fine-grained-reactivity",
+    "full-stack",
+    "isomorphic",
+    "reactivity",
+    "web-framework"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.978
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.859
+    },
+    {
+      "name": "shylem",
+      "path": "/Users/ember/dev/shylem",
+      "similarity": 0.85
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.84
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.833
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.827
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.823
+    },
+    {
+      "name": "rust-signals",
+      "path": "/Users/ember/src/rust-signals",
+      "similarity": 0.821
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Reactive UI",
+      "Retained Mode",
+      "Tree Diffing",
+      "Widget Toolkit",
+      "Pass System",
+      "Flex Layout",
+      "Grid Layout",
+      "Z-stack",
+      "Memoization",
+      "Lenses",
+      "Type Erasure",
+      "AnyView",
+      "Accessibility API",
+      "GPU Rendering",
+      "Text Shaping",
+      "Event Propagation",
+      "Animation Pass",
+      "Virtual Scrolling",
+      "Compositional UI",
+      "State Reconciliation",
+      "Window Management",
+      "Data Lensing",
+      "Component Memoization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "ui",
+      "gui",
+      "reactive",
+      "framework",
+      "masonry",
+      "vello",
+      "parley",
+      "winit",
+      "cross-platform",
+      "accessibility",
+      "layout",
+      "Computer Graphics & Rendering",
+      "state-management",
+      "retained-mode"
+    ],
+    "mined_motifs": [
+      "ssr",
+      "hydration",
+      "server-functions",
+      "WebAssembly",
+      "fine-grained-reactivity",
+      "Functional Reactive UI",
+      "declarative-ui",
+      "full-stack",
+      "isomorphic",
+      "reactivity",
+      "web-framework"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 15.242,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "server-functions"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.442,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.437,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.433,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.433,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.413,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.215463Z"
+  }
+}

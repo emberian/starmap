@@ -1,0 +1,233 @@
+{
+  "name": "runpod-rs",
+  "description": "A Rust-based SDK and command-line interface for the RunPod cloud GPU platform, facilitating automated management of GPU instances. It implements a type-safe GraphQL client to handle complex orchestration tasks such as pod spawning, spot instance bidding, and real-time resource monitoring. The repository is structured as a workspace to separate the core client logic from the user-facing CLI, providing a robust foundation for cloud-native GPU workflows.",
+  "tags": [
+    "rust",
+    "graphql",
+    "runpod",
+    "cli",
+    "sdk",
+    "cloud-gpu",
+    "nix-flake",
+    "tokio",
+    "infrastructure",
+    "api-client",
+    "gpu-orchestration",
+    "serde",
+    "reqwest",
+    "crane",
+    "clippy"
+  ],
+  "category": "Cloud GPU Orchestration",
+  "concepts": [
+    "GraphQL Query Codegen",
+    "Asynchronous I/O Runtime",
+    "Rust Workspace Architecture",
+    "Type-Safe API Bindings",
+    "Spot Instance Bidding Logic",
+    "Cloud Resource Lifecycle Management",
+    "Nix-based Reproducible Build Systems",
+    "Declarative CLI Argument Parsing",
+    "Structured Logging and Tracing",
+    "Custom Error Hierarchy",
+    "Tabular Data Serialization",
+    "Environment-based Configuration",
+    "Docker Container Template Management",
+    "GPU Hardware Metadata Querying",
+    "Authentication Middleware",
+    "HTTP Client Connection Pooling"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "crates/runpod/src/lib.rs",
+      "crates/runpod_cli/src/main.rs",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "09262519223ed594d9a4b92c89257c8c71bce66b221c9e78ff37a55c5f8749eb",
+  "_path": "/Users/ember/hellas/runpod-rs",
+  "_updated_at": "2026-02-14T00:56:31.938105Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "46b25dad0d3f0b0797f4bf6d982f24a8d12e3ddf0b8b3c0bfc3fc2d0cb421bad",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:44.872536+00:00"
+  },
+  "mined_motifs": [
+    "hardware-abstraction",
+    "low-level",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "cuda",
+    "gpgpu",
+    "intel",
+    "nvidia",
+    "opencl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.894
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.858
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.848
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.841
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.838
+    },
+    {
+      "name": "gitops-infrastructure",
+      "path": "/Users/ember/dev/gitops-infrastructure",
+      "similarity": 0.838
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "GraphQL Query Codegen",
+      "Asynchronous I/O Runtime",
+      "Rust Workspace Architecture",
+      "Type-Safe API Bindings",
+      "Spot Instance Bidding Logic",
+      "Cloud Resource Lifecycle Management",
+      "Nix-based Reproducible Build Systems",
+      "Declarative CLI Argument Parsing",
+      "Structured Logging and Tracing",
+      "Custom Error Hierarchy",
+      "Tabular Data Serialization",
+      "Environment-based Configuration",
+      "Docker Container Template Management",
+      "GPU Hardware Metadata Querying",
+      "Authentication Middleware",
+      "HTTP Client Connection Pooling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "graphql",
+      "runpod",
+      "cli",
+      "sdk",
+      "cloud-gpu",
+      "nix-flake",
+      "Asynchronous Programming",
+      "infrastructure",
+      "api-client",
+      "gpu-orchestration",
+      "serde",
+      "reqwest",
+      "crane",
+      "clippy"
+    ],
+    "mined_motifs": [
+      "hardware-abstraction",
+      "systems-programming",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "cuda",
+      "GPGPU Compute",
+      "intel",
+      "nvidia",
+      "opencl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.55,
+        "matches": [
+          "nix-flake"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.527,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.483,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.463,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.463,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.46,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.938105Z"
+  }
+}

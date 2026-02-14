@@ -1,0 +1,215 @@
+{
+  "name": "playground",
+  "description": "An asynchronous, networked key-value store implemented using the tarpc RPC framework and tokio runtime. The system employs a thread-safe, in-memory HashMap protected by an Arc-Mutex for concurrent state management across TCP connections. It utilizes custom serde-based JSON serialization for request-response multiplexing over IPv6 loopback interfaces.",
+  "tags": [
+    "rust",
+    "rpc",
+    "tarpc",
+    "tokio",
+    "async-io",
+    "key-value-store",
+    "distributed-systems",
+    "serde",
+    "json-transport",
+    "tcp-server",
+    "concurrency",
+    "futures"
+  ],
+  "category": "Asynchronous Remote Procedure Call (RPC) Systems",
+  "concepts": [
+    "Remote Procedure Call",
+    "Asynchronous Task Scheduling",
+    "In-memory State Synchronization",
+    "JSON-over-TCP Transport",
+    "Shared Mutable State",
+    "Future Polling",
+    "Trait-based Service Definition",
+    "Connection Multiplexing",
+    "Network Topology",
+    "Structured Data Serialization",
+    "Resource Locking",
+    "Arc-Mutex Pattern"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "f64bbaafcfe88757fc27c7ab21e3190c3d8bd0a8dae8109ec1229096d8ed0576",
+  "_path": "/Users/ember/dev/playground",
+  "_updated_at": "2026-02-14T00:56:29.850820Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Remote Procedure Call",
+      "Asynchronous Task Scheduling",
+      "In-memory State Synchronization",
+      "JSON-over-TCP Transport",
+      "Shared Mutable State",
+      "Future Polling",
+      "Trait-based Service Definition",
+      "Connection Multiplexing",
+      "Network Topology",
+      "Structured Data Serialization",
+      "Resource Locking",
+      "Arc-Mutex Pattern"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "rpc",
+      "tarpc",
+      "Asynchronous Programming",
+      "key-value-store",
+      "distributed-systems",
+      "serde",
+      "json-transport",
+      "tcp-server",
+      "Concurrency & Synchronization",
+      "futures"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "backend",
+      "microservice",
+      "http",
+      "rust",
+      "Asynchronous Event Loops",
+      "networking",
+      "udp",
+      "capability-security"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.909,
+        "matches": [
+          "distributed-systems",
+          "rpc"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.544,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.850820Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9f1b19d12862b3ba8991dfadd4a8ab7d81efc92f15077c5a60efe51a2c9b2dc9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:21.610722+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "backend",
+    "microservice",
+    "http",
+    "async-rust",
+    "Asynchronous Event Loops",
+    "networking",
+    "udp",
+    "capability-security"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.871
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.863
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.858
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.849
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.848
+    },
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.847
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.846
+    },
+    {
+      "name": "glosco",
+      "path": "/Users/ember/dev/glosco",
+      "similarity": 0.845
+    }
+  ]
+}

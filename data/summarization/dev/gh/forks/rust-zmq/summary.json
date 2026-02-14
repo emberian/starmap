@@ -1,0 +1,215 @@
+{
+  "name": "rust-zmq",
+  "description": "Low-level Rust FFI bindings for the ZeroMQ (ØMQ) messaging library, providing an idiomatic wrapper around the C API. It enables high-performance asynchronous messaging patterns including request-reply, pub-sub, and push-pull via a type-safe interface for sockets, contexts, and message management.",
+  "tags": [
+    "zeromq",
+    "rust",
+    "ffi",
+    "messaging",
+    "distributed-computing",
+    "networking",
+    "async-io",
+    "bindings",
+    "low-level",
+    "message-queue",
+    "sockets"
+  ],
+  "category": "Asynchronous Message-Passing Framework",
+  "concepts": [
+    "Foreign Function Interface (FFI)",
+    "Message-oriented middleware",
+    "Socket abstraction",
+    "Multiplexed I/O",
+    "Pub/Sub pattern",
+    "Request/Response pattern",
+    "Pipeline pattern",
+    "Memory-safe wrappers",
+    "Inter-process communication (IPC)",
+    "TCP networking",
+    "Zero-copy messaging"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "zmq.rs",
+      "msgsend-zmq.rs",
+      "example.rs"
+    ]
+  },
+  "_hash": "3665a283601f38d0b0bd109bbc90ff70e8980641863e37b9622f81791f272834",
+  "_path": "/Users/ember/dev/gh/forks/rust-zmq",
+  "_updated_at": "2026-02-14T00:56:26.628817Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "foreign-function-interface",
+      "Message-oriented middleware",
+      "Socket abstraction",
+      "Multiplexed I/O",
+      "Pub/Sub pattern",
+      "Request/Response pattern",
+      "Pipeline pattern",
+      "Memory-safe wrappers",
+      "Inter-process communication (IPC)",
+      "TCP networking",
+      "Zero-copy messaging"
+    ],
+    "tags": [
+      "zeromq",
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "messaging",
+      "distributed-computing",
+      "networking",
+      "Asynchronous Programming",
+      "Foreign Function Interface",
+      "systems-programming",
+      "message-queue",
+      "sockets"
+    ],
+    "mined_motifs": [
+      "rust",
+      "Asynchronous Programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Memory Management",
+      "asynchronous request-response",
+      "bearer/basic authentication",
+      "channel permission groups",
+      "chat-api",
+      "custom profile field schemas",
+      "event queue management",
+      "http-client",
+      "json-api"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 9.761,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)",
+          "rust"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.346,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.325,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.57,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.489,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 2.731,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.628817Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0035be22e35a3bbec0961c824e9ed4a899f5e522fc773d143826f96d2fca01b2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:18.572633+00:00"
+  },
+  "mined_motifs": [
+    "async-rust",
+    "tokio",
+    "resource-management",
+    "memory-management",
+    "asynchronous request-response",
+    "bearer/basic authentication",
+    "channel permission groups",
+    "chat-api",
+    "custom profile field schemas",
+    "event queue management",
+    "http-client",
+    "json-api"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.903
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.885
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.884
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.879
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.877
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.876
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.874
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.872
+    }
+  ]
+}

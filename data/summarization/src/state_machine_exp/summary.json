@@ -1,0 +1,237 @@
+{
+  "name": "state_machine_exp",
+  "description": "An experimental Rust framework for constructing and verifying systems through a rigorous state machine abstraction. It separates system logic into 'pure' and 'effectful' models, enabling deterministic simulation and side-effect-free testing of complex asynchronous behaviors. The architecture supports modular components for networking, timing, and IO, complemented by a procedural macro for type-safe state traversal and downcasting.",
+  "tags": [
+    "rust",
+    "state-machine",
+    "automata",
+    "simulation",
+    "determinism",
+    "networking",
+    "tcp",
+    "pnet",
+    "mio",
+    "formal-methods",
+    "model-based-testing",
+    "distributed-systems",
+    "proc-macro",
+    "discrete-event-simulation"
+  ],
+  "category": "Deterministic State Machine Simulation",
+  "concepts": [
+    "Finite State Automata",
+    "Pure vs Effectful Separation",
+    "Deterministic Discrete Event Simulation",
+    "Action-State Transition Systems",
+    "State Downcasting via Type Erasure",
+    "Network Protocol Modeling",
+    "TCP Stack Emulation",
+    "IO Multiplexing Abstractions",
+    "Discretized Time Modeling",
+    "Pseudo-random Number Generation",
+    "Model-based Testing Patterns",
+    "Procedural Macro State Derivation",
+    "Asynchronous Event Handling",
+    "Trait-based Component Composition",
+    "Mock Networking Layers",
+    "Formal Verification Hooks",
+    "Berkeley Packet Filter Simulation",
+    "Event-Driven Architecture",
+    "System Refinement Modeling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 81,
+    "has_readme": false,
+    "sample_files": [
+      "node/model_state_derive/src/lib.rs",
+      "node/src/automaton/mod.rs",
+      "node/src/lib.rs",
+      "node/src/models/effectful/mio/mod.rs",
+      "node/src/models/effectful/mod.rs"
+    ]
+  },
+  "_hash": "dc9e1e301d70e969dd6fda3c2042fe1b91b7985019f15dca4f82bb03d0dce225",
+  "_path": "/Users/ember/src/state_machine_exp",
+  "_updated_at": "2026-02-14T00:56:33.996614Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7f76494b548d4b3ae223932b4df242d912340cc83792a26164f5f0e7509e927e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:14.178143+00:00"
+  },
+  "mined_motifs": [
+    "fuzzing",
+    "tokio",
+    "event-driven",
+    "middleware",
+    "serialization",
+    "Reducer Pattern",
+    "redux",
+    "state-management",
+    "wasm",
+    "event-sourcing",
+    "serde",
+    "async-rust"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "muchin-clean",
+      "path": "/Users/ember/dev/muchin-clean",
+      "similarity": 0.876
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/dev/redux-rs",
+      "similarity": 0.819
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.813
+    },
+    {
+      "name": "glosco",
+      "path": "/Users/ember/dev/glosco",
+      "similarity": 0.811
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.807
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.805
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.804
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.798
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Finite State Automata",
+      "Pure vs Effectful Separation",
+      "Deterministic Discrete Event Simulation",
+      "Action-State Transition Systems",
+      "State Downcasting via Type Erasure",
+      "Network Protocol Modeling",
+      "TCP Stack Emulation",
+      "IO Multiplexing Abstractions",
+      "Discretized Time Modeling",
+      "Pseudo-random Number Generation",
+      "Model-based Testing Patterns",
+      "Procedural Macro State Derivation",
+      "Asynchronous Event Handling",
+      "Trait-based Component Composition",
+      "Mock Networking Layers",
+      "Formal Verification Hooks",
+      "Berkeley Packet Filter Simulation",
+      "Event-Driven Architecture",
+      "System Refinement Modeling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "state-machine",
+      "automata",
+      "real-time-simulation",
+      "determinism",
+      "networking",
+      "tcp",
+      "pnet",
+      "mio",
+      "formal-verification",
+      "model-based-testing",
+      "distributed-systems",
+      "proc-macro",
+      "discrete-event-simulation"
+    ],
+    "mined_motifs": [
+      "fuzzing",
+      "Asynchronous Programming",
+      "event-driven",
+      "middleware",
+      "Data Serialization",
+      "Reducer Pattern",
+      "redux",
+      "state-management",
+      "WebAssembly",
+      "event-sourcing",
+      "serde",
+      "rust"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.178,
+        "matches": [
+          "distributed-systems",
+          "event-sourcing"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.381,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.381,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.381,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.38,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.376,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.996614Z"
+  }
+}

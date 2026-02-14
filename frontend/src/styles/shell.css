@@ -1,0 +1,275 @@
+/* HUD */
+.hud {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 500ms ease, transform 650ms ease;
+  max-width: 420px;
+}
+
+.loaded .hud {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.panel {
+  pointer-events: auto;
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  background: var(--panel-bg);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.32);
+}
+
+.title-panel {
+  padding: 14px 16px;
+}
+
+.title {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.06em;
+  margin: 0;
+  font-size: clamp(1.05rem, 1.5vw, 1.4rem);
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.meta {
+  margin-top: 10px;
+  font-size: 0.73rem;
+  color: #8ba1af;
+}
+
+/* Nav panel */
+.nav-panel {
+  padding: 8px;
+}
+
+/* View toggle group */
+.view-toggle-group {
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 99px;
+  padding: 4px;
+  border: 1px solid rgba(135, 193, 217, 0.2);
+  width: 100%;
+  pointer-events: auto;
+}
+
+.view-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 99px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.view-btn.active {
+  background: var(--accent-gold);
+  color: var(--bg-void);
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(197, 174, 117, 0.3);
+}
+
+.view-btn:hover:not(.active) {
+  color: var(--text-main);
+  background: rgba(135, 193, 217, 0.1);
+}
+
+/* Control panel */
+.control-panel {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 420px;
+}
+
+.control-panel input,
+.control-panel select,
+.control-panel button {
+  font: inherit;
+  border-radius: 9px;
+  border: 1px solid rgba(135, 193, 217, 0.35);
+  background: rgba(6, 12, 20, 0.82);
+  color: var(--text-main);
+  padding: 8px 10px;
+}
+
+.control-panel input {
+  min-width: 180px;
+  flex: 1 1 200px;
+}
+
+.control-panel button {
+  cursor: pointer;
+  transition: border-color 220ms ease, transform 220ms ease, background 220ms ease;
+}
+
+.control-panel button:hover {
+  border-color: var(--accent-gold);
+  transform: translateY(-1px);
+}
+
+/* Search */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.search-container input {
+  width: 100%;
+  padding-right: 32px;
+}
+
+.search-clear {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  user-select: none;
+  display: none;
+  pointer-events: auto;
+}
+
+.search-container input:not(:placeholder-shown) + .search-clear {
+  display: block;
+}
+
+.search-clear:hover {
+  color: var(--accent-gold);
+}
+
+/* Filters */
+.filters-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.controls-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  pointer-events: auto;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.76rem;
+  color: var(--text-dim);
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.toggle input {
+  accent-color: var(--accent-emerald);
+  min-width: 0;
+}
+
+.sync-status {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: #9db4c3;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.sync-status.ok { color: #94d1bb; }
+.sync-status.warn { color: #d9bd86; }
+.sync-status.err { color: #d59a91; }
+
+@media (max-width: 980px) {
+  .hud {
+    right: 12px;
+    left: 12px;
+    top: 12px;
+    max-width: none;
+    gap: 8px;
+  }
+
+  .control-panel {
+    width: auto;
+  }
+
+  .title {
+    font-size: 1.02rem;
+  }
+}
+
+/* Phone: compact everything */
+@media (max-width: 640px) {
+  .hud {
+    right: 8px;
+    left: 8px;
+    top: 8px;
+    max-width: none;
+    gap: 6px;
+  }
+
+  /* Collapse title panel to just the title */
+  .title-panel {
+    padding: 8px 12px;
+  }
+
+  .title-panel .subtitle,
+  .title-panel .meta {
+    display: none;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  /* Smaller nav pills */
+  .nav-panel {
+    padding: 4px;
+  }
+
+  .view-toggle-group {
+    padding: 3px;
+  }
+
+  .view-btn {
+    padding: 6px 6px;
+    font-size: 0.68rem;
+  }
+
+  /* Compact control panel */
+  .control-panel {
+    width: auto;
+    padding: 8px 10px;
+    gap: 8px;
+  }
+
+  /* Hide all filters on phone — search is enough */
+  .filters-group {
+    display: none;
+  }
+}

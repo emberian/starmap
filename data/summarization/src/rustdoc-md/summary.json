@@ -1,0 +1,211 @@
+{
+  "name": "rustdoc-md",
+  "description": "A specialized utility and library for synthesizing structured Markdown documentation from the unstable rustdoc JSON output format. It performs recursive traversal of the rustdoc_types::Crate index to faithfully represent module hierarchies, trait implementations, and complex function signatures while ensuring high readability. The implementation supports both local JSON artifact processing and automated retrieval of zstd-compressed documentation from docs.rs for arbitrary targets.",
+  "tags": [
+    "rustdoc",
+    "markdown",
+    "rust",
+    "cli",
+    "documentation-generator",
+    "json",
+    "docs-rs",
+    "api-docs",
+    "static-analysis",
+    "serialization"
+  ],
+  "category": "API Documentation Synthesis",
+  "concepts": [
+    "rustdoc-json-schema",
+    "crate-index-traversal",
+    "module-resolution",
+    "trait-bounds-rendering",
+    "re-export-handling",
+    "markdown-templating",
+    "zstd-decompression",
+    "web-api-integration",
+    "cli-argument-parsing",
+    "type-alias-resolution",
+    "generic-parameter-synthesis",
+    "visibility-filtering"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "edfc4b267204cb9ee85189e4edb4cdcf7de610d4a4c6584c5d96ab835f06750c",
+  "_path": "/Users/ember/src/rustdoc-md",
+  "_updated_at": "2026-02-14T00:56:33.933317Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6f234fe1d1212dfd5df628ac82c74349667b84b46115b4fb8a5354bd4051faa9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:05.894027+00:00"
+  },
+  "mined_motifs": [
+    "cargo",
+    "mcp",
+    "llm-context",
+    "developer-tools",
+    "crates-io",
+    "Model Context Protocol (MCP)",
+    "json-rpc",
+    "metadata-extraction",
+    "Asynchronous Task Management",
+    "Cargo Metadata Analysis",
+    "Crate Versioning",
+    "Crates.io API Integration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.873
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.871
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.868
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.857
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.855
+    },
+    {
+      "name": "doc_builder",
+      "path": "/Users/ember/dev/gh/doc_builder",
+      "similarity": 0.854
+    },
+    {
+      "name": "cargo-public-api",
+      "path": "/Users/ember/src/cargo-public-api",
+      "similarity": 0.847
+    },
+    {
+      "name": "crates_llms_txt",
+      "path": "/Users/ember/src/crates_llms_txt",
+      "similarity": 0.841
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "rustdoc-json-schema",
+      "crate-index-traversal",
+      "module-resolution",
+      "trait-bounds-rendering",
+      "re-export-handling",
+      "markdown-templating",
+      "zstd-decompression",
+      "web-api-integration",
+      "cli-argument-parsing",
+      "type-alias-resolution",
+      "generic-parameter-synthesis",
+      "visibility-filtering"
+    ],
+    "tags": [
+      "rustdoc",
+      "markdown",
+      "Rust Language Ecosystem",
+      "cli",
+      "documentation-generator",
+      "json",
+      "docs-rs",
+      "api-docs",
+      "static-analysis",
+      "Data Serialization"
+    ],
+    "mined_motifs": [
+      "cargo",
+      "model-context-protocol",
+      "llm-context",
+      "developer-tools",
+      "crates-io",
+      "json-rpc",
+      "metadata-extraction",
+      "Asynchronous Task Management",
+      "Cargo Metadata Analysis",
+      "Crate Versioning",
+      "Crates.io API Integration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.48,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.404,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.372,
+        "matches": [
+          "markdown"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.311,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.308,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.989,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.933317Z"
+  }
+}

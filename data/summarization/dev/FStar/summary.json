@@ -1,0 +1,266 @@
+{
+  "name": "FStar",
+  "description": "F* is a proof-oriented functional programming language that integrates dependent types, refinement types, and monadic effects for formal program verification. It leverages SMT solvers for automated proof discharge while providing a robust meta-programming framework via interactive tactics and reflection. The system supports high-performance systems programming through the Low* subset and provides mature extraction pipelines to OCaml, F#, C, and WebAssembly.",
+  "tags": [
+    "dependent-types",
+    "formal-verification",
+    "smt-solver",
+    "tactics",
+    "metaprogramming",
+    "refinement-types",
+    "compiler",
+    "functional-programming",
+    "z3",
+    "ocaml",
+    "program-extraction",
+    "interactive-theorem-proving",
+    "systems-verification",
+    "type-theory",
+    "monads",
+    "lowstar"
+  ],
+  "category": "Dependently Typed Verification Language",
+  "concepts": [
+    "dependent-types",
+    "refinement-types",
+    "monadic-effects",
+    "smt-encoding",
+    "interactive-tactics",
+    "normalization-by-evaluation",
+    "program-extraction",
+    "ghost-code",
+    "termination-checking",
+    "metaprogramming-reflection",
+    "quasiquotation",
+    "algebraic-effects",
+    "type-inference",
+    "universe-polymorphism",
+    "higher-order-abstract-syntax",
+    "formal-semantics",
+    "proof-automation",
+    "verifiable-systems-programming",
+    "lowstar-c-extraction",
+    "karamel-compiler",
+    "dependent-inductive-types",
+    "intrinsic-verification",
+    "extrinsic-verification",
+    "dijkstra-monads",
+    "logical-connectives",
+    "well-founded-recursion",
+    "type-classes",
+    "subtyping",
+    "higher-kinded-types"
+  ],
+  "languages": [
+    "OCaml",
+    "C",
+    "C++",
+    "Python",
+    "Shell",
+    "Nix"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 5181,
+    "has_readme": true,
+    "sample_files": [
+      "flake.nix",
+      "Makefile",
+      "ocaml/fstar-lib/generated/FStar_Syntax_Syntax.ml",
+      "ocaml/fstar-lib/generated/FStar_Extraction_ML_RegEmb.ml",
+      "ocaml/fstar-lib/generated/FStar_Tactics_V1_Logic.ml"
+    ]
+  },
+  "_hash": "5cccde0c62d52ec177704196d919861ae27e07454ee049f80362995e3848a851",
+  "_path": "/Users/ember/dev/FStar",
+  "_updated_at": "2026-02-14T00:56:23.375041Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "dependent-types",
+      "refinement-types",
+      "monadic-effects",
+      "smt-encoding",
+      "interactive-tactics",
+      "normalization-by-evaluation",
+      "program-extraction",
+      "ghost-code",
+      "termination-checking",
+      "metaprogramming-reflection",
+      "quasiquotation",
+      "algebraic-effects",
+      "type-inference",
+      "universe-polymorphism",
+      "higher-order-abstract-syntax",
+      "formal-semantics",
+      "formal-verification",
+      "verifiable-systems-programming",
+      "lowstar-c-extraction",
+      "karamel-compiler",
+      "dependent-inductive-types",
+      "intrinsic-verification",
+      "extrinsic-verification",
+      "dijkstra-monads",
+      "logical-connectives",
+      "well-founded-recursion",
+      "type-classes",
+      "subtyping",
+      "higher-kinded-types"
+    ],
+    "tags": [
+      "dependent-types",
+      "formal-methods",
+      "smt-solver",
+      "tactics",
+      "metaprogramming",
+      "refinement-types",
+      "compiler-design",
+      "functional-programming",
+      "z3",
+      "ocaml",
+      "program-extraction",
+      "Interactive Theorem Proving (ITP)",
+      "systems-verification",
+      "type-theory",
+      "monads",
+      "lowstar"
+    ],
+    "mined_motifs": [
+      "formal-verification",
+      "Interactive Theorem Proving (ITP)",
+      "standard-ml",
+      "automated-reasoning",
+      "Inductive Definitions",
+      "Verification Condition Generation",
+      "Term Rewriting",
+      "foreign-function-interface",
+      "Register Allocation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 9.661,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "z3"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.261,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.258,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.484,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.359,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.312,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.375041Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "87610f87eac1d0f9d9f61ca2f5c89bd958b9fc31b8c95f0e9a95945ff75e192c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:19.534830+00:00"
+  },
+  "mined_motifs": [
+    "formal-methods",
+    "theorem-proving",
+    "standard-ml",
+    "automated-reasoning",
+    "proof-assistant",
+    "Inductive Definitions",
+    "Verification Condition Generation",
+    "Term Rewriting",
+    "theorem-prover",
+    "Foreign Function Interface",
+    "Register Allocation",
+    "ffi"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.833
+    },
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.827
+    },
+    {
+      "name": "lean",
+      "path": "/Users/ember/dev/gh/forks/lean",
+      "similarity": 0.826
+    },
+    {
+      "name": "CakeML",
+      "path": "/Users/ember/dev/CakeML",
+      "similarity": 0.823
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.817
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.817
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.81
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.807
+    }
+  ]
+}

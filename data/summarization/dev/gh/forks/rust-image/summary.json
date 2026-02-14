@@ -1,0 +1,228 @@
+{
+  "name": "rust-image",
+  "description": "A foundational image processing library for Rust providing native encoders and decoders for common formats including JPEG, PNG, GIF, and WebP. It implements a robust trait-based architecture for pixel manipulation and dynamic image handling, supporting operations like Gaussian blur, affine transformations, and colorspace conversions.",
+  "tags": [
+    "image-processing",
+    "codec",
+    "rust-crate",
+    "encoder",
+    "decoder",
+    "jpeg",
+    "png",
+    "gif",
+    "webp",
+    "pixel-manipulation",
+    "colorspace",
+    "affine-transform",
+    "imaging",
+    "graphics",
+    "native-rust"
+  ],
+  "category": "Digital Image Processing",
+  "concepts": [
+    "Generic Image Trait",
+    "Dynamic Image Dispatch",
+    "Huffman Coding",
+    "Discrete Cosine Transform",
+    "LZW Compression",
+    "Zlib Deflate",
+    "Bayer Filtering",
+    "Gaussian Smoothing",
+    "Lanczos Resampling",
+    "Alpha Compositing",
+    "Scanline Decoding",
+    "Subsampling",
+    "Quantization Tables",
+    "VP8 Video Intra-prediction",
+    "CRC-32 Integrity",
+    "Endian-aware Byte Streams"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 215,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/gif/mod.rs",
+      "src/imageops/mod.rs",
+      "src/jpeg/mod.rs"
+    ]
+  },
+  "_hash": "052da8422d67bdf100c46c08e4d5b767e349742e40058ff87a498857fa43af0a",
+  "_path": "/Users/ember/dev/gh/forks/rust-image",
+  "_updated_at": "2026-02-14T00:56:26.591741Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Generic Image Trait",
+      "Dynamic Image Dispatch",
+      "Huffman Coding",
+      "Discrete Cosine Transform",
+      "LZW Compression",
+      "Zlib Deflate",
+      "Bayer Filtering",
+      "Gaussian Smoothing",
+      "Lanczos Resampling",
+      "Alpha Compositing",
+      "Scanline Decoding",
+      "Subsampling",
+      "Quantization Tables",
+      "VP8 Video Intra-prediction",
+      "CRC-32 Integrity",
+      "Endian-aware Byte Streams"
+    ],
+    "tags": [
+      "image-processing",
+      "codec",
+      "rust-crate",
+      "encoder",
+      "decoder",
+      "jpeg",
+      "png",
+      "gif",
+      "webp",
+      "pixel-manipulation",
+      "colorspace",
+      "affine-transform",
+      "imaging",
+      "Computer Graphics & Rendering",
+      "native-rust"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "image-codec",
+      "color-conversion",
+      "quantization",
+      "Adam7 Interlacing",
+      "Bit Depth Handling",
+      "CRC-32",
+      "Chunk-based Parsing",
+      "Color Type Mapping",
+      "DEFLATE Decompression",
+      "IDAT Streaming",
+      "IHDR Metadata"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.481,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.435,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.432,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 3.943,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.669,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.66,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.591741Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a15aa6994caa2eb240c737e1984acb3b3ccb17d353c91905b6d6a2fee931e6e1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:13.683607+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "image-codec",
+    "color-conversion",
+    "quantization",
+    "Adam7 Interlacing",
+    "Bit Depth Handling",
+    "CRC-32",
+    "Chunk-based Parsing",
+    "Color Type Mapping",
+    "DEFLATE Decompression",
+    "IDAT Streaming",
+    "IHDR Metadata"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "TEMP-rust-png",
+      "path": "/Users/ember/dev/gh/TEMP-rust-png",
+      "similarity": 0.915
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.879
+    },
+    {
+      "name": "Pillow",
+      "path": "/Users/ember/dev/gh/forks/Pillow",
+      "similarity": 0.867
+    },
+    {
+      "name": "libjpeg",
+      "path": "/Users/ember/src/qt6-build/qtbase/src/3rdparty/libjpeg",
+      "similarity": 0.859
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.856
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.854
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.852
+    }
+  ]
+}

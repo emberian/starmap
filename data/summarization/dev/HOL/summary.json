@@ -1,0 +1,268 @@
+{
+  "name": "HOL4",
+  "description": "HOL4 is an interactive theorem prover for higher-order logic based on the LCF approach, ensuring logical consistency through a small trusted kernel of primitive inference rules. It provides a robust environment for formal verification and mathematical formalization, featuring an extensible tactic system, a powerful simplifier, and seamless integration with external SAT/SMT solvers. The system is primarily implemented in Standard ML and supports complex proof engineering for hardware, software, and pure mathematics.",
+  "tags": [
+    "theorem-prover",
+    "higher-order-logic",
+    "formal-verification",
+    "lcf-style",
+    "standard-ml",
+    "interactive-proof",
+    "automated-reasoning",
+    "formal-methods",
+    "mathematical-logic",
+    "sat-solving",
+    "proof-assistant",
+    "kananaskis",
+    "model-checking",
+    "hardware-verification",
+    "polyml",
+    "moscow-ml"
+  ],
+  "category": "Interactive Theorem Proving",
+  "concepts": [
+    "Higher-Order Logic",
+    "LCF Architecture",
+    "Primitive Inference Rules",
+    "Tactical Proof",
+    "Goal-Directed Reasoning",
+    "Standard ML Implementation",
+    "Simplification Engine",
+    "Inductive Definitions",
+    "Formal Semantics",
+    "Hardware Formalization",
+    "Term Rewriting",
+    "Decision Procedures",
+    "SAT Integration",
+    "SMT Integration",
+    "Binary Decision Diagrams",
+    "Theory Hierarchy",
+    "Abstract Data Types for Theorems",
+    "Variable Reordering",
+    "Conversions",
+    "Inductive Reasoning",
+    "Proof Objects",
+    "Verification Condition Generation",
+    "Linear Arithmetic",
+    "Quantifier Elimination",
+    "Word Theories",
+    "Floating Point Verification",
+    "Probabilistic Reasoning",
+    "Holmakefile Build System",
+    "Interactive Read-Eval-Print Loop"
+  ],
+  "languages": [
+    "Standard ML",
+    "C",
+    "C++",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 8216,
+    "has_readme": true,
+    "sample_files": [
+      "examples/acl2/examples/acl2-hol-ltl-paper-example/summary.ml",
+      "examples/acl2/ml/kpa-v2-9-3.ml",
+      "examples/acl2/examples/acl2-hol-ltl-paper-example/circuit-bisim.ml",
+      "examples/muddy/muddyC/buddy/src/bddop.c",
+      "examples/acl2/ml/make_sexp.ml"
+    ]
+  },
+  "_hash": "d84f60c7f5565fb4c575b067fc9c88c1f58182715b88d70e25da7a71380ad864",
+  "_path": "/Users/ember/dev/HOL",
+  "_updated_at": "2026-02-14T00:56:23.382804Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Higher-Order Logic",
+      "LCF Architecture",
+      "Primitive Inference Rules",
+      "Tactical Proof",
+      "Goal-Directed Reasoning",
+      "Standard ML Implementation",
+      "Simplification Engine",
+      "Inductive Definitions",
+      "formal-methods",
+      "Hardware Formalization",
+      "Term Rewriting",
+      "Decision Procedures",
+      "SAT Integration",
+      "SMT Integration",
+      "Binary Decision Diagrams",
+      "Theory Hierarchy",
+      "Abstract Data Types for Theorems",
+      "Variable Reordering",
+      "Conversions",
+      "Inductive Reasoning",
+      "Proof Objects",
+      "Verification Condition Generation",
+      "Linear Arithmetic",
+      "Quantifier Elimination",
+      "Word Theories",
+      "Floating Point Verification",
+      "Probabilistic Reasoning",
+      "Holmakefile Build System",
+      "Interactive Read-Eval-Print Loop"
+    ],
+    "tags": [
+      "Interactive Theorem Proving (ITP)",
+      "higher-order-logic",
+      "formal-methods",
+      "lcf-style",
+      "standard-ml",
+      "interactive-proof",
+      "automated-reasoning",
+      "formal-verification",
+      "mathematical-logic",
+      "sat-solving",
+      "kananaskis",
+      "model-checking",
+      "hardware-verification",
+      "polyml",
+      "moscow-ml"
+    ],
+    "mined_motifs": [
+      "Interactive Theorem Proving (ITP)",
+      "Dependent Type Theory",
+      "dependent-types",
+      "lean-prover",
+      "Type Class Inference",
+      "logic",
+      "foreign-function-interface",
+      "Register Allocation",
+      "functional-programming",
+      "Abstract Interpretation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 12.322,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.322,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.313,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 8.164,
+        "matches": [
+          "dependent type theory",
+          "formal-verification",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.555,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.354,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.382804Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6fce6746eac243dc13a05aaf8a07f8cd2a65dbf63cfcf9ec4e4275d2d2b8df29",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:20.581860+00:00"
+  },
+  "mined_motifs": [
+    "theorem-proving",
+    "Dependent Type Theory",
+    "dependent-types",
+    "lean-prover",
+    "Type Class Inference",
+    "logic",
+    "Foreign Function Interface",
+    "Register Allocation",
+    "ffi",
+    "interactive-theorem-proving",
+    "functional-programming",
+    "Abstract Interpretation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.883
+    },
+    {
+      "name": "lean",
+      "path": "/Users/ember/dev/gh/forks/lean",
+      "similarity": 0.862
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.855
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.849
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.843
+    },
+    {
+      "name": "CakeML",
+      "path": "/Users/ember/dev/CakeML",
+      "similarity": 0.842
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.838
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.834
+    }
+  ]
+}

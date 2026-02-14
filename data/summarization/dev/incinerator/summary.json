@@ -1,0 +1,254 @@
+{
+  "name": "incinerator",
+  "description": "An implementation of the Ueno-Ohori concurrent, exact, and non-moving garbage collector in Rust, based on the ICFP'16 research paper. It utilizes tree-structured bitmaps for mark-bit management and a sophisticated handshake mechanism to synchronize mutator threads with the collector. The library provides a segmented heap architecture with size-class partitioning and write barriers to ensure memory safety in highly concurrent environments.",
+  "tags": [
+    "garbage-collection",
+    "rust",
+    "concurrent-systems",
+    "non-moving-gc",
+    "tracing-gc",
+    "memory-management",
+    "ueno-ohori",
+    "write-barrier",
+    "segmented-heap",
+    "bitmap-allocator",
+    "icfp-2016",
+    "lock-free",
+    "systems-programming"
+  ],
+  "category": "Concurrent Tracing Garbage Collection",
+  "concepts": [
+    "Ueno-Ohori Algorithm",
+    "Exact Tracing",
+    "Non-moving Garbage Collection",
+    "Write Barriers",
+    "Tree-structured Bitmaps",
+    "Subheap Partitioning",
+    "Handshake Synchronization",
+    "Thread-local Heap Registration",
+    "Root Enumeration",
+    "Segment-based Memory Allocation",
+    "Atomic State Transitions",
+    "Concurrent Mark-and-Sweep",
+    "ICFP 2016",
+    "Allocator Design",
+    "Memory Layout Optimization",
+    "Wait-free Synchronization",
+    "Object Headers",
+    "Finalization Logic",
+    "Pointer Metadata",
+    "Thread-local Storage",
+    "Mark-Sweep Phases",
+    "Reference Counting",
+    "Barrier Synchronization",
+    "Size-class Allocation",
+    "Bit Manipulation",
+    "Memory Reclamation",
+    "VTable Mapping",
+    "Cache Locality Optimization",
+    "Heap Snapshotting"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/heap.rs",
+      "src/bitmap.rs",
+      "src/segment.rs"
+    ]
+  },
+  "_hash": "c356aa9fdd4257b096ef29131735695d1ab75a4effd9e9af0bcb5cfe9e89a56f",
+  "_path": "/Users/ember/dev/incinerator",
+  "_updated_at": "2026-02-14T00:56:29.128191Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Ueno-Ohori Algorithm",
+      "Exact Tracing",
+      "Non-moving Garbage Collection",
+      "Write Barriers",
+      "Tree-structured Bitmaps",
+      "Subheap Partitioning",
+      "Handshake Synchronization",
+      "Thread-local Heap Registration",
+      "Root Enumeration",
+      "Segment-based Memory Allocation",
+      "Atomic State Transitions",
+      "Concurrent Mark-and-Sweep",
+      "ICFP 2016",
+      "Allocator Design",
+      "Memory Layout Optimization",
+      "Wait-free Synchronization",
+      "Object Headers",
+      "Finalization Logic",
+      "Pointer Metadata",
+      "Thread-local Storage",
+      "Mark-Sweep Phases",
+      "Reference Counting",
+      "Barrier Synchronization",
+      "Size-class Allocation",
+      "Bit Manipulation",
+      "Memory Reclamation",
+      "VTable Mapping",
+      "Cache Locality Optimization",
+      "Heap Snapshotting"
+    ],
+    "tags": [
+      "garbage-collection",
+      "Rust Language Ecosystem",
+      "concurrent-systems",
+      "non-moving-gc",
+      "tracing-gc",
+      "Memory Management",
+      "ueno-ohori",
+      "write-barrier",
+      "segmented-heap",
+      "bitmap-allocator",
+      "icfp-2016",
+      "lock-free",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "Concurrency & Synchronization",
+      "bitmap",
+      "Non-moving Memory Management",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Memory Management",
+      "Global State Synchronization Handshakes",
+      "Object Header Packing",
+      "Segment-based Allocation",
+      "Thread-local Subheaps",
+      "Wait-free Allocation Path",
+      "Depth-First Search",
+      "Interior Mutability"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.27,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.232,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.461,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 5.452,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.448,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.631,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.128191Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5a770875a1360c0381e5094d2554ea57ce8a490c685fecb1013ab582bf1ef7f9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:46.913388+00:00"
+  },
+  "mined_motifs": [
+    "concurrency",
+    "bitmap",
+    "Non-moving Memory Management",
+    "resource-management",
+    "Manual Memory Management",
+    "Global State Synchronization Handshakes",
+    "Object Header Packing",
+    "Segment-based Allocation",
+    "Thread-local Subheaps",
+    "Wait-free Allocation Path",
+    "Depth-First Search",
+    "Interior Mutability"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "incinerator",
+      "path": "/Users/ember/dev/gh/incinerator",
+      "similarity": 0.934
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.836
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.83
+    },
+    {
+      "name": "embershot",
+      "path": "/Users/ember/dev/embershot",
+      "similarity": 0.829
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.825
+    }
+  ]
+}

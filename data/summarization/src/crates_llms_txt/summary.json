@@ -1,0 +1,216 @@
+{
+  "name": "crates_llms_txt",
+  "description": "A multi-language toolchain designed to transform Rust crate documentation into structured formats optimized for Large Language Model consumption. It orchestrates asynchronous retrieval from docs.rs using zstd decompression and local documentation synthesis via rustdoc-json extraction. The project implements a robust compatibility layer to handle evolving rustdoc schemas and provides native Node.js integration through NAPI-RS bindings.",
+  "tags": [
+    "rust",
+    "typescript",
+    "llm-context",
+    "rustdoc",
+    "napi-rs",
+    "zstd",
+    "documentation-generator",
+    "crates-io",
+    "semantic-context",
+    "async-io",
+    "json-serialization",
+    "metadata-extraction"
+  ],
+  "category": "Rustdoc-to-LLM Context Engineering",
+  "concepts": [
+    "Rustdoc JSON Schema Transformation",
+    "Zstandard Decompression",
+    "NAPI-RS Foreign Function Interface",
+    "Asynchronous Document Retrieval",
+    "Cross-version Compiler Compatibility",
+    "Feature-aware Documentation Synthesis",
+    "Semantic Mapping for LLMs",
+    "Cargo Build Orchestration",
+    "Intra-doc Link Resolution",
+    "LLM Context Window Optimization"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 47,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "napi/index.js",
+      "napi/src/lib.rs",
+      "rs-lib/src/lib.rs",
+      "rs-lib/src/gen_docs.rs"
+    ]
+  },
+  "_hash": "f46675a06ae500670fe65b49afe1c3413ce88a7ae8fd48a51fe79a22f59ccbcc",
+  "_path": "/Users/ember/src/crates_llms_txt",
+  "_updated_at": "2026-02-14T00:56:32.376615Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9f97e1e1d0f15255db2ee08c55ad6a5c571de53e4e4fef64b0f96ff6436a4814",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:07.512412+00:00"
+  },
+  "mined_motifs": [
+    "static-analysis",
+    "mcp",
+    "cli",
+    "cargo",
+    "docs-rs",
+    "Model Context Protocol (MCP)",
+    "json-rpc",
+    "developer-tools",
+    "documentation",
+    "Context Window Optimization",
+    "HTML Content Extraction",
+    "Rust Crate API Discovery"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.884
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.849
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.841
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.837
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.821
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.801
+    },
+    {
+      "name": "doc_builder",
+      "path": "/Users/ember/dev/gh/doc_builder",
+      "similarity": 0.787
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.771
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Rustdoc JSON Schema Transformation",
+      "Zstandard Decompression",
+      "NAPI-RS Foreign Function Interface",
+      "Asynchronous Document Retrieval",
+      "Cross-version Compiler Compatibility",
+      "Feature-aware Documentation Synthesis",
+      "Semantic Mapping for LLMs",
+      "Cargo Build Orchestration",
+      "Intra-doc Link Resolution",
+      "LLM Context Window Optimization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "typescript",
+      "llm-context",
+      "rustdoc",
+      "napi-rs",
+      "zstd",
+      "documentation-generator",
+      "crates-io",
+      "semantic-context",
+      "Asynchronous Programming",
+      "Data Serialization",
+      "metadata-extraction"
+    ],
+    "mined_motifs": [
+      "static-analysis",
+      "model-context-protocol",
+      "cli",
+      "cargo",
+      "docs-rs",
+      "json-rpc",
+      "developer-tools",
+      "documentation",
+      "Context Window Optimization",
+      "HTML Content Extraction",
+      "Rust Crate API Discovery"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 6.661,
+        "matches": [
+          "documentation",
+          "cargo"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.417,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.352,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.188,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.155,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.148,
+        "matches": [
+          "data serialization"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.376615Z"
+  }
+}

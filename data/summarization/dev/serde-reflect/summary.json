@@ -1,0 +1,250 @@
+{
+  "name": "serde-reflect",
+  "description": "A Rust library providing safe runtime reflection and metadata-driven serialization to combat code bloat from extensive Serde derivations. It leverages a reflection database and a custom procedural macro to map Rust type layouts into a uniform runtime representation, enabling generic marshalling without per-type code generation. The system supports complex structures including enums and generic types while maintaining compatibility with the Serde data model.",
+  "tags": [
+    "rust",
+    "reflection",
+    "serde",
+    "serialization",
+    "deserialization",
+    "code-bloat",
+    "procedural-macro",
+    "metadata",
+    "rtti",
+    "type-erasure",
+    "no-std",
+    "memory-layout",
+    "binary-size",
+    "introspection"
+  ],
+  "category": "Reflection-Based Serialization",
+  "concepts": [
+    "Runtime Type Information (RTTI)",
+    "Type Erasure",
+    "Procedural Macros",
+    "Reflection Database",
+    "Data Shape Modeling",
+    "Memory Offsets",
+    "Static Reflection",
+    "Dynamic Reflection",
+    "Serde Integration",
+    "Type Metadata",
+    "Layout Inspection",
+    "Enum Introspection",
+    "Generic Type Reflection",
+    "Attribute Reflection",
+    "Leaf Type Registration",
+    "Recursive Metadata Structures",
+    "VTable Pointer Manipulation",
+    "Trait Object Transmutation",
+    "Deserializer Trampolines",
+    "Deserialization Seed Implementation",
+    "Fixed-Size Array Representation",
+    "Copy-On-Write (Cow) Optimization",
+    "No-Std Environment Support",
+    "Const-Time Type IDs",
+    "Field Alignment and Padding",
+    "Variant Metadata"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "derive/src/lib.rs",
+      "src/lib.rs",
+      "src/de.rs",
+      "src/ser.rs"
+    ]
+  },
+  "_hash": "436bba859e63cd97fe4ee2a18992c608a31c4d7b9a24eff5945d56ef883ece4e",
+  "_path": "/Users/ember/dev/serde-reflect",
+  "_updated_at": "2026-02-14T00:56:30.194248Z",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "Runtime Type Information (RTTI)",
+      "Type Erasure",
+      "Procedural Macros",
+      "Reflection Database",
+      "Data Shape Modeling",
+      "Memory Offsets",
+      "Static Reflection",
+      "Dynamic Reflection",
+      "Serde Integration",
+      "Type Metadata",
+      "Layout Inspection",
+      "Enum Introspection",
+      "Generic Type Reflection",
+      "Attribute Reflection",
+      "Leaf Type Registration",
+      "Recursive Metadata Structures",
+      "VTable Pointer Manipulation",
+      "Trait Object Transmutation",
+      "Deserializer Trampolines",
+      "Deserialization Seed Implementation",
+      "Fixed-Size Array Representation",
+      "Copy-On-Write (Cow) Optimization",
+      "No-Std Environment Support",
+      "Const-Time Type IDs",
+      "Field Alignment and Padding",
+      "Variant Metadata"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "reflection",
+      "serde",
+      "Data Serialization",
+      "deserialization",
+      "code-bloat",
+      "procedural-macro",
+      "metadata",
+      "rtti",
+      "type-erasure",
+      "memory-layout",
+      "binary-size",
+      "introspection"
+    ],
+    "mined_motifs": [
+      "zero-copy",
+      "data-interchange",
+      "rpc",
+      "performance",
+      "binary-protocol",
+      "capnproto",
+      "schema-compiler",
+      "Const Generics Reflection",
+      "Data Shape Metadata",
+      "Dynamic Dispatch",
+      "Enum Discriminant Mapping",
+      "Memory Layout Inspection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.924,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.544,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.449,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 3.974,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 3.911,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.775,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.194248Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4959fdafae913b89b96177a64369f66f79d890cea36093b508f821740b9b1cfa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:35.475051+00:00"
+  },
+  "mined_motifs": [
+    "zero-copy",
+    "data-interchange",
+    "rpc",
+    "performance",
+    "binary-protocol",
+    "capnproto",
+    "schema-compiler",
+    "Const Generics Reflection",
+    "Data Shape Metadata",
+    "Dynamic Dispatch",
+    "Enum Discriminant Mapping",
+    "Memory Layout Inspection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.978
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.883
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.88
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.859
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.858
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.853
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.849
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.848
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "crates_io_api",
+  "description": "A Rust-native client library providing a comprehensive interface to the crates.io package registry API. It implements dual synchronous and asynchronous client architectures, the latter leveraging legacy futures 0.1 and tokio 0.1 via reqwest, to facilitate structured retrieval of crate metadata, dependency graphs, and download statistics. The project utilizes strongly-typed domain models for robust deserialization of registry responses.",
+  "tags": [
+    "rust",
+    "crates-io",
+    "api-client",
+    "async",
+    "sync",
+    "reqwest",
+    "serde",
+    "metadata",
+    "dependencies",
+    "registry",
+    "tokio",
+    "json",
+    "crates",
+    "ecosystem",
+    "rest-api"
+  ],
+  "category": "Package Registry Client",
+  "concepts": [
+    "RESTful API Interaction",
+    "Synchronous HTTP",
+    "Asynchronous Futures",
+    "JSON Serialization/Deserialization",
+    "Package Registry Metadata",
+    "Dependency Tree Traversal",
+    "Reverse Dependency Resolution",
+    "Paginated Resource Retrieval",
+    "User Agent Specification",
+    "Crate Versioning",
+    "Crate Ownership",
+    "Download Analytics",
+    "Categorization Systems",
+    "Keyword-based Discovery",
+    "Error Propagation",
+    "URL Pattern Matching",
+    "Strongly-Typed Domain Models",
+    "HTTP Status Mapping",
+    "Tokio Runtime Integration",
+    "Future-based Streams"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/async_client.rs",
+      "src/sync_client.rs",
+      "src/types.rs"
+    ]
+  },
+  "_hash": "75fdb6ba037fe34e3394af34fff72b2e32cd456f92506f084a6b1aa2471c1842",
+  "_path": "/Users/ember/dev/gh/forks/crates_io_api",
+  "_updated_at": "2026-02-14T00:56:25.479506Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "RESTful API Interaction",
+      "Synchronous HTTP",
+      "Asynchronous Futures",
+      "JSON Serialization/Deserialization",
+      "Package Registry Metadata",
+      "Dependency Tree Traversal",
+      "Reverse Dependency Resolution",
+      "Paginated Resource Retrieval",
+      "User Agent Specification",
+      "Crate Versioning",
+      "Crate Ownership",
+      "Download Analytics",
+      "Categorization Systems",
+      "Keyword-based Discovery",
+      "Error Propagation",
+      "URL Pattern Matching",
+      "Strongly-Typed Domain Models",
+      "HTTP Status Mapping",
+      "Tokio Runtime Integration",
+      "Future-based Streams"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "crates-io",
+      "api-client",
+      "Asynchronous Programming",
+      "sync",
+      "reqwest",
+      "serde",
+      "metadata",
+      "dependencies",
+      "registry",
+      "json",
+      "crates",
+      "ecosystem",
+      "rest-api"
+    ],
+    "mined_motifs": [
+      "rust",
+      "Data Serialization",
+      "JSON Deserialization",
+      "python",
+      "http",
+      "cargo",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "backend",
+      "microservice",
+      "asynchronous request-response"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.406,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.344,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.312,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 3.915,
+        "matches": [
+          "rust"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.863,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.847,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.479506Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "38872ae055f5e448f9662cd99919eb28af22f12be60b5003b1c9b254f4fb6fe3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:24.603924+00:00"
+  },
+  "mined_motifs": [
+    "async-rust",
+    "serialization",
+    "JSON Deserialization",
+    "python",
+    "http",
+    "cargo",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "backend",
+    "microservice",
+    "asynchronous request-response"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.832
+    },
+    {
+      "name": "crates_io_licenses_over_time",
+      "path": "/Users/ember/dev/gh/crates_io_licenses_over_time",
+      "similarity": 0.826
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.823
+    },
+    {
+      "name": "alexandria-client",
+      "path": "/Users/ember/dev/gh/alexandria-client",
+      "similarity": 0.822
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.82
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.819
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.812
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.81
+    }
+  ]
+}

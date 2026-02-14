@@ -1,0 +1,238 @@
+{
+  "name": "GynCycle",
+  "description": "GynCycle is a mechanistic mathematical model of the human menstrual cycle that integrates follicular growth dynamics with systemic hormonal feedback loops. It employs a system of ordinary differential equations coupled with a stochastic Poisson process to simulate follicle recruitment, competition, and maturation across diverse physiological and clinical scenarios. The framework specifically enables the exploration of parameter sensitivities and the evaluation of exogenous stimulation protocols in reproductive medicine.",
+  "tags": [
+    "MATLAB",
+    "ODE-modeling",
+    "Biomathematics",
+    "Endocrinology",
+    "Ovarian-Dynamics",
+    "Menstrual-Cycle",
+    "Systems-Biology",
+    "Stochastic-Process",
+    "Pharmacodynamics",
+    "In-Silico",
+    "Reproductive-Medicine",
+    "Hormonal-Regulation",
+    "Physiology",
+    "Mathematical-Biology",
+    "Clinical-Simulation"
+  ],
+  "category": "Computational Endocrinology",
+  "concepts": [
+    "Follicle maturation dynamics",
+    "Endocrine feedback loops",
+    "Coupled differential equations",
+    "Stochastic recruitment modeling",
+    "FSH sensitivity variability",
+    "Luteal stimulation protocols",
+    "Follicular phase kinetics",
+    "Ovulation thresholding",
+    "Estradiol synthesis",
+    "Progesterone dynamics",
+    "LH surge mechanism",
+    "Intra-ovarian competition",
+    "Fractal growth models",
+    "Drug administration modeling",
+    "Phenotypic cycle variability",
+    "Global sensitivity analysis",
+    "Numerical solver integration",
+    "State-space biological modeling",
+    "Follicle destiny classification",
+    "Hormonal equilibrium"
+  ],
+  "languages": [
+    "MATLAB"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "534126836e741463df73317c7c83823e8f440c1eb2d1f26b3c1b17a3c2f22ea9",
+  "_path": "/Users/ember/src/GynCycle",
+  "_updated_at": "2026-02-14T00:56:32.004208Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "71dc91c1278616c3ee306fe68cd03e4d27f79c2d6d78350d988ce0426ec38e4b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:52.506082+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "computational-biology",
+    "real-time",
+    "visualization",
+    "typescript",
+    "Autocorrelated Noise (AR1)",
+    "Follicle Recruitment Dynamics",
+    "Follicular Atresia Modeling",
+    "GnRH Pulse Generator Dynamics",
+    "HPA-HPG Axis Interaction",
+    "Heaviside Gating Functions",
+    "Kuramoto Oscillator Forcing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "luteastress",
+      "path": "/Users/ember/dev/luteastress",
+      "similarity": 0.812
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.791
+    },
+    {
+      "name": "humanbody",
+      "path": "/Users/ember/dev/humanbody",
+      "similarity": 0.786
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.77
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.768
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.766
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.762
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.755
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Follicle maturation dynamics",
+      "Endocrine feedback loops",
+      "Coupled differential equations",
+      "Stochastic recruitment modeling",
+      "FSH sensitivity variability",
+      "Luteal stimulation protocols",
+      "Follicular phase kinetics",
+      "Ovulation thresholding",
+      "Estradiol synthesis",
+      "Progesterone dynamics",
+      "LH surge mechanism",
+      "Intra-ovarian competition",
+      "Fractal growth models",
+      "Drug administration modeling",
+      "Phenotypic cycle variability",
+      "Global sensitivity analysis",
+      "Numerical solver integration",
+      "State-space biological modeling",
+      "Follicle destiny classification",
+      "Hormonal equilibrium"
+    ],
+    "tags": [
+      "MATLAB",
+      "ODE-modeling",
+      "Biomathematics",
+      "Endocrinology",
+      "Ovarian-Dynamics",
+      "Menstrual-Cycle",
+      "Systems-Biology",
+      "Stochastic-Process",
+      "Pharmacodynamics",
+      "In-Silico",
+      "Reproductive-Medicine",
+      "Hormonal-Regulation",
+      "Physiology",
+      "Mathematical-Biology",
+      "Clinical-Simulation"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "computational-biology",
+      "visualization",
+      "typescript",
+      "Autocorrelated Noise (AR1)",
+      "Follicle Recruitment Dynamics",
+      "Follicular Atresia Modeling",
+      "GnRH Pulse Generator Dynamics",
+      "HPA-HPG Axis Interaction",
+      "Heaviside Gating Functions",
+      "Kuramoto Oscillator Forcing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 12.285,
+        "matches": [
+          "mathematical-biology",
+          "ode-modeling",
+          "endocrine feedback loops",
+          "in-silico",
+          "category:Computational Endocrinology"
+        ]
+      },
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 8.355,
+        "matches": [
+          "mathematical-biology",
+          "endocrinology",
+          "pharmacodynamics"
+        ]
+      },
+      {
+        "id": "mechanistic-biology",
+        "name": "Mechanistic Systems Physiology",
+        "score": 5.638,
+        "matches": [
+          "physiology",
+          "systems-biology"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.214,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 3.829,
+        "matches": [
+          "physiology"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.388,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.004208Z"
+  }
+}

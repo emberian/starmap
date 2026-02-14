@@ -1,0 +1,261 @@
+{
+  "name": "rust-signals",
+  "description": "rust-signals (distributed as futures-signals) is a zero-cost Functional Reactive Programming (FRP) library for Rust that implements efficient state propagation through a poll-based model integrated with the futures ecosystem. It provides specialized traits and data structures—Signal, SignalVec, and SignalMap—to track and communicate changes in scalars and collections with minimal runtime overhead. The architecture leverages the standard Waker mechanism to ensure that consumers only react when values have changed, maintaining strong performance characteristics for GUI synchronization and real-time state management.",
+  "tags": [
+    "frp",
+    "rust",
+    "reactive",
+    "futures",
+    "signals",
+    "async",
+    "state-propagation",
+    "observable",
+    "zero-cost",
+    "concurrency",
+    "data-structures",
+    "diffing",
+    "asynchronous",
+    "ui-frameworks",
+    "waker",
+    "task-scheduling"
+  ],
+  "category": "Functional Reactive Programming",
+  "concepts": [
+    "Signal",
+    "SignalVec",
+    "SignalMap",
+    "Mutable",
+    "MutableVec",
+    "MutableBTreeMap",
+    "VecDiff",
+    "MapDiff",
+    "Broadcaster",
+    "Atomic Propagation",
+    "Waker Integration",
+    "Poll-based Reactivity",
+    "Future Interoperability",
+    "Zero-cost Abstractions",
+    "Reactive Streams",
+    "Granular Change Tracking",
+    "State Synchronization",
+    "Weak Reference Notification",
+    "Change Throttling",
+    "Signal Composition",
+    "Macro-based Mapping",
+    "Asynchronous State Management",
+    "Reference Counted State",
+    "Lazy Evaluation",
+    "Convergence to Latest Value",
+    "Batching Changes",
+    "Thread-safe Mutability",
+    "Internal Polling Loops",
+    "Discard Patterns",
+    "Recursion Limits"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 40,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/signal/mod.rs",
+      "tests/mod.rs",
+      "tests/signal/mod.rs"
+    ]
+  },
+  "_hash": "1a1565cbfae500d21409bbd2d33435394c25383b3d49a16def3b5105c7f0b97c",
+  "_path": "/Users/ember/src/rust-signals",
+  "_updated_at": "2026-02-14T00:56:33.914527Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f6a436a7570cc7ffbc781db36a59abb50796edbdc5b65e6a708e702d290dfe64",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:05.276056+00:00"
+  },
+  "mined_motifs": [
+    "ffi",
+    "low-level",
+    "system-programming",
+    "resource-management",
+    "Asynchronous interrupt handling",
+    "C-string interoperability",
+    "External C function bindings",
+    "FFI linkage to libc",
+    "Fixed stack segment constraints",
+    "Global signal handlers",
+    "Kernel-to-user-space callbacks",
+    "POSIX signal constants"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.892
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.877
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.871
+    },
+    {
+      "name": "signal",
+      "path": "/Users/ember/dev/gh/forks/signal",
+      "similarity": 0.864
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.858
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.854
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.85
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.849
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Signal",
+      "SignalVec",
+      "SignalMap",
+      "Mutable",
+      "MutableVec",
+      "MutableBTreeMap",
+      "VecDiff",
+      "MapDiff",
+      "Broadcaster",
+      "Atomic Propagation",
+      "Waker Integration",
+      "Poll-based Reactivity",
+      "Future Interoperability",
+      "Zero-cost Abstractions",
+      "Reactive Streams",
+      "Granular Change Tracking",
+      "State Synchronization",
+      "Weak Reference Notification",
+      "Change Throttling",
+      "Signal Composition",
+      "Macro-based Mapping",
+      "Asynchronous State Management",
+      "Reference Counted State",
+      "Lazy Evaluation",
+      "Convergence to Latest Value",
+      "Batching Changes",
+      "Thread-safe Mutability",
+      "Internal Polling Loops",
+      "Discard Patterns",
+      "Recursion Limits"
+    ],
+    "tags": [
+      "frp",
+      "Rust Language Ecosystem",
+      "reactive",
+      "futures",
+      "fine-grained-reactivity",
+      "Asynchronous Programming",
+      "state-propagation",
+      "observable",
+      "zero-cost",
+      "Concurrency & Synchronization",
+      "data-structures",
+      "diffing",
+      "asynchronous",
+      "ui-frameworks",
+      "waker",
+      "task-scheduling"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Asynchronous interrupt handling",
+      "C-string interoperability",
+      "External C function bindings",
+      "FFI linkage to libc",
+      "Fixed stack segment constraints",
+      "Global signal handlers",
+      "Kernel-to-user-space callbacks",
+      "POSIX signal constants"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.281,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.625,
+        "matches": [
+          "fine-grained-reactivity",
+          "category:Functional Reactive Programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.501,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.483,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.468,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.666,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.914527Z"
+  }
+}

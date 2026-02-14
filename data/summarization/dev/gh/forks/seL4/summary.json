@@ -1,0 +1,268 @@
+{
+  "name": "seL4",
+  "description": "seL4 is a high-performance microkernel featuring a capability-based security model and the world's first machine-checked formal proof of functional correctness. It provides a foundation for secure, high-assurance systems by enforcing strict isolation and resource management across diverse hardware architectures, including ARM and x86. The implementation combines rigorous formal methods with highly optimized systems code to achieve both mathematical certainty of behavior and production-grade performance.",
+  "tags": [
+    "seL4",
+    "microkernel",
+    "formal-verification",
+    "security",
+    "capabilities",
+    "isabelle-hol",
+    "arm",
+    "x86",
+    "virtualization",
+    "hypervisor",
+    "rtos",
+    "embedded",
+    "high-assurance",
+    "os-kernel",
+    "systems-programming",
+    "verified-software"
+  ],
+  "category": "Formally Verified Microkernel Architecture",
+  "concepts": [
+    "Capability-based Access Control",
+    "Formal Functional Correctness",
+    "Isabelle/HOL Formal Proofs",
+    "Microkernel Design",
+    "Address Space Management (VSpace)",
+    "Thread Control Blocks (TCB)",
+    "Capability Spaces (CSpace)",
+    "Untyped Memory Allocation",
+    "System Call ABI",
+    "Fastpath IPC Optimization",
+    "Interrupt Dispatching",
+    "Hardware Virtualization (VT-x/EPT)",
+    "ARM Virtualization Extensions",
+    "I/O Virtualization (VT-d/SMMU)",
+    "Symmetric Multiprocessing (SMP)",
+    "Domain-based Partitioning",
+    "Information Flow Security",
+    "Page Table Management",
+    "Kernel Bootstrapping",
+    "Bitfield Specification DSL",
+    "Fault and Exception Handling",
+    "Machine State Modeling",
+    "Privilege Isolation",
+    "Resource Accountability",
+    "Formal ABI Specification",
+    "Verified Kernel Initialization",
+    "Low-level HAL Implementation",
+    "Architecture-specific Kernel Models",
+    "Static Verification",
+    "Embedded High-Assurance Systems"
+  ],
+  "languages": [
+    "C",
+    "Assembly",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 786,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "libsel4/tools/__init__.py",
+      "libsel4/tools/bitfield_gen.py",
+      "tools/bitfield_gen.py",
+      "src/arch/arm/32/kernel/vspace.c"
+    ]
+  },
+  "_hash": "cbe4d7925f6f989c458e7a5face0b15480a2f54c745720066ea7332d501e4ee8",
+  "_path": "/Users/ember/dev/gh/forks/seL4",
+  "_updated_at": "2026-02-14T00:56:26.655232Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Capability-based Access Control",
+      "Formal Functional Correctness",
+      "Isabelle/HOL Formal Proofs",
+      "Microkernel Design",
+      "Address Space Management (VSpace)",
+      "Thread Control Blocks (TCB)",
+      "Capability Spaces (CSpace)",
+      "Untyped Memory Allocation",
+      "System Call ABI",
+      "Fastpath IPC Optimization",
+      "Interrupt Dispatching",
+      "Hardware Virtualization (VT-x/EPT)",
+      "ARM Virtualization Extensions",
+      "I/O Virtualization (VT-d/SMMU)",
+      "Symmetric Multiprocessing (SMP)",
+      "Domain-based Partitioning",
+      "Information Flow Security",
+      "Page Table Management",
+      "Kernel Bootstrapping",
+      "Bitfield Specification DSL",
+      "Fault and Exception Handling",
+      "Machine State Modeling",
+      "Privilege Isolation",
+      "Resource Accountability",
+      "Formal ABI Specification",
+      "Verified Kernel Initialization",
+      "Low-level HAL Implementation",
+      "Architecture-specific Kernel Models",
+      "Static Verification",
+      "Embedded High-Assurance Systems"
+    ],
+    "tags": [
+      "seL4",
+      "microkernel",
+      "formal-methods",
+      "security",
+      "capabilities",
+      "isabelle-hol",
+      "arm",
+      "x86",
+      "virtualization",
+      "hypervisor",
+      "rtos",
+      "embedded",
+      "high-assurance",
+      "os-kernel",
+      "Systems Programming",
+      "Formal Methods & Verification"
+    ],
+    "mined_motifs": [
+      "Inductive Definitions",
+      "Verification Condition Generation",
+      "standard-ml",
+      "AST",
+      "Abstract Interpretation",
+      "Interactive Theorem Proving (ITP)",
+      "systems-programming",
+      "assembler",
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "16-bit Instruction Set"
+    ],
+    "metaconstellations": [
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.218,
+        "matches": [
+          "formal-methods",
+          "isabelle-hol"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.132,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.119,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.438,
+        "matches": [
+          "microkernel",
+          "sel4"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.43,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 5.37,
+        "matches": [
+          "virtualization"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.655232Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "720af822e96207742ff944aaedcce058135c9909b35512d48caf81fe96653642",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:21.966819+00:00"
+  },
+  "mined_motifs": [
+    "Inductive Definitions",
+    "Verification Condition Generation",
+    "standard-ml",
+    "Abstract Syntax Trees",
+    "Abstract Interpretation",
+    "theorem-proving",
+    "low-level",
+    "assembler",
+    "rust",
+    "Foreign Function Interface",
+    "ffi",
+    "16-bit Instruction Set"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.826
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.816
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.811
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.809
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.808
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.808
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.806
+    },
+    {
+      "name": "CakeML",
+      "path": "/Users/ember/dev/CakeML",
+      "similarity": 0.805
+    }
+  ]
+}

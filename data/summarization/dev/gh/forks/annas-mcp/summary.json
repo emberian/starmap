@@ -1,0 +1,215 @@
+{
+  "name": "annas-mcp",
+  "description": "A Go-based Model Context Protocol (MCP) server and CLI utility designed for automated document retrieval from Anna's Archive mirrors. It integrates high-performance web scraping via Colly and JSON API interactions to facilitate searching and downloading academic papers and ebooks by MD5 hash or DOI.",
+  "tags": [
+    "mcp-server",
+    "cli-tool",
+    "web-scraping",
+    "document-retrieval",
+    "annas-archive",
+    "go-sdk",
+    "doi-lookup",
+    "shadow-libraries",
+    "automation",
+    "api-client",
+    "colly",
+    "cobra-cli"
+  ],
+  "category": "Document Retrieval & Shadow Library Integration",
+  "concepts": [
+    "Model Context Protocol",
+    "Web Scraping",
+    "API-driven downloads",
+    "Content-addressable storage (MD5)",
+    "Digital Object Identifier (DOI)",
+    "Asynchronous HTTP crawling",
+    "Environment-based configuration",
+    "Structured logging",
+    "Metadata extraction",
+    "Mirror status monitoring"
+  ],
+  "languages": [
+    "Go",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": true,
+    "sample_files": [
+      "go.mod",
+      "cmd/annas-mcp/main.go",
+      "internal/anna/anna.go",
+      "internal/modes/mcpserver.go",
+      "internal/modes/cli.go"
+    ]
+  },
+  "_hash": "213cec9f7a37a90fa10c2f38ffecfa0e31d4e79ce7caec12d7f66b6711aafa1d",
+  "_path": "/Users/ember/dev/gh/forks/annas-mcp",
+  "_updated_at": "2026-02-14T00:56:25.125655Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Model Context Protocol",
+      "Web Scraping",
+      "API-driven downloads",
+      "Content-addressable storage (MD5)",
+      "Digital Object Identifier (DOI)",
+      "Asynchronous HTTP crawling",
+      "Environment-based configuration",
+      "Structured logging",
+      "Metadata extraction",
+      "Mirror status monitoring"
+    ],
+    "tags": [
+      "Model Context Protocol",
+      "cli-tool",
+      "web-scraping",
+      "document-retrieval",
+      "annas-archive",
+      "go-sdk",
+      "doi-lookup",
+      "shadow-libraries",
+      "automation",
+      "api-client",
+      "colly",
+      "cobra-cli"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "Rust Language Ecosystem",
+      "metadata-extraction",
+      "go",
+      "bibliometrics",
+      "static-analysis",
+      "json-rpc",
+      "Asynchronous Web Scraping",
+      "Automated Versioning",
+      "Concurrent Data Collection",
+      "Content-Type Filtering"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 6.615,
+        "matches": [
+          "automation",
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.335,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.267,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.248,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.244,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.126,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.125655Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c6a4e61d6e067cf0ad5aaa04fd4406dacc3ff47808bf572894d7b947e1e78e61",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:11.817010+00:00"
+  },
+  "mined_motifs": [
+    "Model Context Protocol (MCP)",
+    "mcp",
+    "rust",
+    "metadata-extraction",
+    "go",
+    "bibliometrics",
+    "static-analysis",
+    "json-rpc",
+    "Asynchronous Web Scraping",
+    "Automated Versioning",
+    "Concurrent Data Collection",
+    "Content-Type Filtering"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "annas-mcp",
+      "path": "/Users/ember/dev/annas-mcp",
+      "similarity": 0.951
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.788
+    },
+    {
+      "name": "semantic-scholar-fastmcp-mcp-server",
+      "path": "/Users/ember/dev/semantic-scholar-fastmcp-mcp-server",
+      "similarity": 0.781
+    },
+    {
+      "name": "resp",
+      "path": "/Users/ember/src/resp",
+      "similarity": 0.779
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.773
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.771
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.769
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.757
+    }
+  ]
+}

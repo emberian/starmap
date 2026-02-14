@@ -1,0 +1,262 @@
+{
+  "name": "moltmirror",
+  "description": "Moltmirror is a multi-language analysis suite engineered for the detection of coordinated inauthentic behavior and narrative propagation within the Moltbook ecosystem. It utilizes behavioral fingerprints, stylometric LLM detection, and graph-theoretic community analysis to identify sockpuppet networks and synchronized influence operations. The system features a high-performance Rust ingestion engine and a Python-based analytical core that implements sparse matrix caching and vector-based semantic search for large-scale social intelligence.",
+  "tags": [
+    "vector-search",
+    "semantic-search",
+    "sockpuppet-detection",
+    "behavioral-fingerprinting",
+    "narrative-tracking",
+    "information-operations",
+    "cib-detection",
+    "rust",
+    "python",
+    "onnx",
+    "stylometry",
+    "graph-analysis",
+    "temporal-analysis",
+    "social-intelligence",
+    "metadata-analysis",
+    "influence-mapping"
+  ],
+  "category": "Information Operations & Behavioral Stylometry",
+  "concepts": [
+    "Coordinated Inauthentic Behavior",
+    "Behavioral Fingerprinting",
+    "Sockpuppet Detection",
+    "Narrative Propagation Trees",
+    "Information Flow Analysis",
+    "LLM Stylometry",
+    "Semantic Search",
+    "Vector Embeddings",
+    "Temporal Correlation",
+    "Community Detection",
+    "Persona Consistency",
+    "Same-Operator Inference",
+    "Social Network Analysis",
+    "Influence Mapping",
+    "Sparse Matrix Caching",
+    "Information Laundering",
+    "Stylometric Analysis",
+    "Activity Bursts",
+    "Circadian Profiling",
+    "Viral Content Analysis",
+    "Tool Adoption Tracking",
+    "Graph Centrality",
+    "Content Quality Scoring",
+    "Adversarial Analysis",
+    "Propaganda Mutation Tracking",
+    "Incremental Syncing",
+    "SOCKS5 Proxy Scrapping",
+    "ONNX Runtime Integration"
+  ],
+  "languages": [
+    "Python",
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 52024,
+    "has_readme": false,
+    "sample_files": [
+      "pyproject.toml",
+      "analysis/__init__.py",
+      "main.py",
+      "moltmirror-rs/src/analysis/mod.rs",
+      "moltmirror-rs/src/api/handlers/mod.rs"
+    ]
+  },
+  "_hash": "4ce6b6ab0d1411cae327062b35f7b113090649916d250a5cc38b27996d34b017",
+  "_path": "/Users/ember/dev/moltmirror",
+  "_updated_at": "2026-02-14T00:56:29.632490Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Coordinated Inauthentic Behavior",
+      "Behavioral Fingerprinting",
+      "Sockpuppet Detection",
+      "Narrative Propagation Trees",
+      "Information Flow Analysis",
+      "LLM Stylometry",
+      "Semantic Search",
+      "Vector Embeddings",
+      "Temporal Correlation",
+      "Community Detection",
+      "Persona Consistency",
+      "Same-Operator Inference",
+      "Social Network Analysis",
+      "Influence Mapping",
+      "Sparse Matrix Caching",
+      "Information Laundering",
+      "Stylometric Analysis",
+      "Activity Bursts",
+      "Circadian Profiling",
+      "Viral Content Analysis",
+      "Tool Adoption Tracking",
+      "Graph Centrality",
+      "Content Quality Scoring",
+      "Adversarial Analysis",
+      "Propaganda Mutation Tracking",
+      "Incremental Syncing",
+      "SOCKS5 Proxy Scrapping",
+      "ONNX Runtime Integration"
+    ],
+    "tags": [
+      "vector-search",
+      "semantic-search",
+      "sockpuppet-detection",
+      "behavioral-fingerprinting",
+      "narrative-tracking",
+      "information-operations",
+      "cib-detection",
+      "Rust Language Ecosystem",
+      "python",
+      "onnx",
+      "stylometry",
+      "graph-analysis",
+      "temporal-analysis",
+      "social-intelligence",
+      "metadata-analysis",
+      "influence-mapping"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "lsp",
+      "metal",
+      "Event-driven Architecture",
+      "model-context-protocol",
+      "Betweenness Centrality",
+      "Bot Farm Detection",
+      "Community Partitioning",
+      "Content Hashing",
+      "Coordinated Inauthentic Behavior (CIB)",
+      "Coordination Alerting Systems",
+      "Cross-correlation Analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 7.932,
+        "matches": [
+          "distributed-systems",
+          "cib-detection",
+          "influence-mapping"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.199,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.125,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.124,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.124,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.122,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.632490Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "38c0b4a4e91e99e74b04c44f111c676938a10cd3e792c39458f1e5313f3d8afc",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:04.771887+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "lsp",
+    "metal",
+    "Event-driven Architecture",
+    "mcp",
+    "Betweenness Centrality",
+    "Bot Farm Detection",
+    "Community Partitioning",
+    "Content Hashing",
+    "Coordinated Inauthentic Behavior (CIB)",
+    "Coordination Alerting Systems",
+    "Cross-correlation Analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "moltmirror",
+      "path": "/Users/ember/dev/mm2",
+      "similarity": 0.899
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.743
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.742
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.733
+    },
+    {
+      "name": "ua-parser",
+      "path": "/Users/ember/dev/gh/forks/ua-parser",
+      "similarity": 0.733
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.732
+    },
+    {
+      "name": "mistral.rs",
+      "path": "/Users/ember/src/mistral.rs",
+      "similarity": 0.731
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.731
+    }
+  ]
+}

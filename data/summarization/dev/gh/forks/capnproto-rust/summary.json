@@ -1,0 +1,215 @@
+{
+  "name": "capnproto-rust",
+  "description": "A Rust implementation of the Cap’n Proto serialization protocol and capability-based RPC system. The project implements a zero-copy data representation strategy by directly mapping the C++ reference implementation's memory layout and pointer mechanics onto Rust's memory model. It provides a core serialization library alongside a compiler plugin for generating type-safe Rust bindings from Cap’n Proto schema definitions.",
+  "tags": [
+    "capnproto",
+    "rust",
+    "serialization",
+    "rpc",
+    "zero-copy",
+    "codegen",
+    "capability-system",
+    "binary-protocol",
+    "memory-layout",
+    "arena-allocation",
+    "schema-compiler"
+  ],
+  "category": "Binary Serialization & Capability Systems",
+  "concepts": [
+    "Zero-copy Deserialization",
+    "Arena-based Memory Management",
+    "Pointer-based Data Structures",
+    "In-place Message Mutation",
+    "Binary Schema Compilation",
+    "Remote Procedure Calls (RPC)",
+    "Capability-based Addressing",
+    "Packed Byte Streams",
+    "Endian-agnostic Layout",
+    "Segmented Memory Arenas",
+    "Canonical Memory Mapping"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 43,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "examples/zmq-explorers/main.rs",
+      "src/capnp/lib.rs",
+      "src/capnpc-rust/main.rs"
+    ]
+  },
+  "_hash": "966141408eb88a49c7103005c0109c1b25cac58c17388dde4cb222b358973511",
+  "_path": "/Users/ember/dev/gh/forks/capnproto-rust",
+  "_updated_at": "2026-02-14T00:56:25.349658Z",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "Zero-copy Deserialization",
+      "Arena-based Memory Management",
+      "Pointer-based Data Structures",
+      "In-place Message Mutation",
+      "Binary Schema Compilation",
+      "Remote Procedure Calls (RPC)",
+      "Capability-based Addressing",
+      "Packed Byte Streams",
+      "Endian-agnostic Layout",
+      "Segmented Memory Arenas",
+      "Canonical Memory Mapping"
+    ],
+    "tags": [
+      "capnproto",
+      "Rust Language Ecosystem",
+      "Data Serialization",
+      "rpc",
+      "zero-copy",
+      "Compiler Engineering",
+      "capability-system",
+      "binary-protocol",
+      "memory-layout",
+      "arena-allocation",
+      "schema-compiler"
+    ],
+    "mined_motifs": [
+      "serde",
+      "deserialization",
+      "Rust Language Ecosystem",
+      "data-interchange",
+      "performance",
+      "capability-security",
+      "systems-programming",
+      "Attribute Reflection",
+      "Generic Type Reflection",
+      "Procedural Macros",
+      "Runtime Type Information (RTTI)",
+      "Type Erasure"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.997,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.641,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.524,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.519,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.512,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.502,
+        "matches": [
+          "capability-security"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.349658Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3193aedce7f8cd789685e962d34a5df970afb9cf2fbfd77ab9164b1f94d7a024",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:20.147358+00:00"
+  },
+  "mined_motifs": [
+    "serde",
+    "deserialization",
+    "no-std",
+    "data-interchange",
+    "performance",
+    "capability-security",
+    "low-level",
+    "Attribute Reflection",
+    "Generic Type Reflection",
+    "Procedural Macros",
+    "Runtime Type Information (RTTI)",
+    "Type Erasure"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.937
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.93
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.905
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.888
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/serde-reflect",
+      "similarity": 0.88
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.871
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.866
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.864
+    }
+  ]
+}

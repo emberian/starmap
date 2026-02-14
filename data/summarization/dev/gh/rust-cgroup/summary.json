@@ -1,0 +1,217 @@
+{
+  "name": "rust-cgroup",
+  "description": "A low-level Rust abstraction for interacting with Linux Control Groups (cgroups) via procfs and sysfs interfaces. It provides mechanisms for discovering controller mappings for specific process identifiers and enables structured access to resource metrics and configuration parameters within the cgroup hierarchy. The library handles virtual filesystem path resolution and implements a cached lookup system for controller-specific attributes.",
+  "tags": [
+    "rust",
+    "cgroups",
+    "linux-kernel",
+    "system-programming",
+    "resource-management",
+    "procfs",
+    "sysfs",
+    "kernel-interface",
+    "low-level",
+    "os-abstraction"
+  ],
+  "category": "Cgroup Resource Management",
+  "concepts": [
+    "Control Groups (cgroups)",
+    "Process Isolation",
+    "Resource Accounting",
+    "Virtual Filesystem Traversal",
+    "Controller Discovery",
+    "Procfs Parsing",
+    "Sysfs Hierarchy",
+    "Linux Kernel Primitives",
+    "Resource Limits",
+    "Memory Usage Tracking",
+    "Path Resolution",
+    "Attribute Caching"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "37cdc8aff872c27c368d7a9187d41b13de9e2ea218060302698919b3dda11833",
+  "_path": "/Users/ember/dev/gh/rust-cgroup",
+  "_updated_at": "2026-02-14T00:56:28.361765Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Control Groups (cgroups)",
+      "Process Isolation",
+      "Resource Accounting",
+      "Virtual Filesystem Traversal",
+      "Controller Discovery",
+      "Procfs Parsing",
+      "Sysfs Hierarchy",
+      "Linux Kernel Primitives",
+      "Resource Limits",
+      "Memory Usage Tracking",
+      "Path Resolution",
+      "Attribute Caching"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cgroups",
+      "linux-kernel",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "procfs",
+      "sysfs",
+      "kernel-interface",
+      "os-abstraction"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "Memory Management",
+      "linux",
+      "Compiler Engineering",
+      "benchmarking",
+      "foreign-function-interface",
+      "Device Discovery",
+      "Depth-First Search",
+      "Interior Mutability",
+      "Object Graph Traversal",
+      "Reference Cycle Detection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 13.819,
+        "matches": [
+          "cgroups",
+          "systems programming",
+          "linux-kernel",
+          "procfs",
+          "sysfs",
+          "category:Cgroup Resource Management"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.446,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.423,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.392,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.618,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.615,
+        "matches": [
+          "benchmarking"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.361765Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e25342850558709c2795f9d5e97d85feac183ad836a6e2b320f223f668ef88fa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:19.699980+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "memory-management",
+    "linux",
+    "compiler-design",
+    "benchmarking",
+    "ffi",
+    "Device Discovery",
+    "Depth-First Search",
+    "Interior Mutability",
+    "Manual Memory Management",
+    "Object Graph Traversal",
+    "Reference Cycle Detection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.92
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.915
+    },
+    {
+      "name": "grease-bench",
+      "path": "/Users/ember/dev/gh/forks/grease-bench",
+      "similarity": 0.91
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.902
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.895
+    },
+    {
+      "name": "rust-bench",
+      "path": "/Users/ember/dev/gh/rust-bench",
+      "similarity": 0.894
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.892
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.892
+    }
+  ]
+}

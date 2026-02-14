@@ -1,0 +1,195 @@
+{
+  "name": "subtle",
+  "description": "A low-level, pure-Rust library providing constant-time primitives and traits for side-channel resistant cryptographic implementations. It implements a 'Choice' type and various traits to replace boolean branching with bitwise operations and optimization barriers, aiming to mitigate timing attacks in software.",
+  "tags": [
+    "cryptography",
+    "constant-time",
+    "side-channel-resistance",
+    "timing-attacks",
+    "rust",
+    "no-std",
+    "bitwise-operations",
+    "dalek-cryptography"
+  ],
+  "category": "Software Side-Channel Mitigation",
+  "concepts": [
+    "Constant-time algorithms",
+    "Conditional assignment",
+    "Optimization barriers",
+    "Secret types",
+    "Bitwise masks",
+    "Timing side-channel protection",
+    "Differential Power Analysis mitigation",
+    "Cryptographic engineering"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "tests/mod.rs",
+      "fuzz/fuzzers/conditional_assign_i128.rs",
+      "fuzz/fuzzers/conditional_assign_u16.rs"
+    ]
+  },
+  "_hash": "9a889e3c8ed700ce746929923f5527ce95fb0b268f5deaf525b02f451bcfc72b",
+  "_path": "/Users/ember/hellas/subtle",
+  "_updated_at": "2026-02-14T00:56:31.958958Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cdcc80237d7c0afc5312af8a7dbc94b326ecc810c6f2d7b7f92b9b86ea708f7e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:46.845810+00:00"
+  },
+  "mined_motifs": [
+    "Finite Field Arithmetic",
+    "Side-channel attack mitigation",
+    "security",
+    "Montgomery Multiplication",
+    "Modular Arithmetic",
+    "Modular Exponentiation",
+    "rsa",
+    "Authenticated Encryption with Associated Data (AEAD)",
+    "Elliptic Curve Diffie-Hellman (ECDH)",
+    "aead",
+    "chacha20",
+    "ed25519"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "subtle",
+      "path": "/Users/ember/dev/gh/forks/subtle",
+      "similarity": 0.962
+    },
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.838
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.838
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.833
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.829
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.822
+    },
+    {
+      "name": "sodiumoxide",
+      "path": "/Users/ember/dev/gh/forks/sodiumoxide",
+      "similarity": 0.821
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.821
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Constant-time algorithms",
+      "Conditional assignment",
+      "Optimization barriers",
+      "Secret types",
+      "Bitwise masks",
+      "Timing side-channel protection",
+      "Differential Power Analysis mitigation",
+      "Cryptographic engineering"
+    ],
+    "tags": [
+      "cryptography",
+      "constant-time",
+      "side-channel-resistance",
+      "timing-attacks",
+      "Rust Language Ecosystem",
+      "bitwise-operations",
+      "dalek-cryptography"
+    ],
+    "mined_motifs": [
+      "Finite Field Arithmetic",
+      "Side-channel attack mitigation",
+      "security",
+      "Montgomery Multiplication",
+      "Modular Arithmetic",
+      "Modular Exponentiation",
+      "rsa",
+      "Authenticated Encryption with Associated Data (AEAD)",
+      "Elliptic Curve Diffie-Hellman (ECDH)",
+      "aead",
+      "chacha20",
+      "ed25519"
+    ],
+    "metaconstellations": [
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.398,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.397,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.361,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 2.579,
+        "matches": []
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 2.57,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.567,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.958958Z"
+  }
+}

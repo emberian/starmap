@@ -1,0 +1,202 @@
+{
+  "name": "'logseq",
+  "description": "A local-first, graph-based personal knowledge management repository intended for staging raw technical research and systems engineering notes. It facilitates the capture of exploratory thoughts on formal methods and high-performance runtimes using a bidirectional linking architecture and block-level outlining.",
+  "tags": [
+    "pkm",
+    "graph-database",
+    "local-first",
+    "markdown",
+    "outliner",
+    "zettelkasten",
+    "knowledge-base",
+    "systems-engineering",
+    "research-notes"
+  ],
+  "category": "Graph-based Knowledge Management",
+  "concepts": [
+    "Bidirectional Linking",
+    "Block-based Outlining",
+    "Local-first Storage",
+    "Knowledge Graph Architecture",
+    "Zettelkasten Method",
+    "Linked Data",
+    "Document-to-Graph Mapping",
+    "Graph Visualization",
+    "Note-taking Workflow"
+  ],
+  "languages": [
+    "Markdown",
+    "Org-mode"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 0,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/shitheap/'logseq",
+  "_updated_at": "2026-02-14T00:56:30.210025Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Bidirectional Linking",
+      "Block-based Outlining",
+      "Local-first Storage",
+      "Knowledge Graph Architecture",
+      "Zettelkasten Method",
+      "Linked Data",
+      "Document-to-Graph Mapping",
+      "Graph Visualization",
+      "Note-taking Workflow"
+    ],
+    "tags": [
+      "pkm",
+      "graph-database",
+      "local-first",
+      "markdown",
+      "outliner",
+      "zettelkasten",
+      "knowledge-base",
+      "systems-engineering",
+      "research-notes"
+    ],
+    "mined_motifs": [
+      "Personal Knowledge Management (PKM)",
+      "documentation",
+      "logseq",
+      "org-mode",
+      "knowledge-graph",
+      "digital-garden",
+      "Semantic Linking",
+      "knowledge-management",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "archival",
+      "Contextual Backlinking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 8.03,
+        "matches": [
+          "archival",
+          "markdown"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 5.271,
+        "matches": [
+          "documentation"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.218,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.218,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.216,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.213,
+        "matches": [
+          "knowledge-graph"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.210025Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8bb20ff59d1ffb9a6df1942f79a51a52db67cf45952322e34f9e6e56bd2d5552",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:36.808910+00:00"
+  },
+  "mined_motifs": [
+    "Personal Knowledge Management (PKM)",
+    "documentation",
+    "logseq",
+    "org-mode",
+    "knowledge-graph",
+    "digital-garden",
+    "Semantic Linking",
+    "knowledge-management",
+    "rust",
+    "wasm",
+    "archival",
+    "Contextual Backlinking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ticklogseq",
+      "path": "/Users/ember/dev/ticklogseq",
+      "similarity": 0.864
+    },
+    {
+      "name": "lunar-logseq",
+      "path": "/Users/ember/dev/lunar-logseq",
+      "similarity": 0.848
+    },
+    {
+      "name": "erp",
+      "path": "/Users/ember/dev/erp",
+      "similarity": 0.793
+    },
+    {
+      "name": "noosphere",
+      "path": "/Users/ember/dev/noosphere",
+      "similarity": 0.781
+    },
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.771
+    },
+    {
+      "name": "s_lf",
+      "path": "/Users/ember/dev/gh/s_lf",
+      "similarity": 0.771
+    },
+    {
+      "name": "collected-writings",
+      "path": "/Users/ember/dev/collected-writings",
+      "similarity": 0.753
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.749
+    }
+  ]
+}

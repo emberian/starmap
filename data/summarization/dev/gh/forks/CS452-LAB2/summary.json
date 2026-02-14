@@ -1,0 +1,247 @@
+{
+  "name": "CS452-LAB2",
+  "description": "An OpenGL 3.3 core profile implementation focusing on hardware-accelerated rendering through Vertex Array Objects (VAOs) and Vertex Buffer Objects (VBOs) in legacy Rust. The project implements a programmable graphics pipeline utilizing GLSL shaders to render complex primitives, including a Sierpinski gasket point cloud and stochastic line distributions. It demonstrates foundational graphics programming techniques by abstracting shader compilation and buffer management while strictly avoiding deprecated immediate-mode APIs.",
+  "tags": [
+    "opengl",
+    "rust",
+    "glsl",
+    "graphics",
+    "vbo",
+    "vao",
+    "shader",
+    "glfw",
+    "fractal",
+    "sierpinski",
+    "rendering",
+    "low-level",
+    "academic"
+  ],
+  "category": "Programmable Graphics Pipeline",
+  "concepts": [
+    "Vertex Array Objects",
+    "Vertex Buffer Objects",
+    "Shader Management",
+    "Programmable Pipeline",
+    "GLSL",
+    "Sierpinski Gasket",
+    "Stochastic Line Rendering",
+    "OpenGL Core Profile",
+    "Buffer Abstraction",
+    "Event-Driven UI",
+    "Linear Algebra for Graphics",
+    "Vertex Attribute Specification",
+    "Uniform Locations",
+    "Primitive Assembly",
+    "Color Interpolation",
+    "Viewport Configuration",
+    "Input Polling",
+    "Context Management",
+    "Fragment Shading",
+    "Resource Disposal",
+    "Static Draw",
+    "Stream Draw",
+    "Antialiasing",
+    "Double Buffering"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "main.rs",
+      "load_shaders.rs"
+    ]
+  },
+  "_hash": "8ffcc5d03872e6f383d5d5c29a67dacd032f1ba704676191f28876329ff4631f",
+  "_path": "/Users/ember/dev/gh/forks/CS452-LAB2",
+  "_updated_at": "2026-02-14T00:56:25.065688Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Vertex Array Objects",
+      "Vertex Buffer Objects",
+      "Shader Management",
+      "Programmable Pipeline",
+      "GLSL",
+      "Sierpinski Gasket",
+      "Stochastic Line Rendering",
+      "OpenGL Core Profile",
+      "Buffer Abstraction",
+      "Event-Driven UI",
+      "Linear Algebra for Graphics",
+      "Vertex Attribute Specification",
+      "Uniform Locations",
+      "Primitive Assembly",
+      "Color Interpolation",
+      "Viewport Configuration",
+      "Input Polling",
+      "Context Management",
+      "Fragment Shading",
+      "Resource Disposal",
+      "Static Draw",
+      "Stream Draw",
+      "Antialiasing",
+      "Double Buffering"
+    ],
+    "tags": [
+      "opengl",
+      "Rust Language Ecosystem",
+      "glsl",
+      "Computer Graphics & Rendering",
+      "vbo",
+      "vao",
+      "shader",
+      "glfw",
+      "fractal",
+      "sierpinski",
+      "systems-programming",
+      "academic"
+    ],
+    "mined_motifs": [
+      "graphics-api",
+      "shader-programming",
+      "Computer Graphics & Rendering",
+      "texture-mapping",
+      "Vertex Array Objects (VAO)",
+      "Shader Compilation",
+      "Vertex Buffer Objects (VBO)",
+      "cpp",
+      "shader-compilation",
+      "cgmath"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.282,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 8.281,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl",
+          "shader"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.821,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.351,
+        "matches": [
+          "glsl",
+          "shader"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.235,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.2,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.065688Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "061692658c2afbb4cb94cb49c0927dddd7454a50c4d1e9a33d9578859f68bd62",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:04.701063+00:00"
+  },
+  "mined_motifs": [
+    "graphics-api",
+    "shader-programming",
+    "graphics-programming",
+    "texture-mapping",
+    "Vertex Array Objects (VAO)",
+    "computer-graphics",
+    "Shader Compilation",
+    "Vertex Buffer Objects (VBO)",
+    "cpp",
+    "shader-compilation",
+    "cgmath",
+    "real-time-rendering"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.896
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.885
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.868
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.868
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.851
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.84
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.827
+    },
+    {
+      "name": "gfx-rs-deadlock-example",
+      "path": "/Users/ember/dev/gh/gfx-rs-deadlock-example",
+      "similarity": 0.821
+    }
+  ]
+}

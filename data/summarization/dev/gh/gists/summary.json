@@ -1,0 +1,178 @@
+{
+  "name": "gists",
+  "description": "A repository structured for the local management and archival of GitHub Gists. It serves as a centralized synchronization point for technical snippets, configuration fragments, and ephemeral documentation, facilitating version-controlled tracking of distributed code fragments.",
+  "tags": [
+    "github-gists",
+    "archival",
+    "code-snippets",
+    "version-control",
+    "local-management"
+  ],
+  "category": "Source Code Management",
+  "concepts": [
+    "Gist Synchronization",
+    "Snippet Archival",
+    "Metadata Tracking",
+    "Versioned Fragments",
+    "Repository Management"
+  ],
+  "languages": [
+    "Unknown"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 0,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/gh/gists",
+  "_updated_at": "2026-02-14T00:56:27.245513Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Gist Synchronization",
+      "Snippet Archival",
+      "Metadata Tracking",
+      "Versioned Fragments",
+      "Repository Management"
+    ],
+    "tags": [
+      "github-gists",
+      "archival",
+      "code-snippets",
+      "version-control",
+      "local-management"
+    ],
+    "mined_motifs": [
+      "github-api",
+      "workflow-automation",
+      "Attribute Filtering",
+      "Conflict Resolution",
+      "Content-Addressable Storage (CAS)",
+      "D/F Conflicts",
+      "Delta Compression",
+      "Index Staging",
+      "Object Database (ODB)",
+      "Packfile Processing",
+      "Reflog Management",
+      "Rename Detection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.464,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.341,
+        "matches": [
+          "content-addressable storage (cas)"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.964,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.602,
+        "matches": []
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.596,
+        "matches": []
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.588,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.245513Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5fe1f218bdb8008940646ecf7161ec86827da314ec55f665fd769515c62d2e83",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:45.093150+00:00"
+  },
+  "mined_motifs": [
+    "github-api",
+    "workflow-automation",
+    "Attribute Filtering",
+    "Conflict Resolution",
+    "Content-Addressable Storage",
+    "D/F Conflicts",
+    "Delta Compression",
+    "Index Staging",
+    "Object Database (ODB)",
+    "Packfile Processing",
+    "Reflog Management",
+    "Rename Detection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.837
+    },
+    {
+      "name": "github-api-testing",
+      "path": "/Users/ember/dev/gh/github-api-testing",
+      "similarity": 0.835
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.834
+    },
+    {
+      "name": "collected-writings",
+      "path": "/Users/ember/dev/collected-writings",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.818
+    },
+    {
+      "name": "alexandria",
+      "path": "/Users/ember/dev/gh/alexandria",
+      "similarity": 0.817
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.816
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.816
+    }
+  ]
+}

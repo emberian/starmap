@@ -1,0 +1,237 @@
+{
+  "name": "blackwing-v0",
+  "description": "A mobile-first narrative idle trading game featuring deck-building mechanics and a reactive event system. It utilizes a custom domain-specific language and compiler toolchain called 'holdsmith' to manage complex, branching narrative scenelets within a TypeScript-based simulation engine.",
+  "tags": [
+    "narrative-engine",
+    "deck-builder",
+    "idle-game",
+    "mobile-first",
+    "pwa",
+    "dsl-compiler",
+    "game-simulation",
+    "branching-narrative",
+    "state-management",
+    "event-driven",
+    "procedural-content",
+    "typescript",
+    "vite",
+    "ast-parser",
+    "game-design",
+    "sci-fi"
+  ],
+  "category": "Narrative Simulation Engine",
+  "concepts": [
+    "Branching Narrative DSL",
+    "Procedural Event Dispatching",
+    "Resource-Constrained Trading Simulation",
+    "Card-Based Inventory Mechanics",
+    "Finite State Machine Controller",
+    "Deterministic Game State Persistence",
+    "AST-driven Code Generation",
+    "Static Narrative Analysis",
+    "Mobile-Optimized PWA Architecture",
+    "Achievement-Linked Progression Logic",
+    "Weighted Random Scene Selection",
+    "Relational Item Tagging System",
+    "Component-Based Ship Upgrades",
+    "Faction Reputation Modeling",
+    "Automated Playtest Simulation",
+    "Chronicle-based Event Logging"
+  ],
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 159,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/content/achievements/index.ts",
+      "src/content/cards/index.ts",
+      "src/content/index.ts",
+      "src/content/scenelets/compiled/index.ts"
+    ]
+  },
+  "_hash": "3533614d7b70e6993f2f9e9fd04fcd2b7b5e7fd98c1e40f660f0738f1c8f9107",
+  "_path": "/Users/ember/dev/blackwing-v0",
+  "_updated_at": "2026-02-14T00:56:23.596150Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Branching Narrative DSL",
+      "Procedural Event Dispatching",
+      "Resource-Constrained Trading Simulation",
+      "Card-Based Inventory Mechanics",
+      "Finite State Machine Controller",
+      "Deterministic Game State Persistence",
+      "AST-driven Code Generation",
+      "Static Narrative Analysis",
+      "Mobile-Optimized PWA Architecture",
+      "Achievement-Linked Progression Logic",
+      "Weighted Random Scene Selection",
+      "Relational Item Tagging System",
+      "Component-Based Ship Upgrades",
+      "Faction Reputation Modeling",
+      "Automated Playtest Simulation",
+      "Chronicle-based Event Logging"
+    ],
+    "tags": [
+      "narrative-engine",
+      "deck-builder",
+      "idle-game",
+      "mobile-first",
+      "pwa",
+      "dsl-compiler",
+      "game-engine",
+      "branching-narrative",
+      "state-management",
+      "event-driven",
+      "Procedural Generation",
+      "typescript",
+      "vite",
+      "ast-parser",
+      "game-design",
+      "sci-fi"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Event-driven Architecture",
+      "game-engine",
+      "real-time-simulation",
+      "Recursive Descent Parsing",
+      "dsl",
+      "procedural-events",
+      "Resource Acquisition Is Initialization (RAII)",
+      "WebAssembly",
+      "interactive-fiction",
+      "leptos"
+    ],
+    "metaconstellations": [
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 8.315,
+        "matches": [
+          "dsl",
+          "game-engine"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.847,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.518,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.492,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.461,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.446,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.596150Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "21366c42141068d7fe627288c6e093b2f51187b3c709994af7c47ed7c4eb3108",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:38.098957+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Event-driven Architecture",
+    "game-engine",
+    "simulation",
+    "Recursive Descent Parsing",
+    "dsl",
+    "procedural-events",
+    "resource-management",
+    "wasm",
+    "interactive-fiction",
+    "game-development",
+    "leptos"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo-hold",
+      "path": "/Users/ember/dev/cargo-hold",
+      "similarity": 0.876
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.864
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.833
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.832
+    },
+    {
+      "name": "Blackwing",
+      "path": "/Users/ember/dev/bw-exp1",
+      "similarity": 0.829
+    },
+    {
+      "name": "megastructure-maintenance-crew",
+      "path": "/Users/ember/dev/megastructure-maintenance-crew",
+      "similarity": 0.826
+    },
+    {
+      "name": "LetsPlay",
+      "path": "/Users/ember/dev/gh/LetsPlay",
+      "similarity": 0.823
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.822
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "name": "rcgen",
+  "description": "A robust Rust utility for the generation of X.509 certificates, CSRs, and CRLs, implementing ASN.1 DER serialization using the yasna and ring crates. It supports a comprehensive suite of signature schemes including RSA PKCS#1v1.5/PSS, ECDSA over P-256/P-384, and Ed25519. The library is optimized for creating certificate chains and PKI artifacts for TLS testing and infrastructure, with deep integration for the rustls ecosystem.",
+  "tags": [
+    "x509",
+    "pki",
+    "rust",
+    "cryptography",
+    "tls",
+    "certificate-authority",
+    "csr",
+    "crl",
+    "rsa",
+    "ecdsa",
+    "ed25519",
+    "asn1",
+    "der",
+    "pem",
+    "pkcs8"
+  ],
+  "category": "X.509 PKI Implementation",
+  "concepts": [
+    "X.509 v3 Certificates",
+    "ASN.1 DER Serialization",
+    "Certificate Signing Request (CSR)",
+    "Certificate Revocation List (CRL)",
+    "Subject Alternative Name (SAN)",
+    "Self-signed Certificates",
+    "Chain of Trust",
+    "Key Usage Extensions",
+    "Extended Key Usage (EKU)",
+    "Basic Constraints",
+    "Authority Key Identifier (AKI)",
+    "Subject Key Identifier (SKI)",
+    "Name Constraints",
+    "PKCS#1 v1.5",
+    "RSASSA-PSS",
+    "ECDSA (P-256/P-384)",
+    "Ed25519",
+    "PKCS#8 Private Key Format",
+    "Distinguished Name (DN)",
+    "Object Identifier (OID) Mapping"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 35,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "rcgen/src/lib.rs",
+      "rustls-cert-gen/src/lib.rs",
+      "rustls-cert-gen/src/main.rs",
+      "rcgen/tests/webpki.rs"
+    ]
+  },
+  "_hash": "90c4c952835ea77339dbe4a960b2d93ac026aea55af4c2909fa5a4fe42c3f39a",
+  "_path": "/Users/ember/src/rcgen",
+  "_updated_at": "2026-02-14T00:56:33.484820Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "162842c27a4655f9f67b14a2fe510660d2da628ace85e4327a0552e06e0f7bd0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:01.122846+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Modular Arithmetic",
+    "Asymmetric Encryption",
+    "Digital Signatures",
+    "Multi-Scalar Multiplication (MSM)",
+    "Sponge Construction",
+    "poseidon-hash",
+    "zero-knowledge",
+    "Arithmetic Expression Evaluation",
+    "Assembly Emission",
+    "Backus-Naur Form (BNF)",
+    "Boolean Conditionals"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.859
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.857
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.853
+    },
+    {
+      "name": "sodiumoxide",
+      "path": "/Users/ember/dev/gh/forks/sodiumoxide",
+      "similarity": 0.85
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.845
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.845
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "X.509 v3 Certificates",
+      "ASN.1 DER Serialization",
+      "Certificate Signing Request (CSR)",
+      "Certificate Revocation List (CRL)",
+      "Subject Alternative Name (SAN)",
+      "Self-signed Certificates",
+      "Chain of Trust",
+      "Key Usage Extensions",
+      "Extended Key Usage (EKU)",
+      "Basic Constraints",
+      "Authority Key Identifier (AKI)",
+      "Subject Key Identifier (SKI)",
+      "Name Constraints",
+      "PKCS#1 v1.5",
+      "RSASSA-PSS",
+      "ECDSA (P-256/P-384)",
+      "Ed25519",
+      "PKCS#8 Private Key Format",
+      "Distinguished Name (DN)",
+      "Object Identifier (OID) Mapping"
+    ],
+    "tags": [
+      "x509",
+      "pki",
+      "Rust Language Ecosystem",
+      "cryptography",
+      "tls",
+      "certificate-authority",
+      "csr",
+      "crl",
+      "rsa",
+      "ecdsa",
+      "ed25519",
+      "asn1",
+      "der",
+      "pem",
+      "pkcs8"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "Modular Arithmetic",
+      "Asymmetric Encryption",
+      "Digital Signatures",
+      "multi-scalar-multiplication",
+      "Sponge Construction",
+      "poseidon-hash",
+      "zero-knowledge-proofs",
+      "Arithmetic Expression Evaluation",
+      "Assembly Emission",
+      "Backus-Naur Form (BNF)",
+      "Boolean Conditionals"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.657,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.854,
+        "matches": [
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.463,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.458,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.451,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.447,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.484820Z"
+  }
+}

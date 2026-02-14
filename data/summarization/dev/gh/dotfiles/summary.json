@@ -1,0 +1,232 @@
+{
+  "name": "dotfiles",
+  "description": "A comprehensive Unix environment configuration suite centered around keyboard-driven, console-based workflows. It integrates a modular Zsh setup using the Pure prompt, a terminal-based email stack comprising Mutt, Notmuch, and mbsync for asynchronous mail synchronization. The system automates deployment via a symlink-based installation script and manages diverse configurations for herbstluftwm, tmux, and X11 terminal extensions.",
+  "tags": [
+    "zsh",
+    "vim",
+    "tmux",
+    "mutt",
+    "notmuch",
+    "mbsync",
+    "herbstluftwm",
+    "urxvt",
+    "gnupg",
+    "spacemacs",
+    "dotfiles",
+    "shell-scripting",
+    "terminal-ui",
+    "productivity",
+    "linux-configuration",
+    "posix"
+  ],
+  "category": "Terminal-Centric Workflow Orchestration",
+  "concepts": [
+    "Symlink-based Deployment",
+    "Modular Zsh Configuration",
+    "Console-based Email Management",
+    "Tiling Window Management",
+    "Keyboard-driven Navigation",
+    "Terminal Multiplexing",
+    "Asynchronous Mail Synchronization",
+    "GPG Encryption",
+    "X11 Resource Configuration",
+    "Plugin Management (Vundle)",
+    "Custom URI Handling",
+    "Virtual Terminal Extensions",
+    "Shell Hooks",
+    "Theme Orchestration",
+    "Environment Variable Management",
+    "Backup & Restore Automation",
+    "Pure Prompt Integration",
+    "MIME Type Handling",
+    "Key Binding Abstractions",
+    "Directory Colorization"
+  ],
+  "languages": [
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 41,
+    "has_readme": true,
+    "sample_files": [
+      "install.sh"
+    ]
+  },
+  "_hash": "d8b2d79c167320536bbe571058b7c4f811e2556ac85897c0346538081d81a769",
+  "_path": "/Users/ember/dev/gh/dotfiles",
+  "_updated_at": "2026-02-14T00:56:25.001009Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Symlink-based Deployment",
+      "Modular Zsh Configuration",
+      "Console-based Email Management",
+      "Tiling Window Management",
+      "Keyboard-driven Navigation",
+      "Terminal Multiplexing",
+      "Asynchronous Mail Synchronization",
+      "GPG Encryption",
+      "X11 Resource Configuration",
+      "Plugin Management (Vundle)",
+      "Custom URI Handling",
+      "Virtual Terminal Extensions",
+      "Shell Hooks",
+      "Theme Orchestration",
+      "Environment Variable Management",
+      "Backup & Restore Automation",
+      "Pure Prompt Integration",
+      "MIME Type Handling",
+      "Key Binding Abstractions",
+      "Directory Colorization"
+    ],
+    "tags": [
+      "zsh",
+      "vim",
+      "tmux",
+      "mutt",
+      "notmuch",
+      "mbsync",
+      "herbstluftwm",
+      "urxvt",
+      "gnupg",
+      "spacemacs",
+      "dotfiles",
+      "shell-scripting",
+      "terminal-ui",
+      "productivity",
+      "linux-configuration",
+      "posix"
+    ],
+    "mined_motifs": [
+      "Bundle Specification",
+      "CLI Interface",
+      "Compatibility Layering",
+      "Declarative Configuration",
+      "Extension Registry",
+      "Git Integration",
+      "Help Tag Generation",
+      "Interactive UI Mode",
+      "Metadata Indexing",
+      "Namespace Management",
+      "Plugin Lifecycle Management",
+      "Remote Repository Synchronization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.452,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.055,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 4.047,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.674,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.669,
+        "matches": []
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 2.658,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.001009Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "080ebd1c1fc92251de028d0cfbeb4c698530e34a8a67536309b54d785ea87a24",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:58.343405+00:00"
+  },
+  "mined_motifs": [
+    "Bundle Specification",
+    "CLI Interface",
+    "Compatibility Layering",
+    "Declarative Configuration",
+    "Extension Registry",
+    "Git Integration",
+    "Help Tag Generation",
+    "Interactive UI Mode",
+    "Metadata Indexing",
+    "Namespace Management",
+    "Plugin Lifecycle Management",
+    "Remote Repository Synchronization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.868
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.855
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.854
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.852
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.848
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.847
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.847
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.846
+    }
+  ]
+}

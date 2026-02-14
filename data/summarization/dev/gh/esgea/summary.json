@@ -1,0 +1,235 @@
+{
+  "name": "esgea",
+  "description": "A networked engine for two-player asymmetric-information strategy games, featuring graph-based spatial movement and intelligence-driven resource management. The system implements a robust hidden-state model where players manage concealment, execute stealth maneuvers, and receive filtered observations via a centralized Actix-web server and WebSocket infrastructure.",
+  "tags": [
+    "rust",
+    "game-engine",
+    "asymmetric-information",
+    "stealth-mechanics",
+    "game-server",
+    "websockets",
+    "actix-web",
+    "petgraph",
+    "graph-theory",
+    "hidden-state",
+    "turn-based",
+    "strategy"
+  ],
+  "category": "Asymmetric Information Game Engines",
+  "concepts": [
+    "Asymmetric Information Modeling",
+    "Hidden State Management",
+    "Graph-based Spatial Navigation",
+    "Intelligence Resource Economies",
+    "Real-time Observation Filtering",
+    "WebSocket Event Broadcasting",
+    "Stealth and Concealment Mechanics",
+    "Turn-based Strategy Orchestration",
+    "Networked Multiplayer Synchronization",
+    "Private Observation Channels",
+    "Area Control Systems",
+    "Datalog-integrated Game Rules",
+    "Actor-based State Distribution",
+    "Session-persistent Gameplay",
+    "Invisibility Lifecycle Management",
+    "Resource-driven Action Constraints",
+    "Event-based Game Broadcasting",
+    "Atomic State Concurrency",
+    "Undirected Graph Topology",
+    "Asymmetric Combat Resolution"
+  ],
+  "languages": [
+    "Rust",
+    "HTML"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/server.rs"
+    ]
+  },
+  "_hash": "d6cda24cf775a592b2a7b80c603f941704ff81e01a28bba6c3f2a71b4d4953aa",
+  "_path": "/Users/ember/dev/gh/esgea",
+  "_updated_at": "2026-02-14T00:56:25.037500Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Asymmetric Information Modeling",
+      "Hidden State Management",
+      "Graph-based Spatial Navigation",
+      "Intelligence Resource Economies",
+      "Real-time Observation Filtering",
+      "WebSocket Event Broadcasting",
+      "Stealth and Concealment Mechanics",
+      "Turn-based Strategy Orchestration",
+      "Networked Multiplayer Synchronization",
+      "Private Observation Channels",
+      "Area Control Systems",
+      "Datalog-integrated Game Rules",
+      "Actor-based State Distribution",
+      "Session-persistent Gameplay",
+      "Invisibility Lifecycle Management",
+      "Resource-driven Action Constraints",
+      "Event-based Game Broadcasting",
+      "Atomic State Concurrency",
+      "Undirected Graph Topology",
+      "Asymmetric Combat Resolution"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "game-engine",
+      "asymmetric-information",
+      "stealth-mechanics",
+      "game-server",
+      "websockets",
+      "actix-web",
+      "petgraph",
+      "graph-theory",
+      "hidden-state",
+      "turn-based",
+      "strategy"
+    ],
+    "mined_motifs": [
+      "leptos",
+      "WebAssembly",
+      "matchmaking",
+      "api-design",
+      "axum",
+      "distributed-systems",
+      "real-time-simulation",
+      "Component-based UI",
+      "Terminal User Interface",
+      "area-control",
+      "card-game",
+      "tui"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.671,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.355,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.335,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 5.318,
+        "matches": [
+          "graph-theory"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.274,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.266,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.037500Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bede50f327f5a07df526bdd26a3d6b299e824d7b4fbd76dd03f230863b800802",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:01.404986+00:00"
+  },
+  "mined_motifs": [
+    "leptos",
+    "wasm",
+    "matchmaking",
+    "api-design",
+    "axum",
+    "distributed-systems",
+    "real-time",
+    "Component-based UI",
+    "Terminal User Interface",
+    "area-control",
+    "card-game",
+    "tui"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/esgea",
+      "similarity": 0.904
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.796
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/gh/multiway-tug",
+      "similarity": 0.795
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.793
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.78
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.78
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/multiway-tug",
+      "similarity": 0.769
+    },
+    {
+      "name": "automatafl-react",
+      "path": "/Users/ember/dev/automatafl-react",
+      "similarity": 0.766
+    }
+  ]
+}

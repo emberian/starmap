@@ -1,0 +1,225 @@
+{
+  "name": "blosc-sys",
+  "description": "Low-level Rust FFI bindings for C-Blosc, a high-performance meta-compression library designed for binary data. It employs blocking and shuffling techniques to optimize for CPU cache locality, often achieving throughput exceeding standard memory copy operations. The crate automates the compilation of the underlying C library via CMake, exposing a suite of lossless compressors including LZ4, Snappy, and Zlib.",
+  "tags": [
+    "blosc",
+    "rust",
+    "ffi",
+    "compression",
+    "lz4",
+    "snappy",
+    "zlib",
+    "shuffling",
+    "bitshuffle",
+    "binary-data",
+    "cache-optimized",
+    "low-level"
+  ],
+  "category": "High-Performance Meta-Compression",
+  "concepts": [
+    "Foreign Function Interface",
+    "Meta-compression",
+    "Blocking compression",
+    "Byte shuffling",
+    "Bit shuffling",
+    "Cache-local processing",
+    "Lossless compression",
+    "Binary data optimization",
+    "Static linking",
+    "CMake integration",
+    "Multi-threaded compression contexts",
+    "Entropy reduction preconditioners",
+    "Memory-to-memory operations",
+    "Atomic type alignment",
+    "SIMD-accelerated filtering"
+  ],
+  "languages": [
+    "Rust",
+    "C"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "lib.rs",
+      "build.rs"
+    ]
+  },
+  "_hash": "ce43f552e241f43303d419b69745f1509da4846f7ecbe2ce5a485c55befd61ce",
+  "_path": "/Users/ember/dev/gh/blosc-sys",
+  "_updated_at": "2026-02-14T00:56:24.489175Z",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "foreign-function-interface",
+      "Meta-compression",
+      "Blocking compression",
+      "Byte shuffling",
+      "Bit shuffling",
+      "Cache-local processing",
+      "Lossless compression",
+      "Binary data optimization",
+      "Static linking",
+      "CMake integration",
+      "Multi-threaded compression contexts",
+      "Entropy reduction preconditioners",
+      "Memory-to-memory operations",
+      "Atomic type alignment",
+      "SIMD-accelerated filtering"
+    ],
+    "tags": [
+      "blosc",
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "compression",
+      "lz4",
+      "snappy",
+      "zlib",
+      "shuffling",
+      "bitshuffle",
+      "binary-data",
+      "cache-optimized",
+      "systems-programming"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "performance",
+      "binary-protocol",
+      "capnproto",
+      "schema-compiler",
+      "zero-copy",
+      "foreign-function-interface",
+      "Foreign Function Interface",
+      "CPU amplification defense",
+      "arena allocation",
+      "canonicalization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.31,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.283,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.904,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.52,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.44,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.849,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.489175Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e59f3bbca3354b6a1f8956c3b43d3c238d97a58d17b5da7ad218077b8996ea94",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:35.181110+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "performance",
+    "binary-protocol",
+    "capnproto",
+    "schema-compiler",
+    "zero-copy",
+    "Foreign Function Interface (FFI)",
+    "bindings",
+    "CPU amplification defense",
+    "arena allocation",
+    "canonicalization",
+    "data-encoding"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.869
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.861
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.861
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.857
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.855
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.855
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "name": "winapi-rs",
+  "description": "winapi-rs is a comprehensive collection of hand-curated Rust FFI bindings for the Windows SDK, providing essential types, constants, and function signatures. The repository follows a modular design, separating the core definitions crate from specific system library crates such as kernel32-sys, user32-sys, and advapi32-sys. It aims to unify low-level Windows systems programming in Rust by offering a single, authoritative source for Win32 and COM interface definitions.",
+  "tags": [
+    "rust",
+    "windows-api",
+    "ffi",
+    "win32",
+    "winsdk",
+    "system-programming",
+    "low-level",
+    "com",
+    "directx",
+    "kernel32",
+    "user32",
+    "gdi32",
+    "advapi32",
+    "shell32",
+    "ole32"
+  ],
+  "category": "Windows System API Bindings",
+  "concepts": [
+    "Foreign Function Interface",
+    "Windows SDK",
+    "Win32 API",
+    "Component Object Model",
+    "DirectX",
+    "Application Binary Interface",
+    "System Programming",
+    "Static Linking",
+    "Type Aliasing",
+    "Handle Management",
+    "No-STD Compatibility",
+    "Kernel Bindings",
+    "User Interface Services",
+    "Graphics Device Interface",
+    "Security API",
+    "Shell Services",
+    "Registry Access",
+    "Service Control Manager",
+    "Multimedia API",
+    "Cryptography API",
+    "Networking API",
+    "Memory Management",
+    "Process Management",
+    "Thread Synchronization",
+    "Error Codes",
+    "Unicode Support",
+    "Hardware Interfacing",
+    "Debugging Hooks"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1708,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "lib/aclui-sys/src/lib.rs",
+      "lib/activeds-sys/src/lib.rs",
+      "lib/adsiid-sys/src/lib.rs",
+      "lib/advapi32-sys/src/lib.rs"
+    ]
+  },
+  "_hash": "3f74d492de47229ce8f236722f861cd510cebc5e29e25eeb78fe8285c20b8929",
+  "_path": "/Users/ember/dev/gh/forks/winapi-rs",
+  "_updated_at": "2026-02-14T00:56:27.034768Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "foreign-function-interface",
+      "Windows SDK",
+      "Win32 API",
+      "Component Object Model",
+      "DirectX",
+      "Application Binary Interface",
+      "System Programming",
+      "Static Linking",
+      "Type Aliasing",
+      "Handle Management",
+      "No-STD Compatibility",
+      "Kernel Bindings",
+      "User Interface Services",
+      "Graphics Device Interface",
+      "Security API",
+      "Shell Services",
+      "Registry Access",
+      "Service Control Manager",
+      "Multimedia API",
+      "Cryptography API",
+      "Networking API",
+      "Memory Management",
+      "Process Management",
+      "Thread Synchronization",
+      "Error Codes",
+      "Unicode Support",
+      "Hardware Interfacing",
+      "Debugging Hooks"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "windows-api",
+      "foreign-function-interface",
+      "win32",
+      "winsdk",
+      "systems-programming",
+      "com",
+      "directx",
+      "kernel32",
+      "user32",
+      "gdi32",
+      "advapi32",
+      "shell32",
+      "ole32"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "Systems Programming",
+      "Foreign Function Interface",
+      "linux",
+      "libc",
+      "sockets",
+      "Asynchronous I/O",
+      "Bitflags",
+      "Domain Sockets",
+      "Error Handling",
+      "Error Number Mapping",
+      "Event Notification"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.029,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.668,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.879,
+        "matches": [
+          "memory management",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.466,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.407,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.644,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.034768Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1dad22aa20c43ab9a45238ed7c647c80c30011f0d525615e3555d2f102e30019",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:41.372762+00:00"
+  },
+  "mined_motifs": [
+    "Foreign Function Interface (FFI)",
+    "systems-programming",
+    "bindings",
+    "linux",
+    "libc",
+    "sockets",
+    "Asynchronous I/O",
+    "Bitflags",
+    "Domain Sockets",
+    "Error Handling",
+    "Error Number Mapping",
+    "Event Notification"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.881
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.86
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.86
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.858
+    },
+    {
+      "name": "git2-rs",
+      "path": "/Users/ember/dev/gh/forks/git2-rs",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.847
+    }
+  ]
+}

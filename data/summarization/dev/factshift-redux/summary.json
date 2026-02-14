@@ -1,0 +1,235 @@
+{
+  "name": "factshift-redux",
+  "description": "A high-performance knowledge management and visualization platform integrating a Rust-based domain model with a dynamic, simulation-driven frontend. The system employs a capability-based security model using Macaroons and a custom DSL (SPW) for structured data interchange and spatial layout composition.",
+  "tags": [
+    "rust",
+    "javascript",
+    "d3-force",
+    "web-simulation",
+    "domain-driven-design",
+    "macaroons",
+    "dsl-parser",
+    "chumsky",
+    "rowan-cst",
+    "reactive-ui",
+    "metacognition",
+    "content-addressing",
+    "procedural-macros",
+    "code-generation",
+    "ontology-mapping",
+    "service-workers"
+  ],
+  "category": "Knowledge Graph Visualization & Domain-Driven Runtimes",
+  "concepts": [
+    "Capability-based Security",
+    "Lossless Concrete Syntax Trees",
+    "Force-directed Graph Simulations",
+    "Content Addressability",
+    "Metacognitive Learning Models",
+    "Procedural Macro Code Generation",
+    "Context-sensitive Interaction Modes",
+    "Spatial Layout Composition",
+    "Typed Abstract Syntax Trees",
+    "HMAC-chained Attenuation",
+    "Progressive Enhancement",
+    "Decentralized Content Addressing",
+    "Bloom's Taxonomy Integration",
+    "WebSocket-driven UI State",
+    "Functional Parsing Combinators"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "SCSS",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 277,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/backend/src/main.rs",
+      "crates/cli/src/main.rs",
+      "crates/domain/src/lib.rs",
+      "crates/gen-factshift/src/main.rs"
+    ]
+  },
+  "_hash": "c8e9cf9a6799b9d2783ff6710f72d288440836e0698f8254f7a147fadd96f5a6",
+  "_path": "/Users/ember/dev/factshift-redux",
+  "_updated_at": "2026-02-14T00:56:24.088228Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Capability-based Security",
+      "Lossless Concrete Syntax Trees",
+      "Force-directed Graph Simulations",
+      "Content Addressability",
+      "Metacognitive Learning Models",
+      "Procedural Macro Code Generation",
+      "Context-sensitive Interaction Modes",
+      "Spatial Layout Composition",
+      "Typed Abstract Syntax Trees",
+      "HMAC-chained Attenuation",
+      "Progressive Enhancement",
+      "Decentralized Content Addressing",
+      "Bloom's Taxonomy Integration",
+      "WebSocket-driven UI State",
+      "Functional Parsing Combinators"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "javascript",
+      "d3-force",
+      "web-simulation",
+      "domain-driven-design",
+      "macaroons",
+      "dsl-parser",
+      "chumsky",
+      "rowan-cst",
+      "reactive-ui",
+      "metacognition",
+      "Content-Addressable Storage (CAS)",
+      "procedural-macros",
+      "Compiler Engineering",
+      "ontology-mapping",
+      "service-workers"
+    ],
+    "mined_motifs": [
+      "WebAssembly",
+      "cli",
+      "vite",
+      "AST",
+      "Recursive Descent Parsing",
+      "abstract-syntax-tree",
+      "Asynchronous I/O",
+      "Capability-based Authorization",
+      "Composite Messaging",
+      "Content Policies",
+      "DOI Resolution",
+      "Digital Garden Architecture"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.297,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.294,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.286,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.262,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.222,
+        "matches": [
+          "content-addressable storage (cas)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.213,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.088228Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "42b9f6121008b945450e8f61ebb746fc75520730604ea109dbd741ed1163a914",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:05.151418+00:00"
+  },
+  "mined_motifs": [
+    "wasm",
+    "cli",
+    "vite",
+    "Abstract Syntax Tree",
+    "Recursive Descent Parsing",
+    "ast",
+    "Asynchronous I/O",
+    "Capability-based Authorization",
+    "Composite Messaging",
+    "Content Policies",
+    "DOI Resolution",
+    "Digital Garden Architecture"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "s_lf",
+      "path": "/Users/ember/dev/gh/s_lf",
+      "similarity": 0.781
+    },
+    {
+      "name": "app.factshift.com",
+      "path": "/Users/ember/dev/app.factshift.com",
+      "similarity": 0.778
+    },
+    {
+      "name": "noosphere",
+      "path": "/Users/ember/dev/noosphere",
+      "similarity": 0.776
+    },
+    {
+      "name": "visualizers",
+      "path": "/Users/ember/hellas/hades-v0/visualizers",
+      "similarity": 0.756
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.755
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.751
+    },
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/gh/ual-tool",
+      "similarity": 0.749
+    },
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.747
+    }
+  ]
+}

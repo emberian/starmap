@@ -1,0 +1,241 @@
+{
+  "name": "glium",
+  "description": "A high-level, type-safe Rust wrapper for OpenGL designed to enforce RAII and stateless API patterns. It abstracts complex state management, buffer allocations, and shader linking while providing optimized state-change tracking and support for modern techniques like bindless textures and persistent mapping.",
+  "tags": [
+    "opengl",
+    "graphics-api",
+    "rust-lang",
+    "rendering",
+    "gamedev",
+    "gpu",
+    "shaders",
+    "raii",
+    "stateless-api",
+    "glsl",
+    "texture-mapping",
+    "framebuffer",
+    "vertex-buffer",
+    "type-safety",
+    "hardware-acceleration"
+  ],
+  "category": "Graphics API Abstraction",
+  "concepts": [
+    "Resource Acquisition Is Initialization (RAII)",
+    "Graphics Pipeline Management",
+    "Shader Compilation and Linking",
+    "Vertex Array Objects (VAO)",
+    "Framebuffer Objects (FBO)",
+    "Uniform Buffer Objects (UBO)",
+    "Texture Resident Handles",
+    "Backface Culling",
+    "Depth and Stencil Testing",
+    "Multidraw Indirect Rendering",
+    "Transform Feedback",
+    "Compute Shaders",
+    "Context State Tracking",
+    "Asynchronous Data Transfers",
+    "Bindless Textures",
+    "Persistent Buffer Mapping",
+    "OpenGL ES Compatibility",
+    "Stateless Function Dispatch"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 182,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "benches/support/mod.rs",
+      "examples/support/mod.rs",
+      "macros/src/lib.rs",
+      "src/backend/glutin/mod.rs"
+    ]
+  },
+  "_hash": "e2a8450c55a926ad0d42f1f9f946cd8d2c93acdbbfc5ff327363e0098d910a25",
+  "_path": "/Users/ember/dev/gh/forks/glium",
+  "_updated_at": "2026-02-14T00:56:25.576653Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "Graphics Pipeline Management",
+      "Shader Compilation and Linking",
+      "Vertex Array Objects (VAO)",
+      "Framebuffer Objects (FBO)",
+      "Uniform Buffer Objects (UBO)",
+      "Texture Resident Handles",
+      "Backface Culling",
+      "Depth and Stencil Testing",
+      "Multidraw Indirect Rendering",
+      "Transform Feedback",
+      "Compute Shaders",
+      "Context State Tracking",
+      "Asynchronous Data Transfers",
+      "Bindless Textures",
+      "Persistent Buffer Mapping",
+      "OpenGL ES Compatibility",
+      "Stateless Function Dispatch"
+    ],
+    "tags": [
+      "opengl",
+      "graphics-api",
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "gamedev",
+      "gpu",
+      "shaders",
+      "Resource Acquisition Is Initialization (RAII)",
+      "stateless-api",
+      "glsl",
+      "texture-mapping",
+      "framebuffer",
+      "vertex-buffer",
+      "type-safety",
+      "low-level-graphics"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "systems-programming",
+      "Computer Graphics & Rendering",
+      "vao",
+      "vbo",
+      "shader-compilation",
+      "glfw",
+      "Vertex Array Objects",
+      "Vertex Buffer Objects",
+      "hardware-abstraction",
+      "gpu-programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.635,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.973,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.936,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.453,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.432,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.41,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.576653Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1a6cfced27f7b27c6006d614aac275272c4bc376e8455713f60b287f83f42b1b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:37.345521+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "low-level",
+    "graphics",
+    "vao",
+    "vbo",
+    "shader-compilation",
+    "glfw",
+    "graphics-programming",
+    "Vertex Array Objects",
+    "Vertex Buffer Objects",
+    "hardware-abstraction",
+    "gpu-programming"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.935
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.916
+    },
+    {
+      "name": "gl-rs",
+      "path": "/Users/ember/dev/gh/forks/gl-rs",
+      "similarity": 0.889
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.877
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.874
+    },
+    {
+      "name": "nice_glfw",
+      "path": "/Users/ember/dev/gh/nice_glfw",
+      "similarity": 0.872
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.87
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.865
+    }
+  ]
+}

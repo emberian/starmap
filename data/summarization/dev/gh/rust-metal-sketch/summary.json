@@ -1,0 +1,229 @@
+{
+  "name": "metal-sketch",
+  "description": "An exploratory Rust interface design for the Metal graphics API, focusing on trait-based hardware abstraction for GPU resources and command execution. It defines core abstractions for devices, buffers, textures, and render pipelines to provide a type-safe wrapper around low-level graphics primitives. The project serves as an architectural blueprint for mapping Apple's Metal concepts into idiomatic early Rust structures.",
+  "tags": [
+    "rust",
+    "metal",
+    "graphics-api",
+    "gpu",
+    "hardware-abstraction",
+    "render-pipeline",
+    "shader-compilation",
+    "low-level",
+    "resource-management",
+    "apple-metal"
+  ],
+  "category": "Graphics Hardware Abstraction",
+  "concepts": [
+    "Device Abstraction",
+    "Command Queue Management",
+    "Shader Program Lifecycle",
+    "GPU Buffer Allocation",
+    "Texture Descriptors",
+    "Sampler State Configuration",
+    "Depth Stencil Testing",
+    "Render Pipeline State",
+    "Associated Types for Handles",
+    "Trait-based Hardware Interface",
+    "Memory Alignment",
+    "Zero-copy Buffer Sharing",
+    "Pipeline Reflection",
+    "Compute Kernel Execution",
+    "Descriptor-driven Object Creation",
+    "Error Type Mapping",
+    "Resource Persistence",
+    "Asynchronous Command Submission"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "111cc5e55701a45082dd5dc9bb14352a826cbb9f87405395fca3cb8060946786",
+  "_path": "/Users/ember/dev/gh/rust-metal-sketch",
+  "_updated_at": "2026-02-14T00:56:28.580768Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Device Abstraction",
+      "Command Queue Management",
+      "Shader Program Lifecycle",
+      "GPU Buffer Allocation",
+      "Texture Descriptors",
+      "Sampler State Configuration",
+      "Depth Stencil Testing",
+      "Render Pipeline State",
+      "Associated Types for Handles",
+      "Trait-based Hardware Interface",
+      "Memory Alignment",
+      "Zero-copy Buffer Sharing",
+      "Pipeline Reflection",
+      "Compute Kernel Execution",
+      "Descriptor-driven Object Creation",
+      "Error Type Mapping",
+      "Resource Persistence",
+      "Asynchronous Command Submission"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "metal",
+      "graphics-api",
+      "gpu",
+      "hardware-abstraction",
+      "render-pipeline",
+      "shader-compilation",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "apple-metal"
+    ],
+    "mined_motifs": [
+      "opengl",
+      "Computer Graphics & Rendering",
+      "glsl",
+      "type-safety",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "cuda",
+      "GPGPU Compute",
+      "intel"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.504,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl",
+          "category:Graphics Hardware Abstraction"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 8.332,
+        "matches": [
+          "cuda",
+          "metal"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.984,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.969,
+        "matches": [
+          "gpgpu compute",
+          "glsl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.531,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.521,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.580768Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "80d720cf5fc94b685de72a37aab28b69c4c0ab0597f499254fa1fdec250b2cfd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:22.900861+00:00"
+  },
+  "mined_motifs": [
+    "opengl",
+    "rendering",
+    "glsl",
+    "type-safety",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "cuda",
+    "gpgpu",
+    "intel"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.923
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.889
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.883
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.882
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.88
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.879
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.874
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "name": "spaceapi-server-rs",
+  "description": "A high-performance Rust implementation of the SpaceAPI v0.13 specification, designed to provide real-time status updates for hackerspaces. The library leverages the Iron web framework and Redis as a backend datastore to aggregate physical sensor data into a standardized JSON schema.",
+  "tags": [
+    "rust",
+    "spaceapi",
+    "hackerspace",
+    "rest-api",
+    "redis",
+    "iron-framework",
+    "sensors",
+    "iot-backend",
+    "server-sent-events",
+    "status-monitoring"
+  ],
+  "category": "IoT Metadata Aggregation",
+  "concepts": [
+    "RESTful API Design",
+    "Sensor Data Fusion",
+    "In-memory Key-Value Storage",
+    "Middleware Architecture",
+    "Concurrent State Management",
+    "Trait-based Extensions",
+    "JSON Deserialization",
+    "Asynchronous I/O"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 17,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/server/mod.rs",
+      "tests/lib.rs",
+      "src/server/handlers.rs"
+    ]
+  },
+  "_hash": "7ff964c56c1e2ca57cfad9560686829380c7f47274da18e0ce0913d848cbabcb",
+  "_path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+  "_updated_at": "2026-02-14T00:56:26.741837Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "RESTful API Design",
+      "Sensor Data Fusion",
+      "In-memory Key-Value Storage",
+      "Middleware Architecture",
+      "Concurrent State Management",
+      "Trait-based Extensions",
+      "JSON Deserialization",
+      "Asynchronous I/O"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "spaceapi",
+      "hackerspace",
+      "rest-api",
+      "redis",
+      "iron-framework",
+      "sensors",
+      "iot-backend",
+      "server-sent-events",
+      "status-monitoring"
+    ],
+    "mined_motifs": [
+      "backend",
+      "rust",
+      "Asynchronous Programming",
+      "library-management",
+      "axum",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "cryptographic-hashing",
+      "entity-relational-mapping",
+      "external-service-integration",
+      "google-books-api",
+      "inventory-state-tracking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.911,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "rust"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.552,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.504,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.497,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 5.47,
+        "matches": [
+          "sensor data fusion"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 3.886,
+        "matches": [
+          "category:IoT Metadata Aggregation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.741837Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6fdab5a055fa6e4c71366bc04536bae2cf6a4a7bb2c2f1b5c546982e4c0726c3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:29.377251+00:00"
+  },
+  "mined_motifs": [
+    "backend",
+    "async-rust",
+    "tokio",
+    "library-management",
+    "axum",
+    "system-programming",
+    "resource-management",
+    "cryptographic-hashing",
+    "entity-relational-mapping",
+    "external-service-integration",
+    "google-books-api",
+    "inventory-state-tracking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.872
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.865
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.862
+    },
+    {
+      "name": "alexandria-client",
+      "path": "/Users/ember/dev/gh/alexandria-client",
+      "similarity": 0.854
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.853
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.848
+    }
+  ]
+}

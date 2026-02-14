@@ -1,0 +1,250 @@
+{
+  "name": "mini-sui",
+  "description": "A reference implementation of the Sui Lutris protocol, a hybrid blockchain architecture that bifurcates transaction processing into Byzantine Consistent Broadcast for single-writer owned objects and a sequenced consensus path for shared-access objects. It encapsulates validator state transitions, causal dependency tracking via persistent data structures, and the epoch-based reconfiguration logic defined in the Sui Lutris whitepaper.",
+  "tags": [
+    "sui-lutris",
+    "blockchain",
+    "consensus",
+    "rust",
+    "byzantine-fault-tolerance",
+    "consistent-broadcast",
+    "distributed-systems",
+    "owned-objects",
+    "shared-objects",
+    "causal-ordering",
+    "tokio",
+    "persistent-data-structures",
+    "reconfiguration",
+    "asynchronous-processing"
+  ],
+  "category": "Hybrid Byzantine Consistent Broadcast & Consensus",
+  "concepts": [
+    "Sui Lutris Protocol",
+    "Byzantine Consistent Broadcast",
+    "Single-Writer Ownership",
+    "Shared Object Sequencing",
+    "Transaction Certificates",
+    "Quorum Intersection",
+    "Causal Completeness",
+    "Speculative Execution",
+    "Lock-free Concurrent Storage",
+    "Epoch-based Reconfiguration",
+    "Checkpointing Service",
+    "Validator State Transitions",
+    "Persistent Hash Array Mapped Tries",
+    "MPSC Task Coordination",
+    "Execution Effects",
+    "Object-centric Data Model",
+    "Consensus-independent Fast Path",
+    "Byzantine Fault Tolerance",
+    "State Root Hashing",
+    "Validator Set Management",
+    "Concurrent Object Locking",
+    "Sequence-based Consensus",
+    "Asynchronous Task Spawning"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/validator.rs",
+      "src/storage.rs",
+      "src/reconfiguration.rs"
+    ]
+  },
+  "_hash": "44135cc7cbff5e5add60864c73fb0e1b23b9288fba2eb26241c4c8a7d8277dd0",
+  "_path": "/Users/ember/hellas/mini-sui",
+  "_updated_at": "2026-02-14T00:56:31.626181Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b114d401643d8a903aea79e47e1d28f324039134e9f6e8e348600d0a967151b3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:38.022611+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "state-machine",
+    "zero-knowledge-proofs",
+    "consensus-protocol",
+    "Quorum Certificates",
+    "Byzantine Fault Tolerance (BFT)",
+    "State Machine Replication",
+    "quorum-certificates",
+    "Kimchi Proof System",
+    "Ouroboros Samasika Consensus",
+    "Pickles SNARK",
+    "Recursive SNARKs"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.83
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.829
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.823
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.821
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.82
+    },
+    {
+      "name": "protoproto2",
+      "path": "/Users/ember/hellas/protoproto2",
+      "similarity": 0.818
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.813
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.81
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Sui Lutris Protocol",
+      "Byzantine Consistent Broadcast",
+      "Single-Writer Ownership",
+      "Shared Object Sequencing",
+      "Transaction Certificates",
+      "Quorum Intersection",
+      "Causal Completeness",
+      "Speculative Execution",
+      "Lock-free Concurrent Storage",
+      "Epoch-based Reconfiguration",
+      "Checkpointing Service",
+      "Validator State Transitions",
+      "Persistent Hash Array Mapped Tries",
+      "MPSC Task Coordination",
+      "Execution Effects",
+      "Object-centric Data Model",
+      "Consensus-independent Fast Path",
+      "distributed-systems",
+      "State Root Hashing",
+      "Validator Set Management",
+      "Concurrent Object Locking",
+      "Sequence-based Consensus",
+      "Asynchronous Task Spawning"
+    ],
+    "tags": [
+      "sui-lutris",
+      "blockchain",
+      "consensus",
+      "Rust Language Ecosystem",
+      "byzantine-fault-tolerance",
+      "consistent-broadcast",
+      "distributed-systems",
+      "owned-objects",
+      "shared-objects",
+      "causal-ordering",
+      "Asynchronous Programming",
+      "persistent-data-structures",
+      "reconfiguration",
+      "asynchronous-processing"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "state-machine",
+      "Zero-Knowledge Proofs (ZKP)",
+      "Distributed Consensus",
+      "quorum-certificates",
+      "byzantine-fault-tolerance",
+      "State Machine Replication",
+      "Kimchi Proof System",
+      "Ouroboros Samasika Consensus",
+      "Pickles SNARK",
+      "zero-knowledge-proofs"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 10.938,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "consensus",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 8.23,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.191,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.125,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.067,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "pickles snark"
+        ]
+      },
+      {
+        "id": "distributed-consensus-fabric",
+        "name": "Distributed Consensus Fabric",
+        "score": 5.479,
+        "matches": [
+          "consensus"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.626181Z"
+  }
+}

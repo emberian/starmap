@@ -1,0 +1,241 @@
+{
+  "name": "catgrad",
+  "description": "A categorical deep learning compiler that represents neural network architectures as open hypergraphs within the framework of symmetric monoidal categories. It provides a structured intermediate representation where tensor operations are treated as morphisms, enabling rigorous composition and optimization of complex model topologies. The system features a native CPU backend with optimized linear algebra kernels and demonstrates practical utility through implementations of modern transformer-based models like Llama, Gemma, and BERT.",
+  "tags": [
+    "deep-learning-compiler",
+    "category-theory",
+    "open-hypergraphs",
+    "rust",
+    "tensor-computation",
+    "transformer",
+    "llm-inference",
+    "cpu-kernels",
+    "symmetric-monoidal-categories",
+    "graph-ir",
+    "string-diagrams",
+    "machine-learning"
+  ],
+  "category": "Categorical Tensor Computation",
+  "concepts": [
+    "Open Hypergraphs",
+    "Symmetric Monoidal Categories",
+    "String Diagrams",
+    "Categorical Composition",
+    "Tensor Algebra",
+    "Transformer Architectures",
+    "Large Language Model Inference",
+    "CPU Kernel Optimization",
+    "NDArray Implementation",
+    "Safetensors Serialization",
+    "Memory Mapping",
+    "Matrix Multiplication Kernels",
+    "Operator Representation",
+    "Graph-based Intermediate Representation",
+    "Layer Normalization",
+    "Attention Mechanisms",
+    "Embedding Lookups",
+    "Softmax Activation",
+    "Categorical Semantics",
+    "Structural Model Optimization"
+  ],
+  "languages": [
+    "Rust",
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 27,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "examples/llm/main.rs",
+      "examples/utils/mod.rs",
+      "src/backend/cpu/mod.rs",
+      "src/backend/mod.rs"
+    ]
+  },
+  "_hash": "5e6d75d45750750d953933bf45b36810c6afb2e17fc12b9bed0d478daf941400",
+  "_path": "/Users/ember/hellas/eggrad",
+  "_updated_at": "2026-02-14T00:56:31.368496Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "101103ff88dd5d242ad991b4f2fe43c6a0d645e01195f6df1a0829bf35332cce",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:28.601128+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "e-graphs",
+    "safetensors",
+    "functional-programming",
+    "blockchain",
+    "Tokenization",
+    "algebraic optimization",
+    "broadcasting",
+    "categorical logic",
+    "compiler",
+    "constant folding",
+    "cpu kernels"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/catgrad",
+      "similarity": 0.93
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.868
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.867
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.865
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.864
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.863
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.859
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Open Hypergraphs",
+      "Symmetric Monoidal Categories",
+      "String Diagrams",
+      "Categorical Composition",
+      "Tensor Algebra",
+      "Transformer Architectures",
+      "Large Language Model Inference",
+      "CPU Kernel Optimization",
+      "NDArray Implementation",
+      "Safetensors Serialization",
+      "Memory Mapping",
+      "Matrix Multiplication Kernels",
+      "Operator Representation",
+      "Graph-based Intermediate Representation",
+      "Layer Normalization",
+      "Attention Mechanisms",
+      "Embedding Lookups",
+      "Softmax Activation",
+      "Categorical Semantics",
+      "Structural Model Optimization"
+    ],
+    "tags": [
+      "deep-learning-compiler",
+      "category-theory",
+      "open-hypergraphs",
+      "Rust Language Ecosystem",
+      "tensor-computation",
+      "transformer",
+      "Large Language Model Inference",
+      "cpu-kernels",
+      "symmetric-monoidal-categories",
+      "graph-ir",
+      "string-diagrams",
+      "machine-learning"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "e-graphs",
+      "safetensors",
+      "functional-programming",
+      "blockchain",
+      "lexical-analysis",
+      "algebraic optimization",
+      "broadcasting",
+      "category-theory",
+      "compiler-design",
+      "constant folding",
+      "cpu kernels"
+    ],
+    "metaconstellations": [
+      {
+        "id": "algebraic-optimization-compilers",
+        "name": "Algebraic Optimization & Categorical Compilers",
+        "score": 12.657,
+        "matches": [
+          "category-theory",
+          "e-graphs",
+          "algebraic optimization",
+          "open hypergraphs",
+          "string diagrams"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.704,
+        "matches": [
+          "compiler-design",
+          "lexical-analysis",
+          "e-graphs"
+        ]
+      },
+      {
+        "id": "topological-information-design",
+        "name": "Topological Information Design",
+        "score": 5.681,
+        "matches": [
+          "category-theory"
+        ]
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 5.603,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.529,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.524,
+        "matches": [
+          "large language model inference"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.368496Z"
+  }
+}

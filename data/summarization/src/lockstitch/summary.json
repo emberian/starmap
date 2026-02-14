@@ -1,0 +1,214 @@
+{
+  "name": "lockstitch",
+  "description": "Lockstitch is an incremental, stateful cryptographic construction designed for efficient symmetric-key operations including authenticated encryption, hashing, and pseudo-random function derivation. It leverages high-performance primitives like AES-128 and SHA-256 to provide a flexible protocol transcript framework similar to Merlin or Cyclist. The library focuses on performance and security on modern hardware with dedicated instructions while maintaining a minimal, misuse-resistant API.",
+  "tags": [
+    "cryptography",
+    "rust",
+    "authenticated-encryption",
+    "stateful-hashing",
+    "aes-128",
+    "sha-256",
+    "message-authentication",
+    "protocol-transcript",
+    "no-std",
+    "performance",
+    "hmac",
+    "hazmat",
+    "incremental-crypto"
+  ],
+  "category": "Symmetric-Key Cryptographic Protocols",
+  "concepts": [
+    "Stateful Cryptographic Objects",
+    "Domain Separation",
+    "Protocol Transcript Ratcheting",
+    "Authenticated Encryption with Associated Data (AEAD)",
+    "Message Authentication Codes (MAC)",
+    "Pseudo-Random Functions (PRF)",
+    "Incremental State Mixing",
+    "Constant-Time Operations",
+    "Zeroization on Drop",
+    "Domain Separation Strings",
+    "Transcript-based Security",
+    "Symmetric-key Composition"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "tests/transcripts_test.rs",
+      "tests/constructions_test.rs",
+      "xtask/src/xtask.rs"
+    ]
+  },
+  "_hash": "cac46b43ca08c631cb1477971cd61a68c1f989f863d0fa93bf72a0e9c0124fe0",
+  "_path": "/Users/ember/src/lockstitch",
+  "_updated_at": "2026-02-14T00:56:33.130551Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5e00eeb82eaf2be9c4962d8599a4e5472761f57a525c187c34ec63c5e690cca3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:38.181898+00:00"
+  },
+  "mined_motifs": [
+    "constant-time",
+    "side-channel-resistance",
+    "security",
+    "SIMD Vectorization",
+    "blake2",
+    "hash-function",
+    "Modular Exponentiation",
+    "rsa",
+    "Finite Field Arithmetic",
+    "Montgomery Multiplication",
+    "Side-channel attack mitigation",
+    "Conditional assignment"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.837
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.834
+    },
+    {
+      "name": "subtle",
+      "path": "/Users/ember/dev/gh/forks/subtle",
+      "similarity": 0.824
+    },
+    {
+      "name": "libblake2",
+      "path": "/Users/ember/dev/gh/libblake2",
+      "similarity": 0.824
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.819
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.817
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.811
+    },
+    {
+      "name": "subtle",
+      "path": "/Users/ember/hellas/subtle",
+      "similarity": 0.81
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Stateful Cryptographic Objects",
+      "Domain Separation",
+      "Protocol Transcript Ratcheting",
+      "Authenticated Encryption with Associated Data (AEAD)",
+      "Message Authentication Codes (MAC)",
+      "Pseudo-Random Functions (PRF)",
+      "Incremental State Mixing",
+      "Constant-Time Operations",
+      "Zeroization on Drop",
+      "Domain Separation Strings",
+      "Transcript-based Security",
+      "Symmetric-key Composition"
+    ],
+    "tags": [
+      "cryptography",
+      "Rust Language Ecosystem",
+      "authenticated-encryption",
+      "stateful-hashing",
+      "aes-128",
+      "sha-256",
+      "message-authentication",
+      "protocol-transcript",
+      "performance",
+      "hmac",
+      "hazmat",
+      "incremental-crypto"
+    ],
+    "mined_motifs": [
+      "constant-time",
+      "side-channel-resistance",
+      "security",
+      "SIMD Vectorization",
+      "blake2",
+      "hash-function",
+      "Modular Exponentiation",
+      "rsa",
+      "Finite Field Arithmetic",
+      "Montgomery Multiplication",
+      "Side-channel attack mitigation",
+      "Conditional assignment"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.638,
+        "matches": [
+          "cryptography",
+          "category:Symmetric-Key Cryptographic Protocols"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.441,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.352,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 2.583,
+        "matches": []
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 2.579,
+        "matches": []
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 2.572,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.130551Z"
+  }
+}

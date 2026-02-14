@@ -1,0 +1,230 @@
+{
+  "name": "blas",
+  "description": "This library provides a high-level Rust interface to the Basic Linear Algebra Subprograms (BLAS), wrapping the low-level FFI bindings provided by libblas-sys. It facilitates standard numerical operations including scalar-vector, matrix-vector, and matrix-matrix transformations with support for both real and complex precision. The implementation focuses on providing a safe, idiomatic API while maintaining the performance profile of optimized BLAS backends like OpenBLAS or Netlib.",
+  "tags": [
+    "rust",
+    "blas",
+    "ffi",
+    "linear-algebra",
+    "matrix",
+    "vector",
+    "numerical-computing",
+    "hpc",
+    "level-1-blas",
+    "level-2-blas",
+    "level-3-blas",
+    "scientific-computing",
+    "mathematical-software",
+    "libblas",
+    "openblas"
+  ],
+  "category": "Basic Linear Algebra Subprograms Interface",
+  "concepts": [
+    "Level 1 BLAS",
+    "Level 2 BLAS",
+    "Level 3 BLAS",
+    "Scalar-Vector Operations",
+    "Matrix-Vector Multiplication",
+    "Matrix-Matrix Multiplication",
+    "Foreign Function Interface",
+    "Memory Layout",
+    "Row-Major",
+    "Column-Major",
+    "Complex Arithmetic",
+    "Property-Based Testing",
+    "QuickCheck",
+    "Numerical Precision",
+    "Floating-Point Stability",
+    "Vectorization",
+    "Transposition",
+    "Safe Wrappers",
+    "C-style Struct Representation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "bfec08a453e5d9be48f6c128c5360619027582902dc073c765cb431bc5ac7f7c",
+  "_path": "/Users/ember/dev/gh/forks/blas",
+  "_updated_at": "2026-02-14T00:56:25.311214Z",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Level 1 BLAS",
+      "Level 2 BLAS",
+      "Level 3 BLAS",
+      "Scalar-Vector Operations",
+      "Matrix-Vector Multiplication",
+      "Matrix-Matrix Multiplication",
+      "foreign-function-interface",
+      "Memory Layout",
+      "Row-Major",
+      "Column-Major",
+      "Complex Arithmetic",
+      "Property-Based Testing",
+      "QuickCheck",
+      "Numerical Precision",
+      "Floating-Point Stability",
+      "Vectorization",
+      "Transposition",
+      "Safe Wrappers",
+      "C-style Struct Representation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "blas",
+      "foreign-function-interface",
+      "Linear Algebra",
+      "matrix",
+      "vector",
+      "numerical-computing",
+      "hpc",
+      "level-1-blas",
+      "level-2-blas",
+      "level-3-blas",
+      "scientific-computing",
+      "mathematical-software",
+      "libblas",
+      "openblas"
+    ],
+    "mined_motifs": [
+      "Static Linking",
+      "foreign-function-interface",
+      "Conditional Compilation",
+      "netlib",
+      "static-linking",
+      "sys-crate",
+      "lapack",
+      "Foreign Function Interface",
+      "Modular Arithmetic",
+      "Basic Linear Algebra Subprograms (BLAS)",
+      "CBLAS Interface",
+      "Complex Number Support"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.069,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.322,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.259,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.495,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.494,
+        "matches": []
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.464,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.311214Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "28c363218aa6f6fb65ab81f9a49a838180c1c94e2151efe8a9e307b67f3b8870",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:16.455740+00:00"
+  },
+  "mined_motifs": [
+    "Static Linking",
+    "Foreign Function Interface (FFI)",
+    "Conditional Compilation",
+    "netlib",
+    "static-linking",
+    "sys-crate",
+    "lapack",
+    "bindings",
+    "Modular Arithmetic",
+    "Basic Linear Algebra Subprograms (BLAS)",
+    "CBLAS Interface",
+    "Complex Number Support"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/forks/libblas-sys-1",
+      "similarity": 0.93
+    },
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/libblas-sys",
+      "similarity": 0.894
+    },
+    {
+      "name": "liblapack-sys",
+      "path": "/Users/ember/dev/gh/forks/liblapack-sys",
+      "similarity": 0.869
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.823
+    },
+    {
+      "name": "cgmath-rs",
+      "path": "/Users/ember/dev/gh/forks/cgmath-rs",
+      "similarity": 0.811
+    },
+    {
+      "name": "rust-lpsolve",
+      "path": "/Users/ember/dev/rust-lpsolve",
+      "similarity": 0.803
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.794
+    }
+  ]
+}

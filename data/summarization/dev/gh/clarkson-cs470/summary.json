@@ -1,0 +1,256 @@
+{
+  "name": "clarkson-cs470",
+  "description": "This repository centralizes coursework and project-based implementations for a machine learning curriculum, focusing on both supervised and unsupervised neural architectures. The codebase features robust data pipelines for financial fraud detection, employing one-hot vectorization, min-max normalization, and temporal partitioning on high-cardinality imbalanced datasets. It further implements foundational computer vision models including CNNs and U-Nets for semantic segmentation, alongside exploratory clustering analysis using k-Means and the elbow method.",
+  "tags": [
+    "machine-learning",
+    "tensorflow",
+    "keras",
+    "scikit-learn",
+    "fraud-detection",
+    "cnn",
+    "u-net",
+    "k-means",
+    "data-preprocessing",
+    "imbalanced-learning",
+    "computer-vision",
+    "temporal-validation",
+    "neural-networks",
+    "clustering",
+    "pandas",
+    "python"
+  ],
+  "category": "Neural Architectures & Predictive Modeling",
+  "concepts": [
+    "one-hot vectorization",
+    "min-max normalization",
+    "convolutional neural networks",
+    "U-Net semantic segmentation",
+    "k-means clustering",
+    "elbow method",
+    "class imbalance mitigation",
+    "temporal data partitioning",
+    "bivariate distribution analysis",
+    "backpropagation",
+    "feature engineering",
+    "model serialization",
+    "univariate distribution plots",
+    "data-driven fraud detection",
+    "jointplot visualization",
+    "layer-wise feature extraction",
+    "image segmentation",
+    "clustering inertia",
+    "time-series validation",
+    "dimensionality reduction",
+    "supervised learning",
+    "unsupervised learning",
+    "exploratory data analysis",
+    "tensor manipulation",
+    "vectorized operations",
+    "loss optimization",
+    "model evaluation",
+    "feature scaling"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": false,
+    "sample_files": [
+      "final_proj/eaea.py"
+    ]
+  },
+  "_hash": "2305953cf11cc775ad7d029a9697d8b39d65c136b6e5e84266f8fa9bb84fc845",
+  "_path": "/Users/ember/dev/gh/clarkson-cs470",
+  "_updated_at": "2026-02-14T00:56:24.510688Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "one-hot vectorization",
+      "min-max normalization",
+      "convolutional neural networks",
+      "U-Net semantic segmentation",
+      "k-means clustering",
+      "elbow method",
+      "class imbalance mitigation",
+      "temporal data partitioning",
+      "bivariate distribution analysis",
+      "backpropagation",
+      "feature engineering",
+      "model serialization",
+      "univariate distribution plots",
+      "data-driven fraud detection",
+      "jointplot visualization",
+      "layer-wise feature extraction",
+      "image segmentation",
+      "clustering inertia",
+      "time-series validation",
+      "dimensionality reduction",
+      "supervised learning",
+      "unsupervised learning",
+      "exploratory data analysis",
+      "tensor manipulation",
+      "vectorized operations",
+      "loss optimization",
+      "model evaluation",
+      "feature scaling"
+    ],
+    "tags": [
+      "machine-learning",
+      "tensorflow",
+      "keras",
+      "scikit-learn",
+      "fraud-detection",
+      "cnn",
+      "u-net",
+      "k-means",
+      "data-preprocessing",
+      "imbalanced-learning",
+      "computer-vision",
+      "temporal-validation",
+      "neural-networks",
+      "clustering",
+      "pandas",
+      "python"
+    ],
+    "mined_motifs": [
+      "recursion",
+      "algorithms",
+      "cpp",
+      "zero-knowledge-proofs",
+      "blockchain",
+      "Mina Protocol",
+      "o1js",
+      "smart-contracts",
+      "typescript",
+      "verifiable-computing",
+      "Zero-Knowledge Proofs (ZKP)",
+      "zkapp"
+    ],
+    "metaconstellations": [
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.123,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.318,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 5.145,
+        "matches": [
+          "neural-networks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 4.921,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 4.92,
+        "matches": [
+          "zero-knowledge proofs (zkp)"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 4.909,
+        "matches": [
+          "mina protocol"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.510688Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e212e3a609301bc8246636a94a21470258a63bd3a45324699a3f319cb1d648fa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:37.559577+00:00"
+  },
+  "mined_motifs": [
+    "recursion",
+    "algorithms",
+    "cpp",
+    "Recursive SNARKs",
+    "blockchain",
+    "mina-protocol",
+    "o1js",
+    "smart-contracts",
+    "typescript",
+    "verifiable-computing",
+    "zero-knowledge-proofs",
+    "zkapp"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.703
+    },
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.698
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.694
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.688
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.683
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.682
+    },
+    {
+      "name": "cs447",
+      "path": "/Users/ember/dev/gh/cs447",
+      "similarity": 0.68
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.679
+    }
+  ]
+}

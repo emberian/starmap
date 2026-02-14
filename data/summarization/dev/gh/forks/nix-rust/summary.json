@@ -1,0 +1,280 @@
+{
+  "name": "nix-rust",
+  "description": "nix-rust provides Rust-friendly bindings to various *nix platform APIs, including Linux, Darwin, and several BSD distributions. The project aims to unify common system interfaces where possible while still exposing platform-specific functionality through idiomatic Rust abstractions. It covers a broad spectrum of low-level systems programming tasks such as socket manipulation, signal handling, and terminal control.",
+  "tags": [
+    "rust",
+    "unix",
+    "posix",
+    "system-calls",
+    "ffi",
+    "libc",
+    "linux",
+    "macos",
+    "bsd",
+    "sockets",
+    "ioctl",
+    "signals",
+    "termios",
+    "fcntl",
+    "unistd",
+    "systems-programming"
+  ],
+  "category": "POSIX System Call Interface Bindings",
+  "concepts": [
+    "System Calls",
+    "File Descriptors",
+    "Socket Programming",
+    "Signal Handling",
+    "Terminal Control",
+    "Memory Management",
+    "Error Handling",
+    "Foreign Function Interface",
+    "Platform Abstraction",
+    "IO Control",
+    "Process Management",
+    "Event Notification",
+    "File System Operations",
+    "Network Programming",
+    "Message Queues",
+    "Bitflags",
+    "Resource Quotas",
+    "Asynchronous I/O",
+    "Memory Mapping",
+    "Domain Sockets",
+    "IP Multicast",
+    "Socket Options",
+    "File Locking",
+    "Error Number Mapping",
+    "Statfs",
+    "Utsname",
+    "Time Management",
+    "I/O Vectors",
+    "Eventfd",
+    "Signalfd",
+    "Ptrace",
+    "Mount Operations",
+    "Scheduling",
+    "Kernel Interfaces"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 64,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "nix-test/src/lib.rs",
+      "src/lib.rs",
+      "src/sys/ioctl/mod.rs",
+      "src/sys/mod.rs"
+    ]
+  },
+  "_hash": "1a8189e49e94f597c237baa9cab7b769db4a59f956888210957f9583bb2df84e",
+  "_path": "/Users/ember/dev/gh/forks/nix-rust",
+  "_updated_at": "2026-02-14T00:56:26.210433Z",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "System Calls",
+      "File Descriptors",
+      "Socket Programming",
+      "Signal Handling",
+      "Terminal Control",
+      "Memory Management",
+      "Error Handling",
+      "foreign-function-interface",
+      "Platform Abstraction",
+      "IO Control",
+      "Process Management",
+      "Event Notification",
+      "File System Operations",
+      "Network Programming",
+      "Message Queues",
+      "Bitflags",
+      "Resource Quotas",
+      "Asynchronous I/O",
+      "Memory Mapping",
+      "Domain Sockets",
+      "IP Multicast",
+      "Socket Options",
+      "File Locking",
+      "Error Number Mapping",
+      "Statfs",
+      "Utsname",
+      "Time Management",
+      "I/O Vectors",
+      "Eventfd",
+      "Signalfd",
+      "Ptrace",
+      "Mount Operations",
+      "Scheduling",
+      "Kernel Interfaces"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "unix",
+      "posix",
+      "system-calls",
+      "foreign-function-interface",
+      "libc",
+      "linux",
+      "macos",
+      "bsd",
+      "sockets",
+      "ioctl",
+      "fine-grained-reactivity",
+      "termios",
+      "fcntl",
+      "unistd",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "foreign-function-interface",
+      "Asynchronous interrupt handling",
+      "C-string interoperability",
+      "External C function bindings",
+      "FFI linkage to libc",
+      "Fixed stack segment constraints",
+      "Global signal handlers",
+      "Kernel-to-user-space callbacks",
+      "POSIX signal constants",
+      "Process trap handling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 12.572,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.735,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.384,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.166,
+        "matches": [
+          "memory management",
+          "libc",
+          "category:POSIX System Call Interface Bindings"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.466,
+        "matches": [
+          "fine-grained-reactivity"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 4.083,
+        "matches": [
+          "ioctl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.210433Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7c5ef9ebacc026caacd829605d856653a5e708a992257b29e73e0a21737d75cc",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:56.624955+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "system-programming",
+    "Foreign Function Interface (FFI)",
+    "Asynchronous interrupt handling",
+    "C-string interoperability",
+    "External C function bindings",
+    "FFI linkage to libc",
+    "Fixed stack segment constraints",
+    "Global signal handlers",
+    "Kernel-to-user-space callbacks",
+    "POSIX signal constants",
+    "Process trap handling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.905
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.894
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.887
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.886
+    },
+    {
+      "name": "winapi-rs",
+      "path": "/Users/ember/dev/gh/forks/winapi-rs",
+      "similarity": 0.881
+    },
+    {
+      "name": "cs444-lab1",
+      "path": "/Users/ember/dev/gh/cs444-lab1",
+      "similarity": 0.878
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.873
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.867
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "name": "leptos",
+  "description": "Leptos is a high-performance, full-stack Rust web framework that utilizes fine-grained reactivity to construct declarative user interfaces without the overhead of a virtual DOM. It facilitates isomorphic application development through server functions and robust support for various rendering modes, including client-side rendering, server-side rendering, and hydration with out-of-order streaming. The framework architecture leverages reactive primitives to ensure minimal runtime overhead by compiling component logic into direct, targeted DOM updates.",
+  "tags": [
+    "rust",
+    "web-framework",
+    "reactivity",
+    "isomorphic",
+    "ssr",
+    "wasm",
+    "declarative-ui",
+    "fine-grained-reactivity",
+    "server-functions",
+    "signals",
+    "hydration",
+    "streaming-ssr",
+    "axum",
+    "actix-web",
+    "no-vdom",
+    "full-stack"
+  ],
+  "category": "Fine-grained Reactive Web Runtimes",
+  "concepts": [
+    "Fine-grained reactivity",
+    "Reactive Graph",
+    "Isomorphic execution",
+    "Server functions",
+    "Hydration",
+    "Out-of-order streaming",
+    "Declarative UI",
+    "Procedural macros",
+    "WASM-based client-side rendering",
+    "Direct DOM manipulation",
+    "Resource-based data fetching",
+    "Nested routing",
+    "Island architecture",
+    "Component-based architecture",
+    "Generic rendering",
+    "Type-safe routing",
+    "Hot reloading",
+    "Scoped error handling",
+    "Thread-local reactive contexts",
+    "Async/Await integration",
+    "Executor-agnostic spawning",
+    "Reference-counted error wrapping"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "JavaScript",
+    "Shell",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1422,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "any_error/src/lib.rs",
+      "any_spawner/src/lib.rs",
+      "benchmarks/src/lib.rs"
+    ]
+  },
+  "_hash": "23dfc85871125d19583e594ff83fb43667b874ef8cf290cd0c370e9f4de2794b",
+  "_path": "/Users/ember/src/shylem/leptos",
+  "_updated_at": "2026-02-14T00:56:33.946404Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3073d061714b337fc259153b01209f4983eaf2185f6b1bc8d790fe26b99c177c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:06.778761+00:00"
+  },
+  "mined_motifs": [
+    "webassembly",
+    "leptos",
+    "frontend",
+    "csr",
+    "web-sys",
+    "reactive-programming",
+    "islands-architecture",
+    "Resources",
+    "Suspense",
+    "Transitions",
+    "WebAssembly",
+    "documentation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.948
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.941
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/leptos-book",
+      "similarity": 0.898
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/shylem/leptos-book",
+      "similarity": 0.888
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.878
+    },
+    {
+      "name": "leptos-chartistry",
+      "path": "/Users/ember/src/shylem/leptos-chartistry",
+      "similarity": 0.816
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.814
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.803
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Fine-grained reactivity",
+      "Reactive Graph",
+      "Isomorphic execution",
+      "Server functions",
+      "Hydration",
+      "Out-of-order streaming",
+      "Declarative UI",
+      "Procedural macros",
+      "WASM-based client-side rendering",
+      "Direct DOM manipulation",
+      "Resource-based data fetching",
+      "Nested routing",
+      "Island architecture",
+      "Component-based architecture",
+      "Generic rendering",
+      "Type-safe routing",
+      "Hot reloading",
+      "Scoped error handling",
+      "Thread-local reactive contexts",
+      "Async/Await integration",
+      "Executor-agnostic spawning",
+      "Reference-counted error wrapping"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "web-framework",
+      "reactivity",
+      "isomorphic",
+      "ssr",
+      "WebAssembly",
+      "declarative-ui",
+      "fine-grained-reactivity",
+      "server-functions",
+      "hydration",
+      "streaming-ssr",
+      "axum",
+      "actix-web",
+      "no-vdom",
+      "full-stack"
+    ],
+    "mined_motifs": [
+      "webassembly",
+      "leptos",
+      "frontend",
+      "csr",
+      "web-sys",
+      "reactive-programming",
+      "islands-architecture",
+      "Resources",
+      "Suspense",
+      "Transitions",
+      "documentation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 17.966,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "leptos",
+          "server-functions",
+          "web-sys"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.365,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.35,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.331,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 5.309,
+        "matches": [
+          "documentation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.253,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.946404Z"
+  }
+}

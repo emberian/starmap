@@ -1,0 +1,259 @@
+{
+  "name": "snarky",
+  "description": "An OCaml front-end DSL for constructing Rank-1 Constraint Systems (R1CS) used in zk-SNARKs. It employs a monadic interface to facilitate the development of provable computations, allowing developers to write high-level functional code that compiles into arithmetic circuits. The toolkit provides modular cryptographic primitives, including elliptic curve operations, sponge-based hash functions, and Merkle tree verification.",
+  "tags": [
+    "ocaml",
+    "zk-snarks",
+    "r1cs",
+    "cryptography",
+    "dsl",
+    "circuit-synthesis",
+    "finite-fields",
+    "elliptic-curves",
+    "hash-functions",
+    "merkle-trees",
+    "ppx",
+    "mina-protocol"
+  ],
+  "category": "R1CS Synthesis DSL",
+  "concepts": [
+    "Rank-1 Constraint Systems",
+    "Zero-Knowledge Proofs",
+    "Succinct Non-Interactive Arguments of Knowledge",
+    "Monadic Circuit Construction",
+    "Finite Field Arithmetic",
+    "Elliptic Curve Cryptography",
+    "Poseidon Hash",
+    "Rescue Hash",
+    "Merkle Tree Accumulators",
+    "Authentication Paths",
+    "Arithmetic Circuit Synthesis",
+    "Domain-Specific Languages",
+    "OCaml PPX Extensions",
+    "Modular Cryptographic Backends",
+    "Prover-Verifier State Management",
+    "Cvar Representation",
+    "Constraint System Verification",
+    "Polynomial Commitments",
+    "Field Extensions",
+    "Group Mappings",
+    "SvdW Hashing",
+    "R1CS Variable Allocation",
+    "Lazy Witness Generation",
+    "Boolean Circuit Primitives",
+    "Integer Proof Systems"
+  ],
+  "languages": [
+    "OCaml",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 145,
+    "has_readme": true,
+    "sample_files": [
+      "dune-project",
+      "Makefile",
+      "sponge/constants.ml",
+      "src/base/snark0.ml",
+      "src/base/snark_intf.ml"
+    ]
+  },
+  "_hash": "0c432716aa169ea076d0d66cac7a2e0fa1d37038436a98c494b426e081c7be36",
+  "_path": "/Users/ember/dev/snarky",
+  "_updated_at": "2026-02-14T00:56:30.374365Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "42e24aa6ba56ad1b731f6578d983e180c5b5bb8e0b319093ae66f145dca280ca",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:51.349060+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "zero-knowledge",
+    "arkworks",
+    "Foreign Field Arithmetic",
+    "Recursive SNARKs",
+    "kimchi",
+    "plonk",
+    "recursion",
+    "poseidon-hash",
+    "Polynomial Commitment Schemes",
+    "Multi-Scalar Multiplication",
+    "zksnark"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.813
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.806
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.788
+    },
+    {
+      "name": "kimchi-playground",
+      "path": "/Users/ember/dev/kimchi-playground",
+      "similarity": 0.78
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.779
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.777
+    },
+    {
+      "name": "ark-std",
+      "path": "/Users/ember/hellas/ark-std",
+      "similarity": 0.775
+    },
+    {
+      "name": "o1js-groth16",
+      "path": "/Users/ember/dev/o1js-groth16",
+      "similarity": 0.775
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Rank-1 Constraint Systems",
+      "Zero-Knowledge Proofs",
+      "Succinct Non-Interactive Arguments of Knowledge",
+      "Monadic Circuit Construction",
+      "Finite Field Arithmetic",
+      "Elliptic Curve Cryptography",
+      "Poseidon Hash",
+      "Rescue Hash",
+      "Merkle Tree Accumulators",
+      "Authentication Paths",
+      "Arithmetic Circuit Synthesis",
+      "Domain-Specific Languages",
+      "OCaml PPX Extensions",
+      "Modular Cryptographic Backends",
+      "Prover-Verifier State Management",
+      "Cvar Representation",
+      "Constraint System Verification",
+      "Polynomial Commitments",
+      "Field Extensions",
+      "Group Mappings",
+      "SvdW Hashing",
+      "R1CS Variable Allocation",
+      "Lazy Witness Generation",
+      "Boolean Circuit Primitives",
+      "Integer Proof Systems"
+    ],
+    "tags": [
+      "ocaml",
+      "zero-knowledge-proofs",
+      "r1cs",
+      "cryptography",
+      "dsl",
+      "circuit-synthesis",
+      "finite-fields",
+      "elliptic-curves",
+      "hash-functions",
+      "merkle-trees",
+      "ppx",
+      "Mina Protocol"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "zero-knowledge-proofs",
+      "arkworks",
+      "Foreign Field Arithmetic",
+      "kimchi",
+      "plonk",
+      "recursion",
+      "poseidon-hash",
+      "Polynomial Commitment Schemes",
+      "Multi-Scalar Multiplication",
+      "ZK-SNARKs"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 13.663,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks",
+          "kimchi",
+          "plonk",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 12.294,
+        "matches": [
+          "polynomial commitment schemes",
+          "zero-knowledge proofs",
+          "kimchi",
+          "plonk",
+          "r1cs"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 9.479,
+        "matches": [
+          "mina protocol",
+          "zk-snarks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.426,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 8.067,
+        "matches": [
+          "polynomial commitment schemes",
+          "arkworks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.263,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.374365Z"
+  }
+}

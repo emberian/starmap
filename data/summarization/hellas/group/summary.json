@@ -1,0 +1,259 @@
+{
+  "name": "group",
+  "description": "A foundational Rust library that defines abstract traits and utilities for elliptic curve group operations in cryptographic contexts. It provides standardized interfaces for prime-order and cofactor groups, enabling efficient scalar multiplication through windowed Non-Adjacent Form (w-NAF) and constant-time serialization. The crate is designed for interoperability across the zkcrypto ecosystem and maintains strict no-std compatibility for use in performance-critical and zero-knowledge environments.",
+  "tags": [
+    "cryptography",
+    "elliptic-curves",
+    "rust",
+    "traits",
+    "zkcrypto",
+    "wnaf",
+    "constant-time",
+    "no-std",
+    "scalar-multiplication",
+    "serialization",
+    "prime-field",
+    "cofactor-group",
+    "affine-coordinates",
+    "abstract-algebra",
+    "projective-coordinates",
+    "batch-normalization"
+  ],
+  "category": "Elliptic Curve Cryptography",
+  "concepts": [
+    "Elliptic Curve Groups",
+    "Prime-order Subgroups",
+    "Cofactor Clearing",
+    "w-NAF Exponentiation",
+    "Constant-time Operations",
+    "Affine Representation",
+    "Projective Representation",
+    "Group Encoding",
+    "Scalar Multiplication",
+    "Finite Fields",
+    "Torsion Subgroups",
+    "Batch Normalization",
+    "Identity Element",
+    "Generator Element",
+    "Serialization Traits",
+    "Uncompressed Encoding",
+    "Compressed Encoding",
+    "Small-order Check",
+    "Torsion-free Check",
+    "Limb-buffer Management",
+    "Trait-based Abstraction",
+    "Zero-knowledge Proof Components",
+    "Subgroup Mapping",
+    "Point Doubling",
+    "Point Addition",
+    "Neutral Element",
+    "Additive Identity",
+    "Limb-based Little-endian Arithmetic"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/tests/mod.rs",
+      "src/wnaf.rs",
+      "src/cofactor.rs"
+    ]
+  },
+  "_hash": "a7b08584e57b496768657ad18bb765116c9440588a46474694c7b0f718191f81",
+  "_path": "/Users/ember/hellas/group",
+  "_updated_at": "2026-02-14T00:56:31.561242Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "53151ab41e5713e823e186e9515a1ed453ccc10128a6704ac8ff1de8dc7152ce",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:30.994305+00:00"
+  },
+  "mined_motifs": [
+    "bls12-381",
+    "Finite Field Arithmetic",
+    "Final Exponentiation",
+    "Miller Loop",
+    "blst",
+    "arkworks",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "finite-fields",
+    "Point Compression",
+    "msm",
+    "assembly"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "pairing",
+      "path": "/Users/ember/hellas/pairing",
+      "similarity": 0.891
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/hellas/blstrs",
+      "similarity": 0.859
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.851
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.851
+    },
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.83
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.816
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.815
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/hellas/ark-blst",
+      "similarity": 0.814
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Elliptic Curve Groups",
+      "Prime-order Subgroups",
+      "Cofactor Clearing",
+      "w-NAF Exponentiation",
+      "Constant-time Operations",
+      "Affine Representation",
+      "Projective Representation",
+      "Group Encoding",
+      "Scalar Multiplication",
+      "Finite Fields",
+      "Torsion Subgroups",
+      "Batch Normalization",
+      "Identity Element",
+      "Generator Element",
+      "Serialization Traits",
+      "Uncompressed Encoding",
+      "Compressed Encoding",
+      "Small-order Check",
+      "Torsion-free Check",
+      "Limb-buffer Management",
+      "Trait-based Abstraction",
+      "Zero-knowledge Proof Components",
+      "Subgroup Mapping",
+      "Point Doubling",
+      "Point Addition",
+      "Neutral Element",
+      "Additive Identity",
+      "Limb-based Little-endian Arithmetic"
+    ],
+    "tags": [
+      "cryptography",
+      "elliptic-curves",
+      "Rust Language Ecosystem",
+      "traits",
+      "zkcrypto",
+      "wnaf",
+      "constant-time",
+      "scalar-multiplication",
+      "Data Serialization",
+      "prime-field",
+      "cofactor-group",
+      "affine-coordinates",
+      "abstract-algebra",
+      "projective-coordinates",
+      "batch-normalization"
+    ],
+    "mined_motifs": [
+      "bls12-381",
+      "Finite Field Arithmetic",
+      "Final Exponentiation",
+      "Miller Loop",
+      "blst",
+      "arkworks",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "finite-fields",
+      "Point Compression",
+      "multi-scalar-multiplication",
+      "assembly"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.751,
+        "matches": [
+          "elliptic-curves",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.695,
+        "matches": [
+          "cryptography",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.298,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.21,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.188,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 3.893,
+        "matches": [
+          "arkworks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.561242Z"
+  }
+}

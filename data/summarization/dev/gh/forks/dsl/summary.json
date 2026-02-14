@@ -1,0 +1,205 @@
+{
+  "name": "dsl",
+  "description": "A lightweight C library providing polymorphic data structures with an interface inspired by the C++ STL. It implements memory-managed arrays and doubly-linked lists with a unified sequence abstraction, supporting custom object lifecycle functions for deep copying and destruction. The library includes iterator-based traversal and high-level functional operations like mapping, filtering, and comparison-based sorting.",
+  "tags": [
+    "c-library",
+    "data-structures",
+    "stl-like",
+    "iterators",
+    "memory-management",
+    "dynamic-array",
+    "linked-list",
+    "polymorphism",
+    "unit-testing",
+    "valgrind-clean"
+  ],
+  "category": "Generic Data Structure Framework",
+  "concepts": [
+    "Opaque Data Types",
+    "Iterator Pattern",
+    "Deep Copying",
+    "Reference Counting Simulation",
+    "Overallocation Strategies",
+    "Sequence Abstraction",
+    "Higher-Order Functions",
+    "Predicate Filtering",
+    "Manual Memory Management",
+    "Function Pointers"
+  ],
+  "languages": [
+    "C",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "seq.c",
+      "list.c",
+      "array.c",
+      "dsl.h",
+      "test.c"
+    ]
+  },
+  "_hash": "75bee7a082603942711603fdee9ff1bdb59b0c404411c3f2510c3d80b5fafb84",
+  "_path": "/Users/ember/dev/gh/forks/dsl",
+  "_updated_at": "2026-02-14T00:56:25.490814Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Opaque Data Types",
+      "Iterator Pattern",
+      "Deep Copying",
+      "Reference Counting Simulation",
+      "Overallocation Strategies",
+      "Sequence Abstraction",
+      "Higher-Order Functions",
+      "Predicate Filtering",
+      "Memory Management",
+      "Function Pointers"
+    ],
+    "tags": [
+      "c-library",
+      "data-structures",
+      "stl-like",
+      "iterators",
+      "Memory Management",
+      "dynamic-array",
+      "linked-list",
+      "polymorphism",
+      "unit-testing",
+      "valgrind-clean"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "systems-programming",
+      "foreign-function-interface",
+      "Resource Acquisition Is Initialization (RAII)",
+      "functional-programming",
+      "Reference Counting",
+      "reference-counting",
+      "C-compatible Struct Representation",
+      "Database Query Hooks",
+      "Dynamic Linker Configuration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.218,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.214,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.389,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.596,
+        "matches": []
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.592,
+        "matches": []
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.588,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.490814Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "00b563bc4ce90818d66c34f64a24efd0bd8dbd4711a16930f87489d53c7e7b6c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:26.137970+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "low-level",
+    "system-programming",
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "resource-management",
+    "functional-programming",
+    "Reference Counting",
+    "reference-counting",
+    "C-compatible Struct Representation",
+    "Database Query Hooks",
+    "Dynamic Linker Configuration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.832
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.83
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.827
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.825
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.824
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.82
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.813
+    },
+    {
+      "name": "cons-list",
+      "path": "/Users/ember/dev/gh/forks/cons-list",
+      "similarity": 0.812
+    }
+  ]
+}

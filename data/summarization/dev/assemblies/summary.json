@@ -1,0 +1,243 @@
+{
+  "name": "assemblies",
+  "description": "A multi-implementation framework for simulating the Assembly Calculus, a mathematical model of brain computation based on randomly connected neurons and Hebbian plasticity. The project provides efficient C++ and Python kernels for modeling high-level cognitive operations, including association, pattern completion, and hierarchical language parsing. It facilitates research into the computational properties of neuronal assemblies, such as their capacity for Turing-universal computation and language acquisition.",
+  "tags": [
+    "assembly-calculus",
+    "computational-neuroscience",
+    "hebbian-plasticity",
+    "neuronal-assemblies",
+    "language-parsing",
+    "stochastic-networks",
+    "brain-simulation",
+    "pattern-completion",
+    "synaptic-plasticity",
+    "cognitive-science",
+    "turing-universality",
+    "random-graphs",
+    "bio-inspired-computing"
+  ],
+  "category": "Assembly Calculus",
+  "concepts": [
+    "Assembly Calculus",
+    "Hebbian Plasticity",
+    "Neuronal Assemblies",
+    "Project Operation",
+    "Association",
+    "Merge Operation",
+    "Pattern Completion",
+    "Language Acquisition",
+    "Syntactic Parsing",
+    "Reciprocal Projection",
+    "Sparse Connectivity",
+    "Turing Universality",
+    "Winner-Take-All Dynamics",
+    "Support Size Convergence",
+    "Stochastic Synapse Generation",
+    "Area-Stimulus Mapping",
+    "Explicit Area Simulation",
+    "Bilingualism Modeling",
+    "Part-of-Speech Acquisition",
+    "Plasticity Convergence Analysis"
+  ],
+  "languages": [
+    "Python",
+    "C++",
+    "Matlab"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 26,
+    "has_readme": true,
+    "sample_files": [
+      "learner.py",
+      "recursive_parser.py",
+      "brain.py",
+      "parser.py",
+      "cpp/brain.cc"
+    ]
+  },
+  "_hash": "bd447e7b5211f789348dff18e9200e8d4ea2cbf90c595fd6e5b5e9371dde2413",
+  "_path": "/Users/ember/dev/assemblies",
+  "_updated_at": "2026-02-14T00:56:23.531705Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Assembly Calculus",
+      "Hebbian Plasticity",
+      "Neuronal Assemblies",
+      "Project Operation",
+      "Association",
+      "Merge Operation",
+      "Pattern Completion",
+      "Language Acquisition",
+      "Syntactic Parsing",
+      "Reciprocal Projection",
+      "Sparse Connectivity",
+      "Turing Universality",
+      "Winner-Take-All Dynamics",
+      "Support Size Convergence",
+      "Stochastic Synapse Generation",
+      "Area-Stimulus Mapping",
+      "Explicit Area Simulation",
+      "Bilingualism Modeling",
+      "Part-of-Speech Acquisition",
+      "Plasticity Convergence Analysis"
+    ],
+    "tags": [
+      "assembly-calculus",
+      "computational-neuroscience",
+      "hebbian-plasticity",
+      "neuronal-assemblies",
+      "language-parsing",
+      "stochastic-networks",
+      "brain-simulation",
+      "pattern-completion",
+      "synaptic-plasticity",
+      "cognitive-science",
+      "turing-universality",
+      "random-graphs",
+      "bio-inspired-computing"
+    ],
+    "mined_motifs": [
+      "AST",
+      "Lexical Analysis",
+      "interpreter",
+      "stochastic-simulation",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "parser",
+      "Rust Language Ecosystem",
+      "category-theory",
+      "string-diagrams",
+      "functional-programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.252,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 9.529,
+        "matches": [
+          "cognitive-science",
+          "hebbian-plasticity",
+          "neuronal assemblies"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.691,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 5.47,
+        "matches": [
+          "stochastic-simulation"
+        ]
+      },
+      {
+        "id": "topological-information-design",
+        "name": "Topological Information Design",
+        "score": 5.365,
+        "matches": [
+          "category-theory"
+        ]
+      },
+      {
+        "id": "algebraic-optimization-compilers",
+        "name": "Algebraic Optimization & Categorical Compilers",
+        "score": 5.347,
+        "matches": [
+          "category-theory"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.531705Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fb3dbaf11896d0005973ce94718b0a65c9e15660c2682f28c6529edd80cd558f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:31.836395+00:00"
+  },
+  "mined_motifs": [
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "interpreter",
+    "stochastic-simulation",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "parser",
+    "rust",
+    "category-theory",
+    "string-diagrams",
+    "functional-programming"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "neural-assemblies",
+      "path": "/Users/ember/dev/neural-assemblies",
+      "similarity": 0.9
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.782
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.771
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.767
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.766
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.764
+    },
+    {
+      "name": "bead-calculus",
+      "path": "/Users/ember/dev/bead-calculus",
+      "similarity": 0.76
+    },
+    {
+      "name": "libreDSSP",
+      "path": "/Users/ember/dev/gh/forks/libreDSSP",
+      "similarity": 0.758
+    }
+  ]
+}

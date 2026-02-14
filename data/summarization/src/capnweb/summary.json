@@ -1,0 +1,231 @@
+{
+  "name": "capnweb",
+  "description": "A JavaScript-native object-capability RPC system implementing promise pipelining and bidirectional calling without schemas. It provides a lightweight, human-readable JSON-based transport layer that integrates with TypeScript for compile-time type safety across various runtimes including Cloudflare Workers, Node.js, and browsers.",
+  "tags": [
+    "rpc",
+    "object-capabilities",
+    "promise-pipelining",
+    "typescript",
+    "cloudflare-workers",
+    "websocket",
+    "messageport",
+    "distributed-systems",
+    "serialization",
+    "json-rpc",
+    "proxy-objects",
+    "batching",
+    "node-js",
+    "web-api"
+  ],
+  "category": "Object-Capability RPC Framework",
+  "concepts": [
+    "Object-Capability Model",
+    "Promise Pipelining",
+    "Bidirectional RPC",
+    "Pass-by-reference",
+    "Distributed Objects",
+    "Three-party handoff",
+    "Lazy Resolution",
+    "Message Batching",
+    "Transport Abstraction",
+    "Capability-based Security",
+    "Explicit Resource Management",
+    "Stub Proxying",
+    "Zero-schema Serialization"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 39,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/index.ts",
+      "src/core.ts",
+      "__tests__/index.test.ts",
+      "src/rpc.ts"
+    ]
+  },
+  "_hash": "57981d73fdcd620589dd262136fa97b2eb6dc606a8c0e6a83fdf2f97b5781291",
+  "_path": "/Users/ember/src/capnweb",
+  "_updated_at": "2026-02-14T00:56:32.333054Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0cc6d187f0a9a83085064f3c7af018128d9d9693ac124aa79fef33959c9c80db",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:02.245201+00:00"
+  },
+  "mined_motifs": [
+    "ocapn",
+    "captp",
+    "capability-security",
+    "Netlayer Abstraction",
+    "Tor Onion Services",
+    "zero-copy",
+    "Distributed Garbage Collection",
+    "cryptography",
+    "p2p",
+    "spritely",
+    "Message Serialization",
+    "Vat-to-Vat Communication"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.875
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.866
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.862
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.855
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.853
+    },
+    {
+      "name": "ocapn.org",
+      "path": "/Users/ember/src/ocapn.org",
+      "similarity": 0.851
+    },
+    {
+      "name": "ocapn-test-suite",
+      "path": "/Users/ember/src/ocapn-test-suite",
+      "similarity": 0.846
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.844
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Object-Capability Model",
+      "Promise Pipelining",
+      "Bidirectional RPC",
+      "Pass-by-reference",
+      "Distributed Objects",
+      "Three-party handoff",
+      "Lazy Resolution",
+      "Message Batching",
+      "Transport Abstraction",
+      "Capability-based Security",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Stub Proxying",
+      "Zero-schema Serialization"
+    ],
+    "tags": [
+      "rpc",
+      "object-capabilities",
+      "promise-pipelining",
+      "typescript",
+      "cloudflare-workers",
+      "websocket",
+      "messageport",
+      "distributed-systems",
+      "Data Serialization",
+      "json-rpc",
+      "proxy-objects",
+      "batching",
+      "node-js",
+      "web-api"
+    ],
+    "mined_motifs": [
+      "ocapn",
+      "captp",
+      "capability-security",
+      "Netlayer Abstraction",
+      "Tor Onion Services",
+      "zero-copy",
+      "Distributed Garbage Collection",
+      "cryptography",
+      "p2p",
+      "spritely",
+      "Message Serialization",
+      "Vat-to-Vat Communication"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 15.266,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "object-capabilities",
+          "p2p",
+          "spritely"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.266,
+        "matches": [
+          "distributed-systems",
+          "rpc",
+          "websocket"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 5.512,
+        "matches": [
+          "object-capabilities"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.494,
+        "matches": [
+          "capability-security"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.493,
+        "matches": [
+          "p2p"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.48,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.333054Z"
+  }
+}

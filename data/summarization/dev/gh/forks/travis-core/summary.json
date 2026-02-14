@@ -1,0 +1,248 @@
+{
+  "name": "travis-core",
+  "description": "Central domain logic and persistence layer for the Travis CI platform, encapsulating the business logic for build lifecycle management and repository synchronization. It provides an ActiveRecord-based relational schema and a multi-versioned API for coordinating events between GitHub webhooks and internal worker processes. The system implements a robust event-driven architecture for multi-channel notification dispatch and state orchestration across a distributed build environment.",
+  "tags": [
+    "travis-ci",
+    "continuous-integration",
+    "ruby",
+    "rails",
+    "activerecord",
+    "postgresql",
+    "redis",
+    "github-api",
+    "event-driven",
+    "webhooks",
+    "api-design",
+    "orchestration",
+    "notifications",
+    "persistence",
+    "automation"
+  ],
+  "category": "Build Pipeline Orchestration",
+  "concepts": [
+    "Build Lifecycle Management",
+    "Job State Transitions",
+    "GitHub API Integration",
+    "Webhook Authentication",
+    "Pull Request Processing",
+    "Multi-versioned API Design",
+    "Event-driven Architecture",
+    "Notification Dispatching",
+    "Distributed Task Execution",
+    "Relational Data Modeling",
+    "Repository Synchronization",
+    "OAuth Authentication",
+    "Worker State Management",
+    "Artifact Persistence",
+    "Secure Configuration",
+    "Instrumentation and Metrics",
+    "Database Migrations",
+    "Job Queuing Logic",
+    "SSL Key Management",
+    "Organization Memberships",
+    "Request Factories",
+    "Log Streaming",
+    "Archive Handling",
+    "API Serialization",
+    "Environment Variable Sanitization"
+  ],
+  "languages": [
+    "Ruby"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 362,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "d843482f02f0b5f95900b812de861fbf7eb5867ee4d797a219be441f5210c2fb",
+  "_path": "/Users/ember/dev/gh/forks/travis-core",
+  "_updated_at": "2026-02-14T00:56:26.993950Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Build Lifecycle Management",
+      "Job State Transitions",
+      "GitHub API Integration",
+      "Webhook Authentication",
+      "Pull Request Processing",
+      "Multi-versioned API Design",
+      "Event-driven Architecture",
+      "Notification Dispatching",
+      "Distributed Task Execution",
+      "Relational Data Modeling",
+      "Repository Synchronization",
+      "OAuth Authentication",
+      "Worker State Management",
+      "Artifact Persistence",
+      "Secure Configuration",
+      "Instrumentation and Metrics",
+      "Database Migrations",
+      "Job Queuing Logic",
+      "SSL Key Management",
+      "Organization Memberships",
+      "Request Factories",
+      "Log Streaming",
+      "Archive Handling",
+      "API Serialization",
+      "Environment Variable Sanitization"
+    ],
+    "tags": [
+      "travis-ci",
+      "continuous-integration",
+      "ruby",
+      "rails",
+      "activerecord",
+      "postgresql",
+      "redis",
+      "github-api",
+      "event-driven",
+      "webhooks",
+      "api-design",
+      "orchestration",
+      "notifications",
+      "persistence",
+      "automation"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "irc-bot",
+      "Rust Language Ecosystem",
+      "API-driven project management",
+      "ChatOps",
+      "SDLC automation",
+      "automated status reporting",
+      "centralized dashboarding",
+      "cross-platform data synchronization",
+      "dashboard",
+      "dev-productivity",
+      "developer productivity engineering"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 12.37,
+        "matches": [
+          "api-design",
+          "automation",
+          "orchestration",
+          "chatops"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.167,
+        "matches": [
+          "distributed-systems",
+          "persistence"
+        ]
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.448,
+        "matches": [
+          "orchestration"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.37,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.366,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.362,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.993950Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fab7db48cec3cbd2ddf7dff5886805f3dd6e1e436b31f5592ae6927319a2905b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:36.728804+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "irc-bot",
+    "rust",
+    "API-driven project management",
+    "ChatOps",
+    "SDLC automation",
+    "automated status reporting",
+    "centralized dashboarding",
+    "cross-platform data synchronization",
+    "dashboard",
+    "dev-productivity",
+    "developer productivity engineering"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.825
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.811
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.805
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.805
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.804
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.803
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.803
+    },
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.8
+    }
+  ]
+}

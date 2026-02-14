@@ -1,0 +1,222 @@
+{
+  "name": "terminfo-rs",
+  "description": "A Rust implementation for accessing and parsing ncurses-compatible terminfo databases. It provides mechanisms for database discovery via standard environment variables, binary parsing of compiled terminfo files, and evaluation of parameterized capability strings using a stack-based expansion engine. The library facilitates terminal-independent character-cell display control by resolving hardware-specific escape sequences.",
+  "tags": [
+    "rust",
+    "terminfo",
+    "ncurses",
+    "terminal-capabilities",
+    "parser",
+    "unix",
+    "cli-tools",
+    "ansi-escape-codes",
+    "systems-programming",
+    "low-level"
+  ],
+  "category": "Terminal Capabilities Database",
+  "concepts": [
+    "compiled-terminfo-format",
+    "parameterized-string-expansion",
+    "stack-machine-evaluation",
+    "ncurses-database-resolution",
+    "terminal-type-discovery",
+    "binary-deserialization",
+    "capability-string-interpolation",
+    "terminal-database-search-heuristics",
+    "environment-variable-configuration",
+    "static-variable-state",
+    "dynamic-variable-state",
+    "boolean-capability-mapping",
+    "numeric-capability-mapping",
+    "string-capability-mapping",
+    "terminal-definition-parsing",
+    "filesystem-based-database-traversal"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": true,
+    "sample_files": [
+      "parser/compiled.rs",
+      "parm.rs",
+      "searcher.rs",
+      "tools/dumpcaps.rs",
+      "build.sh"
+    ]
+  },
+  "_hash": "acbc00ebc8150bd6f75f356becf5f7a756d8e202120806b94eaecb33f149807c",
+  "_path": "/Users/ember/dev/gh/terminfo-rs",
+  "_updated_at": "2026-02-14T00:56:28.672478Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "compiled-terminfo-format",
+      "parameterized-string-expansion",
+      "stack-machine-evaluation",
+      "ncurses-database-resolution",
+      "terminal-type-discovery",
+      "binary-deserialization",
+      "capability-string-interpolation",
+      "terminal-database-search-heuristics",
+      "environment-variable-configuration",
+      "static-variable-state",
+      "dynamic-variable-state",
+      "boolean-capability-mapping",
+      "numeric-capability-mapping",
+      "string-capability-mapping",
+      "terminal-definition-parsing",
+      "filesystem-based-database-traversal"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "terminfo",
+      "ncurses",
+      "terminal-capabilities",
+      "parser",
+      "unix",
+      "cli-tools",
+      "ansi-escape-codes",
+      "Systems Programming",
+      "systems-programming"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "cli",
+      "systems-programming",
+      "ANSI escape sequences",
+      "Win32 Console API",
+      "byte-level parser",
+      "capability discovery",
+      "cli-formatting",
+      "cross-platform compatibility",
+      "ncurses database discovery",
+      "ncurses-compatible"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.186,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.166,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.788,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.392,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 3.965,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.588,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.672478Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "640f08611b9f28c97081034234a97082c514f73ff20e7c86853a594c8c5c2afa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:31.754986+00:00"
+  },
+  "mined_motifs": [
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "cli",
+    "system-programming",
+    "ANSI escape sequences",
+    "Win32 Console API",
+    "byte-level parser",
+    "capability discovery",
+    "cli-formatting",
+    "cross-platform compatibility",
+    "ncurses database discovery",
+    "ncurses-compatible"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "term",
+      "path": "/Users/ember/dev/gh/forks/term",
+      "similarity": 0.895
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.823
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.822
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.817
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.817
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.815
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.813
+    }
+  ]
+}

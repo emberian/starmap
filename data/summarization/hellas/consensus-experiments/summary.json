@@ -1,0 +1,256 @@
+{
+  "name": "hellas-consensus",
+  "description": "Hellas-consensus implements high-throughput BFT primitives designed for partially synchronous environments, specifically targeting the Autobahn and Morpheus protocol families. It employs a DAG-based data dissemination layer coupled with a quorum-driven consensus mechanism to achieve optimistic responsivity and robust recovery from network blips. The project maintains a multi-language formal verification suite using Coq, Isabelle, Lean, and TLA+ to ensure the correctness of its bisimulation relations and protocol state transitions.",
+  "tags": [
+    "bft-consensus",
+    "distributed-systems",
+    "autobahn-protocol",
+    "morpheus-protocol",
+    "formal-verification",
+    "dag-consensus",
+    "fault-tolerance",
+    "quorum-certificates",
+    "blockchain",
+    "rust",
+    "coq",
+    "isabelle",
+    "lean",
+    "tla-plus",
+    "byzantine-resilience"
+  ],
+  "category": "Byzantine Fault Tolerant Consensus",
+  "concepts": [
+    "Partial Synchrony",
+    "Quasi-permissionless Selection",
+    "Proof of Availability",
+    "Quorum Certificates",
+    "DAG-based BFT",
+    "Optimistic Responsivity",
+    "Protocol Forensics",
+    "Accountability",
+    "VRF Leader Schedule",
+    "View Change Mechanism",
+    "State Machine Replication",
+    "Bisimulation",
+    "Formal Specification",
+    "Throughput Optimization",
+    "Leaderless Quiescence",
+    "Validator Set Management",
+    "Stake-weighted Participation",
+    "Message Propagation",
+    "Fault Resilience",
+    "Consensusless Transfers",
+    "Protocol Invariants",
+    "Epoch-based Consensus",
+    "Crypto-abstraction",
+    "Byzantine Fault Tolerance"
+  ],
+  "languages": [
+    "Rust",
+    "Coq",
+    "Isabelle",
+    "Lean",
+    "TLA+"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 26,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/morpheus/mod.rs",
+      "src/morpheus/protocol.rs",
+      "src/morpheus/types.rs"
+    ]
+  },
+  "_hash": "940f4a9dd19ef8a36afd71edf1c9f0b8dd2100c96792952300eab0763a9fd529",
+  "_path": "/Users/ember/hellas/consensus-experiments",
+  "_updated_at": "2026-02-14T00:56:31.264683Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8545d1e2df46cc316f88a38ac57f28694cc3b351edb6ca90e11014e4a86e1375",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:24.322073+00:00"
+  },
+  "mined_motifs": [
+    "byzantine-fault-tolerance",
+    "typescript",
+    "Leader Election",
+    "cryptography",
+    "zero-knowledge-proofs",
+    "Consensus Safety",
+    "Directed Acyclic Graph (DAG)",
+    "Gossip Protocols",
+    "Byzantine Fault Tolerance (BFT)",
+    "high-throughput",
+    "Byzantine Quorum Systems",
+    "bft"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.932
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.929
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.916
+    },
+    {
+      "name": "verimina",
+      "path": "/Users/ember/dev/verimina",
+      "similarity": 0.905
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.904
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.897
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.896
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.887
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Partial Synchrony",
+      "Quasi-permissionless Selection",
+      "Proof of Availability",
+      "quorum-certificates",
+      "DAG-based BFT",
+      "Optimistic Responsivity",
+      "Protocol Forensics",
+      "Accountability",
+      "VRF Leader Schedule",
+      "View Change Mechanism",
+      "State Machine Replication",
+      "Bisimulation",
+      "Formal Specification",
+      "Throughput Optimization",
+      "Leaderless Quiescence",
+      "Validator Set Management",
+      "Stake-weighted Participation",
+      "Message Propagation",
+      "Fault Resilience",
+      "Consensusless Transfers",
+      "Protocol Invariants",
+      "Epoch-based Consensus",
+      "Crypto-abstraction",
+      "distributed-systems"
+    ],
+    "tags": [
+      "Distributed Consensus",
+      "distributed-systems",
+      "autobahn-protocol",
+      "morpheus-protocol",
+      "formal-methods",
+      "fault-tolerance",
+      "quorum-certificates",
+      "blockchain",
+      "Rust Language Ecosystem",
+      "Formal Methods & Verification",
+      "tla-plus",
+      "byzantine-resilience"
+    ],
+    "mined_motifs": [
+      "byzantine-fault-tolerance",
+      "typescript",
+      "Leader Election",
+      "cryptography",
+      "Zero-Knowledge Proofs (ZKP)",
+      "Consensus Safety",
+      "directed-acyclic-graph",
+      "Gossip Protocols",
+      "high-throughput",
+      "Byzantine Quorum Systems",
+      "distributed-systems"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 12.644,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates",
+          "autobahn-protocol"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.44,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.415,
+        "matches": [
+          "distributed-systems",
+          "consensus safety",
+          "gossip protocols"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.415,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 8.409,
+        "matches": [
+          "cryptography",
+          "formal methods & verification"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.625,
+        "matches": [
+          "gossip protocols"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.264683Z"
+  }
+}

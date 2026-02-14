@@ -1,0 +1,220 @@
+{
+  "name": "visualizers",
+  "description": "A suite of WebAssembly-based visualization components for the Hades protocol analysis framework. It provides interactive, canvas-backed rendering for block Directed Acyclic Graphs (DAGs), protocol execution sequences, and finite state machine transitions. The library leverages the Yew framework and web-sys to map complex protocol primitives, such as Morpheus blocks and view-based consensus data, into navigable graphical representations.",
+  "tags": [
+    "rust",
+    "wasm",
+    "yew",
+    "canvas-api",
+    "dag-visualization",
+    "protocol-analysis",
+    "state-machine",
+    "sequence-diagram",
+    "web-sys",
+    "interactive-ui",
+    "blockchain-observability",
+    "hades-tool"
+  ],
+  "category": "Protocol State Visualization & Observability",
+  "concepts": [
+    "Directed Acyclic Graph (DAG) Rendering",
+    "State Machine Visualization",
+    "Sequence Diagrams",
+    "WebAssembly (WASM) Integration",
+    "HTML5 Canvas API",
+    "Force-Directed Layouts",
+    "Protocol State Mapping",
+    "Consensus View Numbering",
+    "Reactive UI Components",
+    "Coordinate System Scaling",
+    "Event Handling",
+    "Binary Data Visualization",
+    "Morpheus Protocol Primitives"
+  ],
+  "languages": [
+    "Rust",
+    "WebAssembly"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": [
+      "mod.rs",
+      "dag.rs"
+    ]
+  },
+  "_hash": "5c47c08271f246b234362ce5aeaad9686c17a0203748c6654f17b0a193e9ece7",
+  "_path": "/Users/ember/hellas/hades-v0/visualizers",
+  "_updated_at": "2026-02-14T00:56:31.577891Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5efe060b1384ecb04717101b6ae88ce11c0225ef0d5bb9a6b21f4c62fadcacc0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:32.319083+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "byzantine-fault-tolerance",
+    "State Machine Replication",
+    "cryptography",
+    "blockchain",
+    "Quorum Certificates",
+    "quorum-certificates",
+    "visualization",
+    "webassembly",
+    "morpheus-protocol",
+    "consensus-protocol",
+    "Quorum Certificates (QC)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "components",
+      "path": "/Users/ember/hellas/hades-v0/components",
+      "similarity": 0.913
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.827
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.826
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.818
+    },
+    {
+      "name": "yeet.plus",
+      "path": "/Users/ember/dev/gh/yeet.plus",
+      "similarity": 0.817
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.816
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.812
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.812
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Directed Acyclic Graph (DAG) Rendering",
+      "State Machine Visualization",
+      "Sequence Diagrams",
+      "WebAssembly (WASM) Integration",
+      "HTML5 Canvas API",
+      "Force-Directed Layouts",
+      "Protocol State Mapping",
+      "Consensus View Numbering",
+      "Reactive UI Components",
+      "Coordinate System Scaling",
+      "Event Handling",
+      "Binary Data Visualization",
+      "Morpheus Protocol Primitives"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "yew",
+      "canvas-api",
+      "dag-visualization",
+      "protocol-analysis",
+      "state-machine",
+      "sequence-diagram",
+      "web-sys",
+      "interactive-ui",
+      "blockchain-observability",
+      "hades-tool"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "byzantine-fault-tolerance",
+      "State Machine Replication",
+      "cryptography",
+      "blockchain",
+      "quorum-certificates",
+      "visualization",
+      "webassembly",
+      "morpheus-protocol",
+      "Distributed Consensus"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 8.25,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.235,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.182,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.824,
+        "matches": [
+          "webassembly",
+          "web-sys"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.419,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.419,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.577891Z"
+  }
+}

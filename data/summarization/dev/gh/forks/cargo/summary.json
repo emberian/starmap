@@ -1,0 +1,261 @@
+{
+  "name": "cargo",
+  "description": "cargo appears to be a developer tooling project using Rust, Python, JavaScript. The available files suggest focus areas around cargo, test, compile, build.",
+  "tags": [
+    "Rust",
+    "Python",
+    "JavaScript",
+    "Shell",
+    "cargo",
+    "test",
+    "compile",
+    "build",
+    "manifest",
+    "package",
+    "registry",
+    "install",
+    "lockfile",
+    "paths",
+    "clean",
+    "config"
+  ],
+  "category": "Developer Tooling",
+  "concepts": [
+    "cargo",
+    "test",
+    "compile",
+    "build",
+    "manifest",
+    "package",
+    "registry",
+    "install",
+    "lockfile",
+    "paths",
+    "clean",
+    "config",
+    "deps",
+    "fetch",
+    "generate",
+    "license",
+    "path",
+    "pkgid",
+    "project",
+    "read",
+    "rustc",
+    "search",
+    "shell",
+    "auth",
+    "bench",
+    "custom",
+    "dependency",
+    "level",
+    "prism",
+    "publish",
+    "queue",
+    "resolve",
+    "rustdoc",
+    "snapshot",
+    "source",
+    "spec",
+    "verify",
+    "version",
+    "apache",
+    "appveyor"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "80860d8b83ea4b057070fe1660e7ade997cff85be8333f031a13bfddeae49ffb",
+  "_path": "/Users/ember/dev/gh/forks/cargo",
+  "_updated_at": "2026-02-14T00:56:25.438847Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "cargo",
+      "test",
+      "compile",
+      "build",
+      "manifest",
+      "package",
+      "registry",
+      "install",
+      "lockfile",
+      "paths",
+      "clean",
+      "config",
+      "deps",
+      "fetch",
+      "generate",
+      "license",
+      "path",
+      "pkgid",
+      "project",
+      "read",
+      "Rust Language Ecosystem",
+      "search",
+      "shell",
+      "auth",
+      "bench",
+      "custom",
+      "dependency",
+      "level",
+      "prism",
+      "publish",
+      "queue",
+      "resolve",
+      "rustdoc",
+      "snapshot",
+      "source",
+      "spec",
+      "verify",
+      "version",
+      "apache",
+      "appveyor"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Python",
+      "JavaScript",
+      "Shell",
+      "cargo",
+      "test",
+      "compile",
+      "build",
+      "manifest",
+      "package",
+      "registry",
+      "install",
+      "lockfile",
+      "paths",
+      "clean",
+      "config"
+    ],
+    "mined_motifs": [
+      "readme",
+      "main",
+      "icon",
+      "index",
+      "TypeScript",
+      "appicon",
+      "dark",
+      "launcher",
+      "light",
+      "create",
+      "delete",
+      "entitlements"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 5.125,
+        "matches": [
+          "cargo",
+          "category:Developer Tooling"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.927,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.496,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.342,
+        "matches": [
+          "rustdoc"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 2.15,
+        "matches": []
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 2.148,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.438847Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "13ce2f5ed3e4a8a3d4befac2d2fdb560750af16615e5b74e5cafc8db3c29527b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:20.896458+00:00"
+  },
+  "mined_motifs": [
+    "readme",
+    "main",
+    "icon",
+    "index",
+    "TypeScript",
+    "appicon",
+    "dark",
+    "launcher",
+    "light",
+    "create",
+    "delete",
+    "entitlements"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "keygen-rs",
+      "path": "/Users/ember/src/keygen-rs",
+      "similarity": 0.764
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/cargo",
+      "similarity": 0.731
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/gh/crate-mcp",
+      "similarity": 0.722
+    },
+    {
+      "name": "lcrio",
+      "path": "/Users/ember/dev/lcrio",
+      "similarity": 0.722
+    },
+    {
+      "name": "CS452-LAB1",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB1",
+      "similarity": 0.717
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.708
+    }
+  ]
+}

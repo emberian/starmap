@@ -1,0 +1,274 @@
+{
+  "name": "biscuit-java",
+  "description": "biscuit-java appears to be a zero-knowledge proofs project using Java. The available files suggest focus areas around info, package, block, scope.",
+  "tags": [
+    "Java",
+    "info",
+    "package",
+    "block",
+    "scope",
+    "authorizer",
+    "caveats",
+    "check",
+    "rule",
+    "authority",
+    "biscuit",
+    "error",
+    "expression",
+    "expressions",
+    "fact",
+    "invalid"
+  ],
+  "category": "Zero-Knowledge Proofs",
+  "concepts": [
+    "info",
+    "package",
+    "block",
+    "scope",
+    "authorizer",
+    "caveats",
+    "check",
+    "rule",
+    "authority",
+    "biscuit",
+    "error",
+    "expression",
+    "expressions",
+    "fact",
+    "invalid",
+    "party",
+    "predicate",
+    "readme",
+    "rules",
+    "scoped",
+    "secp256r1",
+    "signature",
+    "term",
+    "third",
+    "token",
+    "variables",
+    "ambient",
+    "authorizertest",
+    "basic",
+    "biscuittest",
+    "blocks",
+    "blocksignaturebuffer",
+    "buildertest",
+    "caveat",
+    "changelog",
+    "checks",
+    "code",
+    "combinator",
+    "conduct",
+    "constraint"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "maturity": "exploratory",
+  "_hash": "4ac5ecc72edc6da3732a6cb2c4ecc6632b304629dce543997d345ddecd92b3ae",
+  "_path": "/Users/ember/src/eclipse-biscuit/biscuit-java",
+  "_updated_at": "2026-02-14T00:56:32.662961Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1bac05afa9b417f5042be4d1e0af68c18594543a1d38bc6608ff0d434794d147",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:11.857061+00:00"
+  },
+  "mined_motifs": [
+    "test",
+    "dune",
+    "intf",
+    "ledger",
+    "state",
+    "data",
+    "messages",
+    "cryptography",
+    "hash",
+    "snark",
+    "transition",
+    "Python"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.722
+    },
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.719
+    },
+    {
+      "name": "zulip-terminal",
+      "path": "/Users/ember/src/zulip-terminal",
+      "similarity": 0.69
+    },
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.687
+    },
+    {
+      "name": "joda-time",
+      "path": "/Users/ember/src/joda-time",
+      "similarity": 0.681
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.681
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.674
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.645
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "info",
+      "package",
+      "block",
+      "scope",
+      "authorizer",
+      "caveats",
+      "check",
+      "rule",
+      "authority",
+      "biscuit",
+      "error",
+      "expression",
+      "expressions",
+      "fact",
+      "invalid",
+      "party",
+      "predicate",
+      "readme",
+      "rules",
+      "scoped",
+      "secp256r1",
+      "signature",
+      "term",
+      "third",
+      "token",
+      "variables",
+      "ambient",
+      "authorizertest",
+      "basic",
+      "biscuittest",
+      "blocks",
+      "blocksignaturebuffer",
+      "buildertest",
+      "caveat",
+      "changelog",
+      "checks",
+      "code",
+      "combinator",
+      "conduct",
+      "constraint"
+    ],
+    "tags": [
+      "Java",
+      "info",
+      "package",
+      "block",
+      "scope",
+      "authorizer",
+      "caveats",
+      "check",
+      "rule",
+      "authority",
+      "biscuit",
+      "error",
+      "expression",
+      "expressions",
+      "fact",
+      "invalid"
+    ],
+    "mined_motifs": [
+      "test",
+      "dune",
+      "intf",
+      "ledger",
+      "state",
+      "data",
+      "messages",
+      "cryptography",
+      "hash",
+      "ZK-SNARKs",
+      "transition",
+      "Python"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 6.021,
+        "matches": [
+          "zk-snarks",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.967,
+        "matches": [
+          "cryptography",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.965,
+        "matches": [
+          "cryptography",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 3.344,
+        "matches": [
+          "biscuit"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 3.13,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 3.128,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.662961Z"
+  }
+}

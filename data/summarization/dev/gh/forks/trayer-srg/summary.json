@@ -1,0 +1,238 @@
+{
+  "name": "trayer-srg",
+  "description": "trayer-srg is a lightweight GTK2-based system tray for UNIX, providing notification area functionality for window managers lacking native support. It implements the Freedesktop.org System Tray Protocol and EWMH specifications to handle icon docking, screen edges, and partial struts. The implementation features pseudo-transparency through root pixmap manipulation and multi-monitor awareness via GDK.",
+  "tags": [
+    "system-tray",
+    "gtk2",
+    "x11",
+    "ewmh",
+    "desktop-shell",
+    "linux",
+    "unix",
+    "freedesktop",
+    "tray-icon",
+    "window-management",
+    "c",
+    "netwm"
+  ],
+  "category": "X11 System Tray Implementation",
+  "concepts": [
+    "Freedesktop System Tray Protocol",
+    "Extended Window Manager Hints (EWMH)",
+    "NetWM Specifications",
+    "X11 Atom Resolution",
+    "Pseudo-transparency",
+    "Root Window Pixmap Tracking",
+    "Partial Struts",
+    "Window Docking Types",
+    "Multi-monitor Xinerama/XRandR Placement",
+    "GTK+ Widgetry",
+    "GDK X11 Integration",
+    "Xlib Event Handling",
+    "Tray Selection Management",
+    "PropertyNotify Events",
+    "GtkSocket/GtkPlug Protocol",
+    "Command-line Configuration Parsing",
+    "Alpha Blending and Tinting",
+    "X11 Window Geometry Management",
+    "Screen Edge Alignment",
+    "Dynamic Widget Resizing",
+    "Xmu Window Utilities"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 28,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "main.c",
+      "misc.c",
+      "panel.c",
+      "eggtraymanager.c"
+    ]
+  },
+  "_hash": "7db66df19d7f28f72aeb14e73dc5a2dc5a9b960fb85cc50c6f23046fd9585dae",
+  "_path": "/Users/ember/dev/gh/forks/trayer-srg",
+  "_updated_at": "2026-02-14T00:56:27.001489Z",
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [
+      "Freedesktop System Tray Protocol",
+      "Extended Window Manager Hints (EWMH)",
+      "NetWM Specifications",
+      "X11 Atom Resolution",
+      "Pseudo-transparency",
+      "Root Window Pixmap Tracking",
+      "Partial Struts",
+      "Window Docking Types",
+      "Multi-monitor Xinerama/XRandR Placement",
+      "GTK+ Widgetry",
+      "GDK X11 Integration",
+      "Xlib Event Handling",
+      "Tray Selection Management",
+      "PropertyNotify Events",
+      "GtkSocket/GtkPlug Protocol",
+      "Command-line Configuration Parsing",
+      "Alpha Blending and Tinting",
+      "X11 Window Geometry Management",
+      "Screen Edge Alignment",
+      "Dynamic Widget Resizing",
+      "Xmu Window Utilities"
+    ],
+    "tags": [
+      "system-tray",
+      "gtk2",
+      "x11",
+      "ewmh",
+      "desktop-shell",
+      "linux",
+      "unix",
+      "freedesktop",
+      "tray-icon",
+      "window-management",
+      "c",
+      "netwm"
+    ],
+    "mined_motifs": [
+      "wayland",
+      "Rust Language Ecosystem",
+      "cross-platform",
+      "posix",
+      "Systems Programming",
+      "ipc",
+      "foreign-function-interface",
+      "IO Control",
+      "ioctl",
+      "Network Programming",
+      "Signal Handling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 9.493,
+        "matches": [
+          "ipc",
+          "wayland",
+          "ioctl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.271,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 7.888,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 7.878,
+        "matches": [
+          "foreign-function-interface",
+          "ioctl",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.285,
+        "matches": []
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 2.27,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.001489Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "38ad1dcdcd69319dd8cd02990ed193f8d0472bd7d2e0f6cc0b2ebca5e4e34193",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:37.559862+00:00"
+  },
+  "mined_motifs": [
+    "wayland",
+    "rust",
+    "cross-platform",
+    "posix",
+    "systems-programming",
+    "ipc",
+    "Foreign Function Interface",
+    "IO Control",
+    "ffi",
+    "ioctl",
+    "Network Programming",
+    "Signal Handling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "wayland",
+      "path": "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/protocols/wayland",
+      "similarity": 0.736
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.732
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.73
+    },
+    {
+      "name": "mach-glfw",
+      "path": "/Users/ember/dev/peters-broken-shit/libs/mach-glfw",
+      "similarity": 0.726
+    },
+    {
+      "name": "dotfiles",
+      "path": "/Users/ember/dev/gh/dotfiles",
+      "similarity": 0.717
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.714
+    },
+    {
+      "name": "Weylus",
+      "path": "/Users/ember/src/Weylus",
+      "similarity": 0.713
+    },
+    {
+      "name": "cosmopolitan",
+      "path": "/Users/ember/src/cosmopolitan",
+      "similarity": 0.711
+    }
+  ]
+}

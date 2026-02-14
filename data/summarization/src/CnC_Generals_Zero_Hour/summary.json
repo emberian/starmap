@@ -1,0 +1,263 @@
+{
+  "name": "CnC_Generals_Zero_Hour",
+  "description": "This repository contains the source code for the SAGE (Strategy Action Game Engine) powering Command & Conquer: Generals and its expansion, Zero Hour. The architecture integrates the W3D (Westwood 3D) rendering pipeline with a sophisticated GameLogic subsystem handling AI state machines, pathfinding, and physics simulations. It features extensive support for legacy middleware including RAD Miles, Bink, and GameSpy, while providing full implementation of the game's GUI, networking, and asset management systems.",
+  "tags": [
+    "sage-engine",
+    "cnc-generals",
+    "rts-architecture",
+    "w3d-rendering",
+    "game-logic",
+    "directx-9",
+    "win32-development",
+    "ai-pathfinding",
+    "particle-sim",
+    "gui-framework",
+    "matchmaking-bot",
+    "legacy-middleware",
+    "cpp",
+    "real-time-strategy",
+    "game-preservation",
+    "westwood-studios"
+  ],
+  "category": "RTS Engine Architecture",
+  "concepts": [
+    "Strategy Action Game Engine (SAGE)",
+    "W3D Rendering Pipeline",
+    "Westwood Vegas Engine",
+    "Deterministic Game Simulation",
+    "AI State Machines",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Coordinate System Transformation",
+    "Middleware Integration",
+    "Network Socket Programming",
+    "Matchmaking Protocols",
+    "INI-based Data Driven Design",
+    "Resource Management",
+    "Game Object Lifecycle",
+    "Physics Simulation",
+    "GUI Event Handling",
+    "Audio Event Sequencing",
+    "Memory Management",
+    "Binary Serialization (Xfer)",
+    "CRC Debugging",
+    "Asset Pipeline Tools",
+    "LOD Optimization",
+    "Terrain Rendering",
+    "Water Reflection Shaders",
+    "Command Execution Pipeline",
+    "Shader Management",
+    "Unit Locomotor Systems",
+    "Particle Emitter Logic"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "Assembly"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 6046,
+    "has_readme": true,
+    "sample_files": [
+      "Generals/Code/Tools/Launcher/main.cpp",
+      "Generals/Code/Tools/matchbot/main.cpp",
+      "GeneralsMD/Code/Tools/Launcher/main.cpp",
+      "GeneralsMD/Code/Tools/matchbot/main.cpp",
+      "Generals/Code/GameEngine/Source/Common/RTS/Player.cpp"
+    ]
+  },
+  "_hash": "83f5d090277e7c0dfd9816477fd3103e2bd9a55ac1f1b72586892a938db5e78d",
+  "_path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+  "_updated_at": "2026-02-14T00:56:31.977415Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c30b3a04efb5903da67abb94c07f16345df69f6c5471bc5cca4466816c389754",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:48.719723+00:00"
+  },
+  "mined_motifs": [
+    "game-engine",
+    "simulation",
+    "networking",
+    "command-and-conquer",
+    "legacy-code",
+    "rts",
+    "pathfinding",
+    "retro-gaming",
+    "physics-engine",
+    "Network Synchronization",
+    "rust",
+    "multiplayer"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.932
+    },
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.923
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.923
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.856
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.85
+    },
+    {
+      "name": "Achron",
+      "path": "/Users/ember/dev/Achron",
+      "similarity": 0.849
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.846
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.846
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Strategy Action Game Engine (SAGE)",
+      "W3D Rendering Pipeline",
+      "Westwood Vegas Engine",
+      "Deterministic Game Simulation",
+      "AI State Machines",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Coordinate System Transformation",
+      "Middleware Integration",
+      "Network Socket Programming",
+      "Matchmaking Protocols",
+      "INI-based Data Driven Design",
+      "Resource Management",
+      "Game Object Lifecycle",
+      "Physics Simulation",
+      "GUI Event Handling",
+      "Audio Event Sequencing",
+      "Memory Management",
+      "Binary Serialization (Xfer)",
+      "CRC Debugging",
+      "Asset Pipeline Tools",
+      "LOD Optimization",
+      "Terrain Rendering",
+      "Water Reflection Shaders",
+      "Command Execution Pipeline",
+      "Shader Management",
+      "Unit Locomotor Systems",
+      "Particle Emitter Logic"
+    ],
+    "tags": [
+      "sage-engine",
+      "cnc-generals",
+      "rts-architecture",
+      "w3d-rendering",
+      "game-engine",
+      "directx-9",
+      "win32-development",
+      "ai-pathfinding",
+      "particle-sim",
+      "gui-framework",
+      "matchmaking-bot",
+      "legacy-middleware",
+      "cpp",
+      "real-time-strategy",
+      "game-preservation",
+      "westwood-studios"
+    ],
+    "mined_motifs": [
+      "game-engine",
+      "real-time-simulation",
+      "networking",
+      "command-and-conquer",
+      "legacy-code",
+      "rts",
+      "pathfinding",
+      "retro-gaming",
+      "physics-engine",
+      "Network Synchronization",
+      "Rust Language Ecosystem",
+      "multiplayer"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 12.321,
+        "matches": [
+          "game-engine",
+          "pathfinding",
+          "rts",
+          "category:RTS Engine Architecture"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.616,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.527,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.51,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.502,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.45,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.977415Z"
+  }
+}

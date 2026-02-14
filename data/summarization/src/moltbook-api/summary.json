@@ -1,0 +1,215 @@
+{
+  "name": "moltbook-api",
+  "description": "moltbook-api appears to be a data/databases project using JavaScript. The available files suggest focus areas around index, auth, package, agents.",
+  "tags": [
+    "JavaScript",
+    "index",
+    "auth",
+    "package",
+    "agents",
+    "agentservice",
+    "api.test",
+    "comments",
+    "commentservice",
+    "database",
+    "errorhandler",
+    "errors",
+    "feed",
+    "license",
+    "lock",
+    "posts"
+  ],
+  "category": "Data/Databases",
+  "concepts": [
+    "index",
+    "auth",
+    "package",
+    "agents",
+    "agentservice",
+    "api.test",
+    "comments",
+    "commentservice",
+    "database",
+    "errorhandler",
+    "errors",
+    "feed",
+    "license",
+    "lock",
+    "posts",
+    "postservice",
+    "ratelimit",
+    "readme",
+    "response",
+    "schema",
+    "search",
+    "searchservice",
+    "submolts",
+    "submoltservice",
+    "voteservice"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "maturity": "exploratory",
+  "_hash": "b8076d0a62b1446ca3d750d8e7c2e3c8313ecbc81670348dd13a431f111a4425",
+  "_path": "/Users/ember/src/moltbook-api",
+  "_updated_at": "2026-02-14T00:56:33.210443Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "61c8a1ebfedf647c7ac20c0a27a9316b9283bc3d7b792b47cedfbbcb14ef61ac",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:46.459454+00:00"
+  },
+  "mined_motifs": [
+    "test",
+    "info",
+    "sqlite3",
+    "icon",
+    "main",
+    "build",
+    "fts3",
+    "cargo",
+    "Shell",
+    "config",
+    "C",
+    "C/C++"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sElement",
+      "path": "/Users/ember/dev/gh/forks/sElement",
+      "similarity": 0.682
+    },
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.668
+    },
+    {
+      "name": "github-api-testing",
+      "path": "/Users/ember/dev/gh/github-api-testing",
+      "similarity": 0.663
+    },
+    {
+      "name": "loicense",
+      "path": "/Users/ember/dev/loicense",
+      "similarity": 0.658
+    },
+    {
+      "name": "queuebotv2",
+      "path": "/Users/ember/dev/gh/queuebotv2",
+      "similarity": 0.626
+    },
+    {
+      "name": "miniblog",
+      "path": "/Users/ember/dev/gh/miniblog",
+      "similarity": 0.624
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "index",
+      "auth",
+      "package",
+      "agents",
+      "agentservice",
+      "api.test",
+      "comments",
+      "commentservice",
+      "database",
+      "errorhandler",
+      "errors",
+      "feed",
+      "license",
+      "lock",
+      "posts",
+      "postservice",
+      "ratelimit",
+      "readme",
+      "response",
+      "schema",
+      "search",
+      "searchservice",
+      "submolts",
+      "submoltservice",
+      "voteservice"
+    ],
+    "tags": [
+      "JavaScript",
+      "index",
+      "auth",
+      "package",
+      "agents",
+      "agentservice",
+      "api.test",
+      "comments",
+      "commentservice",
+      "database",
+      "errorhandler",
+      "errors",
+      "feed",
+      "license",
+      "lock",
+      "posts"
+    ],
+    "mined_motifs": [
+      "test",
+      "info",
+      "sqlite3",
+      "icon",
+      "main",
+      "build",
+      "fts3",
+      "cargo",
+      "Shell",
+      "config",
+      "C",
+      "C/C++"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.31,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.265,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.214,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 2.988,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.210443Z"
+  }
+}

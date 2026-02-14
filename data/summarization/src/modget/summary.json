@@ -1,0 +1,210 @@
+{
+  "name": "modget",
+  "description": "A command-line package manager for Minecraft mods hosted on CurseForge, facilitating automated search, installation, and dependency tracking via the CurseForge API. It maintains a local database to manage mod versions, hold update statuses, and resolve mod slugs to internal MODIDs, supporting specific Minecraft versions and mod loaders like Forge and Fabric.",
+  "tags": [
+    "package-manager",
+    "minecraft-mods",
+    "curseforge-api",
+    "cli-tool",
+    "go-cli",
+    "mod-management",
+    "automation",
+    "cobra",
+    "scdoc",
+    "curseforge",
+    "binary-database"
+  ],
+  "category": "Minecraft Mod Package Management",
+  "concepts": [
+    "Package Lifecycle Management",
+    "REST API Integration",
+    "Slug-to-ID Resolution",
+    "Local State Persistence",
+    "Version Filtering",
+    "Automated Mod Updates",
+    "Command-line Interface Design",
+    "Metadata Parsing",
+    "Constraint Validation"
+  ],
+  "languages": [
+    "Go",
+    "Makefile",
+    "scdoc"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": true,
+    "sample_files": [
+      "go.mod",
+      "Makefile",
+      "main.go",
+      "curse/parse.go",
+      "filter/filter.go"
+    ]
+  },
+  "_hash": "001962468c97b97e439cf0cf23c0228a7a782e0bb05430514b8fc5a335611bc1",
+  "_path": "/Users/ember/src/modget",
+  "_updated_at": "2026-02-14T00:56:33.205776Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0f4be600f9bc6be2578ccbc426691cc0826e44096947013d1c971b82f57b8e8f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:45.914878+00:00"
+  },
+  "mined_motifs": [
+    "dependency-management",
+    "Dependency Resolution",
+    "minimalist",
+    "rust",
+    "typescript",
+    "Language Server Protocol",
+    "diagnostics",
+    "language-server",
+    "Bundle Specification",
+    "CLI Interface",
+    "Compatibility Layering",
+    "Declarative Configuration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.82
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.818
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.805
+    },
+    {
+      "name": "recraft",
+      "path": "/Users/ember/dev/recraft",
+      "similarity": 0.799
+    },
+    {
+      "name": "simplebuilder",
+      "path": "/Users/ember/dev/gh/simplebuilder",
+      "similarity": 0.798
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.795
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.793
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.793
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Package Lifecycle Management",
+      "REST API Integration",
+      "Slug-to-ID Resolution",
+      "Local State Persistence",
+      "Version Filtering",
+      "Automated Mod Updates",
+      "Command-line Interface Design",
+      "Metadata Parsing",
+      "Constraint Validation"
+    ],
+    "tags": [
+      "package-manager",
+      "minecraft-mods",
+      "curseforge-api",
+      "cli-tool",
+      "go-cli",
+      "mod-management",
+      "automation",
+      "cobra",
+      "scdoc",
+      "curseforge",
+      "binary-database"
+    ],
+    "mined_motifs": [
+      "dependency-management",
+      "Dependency Resolution",
+      "minimalist",
+      "Rust Language Ecosystem",
+      "typescript",
+      "Language Server Protocol",
+      "diagnostics",
+      "language-server",
+      "Bundle Specification",
+      "CLI Interface",
+      "Compatibility Layering",
+      "Declarative Configuration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.354,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.349,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.285,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 5.266,
+        "matches": [
+          "package-manager"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.832,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 2.524,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.205776Z"
+  }
+}

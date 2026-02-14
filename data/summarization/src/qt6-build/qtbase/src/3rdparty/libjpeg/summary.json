@@ -1,0 +1,238 @@
+{
+  "name": "libjpeg",
+  "description": "A highly optimized implementation of the Independent JPEG Group's library for image compression and decompression, serving as a critical 3rd-party dependency within the Qt framework. It provides a comprehensive suite of routines for DCT-based image coding, supporting both Huffman and arithmetic entropy encoding across varying bit depths including 8, 12, and 16-bit precision. The codebase incorporates specialized components for color space conversion, quantization, and inverse DCT, featuring performance enhancements likely derived from the libjpeg-turbo project.",
+  "tags": [
+    "jpeg",
+    "image-codec",
+    "dct",
+    "huffman-coding",
+    "arithmetic-coding",
+    "quantization",
+    "c-library",
+    "qt-3rdparty",
+    "libjpeg-turbo",
+    "color-conversion",
+    "multimedia",
+    "bit-depth-scaling"
+  ],
+  "category": "Lossy Image Compression",
+  "concepts": [
+    "Discrete Cosine Transform (DCT)",
+    "Inverse Discrete Cosine Transform (IDCT)",
+    "Huffman Entropy Coding",
+    "Arithmetic Entropy Coding",
+    "Quantization Matrix Design",
+    "YCbCr Color Space Transformation",
+    "Chrominance Subsampling (4:2:0, 4:2:2, 4:4:4)",
+    "Progressive JPEG Scan Control",
+    "Lossless JPEG Coding Extensions",
+    "Multi-precision Bit Depth Support (8/12/16-bit)",
+    "Minimum Coded Unit (MCU) Processing",
+    "Pool-based Memory Management",
+    "Virtual Array Swapping and Backing Storage",
+    "Floyd-Steinberg Error Diffusion Dithering",
+    "Ordered Dithering Algorithms",
+    "JPEG Marker Segment Parsing",
+    "Fixed-point Scaled Integer IDCT",
+    "Loeffler IDCT Algorithm",
+    "Heckbert Color Quantization",
+    "Entropy Statistics Optimization",
+    "SIMD-accelerated SIMD Architectures",
+    "Downscaled IDCT Resolution Reduction",
+    "JFIF/Adobe Marker Interpretation"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 103,
+    "has_readme": false,
+    "sample_files": [
+      "jidctint.c",
+      "jidctint_12.c",
+      "jmemmgr.c",
+      "jquant2.c",
+      "jquant2_12.c"
+    ]
+  },
+  "_hash": "4ba8ae485a9f829a5c35060d94794ebe90315c0f8eb7da2e704222def314628b",
+  "_path": "/Users/ember/src/qt6-build/qtbase/src/3rdparty/libjpeg",
+  "_updated_at": "2026-02-14T00:56:33.460909Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b0f77e0a0c7e186b08b55a42833843df3bfdd12427723d519102b2ea02ce8cbf",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:58.479773+00:00"
+  },
+  "mined_motifs": [
+    "Huffman Coding",
+    "rust",
+    "LZW Compression",
+    "Lanczos Resampling",
+    "image-processing",
+    "pixel-manipulation",
+    "codec",
+    "graphics",
+    "png",
+    "compression",
+    "compiler-design",
+    "Affine Transformation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Pillow",
+      "path": "/Users/ember/dev/gh/forks/Pillow",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-image",
+      "path": "/Users/ember/dev/gh/forks/rust-image",
+      "similarity": 0.859
+    },
+    {
+      "name": "TEMP-rust-png",
+      "path": "/Users/ember/dev/gh/TEMP-rust-png",
+      "similarity": 0.849
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.846
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.832
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.831
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.83
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.829
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Discrete Cosine Transform (DCT)",
+      "Inverse Discrete Cosine Transform (IDCT)",
+      "Huffman Entropy Coding",
+      "Arithmetic Entropy Coding",
+      "Quantization Matrix Design",
+      "YCbCr Color Space Transformation",
+      "Chrominance Subsampling (4:2:0, 4:2:2, 4:4:4)",
+      "Progressive JPEG Scan Control",
+      "Lossless JPEG Coding Extensions",
+      "Multi-precision Bit Depth Support (8/12/16-bit)",
+      "Minimum Coded Unit (MCU) Processing",
+      "Pool-based Memory Management",
+      "Virtual Array Swapping and Backing Storage",
+      "Floyd-Steinberg Error Diffusion Dithering",
+      "Ordered Dithering Algorithms",
+      "JPEG Marker Segment Parsing",
+      "Fixed-point Scaled Integer IDCT",
+      "Loeffler IDCT Algorithm",
+      "Heckbert Color Quantization",
+      "Entropy Statistics Optimization",
+      "SIMD-accelerated SIMD Architectures",
+      "Downscaled IDCT Resolution Reduction",
+      "JFIF/Adobe Marker Interpretation"
+    ],
+    "tags": [
+      "jpeg",
+      "image-codec",
+      "dct",
+      "huffman-coding",
+      "arithmetic-coding",
+      "quantization",
+      "c-library",
+      "qt-3rdparty",
+      "libjpeg-turbo",
+      "color-conversion",
+      "multimedia",
+      "bit-depth-scaling"
+    ],
+    "mined_motifs": [
+      "Huffman Coding",
+      "Rust Language Ecosystem",
+      "LZW Compression",
+      "Lanczos Resampling",
+      "image-processing",
+      "pixel-manipulation",
+      "codec",
+      "Computer Graphics & Rendering",
+      "png",
+      "compression",
+      "Compiler Engineering",
+      "Affine Transformation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.437,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.401,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.365,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.355,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 3.893,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.586,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.460909Z"
+  }
+}

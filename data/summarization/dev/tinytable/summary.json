@@ -1,0 +1,214 @@
+{
+  "name": "tinytable",
+  "description": "A browser-based management simulation of a tabletop RPG session, modeled as a real-time state machine. The system integrates player psychology metrics—such as hunger, energy, and engagement—with environmental variables like ambiance and snacks to compute an aggregate 'vibe' score that determines session success.",
+  "tags": [
+    "simulation-game",
+    "ttrpg-sim",
+    "canvas-api",
+    "typescript",
+    "state-machine",
+    "real-time-simulation",
+    "game-mechanics",
+    "procedural-events",
+    "web-game",
+    "vite",
+    "ui-rendering",
+    "resource-management"
+  ],
+  "category": "Ludological Behavioral Simulation",
+  "concepts": [
+    "State Modeling",
+    "Psychometric Stat Decay",
+    "Real-time Delta Integration",
+    "Canvas Rendering Pipeline",
+    "Event Dispatching",
+    "Ambiance Modeling",
+    "Asynchronous Action Processing",
+    "Session Phase Orchestration",
+    "Probability-based Event Triggering"
+  ],
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/render.ts",
+      "src/simulation.ts",
+      "src/main.ts",
+      "src/input.ts"
+    ]
+  },
+  "_hash": "4cc5f5f10d925b4af92c008db178a53d76cd53fba6ac2301bda7a09c85c5ef94",
+  "_path": "/Users/ember/dev/tinytable",
+  "_updated_at": "2026-02-14T00:56:30.941271Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e8af0eeb87d4b09d02ac81575c1d4237e563b79266bf3a44738f6c7e25312e80",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:58.673932+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "game-engine",
+    "game-design",
+    "event-driven",
+    "sci-fi",
+    "state-management",
+    "Event-driven Architecture",
+    "react",
+    "rust",
+    "cellular-automata",
+    "python",
+    "real-time"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.832
+    },
+    {
+      "name": "LetsPlay",
+      "path": "/Users/ember/dev/gh/LetsPlay",
+      "similarity": 0.825
+    },
+    {
+      "name": "green-factory",
+      "path": "/Users/ember/dev/green-factory",
+      "similarity": 0.823
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.818
+    },
+    {
+      "name": "megastructure-maintenance-crew",
+      "path": "/Users/ember/dev/megastructure-maintenance-crew",
+      "similarity": 0.815
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.813
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.811
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.81
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "State Modeling",
+      "Psychometric Stat Decay",
+      "Real-time Delta Integration",
+      "Canvas Rendering Pipeline",
+      "Event Dispatching",
+      "Ambiance Modeling",
+      "Asynchronous Action Processing",
+      "Session Phase Orchestration",
+      "Probability-based Event Triggering"
+    ],
+    "tags": [
+      "simulation-game",
+      "ttrpg-sim",
+      "canvas-api",
+      "typescript",
+      "state-machine",
+      "real-time-simulation",
+      "game-mechanics",
+      "procedural-events",
+      "web-game",
+      "vite",
+      "ui-rendering",
+      "Resource Acquisition Is Initialization (RAII)"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "game-engine",
+      "game-design",
+      "event-driven",
+      "sci-fi",
+      "state-management",
+      "Event-driven Architecture",
+      "react",
+      "Rust Language Ecosystem",
+      "cellular-automata",
+      "python"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.831,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.461,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.455,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.335,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.284,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.891,
+        "matches": [
+          "cellular-automata"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.941271Z"
+  }
+}

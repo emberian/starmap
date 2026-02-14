@@ -1,0 +1,221 @@
+{
+  "name": "speculate.rs",
+  "description": "An RSpec-inspired BDD testing framework for Rust implemented as a compiler plugin. It utilizes a custom DSL to provide nested test grouping, setup/teardown hooks, and integrated benchmarking through compile-time code generation.",
+  "tags": [
+    "rust",
+    "bdd",
+    "testing-framework",
+    "compiler-plugin",
+    "rspec",
+    "procedural-macros",
+    "dsl",
+    "code-generation",
+    "ast-manipulation",
+    "unit-testing",
+    "benchmarking",
+    "nightly-rust"
+  ],
+  "category": "Domain-Specific Language Synthesis",
+  "concepts": [
+    "Behavior-Driven Development",
+    "Syntax Extensions",
+    "Compiler Plugins",
+    "AST Transformation",
+    "Test Suite Hierarchy",
+    "Setup and Teardown Hooks",
+    "Recursive Descent Parsing",
+    "Macro Expansion",
+    "Compile-time Code Generation",
+    "Quasiquoting",
+    "Hierarchical Contexts",
+    "Benchmark Generation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/generator.rs",
+      "src/parser.rs",
+      "tests/basic.rs"
+    ]
+  },
+  "_hash": "9d5a61a0d22e11647c3fa5290f6e7bcee671d804d38bd29a48bd55e0288aa67a",
+  "_path": "/Users/ember/dev/gh/forks/speculate.rs",
+  "_updated_at": "2026-02-14T00:56:26.750626Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Behavior-Driven Development",
+      "Syntax Extensions",
+      "Compiler Plugins",
+      "AST Transformation",
+      "Test Suite Hierarchy",
+      "Setup and Teardown Hooks",
+      "Recursive Descent Parsing",
+      "Macro Expansion",
+      "Compile-time Code Generation",
+      "Quasiquoting",
+      "Hierarchical Contexts",
+      "Benchmark Generation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "bdd",
+      "testing-framework",
+      "compiler-plugin",
+      "rspec",
+      "procedural-macros",
+      "dsl",
+      "Compiler Engineering",
+      "ast-manipulation",
+      "unit-testing",
+      "benchmarking",
+      "nightly-rust"
+    ],
+    "mined_motifs": [
+      "abstract-syntax-tree",
+      "lexical-analysis",
+      "parser",
+      "AST",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "Compiler Engineering",
+      "s-expression"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.494,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 12.301,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression",
+          "category:Domain-Specific Language Synthesis"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.511,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.485,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.464,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.406,
+        "matches": [
+          "dsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.750626Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "574ebd4cf73f92d1dcae7af767f24a1a36277ddc336690e35349d41d3cc85ef8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:29.939461+00:00"
+  },
+  "mined_motifs": [
+    "ast",
+    "Lexical Analysis",
+    "lexer",
+    "parser",
+    "Tokenization",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "compiler-design",
+    "s-expression",
+    "tokenization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "stainless",
+      "path": "/Users/ember/dev/gh/forks/stainless",
+      "similarity": 0.928
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.859
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.848
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.842
+    },
+    {
+      "name": "iron-test",
+      "path": "/Users/ember/dev/gh/forks/iron-test",
+      "similarity": 0.84
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.836
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.835
+    }
+  ]
+}

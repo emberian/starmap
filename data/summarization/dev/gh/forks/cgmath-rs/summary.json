@@ -1,0 +1,216 @@
+{
+  "name": "cgmath-rs",
+  "description": "A specialized linear algebra and mathematics library for computer graphics, providing strongly-typed primitives for 2D and 3D geometric operations. It implements column-major matrices, quaternions, affine transformations, and perspective projections, alongside spatial primitives like AABBs, frustums, and collision spheres. The library prioritizes type safety and fixed-dimension performance over general-purpose n-dimensional flexibility.",
+  "tags": [
+    "linear-algebra",
+    "computer-graphics",
+    "math-library",
+    "quaternions",
+    "affine-transformations",
+    "collision-detection",
+    "matrix-math",
+    "vector-math",
+    "rust-gamedev",
+    "geometry",
+    "spatial-data-structures"
+  ],
+  "category": "Computer Graphics Mathematics",
+  "concepts": [
+    "column-major matrices",
+    "unit quaternions",
+    "affine transformations",
+    "perspective projection",
+    "orthographic projection",
+    "axis-aligned bounding boxes (AABB)",
+    "oriented bounding boxes (OBB)",
+    "view frustums",
+    "barycentric coordinates",
+    "dot and cross products",
+    "floating-point approximation",
+    "homogeneous coordinates",
+    "euler angles",
+    "spherical linear interpolation",
+    "geometric intersection tests"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 40,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/matrix.rs",
+      "src/vector.rs",
+      "src/test/matrix.rs"
+    ]
+  },
+  "_hash": "87bbd39d3292b777d71fa8a3425471b09bd9dc84b77f0c9842d0df01ca87cf28",
+  "_path": "/Users/ember/dev/gh/forks/cgmath-rs",
+  "_updated_at": "2026-02-14T00:56:25.445836Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "column-major matrices",
+      "unit quaternions",
+      "affine transformations",
+      "perspective projection",
+      "orthographic projection",
+      "axis-aligned bounding boxes (AABB)",
+      "oriented bounding boxes (OBB)",
+      "view frustums",
+      "barycentric coordinates",
+      "dot and cross products",
+      "floating-point approximation",
+      "homogeneous coordinates",
+      "euler angles",
+      "spherical linear interpolation",
+      "geometric intersection tests"
+    ],
+    "tags": [
+      "Linear Algebra",
+      "Computer Graphics & Rendering",
+      "math-library",
+      "quaternions",
+      "affine-transformations",
+      "collision-detection",
+      "rust-gamedev",
+      "geometry",
+      "spatial-data-structures"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "graphics-api",
+      "Rasterization Pipeline",
+      "systems-programming",
+      "alpha compositing",
+      "chrominance encoding",
+      "color space conversion",
+      "color-conversion",
+      "color-space",
+      "fixed-point arithmetic",
+      "floating-point normalization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.48,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.447,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.412,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.401,
+        "matches": [
+          "graphics-api"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 2.651,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.639,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.445836Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "405c27b8678367a5bdbc61aab8cea3446f1ce3baadba660dc881b1b59669a2f4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:21.748646+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "rendering",
+    "graphics-api",
+    "Rasterization Pipeline",
+    "low-level",
+    "alpha compositing",
+    "chrominance encoding",
+    "color space conversion",
+    "color-conversion",
+    "color-space",
+    "fixed-point arithmetic",
+    "floating-point normalization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.881
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.874
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.868
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.865
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.859
+    },
+    {
+      "name": "computer-graphics-book",
+      "path": "/Users/ember/dev/gh/computer-graphics-book",
+      "similarity": 0.851
+    },
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/forks/libblas-sys-1",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.847
+    }
+  ]
+}

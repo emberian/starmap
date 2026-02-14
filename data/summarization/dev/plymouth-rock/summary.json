@@ -1,0 +1,241 @@
+{
+  "name": "plymouth-rock",
+  "description": "A high-fidelity multiphysics simulator for a Natrium-class sodium-cooled fast reactor (SFR) integrated with molten salt thermal storage. It features a Rust-based physics engine for Monte Carlo neutron transport, 1D thermal hydraulics, and point reactor kinetics, coupled with a Godot 4 frontend for real-time 3D visualization and control room operations.",
+  "tags": [
+    "nuclear-simulation",
+    "sodium-fast-reactor",
+    "monte-carlo-transport",
+    "thermal-hydraulics",
+    "reactor-kinetics",
+    "molten-salt-storage",
+    "godot-engine",
+    "rust-gdextension",
+    "natrium-technology",
+    "physics-engine",
+    "blender-api",
+    "mcp-server",
+    "energy-systems",
+    "3d-visualization",
+    "load-following",
+    "grid-stabilization"
+  ],
+  "category": "Nuclear Reactor Physics Simulation",
+  "concepts": [
+    "Monte Carlo Neutron Transport",
+    "Point Reactor Kinetics",
+    "Delayed Neutron Dynamics",
+    "1D Axial Core Channel Modeling",
+    "Dittus-Boelter Heat Transfer",
+    "Sodium Coolant Thermophysical Properties",
+    "Reactivity Feedback Mechanisms",
+    "Two-Tank Molten Salt Thermal Storage",
+    "GDExtension Architecture",
+    "Watt Fission Spectrum Sampling",
+    "Continuous-Energy Cross Sections",
+    "Control Rod Worth Analysis",
+    "Liquid Metal Fast Breeder Reactor (LMFBR)",
+    "Load-Following Grid Integration",
+    "Real-time Multiphysics Coupling",
+    "Blender Model Generation"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "GDScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 32,
+    "has_readme": true,
+    "sample_files": [
+      "rust/src/lib.rs",
+      "blender_mcp_addon.py",
+      "generate_reactor_detailed.py",
+      "rust/src/neutronics.rs",
+      "rust/src/storage.rs"
+    ]
+  },
+  "_hash": "cc61e3bc0bc90ca2d7d3e239bda0aedf27c41fa52ce14f24fefcaab51a72b861",
+  "_path": "/Users/ember/dev/plymouth-rock",
+  "_updated_at": "2026-02-14T00:56:29.855888Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Monte Carlo Neutron Transport",
+      "Point Reactor Kinetics",
+      "Delayed Neutron Dynamics",
+      "1D Axial Core Channel Modeling",
+      "Dittus-Boelter Heat Transfer",
+      "Sodium Coolant Thermophysical Properties",
+      "Reactivity Feedback Mechanisms",
+      "Two-Tank Molten Salt Thermal Storage",
+      "GDExtension Architecture",
+      "Watt Fission Spectrum Sampling",
+      "Continuous-Energy Cross Sections",
+      "Control Rod Worth Analysis",
+      "Liquid Metal Fast Breeder Reactor (LMFBR)",
+      "Load-Following Grid Integration",
+      "Real-time Multiphysics Coupling",
+      "Blender Model Generation"
+    ],
+    "tags": [
+      "nuclear-simulation",
+      "sodium-fast-reactor",
+      "monte-carlo-transport",
+      "thermal-hydraulics",
+      "reactor-kinetics",
+      "molten-salt-storage",
+      "godot-engine",
+      "rust-gdextension",
+      "natrium-technology",
+      "physics-engine",
+      "blender-api",
+      "Model Context Protocol",
+      "energy-systems",
+      "3d-visualization",
+      "load-following",
+      "grid-stabilization"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "GPGPU Compute",
+      "procedural-audio",
+      "fluid-dynamics",
+      "Texture Mapping",
+      "glfw",
+      "glsl",
+      "react",
+      "webgl",
+      "real-time-simulation",
+      "Collision density",
+      "Degeneracy pressure"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.116,
+        "matches": [
+          "real-time-simulation",
+          "fluid-dynamics",
+          "glsl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.691,
+        "matches": [
+          "gpgpu compute",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.381,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.254,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.25,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.033,
+        "matches": [
+          "physics-engine",
+          "category:Nuclear Reactor Physics Simulation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.855888Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "584bbe4d4c9310ac9a01dd61a7b3e298c4c90ab8d40cca00c58aeffde1e98652",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:22.512327+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "gpgpu",
+    "procedural-audio",
+    "fluid-dynamics",
+    "Texture Mapping",
+    "glfw",
+    "glsl",
+    "react",
+    "webgl",
+    "simulation",
+    "Collision density",
+    "Degeneracy pressure"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "buckeye",
+      "path": "/Users/ember/dev/buckeye",
+      "similarity": 0.815
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.793
+    },
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.776
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.775
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.771
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.769
+    },
+    {
+      "name": "Baystation12",
+      "path": "/Users/ember/dev/gh/forks/Baystation12",
+      "similarity": 0.768
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.766
+    }
+  ]
+}

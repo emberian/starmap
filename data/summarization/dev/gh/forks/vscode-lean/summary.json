@@ -1,0 +1,226 @@
+{
+  "name": "vscode-lean",
+  "description": "A Visual Studio Code extension that provides comprehensive IDE support for the Lean theorem prover by interfacing with the Lean server process via a custom JSON-based protocol. It implements essential formal verification features including real-time diagnostics, interactive proof goal visualization, and type-aware hover information. The extension also facilitates mathematical typesetting through a specialized Unicode input completion system and handles lean process lifecycle management.",
+  "tags": [
+    "vscode-extension",
+    "lean-prover",
+    "theorem-prover",
+    "formal-methods",
+    "language-server",
+    "unicode-input",
+    "proof-assistant",
+    "interactive-proof",
+    "diagnostics",
+    "syntax-highlighting",
+    "typescript"
+  ],
+  "category": "Interactive Theorem Proving",
+  "concepts": [
+    "Language Server Protocol",
+    "Proof State Visualization",
+    "Formal Verification",
+    "Dependent Type Theory",
+    "Unicode Translation",
+    "Child Process Communication",
+    "TextMate Grammar",
+    "Context-Aware Completion",
+    "Go-to-Definition",
+    "Real-time Error Reporting",
+    "Mathematical Notation",
+    "Proof Assistants",
+    "Elaboration Diagnostics"
+  ],
+  "languages": [
+    "TypeScript",
+    "JSON"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 21,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "test/index.ts",
+      "src/server.ts",
+      "src/extension.ts",
+      "src/hover.ts"
+    ]
+  },
+  "_hash": "1598f4f9e633e9128006eb43673dbef6b7dbcfc27a92ab710b7e8560a58612bc",
+  "_path": "/Users/ember/dev/gh/forks/vscode-lean",
+  "_updated_at": "2026-02-14T00:56:27.022709Z",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Language Server Protocol",
+      "Proof State Visualization",
+      "Formal Verification",
+      "Dependent Type Theory",
+      "Unicode Translation",
+      "Child Process Communication",
+      "TextMate Grammar",
+      "Context-Aware Completion",
+      "Go-to-Definition",
+      "Real-time Error Reporting",
+      "Mathematical Notation",
+      "Proof Assistants",
+      "Elaboration Diagnostics"
+    ],
+    "tags": [
+      "vscode-extension",
+      "lean-prover",
+      "Interactive Theorem Proving (ITP)",
+      "formal-verification",
+      "language-server",
+      "unicode-input",
+      "interactive-proof",
+      "diagnostics",
+      "syntax-highlighting",
+      "typescript"
+    ],
+    "mined_motifs": [
+      "dependent-types",
+      "Interactive Theorem Proving (ITP)",
+      "functional-programming",
+      "formal-methods",
+      "Order Theory",
+      "logic",
+      "mathematics",
+      "blockchain",
+      "Formal Methods & Verification",
+      "automated theorem proving",
+      "automated-reasoning",
+      "computational logic"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 12.337,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.337,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.327,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 8.234,
+        "matches": [
+          "dependent type theory",
+          "formal-verification",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.993,
+        "matches": [
+          "formal verification",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.582,
+        "matches": [
+          "formal verification"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.022709Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "07c8ad4fa89844cebdbd23863cb9c7ba47f8fe237be965fed1b1f8a518aba1cf",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:39.813558+00:00"
+  },
+  "mined_motifs": [
+    "dependent-types",
+    "interactive-theorem-proving",
+    "functional-programming",
+    "formal-verification",
+    "Order Theory",
+    "logic",
+    "mathematics",
+    "blockchain",
+    "lean",
+    "automated theorem proving",
+    "automated-reasoning",
+    "computational logic"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.922
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.88
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.872
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.872
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.871
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.869
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.867
+    },
+    {
+      "name": "library_dev",
+      "path": "/Users/ember/dev/gh/forks/library_dev",
+      "similarity": 0.865
+    }
+  ]
+}

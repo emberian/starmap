@@ -1,0 +1,206 @@
+{
+  "name": "bitflags",
+  "description": "A high-performance Rust macro library designed to generate type-safe, C-style bitmask structures. It provides a robust DSL for defining bitflags that automatically implement standard bitwise operators and common traits while ensuring memory efficiency through direct integer mapping. The generated structures facilitate seamless interop with low-level C APIs and hardware registers by encapsulating raw bit manipulation within a safer, idiomatic interface.",
+  "tags": [
+    "rust",
+    "macros",
+    "bitmask",
+    "metaprogramming",
+    "type-safety",
+    "low-level",
+    "ffi",
+    "system-programming",
+    "code-generation",
+    "bit-manipulation",
+    "integer-types"
+  ],
+  "category": "Metaprogramming & Type Systems",
+  "concepts": [
+    "Declarative Macros",
+    "Bitwise Operations",
+    "Type-Safe Wrappers",
+    "C-Style Enums",
+    "Trait Implementation",
+    "Operator Overloading",
+    "Foreign Function Interface",
+    "Compile-time Validation",
+    "Bitmask Flag Sets",
+    "Structural Derivation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "35529d6b946c7ca9e4814db52eff86a467638a461f4a3d0c2de77f5ef2bc2c06",
+  "_path": "/Users/ember/dev/gh/forks/bitflags",
+  "_updated_at": "2026-02-14T00:56:25.302779Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Declarative Macros",
+      "Bitwise Operations",
+      "Type-Safe Wrappers",
+      "C-Style Enums",
+      "Trait Implementation",
+      "Operator Overloading",
+      "foreign-function-interface",
+      "Compile-time Validation",
+      "Bitmask Flag Sets",
+      "Structural Derivation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "macros",
+      "bitmask",
+      "metaprogramming",
+      "type-safety",
+      "systems-programming",
+      "foreign-function-interface",
+      "Compiler Engineering",
+      "bit-manipulation",
+      "integer-types"
+    ],
+    "mined_motifs": [
+      "Memory Layout",
+      "Raw Pointers",
+      "Systems Programming",
+      "Bit Masking",
+      "Bit-Slicing",
+      "Bounds Validation",
+      "Byte Alignment",
+      "Capacity Management",
+      "Checked Arithmetic",
+      "Dense Bitmap",
+      "Drop Trait",
+      "Fixed-Width Integers"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.277,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.242,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.484,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.472,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.682,
+        "matches": []
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.639,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.302779Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6a00905de29d20f1010ea9f24e789e4842f8afadd953ea128051c839dd1f81e5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:15.476444+00:00"
+  },
+  "mined_motifs": [
+    "Memory Layout",
+    "Raw Pointers",
+    "systems-programming",
+    "Bit Masking",
+    "Bit-Slicing",
+    "Bounds Validation",
+    "Byte Alignment",
+    "Capacity Management",
+    "Checked Arithmetic",
+    "Dense Bitmap",
+    "Drop Trait",
+    "Fixed-Width Integers"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.905
+    },
+    {
+      "name": "fixedbitset",
+      "path": "/Users/ember/dev/gh/forks/fixedbitset",
+      "similarity": 0.875
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.846
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.846
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.845
+    }
+  ]
+}

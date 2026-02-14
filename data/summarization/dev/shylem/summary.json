@@ -1,0 +1,253 @@
+{
+  "name": "shylem",
+  "description": "Shylem is a declarative UI architecture and component library designed to abstract over the Xilem reactive framework for the ABCDEEZ learning system. It implements a unified component trait that targets both native rendering via Masonry and web-based DOM manipulation through Xilem-web. The project incorporates advanced features such as statistically grounded performance visualizations, a serializable state model, and a comprehensive guided tour system.",
+  "tags": [
+    "Rust",
+    "Xilem",
+    "UI-Framework",
+    "Cross-platform",
+    "WASM",
+    "Reactive-UI",
+    "Component-Model",
+    "Data-Viz",
+    "Plotters",
+    "Accessibility",
+    "State-Management",
+    "Navigation",
+    "Design-Tokens",
+    "Gamification",
+    "Guided-Tours",
+    "Headless-UI"
+  ],
+  "category": "Xilem-based Multi-backend Component Framework",
+  "concepts": [
+    "Functional Reactive UI",
+    "Platform Abstraction Layer",
+    "Headless Component Model",
+    "State Serializability",
+    "Declarative Routing",
+    "Wilson Score Intervals",
+    "Colorblind-safe Palettes",
+    "Spaced Repetition",
+    "Gamification Engines",
+    "Design Token Systems",
+    "Guided Tour State Machines",
+    "Native Rendering Buffers",
+    "WebAssembly DOM Binding",
+    "Responsive Flex Layouts",
+    "Component Trait Abstraction",
+    "Statistically Grounded Visualizations",
+    "Hot Reloading Patterns",
+    "Replay Debugging",
+    "Accessibility Traits",
+    "Metric Radar Charts",
+    "Performance Heatmaps",
+    "Confidence Interval Rendering",
+    "Adaptive Learning UI",
+    "Cross-backend Event Handling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 72,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/components/mod.rs",
+      "src/example/mod.rs",
+      "src/lib.rs",
+      "src/platform/mod.rs"
+    ]
+  },
+  "_hash": "10fc85a37fc3fa92abdf63765c307b58e8283c742195d5976fe7b0c932cbc4e8",
+  "_path": "/Users/ember/dev/shylem",
+  "_updated_at": "2026-02-14T00:56:30.361470Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "acf571421620751c8f0ecd303c68e0db9acedd8820239f6dfd95bd745a7c3388",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:49.679888+00:00"
+  },
+  "mined_motifs": [
+    "declarative-ui",
+    "hydration",
+    "server-functions",
+    "ssr",
+    "fine-grained-reactivity",
+    "full-stack",
+    "isomorphic",
+    "reactivity",
+    "signals",
+    "web-framework",
+    "Virtual Scrolling",
+    "graphics"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.86
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/xilem",
+      "similarity": 0.85
+    },
+    {
+      "name": "yeet.plus",
+      "path": "/Users/ember/dev/gh/yeet.plus",
+      "similarity": 0.796
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.791
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.787
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/shylem/leptos",
+      "similarity": 0.772
+    },
+    {
+      "name": "yeet+",
+      "path": "/Users/ember/dev/yeet+",
+      "similarity": 0.77
+    },
+    {
+      "name": "visualizers",
+      "path": "/Users/ember/hellas/hades-v0/visualizers",
+      "similarity": 0.763
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Functional Reactive UI",
+      "Platform Abstraction Layer",
+      "Headless Component Model",
+      "State Serializability",
+      "Declarative Routing",
+      "Wilson Score Intervals",
+      "Colorblind-safe Palettes",
+      "Spaced Repetition",
+      "Gamification Engines",
+      "Design Token Systems",
+      "Guided Tour State Machines",
+      "Native Rendering Buffers",
+      "WebAssembly DOM Binding",
+      "Responsive Flex Layouts",
+      "Component Trait Abstraction",
+      "Statistically Grounded Visualizations",
+      "Hot Reloading Patterns",
+      "Replay Debugging",
+      "Accessibility Traits",
+      "Metric Radar Charts",
+      "Performance Heatmaps",
+      "Confidence Interval Rendering",
+      "Adaptive Learning UI",
+      "Cross-backend Event Handling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Xilem",
+      "UI-Framework",
+      "Cross-platform",
+      "WebAssembly",
+      "Reactive-UI",
+      "Component-Model",
+      "Data-Viz",
+      "Plotters",
+      "Accessibility",
+      "State-Management",
+      "Navigation",
+      "Design-Tokens",
+      "Gamification",
+      "Guided-Tours",
+      "Headless-UI"
+    ],
+    "mined_motifs": [
+      "declarative-ui",
+      "hydration",
+      "server-functions",
+      "ssr",
+      "fine-grained-reactivity",
+      "full-stack",
+      "isomorphic",
+      "reactivity",
+      "web-framework",
+      "Virtual Scrolling",
+      "Computer Graphics & Rendering"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 15.107,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "server-functions"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.307,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.298,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.285,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.221,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.21,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.361470Z"
+  }
+}

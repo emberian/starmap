@@ -1,0 +1,244 @@
+{
+  "name": "mach-glfw",
+  "description": "Ziggified bindings for GLFW v3.3+, providing 100% API coverage with a focus on type safety and idiomatic Zig patterns. It features zero-dependency cross-compilation support, wrapping C pointers in slices, and replacing bitmasks with packed structs and enums. The library includes a custom build system for managing upstream GLFW sources across Windows (Win32), macOS (Cocoa), and Linux (X11/Wayland).",
+  "tags": [
+    "glfw",
+    "zig",
+    "windowing",
+    "vulkan",
+    "opengl",
+    "wayland",
+    "x11",
+    "cocoa",
+    "win32",
+    "cross-platform",
+    "input-handling",
+    "joystick",
+    "bindings",
+    "multimedia",
+    "graphics-api",
+    "native-interface"
+  ],
+  "category": "Graphics and Windowing Systems",
+  "concepts": [
+    "Native Windowing Interop",
+    "Cross-platform Compilation",
+    "Type-safe Bindings",
+    "Event Loop Polling",
+    "Display Monitor Enumeration",
+    "Vulkan Instance Creation",
+    "OpenGL Context Management",
+    "Joystick and Gamepad Mapping",
+    "Raw Input Handling",
+    "Framebuffer Scaling",
+    "Wayland Protocol Integration",
+    "X11 Extension Support",
+    "Packed Struct Bitmasks",
+    "Slice-based Memory Management",
+    "System SDK Shimming",
+    "High-Performance GPU Enablement"
+  ],
+  "languages": [
+    "Zig",
+    "C",
+    "Objective-C",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 148,
+    "has_readme": true,
+    "sample_files": [
+      "upstream/glfw/src/x11_window.c",
+      "upstream/glfw/src/wl_window.c",
+      "upstream/glfw/src/win32_window.c",
+      "upstream/glfw/src/x11_init.c",
+      "upstream/vulkan_headers/include/vulkan/vulkan_beta.h"
+    ]
+  },
+  "_hash": "408f017b9bba47f3c4ac21c75d7ef68b292ae2f6956d14c5face340a16b2db06",
+  "_path": "/Users/ember/dev/peters-broken-shit/libs/mach-glfw",
+  "_updated_at": "2026-02-14T00:56:29.826725Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Native Windowing Interop",
+      "Cross-platform Compilation",
+      "Type-safe Bindings",
+      "Event Loop Polling",
+      "Display Monitor Enumeration",
+      "Vulkan Instance Creation",
+      "OpenGL Context Management",
+      "Joystick and Gamepad Mapping",
+      "Raw Input Handling",
+      "Framebuffer Scaling",
+      "Wayland Protocol Integration",
+      "X11 Extension Support",
+      "Packed Struct Bitmasks",
+      "Slice-based Memory Management",
+      "System SDK Shimming",
+      "High-Performance GPU Enablement"
+    ],
+    "tags": [
+      "glfw",
+      "zig",
+      "windowing",
+      "vulkan",
+      "opengl",
+      "wayland",
+      "x11",
+      "cocoa",
+      "win32",
+      "cross-platform",
+      "input-handling",
+      "joystick",
+      "Foreign Function Interface",
+      "multimedia",
+      "graphics-api",
+      "native-interface"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "glsl",
+      "Vertex Array Objects (VAO)",
+      "OpenGL Core Profile",
+      "foreign-function-interface",
+      "gpu-programming",
+      "systems-programming",
+      "type-safety",
+      "graphics-pipeline",
+      "Shader Compilation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 8.28,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl",
+          "vulkan"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.168,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.16,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.13,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.846,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.801,
+        "matches": [
+          "vulkan",
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.826725Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "84fb3e63ea57f15afab2402ebd3b9e5a71bc871ebbc878370b67558edc7299c0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:18.365705+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "graphics",
+    "glsl",
+    "rendering",
+    "Vertex Array Objects (VAO)",
+    "OpenGL Core Profile",
+    "ffi",
+    "gpu-programming",
+    "low-level",
+    "type-safety",
+    "graphics-pipeline",
+    "Shader Compilation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nice_glfw",
+      "path": "/Users/ember/dev/gh/nice_glfw",
+      "similarity": 0.882
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.846
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.838
+    },
+    {
+      "name": "vulkan-zig-renderer",
+      "path": "/Users/ember/dev/peters-broken-shit/src",
+      "similarity": 0.834
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.833
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.83
+    },
+    {
+      "name": "gl-rs",
+      "path": "/Users/ember/dev/gh/forks/gl-rs",
+      "similarity": 0.82
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.819
+    }
+  ]
+}

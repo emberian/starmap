@@ -1,0 +1,250 @@
+{
+  "name": "vulkan-zig-renderer",
+  "description": "A low-level graphics engine prototype implemented in Zig, utilizing Vulkan for hardware-accelerated rendering and GLFW for windowing. It features a custom dynamic procedure loading system for Vulkan commands and a specialized device memory management layer via a FixedBufferAllocator. The architecture focuses on explicit control over graphics pipeline state, swapchain synchronization, and memory-aligned vertex data structures.",
+  "tags": [
+    "vulkan",
+    "zig",
+    "glfw",
+    "graphics",
+    "renderer",
+    "low-level",
+    "spir-v",
+    "shader",
+    "memory-management",
+    "graphics-pipeline",
+    "swapchain",
+    "glsl"
+  ],
+  "category": "Vulkan Hardware Abstraction",
+  "concepts": [
+    "dynamic-procedure-loading",
+    "device-memory-allocation",
+    "fixed-buffer-allocator",
+    "swapchain-management",
+    "graphics-pipeline-configuration",
+    "command-buffer-recording",
+    "vertex-buffer-management",
+    "glsl-to-spir-v",
+    "window-surface-integration",
+    "physical-device-enumeration",
+    "queue-family-selection",
+    "semaphore-synchronization",
+    "fence-synchronization",
+    "memory-mapping",
+    "host-visible-memory",
+    "memory-type-selection",
+    "shader-module-creation",
+    "render-pass-definition",
+    "framebuffer-configuration",
+    "alignment-constraints",
+    "std140-layout",
+    "std430-layout",
+    "staging-buffers",
+    "blocking-data-transfer"
+  ],
+  "languages": [
+    "Zig",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": false,
+    "sample_files": [
+      "engine.zig",
+      "device_memory.zig",
+      "main.zig",
+      "vulkan_procedures.zig",
+      "gpu_types.zig"
+    ]
+  },
+  "_hash": "1ce89a7186b62dd66be8e72beabb8a6480e911e44b714a9db9b1b457c78c44ac",
+  "_path": "/Users/ember/dev/peters-broken-shit/src",
+  "_updated_at": "2026-02-14T00:56:29.838821Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "dynamic-procedure-loading",
+      "device-memory-allocation",
+      "fixed-buffer-allocator",
+      "swapchain-management",
+      "graphics-pipeline-configuration",
+      "command-buffer-recording",
+      "vertex-buffer-management",
+      "glsl-to-spir-v",
+      "window-surface-integration",
+      "physical-device-enumeration",
+      "queue-family-selection",
+      "semaphore-synchronization",
+      "fence-synchronization",
+      "memory-mapping",
+      "host-visible-memory",
+      "memory-type-selection",
+      "shader-module-creation",
+      "render-pass-definition",
+      "framebuffer-configuration",
+      "alignment-constraints",
+      "std140-layout",
+      "std430-layout",
+      "staging-buffers",
+      "blocking-data-transfer"
+    ],
+    "tags": [
+      "vulkan",
+      "zig",
+      "glfw",
+      "Computer Graphics & Rendering",
+      "renderer",
+      "systems-programming",
+      "spir-v",
+      "shader",
+      "Memory Management",
+      "graphics-pipeline",
+      "swapchain",
+      "glsl"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "opengl",
+      "graphics-api",
+      "Computer Graphics & Rendering",
+      "shader-programming",
+      "hardware-abstraction",
+      "cross-platform",
+      "gpu-programming",
+      "cgmath",
+      "shader-compilation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 10.98,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 9.655,
+        "matches": [
+          "vulkan",
+          "glsl",
+          "shader",
+          "spir-v"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.899,
+        "matches": [
+          "opengl",
+          "shader",
+          "vulkan"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.865,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.343,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.326,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.838821Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fdde04ca76048bfa761292ba0a83859a28c1f13c4d751e4b761db4a0612c4278",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:20.022559+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "opengl",
+    "graphics-api",
+    "graphics-programming",
+    "shader-programming",
+    "hardware-abstraction",
+    "cross-platform",
+    "gpu-programming",
+    "rendering",
+    "cgmath",
+    "real-time-rendering",
+    "shader-compilation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.857
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.842
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.841
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.839
+    },
+    {
+      "name": "mach-glfw",
+      "path": "/Users/ember/dev/peters-broken-shit/libs/mach-glfw",
+      "similarity": 0.834
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.832
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.832
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.831
+    }
+  ]
+}

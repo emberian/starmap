@@ -1,0 +1,233 @@
+{
+  "name": "coda_net2",
+  "description": "coda_net2 appears to be a developer tooling project using OCaml, Go. The available files suggest focus areas around dune, main, coda, net2.",
+  "tags": [
+    "OCaml",
+    "Go",
+    "dune",
+    "main",
+    "coda",
+    "net2",
+    "pipe",
+    "client",
+    "codanet",
+    "envelope",
+    "helper",
+    "jsonenum",
+    "linear",
+    "methodidx",
+    "mplex",
+    "peer"
+  ],
+  "category": "Developer Tooling",
+  "concepts": [
+    "dune",
+    "main",
+    "coda",
+    "net2",
+    "pipe",
+    "client",
+    "codanet",
+    "envelope",
+    "helper",
+    "jsonenum",
+    "linear",
+    "methodidx",
+    "mplex",
+    "peer",
+    "project",
+    "readme",
+    "strict",
+    "test",
+    "todo",
+    "tools"
+  ],
+  "languages": [
+    "OCaml",
+    "Go"
+  ],
+  "maturity": "exploratory",
+  "_hash": "1c351d2d9d3b388abb7406ebc9d086a22586002433c1502b58e1338603a38f27",
+  "_path": "/Users/ember/dev/gh/coda_net2",
+  "_updated_at": "2026-02-14T00:56:24.790048Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "dune",
+      "main",
+      "mina-protocol",
+      "net2",
+      "pipe",
+      "client",
+      "codanet",
+      "envelope",
+      "helper",
+      "jsonenum",
+      "linear",
+      "methodidx",
+      "mplex",
+      "peer",
+      "project",
+      "readme",
+      "strict",
+      "test",
+      "todo",
+      "tools"
+    ],
+    "tags": [
+      "OCaml",
+      "Go",
+      "dune",
+      "main",
+      "mina-protocol",
+      "net2",
+      "pipe",
+      "client",
+      "codanet",
+      "envelope",
+      "helper",
+      "jsonenum",
+      "linear",
+      "methodidx",
+      "mplex",
+      "peer"
+    ],
+    "mined_motifs": [
+      "build",
+      "Shell",
+      "config",
+      "C",
+      "intf",
+      "ledger",
+      "state",
+      "Python",
+      "install",
+      "Rust Language Ecosystem",
+      "cargo",
+      "day1"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 4.748,
+        "matches": [
+          "cargo",
+          "category:Developer Tooling"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.639,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 4.621,
+        "matches": [
+          "mina-protocol"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.215,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 3.189,
+        "matches": [
+          "mina-protocol"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 3.179,
+        "matches": [
+          "mina-protocol"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.790048Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1e0f3a294d66b07aaf6d7f2fd1a02314d6b1047be46c57ca96cb7c4febda3c82",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:41.350727+00:00"
+  },
+  "mined_motifs": [
+    "build",
+    "Shell",
+    "config",
+    "C",
+    "intf",
+    "ledger",
+    "state",
+    "Python",
+    "install",
+    "Rust",
+    "cargo",
+    "day1"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.669
+    },
+    {
+      "name": "opam-repository",
+      "path": "/Users/ember/dev/gh/forks/opam-repository",
+      "similarity": 0.656
+    },
+    {
+      "name": "minesweep",
+      "path": "/Users/ember/dev/gh/minesweep",
+      "similarity": 0.656
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.65
+    },
+    {
+      "name": "aoc23",
+      "path": "/Users/ember/dev/gh/aoc23",
+      "similarity": 0.646
+    },
+    {
+      "name": "aoc",
+      "path": "/Users/ember/dev/aoc",
+      "similarity": 0.644
+    },
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.641
+    },
+    {
+      "name": "-live-dev-env2-abcdeez",
+      "path": "/Users/ember/dev/-live-dev-env2-abcdeez",
+      "similarity": 0.628
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "name": "fk-proj",
+  "description": "fk-proj is an exploratory information design framework aimed at visualizing high-dimensional datasets through non-traditional mapping techniques. It proposes the extension of spatial coordinate systems by integrating visual variables like color, stroke width, and typography as supplemental data axes. The project focuses on bridging the gap between quantitative data representation and expressive, design-centric interface paradigms.",
+  "tags": [
+    "data-visualization",
+    "high-dimensional-data",
+    "information-design",
+    "visual-encoding",
+    "conceptual-design",
+    "multidimensional",
+    "color-mapping",
+    "ui-ux-prototyping"
+  ],
+  "category": "High-Dimensional Information Design",
+  "concepts": [
+    "multidimensional data visualization",
+    "spatial axis expansion",
+    "non-spatial visual variables",
+    "color-based data encoding",
+    "affective information mapping",
+    "typographic data dimensions",
+    "perspective synthesis",
+    "semantic visualization",
+    "high-dimensional coordinate systems",
+    "data aesthetics",
+    "visual semantic mapping",
+    "information storytelling",
+    "multi-perspective data analysis",
+    "design-centric data tools",
+    "abstract data representation",
+    "geometric data mapping"
+  ],
+  "languages": [],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "15e3c62ea261e050569a211ab3689146aa748077ef37b4b96252e0f783d5a93f",
+  "_path": "/Users/ember/dev/fk-proj",
+  "_updated_at": "2026-02-14T00:56:24.106659Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "multidimensional data visualization",
+      "spatial axis expansion",
+      "non-spatial visual variables",
+      "color-based data encoding",
+      "affective information mapping",
+      "typographic data dimensions",
+      "perspective synthesis",
+      "semantic visualization",
+      "high-dimensional coordinate systems",
+      "data aesthetics",
+      "visual semantic mapping",
+      "information storytelling",
+      "multi-perspective data analysis",
+      "design-centric data tools",
+      "abstract data representation",
+      "geometric data mapping"
+    ],
+    "tags": [
+      "data-visualization",
+      "high-dimensional-data",
+      "information-design",
+      "visual-encoding",
+      "conceptual-design",
+      "multidimensional",
+      "color-mapping",
+      "ui-ux-prototyping"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "Rust Language Ecosystem",
+      "Applicative-order Evaluation",
+      "Compound Data",
+      "Higher-order Procedures",
+      "Iterative Processes",
+      "Lambda Abstraction",
+      "Lexical Scoping",
+      "Linear Recursion",
+      "Normal-order Evaluation",
+      "Procedural Decomposition",
+      "Substitution Model"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.374,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.591,
+        "matches": []
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.58,
+        "matches": []
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.575,
+        "matches": []
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 2.572,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.566,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.106659Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "07c0c655422b074c90b2c91b6aebf721c8ebb3c2975fe4b2bb78e70635f93d0e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:07.622034+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "rust",
+    "Applicative-order Evaluation",
+    "Compound Data",
+    "Higher-order Procedures",
+    "Iterative Processes",
+    "Lambda Abstraction",
+    "Lexical Scoping",
+    "Linear Recursion",
+    "Normal-order Evaluation",
+    "Procedural Decomposition",
+    "Substitution Model"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.858
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.841
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.836
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.835
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.833
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.831
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.831
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.83
+    }
+  ]
+}

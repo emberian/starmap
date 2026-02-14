@@ -1,0 +1,240 @@
+{
+  "name": "abcdeez2",
+  "description": "A high-fidelity cognitive modeling framework designed for adaptive training of graph-structured knowledge domains. The system leverages Bayesian parameter estimation and Expected Information Gain (EIG) to optimize task selection, while utilizing Ex-Gaussian response time distributions to detect strategy transitions from serial scanning to direct indexing. Its architecture supports complex topologies—including cycles, DAGs, and general graphs—integrated within a cross-platform Rust ecosystem featuring a web-backend for longitudinal studies and Xilem-based interactive interfaces.",
+  "tags": [
+    "rust",
+    "bayesian-inference",
+    "cognitive-science",
+    "graph-theory",
+    "adaptive-learning",
+    "eig",
+    "psychometrics",
+    "ex-gaussian",
+    "xilem",
+    "distributed-systems",
+    "experimental-design",
+    "knowledge-representation",
+    "spaced-repetition"
+  ],
+  "category": "Computational Cognitive Modeling",
+  "concepts": [
+    "Expected Information Gain",
+    "Ex-Gaussian Distribution",
+    "Hierarchical Bayesian Updates",
+    "Latent Node Embeddings",
+    "Symbolic Distance Effect",
+    "Bidirectional Access Mastery",
+    "Chunk Boundary Penalty",
+    "Strategy Classification",
+    "Topological Navigation",
+    "KL Divergence",
+    "Monte Carlo Sampling",
+    "Bradley-Terry/Luce Accuracy Model",
+    "Confusability Matrices",
+    "Preregistration Compliance",
+    "Longitudinal Analysis",
+    "Transfer Learning",
+    "Plateau Detection"
+  ],
+  "languages": [
+    "Rust",
+    "Shell",
+    "JavaScript",
+    "Objective-C",
+    "R",
+    "SQL",
+    "HTML",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 339,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "core/src/compliance/mod.rs",
+      "core/src/core/mod.rs",
+      "core/src/data/mod.rs",
+      "core/src/demo/mod.rs"
+    ]
+  },
+  "_hash": "51cce3b6a54be34c68657e8439e4f2b5367705e48c3e9d0fb9b2ec47d75a1499",
+  "_path": "/Users/ember/dev/abcdeez2",
+  "_updated_at": "2026-02-14T00:56:23.490132Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Expected Information Gain",
+      "Ex-Gaussian Distribution",
+      "Hierarchical Bayesian Updates",
+      "Latent Node Embeddings",
+      "Symbolic Distance Effect",
+      "Bidirectional Access Mastery",
+      "Chunk Boundary Penalty",
+      "Strategy Classification",
+      "Topological Navigation",
+      "KL Divergence",
+      "Monte Carlo Sampling",
+      "Bradley-Terry/Luce Accuracy Model",
+      "Confusability Matrices",
+      "Preregistration Compliance",
+      "Longitudinal Analysis",
+      "Transfer Learning",
+      "Plateau Detection"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "bayesian-inference",
+      "cognitive-science",
+      "graph-theory",
+      "adaptive-learning",
+      "eig",
+      "psychometrics",
+      "ex-gaussian",
+      "xilem",
+      "distributed-systems",
+      "experimental-design",
+      "knowledge-representation",
+      "spaced-repetition"
+    ],
+    "mined_motifs": [
+      "Graph-Coded Mental Models",
+      "axum",
+      "bayesian-modeling",
+      "cli",
+      "Large Language Model Inference",
+      "Bayesian Posterior Distributions",
+      "Bidirectional Knowledge Traversal",
+      "Chunk Boundary Detection",
+      "Cross-Platform UI Frameworks",
+      "Ex-Gaussian Response Time Modeling",
+      "Expected Information Gain (EIG)",
+      "Hot Module Replacement (HMR)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 12.584,
+        "matches": [
+          "bayesian-modeling",
+          "cognitive-science",
+          "graph-theory",
+          "expected information gain"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.323,
+        "matches": [
+          "large language model inference"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.29,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.275,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.274,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.268,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.490132Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "965ff340e5f47805e5d4b88820d0de1f7616e764650559f2848e334229851396",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:26.072741+00:00"
+  },
+  "mined_motifs": [
+    "Graph-Coded Mental Models",
+    "axum",
+    "bayesian-modeling",
+    "cli",
+    "llm-inference",
+    "Bayesian Posterior Distributions",
+    "Bidirectional Knowledge Traversal",
+    "Chunk Boundary Detection",
+    "Cross-Platform UI Frameworks",
+    "Ex-Gaussian Response Time Modeling",
+    "Expected Information Gain (EIG)",
+    "Hot Module Replacement (HMR)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "abcdeez",
+      "path": "/Users/ember/dev/abcdeez",
+      "similarity": 0.942
+    },
+    {
+      "name": "abcdeez",
+      "path": "/Users/ember/dev/gh/abcdeez",
+      "similarity": 0.94
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.783
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.771
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.765
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.765
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.764
+    },
+    {
+      "name": "mistral.rs",
+      "path": "/Users/ember/src/mistral.rs",
+      "similarity": 0.764
+    }
+  ]
+}

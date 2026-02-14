@@ -1,0 +1,213 @@
+{
+  "name": "how-long-does-it-take-to-spawn-a-thread",
+  "description": "This project provides a micro-benchmark suite to measure the latency of OS thread spawning versus the initialization of an asynchronous multi-threaded runtime. It utilizes the Criterion benchmarking framework to capture high-resolution timing data for standard library thread creation and the construction of a Tokio multi-threaded executor with specific worker counts. The implementation serves as a performance analysis tool for comparing synchronization and resource allocation overhead between synchronous and asynchronous execution models in Rust.",
+  "tags": [
+    "rust",
+    "benchmarking",
+    "concurrency",
+    "tokio",
+    "os-threads",
+    "performance-analysis",
+    "micro-benchmark",
+    "criterion-rs"
+  ],
+  "category": "Concurrent Runtime Micro-benchmarking",
+  "concepts": [
+    "Thread spawning latency",
+    "Tokio runtime initialization",
+    "Multi-threaded executor overhead",
+    "Criterion benchmarking",
+    "High-resolution timing",
+    "OS thread lifecycle",
+    "Task scheduling latency",
+    "Thread pool instantiation",
+    "Synchronous vs Asynchronous overhead",
+    "Resource allocation",
+    "Benchmarking harness",
+    "Rust standard library threads",
+    "Tokio multi-thread runtime",
+    "Performance profiling",
+    "Latency measurement",
+    "Execution model comparison"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "52f8dd1b93eef87c5eec25f29173dcb8332cd2cd5beb5e9d9123d54b4ad91898",
+  "_path": "/Users/ember/dev/how-long-does-it-take-to-spawn-a-thread",
+  "_updated_at": "2026-02-14T00:56:29.106327Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Thread spawning latency",
+      "Tokio runtime initialization",
+      "Multi-threaded executor overhead",
+      "Criterion benchmarking",
+      "High-resolution timing",
+      "OS thread lifecycle",
+      "Task scheduling latency",
+      "Thread pool instantiation",
+      "Synchronous vs Asynchronous overhead",
+      "Resource allocation",
+      "Benchmarking harness",
+      "Rust standard library threads",
+      "Tokio multi-thread runtime",
+      "Performance profiling",
+      "Latency measurement",
+      "Execution model comparison"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "benchmarking",
+      "Concurrency & Synchronization",
+      "Asynchronous Programming",
+      "os-threads",
+      "performance-analysis",
+      "micro-benchmark",
+      "criterion-rs"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "threading-primitives",
+      "Atomic Operations",
+      "Memory Consistency",
+      "Mutual Exclusion",
+      "POSIX Threads",
+      "Resource Contention",
+      "Thread Synchronization",
+      "c",
+      "Concurrency & Synchronization",
+      "mutex",
+      "pthreads"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.098,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 6.809,
+        "matches": [
+          "benchmarking",
+          "performance-analysis"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.336,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.329,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.527,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.501,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.106327Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "62e047ab51b25f3725a4e36bade80faea3f4d7d7000b386d8a557264debfa4ff",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:43.939643+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "threading-primitives",
+    "Atomic Operations",
+    "Memory Consistency",
+    "Mutual Exclusion",
+    "POSIX Threads",
+    "Resource Contention",
+    "Thread Synchronization",
+    "c",
+    "multithreading",
+    "mutex",
+    "pthreads"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "how-long-does-it-take-to-spawn-a-thread",
+      "path": "/Users/ember/dev/gh/how-long-does-it-take-to-spawn-a-thread",
+      "similarity": 0.954
+    },
+    {
+      "name": "fun-with-threads",
+      "path": "/Users/ember/dev/gh/forks/fun-with-threads",
+      "similarity": 0.869
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.83
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.815
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.815
+    },
+    {
+      "name": "shuteye",
+      "path": "/Users/ember/dev/gh/forks/shuteye",
+      "similarity": 0.807
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.805
+    },
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.803
+    }
+  ]
+}

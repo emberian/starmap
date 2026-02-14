@@ -1,0 +1,204 @@
+{
+  "name": "crap_rsa",
+  "description": "A minimal RSA implementation in Rust utilizing the GNU Multiple Precision (GMP) library via rust-gmp. It provides core cryptographic primitives including Miller-Rabin primality testing for key generation, modular exponentiation for encryption/decryption, and a CLI utility for key management.",
+  "tags": [
+    "rsa",
+    "cryptography",
+    "rust",
+    "gmp",
+    "asymmetric-encryption",
+    "miller-rabin",
+    "modular-arithmetic",
+    "key-generation",
+    "cli-tool",
+    "academic-project"
+  ],
+  "category": "Asymmetric Cryptography Implementation",
+  "concepts": [
+    "RSA Algorithm",
+    "Modular Exponentiation",
+    "Primality Testing",
+    "Big Integer Arithmetic",
+    "Public-Key Infrastructure",
+    "Euler's Totient Function",
+    "Modular Inverse",
+    "Keypair Generation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/rsa_enc.rs"
+    ]
+  },
+  "_hash": "9cabfa17a018c4a83db53f18bef8df00c7c50a9743c09c0e9531df0af256bc8b",
+  "_path": "/Users/ember/dev/gh/crap_rsa",
+  "_updated_at": "2026-02-14T00:56:24.818275Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "RSA Algorithm",
+      "Modular Exponentiation",
+      "Primality Testing",
+      "Big Integer Arithmetic",
+      "Public-Key Infrastructure",
+      "Euler's Totient Function",
+      "Modular Inverse",
+      "Keypair Generation"
+    ],
+    "tags": [
+      "rsa",
+      "cryptography",
+      "Rust Language Ecosystem",
+      "gmp",
+      "asymmetric-encryption",
+      "miller-rabin",
+      "modular-arithmetic",
+      "key-generation",
+      "cli-tool",
+      "academic-project"
+    ],
+    "mined_motifs": [
+      "elliptic-curves",
+      "Recursive Descent Parsing",
+      "lexical-analysis",
+      "foreign-function-interface",
+      "Depth-First Search",
+      "Interior Mutability",
+      "Memory Management",
+      "Object Graph Traversal",
+      "Reference Cycle Detection",
+      "Smart Pointers",
+      "Trait-based Polymorphism",
+      "Weak Reference Cleanup"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.492,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.491,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.481,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.48,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.476,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 5.458,
+        "matches": [
+          "elliptic-curves"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.818275Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "81d7c4c48581fc154ee244979338dbee0d4bff727e699a2ad720551df68adca8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:43.698946+00:00"
+  },
+  "mined_motifs": [
+    "ecc",
+    "Recursive Descent Parsing",
+    "Tokenization",
+    "ffi",
+    "Depth-First Search",
+    "Interior Mutability",
+    "Manual Memory Management",
+    "Object Graph Traversal",
+    "Reference Cycle Detection",
+    "Smart Pointers",
+    "Trait-based Polymorphism",
+    "Weak Reference Cleanup"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.863
+    },
+    {
+      "name": "cs456",
+      "path": "/Users/ember/dev/gh/cs456",
+      "similarity": 0.854
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.854
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.85
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.846
+    },
+    {
+      "name": "rcgen",
+      "path": "/Users/ember/src/rcgen",
+      "similarity": 0.844
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.844
+    }
+  ]
+}

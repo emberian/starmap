@@ -1,0 +1,210 @@
+{
+  "name": "shuteye",
+  "description": "A minimalist Rust library providing high-resolution nanosecond sleep functionality by wrapping platform-specific POSIX syscalls. It abstracts `clock_nanosleep` on Linux and `nanosleep` on macOS through a unified FFI interface and a `Timespec` utility struct. The crate is designed for systems programming tasks requiring precise, low-latency thread suspension with support for monotonic clock references.",
+  "tags": [
+    "nanosleep",
+    "rust",
+    "ffi",
+    "systems-programming",
+    "precision-timing",
+    "posix",
+    "linux",
+    "macos",
+    "low-latency",
+    "timespec",
+    "clock-nanosleep"
+  ],
+  "category": "High-Precision Timing Utilities",
+  "concepts": [
+    "Foreign Function Interface (FFI)",
+    "System Call Abstraction",
+    "Nanosecond Resolution",
+    "Monotonic Clock",
+    "POSIX Compliance",
+    "Platform-Specific Conditional Compilation",
+    "Relative Timing",
+    "Memory Layout Representation (repr(C))"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "f555de587f54c7ca846aa28b3680218f1769e44e00abffad448f63672f9a679c",
+  "_path": "/Users/ember/dev/gh/forks/shuteye",
+  "_updated_at": "2026-02-14T00:56:26.678424Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "foreign-function-interface",
+      "System Call Abstraction",
+      "Nanosecond Resolution",
+      "Monotonic Clock",
+      "POSIX Compliance",
+      "Platform-Specific Conditional Compilation",
+      "Relative Timing",
+      "Memory Layout Representation (repr(C))"
+    ],
+    "tags": [
+      "nanosleep",
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "Systems Programming",
+      "precision-timing",
+      "posix",
+      "linux",
+      "macos",
+      "low-latency",
+      "timespec",
+      "clock-nanosleep"
+    ],
+    "mined_motifs": [
+      "libc",
+      "systems-programming",
+      "Device Discovery",
+      "Foreign Function Interface",
+      "Asynchronous I/O",
+      "Bitflags",
+      "Domain Sockets",
+      "Error Handling",
+      "Error Number Mapping",
+      "Event Notification",
+      "Eventfd",
+      "File Descriptors"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 12.413,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 11.047,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.264,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.391,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 4.056,
+        "matches": [
+          "libc"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.623,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.678424Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6d8c71e788cd420867e87b6f30186c95fabdb8fb3d2471aa5196ce52402fcc73",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:24.902694+00:00"
+  },
+  "mined_motifs": [
+    "libc",
+    "low-level",
+    "Device Discovery",
+    "bindings",
+    "Asynchronous I/O",
+    "Bitflags",
+    "Domain Sockets",
+    "Error Handling",
+    "Error Number Mapping",
+    "Event Notification",
+    "Eventfd",
+    "File Descriptors"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.856
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.846
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.844
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.843
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.837
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.836
+    },
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.835
+    }
+  ]
+}

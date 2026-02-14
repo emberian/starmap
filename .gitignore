@@ -1,2 +1,6 @@
 target
 __pycache__
+node_modules
+dist
+.starmap_umap_cache.json
+*.pyc

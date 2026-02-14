@@ -1,0 +1,216 @@
+{
+  "name": "rust-core_io",
+  "description": "A specialized compatibility layer that backports the Rust standard library's I/O module to no_std environments by extracting and patching upstream libstd source code. It provides core abstractions such as the Read and Write traits, stripping away operating system dependencies while maintaining feature-gated support for alloc and collections. The project employs a robust build-time version mapping system to ensure binary and source compatibility with specific nightly compiler toolchains.",
+  "tags": [
+    "rust",
+    "no_std",
+    "io",
+    "embedded",
+    "bare-metal",
+    "compatibility-layer",
+    "shims",
+    "patching",
+    "codegen",
+    "nightly-rust",
+    "read-write-traits",
+    "build-automation"
+  ],
+  "category": "no_std I/O Compatibility Layer",
+  "concepts": [
+    "no_std",
+    "libstd decomposition",
+    "trait-based I/O shims",
+    "source-level patching",
+    "version-aware build scripts",
+    "feature-gated allocation",
+    "conditional compilation",
+    "compiler-intrinsic mapping",
+    "bare-metal development",
+    "automated source synchronization"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 45,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "mapping.rs",
+      "build-src.sh",
+      "build.rs"
+    ]
+  },
+  "_hash": "9ed191a663c170c50a92141915efab1c9cd145f097ba6f0aae1f279fee33f7ae",
+  "_path": "/Users/ember/dev/gh/forks/rust-core_io",
+  "_updated_at": "2026-02-14T00:56:26.569613Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Rust Language Ecosystem",
+      "libstd decomposition",
+      "trait-based I/O shims",
+      "source-level patching",
+      "version-aware build scripts",
+      "feature-gated allocation",
+      "conditional compilation",
+      "compiler-intrinsic mapping",
+      "bare-metal development",
+      "automated source synchronization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "io",
+      "embedded",
+      "Systems Programming",
+      "compatibility-layer",
+      "shims",
+      "patching",
+      "Compiler Engineering",
+      "nightly-rust",
+      "read-write-traits",
+      "build-automation"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "foreign-function-interface",
+      "Resource Acquisition Is Initialization (RAII)",
+      "parser",
+      "Architectural Bit-shifts",
+      "Architecture-specific ABIs",
+      "Bit-field Manipulation",
+      "Bitmasking",
+      "Foreign Function Interface",
+      "Clang AST Traversal",
+      "Clang Python Bindings"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 10.923,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.141,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.72,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.366,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.342,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.322,
+        "matches": [
+          "compiler engineering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.569613Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8675337433c0ab357f40084caef393e4caa601446ef61123d785b6bcc54e0c5a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:10.397911+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "ffi",
+    "system-programming",
+    "resource-management",
+    "parser",
+    "Architectural Bit-shifts",
+    "Architecture-specific ABIs",
+    "Bit-field Manipulation",
+    "Bitmasking",
+    "C Interoperability",
+    "Clang AST Traversal",
+    "Clang Python Bindings"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.81
+    },
+    {
+      "name": "ark-std",
+      "path": "/Users/ember/hellas/ark-std",
+      "similarity": 0.809
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.806
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.798
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.795
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.793
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.792
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.791
+    }
+  ]
+}

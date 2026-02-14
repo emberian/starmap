@@ -1,0 +1,236 @@
+{
+  "name": "cmoss",
+  "description": "A hobbyist x86_64 operating system kernel that implements a Multiboot-compliant bootstrap sequence. It transitions from 32-bit protected mode to 64-bit long mode by initializing PML4 page tables, enabling PAE, and configuring EFER MSRs before handing off execution to a Rust-based kernel core.",
+  "tags": [
+    "os-dev",
+    "kernel",
+    "x86-64",
+    "multiboot",
+    "bootloader",
+    "long-mode",
+    "rust",
+    "freestanding",
+    "bare-metal",
+    "paging",
+    "nasm",
+    "assembly",
+    "qemu",
+    "grub"
+  ],
+  "category": "x86_64 Kernel Development",
+  "concepts": [
+    "Long Mode Transition",
+    "Multiboot Specification",
+    "Identity Mapping",
+    "PML4 Page Tables",
+    "Global Descriptor Table (GDT)",
+    "Interrupt Descriptor Table (IDT)",
+    "Control Registers (CR0, CR3, CR4)",
+    "Model Specific Registers (MSR)",
+    "Physical Address Extension (PAE)",
+    "CPUID Feature Detection",
+    "No-std Rust",
+    "ELF Binary Stripping",
+    "VGA Text Buffer",
+    "Freestanding C",
+    "Linker Scripts"
+  ],
+  "languages": [
+    "C",
+    "Rust",
+    "Assembly",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "loader/multiboot.h",
+      "loader/loader.c",
+      "loader/util.h",
+      "build.sh",
+      "loader/cpuid.h"
+    ]
+  },
+  "_hash": "19f375010a96c9052c13551ff74192dd95b43ba555ea6d27c665c78f306fe768",
+  "_path": "/Users/ember/dev/gh/cmoss",
+  "_updated_at": "2026-02-14T00:56:24.756755Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Long Mode Transition",
+      "Multiboot Specification",
+      "Identity Mapping",
+      "PML4 Page Tables",
+      "Global Descriptor Table (GDT)",
+      "Interrupt Descriptor Table (IDT)",
+      "Control Registers (CR0, CR3, CR4)",
+      "Model Specific Registers (MSR)",
+      "Physical Address Extension (PAE)",
+      "CPUID Feature Detection",
+      "No-std Rust",
+      "ELF Binary Stripping",
+      "VGA Text Buffer",
+      "Freestanding C",
+      "Linker Scripts"
+    ],
+    "tags": [
+      "os-dev",
+      "kernel",
+      "x86-64",
+      "multiboot",
+      "bootloader",
+      "long-mode",
+      "Rust Language Ecosystem",
+      "Systems Programming",
+      "paging",
+      "nasm",
+      "assembly",
+      "qemu",
+      "grub"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "posix",
+      "Rust Language Ecosystem",
+      "systems-programming",
+      "x86_64",
+      "libc",
+      "Instruction Set Emulation",
+      "runtime",
+      "AST",
+      "Capability-based Security",
+      "In-memory Virtual File System",
+      "Instruction-level Fuel Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 10.516,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix",
+          "category:x86_64 Kernel Development"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 7.956,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 7.925,
+        "matches": [
+          "systems-programming",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.249,
+        "matches": [
+          "kernel"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 5.159,
+        "matches": [
+          "ast"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 3.752,
+        "matches": [
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.756755Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bbafb4817d817840b997f0ce39647d00fd697ed02a10b0b6e705aca8c55b4d9a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:38.325995+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "posix",
+    "no_std",
+    "low-level",
+    "x86_64",
+    "libc",
+    "Instruction Set Emulation",
+    "runtime",
+    "Abstract Syntax Trees",
+    "Capability-based Security",
+    "In-memory Virtual File System",
+    "Instruction-level Fuel Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "corn-sprite",
+      "path": "/Users/ember/dev/corn-sprite",
+      "similarity": 0.77
+    },
+    {
+      "name": "cs444-lab1",
+      "path": "/Users/ember/dev/gh/cs444-lab1",
+      "similarity": 0.76
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.758
+    },
+    {
+      "name": "DriverTest",
+      "path": "/Users/ember/dev/DriverTest",
+      "similarity": 0.751
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.743
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.742
+    },
+    {
+      "name": "libfringe",
+      "path": "/Users/ember/dev/gh/forks/libfringe",
+      "similarity": 0.741
+    },
+    {
+      "name": "cosmopolitan",
+      "path": "/Users/ember/src/cosmopolitan",
+      "similarity": 0.739
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "name": "abcdeez-live-dev-env",
+  "description": "A browser-based integrated development environment for Rust, utilizing TinyEMU and JSLinux to provide a full Alpine Linux virtual machine. It features a Monaco-based code editor, a virtual filesystem with persistence, and a compilation pipeline targeting WebAssembly for native execution within the browser environment.",
+  "tags": [
+    "rust",
+    "webassembly",
+    "tinyemu",
+    "jslinux",
+    "alpine-linux",
+    "browser-ide",
+    "emulator",
+    "monaco-editor",
+    "pwa",
+    "virtual-machine",
+    "riscv",
+    "x86-emulation",
+    "cheerpx",
+    "toolchain",
+    "live-coding"
+  ],
+  "category": "Browser-based Systems Emulation",
+  "concepts": [
+    "Instruction Set Architecture Emulation",
+    "Virtual Machine Introspection",
+    "WebAssembly Compilation Pipeline",
+    "User-mode Networking (SLIRP)",
+    "Browser-based Persistent Filesystems",
+    "Progressive Web Application (PWA) Offline Synchronization",
+    "VirtIO Device Drivers",
+    "Just-in-Time Compilation for Emulation",
+    "Hardware-Accelerated Cryptography (AES)",
+    "MMIO Device Mapping",
+    "Real-time Rust Compilation",
+    "TCP/IP Stack Emulation",
+    "Linux Kernel Bootstrapping in JavaScript",
+    "Monaco Editor Integration",
+    "Virtual Disk Management"
+  ],
+  "languages": [
+    "C",
+    "JavaScript",
+    "Shell",
+    "Makefile",
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 284,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "Makefile",
+      "vm/tinyemu-build/tinyemu-2019-12-21/virtio.c",
+      "vm/tinyemu-build/tinyemu-fernando/virtio.c",
+      "vm/tinyemu-build/tinyemu-2019-12-21/fs_net.c"
+    ]
+  },
+  "_hash": "af05a1a9e9d7a43951856e61a06fab19e96bcb3bc4de112aed94558329e7b0fd",
+  "_path": "/Users/ember/dev/live_dev_env4",
+  "_updated_at": "2026-02-14T00:56:29.300577Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Instruction Set Architecture Emulation",
+      "Virtual Machine Introspection",
+      "WebAssembly Compilation Pipeline",
+      "User-mode Networking (SLIRP)",
+      "Browser-based Persistent Filesystems",
+      "Progressive Web Application (PWA) Offline Synchronization",
+      "VirtIO Device Drivers",
+      "Just-in-Time Compilation for Emulation",
+      "Hardware-Accelerated Cryptography (AES)",
+      "MMIO Device Mapping",
+      "Real-time Rust Compilation",
+      "TCP/IP Stack Emulation",
+      "Linux Kernel Bootstrapping in JavaScript",
+      "Monaco Editor Integration",
+      "Virtual Disk Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "webassembly",
+      "tinyemu",
+      "jslinux",
+      "alpine-linux",
+      "browser-ide",
+      "emulator",
+      "monaco-editor",
+      "pwa",
+      "virtual-machine",
+      "riscv",
+      "x86-emulation",
+      "cheerpx",
+      "toolchain",
+      "live-coding"
+    ],
+    "mined_motifs": [
+      "WebAssembly",
+      "virtualization",
+      "ide",
+      "compiler-design",
+      "Ahead-of-Time Compilation",
+      "AES Acceleration (Software)",
+      "Block Device Management",
+      "Browser-based Sandboxing",
+      "Compilation Pipelines",
+      "Cross-platform Toolchains",
+      "Docker-based Image Provisioning",
+      "ELF Binary Parsing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 12.476,
+        "matches": [
+          "emulator",
+          "virtualization",
+          "webassembly",
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 9.86,
+        "matches": [
+          "riscv",
+          "virtualization",
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.863,
+        "matches": [
+          "webassembly",
+          "cheerpx"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.544,
+        "matches": [
+          "riscv"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.468,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.467,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.300577Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "dac8f015513c9a584b2af2805e75c147c6c3774661db601cc485c542d81f3b9d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:51.520414+00:00"
+  },
+  "mined_motifs": [
+    "wasm",
+    "virtualization",
+    "ide",
+    "compiler",
+    "Ahead-of-Time Compilation",
+    "AES Acceleration (Software)",
+    "Block Device Management",
+    "Browser-based Sandboxing",
+    "Compilation Pipelines",
+    "Cross-platform Toolchains",
+    "Docker-based Image Provisioning",
+    "ELF Binary Parsing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/-live-dev-env-abcdeez",
+      "similarity": 0.966
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.942
+    },
+    {
+      "name": "-live-web-editor-abcdeez",
+      "path": "/Users/ember/dev/-live-web-editor-abcdeez",
+      "similarity": 0.884
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.87
+    },
+    {
+      "name": "Jai-Code-Collection",
+      "path": "/Users/ember/src/Jai-Code-Collection",
+      "similarity": 0.847
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.84
+    },
+    {
+      "name": "servo",
+      "path": "/Users/ember/dev/gh/forks/servo",
+      "similarity": 0.825
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.824
+    }
+  ]
+}

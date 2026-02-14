@@ -1,0 +1,278 @@
+{
+  "name": "fjall",
+  "description": "Fjall is a thread-safe, log-structured merge-tree (LSM-tree) embeddable storage engine implemented in Rust, offering a BTreeMap-like API for ordered key-value access. It supports multiple isolated partitions with cross-partition atomic semantics, serializable snapshot isolation (SSI), and integrated compression via LZ4 or Zlib. The architecture optimizes for high-throughput writes and efficient range queries through tiered compaction and optional key-value separation for large-scale blob workloads.",
+  "tags": [
+    "rust",
+    "lsm-tree",
+    "key-value-store",
+    "embedded-database",
+    "storage-engine",
+    "acid-transactions",
+    "ssi",
+    "lz4-compression",
+    "column-families",
+    "persistence",
+    "write-ahead-log",
+    "snapshot-isolation",
+    "mvcc",
+    "ordered-storage",
+    "blob-storage",
+    "rust-lang"
+  ],
+  "category": "Log-Structured Merge-Tree Engine",
+  "concepts": [
+    "Log-structured Merge-tree",
+    "Write-ahead Logging",
+    "Memtable",
+    "SSTable",
+    "Compaction Manager",
+    "Keyspace Partitioning",
+    "Column Families",
+    "Serializable Snapshot Isolation",
+    "Optimistic Concurrency Control",
+    "Multi-Version Concurrency Control",
+    "Snapshot Tracking",
+    "Key-Value Separation",
+    "Value Log Garbage Collection",
+    "LZ4 Compression",
+    "Zlib/Deflate Compression",
+    "Range Iteration",
+    "Prefix Searching",
+    "Atomic Write Batches",
+    "Read-Your-Own-Writes",
+    "Journal Recovery",
+    "Write Delay Backpressure",
+    "Block Caching",
+    "Disk Persistence Modes",
+    "FIFO Compaction",
+    "Secondary Indexing",
+    "LSM-Tree Levels",
+    "Manifest Management",
+    "Background Maintenance Workers",
+    "Flush Management",
+    "Snapshot Isolation",
+    "Data Durability",
+    "Ordered Key Traversal",
+    "Segment-based Storage",
+    "In-memory Buffering",
+    "Thread-safe Synchronized Access"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 217,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "examples/actix-kv/src/main.rs",
+      "examples/axum-kv/src/main.rs",
+      "examples/basic/src/main.rs",
+      "examples/gc-simple/src/main.rs"
+    ]
+  },
+  "_hash": "d05506d194e5f172b8869a155bba989ed6709bdd441548864eabffa919e5380a",
+  "_path": "/Users/ember/src/fjall",
+  "_updated_at": "2026-02-14T00:56:32.734845Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e3b50f63f39f427350b5ee433ef0aac2d5ced6d59be3c5404927c2eaf9e563f3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:20.765927+00:00"
+  },
+  "mined_motifs": [
+    "Multi-Version Concurrency Control (MVCC)",
+    "storage",
+    "ACID Transactions",
+    "Copy-on-Write (CoW)",
+    "Page Allocation",
+    "acid",
+    "copy-on-write",
+    "transactional",
+    "data-structures",
+    "Atomic Manifest Updates",
+    "Bloom Filter",
+    "Data Integrity Checksums"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lsm-tree",
+      "path": "/Users/ember/src/lsm-tree",
+      "similarity": 0.928
+    },
+    {
+      "name": "redb",
+      "path": "/Users/ember/dev/redb",
+      "similarity": 0.841
+    },
+    {
+      "name": "persy",
+      "path": "/Users/ember/src/persy",
+      "similarity": 0.831
+    },
+    {
+      "name": "derpfs",
+      "path": "/Users/ember/dev/gh/derpfs",
+      "similarity": 0.787
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.775
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.77
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.769
+    },
+    {
+      "name": "tj-binomheap",
+      "path": "/Users/ember/dev/shitheap/tj-binomheap",
+      "similarity": 0.768
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Log-structured Merge-tree",
+      "Write-ahead Logging",
+      "Memtable",
+      "SSTable",
+      "Compaction Manager",
+      "Keyspace Partitioning",
+      "Column Families",
+      "Serializable Snapshot Isolation",
+      "Optimistic Concurrency Control",
+      "Multi-Version Concurrency Control",
+      "Snapshot Tracking",
+      "Key-Value Separation",
+      "Value Log Garbage Collection",
+      "LZ4 Compression",
+      "Zlib/Deflate Compression",
+      "Range Iteration",
+      "Prefix Searching",
+      "Atomic Write Batches",
+      "Read-Your-Own-Writes",
+      "Journal Recovery",
+      "Write Delay Backpressure",
+      "Block Caching",
+      "Disk Persistence Modes",
+      "FIFO Compaction",
+      "Secondary Indexing",
+      "LSM-Tree Levels",
+      "Manifest Management",
+      "Background Maintenance Workers",
+      "Flush Management",
+      "Snapshot Isolation",
+      "Data Durability",
+      "Ordered Key Traversal",
+      "Segment-based Storage",
+      "In-memory Buffering",
+      "Thread-safe Synchronized Access"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "lsm-tree",
+      "key-value-store",
+      "embedded-database",
+      "storage-engine",
+      "acid-transactions",
+      "ssi",
+      "lz4-compression",
+      "column-families",
+      "persistence",
+      "write-ahead-log",
+      "snapshot-isolation",
+      "mvcc",
+      "ordered-storage",
+      "blob-storage"
+    ],
+    "mined_motifs": [
+      "Multi-Version Concurrency Control (MVCC)",
+      "storage",
+      "ACID Transactions",
+      "Copy-on-Write (CoW)",
+      "Page Allocation",
+      "acid",
+      "copy-on-write",
+      "transactional",
+      "data-structures",
+      "Atomic Manifest Updates",
+      "Bloom Filter",
+      "Data Integrity Checksums"
+    ],
+    "metaconstellations": [
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 12.618,
+        "matches": [
+          "acid transactions",
+          "copy-on-write",
+          "mvcc",
+          "persistence",
+          "storage-engine"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 12.355,
+        "matches": [
+          "acid",
+          "mvcc",
+          "persistence",
+          "lsm-tree"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 8.198,
+        "matches": [
+          "acid transactions",
+          "lsm-tree"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 6.669,
+        "matches": [
+          "persistence",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.263,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.452,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.734845Z"
+  }
+}

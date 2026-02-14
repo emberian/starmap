@@ -1,0 +1,228 @@
+{
+  "name": "url",
+  "description": "An archival implementation of the WHATWG URL Living Standard in early Rust, designed as a spec-compliant successor to the legacy extra::url module. The library prioritizes semantic correctness and flexibility in parsing over raw performance, strictly adhering to the state machine and encoding sets defined by the modern web standard. It includes robust mechanisms for percent-encoding, UTF-8 validation, and the handling of various specialized character sets for different URL components.",
+  "tags": [
+    "rust",
+    "whatwg",
+    "url-parser",
+    "uri",
+    "percent-encoding",
+    "networking",
+    "spec-compliance",
+    "archival",
+    "legacy-rust",
+    "string-manipulation"
+  ],
+  "category": "WHATWG URL Specification Implementation",
+  "concepts": [
+    "WHATWG URL Living Standard",
+    "Percent-encoding",
+    "Percent-decoding",
+    "ASCII validation",
+    "UTF-8 validation",
+    "Simple encode set",
+    "Default encode set",
+    "Password encode set",
+    "Username encode set",
+    "RFC 3986 divergence",
+    "URL parsing",
+    "Byte sequence manipulation",
+    "Hexadecimal decoding",
+    "Unicode code point handling",
+    "Error state propagation",
+    "Memory allocation optimization",
+    "String slicing",
+    "Iterative parsing",
+    "Specification-driven development",
+    "Legacy Rust runtime"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": [
+      "url.rs"
+    ]
+  },
+  "_hash": "73bf4375d9a2d797d4b3c4e9398f3021c86675085a7ef68b32b36c1314a2749a",
+  "_path": "/Users/ember/dev/gh/url",
+  "_updated_at": "2026-02-14T00:56:28.717631Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "WHATWG URL Living Standard",
+      "Percent-encoding",
+      "Percent-decoding",
+      "ASCII validation",
+      "UTF-8 validation",
+      "Simple encode set",
+      "Default encode set",
+      "Password encode set",
+      "Username encode set",
+      "RFC 3986 divergence",
+      "URL parsing",
+      "Byte sequence manipulation",
+      "Hexadecimal decoding",
+      "Unicode code point handling",
+      "Error state propagation",
+      "Memory allocation optimization",
+      "String slicing",
+      "Iterative parsing",
+      "Specification-driven development",
+      "Legacy Rust runtime"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "whatwg",
+      "url-parser",
+      "uri",
+      "percent-encoding",
+      "networking",
+      "spec-compliance",
+      "archival",
+      "string-manipulation"
+    ],
+    "mined_motifs": [
+      "parser",
+      "lexical-analysis",
+      "protocol-upgrade",
+      "streaming-parser",
+      "AST",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "abstract-syntax-tree",
+      "s-expression"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.083,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 10.676,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.051,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.033,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.652,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 3.63,
+        "matches": [
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.717631Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "792ac5ee0dfa57952e03e3d25e07d195408f5bebb9a08f81d90333a1db97f350",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:36.191334+00:00"
+  },
+  "mined_motifs": [
+    "parser",
+    "Lexical Analysis",
+    "lexer",
+    "Tokenization",
+    "protocol-upgrade",
+    "streaming-parser",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "ast",
+    "s-expression"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "http-parser",
+      "path": "/Users/ember/dev/gh/forks/http-parser",
+      "similarity": 0.743
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.727
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.723
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.721
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.719
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.714
+    },
+    {
+      "name": "hammer.rs",
+      "path": "/Users/ember/dev/gh/forks/hammer.rs",
+      "similarity": 0.714
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.707
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "name": "rust-signal",
+  "description": "A low-level interface for POSIX signal handling implemented in early-stage Rust, providing direct bindings to the sigaction system call via the libc FFI. The project demonstrates the manual configuration of signal action structures, including handler registration, mask sizing, and flag specifications for asynchronous event processing. It serves as a proof-of-concept for intercepting kernel-level interrupts and executing user-defined callback routines within a Rust runtime environment.",
+  "tags": [
+    "rust",
+    "posix-signals",
+    "ffi",
+    "libc",
+    "low-level",
+    "interrupt-handling",
+    "sigaction",
+    "unix-api",
+    "systems-programming"
+  ],
+  "category": "POSIX Signal Management",
+  "concepts": [
+    "Signal action structure configuration",
+    "FFI linkage to libc",
+    "Asynchronous interrupt handling",
+    "SIGINT interception",
+    "Kernel-to-user-space callbacks",
+    "Signal masking",
+    "External C function bindings",
+    "Unsafe memory transmutation",
+    "C-string interoperability",
+    "Raw pointer manipulation",
+    "Fixed stack segment constraints",
+    "System call interfacing",
+    "Runtime signal registration",
+    "POSIX signal constants",
+    "Process trap handling",
+    "Global signal handlers"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": false,
+    "sample_files": [
+      "signal.rs"
+    ]
+  },
+  "_hash": "c89955120bf11db1aafed27867ab5ad4165ce69a9fb6a3a5d7595bf0b50cca05",
+  "_path": "/Users/ember/dev/gh/rust-signal",
+  "_updated_at": "2026-02-14T00:56:28.588824Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Signal action structure configuration",
+      "FFI linkage to libc",
+      "Asynchronous interrupt handling",
+      "SIGINT interception",
+      "Kernel-to-user-space callbacks",
+      "Signal masking",
+      "External C function bindings",
+      "Unsafe memory transmutation",
+      "C-string interoperability",
+      "Raw pointer manipulation",
+      "Fixed stack segment constraints",
+      "System call interfacing",
+      "Runtime signal registration",
+      "POSIX signal constants",
+      "Process trap handling",
+      "Global signal handlers"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "posix-signals",
+      "foreign-function-interface",
+      "libc",
+      "systems-programming",
+      "interrupt-handling",
+      "sigaction",
+      "unix-api",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "linux",
+      "fine-grained-reactivity",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "foreign-function-interface",
+      "Asynchronous I/O",
+      "Bitflags",
+      "Domain Sockets",
+      "Error Handling",
+      "Error Number Mapping",
+      "Event Notification",
+      "Eventfd"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.776,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.742,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "interrupt-handling"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.987,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 6.783,
+        "matches": [
+          "systems programming",
+          "category:POSIX Signal Management"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.459,
+        "matches": [
+          "fine-grained-reactivity"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.752,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.588824Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "27830cf4d0ed7040440a287c0d1fe1949e46479df1868df42a0815b20ed626f0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:23.625084+00:00"
+  },
+  "mined_motifs": [
+    "linux",
+    "signals",
+    "system-programming",
+    "resource-management",
+    "Foreign Function Interface (FFI)",
+    "Asynchronous I/O",
+    "Bitflags",
+    "Domain Sockets",
+    "Error Handling",
+    "Error Number Mapping",
+    "Event Notification",
+    "Eventfd"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.905
+    },
+    {
+      "name": "signal",
+      "path": "/Users/ember/dev/gh/forks/signal",
+      "similarity": 0.896
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.895
+    },
+    {
+      "name": "rust-signals",
+      "path": "/Users/ember/src/rust-signals",
+      "similarity": 0.892
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.888
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.883
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.878
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.877
+    }
+  ]
+}

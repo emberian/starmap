@@ -1,0 +1,250 @@
+{
+  "name": "ergolang",
+  "description": "Ergolang is a symbolic programming language that treats computation as the manipulation of local sections within a sheaf-theoretic framework. It formalizes the failure of global composition as a measurable 'defect' (Δ), transforming logical inconsistencies from runtime errors into quantifiable information. The language implements a semantic physics model where operations like observation and unification incur thermodynamic costs, governed by contextual parameters such as viscosity and permeability.",
+  "tags": [
+    "sheaf-theory",
+    "symbolic-computation",
+    "prolog",
+    "non-functorial",
+    "sheaf-cohomology",
+    "information-geometry",
+    "coalgebraic-semantics",
+    "semantic-physics",
+    "defect-calculus",
+    "logic-programming",
+    "formal-methods",
+    "backreaction",
+    "context-sensitivity",
+    "state-collapse",
+    "unification",
+    "dsl"
+  ],
+  "category": "Sheaf-Theoretic Programming",
+  "concepts": [
+    "Programs as Sheaf Sections",
+    "Local-to-Global Gluing",
+    "Gluing Obstructions",
+    "Defect Quantification",
+    "Non-functorial Composition",
+    "Context Viscosity",
+    "Boundary Permeability",
+    "State Backreaction",
+    "Semantic Charges",
+    "Wave Superposition",
+    "Statistical Manifold Curvature",
+    "Fisher Information",
+    "Coalgebraic Observation",
+    "Structural Resonance",
+    "Incoherence Measurement",
+    "Thermodynamic Cost of Logic",
+    "Contextual Boundaries",
+    "Information Propagation",
+    "Symbolic Unification",
+    "Distributed Local Truths",
+    "Global Globalization Failure",
+    "Formal Obstruction Theory",
+    "Logic as Interaction",
+    "Measurement Intervention"
+  ],
+  "languages": [
+    "Prolog",
+    "Ergo"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "9bb2b5ac021f2584b2a5d1c81ea7a65bf22c54e6230956e02d11066cd9c2e1bb",
+  "_path": "/Users/ember/dev/ergolang",
+  "_updated_at": "2026-02-14T00:56:24.059368Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Programs as Sheaf Sections",
+      "Local-to-Global Gluing",
+      "Gluing Obstructions",
+      "Defect Quantification",
+      "Non-functorial Composition",
+      "Context Viscosity",
+      "Boundary Permeability",
+      "State Backreaction",
+      "Semantic Charges",
+      "Wave Superposition",
+      "Statistical Manifold Curvature",
+      "Fisher Information",
+      "Coalgebraic Observation",
+      "Structural Resonance",
+      "Incoherence Measurement",
+      "Thermodynamic Cost of Logic",
+      "Contextual Boundaries",
+      "Information Propagation",
+      "Symbolic Unification",
+      "Distributed Local Truths",
+      "Global Globalization Failure",
+      "Formal Obstruction Theory",
+      "Logic as Interaction",
+      "Measurement Intervention"
+    ],
+    "tags": [
+      "sheaf-theory",
+      "symbolic-computation",
+      "prolog",
+      "non-functorial",
+      "sheaf-cohomology",
+      "information-geometry",
+      "coalgebraic-semantics",
+      "semantic-physics",
+      "defect-calculus",
+      "logic-programming",
+      "formal-verification",
+      "backreaction",
+      "context-sensitivity",
+      "state-collapse",
+      "unification",
+      "dsl"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "functional-programming",
+      "formal-methods",
+      "Compiler Engineering",
+      "context-free-grammar",
+      "parser",
+      "lexical-analysis",
+      "AST",
+      "Lexical Analysis",
+      "Applicative-order Evaluation",
+      "Compound Data",
+      "Higher-order Procedures"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.278,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.134,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.698,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.675,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.334,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.334,
+        "matches": [
+          "formal-verification"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.059368Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6159f8dd3a3e48ddbaa6c703871b0f9bd2ac4de145cc2817a214de91e7901a85",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:02.061140+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "functional-programming",
+    "formal-verification",
+    "compiler-design",
+    "context-free-grammar",
+    "parser",
+    "tokenization",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "Applicative-order Evaluation",
+    "Compound Data",
+    "Higher-order Procedures"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.792
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.788
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.785
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.778
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.776
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.775
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.774
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.774
+    }
+  ]
+}

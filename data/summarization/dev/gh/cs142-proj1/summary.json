@@ -1,0 +1,239 @@
+{
+  "name": "cs142-proj1",
+  "description": "A C++11 text-based hypertext browser implementation designed to parse and render documents containing embedded link metadata and navigable references. It utilizes a custom lexical scanner to tokenize input streams into discrete word objects and link destinations, storing document state in a tuple-based indexing structure to facilitate efficient reflow. The architecture incorporates a custom template-based option type for safe optional handling and an environment-configurable logging system for diagnostic tracing.",
+  "tags": [
+    "C++11",
+    "Hypertext",
+    "CLI",
+    "Parser",
+    "Tokenizer",
+    "Terminal-UI",
+    "Navigation",
+    "CMake",
+    "Lexical-Analysis",
+    "Stream-Parsing",
+    "Data-Structures",
+    "Hypermedia",
+    "Project-CS142"
+  ],
+  "category": "Text-based Hypertext Browser",
+  "concepts": [
+    "Lexical Scanning",
+    "Hypertext Navigation",
+    "Optional Monad Implementation",
+    "Document Reflowing",
+    "Stream-based Tokenization",
+    "Tuple-based State Management",
+    "Environment-driven Logging",
+    "Interactive Prompt Interfaces",
+    "Unordered Mapping",
+    "String Serialization",
+    "Template Metaprogramming",
+    "Error Handling",
+    "File System I/O",
+    "C++11 Memory Management",
+    "Reflow Optimization",
+    "Command-line Interface Design",
+    "Stateful Stream Parsing",
+    "Header-only Utility Templates",
+    "Resource Acquisition Is Initialization",
+    "Lexical Disambiguation"
+  ],
+  "languages": [
+    "C++",
+    "CMake"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "main.cpp",
+      "browser.cpp",
+      "browser.h",
+      "option.h",
+      "prompt.h"
+    ]
+  },
+  "_hash": "728039eac6e12a36351468b2e5dd13b14b736191a403f8a792e093835de65a89",
+  "_path": "/Users/ember/dev/gh/cs142-proj1",
+  "_updated_at": "2026-02-14T00:56:24.839678Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "lexical-analysis",
+      "Hypertext Navigation",
+      "Optional Monad Implementation",
+      "Document Reflowing",
+      "Stream-based Tokenization",
+      "Tuple-based State Management",
+      "Environment-driven Logging",
+      "Interactive Prompt Interfaces",
+      "Unordered Mapping",
+      "String Serialization",
+      "Template Metaprogramming",
+      "Error Handling",
+      "File System I/O",
+      "C++11 Memory Management",
+      "Reflow Optimization",
+      "Command-line Interface Design",
+      "Stateful Stream Parsing",
+      "Header-only Utility Templates",
+      "Resource Acquisition Is Initialization",
+      "Lexical Disambiguation"
+    ],
+    "tags": [
+      "C++11",
+      "Hypertext",
+      "CLI",
+      "Parser",
+      "lexical-analysis",
+      "Terminal-UI",
+      "Navigation",
+      "CMake",
+      "Lexical Analysis",
+      "Stream-Parsing",
+      "Data-Structures",
+      "Hypermedia",
+      "Project-CS142"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "cpp",
+      "interpreter",
+      "Rust Language Ecosystem",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "AST",
+      "logic-programming",
+      "Type Inference",
+      "protocol-upgrade",
+      "streaming-parser"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.247,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.436,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.684,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.23,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.206,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 2.43,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.839678Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3aee10e9fbdf3910977fef060341c89075b4781469b04d0fd438af6534204d67",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:45.898829+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "cpp",
+    "interpreter",
+    "rust",
+    "Lexical Analysis",
+    "ast",
+    "abstract-syntax-tree",
+    "logic-programming",
+    "Type Inference",
+    "protocol-upgrade",
+    "streaming-parser",
+    "Abstract Syntax Tree"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.782
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.774
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.771
+    },
+    {
+      "name": "cs142-proj2",
+      "path": "/Users/ember/dev/gh/cs142-proj2",
+      "similarity": 0.766
+    },
+    {
+      "name": "http-parser",
+      "path": "/Users/ember/dev/gh/forks/http-parser",
+      "similarity": 0.761
+    },
+    {
+      "name": "servo",
+      "path": "/Users/ember/dev/gh/forks/servo",
+      "similarity": 0.757
+    },
+    {
+      "name": "cs465-hw1",
+      "path": "/Users/ember/dev/gh/cs465-hw1",
+      "similarity": 0.755
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.754
+    }
+  ]
+}

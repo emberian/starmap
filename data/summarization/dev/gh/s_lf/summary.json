@@ -1,0 +1,239 @@
+{
+  "name": "s_lf",
+  "description": "A personal exocortex and hypermedia document system implemented in Rust, designed as a hybrid between a wiki, a journaling tool, and a digital garden. It employs a versatile message-based data model that supports structured text, multimedia embeds, academic references, and WASM-based dynamic content with capability-based security. The system provides a terminal user interface for managing a 'wiki-like bag of documents' and aims to facilitate decentralized social interaction.",
+  "tags": [
+    "exocortex",
+    "rust",
+    "tui",
+    "knowledge-management",
+    "digital-garden",
+    "wiki",
+    "wasm",
+    "capabilities",
+    "hypermedia",
+    "cli",
+    "journaling",
+    "document-graph",
+    "archiving",
+    "personal-database",
+    "serde",
+    "tokio"
+  ],
+  "category": "Hypermedia Knowledge Graph",
+  "concepts": [
+    "Exocortex",
+    "Hypermedia Document Model",
+    "Terminal User Interface",
+    "Digital Garden Architecture",
+    "WASM Runtime Integration",
+    "Capability-based Authorization",
+    "vCard Serialization",
+    "Web Archiving",
+    "DOI Resolution",
+    "Composite Messaging",
+    "Journaling Systems",
+    "Event-driven TUI",
+    "JSON Patching",
+    "Content Policies",
+    "Multi-user Synchronization",
+    "Semantic Linking",
+    "Persistent Storage",
+    "Asynchronous I/O",
+    "Graph-based Information Retrieval",
+    "MIME-type Handling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/tui.rs"
+    ]
+  },
+  "_hash": "019991f4351de6210952067d97f6759a2376dab14d784c421bda16c19b01e322",
+  "_path": "/Users/ember/dev/gh/s_lf",
+  "_updated_at": "2026-02-14T00:56:28.612905Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Exocortex",
+      "Hypermedia Document Model",
+      "Terminal User Interface",
+      "Digital Garden Architecture",
+      "WASM Runtime Integration",
+      "Capability-based Authorization",
+      "vCard Serialization",
+      "Web Archiving",
+      "DOI Resolution",
+      "Composite Messaging",
+      "Journaling Systems",
+      "Event-driven TUI",
+      "JSON Patching",
+      "Content Policies",
+      "Multi-user Synchronization",
+      "Semantic Linking",
+      "Persistent Storage",
+      "Asynchronous I/O",
+      "Graph-based Information Retrieval",
+      "MIME-type Handling"
+    ],
+    "tags": [
+      "exocortex",
+      "Rust Language Ecosystem",
+      "tui",
+      "knowledge-management",
+      "digital-garden",
+      "wiki",
+      "WebAssembly",
+      "capabilities",
+      "hypermedia",
+      "cli",
+      "journaling",
+      "document-graph",
+      "archiving",
+      "personal-database",
+      "serde",
+      "Asynchronous Programming"
+    ],
+    "mined_motifs": [
+      "Capability-based Security",
+      "Content-Addressable Storage (CAS)",
+      "WebAssembly",
+      "cargo",
+      "Block Storage",
+      "CAR Reader",
+      "CAR Writer",
+      "CID-linked Data",
+      "Conflict-free Synchronization",
+      "Content Identifier",
+      "Content-Addressable Archive"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.28,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.275,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.27,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.258,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.235,
+        "matches": [
+          "content-addressable storage (cas)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.228,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.612905Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4de7f85a8ad4895593e7897d84bc9650e5cbd9b065cb213352b6886692742994",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:26.037181+00:00"
+  },
+  "mined_motifs": [
+    "Capability-based Security",
+    "content-addressing",
+    "wasm-pack",
+    "webassembly",
+    "cargo",
+    "Block Storage",
+    "CAR Reader",
+    "CAR Writer",
+    "CID-linked Data",
+    "Conflict-free Synchronization",
+    "Content Identifier",
+    "Content-Addressable Archive"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "noosphere",
+      "path": "/Users/ember/dev/noosphere",
+      "similarity": 0.79
+    },
+    {
+      "name": "factshift-redux",
+      "path": "/Users/ember/dev/factshift-redux",
+      "similarity": 0.781
+    },
+    {
+      "name": "'logseq",
+      "path": "/Users/ember/dev/shitheap/'logseq",
+      "similarity": 0.771
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.757
+    },
+    {
+      "name": "yeet.plus",
+      "path": "/Users/ember/dev/gh/yeet.plus",
+      "similarity": 0.755
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.754
+    },
+    {
+      "name": "lunar.town",
+      "path": "/Users/ember/dev/gh/lunar.town",
+      "similarity": 0.754
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.752
+    }
+  ]
+}

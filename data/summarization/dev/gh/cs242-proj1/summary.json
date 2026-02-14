@@ -1,0 +1,199 @@
+{
+  "name": "cs242-proj1",
+  "description": "A JavaFX implementation of the traditional gambling game Cee-lo (4-5-6), developed as a university project. The system manages game logic for two players, including dice roll evaluations for sequences, trips, and points, while providing a graphical interface with animated GIF transitions and FXML-based layouts.",
+  "tags": [
+    "java",
+    "javafx",
+    "cee-lo",
+    "dice-game",
+    "fxml",
+    "desktop-application",
+    "game-logic",
+    "mvc-pattern"
+  ],
+  "category": "Graphical Gambling Simulation",
+  "concepts": [
+    "Model-View-Controller (MVC) Architecture",
+    "Event-Driven GUI",
+    "Dice Roll Probability Logic",
+    "FXML Layout Management",
+    "Resource-based Animation",
+    "Threaded UI Updates",
+    "Singleton Pattern (Logging)",
+    "Object-Oriented Game Design"
+  ],
+  "languages": [
+    "Java",
+    "FXML",
+    "CSS"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 45,
+    "has_readme": false,
+    "sample_files": [
+      "src/ceeloproject/BaseController.java",
+      "src/ceeloproject/Player.java",
+      "src/ceeloproject/Ceelo.java",
+      "src/ceeloproject/DiceBox.java",
+      "src/ceeloproject/Logger.java"
+    ]
+  },
+  "_hash": "27f6afc752cf5f5241e892298b5427151c4b0cf3e43cd5468daee47003a678e1",
+  "_path": "/Users/ember/dev/gh/cs242-proj1",
+  "_updated_at": "2026-02-14T00:56:24.853275Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Model-View-Controller (MVC) Architecture",
+      "Event-Driven GUI",
+      "Dice Roll Probability Logic",
+      "FXML Layout Management",
+      "Resource-based Animation",
+      "Threaded UI Updates",
+      "Singleton Pattern (Logging)",
+      "Object-Oriented Game Design"
+    ],
+    "tags": [
+      "java",
+      "javafx",
+      "cee-lo",
+      "dice-game",
+      "fxml",
+      "desktop-application",
+      "game-engine",
+      "mvc-pattern"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Application Lifecycle Management",
+      "Event-driven Architecture",
+      "game-engine",
+      "collision-detection",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Anonymous Inner Classes",
+      "Callback-based Control Flow",
+      "Discrete Probability Distributions",
+      "Exception Propagation",
+      "Inheritance Patterns"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.385,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.378,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.311,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.284,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.567,
+        "matches": []
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.528,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.853275Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "321052a4ae8075cd1246cb0054e8258e933e60456e603d858dd482dc0154f793",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:47.095591+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Application Lifecycle Management",
+    "Event-driven Architecture",
+    "game-development",
+    "collision-detection",
+    "resource-management",
+    "Anonymous Inner Classes",
+    "Callback-based Control Flow",
+    "Discrete Probability Distributions",
+    "Event-Driven Architecture",
+    "Exception Propagation",
+    "Inheritance Patterns"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs242_hw3",
+      "path": "/Users/ember/dev/gh/cs242_hw3",
+      "similarity": 0.897
+    },
+    {
+      "name": "LetsPlay",
+      "path": "/Users/ember/dev/gh/LetsPlay",
+      "similarity": 0.809
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.799
+    },
+    {
+      "name": "green-factory",
+      "path": "/Users/ember/dev/green-factory",
+      "similarity": 0.799
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.798
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.795
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.792
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.791
+    }
+  ]
+}

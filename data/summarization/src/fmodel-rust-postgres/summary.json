@@ -1,0 +1,233 @@
+{
+  "name": "fmodel-rust-postgres",
+  "description": "A comprehensive template and framework for developing PostgreSQL extensions in Rust that implement tactical Domain-Driven Design patterns. It leverages the fmodel-rust library to execute complex domain logic—including aggregates, sagas, and materialized views—directly within the database engine via the pgrx framework. This architecture facilitates high-performance event sourcing and CQRS by embedding state evolution and event persistence logic within the RDBMS runtime.",
+  "tags": [
+    "rust",
+    "postgresql",
+    "pgrx",
+    "event-sourcing",
+    "cqrs",
+    "ddd",
+    "saga",
+    "aggregate",
+    "materialized-view",
+    "decider",
+    "algebraic-data-types",
+    "database-extension"
+  ],
+  "category": "In-Database Event Sourcing Architecture",
+  "concepts": [
+    "Event Sourcing",
+    "Command Query Responsibility Segregation",
+    "Aggregates",
+    "Sagas",
+    "Decider Pattern",
+    "Materialized Views",
+    "Algebraic Data Types",
+    "PostgreSQL Extension Development",
+    "Functional Domain Modeling",
+    "Server Programming Interface",
+    "Transactional Command Handling",
+    "State Evolution",
+    "Event Persistence",
+    "Newtype Pattern",
+    "JSONB Serialization",
+    "Trigger-based Projection"
+  ],
+  "languages": [
+    "Rust",
+    "SQL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 33,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/application/mod.rs",
+      "src/domain/mod.rs",
+      "src/framework/application/mod.rs",
+      "src/framework/domain/mod.rs"
+    ]
+  },
+  "_hash": "accf08132ac54bb464e8bb7d551e76783134b1edc61d3a60a6509088e04e229f",
+  "_path": "/Users/ember/src/fmodel-rust-postgres",
+  "_updated_at": "2026-02-14T00:56:32.766929Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "528e3494a0889914a425cee5bf7e97feaa93e59c648b098970fdd1b4450e3e0c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:24.836411+00:00"
+  },
+  "mined_motifs": [
+    "persistence",
+    "Optimistic Concurrency Control",
+    "sqlx",
+    "async-rust",
+    "event-store",
+    "Denormalization",
+    "Saga Orchestration",
+    "decider-pattern",
+    "functional-programming",
+    "materialized-views",
+    "saga-pattern",
+    "macros"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fmodel-rust-demo",
+      "path": "/Users/ember/src/fmodel-rust-demo",
+      "similarity": 0.919
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.904
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.9
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.893
+    },
+    {
+      "name": "cqrs-es",
+      "path": "/Users/ember/src/cqrs",
+      "similarity": 0.871
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.863
+    },
+    {
+      "name": "eventcore",
+      "path": "/Users/ember/src/eventcore",
+      "similarity": 0.856
+    },
+    {
+      "name": "rust-postgres",
+      "path": "/Users/ember/dev/gh/forks/rust-postgres",
+      "similarity": 0.852
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Event Sourcing",
+      "Command Query Responsibility Segregation",
+      "Aggregates",
+      "Sagas",
+      "Decider Pattern",
+      "Materialized Views",
+      "Algebraic Data Types",
+      "PostgreSQL Extension Development",
+      "Functional Domain Modeling",
+      "Server Programming Interface",
+      "Transactional Command Handling",
+      "State Evolution",
+      "Event Persistence",
+      "Newtype Pattern",
+      "JSONB Serialization",
+      "Trigger-based Projection"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "postgresql",
+      "pgrx",
+      "event-sourcing",
+      "cqrs",
+      "ddd",
+      "saga",
+      "aggregate",
+      "materialized-view",
+      "decider",
+      "algebraic-data-types",
+      "database-extension"
+    ],
+    "mined_motifs": [
+      "persistence",
+      "Optimistic Concurrency Control",
+      "sqlx",
+      "rust",
+      "event-sourcing",
+      "Denormalization",
+      "Saga Orchestration",
+      "decider-pattern",
+      "functional-programming",
+      "materialized-views",
+      "saga-pattern",
+      "macros"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 12.423,
+        "matches": [
+          "cqrs",
+          "event-sourcing",
+          "persistence",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 11.147,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs",
+          "decider-pattern"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.558,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.402,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 4.014,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 4.009,
+        "matches": [
+          "postgresql"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.766929Z"
+  }
+}

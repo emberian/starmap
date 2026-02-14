@@ -1,0 +1,242 @@
+{
+  "name": "cellular",
+  "description": "A high-performance real-time simulation framework leveraging Vulkan compute shaders to implement continuous cellular automata and reaction-diffusion systems. It features live video ingestion for feedback loops and interactive parameter synthesis via MIDI control surfaces, enabling dynamic exploration of emergent complex patterns.",
+  "tags": [
+    "vulkan",
+    "rust",
+    "glsl",
+    "compute-shader",
+    "cellular-automata",
+    "midi",
+    "real-time",
+    "video-processing",
+    "gpgpu",
+    "physics-simulation",
+    "emergent-behavior",
+    "reaction-diffusion"
+  ],
+  "category": "Continuous Cellular Automata",
+  "concepts": [
+    "Vulkan Compute Pipelines",
+    "Difference of Gaussians",
+    "Midi Control Mapping",
+    "Gpu Swapchain Management",
+    "Descriptor Set Synchronization",
+    "Video Feed Ingestion",
+    "Gaussian Convolution Kernels",
+    "Dynamic Parameter Modulation",
+    "Temporal Feedback Loops",
+    "Parallel Grid Computation",
+    "Sub-pixel Drift",
+    "Spatial Scrambling",
+    "Cross-color Matrix Interaction",
+    "Atomic Control State",
+    "Device Local Memory Allocation",
+    "Camera Input Integration",
+    "Physical Device Enumeration",
+    "Event-driven Windowing",
+    "Kernel Coefficient Generation",
+    "Linear Algebra Color Transformations"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/gpu_gore.rs",
+      "src/parameters.rs",
+      "build.rs"
+    ]
+  },
+  "_hash": "4871704f79fbe51cc92636123a1c3715e805dfba6b7a20f811473001d52eacb2",
+  "_path": "/Users/ember/dev/shitheap/da250-tj-chris",
+  "_updated_at": "2026-02-14T00:56:30.237127Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Vulkan Compute Pipelines",
+      "Difference of Gaussians",
+      "Midi Control Mapping",
+      "Gpu Swapchain Management",
+      "Descriptor Set Synchronization",
+      "Video Feed Ingestion",
+      "Gaussian Convolution Kernels",
+      "Dynamic Parameter Modulation",
+      "Temporal Feedback Loops",
+      "Parallel Grid Computation",
+      "Sub-pixel Drift",
+      "Spatial Scrambling",
+      "Cross-color Matrix Interaction",
+      "Atomic Control State",
+      "Device Local Memory Allocation",
+      "Camera Input Integration",
+      "Physical Device Enumeration",
+      "Event-driven Windowing",
+      "Kernel Coefficient Generation",
+      "Linear Algebra Color Transformations"
+    ],
+    "tags": [
+      "vulkan",
+      "Rust Language Ecosystem",
+      "glsl",
+      "GPGPU Compute",
+      "cellular-automata",
+      "midi",
+      "real-time-simulation",
+      "video-processing",
+      "physics-simulation",
+      "emergent-behavior",
+      "reaction-diffusion"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "vulkano",
+      "Physical Device Selection",
+      "Totalistic Rules",
+      "egui",
+      "WebAssembly",
+      "webgpu",
+      "wgpu",
+      "wgsl",
+      "Computer Graphics & Rendering",
+      "concurrency",
+      "cellular-automata"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 10.803,
+        "matches": [
+          "gpgpu compute",
+          "vulkan",
+          "glsl",
+          "vulkano"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 7.932,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 7.931,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata",
+          "physics-simulation"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 5.112,
+        "matches": [
+          "vulkan",
+          "wgpu"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.078,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.074,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.237127Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1e910715df37927c695501b78dc8ea9e31ffa621742b7e021250be44366830de",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:39.576957+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "vulkano",
+    "Physical Device Selection",
+    "Totalistic Rules",
+    "egui",
+    "wasm",
+    "webgpu",
+    "wgpu",
+    "wgsl",
+    "graphics",
+    "parallel-computing",
+    "Cellular Automata"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mesmerize",
+      "path": "/Users/ember/dev/shitheap/tjmes",
+      "similarity": 0.795
+    },
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.784
+    },
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.765
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitting_furiously",
+      "similarity": 0.755
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitheap/shitting_furiously",
+      "similarity": 0.749
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.745
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.742
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.738
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "name": "erp",
+  "description": "A minimal repository or catalog for Event-Related Potential (ERP) datasets and related signal processing experiments. It likely serves as an archival index for neurophysiological data used in broader cognitive learning systems research.",
+  "tags": [
+    "neuroscience",
+    "erp",
+    "signal-processing",
+    "cognitive-science",
+    "data-indexing",
+    "eeg",
+    "biosignals",
+    "shitheap"
+  ],
+  "category": "Cognitive Electrophysiology",
+  "concepts": [
+    "Event-Related Potential",
+    "Electroencephalography",
+    "Signal Analysis",
+    "Cognitive Load",
+    "Data Cataloging",
+    "Neurophysiological Data",
+    "Metadata Management"
+  ],
+  "languages": [],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "9f1cc6568c6a50e9ad8b473d0438adb55fe5ec55df3e98e0179df402f21b331b",
+  "_path": "/Users/ember/dev/shitheap/erp",
+  "_updated_at": "2026-02-14T00:56:30.244497Z",
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5431f7f35afe726a1f593381e0281fcf0ce13e0fe1aa28acc45802ad625b889c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:40.047726+00:00"
+  },
+  "mined_motifs": [
+    "archival",
+    "rust",
+    "Automated Document Compilation",
+    "Bibliography Synchronization",
+    "Declarative Environment Management",
+    "Formalized Documentation",
+    "Interconnected Note-taking",
+    "Live-reloading Documentation",
+    "Mathematical Forest",
+    "Reproducible Development Environments",
+    "Semantic Linking",
+    "Static Site Generation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "erp",
+      "path": "/Users/ember/dev/erp",
+      "similarity": 0.751
+    },
+    {
+      "name": "collected-writings",
+      "path": "/Users/ember/dev/collected-writings",
+      "similarity": 0.735
+    },
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.729
+    },
+    {
+      "name": "billary-board",
+      "path": "/Users/ember/dev/billary-board",
+      "similarity": 0.725
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.714
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.713
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.706
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.704
+    }
+  ],
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Event-Related Potential",
+      "Electroencephalography",
+      "Signal Analysis",
+      "Cognitive Load",
+      "Data Cataloging",
+      "Neurophysiological Data",
+      "Metadata Management"
+    ],
+    "tags": [
+      "neuroscience",
+      "erp",
+      "signal-processing",
+      "cognitive-science",
+      "data-indexing",
+      "eeg",
+      "biosignals",
+      "shitheap"
+    ],
+    "mined_motifs": [
+      "archival",
+      "Rust Language Ecosystem",
+      "Automated Document Compilation",
+      "Bibliography Synchronization",
+      "Declarative Environment Management",
+      "Formalized Documentation",
+      "Interconnected Note-taking",
+      "Live-reloading Documentation",
+      "Mathematical Forest",
+      "Reproducible Development Environments",
+      "Semantic Linking",
+      "Static Site Generation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 5.18,
+        "matches": [
+          "cognitive-science"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.067,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.039,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.615,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 2.268,
+        "matches": []
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.233,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.244497Z"
+  }
+}

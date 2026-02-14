@@ -1,0 +1,213 @@
+{
+  "name": "lcrio",
+  "description": "A high-performance offline Rust crate exploration tool and MCP server that enables searching, browsing, and reading source code directly from local Panamax mirrors or Cargo registries. It features workspace-aware filtering via Cargo.lock analysis, fuzzy name matching, and automated tarball extraction for seamless integration with AI development workflows.",
+  "tags": [
+    "rust",
+    "crates-io",
+    "mcp-server",
+    "offline-search",
+    "code-browsing",
+    "cargo-registry",
+    "panamax",
+    "workspace-filtering",
+    "crate-extraction",
+    "cli-tool"
+  ],
+  "category": "Software Package Management & Introspection",
+  "concepts": [
+    "Registry Index Parsing",
+    "Sparse Index Cache",
+    "Workspace Dependency Resolution",
+    "Fuzzy String Matching (Jaro-Winkler)",
+    "Content-Addressable Storage Prefixes",
+    "NDJSON Index Formats",
+    "Gzipped Tarball Extraction",
+    "MCP Tool Routing",
+    "Path Traversal Prevention",
+    "Pre-extracted Source Discovery"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "bin/lcrio-mcp.rs",
+      "bin/lcrio.rs",
+      "src/search.rs"
+    ]
+  },
+  "_hash": "ae9e8f2e296d113c97ecea98f94627d229abf76fa1eaa8f070d769694051ad04",
+  "_path": "/Users/ember/dev/lcrio",
+  "_updated_at": "2026-02-14T00:56:29.283861Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Registry Index Parsing",
+      "Sparse Index Cache",
+      "Workspace Dependency Resolution",
+      "Fuzzy String Matching (Jaro-Winkler)",
+      "Content-Addressable Storage Prefixes",
+      "NDJSON Index Formats",
+      "Gzipped Tarball Extraction",
+      "MCP Tool Routing",
+      "Path Traversal Prevention",
+      "Pre-extracted Source Discovery"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "crates-io",
+      "Model Context Protocol",
+      "offline-search",
+      "code-browsing",
+      "cargo-registry",
+      "panamax",
+      "workspace-filtering",
+      "crate-extraction",
+      "cli-tool"
+    ],
+    "mined_motifs": [
+      "cargo",
+      "cli",
+      "rustdoc",
+      "static-analysis",
+      "model-context-protocol",
+      "Crate Versioning",
+      "developer-tools",
+      "Semantic Versioning",
+      "build-system",
+      "package-manager",
+      "dependency-resolution",
+      "llm-context"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 12.334,
+        "matches": [
+          "build-system",
+          "dependency-resolution",
+          "package-manager",
+          "cargo"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.321,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.299,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.229,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 3.826,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.785,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.283861Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8bb9d6f4dcedc258f15501e33da5e154c7ddb6417d2775e23ccc21c273eb3fc8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:49.871686+00:00"
+  },
+  "mined_motifs": [
+    "cargo",
+    "cli",
+    "rustdoc",
+    "static-analysis",
+    "mcp",
+    "Crate Versioning",
+    "developer-tools",
+    "Semantic Versioning",
+    "build-system",
+    "package-manager",
+    "dependency-resolution",
+    "llm-context"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.842
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.812
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.808
+    },
+    {
+      "name": "crates_io_api",
+      "path": "/Users/ember/dev/gh/forks/crates_io_api",
+      "similarity": 0.8
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/cargo",
+      "similarity": 0.79
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.786
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.783
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.772
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "name": "resequence-rs",
+  "description": "A high-performance temporal simulation engine implementing patterns reverse-engineered from Achron's Resequence engine. It features event-linked entities for efficient historical state queries, variable-speed timewave observers for parallel timeline inspection, and identity-linked duplicates for robust paradox detection. The architecture maintains causal consistency by sorting temporal observers and propagating state changes through discrete time slices via a sophisticated view-caching system.",
+  "tags": [
+    "time-travel",
+    "simulation",
+    "game-engine",
+    "event-sourcing",
+    "rust",
+    "wasm",
+    "svelte",
+    "achron",
+    "chronoport",
+    "causality",
+    "timeline",
+    "timewave",
+    "paradox-detection",
+    "state-propagation"
+  ],
+  "category": "Temporal Simulation Engine",
+  "concepts": [
+    "Event Sourcing",
+    "Causal Consistency",
+    "Timewaves",
+    "Chronoporting",
+    "Paradox Detection",
+    "Entity Lifecycle",
+    "Historical Queries",
+    "State Propagation",
+    "WebAssembly Bindings",
+    "Scrollytelling",
+    "Temporal Duplication",
+    "Timeline Forking",
+    "Binary Search Indexing",
+    "What-if Analysis",
+    "Distributed Consensus Simulation",
+    "Causal Chains",
+    "Sub-tick Movement",
+    "Identity Linking",
+    "Temporal Windows",
+    "State View Caching",
+    "Undo/Redo Architecture",
+    "Discrete-Time Simulation",
+    "Linear Causal Propagation"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "Svelte"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 59,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "explainer/src/lib/components/index.ts",
+      "explainer/src/lib/engine/index.ts",
+      "explainer/src/lib/viz/index.ts",
+      "explainer/wasm/src/lib.rs"
+    ]
+  },
+  "_hash": "d510e96214877bd4aeacae85250e15f1592961c55285f2e8c2fe7b21b5f39626",
+  "_path": "/Users/ember/dev/resequence-rs",
+  "_updated_at": "2026-02-14T00:56:30.001900Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Event Sourcing",
+      "Causal Consistency",
+      "Timewaves",
+      "Chronoporting",
+      "Paradox Detection",
+      "Entity Lifecycle",
+      "Historical Queries",
+      "State Propagation",
+      "WebAssembly Bindings",
+      "Scrollytelling",
+      "Temporal Duplication",
+      "Timeline Forking",
+      "Binary Search Indexing",
+      "What-if Analysis",
+      "Distributed Consensus Simulation",
+      "Causal Chains",
+      "Sub-tick Movement",
+      "Identity Linking",
+      "Temporal Windows",
+      "State View Caching",
+      "Undo/Redo Architecture",
+      "Discrete-Time Simulation",
+      "Linear Causal Propagation"
+    ],
+    "tags": [
+      "time-travel",
+      "real-time-simulation",
+      "game-engine",
+      "event-sourcing",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "svelte",
+      "achron",
+      "chronoport",
+      "causality",
+      "timeline",
+      "timewave",
+      "paradox-detection",
+      "state-propagation"
+    ],
+    "mined_motifs": [
+      "fuzzing",
+      "event-driven",
+      "state-management",
+      "vite",
+      "typescript",
+      "Asset Compilers",
+      "Binary Search History",
+      "Causal State Propagation",
+      "Chronoportation",
+      "Event-Linked Entities",
+      "History-Linked Lists",
+      "Interactive Timelines"
+    ],
+    "metaconstellations": [
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 11.051,
+        "matches": [
+          "game-engine",
+          "time-travel",
+          "achron",
+          "timewaves"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 8.062,
+        "matches": [
+          "event sourcing",
+          "chronoporting",
+          "category:Temporal Simulation Engine"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.458,
+        "matches": [
+          "event-sourcing"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.456,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.449,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.426,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.001900Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a8961c729400bb77f5a42343ea863c11ff3b7cd15bada3f2f674f3cf348be80c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:29.343316+00:00"
+  },
+  "mined_motifs": [
+    "fuzzing",
+    "event-driven",
+    "state-management",
+    "vite",
+    "typescript",
+    "Asset Compilers",
+    "Binary Search History",
+    "Causal State Propagation",
+    "Chronoportation",
+    "Event-Linked Entities",
+    "History-Linked Lists",
+    "Interactive Timelines"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Achron",
+      "path": "/Users/ember/dev/Achron",
+      "similarity": 0.929
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.84
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.834
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.827
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.826
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.825
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.819
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.814
+    }
+  ]
+}

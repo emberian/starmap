@@ -1,0 +1,238 @@
+{
+  "name": "redux-rs",
+  "description": "A high-performance Redux state container implementation for Rust, leveraging nanosecond-precision timestamps for unique action identification and deterministic ordering. It provides a robust framework for state management through pure reducers, side-effect orchestration, and enabling conditions that validate actions against current state. The architecture includes specialized support for hierarchical state composition via sub-stores and distributed callback serialization for complex cross-thread or cross-platform execution.",
+  "tags": [
+    "rust",
+    "redux",
+    "state-management",
+    "wasm",
+    "serialization",
+    "fuzzing",
+    "time-synchronization",
+    "event-driven",
+    "middleware",
+    "sub-store",
+    "reducer",
+    "side-effects"
+  ],
+  "category": "Deterministic State Management",
+  "concepts": [
+    "Action Dispatching",
+    "State Immutability",
+    "Reducer Pattern",
+    "Side Effect Management",
+    "Monotonic Time Drift Compensation",
+    "Action Metadata Tracking",
+    "Enabling Condition Trait",
+    "Serializable Callbacks",
+    "Hierarchical State Composition",
+    "Timestamp-based Action Ordering",
+    "Sub-Store Pattern",
+    "Recursive Dispatch Management",
+    "Nanosecond Action Id Generation",
+    "State Wrapper Pattern",
+    "Distributed Callback Slicing",
+    "WASM Timer Integration",
+    "Action Meta Recursion Depth",
+    "Monotonic to Unix Epoch Mapping",
+    "Dispatcher Queueing",
+    "Type-safe State Transitions"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/action/mod.rs",
+      "src/lib.rs",
+      "src/store.rs",
+      "src/callback.rs"
+    ]
+  },
+  "_hash": "d7bad76eab409923408a72cc43942d2c7036aeacc0047936451a2535e17f6dd4",
+  "_path": "/Users/ember/src/redux-rs",
+  "_updated_at": "2026-02-14T00:56:33.496975Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fef9de59d884a0bc9755610b3f5ff37e1688128380f1865fc8d9ddd45645ddd9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:01.814826+00:00"
+  },
+  "mined_motifs": [
+    "event-sourcing",
+    "determinism",
+    "state-machine",
+    "async-rust",
+    "cqrs",
+    "Event Sourcing",
+    "state-propagation",
+    "Discrete-Time Simulation",
+    "Paradox Detection",
+    "Timewaves",
+    "causality",
+    "chronoport"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/dev/redux-rs",
+      "similarity": 0.957
+    },
+    {
+      "name": "muchin-clean",
+      "path": "/Users/ember/dev/muchin-clean",
+      "similarity": 0.858
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-signals",
+      "path": "/Users/ember/src/rust-signals",
+      "similarity": 0.849
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.842
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.837
+    },
+    {
+      "name": "Achron",
+      "path": "/Users/ember/dev/Achron",
+      "similarity": 0.835
+    },
+    {
+      "name": "resequence-rs",
+      "path": "/Users/ember/dev/resequence-rs",
+      "similarity": 0.834
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Action Dispatching",
+      "State Immutability",
+      "Reducer Pattern",
+      "Side Effect Management",
+      "Monotonic Time Drift Compensation",
+      "Action Metadata Tracking",
+      "Enabling Condition Trait",
+      "Serializable Callbacks",
+      "Hierarchical State Composition",
+      "Timestamp-based Action Ordering",
+      "Sub-Store Pattern",
+      "Recursive Dispatch Management",
+      "Nanosecond Action Id Generation",
+      "State Wrapper Pattern",
+      "Distributed Callback Slicing",
+      "WASM Timer Integration",
+      "Action Meta Recursion Depth",
+      "Monotonic to Unix Epoch Mapping",
+      "Dispatcher Queueing",
+      "Type-safe State Transitions"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "redux",
+      "state-management",
+      "WebAssembly",
+      "Data Serialization",
+      "fuzzing",
+      "time-synchronization",
+      "event-driven",
+      "middleware",
+      "sub-store",
+      "reducer",
+      "side-effects"
+    ],
+    "mined_motifs": [
+      "event-sourcing",
+      "determinism",
+      "state-machine",
+      "rust",
+      "cqrs",
+      "Event Sourcing",
+      "state-propagation",
+      "Discrete-Time Simulation",
+      "Paradox Detection",
+      "Timewaves",
+      "causality",
+      "chronoport"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.261,
+        "matches": [
+          "cqrs",
+          "event-sourcing"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 8.125,
+        "matches": [
+          "event sourcing",
+          "redux",
+          "category:Deterministic State Management"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 6.91,
+        "matches": [
+          "event-sourcing",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.475,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.451,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.447,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.496975Z"
+  }
+}

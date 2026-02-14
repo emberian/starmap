@@ -1,0 +1,216 @@
+{
+  "name": "ark-blst",
+  "description": "A high-performance Rust wrapper providing arkworks-compatible bindings for the blst BLS12-381 library. It implements optimized pairing, field, and group operations with integrated GPU acceleration via CUDA and OpenCL for multi-scalar multiplication (MSM) workloads.",
+  "tags": [
+    "bls12-381",
+    "arkworks",
+    "blst",
+    "gpu-acceleration",
+    "msm",
+    "pairing-friendly-curves",
+    "zero-knowledge-proofs",
+    "cuda",
+    "opencl",
+    "cryptography",
+    "rust"
+  ],
+  "category": "Pairing-Friendly Elliptic Curve Cryptography",
+  "concepts": [
+    "BLS12-381 Curve",
+    "Multi-Scalar Multiplication (MSM)",
+    "Pairing-Based Cryptography",
+    "Finite Field Arithmetic",
+    "GPU-Accelerated Cryptography",
+    "Cofactor Clearing",
+    "Canonical Serialization",
+    "Cyclotomic Subgroups",
+    "Miller Loop",
+    "Affine and Projective Coordinates"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/g2.rs",
+      "src/g1.rs",
+      "src/fp.rs"
+    ]
+  },
+  "_hash": "13e30779e88244ff529bcfb80569cbd54aa5153f9a184cfc60b87a94d994ea46",
+  "_path": "/Users/ember/hellas/ark-blst",
+  "_updated_at": "2026-02-14T00:56:31.235115Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "648b933d10a0328e2929c1a2263c4ba3e9d4dff5d49ba2c78df4b265d16ea772",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:20.128684+00:00"
+  },
+  "mined_motifs": [
+    "finite-fields",
+    "Final Exponentiation",
+    "elliptic-curves",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "elliptic-curve",
+    "zkp",
+    "Bilinear Pairings",
+    "Frobenius Automorphism",
+    "Point Compression",
+    "field-extension",
+    "pairing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.946
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/hellas/blstrs",
+      "similarity": 0.911
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.905
+    },
+    {
+      "name": "pairing",
+      "path": "/Users/ember/hellas/pairing",
+      "similarity": 0.877
+    },
+    {
+      "name": "ec-gpu",
+      "path": "/Users/ember/hellas/ec-gpu",
+      "similarity": 0.854
+    },
+    {
+      "name": "ec-gpu",
+      "path": "/Users/ember/dev/gh/forks/ec-gpu",
+      "similarity": 0.843
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.837
+    },
+    {
+      "name": "hints",
+      "path": "/Users/ember/src/hints",
+      "similarity": 0.823
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "BLS12-381 Curve",
+      "multi-scalar-multiplication",
+      "Pairing-Based Cryptography",
+      "Finite Field Arithmetic",
+      "GPU-Accelerated Cryptography",
+      "Cofactor Clearing",
+      "Canonical Serialization",
+      "Cyclotomic Subgroups",
+      "Miller Loop",
+      "Affine and Projective Coordinates"
+    ],
+    "tags": [
+      "bls12-381",
+      "arkworks",
+      "blst",
+      "low-level-graphics",
+      "multi-scalar-multiplication",
+      "elliptic-curves",
+      "Zero-Knowledge Proofs (ZKP)",
+      "cuda",
+      "opencl",
+      "cryptography",
+      "Rust Language Ecosystem"
+    ],
+    "mined_motifs": [
+      "finite-fields",
+      "Final Exponentiation",
+      "elliptic-curves",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "zero-knowledge-proofs",
+      "Bilinear Pairings",
+      "Frobenius Automorphism",
+      "Point Compression",
+      "field-extension",
+      "pairing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.592,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.534,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.748,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.361,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.359,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.334,
+        "matches": [
+          "cryptography"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.235115Z"
+  }
+}

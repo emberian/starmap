@@ -1,0 +1,264 @@
+{
+  "name": "keygen-rs",
+  "description": "keygen-rs appears to be a developer tooling project using Rust, TypeScript, JavaScript. The available files suggest focus areas around license, list, machine, create.",
+  "tags": [
+    "Rust",
+    "TypeScript",
+    "JavaScript",
+    "license",
+    "list",
+    "machine",
+    "create",
+    "delete",
+    "update",
+    "webhook",
+    "environment",
+    "user",
+    "cargo",
+    "entitlements",
+    "icon",
+    "readme"
+  ],
+  "category": "Developer Tooling",
+  "concepts": [
+    "license",
+    "list",
+    "machine",
+    "create",
+    "delete",
+    "update",
+    "webhook",
+    "environment",
+    "user",
+    "cargo",
+    "entitlements",
+    "icon",
+    "readme",
+    "component",
+    "endpoint",
+    "entitlement",
+    "event",
+    "group",
+    "index",
+    "policy",
+    "product",
+    "token",
+    "checkout",
+    "lock",
+    "main",
+    "package",
+    "pnpm",
+    "vite",
+    "build",
+    "offline",
+    "reset",
+    "schema",
+    "tsconfig",
+    "usage",
+    "128x128",
+    "128x128@2x",
+    "32x32",
+    "activate",
+    "changelog",
+    "commands"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "exploratory",
+  "_hash": "68e61fd8a49b65f9f77644b1d0c4bab42cb07bff47626a7f3bf9128e0718bc9b",
+  "_path": "/Users/ember/src/keygen-rs",
+  "_updated_at": "2026-02-14T00:56:33.094379Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5d506d80ba859fe646d8096b695e8e914cc712f485916f17eda971a39c5bd9ab",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:33.582947+00:00"
+  },
+  "mined_motifs": [
+    "config",
+    "test",
+    "install",
+    "manifest",
+    "Shell",
+    "appicon",
+    "dark",
+    "launcher",
+    "light",
+    "automation",
+    "clean",
+    "compile"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.764
+    },
+    {
+      "name": "httpz",
+      "path": "/Users/ember/dev/httpz",
+      "similarity": 0.695
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/vscode-rustup",
+      "similarity": 0.684
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/gh/vscode-rustup",
+      "similarity": 0.672
+    },
+    {
+      "name": "relicense-assistant",
+      "path": "/Users/ember/dev/gh/relicense-assistant",
+      "similarity": 0.654
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.652
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "license",
+      "list",
+      "machine",
+      "create",
+      "delete",
+      "update",
+      "webhook",
+      "environment",
+      "user",
+      "cargo",
+      "entitlements",
+      "icon",
+      "readme",
+      "component",
+      "endpoint",
+      "entitlement",
+      "event",
+      "group",
+      "index",
+      "policy",
+      "product",
+      "token",
+      "checkout",
+      "lock",
+      "main",
+      "package",
+      "pnpm",
+      "vite",
+      "build",
+      "offline",
+      "reset",
+      "schema",
+      "tsconfig",
+      "usage",
+      "128x128",
+      "128x128@2x",
+      "32x32",
+      "activate",
+      "changelog",
+      "commands"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "TypeScript",
+      "JavaScript",
+      "license",
+      "list",
+      "machine",
+      "create",
+      "delete",
+      "update",
+      "webhook",
+      "environment",
+      "user",
+      "cargo",
+      "entitlements",
+      "icon",
+      "readme"
+    ],
+    "mined_motifs": [
+      "config",
+      "test",
+      "install",
+      "manifest",
+      "Shell",
+      "appicon",
+      "dark",
+      "launcher",
+      "light",
+      "automation",
+      "clean",
+      "compile"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 6.219,
+        "matches": [
+          "automation",
+          "webhook"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 4.921,
+        "matches": [
+          "cargo",
+          "category:Developer Tooling"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 4.826,
+        "matches": [
+          "automation",
+          "cargo"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 4.796,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.784,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.005,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.094379Z"
+  }
+}

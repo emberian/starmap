@@ -1,0 +1,263 @@
+{
+  "name": "astrolog",
+  "description": "Astrolog is a multi-platform astronomical calculation engine and chart generation suite designed for high-precision celestial mechanics. It leverages the Swiss Ephemeris and PLACALC libraries to compute planetary positions, house cusps, and aspects across various coordinate systems and house division methods. The system supports terminal-based ASCII output alongside graphical rendering for X11, Windows, and PostScript, integrating global atlas data and IANA time zone information.",
+  "tags": [
+    "ephemeris",
+    "astrology",
+    "celestial-mechanics",
+    "astronomy",
+    "swiss-ephemeris",
+    "coordinate-transformation",
+    "house-systems",
+    "planetary-positions",
+    "x11",
+    "win32",
+    "postscript",
+    "julian-day",
+    "zodiac",
+    "atlas",
+    "horoscope",
+    "graphics-engine"
+  ],
+  "category": "Celestial Mechanics and Astrological Computation",
+  "concepts": [
+    "Swiss Ephemeris",
+    "PLACALC",
+    "Julian Day",
+    "Ecliptic Coordinates",
+    "House Cusps",
+    "Planetary Aspects",
+    "Coordinate Transformation",
+    "Spherical Trigonometry",
+    "Retrograde Motion",
+    "Ephemeris Data",
+    "Zodiacal Longitude",
+    "Obliquity of the Ecliptic",
+    "Nutation",
+    "Precession",
+    "Time Zone Database",
+    "Atlas Integration",
+    "PostScript Rendering",
+    "X11 Graphics",
+    "Win32 API",
+    "Natal Charts",
+    "Composite Charts",
+    "Progressed Charts",
+    "Synastry",
+    "Orbital Elements",
+    "Asteroids",
+    "Fixed Stars",
+    "Lunar Nodes",
+    "Sidereal Time",
+    "Geocentric Positions",
+    "Heliocentric Positions",
+    "Equatorial Coordinates",
+    "Azimuthal Coordinates",
+    "Bitmap Processing",
+    "ASCII Charts"
+  ],
+  "languages": [
+    "C++",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 125,
+    "has_readme": false,
+    "sample_files": [
+      "Makefile",
+      "swehouse.cpp",
+      "calc.cpp",
+      "astrolog.cpp",
+      "charts1.cpp"
+    ]
+  },
+  "_hash": "e7792fa702f91c2b073807edb4a20203b8c10b0fc7465500489a879a05067b1e",
+  "_path": "/Users/ember/src/astrolog",
+  "_updated_at": "2026-02-14T00:56:32.301262Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c3082bc56dd88a797cf8c4e6175240c7e8c07faf7650e438a2e623dca354a192",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:58.205668+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "compiler-design",
+    "Adiabatic energy conservation",
+    "Camshaft lobe profile simulation",
+    "Choked flow modeling",
+    "Combustion thermodynamics",
+    "Constraint-based physics solving",
+    "Convolution filtering",
+    "Crankcase pressure modeling",
+    "Direct throttle linkage modeling",
+    "Domain-specific scripting runtime",
+    "Dyno speed control"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.791
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.777
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.773
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.77
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.769
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.767
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.767
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.766
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Swiss Ephemeris",
+      "PLACALC",
+      "Julian Day",
+      "Ecliptic Coordinates",
+      "House Cusps",
+      "Planetary Aspects",
+      "Coordinate Transformation",
+      "Spherical Trigonometry",
+      "Retrograde Motion",
+      "Ephemeris Data",
+      "Zodiacal Longitude",
+      "Obliquity of the Ecliptic",
+      "Nutation",
+      "Precession",
+      "Time Zone Database",
+      "Atlas Integration",
+      "PostScript Rendering",
+      "X11 Graphics",
+      "Win32 API",
+      "Natal Charts",
+      "Composite Charts",
+      "Progressed Charts",
+      "Synastry",
+      "Orbital Elements",
+      "Asteroids",
+      "Fixed Stars",
+      "Lunar Nodes",
+      "Sidereal Time",
+      "Geocentric Positions",
+      "Heliocentric Positions",
+      "Equatorial Coordinates",
+      "Azimuthal Coordinates",
+      "Bitmap Processing",
+      "ASCII Charts"
+    ],
+    "tags": [
+      "ephemeris",
+      "astrology",
+      "celestial-mechanics",
+      "astronomy",
+      "swiss-ephemeris",
+      "coordinate-transformation",
+      "house-systems",
+      "planetary-positions",
+      "x11",
+      "win32",
+      "postscript",
+      "julian-day",
+      "zodiac",
+      "atlas",
+      "horoscope",
+      "graphics-engine"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "Adiabatic energy conservation",
+      "Camshaft lobe profile simulation",
+      "Choked flow modeling",
+      "Combustion thermodynamics",
+      "Constraint-based physics solving",
+      "Convolution filtering",
+      "Crankcase pressure modeling",
+      "Direct throttle linkage modeling",
+      "Domain-specific scripting runtime",
+      "Dyno speed control"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.225,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.212,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.415,
+        "matches": []
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.413,
+        "matches": []
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 2.403,
+        "matches": []
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.402,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.301262Z"
+  }
+}

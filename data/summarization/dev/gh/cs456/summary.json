@@ -1,0 +1,240 @@
+{
+  "name": "cs456",
+  "description": "A comprehensive suite of cryptographic implementations and cryptanalysis tools focusing on both classical and modern primitives. The repository includes solvers for monoalphabetic substitution ciphers, modular arithmetic implementations of RSA and ElGamal, and Elliptic Curve Cryptography (ECC) systems. It further demonstrates practical application through an encrypted chat architecture utilizing hybrid cryptosystems with AES-CBC and ElGamal.",
+  "tags": [
+    "cryptography",
+    "cryptanalysis",
+    "rsa",
+    "elgamal",
+    "ecc",
+    "aes",
+    "rust",
+    "gmp",
+    "frequency-analysis",
+    "bruteforce",
+    "elliptic-curves",
+    "asymmetric-encryption",
+    "symmetric-encryption",
+    "security-engineering",
+    "modular-arithmetic"
+  ],
+  "category": "Applied Cryptography",
+  "concepts": [
+    "Monoalphabetic Substitution Cipher",
+    "RSA Cryptosystem",
+    "ElGamal Encryption",
+    "Elliptic Curve ElGamal (ECEG)",
+    "Hybrid Cryptosystems",
+    "AES-CBC Block Cipher",
+    "Modular Exponentiation",
+    "Miller-Rabin Primality Testing",
+    "Discrete Logarithm Problem",
+    "Point Addition and Doubling",
+    "Frequency Analysis",
+    "XorShift64* PRNG",
+    "Handshake Protocols",
+    "Ciphertext-only Attack",
+    "Public Key Infrastructure",
+    "TCP Daemon Architecture"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 37,
+    "has_readme": false,
+    "sample_files": [
+      "a2/src/main.rs",
+      "a3/src/lib.rs",
+      "a4/src/main.rs",
+      "chat/src/lib.rs",
+      "chat/src/daemon.rs"
+    ]
+  },
+  "_hash": "7df20be5c451ffbfdd9455b9e75a3c1c5c18a5896cba5bd00c4a93ffddf41a73",
+  "_path": "/Users/ember/dev/gh/cs456",
+  "_updated_at": "2026-02-14T00:56:24.961675Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Monoalphabetic Substitution Cipher",
+      "RSA Cryptosystem",
+      "ElGamal Encryption",
+      "Elliptic Curve ElGamal (ECEG)",
+      "Hybrid Cryptosystems",
+      "AES-CBC Block Cipher",
+      "Modular Exponentiation",
+      "Miller-Rabin Primality Testing",
+      "Discrete Logarithm Problem",
+      "Point Addition and Doubling",
+      "Frequency Analysis",
+      "XorShift64* PRNG",
+      "Handshake Protocols",
+      "Ciphertext-only Attack",
+      "Public Key Infrastructure",
+      "TCP Daemon Architecture"
+    ],
+    "tags": [
+      "cryptography",
+      "cryptanalysis",
+      "rsa",
+      "elgamal",
+      "elliptic-curves",
+      "aes",
+      "Rust Language Ecosystem",
+      "gmp",
+      "frequency-analysis",
+      "bruteforce",
+      "asymmetric-encryption",
+      "symmetric-encryption",
+      "security-engineering",
+      "modular-arithmetic"
+    ],
+    "mined_motifs": [
+      "Finite Field Arithmetic",
+      "poseidon-hash",
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "Sponge Construction",
+      "Elliptic Curve Cryptography",
+      "arkworks",
+      "Arithmetic Circuits",
+      "Fiat-Shamir Heuristic",
+      "Foreign Field Arithmetic",
+      "Polynomial Commitment Schemes"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 12.258,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks",
+          "poseidon-hash",
+          "category:Applied Cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.661,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.84,
+        "matches": [
+          "polynomial commitment schemes",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 6.658,
+        "matches": [
+          "cryptography",
+          "category:Applied Cryptography"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.452,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.45,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.961675Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "744ad3ea9e21e747942a489f32d99f6e0dc19cc9b62303e251b042c627f8c940",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:53.730584+00:00"
+  },
+  "mined_motifs": [
+    "Finite Field Arithmetic",
+    "poseidon-hash",
+    "Recursive SNARKs",
+    "mina-protocol",
+    "Sponge Construction",
+    "zero-knowledge",
+    "Elliptic Curve Cryptography",
+    "arkworks",
+    "Arithmetic Circuits",
+    "Fiat-Shamir Heuristic",
+    "Foreign Field Arithmetic",
+    "Polynomial Commitment Schemes"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.854
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.842
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.841
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.836
+    },
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.833
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.832
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.829
+    },
+    {
+      "name": "kimchi-playground",
+      "path": "/Users/ember/dev/kimchi-playground",
+      "similarity": 0.828
+    }
+  ]
+}

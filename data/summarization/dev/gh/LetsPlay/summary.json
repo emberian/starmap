@@ -1,0 +1,204 @@
+{
+  "name": "LetsPlay",
+  "description": "A desktop simulation game developed using the Electron framework that models the operational management of a digital media channel. The system utilizes a decoupled architecture where the Node.js main process manages application lifecycle and window orchestration, while the renderer process handles the simulation logic and user interface via web technologies. It implements standard event-driven patterns for window management and basic crash reporting for runtime stability.",
+  "tags": [
+    "electron",
+    "javascript",
+    "simulation",
+    "game-development",
+    "desktop-application",
+    "cross-platform",
+    "gpl-3.0",
+    "management-sim",
+    "node-js",
+    "html5"
+  ],
+  "category": "Business Simulation Game",
+  "concepts": [
+    "Event-driven Architecture",
+    "Application Lifecycle Management",
+    "Desktop Runtime Environment",
+    "Main-Renderer Process Separation",
+    "Window Orchestration",
+    "Resource Management Simulation",
+    "Inter-process Communication",
+    "Crash Telemetry Integration",
+    "Browser Engine Embedding",
+    "Asynchronous Event Hooks"
+  ],
+  "languages": [
+    "JavaScript",
+    "HTML"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "main.js"
+    ]
+  },
+  "_hash": "a966742e2fed691aa989fe46c0cffadb9e003eac9e90bdad1641c25c87c34ac9",
+  "_path": "/Users/ember/dev/gh/LetsPlay",
+  "_updated_at": "2026-02-14T00:56:24.234341Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Event-driven Architecture",
+      "Application Lifecycle Management",
+      "Desktop Runtime Environment",
+      "Main-Renderer Process Separation",
+      "Window Orchestration",
+      "Resource Management Simulation",
+      "Inter-process Communication",
+      "Crash Telemetry Integration",
+      "Browser Engine Embedding",
+      "Asynchronous Event Hooks"
+    ],
+    "tags": [
+      "electron",
+      "javascript",
+      "real-time-simulation",
+      "game-engine",
+      "desktop-application",
+      "cross-platform",
+      "gpl-3.0",
+      "management-sim",
+      "node-js",
+      "html5"
+    ],
+    "mined_motifs": [
+      "typescript",
+      "vite",
+      "canvas-api",
+      "Resource Acquisition Is Initialization (RAII)",
+      "game-design",
+      "event-driven",
+      "real-time-simulation",
+      "state-machine",
+      "dice-game",
+      "java",
+      "javafx",
+      "collision-detection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.453,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.438,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.424,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.298,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.599,
+        "matches": []
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.597,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.234341Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9269329e12ab603eb7adcff02ca1adf1ff1f833dd78f69ca2e5e4933cb432cf2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:15.602947+00:00"
+  },
+  "mined_motifs": [
+    "typescript",
+    "vite",
+    "canvas-api",
+    "resource-management",
+    "game-design",
+    "event-driven",
+    "real-time-simulation",
+    "state-machine",
+    "dice-game",
+    "java",
+    "javafx",
+    "collision-detection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.825
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.823
+    },
+    {
+      "name": "green-factory",
+      "path": "/Users/ember/dev/green-factory",
+      "similarity": 0.821
+    },
+    {
+      "name": "cs242_hw3",
+      "path": "/Users/ember/dev/gh/cs242_hw3",
+      "similarity": 0.818
+    },
+    {
+      "name": "Baystation12",
+      "path": "/Users/ember/dev/gh/forks/Baystation12",
+      "similarity": 0.812
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.81
+    },
+    {
+      "name": "cs242-proj1",
+      "path": "/Users/ember/dev/gh/cs242-proj1",
+      "similarity": 0.809
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.807
+    }
+  ]
+}

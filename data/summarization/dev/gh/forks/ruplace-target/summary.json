@@ -1,0 +1,180 @@
+{
+  "name": "ruplace-target",
+  "description": "A target specification repository for collaborative pixel-art canvases, facilitating the coordination of automated pixel placement. It provides visual assets in PNG and XCF formats alongside a JSON-based manifest that maps coordinates and color palettes for consumption by orchestration bots.",
+  "tags": [
+    "pixel-art",
+    "coordination",
+    "r-place",
+    "canvas-automation",
+    "json-manifest",
+    "image-mapping",
+    "pixel-placement",
+    "bot-target"
+  ],
+  "category": "Collaborative Canvas Coordination",
+  "concepts": [
+    "Coordinate Mapping",
+    "Pixel Placement Orchestration",
+    "Canvas Target Specification",
+    "Automated Synchronization",
+    "Visual Asset Manifests",
+    "Color Space Mapping"
+  ],
+  "languages": [
+    "JSON"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "6430408a1a8c2489661db1b43505b0ed82a8b59ac6c616114865fc607e16aa04",
+  "_path": "/Users/ember/dev/gh/forks/ruplace-target",
+  "_updated_at": "2026-02-14T00:56:26.547626Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Coordinate Mapping",
+      "Pixel Placement Orchestration",
+      "Canvas Target Specification",
+      "Automated Synchronization",
+      "Visual Asset Manifests",
+      "Color Space Mapping"
+    ],
+    "tags": [
+      "pixel-art",
+      "coordination",
+      "r-place",
+      "canvas-automation",
+      "json-manifest",
+      "image-mapping",
+      "pixel-placement",
+      "bot-target"
+    ],
+    "mined_motifs": [
+      "Language Server Protocol",
+      "diagnostics",
+      "language-server",
+      "typescript",
+      "vscode-extension",
+      "Asset Management Systems",
+      "COSI",
+      "Diagrammatic Representation",
+      "Document Build Automation",
+      "Functional Requirements",
+      "Information System Design",
+      "Interaction Diagrams"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.56,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.548,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.519,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.512,
+        "matches": []
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 2.504,
+        "matches": []
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 2.5,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.547626Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8749bf1980d50867816391bece89b114b11e39d6d660f6038d32bbd6d6e33164",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:07.666412+00:00"
+  },
+  "mined_motifs": [
+    "Language Server Protocol",
+    "diagnostics",
+    "language-server",
+    "typescript",
+    "vscode-extension",
+    "Asset Management Systems",
+    "COSI",
+    "Diagrammatic Representation",
+    "Document Build Automation",
+    "Functional Requirements",
+    "Information System Design",
+    "Interaction Diagrams"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.815
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.807
+    },
+    {
+      "name": "rust-logo-3d",
+      "path": "/Users/ember/dev/gh/rust-logo-3d",
+      "similarity": 0.805
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.794
+    },
+    {
+      "name": "open-collaboration-tools",
+      "path": "/Users/ember/dev/open-collaboration-tools",
+      "similarity": 0.794
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.794
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.793
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.793
+    }
+  ]
+}

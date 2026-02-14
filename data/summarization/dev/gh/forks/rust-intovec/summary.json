@@ -1,0 +1,235 @@
+{
+  "name": "intovec",
+  "description": "A specialized Rust utility crate providing a trait-based interface for converting various sequence types into vectors with a focus on minimizing memory allocations. It implements zero-copy transitions for owned types like boxed slices and Strings while providing fallback copy-based conversions for borrowed slices, abstracting over ownership patterns for high-performance data handling.",
+  "tags": [
+    "rust",
+    "vector",
+    "zero-copy",
+    "traits",
+    "memory-management",
+    "type-conversion",
+    "performance",
+    "move-semantics",
+    "data-structures",
+    "utility",
+    "allocation-optimization"
+  ],
+  "category": "Zero-Cost Data Transformation",
+  "concepts": [
+    "Trait-based polymorphism",
+    "Zero-copy data transfer",
+    "Ownership semantics",
+    "Heap-to-heap reification",
+    "Move semantics",
+    "Allocation minimization",
+    "Generic sequence handling",
+    "Buffer marshalling",
+    "Memory safety",
+    "In-place conversion",
+    "Rust standard library extension",
+    "Generic type parameters",
+    "Inline optimization",
+    "Slice-to-vec coercion",
+    "String-to-bytes conversion",
+    "Borrowed vs owned abstraction",
+    "Compile-time dispatch",
+    "Monomorphization",
+    "Resource Acquisition Is Initialization (RAII)",
+    "Explicit ownership transfer",
+    "Heap management",
+    "Unnecessary copy avoidance"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "cd713477c55364b21180e590a134f2cd897571068f7a549ba2400a74a941e28b",
+  "_path": "/Users/ember/dev/gh/forks/rust-intovec",
+  "_updated_at": "2026-02-14T00:56:26.602774Z",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "Trait-based polymorphism",
+      "Zero-copy data transfer",
+      "Ownership semantics",
+      "Heap-to-heap reification",
+      "Move semantics",
+      "Allocation minimization",
+      "Generic sequence handling",
+      "Buffer marshalling",
+      "Memory safety",
+      "In-place conversion",
+      "Rust standard library extension",
+      "Generic type parameters",
+      "Inline optimization",
+      "Slice-to-vec coercion",
+      "String-to-bytes conversion",
+      "Borrowed vs owned abstraction",
+      "Compile-time dispatch",
+      "Monomorphization",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Explicit ownership transfer",
+      "Heap management",
+      "Unnecessary copy avoidance"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "vector",
+      "zero-copy",
+      "traits",
+      "Memory Management",
+      "type-conversion",
+      "performance",
+      "move-semantics",
+      "data-structures",
+      "utility",
+      "allocation-optimization"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "bitset",
+      "Rust Language Ecosystem",
+      "systems-programming",
+      "memory-layout",
+      "Systems Programming",
+      "Memory Management",
+      "rpc",
+      "Bit-level addressing",
+      "Bitwise masking",
+      "Boolean algebra",
+      "Bounds-checked operations"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.104,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.075,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.336,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.31,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.296,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.294,
+        "matches": [
+          "systems-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.602774Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "045952ffad7f689d22bdac52e77b0d32437d3088e6530092503bb1660282ee5b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:15.018868+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "bitset",
+    "no-std",
+    "low-level",
+    "memory-layout",
+    "systems-programming",
+    "Manual Memory Management",
+    "rpc",
+    "Bit-level addressing",
+    "Bitwise masking",
+    "Boolean algebra",
+    "Bounds-checked operations"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fixedbitset",
+      "path": "/Users/ember/dev/gh/forks/fixedbitset",
+      "similarity": 0.802
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.798
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.798
+    },
+    {
+      "name": "byteorder",
+      "path": "/Users/ember/dev/gh/forks/byteorder",
+      "similarity": 0.793
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.793
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.791
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.788
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.787
+    }
+  ]
+}

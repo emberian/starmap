@@ -1,0 +1,228 @@
+{
+  "name": "computer-graphics-book",
+  "description": "A comprehensive technical resource detailing the architecture of modern rendering pipelines, from foundational 2D primitives to physically-based 3D rendering. The book covers rasterization, raytracing, and GPU acceleration, supported by rigorous mathematical foundations in linear algebra and calculus.",
+  "tags": [
+    "computer-graphics",
+    "rendering",
+    "rasterization",
+    "raytracing",
+    "pbr",
+    "shaders",
+    "gpu-acceleration",
+    "linear-algebra",
+    "vector-graphics",
+    "texture-mapping",
+    "lighting-models",
+    "geometry",
+    "animation",
+    "graphics-apis"
+  ],
+  "category": "Computer Graphics Engineering",
+  "concepts": [
+    "Rasterization Pipeline",
+    "Ray Tracing",
+    "Physically Based Rendering",
+    "GPU Architecture",
+    "Vertex Shaders",
+    "Fragment Shaders",
+    "Linear Algebra",
+    "Calculus",
+    "Texture Mapping",
+    "Alpha Compositing",
+    "Clipping Algorithms",
+    "Diffuse Lighting",
+    "Specular Lighting",
+    "Shadow Mapping",
+    "Vector Graphics",
+    "Blitting",
+    "Projection Matrices",
+    "Camera Transformations"
+  ],
+  "languages": [
+    "Markdown"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 43,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "06ba65dbad34b77be9c977e4af29386ea04c12e2e7628b4c9b92f7c24c6718f6",
+  "_path": "/Users/ember/dev/gh/computer-graphics-book",
+  "_updated_at": "2026-02-14T00:56:24.802176Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Rasterization Pipeline",
+      "Ray Tracing",
+      "Physically Based Rendering",
+      "GPU Architecture",
+      "Vertex Shaders",
+      "Fragment Shaders",
+      "Linear Algebra",
+      "Calculus",
+      "Texture Mapping",
+      "Alpha Compositing",
+      "Clipping Algorithms",
+      "Diffuse Lighting",
+      "Specular Lighting",
+      "Shadow Mapping",
+      "Vector Graphics",
+      "Blitting",
+      "Projection Matrices",
+      "Camera Transformations"
+    ],
+    "tags": [
+      "Computer Graphics & Rendering",
+      "low-level-graphics",
+      "pbr",
+      "shaders",
+      "Linear Algebra",
+      "vector-graphics",
+      "texture-mapping",
+      "lighting-models",
+      "geometry",
+      "animation",
+      "graphics-apis"
+    ],
+    "mined_motifs": [
+      "opengl",
+      "Rust Language Ecosystem",
+      "glsl",
+      "glfw",
+      "gpu-programming",
+      "graphics-api",
+      "Shader Compilation",
+      "Vertex Array Objects (VAO)",
+      "Vertex Buffer Objects (VBO)",
+      "cpp",
+      "Computer Graphics & Rendering",
+      "vao"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.231,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.916,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.911,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.856,
+        "matches": [
+          "ray tracing",
+          "glsl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.397,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 2.616,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.802176Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "89101a29eb8e885ea358e9fd9f9e914f96063aa30426a982a479947fe4405d9f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:42.530071+00:00"
+  },
+  "mined_motifs": [
+    "opengl",
+    "rust",
+    "glsl",
+    "glfw",
+    "gpu-programming",
+    "graphics-api",
+    "Shader Compilation",
+    "Vertex Array Objects (VAO)",
+    "Vertex Buffer Objects (VBO)",
+    "cpp",
+    "graphics-programming",
+    "vao"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.872
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.867
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.867
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.853
+    },
+    {
+      "name": "gfx-rs.github.io",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+      "similarity": 0.853
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.852
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.851
+    },
+    {
+      "name": "cgmath-rs",
+      "path": "/Users/ember/dev/gh/forks/cgmath-rs",
+      "similarity": 0.851
+    }
+  ]
+}

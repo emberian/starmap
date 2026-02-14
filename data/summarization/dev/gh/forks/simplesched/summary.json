@@ -1,0 +1,243 @@
+{
+  "name": "simplesched",
+  "description": "simplesched is a lightweight coroutine scheduler for Rust that provides a cooperative multitasking environment with integrated asynchronous I/O. It implements an M:N threading model using a global lock-free task queue and a set of worker threads that multiplex coroutines onto OS threads. The library abstracts mio to provide synchronous-looking networking primitives for TCP, UDP, and HTTP, enabling a Go-like programming style for high-concurrency systems.",
+  "tags": [
+    "rust",
+    "coroutine",
+    "scheduler",
+    "async-io",
+    "mio",
+    "green-threads",
+    "fiber",
+    "networking",
+    "http",
+    "tcp",
+    "udp",
+    "concurrency",
+    "lock-free",
+    "runtime"
+  ],
+  "category": "User-mode Threading & Asynchronous I/O Runtime",
+  "concepts": [
+    "M:N Scheduling",
+    "Green Threads",
+    "Cooperative Multitasking",
+    "User-space Context Switching",
+    "Stack Allocation & Pooling",
+    "Asynchronous I/O Multiplexing",
+    "Global Lock-free Task Queue",
+    "Event Loop Integration",
+    "Non-blocking Network Primitives",
+    "Coroutine-aware Synchronization",
+    "Thread-local Task Processors",
+    "Task State Management",
+    "HTTP Protocol Implementation",
+    "TCP Socket Abstractions",
+    "UDP Socket Abstractions",
+    "Cooperative Yielding",
+    "Green Thread Mutex",
+    "OS Thread Multiplexing",
+    "Fiber Abstractions",
+    "User-mode Threading",
+    "Poll-based I/O Handling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 25,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/net/http/mod.rs",
+      "src/net/mod.rs",
+      "src/sync/mod.rs"
+    ]
+  },
+  "_hash": "cfc13474838e00de11e7a6fae0147958ac71adae016e4a1382240b692a69f328",
+  "_path": "/Users/ember/dev/gh/forks/simplesched",
+  "_updated_at": "2026-02-14T00:56:26.700165Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "M:N Scheduling",
+      "Green Threads",
+      "Cooperative Multitasking",
+      "User-space Context Switching",
+      "Stack Allocation & Pooling",
+      "Asynchronous I/O Multiplexing",
+      "Global Lock-free Task Queue",
+      "Event Loop Integration",
+      "Non-blocking Network Primitives",
+      "Coroutine-aware Synchronization",
+      "Thread-local Task Processors",
+      "Task State Management",
+      "HTTP Protocol Implementation",
+      "TCP Socket Abstractions",
+      "UDP Socket Abstractions",
+      "Cooperative Yielding",
+      "Green Thread Mutex",
+      "OS Thread Multiplexing",
+      "Fiber Abstractions",
+      "User-mode Threading",
+      "Poll-based I/O Handling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "coroutine",
+      "scheduler",
+      "Asynchronous Programming",
+      "mio",
+      "green-threads",
+      "fiber",
+      "networking",
+      "http",
+      "tcp",
+      "udp",
+      "Concurrency & Synchronization",
+      "lock-free",
+      "runtime"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "foreign-function-interface",
+      "Foreign Function Interface",
+      "Compiler Engineering",
+      "Rust Language Ecosystem",
+      "Device Discovery",
+      "Systems Programming",
+      "Inter-process communication (IPC)",
+      "Memory-safe wrappers",
+      "Message-oriented middleware",
+      "Multiplexed I/O"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.111,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.326,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.88,
+        "matches": [
+          "foreign function interface",
+          "runtime"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.581,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.529,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.512,
+        "matches": [
+          "compiler engineering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.700165Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4471d1ae118debde795821fa5260fd57d279bba87c3d4fa4a2172913cf8a540b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:26.234801+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "Foreign Function Interface (FFI)",
+    "bindings",
+    "ffi",
+    "compiler-design",
+    "no_std",
+    "Device Discovery",
+    "systems-programming",
+    "Inter-process communication (IPC)",
+    "Memory-safe wrappers",
+    "Message-oriented middleware",
+    "Multiplexed I/O"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.885
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.881
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.868
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.864
+    },
+    {
+      "name": "libfringe",
+      "path": "/Users/ember/dev/gh/forks/libfringe",
+      "similarity": 0.863
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.862
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.861
+    }
+  ]
+}

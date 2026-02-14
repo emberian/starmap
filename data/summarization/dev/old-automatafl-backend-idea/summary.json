@@ -1,0 +1,231 @@
+{
+  "name": "automatafl-game-server",
+  "description": "A high-concurrency game backend implemented in Rust using the Axum web framework and SeaORM for persistent storage. It features a sophisticated state management system with WebSocket-based real-time event broadcasting, integrated matchmaking, and Argon2-secured authentication. The architecture leverages asynchronous task orchestration via Tokio and shared state through DashMap to support low-latency game logic execution and snapshotting.",
+  "tags": [
+    "rust",
+    "axum",
+    "sea-orm",
+    "postgresql",
+    "websockets",
+    "real-time",
+    "matchmaking",
+    "game-server",
+    "tokio",
+    "argon2",
+    "distributed-systems",
+    "api-design",
+    "database-migrations",
+    "state-synchronization",
+    "concurrent-programming"
+  ],
+  "category": "Asynchronous Real-time Game Backend",
+  "concepts": [
+    "Asynchronous Request Handling",
+    "WebSocket Event Broadcasting",
+    "Persistent Entity Modeling",
+    "Automata-based Game Logic",
+    "Session-based Authentication",
+    "Elo Rating Calculation",
+    "Database Migration Management",
+    "State Snapshotting",
+    "Broadcast Channel Orchestration",
+    "Middleware-based Authorization",
+    "Concurrent Shared State",
+    "JSON-serialized Game States",
+    "Real-time Matchmaking Queues",
+    "Administrative Resource Management"
+  ],
+  "languages": [
+    "Rust",
+    "SQL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 29,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/entities/mod.rs",
+      "src/handlers/mod.rs",
+      "src/main.rs",
+      "src/migrations/mod.rs"
+    ]
+  },
+  "_hash": "872e2c884e45d1c830d0119f16d1e280b6cd40fb8b794b95a49dc9605ff3674d",
+  "_path": "/Users/ember/dev/old-automatafl-backend-idea",
+  "_updated_at": "2026-02-14T00:56:29.802923Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Asynchronous Request Handling",
+      "WebSocket Event Broadcasting",
+      "Persistent Entity Modeling",
+      "Automata-based Game Logic",
+      "Session-based Authentication",
+      "Elo Rating Calculation",
+      "Database Migration Management",
+      "State Snapshotting",
+      "Broadcast Channel Orchestration",
+      "Middleware-based Authorization",
+      "Concurrent Shared State",
+      "JSON-serialized Game States",
+      "Real-time Matchmaking Queues",
+      "Administrative Resource Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "axum",
+      "sea-orm",
+      "postgresql",
+      "websockets",
+      "real-time-simulation",
+      "matchmaking",
+      "game-server",
+      "Asynchronous Programming",
+      "argon2",
+      "distributed-systems",
+      "api-design",
+      "database-migrations",
+      "state-synchronization",
+      "concurrent-programming"
+    ],
+    "mined_motifs": [
+      "leptos",
+      "WebAssembly",
+      "sqlite",
+      "reactive-ui",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "backend",
+      "microservice",
+      "Asynchronous Task Scheduling",
+      "futures",
+      "Asynchronous I/O",
+      "cellular-automata"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.874,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.868,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.523,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.505,
+        "matches": [
+          "api-design"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.479,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.472,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.802923Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3986b67c090de28967b108231873d794244e46e96cdda4268ff967c82e988448",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:14.988556+00:00"
+  },
+  "mined_motifs": [
+    "leptos",
+    "wasm",
+    "sqlite",
+    "reactive-ui",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "backend",
+    "microservice",
+    "Asynchronous Task Scheduling",
+    "futures",
+    "Asynchronous I/O",
+    "Cellular Automata"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.924
+    },
+    {
+      "name": "automatafl-react",
+      "path": "/Users/ember/dev/automatafl-react",
+      "similarity": 0.894
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.872
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.869
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.849
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.844
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.842
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.841
+    }
+  ]
+}

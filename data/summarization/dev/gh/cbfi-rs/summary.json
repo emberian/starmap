@@ -1,0 +1,209 @@
+{
+  "name": "cbfi",
+  "description": "A performance-oriented Brainfuck interpreter in Rust that implements basic run-length encoding (RLE) to coalesce sequences of isomorphic operations into single instructions. During the parsing stage, it performs jump-target precalculation, allowing for constant-time branch resolution during execution. The runtime environment utilizes a statically allocated 3000-byte cell tape and optimizes standard I/O operations by processing coalesced arithmetic and pointer shifts as batch operations.",
+  "tags": [
+    "brainfuck",
+    "interpreter",
+    "rust",
+    "rle-optimization",
+    "esolang",
+    "virtual-machine",
+    "bytecode",
+    "cli",
+    "minimalist-runtime"
+  ],
+  "category": "Esoteric Language Runtime",
+  "concepts": [
+    "Run-Length Encoding",
+    "Jump-Target Precalculation",
+    "Instruction Coalescing",
+    "Turing-Complete Minimalist ISA",
+    "Bytecode Transformation",
+    "Single-Pass Parsing",
+    "Static Memory Allocation",
+    "Batch I/O Processing",
+    "Branch Optimization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/cbfi.rs"
+    ]
+  },
+  "_hash": "1660a408f552ff9cbd096dbca51cc4333a62378f910608c1019125c2badb7010",
+  "_path": "/Users/ember/dev/gh/cbfi-rs",
+  "_updated_at": "2026-02-14T00:56:24.503364Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Run-Length Encoding",
+      "Jump-Target Precalculation",
+      "Instruction Coalescing",
+      "Turing-Complete Minimalist ISA",
+      "Bytecode Transformation",
+      "Single-Pass Parsing",
+      "Static Memory Allocation",
+      "Batch I/O Processing",
+      "Branch Optimization"
+    ],
+    "tags": [
+      "brainfuck",
+      "interpreter",
+      "Rust Language Ecosystem",
+      "rle-optimization",
+      "esolang",
+      "virtual-machine",
+      "bytecode",
+      "cli",
+      "minimalist-runtime"
+    ],
+    "mined_motifs": [
+      "AST",
+      "Lexical Analysis",
+      "Recursive Descent Parsing",
+      "Lexical Scoping",
+      "Systems Programming",
+      "runtime",
+      "dynamic-typing",
+      "parser",
+      "recursive-descent",
+      "functional-programming",
+      "logic-programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 15.088,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "bytecode",
+          "recursive-descent"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.01,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.684,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.282,
+        "matches": [
+          "bytecode",
+          "parser"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.241,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.217,
+        "matches": [
+          "logic-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.503364Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c7178d870da860c3e89fe2152e809e45dc03068ea3d2f6715e2108f679f33e29",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:36.622648+00:00"
+  },
+  "mined_motifs": [
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "Abstract Syntax Tree",
+    "Recursive Descent Parsing",
+    "Lexical Scoping",
+    "systems-programming",
+    "runtime",
+    "dynamic-typing",
+    "parser",
+    "recursive-descent",
+    "functional-programming",
+    "logic-programming"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.79
+    },
+    {
+      "name": "bfjoy",
+      "path": "/Users/ember/dev/shitheap/bfjoy",
+      "similarity": 0.785
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.781
+    },
+    {
+      "name": "sol",
+      "path": "/Users/ember/dev/gh/forks/sol",
+      "similarity": 0.78
+    },
+    {
+      "name": "ion",
+      "path": "/Users/ember/dev/gh/ion",
+      "similarity": 0.778
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.77
+    },
+    {
+      "name": "libreDSSP",
+      "path": "/Users/ember/dev/gh/forks/libreDSSP",
+      "similarity": 0.76
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.759
+    }
+  ]
+}

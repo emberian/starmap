@@ -1,0 +1,234 @@
+{
+  "name": "caca2",
+  "description": "A high-performance cellular automata simulation engine leveraging WGPU for cross-platform GPU acceleration and egui for real-time parameter manipulation. It supports a diverse range of 2D CA rules including Life-like, totalistic, and isotropic specifications across Moore, von Neumann, and custom neighborhoods with integrated WebAssembly support for browser-based deployment.",
+  "tags": [
+    "cellular-automata",
+    "wgpu",
+    "webgpu",
+    "rust",
+    "wasm",
+    "simulation",
+    "egui",
+    "gpgpu",
+    "shader-programming",
+    "wgsl",
+    "conways-game-of-life",
+    "cross-platform",
+    "real-time-rendering",
+    "computational-geometry"
+  ],
+  "category": "Cellular Automata Simulation",
+  "concepts": [
+    "B/S Notation (Birth/Survival)",
+    "Moore Neighborhood",
+    "von Neumann Neighborhood",
+    "Totalistic Rules",
+    "Isotropic Rules",
+    "Li-Packard Lambda Parameter",
+    "Toroidal Boundary Conditions",
+    "WebGPU Compute Shaders",
+    "Spacetime Slice Visualization",
+    "Entropy Calculation",
+    "RLE Pattern Parsing",
+    "Generations Rules",
+    "Physical Device Abstraction",
+    "Event Loop Management"
+  ],
+  "languages": [
+    "Rust",
+    "WGSL",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/ui.rs",
+      "src/rule.rs"
+    ]
+  },
+  "_hash": "836b81a55dc1eaa925cfd6f44616e3cd95fa90083c61471f4e682c18d0f4d722",
+  "_path": "/Users/ember/dev/caca2",
+  "_updated_at": "2026-02-14T00:56:23.663835Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "B/S Notation (Birth/Survival)",
+      "Moore Neighborhood",
+      "von Neumann Neighborhood",
+      "Totalistic Rules",
+      "Isotropic Rules",
+      "Li-Packard Lambda Parameter",
+      "Toroidal Boundary Conditions",
+      "WebGPU Compute Shaders",
+      "Spacetime Slice Visualization",
+      "Entropy Calculation",
+      "RLE Pattern Parsing",
+      "Generations Rules",
+      "Physical Device Abstraction",
+      "Event Loop Management"
+    ],
+    "tags": [
+      "cellular-automata",
+      "wgpu",
+      "webgpu",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "real-time-simulation",
+      "egui",
+      "GPGPU Compute",
+      "shader-programming",
+      "wgsl",
+      "conways-game-of-life",
+      "cross-platform",
+      "Computer Graphics & Rendering",
+      "computational-geometry"
+    ],
+    "mined_motifs": [
+      "cellular-automata",
+      "real-time-simulation",
+      "Stochastic State Transitions",
+      "game-of-life",
+      "WebAssembly Bindings",
+      "Double buffering",
+      "python",
+      "game-engine",
+      "Compute Shaders",
+      "Cross-platform WebGPU",
+      "GPU Buffer Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 10.858,
+        "matches": [
+          "real-time-simulation",
+          "shader-programming",
+          "cellular-automata",
+          "category:Cellular Automata Simulation"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.805,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.478,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.425,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.423,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.416,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.663835Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "eb1744a93ff286a9a32c5787211f31744c4ea52c7b78f23bf9c6ff1275f97b11",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:45.903090+00:00"
+  },
+  "mined_motifs": [
+    "Cellular Automata",
+    "real-time",
+    "Stochastic State Transitions",
+    "game-of-life",
+    "WebAssembly Bindings",
+    "Double buffering",
+    "python",
+    "game-engine",
+    "Compute Shaders",
+    "Cross-platform WebGPU",
+    "Double Buffering",
+    "GPU Buffer Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.956
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.872
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.867
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.857
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.82
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.82
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.808
+    },
+    {
+      "name": "resequence-rs",
+      "path": "/Users/ember/dev/resequence-rs",
+      "similarity": 0.807
+    }
+  ]
+}

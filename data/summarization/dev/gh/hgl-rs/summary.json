@@ -1,0 +1,214 @@
+{
+  "name": "hgl-rs",
+  "description": "A lightweight Rust wrapper for OpenGL 3.1, providing type-safe abstractions for common graphics primitives. It implements high-level interfaces for shaders, programs, vertex array objects (VAOs), and textures while maintaining direct control over the underlying GL state.",
+  "tags": [
+    "opengl",
+    "graphics",
+    "rust",
+    "glsl",
+    "rendering",
+    "vbo",
+    "vao",
+    "texture-mapping",
+    "shader-compilation",
+    "graphics-api"
+  ],
+  "category": "Graphics API Abstraction",
+  "concepts": [
+    "Vertex Buffer Objects",
+    "Vertex Array Objects",
+    "Shader Management",
+    "GLSL Interface",
+    "Texture Samplers",
+    "Pixel Transfer Operations",
+    "Resource Management (RAII)",
+    "Graphics Pipeline Synchronization",
+    "OpenGL State Machine"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/texture.rs",
+      "src/program.rs",
+      "src/vao.rs"
+    ]
+  },
+  "_hash": "75ae219c8abc174558a21c77392976e4675e9ed1387066fa7ee05244422d93ee",
+  "_path": "/Users/ember/dev/gh/hgl-rs",
+  "_updated_at": "2026-02-14T00:56:27.308290Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Vertex Buffer Objects",
+      "Vertex Array Objects",
+      "Shader Management",
+      "GLSL Interface",
+      "Texture Samplers",
+      "Pixel Transfer Operations",
+      "Resource Management (RAII)",
+      "Graphics Pipeline Synchronization",
+      "OpenGL State Machine"
+    ],
+    "tags": [
+      "opengl",
+      "Computer Graphics & Rendering",
+      "Rust Language Ecosystem",
+      "glsl",
+      "vbo",
+      "vao",
+      "texture-mapping",
+      "shader-compilation",
+      "graphics-api"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "glfw",
+      "OpenGL Core Profile",
+      "type-safety",
+      "Vertex Array Objects (VAO)",
+      "gpu",
+      "Double Buffering",
+      "Fragment Shading",
+      "foreign-function-interface",
+      "shader-programming",
+      "hardware-abstraction",
+      "Input Polling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.381,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.185,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.957,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.905,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.339,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 4.009,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.308290Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "30e8e3d98982b310995f596bffa3fccd279dbcef413a915ed35b1131a631657f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:49.283697+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "glfw",
+    "OpenGL Core Profile",
+    "type-safety",
+    "Vertex Array Objects (VAO)",
+    "gpu",
+    "Double Buffering",
+    "Fragment Shading",
+    "ffi",
+    "shader-programming",
+    "hardware-abstraction",
+    "Input Polling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.935
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.897
+    },
+    {
+      "name": "gl-rs",
+      "path": "/Users/ember/dev/gh/forks/gl-rs",
+      "similarity": 0.894
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.89
+    },
+    {
+      "name": "nice_glfw",
+      "path": "/Users/ember/dev/gh/nice_glfw",
+      "similarity": 0.869
+    },
+    {
+      "name": "CS452-LAB2",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB2",
+      "similarity": 0.868
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.862
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.861
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "name": "jwilger-claude-code-setup",
+  "description": "jwilger-claude-code-setup appears to be a ai/agents project using Shell. The available files suggest focus areas around agent, 4259, snapshot, b0bab8182c084f4e@v1.",
+  "tags": [
+    "Shell",
+    "agent",
+    "4259",
+    "snapshot",
+    "b0bab8182c084f4e@v1",
+    "00790bde39e7",
+    "0314",
+    "074656393e80",
+    "0c01caa898b6",
+    "0f9e6d9f",
+    "207f829caa7e",
+    "21382611",
+    "21b655d7f42b",
+    "40dc",
+    "4177",
+    "4277"
+  ],
+  "category": "AI/Agents",
+  "concepts": [
+    "agent",
+    "4259",
+    "snapshot",
+    "b0bab8182c084f4e@v1",
+    "00790bde39e7",
+    "0314",
+    "074656393e80",
+    "0c01caa898b6",
+    "0f9e6d9f",
+    "207f829caa7e",
+    "21382611",
+    "21b655d7f42b",
+    "40dc",
+    "4177",
+    "4277",
+    "42aa9cc1",
+    "4468",
+    "4643ba92",
+    "4698",
+    "48ea",
+    "4a43",
+    "4cc01b847e4d",
+    "4e4b",
+    "4f3f",
+    "5464a3174238",
+    "5a5f",
+    "5f0d",
+    "6106da3639eb",
+    "61b5",
+    "64726b048655",
+    "6dc0",
+    "7cf4",
+    "80301ce7",
+    "8a15",
+    "8acf",
+    "8fe573f6",
+    "9902",
+    "9b68",
+    "9cac",
+    "a966"
+  ],
+  "languages": [
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "e044ec949169a75ddc46b07fbedf8e660bd08143f71a08a27f5f01dd827b6628",
+  "_path": "/Users/ember/src/jwilger-claude-code-setup",
+  "_updated_at": "2026-02-14T00:56:33.088761Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cbdef66b34ea1f454aaa06d33531cdf9022c539883c06725628c717ed35a7e17",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:32.964251+00:00"
+  },
+  "mined_motifs": [
+    "abstract-syntax-tree",
+    "functional-programming",
+    "lexical-analysis",
+    "logic-programming",
+    "A/B Evaluation Harness",
+    "Context Window Management",
+    "Heuristic Context Zoning",
+    "Lifecycle Event Mapping",
+    "MCP Tool Integration",
+    "Pre-compaction Hooking",
+    "Session Checkpointing",
+    "Structured Memory Retrieval"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.7
+    },
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.677
+    },
+    {
+      "name": "github-api-testing",
+      "path": "/Users/ember/dev/gh/github-api-testing",
+      "similarity": 0.675
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.67
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.668
+    },
+    {
+      "name": "cline",
+      "path": "/Users/ember/dev/cline",
+      "similarity": 0.664
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.664
+    },
+    {
+      "name": "dotfiles",
+      "path": "/Users/ember/dev/gh/dotfiles",
+      "similarity": 0.661
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "agent",
+      "4259",
+      "snapshot",
+      "b0bab8182c084f4e@v1",
+      "00790bde39e7",
+      "0314",
+      "074656393e80",
+      "0c01caa898b6",
+      "0f9e6d9f",
+      "207f829caa7e",
+      "21382611",
+      "21b655d7f42b",
+      "40dc",
+      "4177",
+      "4277",
+      "42aa9cc1",
+      "4468",
+      "4643ba92",
+      "4698",
+      "48ea",
+      "4a43",
+      "4cc01b847e4d",
+      "4e4b",
+      "4f3f",
+      "5464a3174238",
+      "5a5f",
+      "5f0d",
+      "6106da3639eb",
+      "61b5",
+      "64726b048655",
+      "6dc0",
+      "7cf4",
+      "80301ce7",
+      "8a15",
+      "8acf",
+      "8fe573f6",
+      "9902",
+      "9b68",
+      "9cac",
+      "a966"
+    ],
+    "tags": [
+      "Shell",
+      "agent",
+      "4259",
+      "snapshot",
+      "b0bab8182c084f4e@v1",
+      "00790bde39e7",
+      "0314",
+      "074656393e80",
+      "0c01caa898b6",
+      "0f9e6d9f",
+      "207f829caa7e",
+      "21382611",
+      "21b655d7f42b",
+      "40dc",
+      "4177",
+      "4277"
+    ],
+    "mined_motifs": [
+      "AST",
+      "functional-programming",
+      "Lexical Analysis",
+      "logic-programming",
+      "A/B Evaluation Harness",
+      "Context Window Management",
+      "Heuristic Context Zoning",
+      "Lifecycle Event Mapping",
+      "MCP Tool Integration",
+      "Pre-compaction Hooking",
+      "Session Checkpointing",
+      "Structured Memory Retrieval"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 7.696,
+        "matches": [
+          "ast",
+          "lexical analysis"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.37,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 4.933,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 3.19,
+        "matches": [
+          "category:AI/Agents"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 2.135,
+        "matches": []
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.087,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.088761Z"
+  }
+}

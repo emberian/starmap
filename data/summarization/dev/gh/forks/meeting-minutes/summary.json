@@ -1,0 +1,228 @@
+{
+  "name": "meeting-minutes",
+  "description": "A historical archive documenting the technical evolution and governance of the Rust programming language from 2011 to 2014. It contains detailed records of weekly planning meetings, RFC triage, and API reviews that shaped core features such as the ownership model, lifetime elision, and concurrency semantics. This repository serves as a primary record of the design decisions leading up to the Rust 1.0 stabilization.",
+  "tags": [
+    "rust-lang",
+    "language-design",
+    "rfc-process",
+    "meeting-minutes",
+    "systems-programming",
+    "api-evolution",
+    "governance",
+    "mozilla",
+    "archival",
+    "technical-history"
+  ],
+  "category": "Systems Programming Language Evolution",
+  "concepts": [
+    "ownership-and-borrowing",
+    "lifetime-elision",
+    "memory-safety",
+    "type-inference-fallback",
+    "unboxed-closures",
+    "trait-bounds",
+    "associated-items",
+    "macros-by-example",
+    "foreign-function-interface",
+    "segmented-stacks",
+    "green-threading-models",
+    "simd-intrinsics",
+    "error-handling-strategies",
+    "compiler-bootstrapping",
+    "crate-system-design",
+    "module-system-evolution",
+    "static-and-dynamic-dispatch",
+    "variance-and-subtyping",
+    "object-safety",
+    "language-stabilization",
+    "rfc-governance",
+    "api-surface-review"
+  ],
+  "languages": [
+    "Markdown"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 168,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "5170fea914ea77cc40167dfdfbf1ed1e747b455c6cfb3b256113918bb93e2b3d",
+  "_path": "/Users/ember/dev/gh/forks/meeting-minutes",
+  "_updated_at": "2026-02-14T00:56:26.010550Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "ownership-and-borrowing",
+      "lifetime-elision",
+      "memory-safety",
+      "type-inference-fallback",
+      "unboxed-closures",
+      "trait-bounds",
+      "associated-items",
+      "macros-by-example",
+      "Foreign Function Interface (FFI)",
+      "segmented-stacks",
+      "green-threading-models",
+      "simd-intrinsics",
+      "error-handling-strategies",
+      "compiler-bootstrapping",
+      "crate-system-design",
+      "module-system-evolution",
+      "static-and-dynamic-dispatch",
+      "variance-and-subtyping",
+      "object-safety",
+      "language-stabilization",
+      "rfc-governance",
+      "api-surface-review"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "language-design",
+      "rfc-process",
+      "meeting-minutes",
+      "Systems Programming",
+      "api-evolution",
+      "governance",
+      "mozilla",
+      "archival",
+      "technical-history"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Memory Safety",
+      "Static Site Generation",
+      "jekyll",
+      "static-site-generator",
+      "lexical-analysis",
+      "Compiler Engineering",
+      "API review process",
+      "LLVM backend integration",
+      "RFC triage workflows",
+      "api-stabilization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.175,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.432,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.412,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.397,
+        "matches": [
+          "foreign function interface (ffi)"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.396,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.38,
+        "matches": [
+          "lexical-analysis"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.010550Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7088ca2cfafb75bf27e819ac840789af5751805dbcdbf5460f2c348de17c754f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:54.574363+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "rustc",
+    "Memory Safety",
+    "Static Site Generation",
+    "jekyll",
+    "static-site-generator",
+    "Tokenization",
+    "compiler-design",
+    "API review process",
+    "LLVM backend integration",
+    "RFC triage workflows",
+    "api-stabilization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.916
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.89
+    },
+    {
+      "name": "cmr.github.io",
+      "path": "/Users/ember/dev/gh/cmr.github.io",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.835
+    },
+    {
+      "name": "rust-examples",
+      "path": "/Users/ember/dev/gh/rust-examples",
+      "similarity": 0.833
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.827
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.825
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.824
+    }
+  ]
+}

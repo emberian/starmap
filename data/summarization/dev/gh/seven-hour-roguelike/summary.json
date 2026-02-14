@@ -1,0 +1,237 @@
+{
+  "name": "seven-hour-roguelike",
+  "description": "A minimalist terminal-based Roguelike engine implemented in Rust, utilizing a custom Entity-Component System (ECS) for flexible entity state management. It features procedural dungeon generation, grid-based movement logic, and manual memory layout for components via unsafe transmutes of raw pointers. The architecture integrates the rustbox library for efficient TUI rendering and employs Bresenham's line algorithm for spatial calculations.",
+  "tags": [
+    "rust",
+    "ecs",
+    "roguelike",
+    "terminal-ui",
+    "rustbox",
+    "procedural-generation",
+    "dungeon-crawler",
+    "gamedev",
+    "grid-based",
+    "bresenham-algorithm",
+    "low-level-rust"
+  ],
+  "category": "ECS-based Roguelike Engine Architecture",
+  "concepts": [
+    "Entity-Component System",
+    "Procedural Content Generation",
+    "Terminal User Interface",
+    "Bresenham's Line Algorithm",
+    "Packed Memory Representation",
+    "Entity Management",
+    "Grid-based Movement",
+    "Memory Transmutation",
+    "Event-driven I/O",
+    "Dungeon Crawling",
+    "Component Storage",
+    "Message Logging",
+    "Floor-based Level Hierarchy",
+    "Pointer Manipulation",
+    "Game Loop Architecture",
+    "Spatial Logic",
+    "Entity Type Definition",
+    "Low-level Terminal Control",
+    "Procedural Dungeon Layout",
+    "Entity Interaction",
+    "Unsafe Rust"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/game.rs",
+      "src/util.rs",
+      "src/generation.rs"
+    ]
+  },
+  "_hash": "8f1735b26c7ac5824bff6422e2d74e9724f1cecea49b0f65a2c598e09cfb10f6",
+  "_path": "/Users/ember/dev/gh/seven-hour-roguelike",
+  "_updated_at": "2026-02-14T00:56:28.629246Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Entity-Component System",
+      "Procedural Content Generation",
+      "Terminal User Interface",
+      "Bresenham's Line Algorithm",
+      "Packed Memory Representation",
+      "Entity Management",
+      "Grid-based Movement",
+      "Memory Transmutation",
+      "Event-driven I/O",
+      "Dungeon Crawling",
+      "Component Storage",
+      "Message Logging",
+      "Floor-based Level Hierarchy",
+      "Pointer Manipulation",
+      "Game Loop Architecture",
+      "Spatial Logic",
+      "Entity Type Definition",
+      "Low-level Terminal Control",
+      "Procedural Dungeon Layout",
+      "Entity Interaction",
+      "Unsafe Rust"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "ecs",
+      "roguelike",
+      "terminal-ui",
+      "rustbox",
+      "Procedural Generation",
+      "dungeon-crawler",
+      "gamedev",
+      "grid-based",
+      "bresenham-algorithm",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "game-engine",
+      "turn-based",
+      "rpg",
+      "ASCII rendering pipeline",
+      "Rc<RefCell<T>> pattern",
+      "ascii-graphics",
+      "cli-game",
+      "collision primitives",
+      "entity-component mapping",
+      "interior mutability",
+      "map serialization",
+      "procedural state management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 9.62,
+        "matches": [
+          "ecs",
+          "procedural generation",
+          "roguelike"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.07,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.417,
+        "matches": [
+          "procedural content generation"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.365,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.357,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.254,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.629246Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "03d15e17897dc56e2c8d4b6c6a4cc425ce637f03f79e3b50f3e7861ec31de575",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:27.604497+00:00"
+  },
+  "mined_motifs": [
+    "game-engine",
+    "turn-based",
+    "rpg",
+    "ASCII rendering pipeline",
+    "Rc<RefCell<T>> pattern",
+    "ascii-graphics",
+    "cli-game",
+    "collision primitives",
+    "entity-component mapping",
+    "interior mutability",
+    "map serialization",
+    "procedural state management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "one-hour-roguelike",
+      "path": "/Users/ember/dev/gh/one-hour-roguelike",
+      "similarity": 0.896
+    },
+    {
+      "name": "iiag",
+      "path": "/Users/ember/dev/gh/forks/iiag",
+      "similarity": 0.851
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.799
+    },
+    {
+      "name": "shattered-pixel-dungeon",
+      "path": "/Users/ember/dev/shattered-pixel-dungeon",
+      "similarity": 0.798
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.791
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.79
+    },
+    {
+      "name": "ecs",
+      "path": "/Users/ember/dev/gh/ecs",
+      "similarity": 0.788
+    }
+  ]
+}

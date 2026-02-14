@@ -1,0 +1,217 @@
+{
+  "name": "booty-haul",
+  "description": "A high-fidelity maritime piracy simulation and visualization engine exploring the geometry of oceanic detection. The system models historical encounter probabilities in the Caribbean basin through various strategies like chokepoint ambushes and intelligence networks, utilizing quadratic Bézier curves for trade route navigation and physical models for Earth-curvature-limited line-of-sight.",
+  "tags": [
+    "maritime-simulation",
+    "stochastic-modeling",
+    "kinematics",
+    "geospatial-projection",
+    "canvas-api",
+    "monte-carlo",
+    "probability-theory",
+    "vite",
+    "typescript",
+    "educational-visualization"
+  ],
+  "category": "Maritime Operations Simulation",
+  "concepts": [
+    "line-of-sight geometry",
+    "encounter probability",
+    "geographic coordinate projection",
+    "pathfinding on Bézier manifolds",
+    "detection width modeling",
+    "population dynamics",
+    "arms race equilibrium",
+    "chokepoint optimization",
+    "atmospheric visibility attenuation",
+    "Monte Carlo simulation",
+    "vector kinematics",
+    "strategic modeling",
+    "historical piracy tactics"
+  ],
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/arms-race.ts",
+      "src/sim.ts",
+      "src/sweep.ts",
+      "src/horizon.ts"
+    ]
+  },
+  "_hash": "7e19973d9661b1a24e03f4db9a7c6416259ca980661c0ab93db0b37583278d03",
+  "_path": "/Users/ember/dev/booty-haul",
+  "_updated_at": "2026-02-14T00:56:23.601351Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "line-of-sight geometry",
+      "encounter probability",
+      "geographic coordinate projection",
+      "pathfinding on Bézier manifolds",
+      "detection width modeling",
+      "population dynamics",
+      "arms race equilibrium",
+      "chokepoint optimization",
+      "atmospheric visibility attenuation",
+      "Monte Carlo simulation",
+      "vector kinematics",
+      "strategic modeling",
+      "historical piracy tactics"
+    ],
+    "tags": [
+      "maritime-simulation",
+      "stochastic-modeling",
+      "kinematics",
+      "geospatial-projection",
+      "canvas-api",
+      "monte-carlo",
+      "probability-theory",
+      "vite",
+      "typescript",
+      "educational-visualization"
+    ],
+    "mined_motifs": [
+      "webgl",
+      "Vector Mathematics",
+      "Procedural Generation",
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "state-machine",
+      "visualization",
+      "python",
+      "game-design",
+      "Asynchronous Multiplayer",
+      "Automated Regression Testing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 5.385,
+        "matches": [
+          "stochastic-modeling"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.293,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.282,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.199,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.765,
+        "matches": [
+          "stochastic-modeling"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 3.714,
+        "matches": [
+          "monte-carlo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.601351Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4054ce519e96ffdea3243fb99930f475b5b37d3ae3c20172d2a0d6c94621d57a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:38.745624+00:00"
+  },
+  "mined_motifs": [
+    "webgl",
+    "Vector Mathematics",
+    "procedural-generation",
+    "rust",
+    "real-time",
+    "state-machine",
+    "simulation",
+    "visualization",
+    "python",
+    "game-design",
+    "Asynchronous Multiplayer",
+    "Automated Regression Testing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "booty-hunt",
+      "path": "/Users/ember/dev/booty-hunt",
+      "similarity": 0.79
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.783
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.779
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.777
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.775
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.77
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.767
+    },
+    {
+      "name": "slipways-core",
+      "path": "/Users/ember/dev/slipways-core",
+      "similarity": 0.765
+    }
+  ]
+}

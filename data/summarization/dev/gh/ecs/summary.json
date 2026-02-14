@@ -1,0 +1,224 @@
+{
+  "name": "ecs",
+  "description": "A performance-oriented, data-oriented entity component system designed for high-frequency entity lifecycle management and massive entity scaling. It utilizes a packed bit representation for entities to encode type metadata and employs a bucketed storage strategy to optimize component access and parallel processing. The architecture prioritizes serializability and memory-efficient indexing for billions of transient entities within addressable memory constraints.",
+  "tags": [
+    "ecs",
+    "entity-component-system",
+    "data-oriented-design",
+    "high-performance",
+    "parallel-computing",
+    "serialization",
+    "memory-management",
+    "rust",
+    "gamedev",
+    "low-level",
+    "packed-representation",
+    "id-recycling",
+    "component-storage"
+  ],
+  "category": "Data-Oriented Entity Systems",
+  "concepts": [
+    "Entity-Component-System Architecture",
+    "Entity ID Recycling",
+    "Bit-packed Metadata",
+    "Component-wise Data Locality",
+    "Parallel System Processing",
+    "Serializable State",
+    "Type-bucketed Component Storage",
+    "ID Allocation Strategies",
+    "Memory-mapped Compatibility",
+    "Cache-friendly Data Layout",
+    "Commutative Processing",
+    "System-level Parallelism",
+    "Fragmented Component Indexing",
+    "Byte-oriented Storage Primatives"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "f421661e2ff9ebae267903ae406a61e86650f347446966086c06643ed79f3107",
+  "_path": "/Users/ember/dev/gh/ecs",
+  "_updated_at": "2026-02-14T00:56:25.006457Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Entity-Component-System Architecture",
+      "Entity ID Recycling",
+      "Bit-packed Metadata",
+      "Component-wise Data Locality",
+      "Parallel System Processing",
+      "Serializable State",
+      "Type-bucketed Component Storage",
+      "ID Allocation Strategies",
+      "Memory-mapped Compatibility",
+      "Cache-friendly Data Layout",
+      "Commutative Processing",
+      "System-level Parallelism",
+      "Fragmented Component Indexing",
+      "Byte-oriented Storage Primatives"
+    ],
+    "tags": [
+      "ecs",
+      "entity-component-system",
+      "data-oriented-design",
+      "high-performance",
+      "concurrency",
+      "Data Serialization",
+      "Memory Management",
+      "Rust Language Ecosystem",
+      "gamedev",
+      "systems-programming",
+      "packed-representation",
+      "id-recycling",
+      "component-storage"
+    ],
+    "mined_motifs": [
+      "Procedural Generation",
+      "ioctl",
+      "foreign-function-interface",
+      "Asset Pipeline",
+      "Atmospheric Scattering",
+      "Authentication Systems",
+      "Behavioral AI",
+      "Biome Simulation",
+      "Climate Simulation",
+      "Coordinate Conversion",
+      "Data Serialization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 12.261,
+        "matches": [
+          "concurrency",
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 8.102,
+        "matches": [
+          "ecs",
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.3,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.274,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.259,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 3.739,
+        "matches": [
+          "ioctl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.006457Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0ec1e9a847ba23bc25e585ad45848105b937e002cc0fa2b61c6b07c4b3b05287",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:59.171219+00:00"
+  },
+  "mined_motifs": [
+    "procedural-generation",
+    "ioctl",
+    "Foreign Function Interface",
+    "ffi",
+    "Asset Pipeline",
+    "Atmospheric Scattering",
+    "Authentication Systems",
+    "Behavioral AI",
+    "Biome Simulation",
+    "Climate Simulation",
+    "Coordinate Conversion",
+    "Data Serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.79
+    },
+    {
+      "name": "seven-hour-roguelike",
+      "path": "/Users/ember/dev/gh/seven-hour-roguelike",
+      "similarity": 0.788
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.778
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.776
+    },
+    {
+      "name": "derpfs",
+      "path": "/Users/ember/dev/gh/derpfs",
+      "similarity": 0.776
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.774
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.772
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.768
+    }
+  ]
+}

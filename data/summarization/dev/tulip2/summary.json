@@ -1,0 +1,248 @@
+{
+  "name": "Zulip",
+  "description": "Zulip is an open-source, multi-tenant team collaboration platform featuring a unique topic-based threading model designed for organized asynchronous and real-time communication. The system is built on a high-performance Django and Tornado architecture, leveraging an asynchronous event-loop for server-to-client message delivery and complex analytical data pipelines. It incorporates enterprise-grade capabilities including SCIM provisioning, SAML/OIDC authentication, and a modular integration framework for interactive bots and third-party webhooks.",
+  "tags": [
+    "distributed-systems",
+    "real-time-chat",
+    "django",
+    "tornado-web",
+    "postgresql",
+    "multi-tenancy",
+    "topic-threading",
+    "webhooks",
+    "api-first",
+    "enterprise-software",
+    "asynchronous-messaging",
+    "open-source",
+    "python",
+    "typescript",
+    "scim",
+    "saml"
+  ],
+  "category": "Distributed Real-time Collaboration Engine",
+  "concepts": [
+    "topic-based threading",
+    "asynchronous event streaming",
+    "realm-based multi-tenancy",
+    "server-side markdown rendering",
+    "soft user deactivation",
+    "cross-realm bot interaction",
+    "idempotent message processing",
+    "analytical data aggregation",
+    "automated migration testing",
+    "SAML/OIDC authentication",
+    "Stripe-integrated billing",
+    "SCIM integration",
+    "push notification gateways",
+    "linkification engines",
+    "role-based access control",
+    "full-text search indexing",
+    "presence tracking",
+    "message retention policies",
+    "attachment management",
+    "webhook payload transformation"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Shell",
+    "HTML",
+    "CSS",
+    "SQL"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 8867,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "pyproject.toml",
+      "confirmation/__init__.py",
+      "corporate/models/__init__.py",
+      "tools/documentation_crawler/documentation_crawler/spiders/__init__.py"
+    ]
+  },
+  "_hash": "588dac783ab5455036af15e0c33fcddb9f0adee6dee423d3fc4b69f062633613",
+  "_path": "/Users/ember/dev/tulip2",
+  "_updated_at": "2026-02-14T00:56:30.960603Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6311b32111686e0d33f22e37f7dff92064e8a9b86e5735e897f2c6d19646197f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:01.353845+00:00"
+  },
+  "mined_motifs": [
+    "messaging",
+    "rust",
+    "real-time",
+    "team-chat",
+    "collaboration",
+    "2FA authentication",
+    "Asynchronous collaboration",
+    "Automated deployment",
+    "Bot framework",
+    "Content delivery networking",
+    "Data export/import",
+    "Email mirroring"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tulip.fg-goose.online",
+      "path": "/Users/ember/dev/tulip.fg-goose.online",
+      "similarity": 0.922
+    },
+    {
+      "name": "tulip",
+      "path": "/Users/ember/dev/gh/forks/tulip",
+      "similarity": 0.916
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.879
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.856
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.853
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.843
+    },
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.842
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "topic-based threading",
+      "asynchronous event streaming",
+      "realm-based multi-tenancy",
+      "server-side markdown rendering",
+      "soft user deactivation",
+      "cross-realm bot interaction",
+      "idempotent message processing",
+      "analytical data aggregation",
+      "automated migration testing",
+      "SAML/OIDC authentication",
+      "Stripe-integrated billing",
+      "SCIM integration",
+      "push notification gateways",
+      "linkification engines",
+      "role-based access control",
+      "full-text search indexing",
+      "presence tracking",
+      "message retention policies",
+      "attachment management",
+      "webhook payload transformation"
+    ],
+    "tags": [
+      "distributed-systems",
+      "real-time-chat",
+      "django",
+      "tornado-web",
+      "postgresql",
+      "multi-tenancy",
+      "topic-threading",
+      "webhooks",
+      "api-first",
+      "enterprise-software",
+      "asynchronous-messaging",
+      "open-source",
+      "python",
+      "typescript",
+      "scim",
+      "saml"
+    ],
+    "mined_motifs": [
+      "messaging",
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "team-chat",
+      "collaboration",
+      "2FA authentication",
+      "Asynchronous collaboration",
+      "Automated deployment",
+      "Bot framework",
+      "Content delivery networking",
+      "Data export/import",
+      "Email mirroring"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.474,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.474,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.474,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.473,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.469,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.407,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.960603Z"
+  }
+}

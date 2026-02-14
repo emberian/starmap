@@ -1,0 +1,224 @@
+{
+  "name": "bcknd",
+  "description": "A Rust workspace architecture investigating the decoupling of service orchestration from web delivery through a modular multi-crate design. The project implements a structural separation between a dedicated supervisor and a web server, facilitating research into process lifecycle management and service isolation. It serves as an experimental foundation for prototyping scalable, systems-level backend infrastructures using idiomatic Rust patterns.",
+  "tags": [
+    "rust",
+    "cargo-workspace",
+    "backend",
+    "web-server",
+    "supervisor",
+    "process-management",
+    "service-orchestration",
+    "systems-programming",
+    "modular-architecture",
+    "service-isolation"
+  ],
+  "category": "Service Orchestration & Web Infrastructure",
+  "concepts": [
+    "Process Supervision",
+    "Workspace Member Isolation",
+    "Service Decomposition",
+    "Rust Systems Programming",
+    "Web Backend Architecture",
+    "Modular Software Design",
+    "Lifecycle Management",
+    "Multi-crate Project Structure",
+    "Backend Component Prototyping",
+    "Cargo Workspace Configuration",
+    "Binary Crate Development",
+    "Modular Code Organization",
+    "Concurrent Process Orchestration",
+    "Systems-level Abstraction",
+    "Rust Toolchain Integration",
+    "Project Scaffolding",
+    "Entrypoint Management",
+    "Inter-process Communication Scaffolding",
+    "Runtime Environment Prototyping",
+    "Software Architecture Exploration"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "supervisor/src/main.rs",
+      "websrv/src/main.rs"
+    ]
+  },
+  "_hash": "9923df808566150aeb4f071fa666f7e99d5ebe0f63e549ff95e0162eb19c99b3",
+  "_path": "/Users/ember/dev/bcknd",
+  "_updated_at": "2026-02-14T00:56:23.571688Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Process Supervision",
+      "Workspace Member Isolation",
+      "Service Decomposition",
+      "Rust Systems Programming",
+      "Web Backend Architecture",
+      "Modular Software Design",
+      "Lifecycle Management",
+      "Multi-crate Project Structure",
+      "Backend Component Prototyping",
+      "Cargo Workspace Configuration",
+      "Binary Crate Development",
+      "Modular Code Organization",
+      "Concurrent Process Orchestration",
+      "Systems-level Abstraction",
+      "Rust Toolchain Integration",
+      "Project Scaffolding",
+      "Entrypoint Management",
+      "Inter-process Communication Scaffolding",
+      "Runtime Environment Prototyping",
+      "Software Architecture Exploration"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cargo-workspace",
+      "backend",
+      "web-server",
+      "supervisor",
+      "process-management",
+      "service-orchestration",
+      "Systems Programming",
+      "modular-architecture",
+      "service-isolation"
+    ],
+    "mined_motifs": [
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "microservice",
+      "Asynchronous Programming",
+      "Zero-cost Abstractions",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Rust Language Ecosystem",
+      "Asynchronous Task Scheduling",
+      "Event-driven Runtimes",
+      "HTTP Server Implementation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.275,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.504,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.475,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.468,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.671,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.669,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.571688Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3e8d774673a43a3c767f86c748f3e6e839f8f4b8309bad4902af86738437c3d2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:35.322649+00:00"
+  },
+  "mined_motifs": [
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "microservice",
+    "tokio",
+    "Zero-cost Abstractions",
+    "resource-management",
+    "rust-lang",
+    "Asynchronous Programming",
+    "Asynchronous Task Scheduling",
+    "Event-driven Runtimes",
+    "HTTP Server Implementation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.857
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.854
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.852
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.851
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.849
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.847
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "name": "rust-incidents",
+  "description": "An experimental Rust library exploring advanced error handling patterns, emphasizing stack trace capture and result size optimization. It implements a heap-allocated failure wrapper that provides Python-style tracebacks in debug builds while maintaining a zero-cost boxed representation in release mode. The project introduces custom traits for error interoperability and automated conversion, aiming to inform future Rust RFCs regarding diagnostic ergonomics.",
+  "tags": [
+    "rust",
+    "error-handling",
+    "traceback",
+    "diagnostics",
+    "failure-handling",
+    "macros",
+    "benchmarking",
+    "rfc-experiment"
+  ],
+  "category": "Diagnostic Infrastructure",
+  "concepts": [
+    "Error Propagation",
+    "Dynamic Dispatch",
+    "Stack Traces",
+    "Zero-cost Abstractions",
+    "Deref Polymorphism",
+    "Conditional Compilation",
+    "Memory Layout Optimization",
+    "Trait-based Error Conversion",
+    "Debug Information Enrichment"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/lib.rs",
+      "benches/result-compare.rs",
+      "examples/basic.rs"
+    ]
+  },
+  "_hash": "de9ffcf13d9a7639cb82952ba1ecc5c2a7b5ae2d2469dd123f72ac13251912ac",
+  "_path": "/Users/ember/dev/gh/forks/rust-incidents",
+  "_updated_at": "2026-02-14T00:56:26.596415Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Error Propagation",
+      "Dynamic Dispatch",
+      "Stack Traces",
+      "Zero-cost Abstractions",
+      "Deref Polymorphism",
+      "Conditional Compilation",
+      "Memory Layout Optimization",
+      "Trait-based Error Conversion",
+      "Debug Information Enrichment"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "error-handling",
+      "traceback",
+      "diagnostics",
+      "failure-handling",
+      "macros",
+      "benchmarking",
+      "rfc-experiment"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lexical-analysis",
+      "Resource Acquisition Is Initialization (RAII)",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "systems-programming",
+      "Recursive Descent Parsing",
+      "foreign-function-interface"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.135,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.73,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.361,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.584,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.577,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.57,
+        "matches": [
+          "benchmarking"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.596415Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3301110d227d3ea9a90052d36e88df8dfe800466421bd14ca9a445efb8ff0182",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:14.264235+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Tokenization",
+    "resource-management",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "low-level",
+    "Recursive Descent Parsing",
+    "ffi"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.901
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.887
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.883
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.878
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.878
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.875
+    }
+  ]
+}

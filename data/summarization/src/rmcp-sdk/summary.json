@@ -1,0 +1,251 @@
+{
+  "name": "rmcp-sdk",
+  "description": "An official Rust implementation of the Model Context Protocol (MCP) providing a high-performance SDK for LLM-tool interoperability using the Tokio async runtime. It features a robust transport abstraction supporting stdio, SSE, and WebSockets, alongside procedural macros for streamlined tool and prompt definition. The project ensures compliance with the 2025-06-18 specification, including advanced elicitation flows and OAuth2-based authentication.",
+  "tags": [
+    "mcp",
+    "rust",
+    "sdk",
+    "llm",
+    "json-rpc",
+    "tokio",
+    "async",
+    "sse",
+    "websockets",
+    "oauth2",
+    "wasi",
+    "interoperability",
+    "context-protocol",
+    "procedural-macros",
+    "ai-tools",
+    "task-management"
+  ],
+  "category": "Model Context Protocol",
+  "concepts": [
+    "JSON-RPC 2.0",
+    "Asynchronous I/O",
+    "Procedural Macros",
+    "Transport Layer Abstraction",
+    "Server-Sent Events (SSE)",
+    "Tool Discovery",
+    "Prompt Orchestration",
+    "Resource Resolution",
+    "Context Elicitation",
+    "OAuth2 PKCE Flow",
+    "WebAssembly System Interface (WASI)",
+    "Tower Service Integration",
+    "Streamable HTTP",
+    "JSON Schema 2020-12",
+    "Capability Negotiation",
+    "Paginated Resource Access",
+    "Progress Tracking Notifications",
+    "Sampling Interface",
+    "Message Framing",
+    "Structured Output Generation",
+    "Role-based Protocol Handlers",
+    "TCP and Unix Domain Sockets",
+    "Task Management Runtimes"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 200,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/rmcp/src/lib.rs",
+      "crates/rmcp/tests/common/mod.rs",
+      "crates/rmcp-macros/src/lib.rs",
+      "examples/rig-integration/src/main.rs"
+    ]
+  },
+  "_hash": "8f5374a1c65e446ac2b8b5de936e26dee1195de00206a5f7b2bb9e237ed20b7b",
+  "_path": "/Users/ember/src/rmcp-sdk",
+  "_updated_at": "2026-02-14T00:56:33.884219Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e2f2cdd6c5dc2088f47ddbdecc421c8c36daafc112a830cd8a65392318b27f02",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:03.530710+00:00"
+  },
+  "mined_motifs": [
+    "Model Context Protocol (MCP)",
+    "async-rust",
+    "axum",
+    "Asynchronous Runtime (Tokio)",
+    "Bidirectional RPC communication",
+    "JSON-RPC 2.0 communication",
+    "OAuth2 Authorization Flow",
+    "Paginated Resource Discovery",
+    "Procedural Macros for Tool Discovery",
+    "Resource Elicitation and Management",
+    "Server-Sent Events (SSE) Transport",
+    "Service-Oriented Architecture (Tower)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mcp-rust-sdk",
+      "path": "/Users/ember/src/mcp-rust-sdk",
+      "similarity": 0.955
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.859
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.859
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.848
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.847
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.841
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.841
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.839
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "JSON-RPC 2.0",
+      "Asynchronous I/O",
+      "Procedural Macros",
+      "Transport Layer Abstraction",
+      "Server-Sent Events (SSE)",
+      "Tool Discovery",
+      "Prompt Orchestration",
+      "Resource Resolution",
+      "Context Elicitation",
+      "OAuth2 PKCE Flow",
+      "WebAssembly System Interface (WASI)",
+      "Tower Service Integration",
+      "Streamable HTTP",
+      "JSON Schema 2020-12",
+      "Capability Negotiation",
+      "Paginated Resource Access",
+      "Progress Tracking Notifications",
+      "Sampling Interface",
+      "Message Framing",
+      "Structured Output Generation",
+      "Role-based Protocol Handlers",
+      "TCP and Unix Domain Sockets",
+      "Task Management Runtimes"
+    ],
+    "tags": [
+      "model-context-protocol",
+      "Rust Language Ecosystem",
+      "sdk",
+      "Large Language Model Inference",
+      "json-rpc",
+      "Asynchronous Programming",
+      "sse",
+      "websockets",
+      "oauth2",
+      "wasi",
+      "interoperability",
+      "context-protocol",
+      "procedural-macros",
+      "ai-tools",
+      "task-management"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "rust",
+      "axum",
+      "Asynchronous Runtime (Tokio)",
+      "Bidirectional RPC communication",
+      "JSON-RPC 2.0 communication",
+      "OAuth2 Authorization Flow",
+      "Paginated Resource Discovery",
+      "Procedural Macros for Tool Discovery",
+      "Resource Elicitation and Management",
+      "Server-Sent Events (SSE) Transport",
+      "Service-Oriented Architecture (Tower)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 8.141,
+        "matches": [
+          "json-rpc",
+          "sse",
+          "category:Model Context Protocol"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.514,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.507,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.503,
+        "matches": [
+          "large language model inference"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.419,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.394,
+        "matches": [
+          "wasi"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.884219Z"
+  }
+}

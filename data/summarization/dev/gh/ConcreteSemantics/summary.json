@@ -1,0 +1,241 @@
+{
+  "name": "ConcreteSemantics",
+  "description": "A comprehensive formalization of programming language semantics and type theory implemented in the Isabelle/HOL proof assistant. The project follows the 'Concrete Semantics' curriculum, providing machine-checked proofs for the operational semantics of the IMP language, abstract interpretation, Hoare logic, and compiler correctness. It serves as a rigorous foundation for program analysis and formal verification of language properties.",
+  "tags": [
+    "isabelle-hol",
+    "formal-semantics",
+    "operational-semantics",
+    "big-step-semantics",
+    "small-step-semantics",
+    "abstract-interpretation",
+    "hoare-logic",
+    "type-systems",
+    "formal-verification",
+    "theorem-proving",
+    "program-analysis",
+    "compiler-correctness",
+    "imp-language",
+    "denotational-semantics",
+    "rule-induction",
+    "static-analysis"
+  ],
+  "category": "Formal Semantics and Interactive Theorem Proving",
+  "concepts": [
+    "Big-step Operational Semantics",
+    "Small-step Operational Semantics",
+    "Abstract Interpretation",
+    "Hoare Logic",
+    "Structural Induction",
+    "Rule Induction",
+    "Program Equivalence",
+    "Type Safety",
+    "Progress and Preservation",
+    "Fixed-point Semantics",
+    "Compiler Correctness",
+    "Definitional Semantics",
+    "Abstract Syntax Trees",
+    "Verification Condition Generation",
+    "Monotone Frameworks",
+    "Axiomatic Semantics",
+    "Termination Analysis",
+    "Inductive Definitions",
+    "Widening and Narrowing",
+    "Interval Analysis"
+  ],
+  "languages": [
+    "Isabelle/HOL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 41,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "0e9b3bb200327025f662c872122dd32c8e8cf370d87c4e42437f3b7acd9c763f",
+  "_path": "/Users/ember/dev/gh/ConcreteSemantics",
+  "_updated_at": "2026-02-14T00:56:24.219495Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Big-step Operational Semantics",
+      "Small-step Operational Semantics",
+      "Abstract Interpretation",
+      "Hoare Logic",
+      "Structural Induction",
+      "Rule Induction",
+      "Program Equivalence",
+      "Type Safety",
+      "Progress and Preservation",
+      "Fixed-point Semantics",
+      "Compiler Correctness",
+      "Definitional Semantics",
+      "AST",
+      "Verification Condition Generation",
+      "Monotone Frameworks",
+      "Axiomatic Semantics",
+      "Termination Analysis",
+      "Inductive Definitions",
+      "Widening and Narrowing",
+      "Interval Analysis"
+    ],
+    "tags": [
+      "isabelle-hol",
+      "formal-semantics",
+      "operational-semantics",
+      "big-step-semantics",
+      "small-step-semantics",
+      "abstract-interpretation",
+      "hoare-logic",
+      "type-systems",
+      "formal-methods",
+      "Interactive Theorem Proving (ITP)",
+      "program-analysis",
+      "compiler-correctness",
+      "imp-language",
+      "denotational-semantics",
+      "rule-induction",
+      "static-analysis"
+    ],
+    "mined_motifs": [
+      "formal-verification",
+      "Interactive Theorem Proving (ITP)",
+      "Rust Language Ecosystem",
+      "functional-programming",
+      "automated-reasoning",
+      "Lexical Scoping",
+      "dependent-types",
+      "lean-prover",
+      "symbol-table",
+      "Compiler Engineering",
+      "lexical-analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 11.172,
+        "matches": [
+          "formal-methods",
+          "formal-verification",
+          "isabelle-hol"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 9.779,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "hoare logic"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.379,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.972,
+        "matches": [
+          "hoare logic",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.614,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.484,
+        "matches": [
+          "compiler engineering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.219495Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3bee6c8765aebac2a8bebfceb457e1b4797aea16c77fb69a7ddc6fabcac59e80",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:14.240782+00:00"
+  },
+  "mined_motifs": [
+    "formal-methods",
+    "proof-assistant",
+    "rust",
+    "functional-programming",
+    "automated-reasoning",
+    "Lexical Scoping",
+    "dependent-types",
+    "interactive-theorem-proving",
+    "lean-prover",
+    "symbol-table",
+    "compiler-design",
+    "Lexical Analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.884
+    },
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.883
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.868
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.865
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.864
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.863
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.863
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.862
+    }
+  ]
+}

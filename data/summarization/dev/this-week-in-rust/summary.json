@@ -1,0 +1,223 @@
+{
+  "name": "this-week-in-rust",
+  "description": "A static site and automation suite for the 'This Week in Rust' community newsletter. It leverages the Pelican static site generator to manage over a decade of Markdown-based archival content and active drafts. The repository includes Python tools for automating event discovery via GraphQL, validating external links, and streamlining the publication workflow for editors.",
+  "tags": [
+    "rust",
+    "newsletter",
+    "pelican",
+    "ssg",
+    "automation",
+    "markdown",
+    "python",
+    "meetup-api",
+    "community-outreach",
+    "content-pipeline",
+    "stork-search",
+    "workflow-automation"
+  ],
+  "category": "Community Newsletter Infrastructure",
+  "concepts": [
+    "Static Site Generation",
+    "Content Lifecycle Management",
+    "GraphQL API Consumption",
+    "Automated Link Validation",
+    "OAuth2 Authentication",
+    "Markdown Parsing",
+    "Draft Orchestration",
+    "Pelican Plugins",
+    "Asset Pipeline",
+    "Jinja2 Templating",
+    "Event Sourcing"
+  ],
+  "languages": [
+    "Python",
+    "Markdown",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 722,
+    "has_readme": true,
+    "sample_files": [
+      "plugins/assets/__init__.py",
+      "plugins/neighbors/__init__.py",
+      "tools/events/meetup-automation/main.py",
+      "themes/rusted/static/js/stork.js",
+      "tools/inspect_links.py"
+    ]
+  },
+  "_hash": "a8a0e3f39096071a7b90430aaf7d6bb234ef646627f62ef1913925d6b363cce2",
+  "_path": "/Users/ember/dev/this-week-in-rust",
+  "_updated_at": "2026-02-14T00:56:30.856403Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5aa95674afecd2d27fb1f829aa5093717964ca2a5d4d73f2c7e6892930439eb8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:56.227181+00:00"
+  },
+  "mined_motifs": [
+    "static-site-generator",
+    "rust-lang",
+    "jekyll",
+    "Asset Pipeline Management",
+    "Memory Safety",
+    "Stack Safety",
+    "Type-Based Alias Analysis",
+    "systems-programming",
+    "static-site",
+    "Static Asset Optimization",
+    "github-pages",
+    "Responsive Web Design"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "this-week-in-rust",
+      "path": "/Users/ember/dev/gh/forks/this-week-in-rust",
+      "similarity": 0.955
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.859
+    },
+    {
+      "name": "blog",
+      "path": "/Users/ember/dev/gh/blog",
+      "similarity": 0.837
+    },
+    {
+      "name": "cmr.github.io",
+      "path": "/Users/ember/dev/gh/cmr.github.io",
+      "similarity": 0.818
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.817
+    },
+    {
+      "name": "rustaceans.org",
+      "path": "/Users/ember/dev/gh/forks/rustaceans.org",
+      "similarity": 0.817
+    },
+    {
+      "name": "lunar.town",
+      "path": "/Users/ember/dev/gh/lunar.town",
+      "similarity": 0.81
+    },
+    {
+      "name": "gfx-rs.github.io",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+      "similarity": 0.809
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Static Site Generation",
+      "Content Lifecycle Management",
+      "GraphQL API Consumption",
+      "Automated Link Validation",
+      "OAuth2 Authentication",
+      "Markdown Parsing",
+      "Draft Orchestration",
+      "Pelican Plugins",
+      "Asset Pipeline",
+      "Jinja2 Templating",
+      "Event Sourcing"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "newsletter",
+      "pelican",
+      "ssg",
+      "automation",
+      "markdown",
+      "python",
+      "meetup-api",
+      "community-outreach",
+      "content-pipeline",
+      "stork-search",
+      "workflow-automation"
+    ],
+    "mined_motifs": [
+      "static-site-generator",
+      "Rust Language Ecosystem",
+      "jekyll",
+      "Asset Pipeline Management",
+      "Memory Safety",
+      "Stack Safety",
+      "Type-Based Alias Analysis",
+      "Systems Programming",
+      "static-site",
+      "Static Asset Optimization",
+      "github-pages",
+      "Responsive Web Design"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 11.062,
+        "matches": [
+          "automation",
+          "markdown",
+          "newsletter",
+          "pelican"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.163,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.43,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.347,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.327,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.973,
+        "matches": [
+          "automation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.856403Z"
+  }
+}

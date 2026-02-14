@@ -1,0 +1,212 @@
+{
+  "name": "rustsqlite",
+  "description": "A low-level FFI wrapper and idiomatic binding for SQLite3 in Rust, providing safe abstractions for database connections and statement execution. It features a cursor-based interface for query evaluation, result set mapping to native types, and direct integration with the SQLite C API.",
+  "tags": [
+    "sqlite",
+    "ffi",
+    "database-bindings",
+    "rust-sqlite",
+    "sql",
+    "low-level",
+    "database-driver",
+    "relational-database"
+  ],
+  "category": "Relational Database Interface",
+  "concepts": [
+    "Foreign Function Interface (FFI)",
+    "Prepared Statements",
+    "Database Cursors",
+    "Resource Acquisition Is Initialization (RAII)",
+    "Manual Memory Management",
+    "SQL Execution",
+    "Result Set Mapping",
+    "Type Marshalling",
+    "Statement Finalization",
+    "Binding Parameters",
+    "Database Handles"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "src/sqlite/lib.rs",
+      "src/sqlite/cursor.rs",
+      "src/sqlite/types.rs",
+      "src/sqlite/database.rs",
+      "src/sqlite/ffi.rs"
+    ]
+  },
+  "_hash": "601bf14eb3bfe284cb5151cc3a58ee2646dd8c93b41b2a615fdbb73bc528821d",
+  "_path": "/Users/ember/dev/gh/forks/rustsqlite",
+  "_updated_at": "2026-02-14T00:56:26.638718Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "foreign-function-interface",
+      "Prepared Statements",
+      "Database Cursors",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Memory Management",
+      "SQL Execution",
+      "Result Set Mapping",
+      "Type Marshalling",
+      "Statement Finalization",
+      "Binding Parameters",
+      "Database Handles"
+    ],
+    "tags": [
+      "sqlite",
+      "foreign-function-interface",
+      "database-bindings",
+      "rust-sqlite",
+      "sql",
+      "systems-programming",
+      "database-driver",
+      "relational-database"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "persistence",
+      "systems-programming",
+      "backend",
+      "client-library",
+      "postgresql",
+      "libpq",
+      "Binary Data Serialization",
+      "Connection Pooling",
+      "Lazy Iterators",
+      "MD5 Authentication",
+      "OID Type Mapping"
+    ],
+    "metaconstellations": [
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 8.226,
+        "matches": [
+          "connection pooling",
+          "postgresql",
+          "sqlite"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.106,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.093,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.303,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.253,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.193,
+        "matches": [
+          "persistence"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.638718Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e8c96e85a90ee3a38aa7f1a47b0646fdc114eb9e62a9e06b0f44f1fdd113b26b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:19.677266+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "persistence",
+    "system-programming",
+    "backend",
+    "client-library",
+    "postgresql",
+    "libpq",
+    "Binary Data Serialization",
+    "Connection Pooling",
+    "Lazy Iterators",
+    "MD5 Authentication",
+    "OID Type Mapping"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-postgres",
+      "path": "/Users/ember/dev/gh/forks/rust-postgres",
+      "similarity": 0.842
+    },
+    {
+      "name": "dbus-rust",
+      "path": "/Users/ember/dev/gh/forks/dbus-rust",
+      "similarity": 0.817
+    },
+    {
+      "name": "luapgsql",
+      "path": "/Users/ember/dev/gh/forks/luapgsql",
+      "similarity": 0.806
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.805
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.803
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.801
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.8
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.797
+    }
+  ]
+}

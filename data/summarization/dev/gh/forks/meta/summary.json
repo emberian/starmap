@@ -1,0 +1,214 @@
+{
+  "name": "piston_meta",
+  "description": "A meta-parsing library that implements a DSL for defining human-readable text formats through composable rules. It features a self-hosting bootstrap mechanism that allows the engine to parse its own syntax definitions and convert them into runtime parsing rules for target documents.",
+  "tags": [
+    "parser-combinators",
+    "meta-parsing",
+    "dsl",
+    "bootstrapping",
+    "tokenizer",
+    "rust",
+    "data-oriented-design",
+    "recursive-descent",
+    "grammar-definition",
+    "piston-engine"
+  ],
+  "category": "Meta-syntax Parser Generation",
+  "concepts": [
+    "Context-Free Grammar Parsing",
+    "Self-Hosting Compilers",
+    "Combinatorial Parsing",
+    "Recursive Descent",
+    "Abstract Syntax Trees",
+    "Tokenization",
+    "Bootstrap Grammar",
+    "Error Backpropagation",
+    "Data-Oriented Design"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 28,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/bootstrap/mod.rs",
+      "src/lib.rs",
+      "src/bootstrap/convert.rs",
+      "src/bootstrap/rules.rs"
+    ]
+  },
+  "_hash": "bbdb5c26eb3928a03e34c0d14286286a21294fced737c5c53caccdf3788119f4",
+  "_path": "/Users/ember/dev/gh/forks/meta",
+  "_updated_at": "2026-02-14T00:56:26.016363Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Context-Free Grammar Parsing",
+      "Self-Hosting Compilers",
+      "Combinatorial Parsing",
+      "Recursive Descent",
+      "AST",
+      "lexical-analysis",
+      "Bootstrap Grammar",
+      "Error Backpropagation",
+      "Data-Oriented Design"
+    ],
+    "tags": [
+      "parser-combinators",
+      "meta-parsing",
+      "dsl",
+      "bootstrapping",
+      "lexical-analysis",
+      "Rust Language Ecosystem",
+      "data-oriented-design",
+      "recursive-descent",
+      "grammar-definition",
+      "piston-engine"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "parser",
+      "AST",
+      "abstract-syntax-tree",
+      "Lexical Analysis",
+      "Recursive Descent Parsing",
+      "Lookahead",
+      "Syntactic Analysis",
+      "racket",
+      "s-expression"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.592,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression",
+          "recursive-descent"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 10.977,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 9.387,
+        "matches": [
+          "lexical analysis",
+          "ast",
+          "parser-combinators",
+          "category:Meta-syntax Parser Generation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.311,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.288,
+        "matches": [
+          "dsl"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.525,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.016363Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ce46e1114a15f0f10f6f564123a255706f6357e28cb81f748f7f8df0328cc348",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:55.192753+00:00"
+  },
+  "mined_motifs": [
+    "Lexical Analysis",
+    "parser",
+    "lexer",
+    "abstract-syntax-tree",
+    "Abstract Syntax Tree",
+    "ast",
+    "lexical-analysis",
+    "Recursive Descent Parsing",
+    "Lookahead",
+    "Syntactic Analysis",
+    "racket",
+    "s-expression"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.826
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.824
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.823
+    },
+    {
+      "name": "easyply",
+      "path": "/Users/ember/dev/gh/forks/easyply",
+      "similarity": 0.823
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.821
+    },
+    {
+      "name": "pct",
+      "path": "/Users/ember/dev/gh/pct",
+      "similarity": 0.819
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.815
+    },
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.805
+    }
+  ]
+}

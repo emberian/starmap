@@ -1,0 +1,234 @@
+{
+  "name": "pyspades",
+  "description": "A Python-based implementation of the Ace of Spades network protocol, providing a high-performance server environment for voxel-based tactical shooters. It integrates the ENet reliable UDP library and implements custom voxel (VXL) map handling, collision detection, and a modular script-based game logic system. The architecture leverages Cython bindings for performance-critical networking while utilizing a flexible plugin system for extensible gameplay mechanics.",
+  "tags": [
+    "ace-of-spades",
+    "enet",
+    "voxel",
+    "vxl",
+    "game-server",
+    "networking",
+    "protocol",
+    "cython",
+    "game-logic",
+    "multiplayer",
+    "udp",
+    "collision-detection",
+    "plugin-system",
+    "server-administration",
+    "map-generation"
+  ],
+  "category": "Voxel-based Game Server Architecture",
+  "concepts": [
+    "Reliable UDP",
+    "Voxel Compression",
+    "VXL Data Format",
+    "Game Protocol Implementation",
+    "Server-Side Game Logic",
+    "Plugin Architecture",
+    "Collision Resolution",
+    "Network Synchronization",
+    "Master Server Integration",
+    "Map Generation",
+    "Event-driven Networking",
+    "Delta Compression",
+    "Remote Administration",
+    "Game State Management",
+    "Packet Serialization",
+    "Latent Game Logic"
+  ],
+  "languages": [
+    "Python",
+    "C++",
+    "C",
+    "Cython",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 1449,
+    "has_readme": false,
+    "sample_files": [
+      "enet/__init__.py",
+      "pyspades/__init__.py",
+      "include/boost/preprocessor/list/detail/edg/fold_right.hpp",
+      "include/boost/mpl/vector/aux_/preprocessed/no_ctps/vector50.hpp",
+      "include/boost/mpl/vector/aux_/preprocessed/plain/vector50.hpp"
+    ]
+  },
+  "_hash": "9892f8f9457eacf4df4720f1a2258d6eceb0023925332edebae562a3a51514e1",
+  "_path": "/Users/ember/dev/gh/pyspades",
+  "_updated_at": "2026-02-14T00:56:28.075425Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Reliable UDP",
+      "Voxel Compression",
+      "VXL Data Format",
+      "Game Protocol Implementation",
+      "Server-Side Game Logic",
+      "Plugin Architecture",
+      "Collision Resolution",
+      "Network Synchronization",
+      "Master Server Integration",
+      "Map Generation",
+      "Event-driven Networking",
+      "Delta Compression",
+      "Remote Administration",
+      "Game State Management",
+      "Packet Serialization",
+      "Latent Game Logic"
+    ],
+    "tags": [
+      "ace-of-spades",
+      "enet",
+      "voxel",
+      "vxl",
+      "game-server",
+      "networking",
+      "protocol",
+      "cython",
+      "game-engine",
+      "multiplayer",
+      "udp",
+      "collision-detection",
+      "plugin-system",
+      "server-administration",
+      "map-generation"
+    ],
+    "mined_motifs": [
+      "game-engine",
+      "Rust Language Ecosystem",
+      "nix",
+      "real-time-strategy",
+      "axum",
+      "sqlite",
+      "Asset Pipeline",
+      "Atmospheric Scattering",
+      "Authentication Systems",
+      "Behavioral AI",
+      "Biome Simulation",
+      "Climate Simulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.505,
+        "matches": [
+          "protocol"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.495,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.491,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.47,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.862,
+        "matches": [
+          "sqlite"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.691,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.075425Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2068ee14c0a2f028addc4b17246ca783f4ba001eeb160d4ca823bd13345d9e18",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:11.691523+00:00"
+  },
+  "mined_motifs": [
+    "game-engine",
+    "rust",
+    "nix",
+    "real-time-strategy",
+    "axum",
+    "sqlite",
+    "Asset Pipeline",
+    "Atmospheric Scattering",
+    "Authentication Systems",
+    "Behavioral AI",
+    "Biome Simulation",
+    "Climate Simulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.871
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.862
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.848
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.846
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.846
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.845
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.845
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.845
+    }
+  ]
+}

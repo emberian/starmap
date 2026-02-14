@@ -1,0 +1,247 @@
+{
+  "name": "-live-web-editor-abcdeez",
+  "description": "A high-performance, in-browser development environment for Rust-to-WebAssembly workflows, featuring multi-tiered compilation strategies ranging from local stubbing to full toolchain execution via v86 x86 emulation and WASIX. It implements a sophisticated virtual file system layer utilizing OPFS and IndexedDB for persistence, alongside a custom hot-reloading orchestrator designed for the Xilem UI framework. The architecture leverages Cross-Origin Isolation and Web Workers to enable near-native toolchain performance within a sandboxed web context.",
+  "tags": [
+    "rust",
+    "webassembly",
+    "ide",
+    "compiler",
+    "wasi",
+    "wasix",
+    "v86",
+    "monaco-editor",
+    "vfs",
+    "opfs",
+    "hmr",
+    "xilem",
+    "orchestrator",
+    "typescript",
+    "emulator"
+  ],
+  "category": "In-browser WebAssembly Toolchain Orchestration",
+  "concepts": [
+    "WebAssembly System Interface (WASI)",
+    "WASIX",
+    "x86 Emulation (v86)",
+    "Origin Private File System (OPFS)",
+    "Cross-Origin Isolation (COI)",
+    "Hot Module Replacement (HMR)",
+    "Virtual File System (VFS)",
+    "In-browser Compilation",
+    "Monaco Editor Integration",
+    "Web Worker Orchestration",
+    "Binaryen Optimization",
+    "Linker (LLD)",
+    "Rustc Toolchain",
+    "IndexedDB Persistence",
+    "Playwright End-to-End Testing",
+    "JS-Wasm Interop"
+  ],
+  "languages": [
+    "JavaScript",
+    "TypeScript",
+    "Rust",
+    "Shell",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 101,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "test/smoke.test.js",
+      "public/app.js",
+      "compiler/real-toolchain.js",
+      "vm-toolchain/jslinux/hmr-server-workspace.js"
+    ]
+  },
+  "_hash": "248c70963487960431f8cc65ea5b5dcd28dd81f63ddd0050c9576b0bfde3f4de",
+  "_path": "/Users/ember/dev/-live-web-editor-abcdeez",
+  "_updated_at": "2026-02-14T00:56:23.340994Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "WebAssembly System Interface (WASI)",
+      "WebAssembly",
+      "x86 Emulation (v86)",
+      "Origin Private File System (OPFS)",
+      "Cross-Origin Isolation (COI)",
+      "Hot Module Replacement (HMR)",
+      "Virtual File System (VFS)",
+      "In-browser Compilation",
+      "Monaco Editor Integration",
+      "Web Worker Orchestration",
+      "Binaryen Optimization",
+      "Linker (LLD)",
+      "Rustc Toolchain",
+      "IndexedDB Persistence",
+      "Playwright End-to-End Testing",
+      "JS-Wasm Interop"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "webassembly",
+      "ide",
+      "compiler-design",
+      "wasi",
+      "v86",
+      "monaco-editor",
+      "vfs",
+      "opfs",
+      "hmr",
+      "xilem",
+      "orchestrator",
+      "typescript",
+      "emulator"
+    ],
+    "mined_motifs": [
+      "WebAssembly",
+      "WebAssembly Compilation Pipeline",
+      "browser-ide",
+      "cheerpx",
+      "x86-emulation",
+      "virtualization",
+      "toolchain",
+      "TCP/IP Stack Emulation",
+      "alpine-linux",
+      "riscv",
+      "tinyemu",
+      "leptos"
+    ],
+    "metaconstellations": [
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 17.999,
+        "matches": [
+          "emulator",
+          "virtualization",
+          "wasi",
+          "webassembly",
+          "opfs",
+          "tinyemu",
+          "v86"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 11.136,
+        "matches": [
+          "riscv",
+          "virtualization",
+          "tinyemu",
+          "v86"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.797,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.778,
+        "matches": [
+          "webassembly",
+          "cheerpx"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.401,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.393,
+        "matches": [
+          "riscv"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.340994Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "375ba30b1d30106356146efa1ce87a815be91e235cb8b32c9ba33bfcc13cacff",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:16.259231+00:00"
+  },
+  "mined_motifs": [
+    "wasm",
+    "WebAssembly Compilation Pipeline",
+    "browser-ide",
+    "cheerpx",
+    "x86-emulation",
+    "virtualization",
+    "toolchain",
+    "TCP/IP Stack Emulation",
+    "alpine-linux",
+    "riscv",
+    "tinyemu",
+    "leptos"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.896
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.884
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.874
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/-live-dev-env-abcdeez",
+      "similarity": 0.873
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.813
+    },
+    {
+      "name": "Jai-Code-Collection",
+      "path": "/Users/ember/src/Jai-Code-Collection",
+      "similarity": 0.809
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.805
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/vscode-rustup",
+      "similarity": 0.8
+    }
+  ]
+}

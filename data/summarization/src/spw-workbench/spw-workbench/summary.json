@@ -1,0 +1,270 @@
+{
+  "name": "spw-workbench",
+  "description": "A research-oriented workbench for the Spw language ecosystem, facilitating the exploration of parsing and runtime behaviors across syntactic, semantic, and pragmatic interpretive layers. The platform employs a domain-driven architecture with signal-based reactivity and an ARIA-coupled UI system to enforce semantic coherence and accessibility. It integrates specialized tooling for lens algebra, operator calculus, and formal auditing of architectural invariants.",
+  "tags": [
+    "typescript",
+    "vite",
+    "vitest",
+    "preact-signals",
+    "lit-html",
+    "dsl",
+    "ast",
+    "semantics",
+    "accessibility",
+    "vim-keybindings",
+    "domain-driven-design",
+    "interpretive-layers",
+    "lens-algebra",
+    "audit-tooling",
+    "reactive-ui",
+    "workbench"
+  ],
+  "category": "Interpretive DSL Semantics Research",
+  "concepts": [
+    "syntactic-semantic-pragmatic layers",
+    "lens algebra",
+    "operator algebra",
+    "probe calculus",
+    "ontological geometry",
+    "keyboard fluency",
+    "aria-coupled semantics",
+    "signal-based reactivity",
+    "domain-bound naming",
+    "interpretive pipelines",
+    "differential layer transitions",
+    "ast-driven transforms",
+    "technical debt auditing",
+    "runtime trajectory modeling",
+    "semantic grounding",
+    "bureaucratic code markers",
+    "quantum metaphors",
+    "cognitive hierarchy theming",
+    "keybinding geology",
+    "architectural strata",
+    "bitmachine runtime",
+    "sheaf-theoretic structures",
+    "tensor-based abstractions",
+    "pragmatic motions",
+    "accessibility-integrated state management",
+    "custom eslint-based invariants",
+    "recursive domain initialization",
+    "selection signals",
+    "yield capture debugging",
+    "cross-highlighting logic"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "Shell",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 653,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "scripts/eslint-plugin-spw/index.js",
+      "src/app/components/index.ts",
+      "src/app/events/index.ts",
+      "src/app/feedback/index.ts"
+    ]
+  },
+  "_hash": "7150877cbae25745dc2ba7714a3ba784bf9aa4e19d06379ec9f07f44ffc9a7ca",
+  "_path": "/Users/ember/src/spw-workbench/spw-workbench",
+  "_updated_at": "2026-02-14T00:56:33.984155Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e016f0ec5bef70d4ce0b42752bb63c0aa1ad1aa27d5be87f1d34837a8bf79a9a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:12.696782+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "interpreter",
+    "parser",
+    "lexical-analysis",
+    "Abstract Syntax Tree",
+    "Recursive Descent Parsing",
+    "abstract-syntax-tree",
+    "wasm",
+    "Lexical Analysis",
+    "webassembly",
+    "state-management",
+    "runtime"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.824
+    },
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/gh/ual-tool",
+      "similarity": 0.779
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.777
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.764
+    },
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/ual-tool",
+      "similarity": 0.758
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.757
+    },
+    {
+      "name": "sol",
+      "path": "/Users/ember/dev/gh/forks/sol",
+      "similarity": 0.755
+    },
+    {
+      "name": "libreDSSP",
+      "path": "/Users/ember/dev/gh/forks/libreDSSP",
+      "similarity": 0.755
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "syntactic-semantic-pragmatic layers",
+      "lens algebra",
+      "operator algebra",
+      "probe calculus",
+      "ontological geometry",
+      "keyboard fluency",
+      "aria-coupled semantics",
+      "signal-based reactivity",
+      "domain-bound naming",
+      "interpretive pipelines",
+      "differential layer transitions",
+      "ast-driven transforms",
+      "technical debt auditing",
+      "runtime trajectory modeling",
+      "semantic grounding",
+      "bureaucratic code markers",
+      "quantum metaphors",
+      "cognitive hierarchy theming",
+      "keybinding geology",
+      "architectural strata",
+      "bitmachine runtime",
+      "sheaf-theoretic structures",
+      "tensor-based abstractions",
+      "pragmatic motions",
+      "accessibility-integrated state management",
+      "custom eslint-based invariants",
+      "recursive domain initialization",
+      "selection signals",
+      "yield capture debugging",
+      "cross-highlighting logic"
+    ],
+    "tags": [
+      "typescript",
+      "vite",
+      "vitest",
+      "preact-signals",
+      "lit-html",
+      "dsl",
+      "abstract-syntax-tree",
+      "semantics",
+      "accessibility",
+      "vim-keybindings",
+      "domain-driven-design",
+      "interpretive-layers",
+      "lens-algebra",
+      "audit-tooling",
+      "reactive-ui",
+      "workbench"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "interpreter",
+      "parser",
+      "Lexical Analysis",
+      "AST",
+      "Recursive Descent Parsing",
+      "WebAssembly",
+      "lexical-analysis",
+      "state-management",
+      "runtime"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.255,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.456,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.702,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.649,
+        "matches": [
+          "webassembly",
+          "runtime"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.274,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.272,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.984155Z"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "name": "codrawer-bridge",
+  "description": "Low-latency infrastructure for AI-assisted collaborative drawing, enabling real-time streaming of stylus input from reMarkable Paper Pro devices to a centralized WebSocket router. The system employs a 'ghost-layer' architecture where AI-generated vector strokes are rendered separately from user ink, integrated with high-performance LLM providers via a specialized multimodal model gateway.",
+  "tags": [
+    "remarkable-paper-pro",
+    "stylus-streaming",
+    "websocket-router",
+    "ghost-layer",
+    "vector-graphics",
+    "low-latency",
+    "ai-assisted-drawing",
+    "fastapi",
+    "golang",
+    "typescript",
+    "swiftui",
+    "linux-input",
+    "real-time-synchronization",
+    "multimodal-llm"
+  ],
+  "category": "Real-time Vector Graphics Synchronization",
+  "concepts": [
+    "Linux Input Event Streaming",
+    "WebSocket Protocol Design",
+    "Incremental Vector Rendering",
+    "Ghost-Layer Architecture",
+    "Asynchronous AI Inference",
+    "Multimodal LLM Integration",
+    "Cross-Platform Event Routing",
+    "Heuristic Stroke Simulation",
+    "Latency Budget Optimization",
+    "Canvas Layer Separation",
+    "Raw Device I/O (evdev)",
+    "Bilateral Stroke Synchronization",
+    "Stroke Debouncing",
+    "Tool Mode Detection",
+    "TCP Keepalive",
+    "WebSocket Reconnection Logic",
+    "JSONL Record/Replay",
+    "DPR-Aware Canvas Scaling",
+    "Vector Path Quantization",
+    "Vision-Language Model Context Patching",
+    "Systemd Service Integration",
+    "Cerebras Inference Optimization",
+    "Together AI SDK Integration",
+    "Bedrock Runtime Integration",
+    "Canvas Context Synchronization",
+    "Input Device Probing"
+  ],
+  "languages": [
+    "Python",
+    "Go",
+    "TypeScript",
+    "Swift",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 76,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "bridge/remarkable/native/main.go",
+      "model-server/src/providers/index.ts",
+      "model-server/src/routes/index.ts",
+      "model-server/src/utils/index.ts"
+    ]
+  },
+  "_hash": "e8b80ab08dc18bf668551be3943815ba8e6fcfd30efceab6cec501fc362f84fa",
+  "_path": "/Users/ember/dev/codrawer-bridge",
+  "_updated_at": "2026-02-14T00:56:23.712562Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Linux Input Event Streaming",
+      "WebSocket Protocol Design",
+      "Incremental Vector Rendering",
+      "Ghost-Layer Architecture",
+      "Asynchronous AI Inference",
+      "Multimodal LLM Integration",
+      "Cross-Platform Event Routing",
+      "Heuristic Stroke Simulation",
+      "Latency Budget Optimization",
+      "Canvas Layer Separation",
+      "Raw Device I/O (evdev)",
+      "Bilateral Stroke Synchronization",
+      "Stroke Debouncing",
+      "Tool Mode Detection",
+      "TCP Keepalive",
+      "WebSocket Reconnection Logic",
+      "JSONL Record/Replay",
+      "DPR-Aware Canvas Scaling",
+      "Vector Path Quantization",
+      "Vision-Language Model Context Patching",
+      "Systemd Service Integration",
+      "Cerebras Inference Optimization",
+      "Together AI SDK Integration",
+      "Bedrock Runtime Integration",
+      "Canvas Context Synchronization",
+      "Input Device Probing"
+    ],
+    "tags": [
+      "remarkable-paper-pro",
+      "stylus-streaming",
+      "websocket-router",
+      "ghost-layer",
+      "vector-graphics",
+      "low-latency",
+      "ai-assisted-drawing",
+      "fastapi",
+      "golang",
+      "typescript",
+      "swiftui",
+      "linux-input",
+      "real-time-synchronization",
+      "multimodal-llm"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Conflict-Free Replicated Data Types",
+      "Event-driven Architecture",
+      "collaboration",
+      "ide",
+      "lsp",
+      "distributed-systems",
+      "context-management",
+      "workflow-automation",
+      "Asynchronous Task Execution",
+      "Cross-platform Build Systems"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.352,
+        "matches": [
+          "context-management"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.351,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.347,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.347,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.347,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.344,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.712562Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e55d7f1bf881f99acaa37067a5b3bd0309c6b22747928881cae927481b16648b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:51.568271+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Conflict-free Replicated Data Types (CRDT)",
+    "Event-driven Architecture",
+    "collaboration",
+    "crdt",
+    "ide",
+    "lsp",
+    "distributed-systems",
+    "context-management",
+    "workflow-automation",
+    "Asynchronous Task Execution",
+    "Cross-platform Build Systems"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.842
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.806
+    },
+    {
+      "name": "open-collaboration-tools",
+      "path": "/Users/ember/dev/open-collaboration-tools",
+      "similarity": 0.803
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.803
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.802
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.802
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.799
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.794
+    }
+  ]
+}

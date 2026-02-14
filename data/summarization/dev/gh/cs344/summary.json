@@ -1,0 +1,234 @@
+{
+  "name": "cs344",
+  "description": "A comprehensive implementation of core data structures and algorithms, featuring comparative performance analysis of sorting techniques and balanced tree structures. The project includes robust implementations of BST, AVL, and Splay trees, along with graph traversal algorithms (BFS/DFS) and specialized min-max selection routines.",
+  "tags": [
+    "data-structures",
+    "algorithms",
+    "cpp",
+    "sorting-algorithms",
+    "binary-search-trees",
+    "avl-trees",
+    "splay-trees",
+    "graph-algorithms",
+    "complexity-analysis",
+    "benchmarking",
+    "recursion",
+    "templates",
+    "graphviz",
+    "clarkson-university"
+  ],
+  "category": "Algorithm Design and Analysis",
+  "concepts": [
+    "Bubble Sort",
+    "Insertion Sort",
+    "Selection Sort",
+    "Merge Sort",
+    "Quicksort",
+    "Median-of-Medians",
+    "Balanced Binary Search Trees",
+    "Tree Rotations",
+    "Amortized Analysis",
+    "Splaying",
+    "Adjacency Lists",
+    "Breadth-First Search",
+    "Depth-First Search",
+    "Time Complexity",
+    "Space Complexity",
+    "Recursive Partitioning",
+    "Iterative Optimization"
+  ],
+  "languages": [
+    "C++",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 35,
+    "has_readme": true,
+    "sample_files": [
+      "a1/main.cpp",
+      "a2/main.cpp",
+      "a3/graph.cpp",
+      "a1/sorts.cpp",
+      "a3/graph.h"
+    ]
+  },
+  "_hash": "4f169c2c08256575fc7962b2508bfa06463d4ddb15b7bde129f2e79637bb4ac7",
+  "_path": "/Users/ember/dev/gh/cs344",
+  "_updated_at": "2026-02-14T00:56:24.879814Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Selection Sort",
+      "Merge Sort",
+      "Quicksort",
+      "Median-of-Medians",
+      "Balanced Binary Search Trees",
+      "Tree Rotations",
+      "Amortized Analysis",
+      "Splaying",
+      "Adjacency Lists",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Time Complexity",
+      "Space Complexity",
+      "Recursive Partitioning",
+      "Iterative Optimization"
+    ],
+    "tags": [
+      "data-structures",
+      "algorithms",
+      "cpp",
+      "sorting-algorithms",
+      "binary-search-trees",
+      "avl-trees",
+      "splay-trees",
+      "graph-algorithms",
+      "complexity-analysis",
+      "benchmarking",
+      "recursion",
+      "templates",
+      "graphviz",
+      "clarkson-university"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "AST",
+      "Lexical Analysis",
+      "Lexical Scoping",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "parser",
+      "symbol-table",
+      "symbolic-computation",
+      "c",
+      "interpreter"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.459,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.867,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.486,
+        "matches": [
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.484,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 4.045,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.657,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.879814Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b0a0b45ac83bbec8a469d32cea2abca84becab8c4b5d90edbd2d50b51a5c924d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:50.019833+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "Lexical Scoping",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "parser",
+    "symbol-table",
+    "symbolic-computation",
+    "c",
+    "interpreter"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.877
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.871
+    },
+    {
+      "name": "cs447",
+      "path": "/Users/ember/dev/gh/cs447",
+      "similarity": 0.867
+    },
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.864
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.86
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.855
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.854
+    }
+  ]
+}

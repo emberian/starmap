@@ -1,0 +1,240 @@
+{
+  "name": "Zed",
+  "description": "A high-performance, multiplayer code editor architected for real-time collaboration and low-latency interaction. It leverages a custom UI framework (GPUI) and Tree-sitter for sophisticated language intelligence, while integrating advanced AI assistance and distributed systems for seamless pair programming.",
+  "tags": [
+    "editor",
+    "rust",
+    "multiplayer",
+    "collaboration",
+    "gpui",
+    "tree-sitter",
+    "lsp",
+    "ide",
+    "terminal",
+    "ai-assistant",
+    "vulkan",
+    "metal",
+    "distributed-systems",
+    "crdt",
+    "low-latency",
+    "high-performance"
+  ],
+  "category": "Collaborative Development Environments",
+  "concepts": [
+    "Conflict-free Replicated Data Types (CRDT)",
+    "Real-time Multiplayer Editing",
+    "Hardware-accelerated UI Rendering",
+    "Semantic Syntax Tree Analysis",
+    "Language Server Protocol (LSP) Integration",
+    "Distributed Remote Development",
+    "Language Model Orchestration",
+    "Asynchronous Task Execution",
+    "Vector Graphics Rasterization",
+    "Event-driven Architecture",
+    "Inter-process Communication (IPC)",
+    "Universal Extension Host",
+    "WebRTC/LiveKit Media Streaming",
+    "Incremental Parsing",
+    "Sub-millisecond Latency Optimization",
+    "Cross-platform Build Systems"
+  ],
+  "languages": [
+    "Rust",
+    "Shell",
+    "Nix",
+    "Python",
+    "JavaScript",
+    "C/C++",
+    "TypeScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 3452,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "crates/agent2/src/tests/mod.rs",
+      "crates/call/src/call_impl/mod.rs",
+      "crates/cli/src/main.rs"
+    ]
+  },
+  "_hash": "2b3434e106bc6ba801f67afebb9de65392bc12933b4d3b257f67e24dcc14853d",
+  "_path": "/Users/ember/dev/zed",
+  "_updated_at": "2026-02-14T00:56:30.993820Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f397910ccee75897a6ff6fd118f13f0a960b7a447d6e798566fcc2e05bb42d26",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:06.006978+00:00"
+  },
+  "mined_motifs": [
+    "typescript",
+    "Asymmetric Message Encryption",
+    "Centralized Message Relay",
+    "Communication Protocol Specification",
+    "InversifyJS Dependency Injection",
+    "Message Compression",
+    "Monorepo Architecture",
+    "Multi-user Cursor Synchronization",
+    "OAuth2 Authentication Flow",
+    "Remote Pair Programming",
+    "Remote Workspace Mirroring",
+    "Room-based Peer Discovery"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "open-collaboration-tools",
+      "path": "/Users/ember/dev/open-collaboration-tools",
+      "similarity": 0.866
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.859
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.856
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.856
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.852
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.849
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.846
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.844
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Conflict-Free Replicated Data Types",
+      "Real-time Multiplayer Editing",
+      "Hardware-accelerated UI Rendering",
+      "Semantic Syntax Tree Analysis",
+      "Language Server Protocol (LSP) Integration",
+      "Distributed Remote Development",
+      "Language Model Orchestration",
+      "Asynchronous Task Execution",
+      "Vector Graphics Rasterization",
+      "Event-driven Architecture",
+      "Inter-process Communication (IPC)",
+      "Universal Extension Host",
+      "WebRTC/LiveKit Media Streaming",
+      "Incremental Parsing",
+      "Sub-millisecond Latency Optimization",
+      "Cross-platform Build Systems"
+    ],
+    "tags": [
+      "editor",
+      "Rust Language Ecosystem",
+      "multiplayer",
+      "collaboration",
+      "gpui",
+      "tree-sitter",
+      "lsp",
+      "ide",
+      "terminal",
+      "ai-assistant",
+      "vulkan",
+      "metal",
+      "distributed-systems",
+      "Conflict-Free Replicated Data Types",
+      "low-latency",
+      "high-performance"
+    ],
+    "mined_motifs": [
+      "typescript",
+      "Asymmetric Message Encryption",
+      "Centralized Message Relay",
+      "Communication Protocol Specification",
+      "InversifyJS Dependency Injection",
+      "Message Compression",
+      "Monorepo Architecture",
+      "Multi-user Cursor Synchronization",
+      "OAuth2 Authentication Flow",
+      "Remote Pair Programming",
+      "Remote Workspace Mirroring",
+      "Room-based Peer Discovery"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.499,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.496,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.496,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.496,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.496,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.494,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.993820Z"
+  }
+}

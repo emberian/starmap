@@ -1,0 +1,230 @@
+{
+  "name": "tbot",
+  "description": "A modular IRC bot framework utilizing a master-slave distributed architecture to decouple event ingestion from processing logic. It implements a custom event router that supports granular message filtering via dictionary patterns or higher-order functions, bypassing standard event loops for optimized callback handling. The design facilitates rapid bot development through a decorator-based API and automated module loaders communicating over IPC.",
+  "tags": [
+    "irc-bot",
+    "distributed-systems",
+    "event-routing",
+    "master-slave",
+    "python-framework",
+    "ipc",
+    "callback-registry",
+    "message-processing",
+    "modular-architecture",
+    "plugin-system"
+  ],
+  "category": "Distributed IRC Bot Framework",
+  "concepts": [
+    "Distributed Message Routing",
+    "Event-Driven Architecture",
+    "Inter-Process Communication (IPC)",
+    "Master-Slave Topology",
+    "Functional Event Filtering",
+    "Decorator-based Event Handling",
+    "Message Dispatching",
+    "Extensible Plugin Architecture",
+    "Asynchronous Event Processing",
+    "Modular Extension Loading",
+    "Event Registry Management",
+    "Callback Subscription Patterns",
+    "Dictionary-based Pattern Matching",
+    "Bot Lifecycle Management",
+    "Multi-process Orchestration",
+    "IRC Protocol Abstraction",
+    "Remote Event Registration",
+    "High-Performance Event Dispatching",
+    "Middleware Filtering",
+    "Decoupled Service Architecture"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": false,
+    "sample_files": [
+      "tbot/__init__.py",
+      "tbot/_common/__init__.py",
+      "tbot/master/__init__.py",
+      "tbot/slave/__init__.py",
+      "tests/test_event_routing.py"
+    ]
+  },
+  "_hash": "519e751acf76a4fe7d187af2530b20ac5c97578b3c1b14c104b2a0b8e6da9748",
+  "_path": "/Users/ember/dev/gh/tbot",
+  "_updated_at": "2026-02-14T00:56:28.666432Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Distributed Message Routing",
+      "Event-Driven Architecture",
+      "Inter-Process Communication (IPC)",
+      "Master-Slave Topology",
+      "Functional Event Filtering",
+      "Decorator-based Event Handling",
+      "Message Dispatching",
+      "Extensible Plugin Architecture",
+      "Asynchronous Event Processing",
+      "Modular Extension Loading",
+      "Event Registry Management",
+      "Callback Subscription Patterns",
+      "Dictionary-based Pattern Matching",
+      "Bot Lifecycle Management",
+      "Multi-process Orchestration",
+      "IRC Protocol Abstraction",
+      "Remote Event Registration",
+      "High-Performance Event Dispatching",
+      "Middleware Filtering",
+      "Decoupled Service Architecture"
+    ],
+    "tags": [
+      "irc-bot",
+      "distributed-systems",
+      "event-routing",
+      "master-slave",
+      "python-framework",
+      "ipc",
+      "callback-registry",
+      "message-processing",
+      "modular-architecture",
+      "plugin-system"
+    ],
+    "mined_motifs": [
+      "postgresql",
+      "typescript",
+      "Concurrency & Synchronization",
+      "python",
+      "networking",
+      "middleware",
+      "django",
+      "enterprise-software",
+      "open-source",
+      "webhooks",
+      "messaging",
+      "real-time-simulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.504,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.504,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.504,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.502,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.498,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 5.462,
+        "matches": [
+          "ipc"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.666432Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "daac6330214ccf8a23c9e458217e74db5ba5b87b7e011e5fcbf555131b56a0af",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:31.029198+00:00"
+  },
+  "mined_motifs": [
+    "postgresql",
+    "typescript",
+    "concurrency",
+    "python",
+    "networking",
+    "middleware",
+    "django",
+    "enterprise-software",
+    "open-source",
+    "webhooks",
+    "messaging",
+    "real-time"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.857
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.846
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.842
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.841
+    },
+    {
+      "name": "tulip",
+      "path": "/Users/ember/dev/gh/forks/tulip",
+      "similarity": 0.839
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.837
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.836
+    },
+    {
+      "name": "cs465-hw1",
+      "path": "/Users/ember/dev/gh/cs465-hw1",
+      "similarity": 0.835
+    }
+  ]
+}

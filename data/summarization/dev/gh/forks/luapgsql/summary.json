@@ -1,0 +1,254 @@
+{
+  "name": "luapgsql",
+  "description": "A lightweight and idiomatic Lua binding for the PostgreSQL libpq C library, facilitating high-performance database interactions through the Lua C API. It provides managed connection and result objects with automatic garbage collection, supporting advanced features such as parametrized queries, asynchronous NOTIFY events, and efficient result set iteration. The implementation handles type-aware data marshalling between PostgreSQL OIDs and native Lua types, ensuring robust integration with relational backends.",
+  "tags": [
+    "postgresql",
+    "lua",
+    "libpq",
+    "database-driver",
+    "c-api",
+    "sql",
+    "lua-module",
+    "binding",
+    "lightweight",
+    "persistence",
+    "backend",
+    "client-library"
+  ],
+  "category": "Relational Database Bindings",
+  "concepts": [
+    "libpq",
+    "Lua C API",
+    "Userdata management",
+    "Metatables",
+    "Garbage collection",
+    "Type marshalling",
+    "Parametrized queries",
+    "Asynchronous NOTIFY support",
+    "Result set iterators",
+    "PostgreSQL OIDs",
+    "Resource management",
+    "Shared library generation",
+    "pkg-config integration",
+    "pg_config integration",
+    "Connection handles",
+    "Statement execution",
+    "String escaping",
+    "Error handling",
+    "Binary OID mapping",
+    "Lua table creation",
+    "Light userdata",
+    "Stack manipulation",
+    "C pointer boxing",
+    "POSIX select",
+    "ANSI C compliance",
+    "Dynamic linking",
+    "Database connectivity",
+    "Metadata introspection"
+  ],
+  "languages": [
+    "C",
+    "Lua"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "luapgsql.c",
+      "luapgsql.h"
+    ]
+  },
+  "_hash": "b5e722312064be667d981711ca5aab09474e413edd8223abcf93fd6b5616bd8d",
+  "_path": "/Users/ember/dev/gh/forks/luapgsql",
+  "_updated_at": "2026-02-14T00:56:26.003264Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "libpq",
+      "Lua C API",
+      "Userdata management",
+      "Metatables",
+      "Garbage collection",
+      "Type marshalling",
+      "Parametrized queries",
+      "Asynchronous NOTIFY support",
+      "Result set iterators",
+      "PostgreSQL OIDs",
+      "Resource management",
+      "Shared library generation",
+      "pkg-config integration",
+      "pg_config integration",
+      "Connection handles",
+      "Statement execution",
+      "String escaping",
+      "Error handling",
+      "Binary OID mapping",
+      "Lua table creation",
+      "Light userdata",
+      "Stack manipulation",
+      "C pointer boxing",
+      "POSIX select",
+      "ANSI C compliance",
+      "Dynamic linking",
+      "Database connectivity",
+      "Metadata introspection"
+    ],
+    "tags": [
+      "postgresql",
+      "lua",
+      "libpq",
+      "database-driver",
+      "c-api",
+      "sql",
+      "lua-module",
+      "binding",
+      "lightweight",
+      "persistence",
+      "backend",
+      "client-library"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Prepared Statements",
+      "relational-database",
+      "foreign-function-interface",
+      "sqlite",
+      "Event Sourcing",
+      "cqrs",
+      "ddd",
+      "event-sourcing",
+      "Binary Data Serialization",
+      "Connection Pooling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 10.822,
+        "matches": [
+          "cqrs",
+          "event-sourcing",
+          "persistence"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 9.494,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 8.13,
+        "matches": [
+          "connection pooling",
+          "postgresql",
+          "sqlite"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.235,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.228,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.217,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.003264Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5bd497b716562cc215e16baa5c4a7c5b4a42e7e968766f097989d91ab1f035a2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:53.688903+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Prepared Statements",
+    "relational-database",
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "sqlite",
+    "Event Sourcing",
+    "cqrs",
+    "ddd",
+    "event-sourcing",
+    "Binary Data Serialization",
+    "Connection Pooling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-postgres",
+      "path": "/Users/ember/dev/gh/forks/rust-postgres",
+      "similarity": 0.857
+    },
+    {
+      "name": "Thinkful-Unit3-Lesson2-Assignment4",
+      "path": "/Users/ember/dev/gh/Thinkful-Unit3-Lesson2-Assignment4",
+      "similarity": 0.826
+    },
+    {
+      "name": "rustsqlite",
+      "path": "/Users/ember/dev/gh/forks/rustsqlite",
+      "similarity": 0.806
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.805
+    },
+    {
+      "name": "wsapi",
+      "path": "/Users/ember/dev/gh/forks/wsapi",
+      "similarity": 0.796
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.78
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.777
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.774
+    }
+  ]
+}

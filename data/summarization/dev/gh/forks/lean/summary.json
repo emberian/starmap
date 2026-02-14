@@ -1,0 +1,254 @@
+{
+  "name": "lean",
+  "description": "Lean is an interactive theorem prover based on the Calculus of Inductive Constructions, facilitating formalized mathematics and verified software development through a robust dependent type system. The codebase implements a high-performance C++ kernel, a sophisticated elaborator supporting type classes, and an extensible tactic framework for automated and interactive proof construction. It features an integrated equations compiler for complex recursion and automated reasoning components including congruence closure and e-matching.",
+  "tags": [
+    "theorem-prover",
+    "formal-methods",
+    "dependent-types",
+    "c-plus-plus",
+    "lean-lang",
+    "automated-reasoning",
+    "proof-assistant",
+    "smt",
+    "tactics",
+    "induction",
+    "metaprogramming",
+    "elaborator",
+    "verification",
+    "logic",
+    "calculus-of-inductive-constructions",
+    "type-theory"
+  ],
+  "category": "Interactive Theorem Proving",
+  "concepts": [
+    "Calculus of Inductive Constructions",
+    "Dependent Type Theory",
+    "Elaborator",
+    "Tactic Framework",
+    "Equations Compiler",
+    "Congruence Closure",
+    "E-matching",
+    "Type Class Inference",
+    "Higher-Order Unification",
+    "Term Rewriting",
+    "Structural Recursion",
+    "Mutual Inductive Types",
+    "Nested Inductive Types",
+    "Metavariables",
+    "Universe Polymorphism",
+    "Pretty Printing",
+    "Linear Programming",
+    "Simp Lemmas",
+    "Pattern Matching",
+    "Formalized Mathematics"
+  ],
+  "languages": [
+    "C++",
+    "Lean",
+    "Python",
+    "Shell",
+    "C",
+    "Emacs Lisp"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 2836,
+    "has_readme": true,
+    "sample_files": [
+      "src/library/inductive_compiler/nested.cpp",
+      "src/frontends/lean/parser.cpp",
+      "src/tests/util/lp/lp.cpp",
+      "src/library/tactic/smt/congruence_closure.cpp",
+      "src/frontends/lean/pp.cpp"
+    ]
+  },
+  "_hash": "870521ce894da866f566931c9560a3c3b8fd6ce45c79ae6ce7d46388049e538e",
+  "_path": "/Users/ember/dev/gh/forks/lean",
+  "_updated_at": "2026-02-14T00:56:25.946479Z",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Calculus of Inductive Constructions",
+      "Dependent Type Theory",
+      "Elaborator",
+      "Tactic Framework",
+      "Equations Compiler",
+      "Congruence Closure",
+      "E-matching",
+      "Type Class Inference",
+      "Higher-Order Unification",
+      "Term Rewriting",
+      "Structural Recursion",
+      "Mutual Inductive Types",
+      "Nested Inductive Types",
+      "Metavariables",
+      "Universe Polymorphism",
+      "Pretty Printing",
+      "Linear Programming",
+      "Simp Lemmas",
+      "Pattern Matching",
+      "Formalized Mathematics"
+    ],
+    "tags": [
+      "Interactive Theorem Proving (ITP)",
+      "formal-verification",
+      "dependent-types",
+      "c-plus-plus",
+      "lean-lang",
+      "automated-reasoning",
+      "smt",
+      "tactics",
+      "induction",
+      "metaprogramming",
+      "elaborator",
+      "verification",
+      "logic",
+      "calculus-of-inductive-constructions",
+      "type-theory"
+    ],
+    "mined_motifs": [
+      "formal-methods",
+      "lean-prover",
+      "Interactive Theorem Proving (ITP)",
+      "interactive-proof",
+      "Inductive Definitions",
+      "Verification Condition Generation",
+      "functional-programming",
+      "monads",
+      "type-classes",
+      "Order Theory",
+      "mathematics"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 13.69,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic",
+          "smt",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 10.951,
+        "matches": [
+          "dependent type theory",
+          "tactic framework",
+          "formal-verification",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.29,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.273,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.517,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 4.022,
+        "matches": [
+          "formal-methods"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.946479Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "082e73a3947fa23cb240b9d377e55c2e0210ce1a6471c19e4c9e9e84a1ec2c69",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:46.131519+00:00"
+  },
+  "mined_motifs": [
+    "formal-verification",
+    "lean-prover",
+    "interactive-theorem-proving",
+    "theorem-proving",
+    "interactive-proof",
+    "Inductive Definitions",
+    "Verification Condition Generation",
+    "functional-programming",
+    "monads",
+    "type-classes",
+    "Order Theory",
+    "mathematics"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.875
+    },
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.862
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.859
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.856
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.846
+    },
+    {
+      "name": "FStar",
+      "path": "/Users/ember/dev/FStar",
+      "similarity": 0.826
+    },
+    {
+      "name": "library_dev",
+      "path": "/Users/ember/dev/gh/forks/library_dev",
+      "similarity": 0.824
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.812
+    }
+  ]
+}

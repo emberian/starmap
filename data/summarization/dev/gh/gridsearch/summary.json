@@ -1,0 +1,224 @@
+{
+  "name": "gridsearch",
+  "description": "A collection of solvers for a grid-based constraint puzzle where internal cells must be populated to form a continuous value-incrementing path between fixed border values. The implementations leverage recursive backtracking and depth-first search strategies in both C++ and early-dialect Rust to explore the combinatorial state space of the NxN grid.",
+  "tags": [
+    "backtracking",
+    "puzzle-solver",
+    "grid-search",
+    "dfs",
+    "constraint-satisfaction",
+    "c-plus-plus",
+    "rust",
+    "pathfinding",
+    "combinatorial-optimization",
+    "graph-traversal"
+  ],
+  "category": "Discrete Constraint Programming",
+  "concepts": [
+    "recursive backtracking",
+    "depth-first search",
+    "grid topology",
+    "adjacency constraints",
+    "boundary value problem",
+    "Hamiltonian path",
+    "state-space exploration",
+    "graph traversal",
+    "Manhattan adjacency",
+    "incremental sequence construction",
+    "spatial reasoning",
+    "exhaustion-based search",
+    "combinatorial search",
+    "fixed-size grid optimization",
+    "pointer-linked cells",
+    "path existence verification",
+    "backtracking-based pathfinding",
+    "integer sequence modeling",
+    "adjacency lists",
+    "static memory allocation"
+  ],
+  "languages": [
+    "C++",
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "arke/main.cpp",
+      "cmr/grid.rs"
+    ]
+  },
+  "_hash": "262d8879b5fb3ae872a0c5d552cae14d6b6ff6a27297b3bddbf70d3a62d02c7c",
+  "_path": "/Users/ember/dev/gh/gridsearch",
+  "_updated_at": "2026-02-14T00:56:27.290759Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "recursive backtracking",
+      "depth-first search",
+      "grid topology",
+      "adjacency constraints",
+      "boundary value problem",
+      "Hamiltonian path",
+      "state-space exploration",
+      "graph traversal",
+      "Manhattan adjacency",
+      "incremental sequence construction",
+      "spatial reasoning",
+      "exhaustion-based search",
+      "combinatorial search",
+      "fixed-size grid optimization",
+      "pointer-linked cells",
+      "path existence verification",
+      "backtracking-based pathfinding",
+      "integer sequence modeling",
+      "adjacency lists",
+      "static memory allocation"
+    ],
+    "tags": [
+      "backtracking",
+      "puzzle-solver",
+      "grid-search",
+      "dfs",
+      "constraint-satisfaction",
+      "c-plus-plus",
+      "Rust Language Ecosystem",
+      "pathfinding",
+      "combinatorial-optimization",
+      "graph-traversal"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "ANSI-based grid visualization",
+      "Bitset-backed spatial representation",
+      "Coordinate mapping",
+      "Discrete time simulation",
+      "Double buffering",
+      "Grid serialization",
+      "Input stream processing",
+      "Life 1.06 coordinate format",
+      "Linear indexing",
+      "Memory-efficient data structures",
+      "Moore neighborhood"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.299,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.294,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.29,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.268,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.493,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.492,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.290759Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7a301514188123a70d00af389be8001183aa146d43f9929fefba3d6bd2d59bfc",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:48.180479+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "ANSI-based grid visualization",
+    "Bitset-backed spatial representation",
+    "Coordinate mapping",
+    "Discrete time simulation",
+    "Double buffering",
+    "Grid serialization",
+    "Input stream processing",
+    "Life 1.06 coordinate format",
+    "Linear indexing",
+    "Memory-efficient data structures",
+    "Moore neighborhood"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.816
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.814
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.791
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.791
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.79
+    },
+    {
+      "name": "maze",
+      "path": "/Users/ember/dev/gh/maze",
+      "similarity": 0.789
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.786
+    },
+    {
+      "name": "rust-lpsolve",
+      "path": "/Users/ember/dev/rust-lpsolve",
+      "similarity": 0.785
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "name": "lazy-static.rs",
+  "description": "A foundational Rust library providing a macro for the declaration of lazily evaluated static variables. It enables thread-safe initialization of global statics at runtime, facilitating the use of heap-allocated structures and non-constant function calls in static contexts.",
+  "tags": [
+    "rust",
+    "macro",
+    "lazy-evaluation",
+    "static-initialization",
+    "concurrency",
+    "thread-safety",
+    "singleton-pattern",
+    "metaprogramming"
+  ],
+  "category": "Zero-Cost Abstractions",
+  "concepts": [
+    "Lazy Initialization",
+    "RAII",
+    "Deref Pattern",
+    "Atomic Initialization",
+    "Sync Trait",
+    "Procedural Generation",
+    "Global State Management",
+    "Heap Allocation",
+    "Thread-Safe Singletons"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lazy_static.rs",
+      "tests/test.rs"
+    ]
+  },
+  "_hash": "3958b25ebaf1c7c68dd8fcee074f1691586f7462ff73b4323aa89ba482fa447c",
+  "_path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+  "_updated_at": "2026-02-14T00:56:25.935002Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Lazy Initialization",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Deref Pattern",
+      "Atomic Initialization",
+      "Sync Trait",
+      "Procedural Generation",
+      "Global State Management",
+      "Heap Allocation",
+      "Thread-Safe Singletons"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "macro",
+      "lazy-evaluation",
+      "static-initialization",
+      "Concurrency & Synchronization",
+      "singleton-pattern",
+      "metaprogramming"
+    ],
+    "mined_motifs": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "foreign-function-interface",
+      "Rust Language Ecosystem",
+      "Depth-First Search",
+      "Interior Mutability",
+      "Memory Management",
+      "Object Graph Traversal",
+      "Reference Cycle Detection",
+      "Smart Pointers",
+      "Trait-based Polymorphism"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.325,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.3,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.47,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.36,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.695,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.686,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.935002Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6f9ad7c4ee3d68fb60823efdcc9747f885c877fcc4d32e144731be16c3600a25",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:45.113441+00:00"
+  },
+  "mined_motifs": [
+    "resource-management",
+    "low-level",
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "rust-lang",
+    "Depth-First Search",
+    "Interior Mutability",
+    "Manual Memory Management",
+    "Object Graph Traversal",
+    "Reference Cycle Detection",
+    "Smart Pointers",
+    "Trait-based Polymorphism"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.874
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.868
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.867
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.856
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.855
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "name": "IACR-eprint-mirror",
+  "description": "A comprehensive mirror of the IACR Cryptology ePrint Archive, automating the synchronization and archival of cryptographic research papers. The system implements a Python-based crawler that scrapes year-based indices to verify consistency and fetch missing PDF/PS artifacts from the official eprint.iacr.org source.",
+  "tags": [
+    "cryptography",
+    "academic-archive",
+    "iacr",
+    "pdf-mirror",
+    "web-crawler",
+    "eprint",
+    "automation",
+    "research-tools"
+  ],
+  "category": "Cryptographic Research Archival",
+  "concepts": [
+    "Web Scraping",
+    "Document Archival",
+    "Artifact Verification",
+    "Consistency Checking",
+    "PostScript to PDF Conversion",
+    "Public Key Cryptography",
+    "Symmetric Key Cryptography",
+    "Zero-Knowledge Proofs",
+    "Protocol Analysis",
+    "Cryptographic Protocols"
+  ],
+  "languages": [
+    "Python",
+    "PostScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 20667,
+    "has_readme": true,
+    "sample_files": [
+      "update.py"
+    ]
+  },
+  "_hash": "749ac65142dc9bdceaa58a5bc7e955920892dfc63072d7a0bb29fe50eaf9c5b5",
+  "_path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+  "_updated_at": "2026-02-14T00:56:25.090663Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Web Scraping",
+      "Document Archival",
+      "Artifact Verification",
+      "Consistency Checking",
+      "PostScript to PDF Conversion",
+      "Public Key Cryptography",
+      "Symmetric Key Cryptography",
+      "Zero-Knowledge Proofs",
+      "Protocol Analysis",
+      "Cryptographic Protocols"
+    ],
+    "tags": [
+      "cryptography",
+      "academic-archive",
+      "iacr",
+      "pdf-mirror",
+      "web-crawler",
+      "eprint",
+      "automation",
+      "research-tools"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "blockchain",
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "o1js",
+      "smart-contracts",
+      "typescript",
+      "verifiable-computing",
+      "Zero-Knowledge Proofs (ZKP)",
+      "zkapp",
+      "Arithmetic Circuits",
+      "Sponge Construction"
+    ],
+    "metaconstellations": [
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.642,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.261,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 6.858,
+        "matches": [
+          "cryptography",
+          "zkapp"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.839,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.461,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.446,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.090663Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ce376036dd6f699649ed4d45c69bb4b1693cefdad6e671172e0f2dee5e8ee278",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:07.199110+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "blockchain",
+    "Recursive SNARKs",
+    "mina-protocol",
+    "o1js",
+    "smart-contracts",
+    "typescript",
+    "verifiable-computing",
+    "zero-knowledge-proofs",
+    "zkapp",
+    "Arithmetic Circuits",
+    "Sponge Construction"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.846
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.843
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.841
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.84
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.837
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.835
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.833
+    },
+    {
+      "name": "cs456",
+      "path": "/Users/ember/dev/gh/cs456",
+      "similarity": 0.832
+    }
+  ]
+}

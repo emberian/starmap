@@ -1,0 +1,204 @@
+{
+  "name": "vscode-rustup",
+  "description": "A Visual Studio Code extension providing seamless integration with the Rustup toolchain manager. It exposes current toolchain status via the editor status bar and automates toolchain overrides, periodic update checks, and interactive update orchestration via child process spawning.",
+  "tags": [
+    "vscode-extension",
+    "rust",
+    "rustup",
+    "toolchain-management",
+    "status-bar",
+    "automation",
+    "typescript",
+    "developer-tools",
+    "rust-lang"
+  ],
+  "category": "Development Environment Orchestration",
+  "concepts": [
+    "Subprocess Management",
+    "VSCode Window API",
+    "Asynchronous Task Execution",
+    "Output Channel Logging",
+    "Configuration Management",
+    "Toolchain Overrides",
+    "Periodic Polling",
+    "Interactive QuickPick"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 18,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "out/extension.js",
+      "src/extension.ts",
+      "out/test/extension.test.js",
+      "src/test/extension.test.ts"
+    ]
+  },
+  "_hash": "0f99bbacfbac5c3163ae4e4c1b89c907824eb93b9adc7b4ac0944c7f6b50565b",
+  "_path": "/Users/ember/dev/vscode-rustup",
+  "_updated_at": "2026-02-14T00:56:30.978143Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2939e9480b0d8f139935ea9578267517d5bb0f47752b568fd2daff3f54e69a7f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:03.653689+00:00"
+  },
+  "mined_motifs": [
+    "Child Process Communication",
+    "rustc",
+    "syntax-highlighting",
+    "resource-management",
+    "system-programming",
+    "Asynchronous Task Scheduling",
+    "Command Palette Integration",
+    "Notification Systems",
+    "QuickPick UI Patterns",
+    "Rust Ecosystem",
+    "Toolchain Versioning",
+    "VSCode Extension API"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/gh/vscode-rustup",
+      "similarity": 0.979
+    },
+    {
+      "name": "VisualRust",
+      "path": "/Users/ember/dev/gh/forks/VisualRust",
+      "similarity": 0.901
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.855
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.85
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.848
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.847
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.844
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Subprocess Management",
+      "VSCode Window API",
+      "Asynchronous Task Execution",
+      "Output Channel Logging",
+      "Configuration Management",
+      "Toolchain Overrides",
+      "Periodic Polling",
+      "Interactive QuickPick"
+    ],
+    "tags": [
+      "vscode-extension",
+      "Rust Language Ecosystem",
+      "rustup",
+      "toolchain-management",
+      "status-bar",
+      "automation",
+      "typescript",
+      "developer-tools"
+    ],
+    "mined_motifs": [
+      "Child Process Communication",
+      "Rust Language Ecosystem",
+      "syntax-highlighting",
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "Asynchronous Task Scheduling",
+      "Command Palette Integration",
+      "Notification Systems",
+      "QuickPick UI Patterns",
+      "Rust Ecosystem",
+      "Toolchain Versioning",
+      "VSCode Extension API"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.49,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.476,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.473,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.459,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.452,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 4.004,
+        "matches": [
+          "automation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.978143Z"
+  }
+}

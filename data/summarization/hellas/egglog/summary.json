@@ -1,0 +1,259 @@
+{
+  "name": "egglog",
+  "description": "A high-performance language and engine that unifies Datalog-style relational queries with equality saturation for advanced program analysis and optimization. It implements an efficient e-graph architecture powered by generic join algorithms and a custom virtual machine for executing rule-based transformations. The system supports extensible sorts, sophisticated term extraction, and programmable rule scheduling to facilitate complex program synthesis and compiler optimization tasks.",
+  "tags": [
+    "e-graphs",
+    "equality-saturation",
+    "datalog",
+    "compiler-optimization",
+    "program-synthesis",
+    "rust",
+    "automated-reasoning",
+    "rewriting-system",
+    "union-find",
+    "generic-join",
+    "intermediate-representation",
+    "virtual-machine",
+    "static-analysis",
+    "formal-methods",
+    "term-rewriting"
+  ],
+  "category": "Relational Equality Saturation",
+  "concepts": [
+    "e-graphs",
+    "equality saturation",
+    "Datalog",
+    "generic join (GJ)",
+    "union-find",
+    "congruence closure",
+    "term extraction",
+    "rule scheduling",
+    "SSA-style actions",
+    "virtual machine execution",
+    "extensible sorts",
+    "ast desugaring",
+    "type inference",
+    "relational queries",
+    "program synthesis",
+    "compiler intermediate representation",
+    "symbolic optimization",
+    "term rewriting systems",
+    "incremental computation",
+    "abstract interpretation",
+    "symbolic execution",
+    "database indexing",
+    "columnar storage",
+    "cost-based extraction"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 180,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/ast/mod.rs",
+      "src/function/mod.rs",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "51ae0cac5a2a6473ffdef58c678c92aff9468557a3bccc89677afc002fa0578e",
+  "_path": "/Users/ember/hellas/egglog",
+  "_updated_at": "2026-02-14T00:56:31.347366Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "442635bb8f6958ee285c77dc642e5de8cb0e505604b39f76d5008fdcc7636127",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:27.804525+00:00"
+  },
+  "mined_motifs": [
+    "Lexical Analysis",
+    "ast",
+    "parser",
+    "webassembly",
+    "compiler",
+    "bison",
+    "flex",
+    "lexer",
+    "llvm",
+    "runtime",
+    "Term Rewriting System (TRS)",
+    "abstract-syntax-tree"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.726
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.718
+    },
+    {
+      "name": "rtt",
+      "path": "/Users/ember/dev/rtt",
+      "similarity": 0.717
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.714
+    },
+    {
+      "name": "graal",
+      "path": "/Users/ember/dev/graal",
+      "similarity": 0.711
+    },
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.71
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.71
+    },
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/ual-tool",
+      "similarity": 0.71
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "e-graphs",
+      "equality saturation",
+      "Datalog",
+      "generic join (GJ)",
+      "union-find",
+      "congruence closure",
+      "term extraction",
+      "rule scheduling",
+      "SSA-style actions",
+      "virtual machine execution",
+      "extensible sorts",
+      "ast desugaring",
+      "type inference",
+      "relational queries",
+      "program synthesis",
+      "compiler intermediate representation",
+      "symbolic optimization",
+      "term rewriting systems",
+      "incremental computation",
+      "abstract interpretation",
+      "symbolic execution",
+      "database indexing",
+      "columnar storage",
+      "cost-based extraction"
+    ],
+    "tags": [
+      "e-graphs",
+      "equality-saturation",
+      "datalog",
+      "compiler-optimization",
+      "program-synthesis",
+      "Rust Language Ecosystem",
+      "automated-reasoning",
+      "rewriting-system",
+      "union-find",
+      "generic-join",
+      "Compiler Engineering",
+      "virtual-machine",
+      "static-analysis",
+      "formal-verification",
+      "term-rewriting"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "parser",
+      "webassembly",
+      "compiler-design",
+      "bison",
+      "flex",
+      "llvm",
+      "runtime",
+      "Term Rewriting System (TRS)",
+      "AST"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 14.936,
+        "matches": [
+          "abstract-syntax-tree",
+          "compiler-design",
+          "lexical-analysis",
+          "e-graphs",
+          "llvm",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 14.932,
+        "matches": [
+          "ast",
+          "parser",
+          "term rewriting systems",
+          "compiler-design",
+          "llvm"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.494,
+        "matches": [
+          "webassembly",
+          "runtime"
+        ]
+      },
+      {
+        "id": "algebraic-optimization-compilers",
+        "name": "Algebraic Optimization & Categorical Compilers",
+        "score": 6.437,
+        "matches": [
+          "e-graphs",
+          "category:Relational Equality Saturation"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 6.333,
+        "matches": [
+          "formal-verification",
+          "category:Relational Equality Saturation"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.14,
+        "matches": [
+          "formal-verification"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.347366Z"
+  }
+}

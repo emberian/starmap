@@ -1,0 +1,201 @@
+{
+  "name": "cs142-proj2",
+  "description": "A C++ implementation of a flat-file database system for managing soccer student registrations. It provides abstraction layers for student categorization based on age-restricted tiers, payment status tracking, and persistence via file-stream I/O. The system utilizes custom stream operators for serialization and includes basic query capabilities by category.",
+  "tags": [
+    "cpp",
+    "flat-file-database",
+    "serialization",
+    "data-persistence",
+    "student-management",
+    "file-io",
+    "cmake-project",
+    "raii"
+  ],
+  "category": "Data Management Systems",
+  "concepts": [
+    "Object-Relational Mapping (ORM) Lite",
+    "File Stream Serialization",
+    "Domain-Driven Design (DDD)",
+    "Categorization Logic",
+    "CRUD Operations",
+    "Input/Output Stream Overloading",
+    "Exception Handling",
+    "Predicate-based Filtering"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": [
+      "data.cpp",
+      "data.h",
+      "test_data.cpp"
+    ]
+  },
+  "_hash": "f66e06dd7442db6379128501ddcb58027c666f4f1cbb1395794f90e133acc3bb",
+  "_path": "/Users/ember/dev/gh/cs142-proj2",
+  "_updated_at": "2026-02-14T00:56:24.846937Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Object-Relational Mapping (ORM) Lite",
+      "File Stream Serialization",
+      "Domain-Driven Design (DDD)",
+      "Categorization Logic",
+      "CRUD Operations",
+      "Input/Output Stream Overloading",
+      "Exception Handling",
+      "Predicate-based Filtering"
+    ],
+    "tags": [
+      "cpp",
+      "flat-file-database",
+      "Data Serialization",
+      "data-persistence",
+      "student-management",
+      "file-io",
+      "cmake-project",
+      "Resource Acquisition Is Initialization (RAII)"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "templates",
+      "data-structures",
+      "Type Inference",
+      "recursion",
+      "functional-programming",
+      "parser",
+      "systems-programming",
+      "Lexical Scoping",
+      "Adjacency Lists",
+      "Amortized Analysis",
+      "Balanced Binary Search Trees"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.821,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.64,
+        "matches": [
+          "data serialization",
+          "category:Data Management Systems"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.431,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.427,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.426,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 4.002,
+        "matches": [
+          "parser"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.846937Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "57b8b489b1a594251e0251ee8230563880a4b02b6fac516d3b37ec2d987d3281",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:46.497636+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "templates",
+    "data-structures",
+    "Type Inference",
+    "recursion",
+    "functional-programming",
+    "parser",
+    "system-programming",
+    "Lexical Scoping",
+    "Adjacency Lists",
+    "Amortized Analysis",
+    "Balanced Binary Search Trees"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.853
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.851
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.841
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.84
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.837
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.837
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.835
+    }
+  ]
+}

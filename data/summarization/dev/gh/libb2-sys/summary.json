@@ -1,0 +1,206 @@
+{
+  "name": "libb2-sys",
+  "description": "Low-level Rust FFI bindings and bundled source distribution for libb2, a C library implementing the BLAKE2 family of cryptographic hash functions. The project provides raw interfaces to the BLAKE2b, BLAKE2s, BLAKE2bp, and BLAKE2sp algorithms, including architecture-specific SIMD optimizations for SSE2, SSSE3, SSE4.1, AVX, and XOP.",
+  "tags": [
+    "ffi",
+    "cryptography",
+    "hash-function",
+    "blake2",
+    "simd-optimization",
+    "rust-sys",
+    "security",
+    "x86-intrinsics"
+  ],
+  "category": "Cryptographic Engineering",
+  "concepts": [
+    "Foreign Function Interface",
+    "Cryptographic Hashing",
+    "SIMD Vectorization",
+    "Instruction Set Dispatch",
+    "Memory Alignment",
+    "Parallel Hashing",
+    "Reference Implementation",
+    "Build-time Code Generation"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "Shell",
+    "M4"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 51,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "libb2-0.96/src/blake2-dispatch.c",
+      "libb2-0.96/src/blake2b.c",
+      "libb2-0.96/src/blake2s.c"
+    ]
+  },
+  "_hash": "41d3d6a7dcd12ae7a3c1f960cb73218b53bf62bc1895f590994b5b6a973a4c17",
+  "_path": "/Users/ember/dev/gh/libb2-sys",
+  "_updated_at": "2026-02-14T00:56:27.584064Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "foreign-function-interface",
+      "Cryptographic Hashing",
+      "SIMD Vectorization",
+      "Instruction Set Dispatch",
+      "Memory Alignment",
+      "Parallel Hashing",
+      "Reference Implementation",
+      "Build-time Code Generation"
+    ],
+    "tags": [
+      "foreign-function-interface",
+      "cryptography",
+      "hash-function",
+      "blake2",
+      "simd-optimization",
+      "rust-sys",
+      "security",
+      "x86-intrinsics"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "simd",
+      "Personalization",
+      "Salting",
+      "avx",
+      "xop",
+      "Affine Coordinates",
+      "Miller Loop",
+      "Projective Coordinates",
+      "bls12-381",
+      "ZK-SNARKs",
+      "ARX Network"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.878,
+        "matches": [
+          "cryptography",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.478,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.453,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.437,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 5.425,
+        "matches": [
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 3.839,
+        "matches": [
+          "category:Cryptographic Engineering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.584064Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6ef7390a45e992663782a249c90fe3846af638aa5ca9b8f6ae8cf0507c8d28c8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:59.263396+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "simd",
+    "Personalization",
+    "Salting",
+    "avx",
+    "xop",
+    "Affine Coordinates",
+    "Miller Loop",
+    "Projective Coordinates",
+    "bls12-381",
+    "snark",
+    "ARX Network"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libblake2",
+      "path": "/Users/ember/dev/gh/libblake2",
+      "similarity": 0.939
+    },
+    {
+      "name": "blake2",
+      "path": "/Users/ember/dev/gh/blake2",
+      "similarity": 0.905
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.867
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.856
+    },
+    {
+      "name": "binius",
+      "path": "/Users/ember/src/binius",
+      "similarity": 0.845
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.844
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.844
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.844
+    }
+  ]
+}

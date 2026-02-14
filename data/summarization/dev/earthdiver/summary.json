@@ -1,0 +1,191 @@
+{
+  "name": "earthdiver",
+  "description": "An exploratory project focused on low-level system state analysis and substrate exploration, likely aimed at extracting and verifying primitive architectural invariants. The project serves as a foundational framework for 'diving' into the underlying state of complex systems, potentially within the context of formal methods or hardware-software co-design.",
+  "tags": [
+    "systems-engineering",
+    "formal-methods",
+    "low-level",
+    "state-analysis",
+    "substrate-exploration",
+    "formal-verification",
+    "architectural-analysis"
+  ],
+  "category": "Substrate State Analysis",
+  "concepts": [
+    "state-space-exploration",
+    "architectural-invariants",
+    "substrate-extraction",
+    "low-level-abstractions",
+    "formal-modeling",
+    "hardware-software-interface"
+  ],
+  "languages": [
+    "unknown"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "3733345dc7af3db836c76111799b1df0a5b4a6b71ede45a23d9cbff59e416f63",
+  "_path": "/Users/ember/dev/earthdiver",
+  "_updated_at": "2026-02-14T00:56:24.023300Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "state-space-exploration",
+      "architectural-invariants",
+      "substrate-extraction",
+      "low-level-abstractions",
+      "formal-modeling",
+      "hardware-software-interface"
+    ],
+    "tags": [
+      "systems-engineering",
+      "formal-verification",
+      "systems-programming",
+      "state-analysis",
+      "substrate-exploration",
+      "formal-methods",
+      "architectural-analysis"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "linux",
+      "Systems Programming",
+      "WebAssembly",
+      "real-time-simulation",
+      "Capability-based Security",
+      "Formal Specification",
+      "Imperative Execution Models",
+      "Mandatory Access Control",
+      "Micro-architecture Simulation",
+      "Policy Enforcement"
+    ],
+    "metaconstellations": [
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 7.972,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 7.904,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.166,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.166,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.144,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.142,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.023300Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "02c904027eb0e8d1184680b1de5cb7589168b85a2d97ee3bceb41eabef1c755f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:57.892744+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "linux",
+    "systems-programming",
+    "wasm",
+    "webassembly",
+    "simulation",
+    "Capability-based Security",
+    "Formal Specification",
+    "Imperative Execution Models",
+    "Mandatory Access Control",
+    "Micro-architecture Simulation",
+    "Policy Enforcement"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.759
+    },
+    {
+      "name": "yeet.plus",
+      "path": "/Users/ember/dev/gh/yeet.plus",
+      "similarity": 0.751
+    },
+    {
+      "name": "megadrag",
+      "path": "/Users/ember/dev/shitheap/megadrag",
+      "similarity": 0.745
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.734
+    },
+    {
+      "name": "miniblog",
+      "path": "/Users/ember/dev/gh/miniblog",
+      "similarity": 0.727
+    },
+    {
+      "name": "state_machine_exp",
+      "path": "/Users/ember/src/state_machine_exp",
+      "similarity": 0.726
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.724
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.722
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "name": "one-hour-roguelike",
+  "description": "A minimalist, terminal-based roguelike engine implemented in Rust as a rapid prototyping exercise. It features a grid-based map system using interior mutability patterns to manage entity state, supporting basic movement, file-based level loading, and primitive collision detection with enemies.",
+  "tags": [
+    "roguelike",
+    "cli-game",
+    "rust",
+    "turn-based",
+    "ascii-graphics",
+    "game-engine",
+    "rapid-prototyping",
+    "terminal-ui"
+  ],
+  "category": "Terminal Game Engines",
+  "concepts": [
+    "grid-based movement",
+    "interior mutability",
+    "Rc<RefCell<T>> pattern",
+    "standard input event loop",
+    "entity-component mapping",
+    "map serialization",
+    "procedural state management",
+    "ASCII rendering pipeline",
+    "collision primitives",
+    "game loop architecture"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "8535f8cf6156b1a5521def85a5a742763d89adf50fdb5fbbdf414ed88571c14a",
+  "_path": "/Users/ember/dev/gh/one-hour-roguelike",
+  "_updated_at": "2026-02-14T00:56:27.848567Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "grid-based movement",
+      "interior mutability",
+      "Rc<RefCell<T>> pattern",
+      "standard input event loop",
+      "entity-component mapping",
+      "map serialization",
+      "procedural state management",
+      "ASCII rendering pipeline",
+      "collision primitives",
+      "game loop architecture"
+    ],
+    "tags": [
+      "roguelike",
+      "cli-game",
+      "Rust Language Ecosystem",
+      "turn-based",
+      "ascii-graphics",
+      "game-engine",
+      "rapid-prototyping",
+      "terminal-ui"
+    ],
+    "mined_motifs": [
+      "Procedural Generation",
+      "Terminal User Interface",
+      "ecs",
+      "area-control",
+      "card-game",
+      "tui",
+      "state-machine",
+      "real-time-simulation",
+      "Bresenham's Line Algorithm",
+      "Component Storage",
+      "Dungeon Crawling",
+      "Entity Interaction"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 9.56,
+        "matches": [
+          "ecs",
+          "procedural generation",
+          "roguelike"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.343,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.332,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.268,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.225,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 2.545,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.848567Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ca531535089c45ee91a44f4346ce49087a9816c6dec283b749c7116139113022",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:07.632709+00:00"
+  },
+  "mined_motifs": [
+    "procedural-generation",
+    "Terminal User Interface",
+    "ecs",
+    "area-control",
+    "card-game",
+    "tui",
+    "state-machine",
+    "simulation",
+    "Bresenham's Line Algorithm",
+    "Component Storage",
+    "Dungeon Crawling",
+    "Entity Interaction"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "seven-hour-roguelike",
+      "path": "/Users/ember/dev/gh/seven-hour-roguelike",
+      "similarity": 0.896
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/multiway-tug",
+      "similarity": 0.828
+    },
+    {
+      "name": "iiag",
+      "path": "/Users/ember/dev/gh/forks/iiag",
+      "similarity": 0.82
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/gh/multiway-tug",
+      "similarity": 0.812
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.799
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.794
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.789
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.785
+    }
+  ]
+}

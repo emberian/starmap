@@ -1,0 +1,244 @@
+{
+  "name": "crates_io_licenses_over_time",
+  "description": "A Rust-based analysis utility designed to track the longitudinal evolution of license distributions within the crates.io registry. The system leverages asynchronous API interaction to ingest full crate metadata, generating periodic snapshots of license counts while accounting for crate-level license mutations over time. A secondary Python component provides normalization heuristics to collapse complex SPDX license expressions into manageable taxonomic categories for visualization.",
+  "tags": [
+    "rust",
+    "crates-io",
+    "licensing",
+    "data-analysis",
+    "tokio",
+    "spdx",
+    "metadata-mining",
+    "time-series",
+    "license-compliance",
+    "asynchronous-io",
+    "json",
+    "python",
+    "ecosystem-health",
+    "serialization",
+    "api-client",
+    "longitudinal-study"
+  ],
+  "category": "Longitudinal License Distribution Analysis",
+  "concepts": [
+    "Asynchronous Metadata Ingestion",
+    "Longitudinal Snapshot Generation",
+    "SPDX Expression Normalization",
+    "Weekly Time-series Resampling",
+    "Crate Version History Tracking",
+    "Registry-wide License Auditing",
+    "JSON Schema Serialization",
+    "Futures-based Concurrency",
+    "License Taxonomy Mapping",
+    "Historical Data Aggregation",
+    "Ecosystem Evolution Monitoring",
+    "API Rate Limit Management",
+    "Idempotent Data Fetching",
+    "License String Heuristics",
+    "Categorical Data Reduction",
+    "Temporal Distribution Analysis",
+    "Dependency Graph Metadata",
+    "Open Source Legal Compliance",
+    "Rust Language Ecosystem",
+    "Data Persistence Layer",
+    "Synchronous vs Asynchronous API Clients",
+    "Memory-efficient Stream Processing",
+    "SPDX License Identifiers",
+    "Copyleft vs Permissive Trends"
+  ],
+  "languages": [
+    "Rust",
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "tweaked.py"
+    ]
+  },
+  "_hash": "7e8ac266d842c29029ec1a0ef92b93a1c47e5b2a116c0f2f73d3b4f851386ada",
+  "_path": "/Users/ember/dev/gh/crates_io_licenses_over_time",
+  "_updated_at": "2026-02-14T00:56:24.834299Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Asynchronous Metadata Ingestion",
+      "Longitudinal Snapshot Generation",
+      "SPDX Expression Normalization",
+      "Weekly Time-series Resampling",
+      "Crate Version History Tracking",
+      "Registry-wide License Auditing",
+      "JSON Schema Serialization",
+      "Futures-based Concurrency",
+      "License Taxonomy Mapping",
+      "Historical Data Aggregation",
+      "Ecosystem Evolution Monitoring",
+      "API Rate Limit Management",
+      "Idempotent Data Fetching",
+      "License String Heuristics",
+      "Categorical Data Reduction",
+      "Temporal Distribution Analysis",
+      "Dependency Graph Metadata",
+      "Open Source Legal Compliance",
+      "Rust Language Ecosystem",
+      "Data Persistence Layer",
+      "Synchronous vs Asynchronous API Clients",
+      "Memory-efficient Stream Processing",
+      "SPDX License Identifiers",
+      "Copyleft vs Permissive Trends"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "crates-io",
+      "licensing",
+      "data-analysis",
+      "Asynchronous Programming",
+      "spdx",
+      "metadata-mining",
+      "time-series",
+      "license-compliance",
+      "json",
+      "python",
+      "ecosystem-health",
+      "Data Serialization",
+      "api-client",
+      "longitudinal-study"
+    ],
+    "mined_motifs": [
+      "rest-api",
+      "reqwest",
+      "serde",
+      "rust",
+      "Metadata Extraction",
+      "Automated pull request generation",
+      "Branch and fork management",
+      "Cargo.toml manifest patching",
+      "Comment-driven consensus detection",
+      "Contributor consent tracking",
+      "Crates.io metadata harvesting",
+      "Dual-license transition (MIT/Apache-2.0)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.324,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.276,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.256,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 3.854,
+        "matches": [
+          "rust"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 2.479,
+        "matches": []
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 2.467,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.834299Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ed0ed6641e2fc286213d9ca4b3c5f72d019d8968b84e6a0773e6bbeb6e35307b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:44.998628+00:00"
+  },
+  "mined_motifs": [
+    "rest-api",
+    "reqwest",
+    "serde",
+    "async-rust",
+    "Metadata Extraction",
+    "Automated pull request generation",
+    "Branch and fork management",
+    "Cargo.toml manifest patching",
+    "Comment-driven consensus detection",
+    "Contributor consent tracking",
+    "Crates.io metadata harvesting",
+    "Dual-license transition (MIT/Apache-2.0)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "relicense-assistant",
+      "path": "/Users/ember/dev/gh/relicense-assistant",
+      "similarity": 0.844
+    },
+    {
+      "name": "crates_io_api",
+      "path": "/Users/ember/dev/gh/forks/crates_io_api",
+      "similarity": 0.826
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.793
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.787
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.786
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.786
+    },
+    {
+      "name": "cargo-public-api",
+      "path": "/Users/ember/src/cargo-public-api",
+      "similarity": 0.785
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.782
+    }
+  ]
+}

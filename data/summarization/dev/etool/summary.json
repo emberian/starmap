@@ -1,0 +1,244 @@
+{
+  "name": "etool",
+  "description": "A multi-target local persistence utility utilizing the SwiftData framework and SwiftUI to manage relational data models across the Apple platform family. The architecture emphasizes a unified schema definition and reactive state management for synchronized entry logging on mobile, desktop, and wearable environments. The project integrates standard XCTest suites for both unit and UI verification across disparate hardware targets.",
+  "tags": [
+    "Swift",
+    "SwiftUI",
+    "SwiftData",
+    "iOS",
+    "macOS",
+    "watchOS",
+    "XCTest",
+    "Persistence",
+    "Multi-platform",
+    "CRUD",
+    "Apple-Ecosystem",
+    "Mobile-Development",
+    "Desktop-Development"
+  ],
+  "category": "Cross-platform Data Persistence",
+  "concepts": [
+    "SwiftData",
+    "ModelContainer",
+    "ModelConfiguration",
+    "NavigationSplitView",
+    "Local Persistence",
+    "Unit Testing",
+    "UI Testing",
+    "Schema Definition",
+    "Multi-target Build System",
+    "Reactive State Management",
+    "Data Binding",
+    "Property Wrappers",
+    "XCTest Framework",
+    "Target Membership",
+    "Application Life Cycle",
+    "Scene Management",
+    "WindowGroup",
+    "NavigationLink",
+    "ToolbarItem",
+    "In-memory Model Storage",
+    "Snapshot Testing",
+    "Swift Concurrency",
+    "Asset Management",
+    "Entitlements Management",
+    "Conditional Compilation",
+    "Interface Orientation Handling"
+  ],
+  "languages": [
+    "Swift"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 26,
+    "has_readme": false,
+    "sample_files": [
+      "etool/ContentView.swift",
+      "etoolW Watch AppUITests/etoolW_Watch_AppUITests.swift",
+      "etoolUITests/etoolUITests.swift",
+      "etoolW Watch AppUITests/etoolW_Watch_AppUITestsLaunchTests.swift",
+      "etoolUITests/etoolUITestsLaunchTests.swift"
+    ]
+  },
+  "_hash": "ef5506cc04de7488a73eb55782c68ed3d9508f2b8a2e8d123fb756a05c68df08",
+  "_path": "/Users/ember/dev/etool",
+  "_updated_at": "2026-02-14T00:56:24.080305Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "SwiftData",
+      "ModelContainer",
+      "ModelConfiguration",
+      "NavigationSplitView",
+      "Local Persistence",
+      "Unit Testing",
+      "UI Testing",
+      "Schema Definition",
+      "Multi-target Build System",
+      "Reactive State Management",
+      "Data Binding",
+      "Property Wrappers",
+      "XCTest Framework",
+      "Target Membership",
+      "Application Life Cycle",
+      "Scene Management",
+      "WindowGroup",
+      "NavigationLink",
+      "ToolbarItem",
+      "In-memory Model Storage",
+      "Snapshot Testing",
+      "Swift Concurrency",
+      "Asset Management",
+      "Entitlements Management",
+      "Conditional Compilation",
+      "Interface Orientation Handling"
+    ],
+    "tags": [
+      "Swift",
+      "SwiftUI",
+      "SwiftData",
+      "iOS",
+      "macOS",
+      "watchOS",
+      "XCTest",
+      "Persistence",
+      "Multi-platform",
+      "CRUD",
+      "Apple-Ecosystem",
+      "Mobile-Development",
+      "Desktop-Development"
+    ],
+    "mined_motifs": [
+      "workflow-automation",
+      "context-management",
+      "ModelContainer lifecycle",
+      "NavigationSplitView architecture",
+      "SwiftData modeling",
+      "XCTest automation",
+      "apple-development",
+      "declarative state synchronization",
+      "performance measurement",
+      "relational persistence",
+      "schema-driven UI",
+      "temporal-logging"
+    ],
+    "metaconstellations": [
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.367,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.354,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.282,
+        "matches": [
+          "context-management"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.73,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 2.55,
+        "matches": []
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.55,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.080305Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b83af7cf7a31dab3d31943033c85b0a25e52815c756279cf4a28d93692006ddc",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:04.384625+00:00"
+  },
+  "mined_motifs": [
+    "workflow-automation",
+    "context-management",
+    "ModelContainer lifecycle",
+    "NavigationSplitView architecture",
+    "SwiftData modeling",
+    "XCTest automation",
+    "apple-development",
+    "declarative state synchronization",
+    "performance measurement",
+    "relational persistence",
+    "schema-driven UI",
+    "temporal-logging"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Duratory",
+      "path": "/Users/ember/dev/Duratory",
+      "similarity": 0.896
+    },
+    {
+      "name": "MessagesTest",
+      "path": "/Users/ember/dev/MessagesTest",
+      "similarity": 0.826
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.822
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.806
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.796
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.794
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.792
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.791
+    }
+  ]
+}

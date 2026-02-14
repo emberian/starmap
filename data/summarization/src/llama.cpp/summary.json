@@ -1,0 +1,255 @@
+{
+  "name": "llama.cpp",
+  "description": "A high-performance C++ implementation of the LLaMA Large Language Model architecture designed for efficient inference on consumer hardware. It leverages the ggml tensor library to support massive quantization, SIMD acceleration via NEON and AVX, and multiple GPU backends including CUDA, Metal, and OpenCL.",
+  "tags": [
+    "llm-inference",
+    "quantization",
+    "cpp",
+    "ggml",
+    "gguf",
+    "simd-acceleration",
+    "metal-api",
+    "cuda",
+    "machine-learning",
+    "edge-computing",
+    "text-generation",
+    "tokenizer",
+    "low-precision",
+    "cross-platform",
+    "distributed-computing"
+  ],
+  "category": "Quantized LLM Inference Runtime",
+  "concepts": [
+    "integer-quantization",
+    "tensor-operations",
+    "computation-graph",
+    "transformer-architecture",
+    "hardware-acceleration",
+    "memory-mapped-io",
+    "sampling-algorithms",
+    "tokenization",
+    "bpe-encoding",
+    "sentencepiece",
+    "rotary-positional-embeddings",
+    "rms-norm",
+    "swiglu-activation",
+    "kv-caching",
+    "speculative-decoding",
+    "fine-tuning-lora",
+    "context-window-management",
+    "multimodal-inference",
+    "constrained-decoding",
+    "gbnf-grammars"
+  ],
+  "languages": [
+    "C++",
+    "Python",
+    "C",
+    "Metal",
+    "Swift",
+    "JavaScript",
+    "Shell",
+    "Nix",
+    "Zig"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 262,
+    "has_readme": true,
+    "sample_files": [
+      "flake.nix",
+      "Makefile",
+      "examples/main/main.cpp",
+      "examples/server/public/index.js",
+      "gguf-py/gguf/__init__.py"
+    ]
+  },
+  "_hash": "53d819e8931557f4a8a567cc4d69bc1c5559d8e74fc72e2eb1bececabd0f36a0",
+  "_path": "/Users/ember/src/llama.cpp",
+  "_updated_at": "2026-02-14T00:56:33.125622Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "71b2c52d738b8e690fa9493dc69c6e20d19049ed44520916754cae2d00229f6a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:37.470413+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Type Inference",
+    "compiler",
+    "systems-programming",
+    "AnyMoE (Dynamic Mixture of Experts)",
+    "Audio-Language Processing",
+    "CPU Offloading",
+    "Continuous Batching",
+    "Device Mapping",
+    "Diffusion Model Inference",
+    "FlashAttention V2/V3",
+    "GGUF / GPTQ / AWQ / HQQ"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mistral.rs",
+      "path": "/Users/ember/src/mistral.rs",
+      "similarity": 0.841
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.826
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.81
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.804
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.801
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.8
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.799
+    },
+    {
+      "name": "neural-assemblies",
+      "path": "/Users/ember/dev/neural-assemblies",
+      "similarity": 0.798
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "integer-quantization",
+      "tensor-operations",
+      "computation-graph",
+      "transformer-architecture",
+      "low-level-graphics",
+      "memory-mapped-io",
+      "sampling-algorithms",
+      "lexical-analysis",
+      "bpe-encoding",
+      "sentencepiece",
+      "rotary-positional-embeddings",
+      "rms-norm",
+      "swiglu-activation",
+      "kv-caching",
+      "speculative-decoding",
+      "fine-tuning-lora",
+      "context-window-management",
+      "multimodal-inference",
+      "constrained-decoding",
+      "gbnf-grammars"
+    ],
+    "tags": [
+      "Large Language Model Inference",
+      "quantization",
+      "cpp",
+      "ggml",
+      "gguf",
+      "simd-acceleration",
+      "metal-api",
+      "cuda",
+      "machine-learning",
+      "edge-computing",
+      "llm-inference",
+      "lexical-analysis",
+      "low-precision",
+      "cross-platform",
+      "distributed-computing"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Type Inference",
+      "compiler-design",
+      "Systems Programming",
+      "AnyMoE (Dynamic Mixture of Experts)",
+      "Audio-Language Processing",
+      "CPU Offloading",
+      "Continuous Batching",
+      "Device Mapping",
+      "Diffusion Model Inference",
+      "FlashAttention V2/V3",
+      "GGUF / GPTQ / AWQ / HQQ"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 13.637,
+        "matches": [
+          "cuda",
+          "llm-inference",
+          "quantization",
+          "gguf",
+          "category:Quantized LLM Inference Runtime"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 8.211,
+        "matches": [
+          "large language model inference",
+          "gguf",
+          "quantization"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 8.163,
+        "matches": [
+          "compiler-design",
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 5.49,
+        "matches": [
+          "llm-inference"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.358,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 3.952,
+        "matches": [
+          "compiler-design"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.125622Z"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "extensions",
+  "description": "This repository defines internal Wayland protocol extensions utilized by the Qt framework to handle low-level inter-process communication between compositors and clients. These specifications provide high-performance mechanisms for server-side buffer management, hardware-accelerated texture sharing, and platform-specific graphics abstractions for backends like EGL, Vulkan, and DMABUF. By enforcing a versioned schema, the extensions ensure interoperability across heterogeneous Qt deployments and safeguard against protocol breakages in complex graphics pipelines.",
+  "tags": [
+    "wayland",
+    "qt",
+    "protocol-extension",
+    "ipc",
+    "egl",
+    "vulkan",
+    "dmabuf",
+    "buffer-management",
+    "compositor",
+    "graphics-stack",
+    "input-method",
+    "texture-sharing",
+    "hardware-integration",
+    "xml",
+    "libhybris",
+    "broadcom"
+  ],
+  "category": "Wayland Protocol Specification",
+  "concepts": [
+    "Wayland Protocol Negotiation",
+    "Server-Side Buffer Extensions",
+    "Cross-Process Resource Sharing",
+    "Hardware Abstraction Layers",
+    "DMABUF Management",
+    "Vulkan Hardware Integration",
+    "EGL Stream Extensions",
+    "Virtual Keyboard Input Methods",
+    "Window Manager Semantics",
+    "Shared Memory Emulation",
+    "Protocol Versioning Strategy",
+    "Linux Graphics Stack",
+    "Mobile Graphics Integration",
+    "Vendor-Specific Drivers",
+    "Binary Compatibility",
+    "IPC Serialization",
+    "Client-Server Synchronization",
+    "Display Server Architecture"
+  ],
+  "languages": [
+    "XML"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "f4e0320b802a3c15685af1b5df3747ac9511e562bf2dd31f2bc2217ddca05090",
+  "_path": "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/extensions",
+  "_updated_at": "2026-02-14T00:56:33.449046Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5327eabd9c95f7126ca5c22f7bfb1bcf9a59b056d6caf025d8e1630a7889e9cd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:56.696276+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "cross-platform",
+    "graphics-api",
+    "hardware-abstraction",
+    "low-level",
+    "gpu-programming",
+    "opengl",
+    "rendering",
+    "shader-compilation",
+    "Asynchronous Protocol Design",
+    "Client-Server Graphics",
+    "Display Compositor Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "wayland",
+      "path": "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/protocols/wayland",
+      "similarity": 0.891
+    },
+    {
+      "name": "qtbase-mkspecs-modules",
+      "path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+      "similarity": 0.813
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.812
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.812
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.799
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.796
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.789
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.788
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Wayland Protocol Negotiation",
+      "Server-Side Buffer Extensions",
+      "Cross-Process Resource Sharing",
+      "Hardware Abstraction Layers",
+      "DMABUF Management",
+      "Vulkan Hardware Integration",
+      "EGL Stream Extensions",
+      "Virtual Keyboard Input Methods",
+      "Window Manager Semantics",
+      "Shared Memory Emulation",
+      "Protocol Versioning Strategy",
+      "Linux Graphics Stack",
+      "Mobile Graphics Integration",
+      "Vendor-Specific Drivers",
+      "Binary Compatibility",
+      "IPC Serialization",
+      "Client-Server Synchronization",
+      "Display Server Architecture"
+    ],
+    "tags": [
+      "wayland",
+      "qt",
+      "protocol-extension",
+      "ipc",
+      "egl",
+      "vulkan",
+      "dmabuf",
+      "buffer-management",
+      "compositor",
+      "graphics-stack",
+      "input-method",
+      "texture-sharing",
+      "hardware-integration",
+      "xml",
+      "libhybris",
+      "broadcom"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "cross-platform",
+      "graphics-api",
+      "hardware-abstraction",
+      "systems-programming",
+      "gpu-programming",
+      "opengl",
+      "Computer Graphics & Rendering",
+      "shader-compilation",
+      "Asynchronous Protocol Design",
+      "Client-Server Graphics",
+      "Display Compositor Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 12.258,
+        "matches": [
+          "ipc",
+          "wayland",
+          "compositor",
+          "dmabuf",
+          "category:Wayland Protocol Specification"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.698,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.642,
+        "matches": [
+          "graphics-api",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 5.328,
+        "matches": [
+          "opengl",
+          "vulkan"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.277,
+        "matches": [
+          "vulkan"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.255,
+        "matches": [
+          "systems-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.449046Z"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "name": "muchin-clean",
+  "description": "Muchin is a modular Rust framework for constructing complex, interacting state machines via composable logic units termed models. It enforces a strict boundary between side-effect-free pure state transitions and isolated effectful models, utilizing an action-driven dispatcher to synchronize communications. The architecture supports deterministic execution through unique identifier (UID) generation and provides built-in facilities for session recording and bit-perfect replay.",
+  "tags": [
+    "rust",
+    "state-machine",
+    "compositional-logic",
+    "determinism",
+    "action-dispatch",
+    "side-effect-isolation",
+    "record-replay",
+    "modular-architecture",
+    "actor-pattern-inspired",
+    "middleware",
+    "system-orchestration",
+    "synchronous-reactive",
+    "event-driven",
+    "serialization",
+    "type-safe-callbacks",
+    "dynamic-dispatch"
+  ],
+  "category": "Deterministic State Machine Orchestration",
+  "concepts": [
+    "Pure State Transitions",
+    "Effectful Side-Effect Isolation",
+    "Action-Driven Dispatcher",
+    "Hierarchical Model Composition",
+    "Redispatch Callbacks",
+    "Non-reusable Unique Identifiers (UID)",
+    "Type-Safe Substate Management",
+    "Runner Execution Loop",
+    "Deterministic Replayability",
+    "Action Queue Management",
+    "State Serialization",
+    "Dynamic Dispatch (AnyModel)",
+    "Runtime Type Identification (RTTI)",
+    "Model Registration Pattern",
+    "Tick-Based Progression",
+    "Round-Robin Instance Scheduling",
+    "FIFO Action Processing",
+    "Side-Effect Inhibition"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 28,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/automaton/mod.rs",
+      "src/lib.rs",
+      "src/models/effectful/mod.rs",
+      "src/models/effectful/time/mod.rs"
+    ]
+  },
+  "_hash": "061abcacb1bf2d3f427055f9b866c95c07da6685baedf50fd0312d6a86061f9c",
+  "_path": "/Users/ember/dev/muchin-clean",
+  "_updated_at": "2026-02-14T00:56:29.709077Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Pure State Transitions",
+      "Effectful Side-Effect Isolation",
+      "Action-Driven Dispatcher",
+      "Hierarchical Model Composition",
+      "Redispatch Callbacks",
+      "Non-reusable Unique Identifiers (UID)",
+      "Type-Safe Substate Management",
+      "Runner Execution Loop",
+      "Deterministic Replayability",
+      "Action Queue Management",
+      "State Serialization",
+      "Dynamic Dispatch (AnyModel)",
+      "Runtime Type Identification (RTTI)",
+      "Model Registration Pattern",
+      "Tick-Based Progression",
+      "Round-Robin Instance Scheduling",
+      "FIFO Action Processing",
+      "Side-Effect Inhibition"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "state-machine",
+      "compositional-logic",
+      "determinism",
+      "action-dispatch",
+      "side-effect-isolation",
+      "record-replay",
+      "modular-architecture",
+      "actor-pattern-inspired",
+      "middleware",
+      "system-orchestration",
+      "synchronous-reactive",
+      "event-driven",
+      "Data Serialization",
+      "type-safe-callbacks",
+      "dynamic-dispatch"
+    ],
+    "mined_motifs": [
+      "event-sourcing",
+      "state-management",
+      "WebAssembly",
+      "distributed-systems",
+      "cqrs",
+      "Reducer Pattern",
+      "fuzzing",
+      "redux",
+      "formal-verification",
+      "rust",
+      "domain-driven-design",
+      "persistence"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 13.783,
+        "matches": [
+          "cqrs",
+          "distributed-systems",
+          "event-sourcing",
+          "persistence"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 9.602,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.378,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.378,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.378,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.376,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.709077Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3d1441d2b1843be7417577ebaee213cfe08ecbb0cfce3f6d41e60ec356bd8f0e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:06.247782+00:00"
+  },
+  "mined_motifs": [
+    "event-sourcing",
+    "state-management",
+    "wasm",
+    "distributed-systems",
+    "cqrs",
+    "Reducer Pattern",
+    "fuzzing",
+    "redux",
+    "formal-methods",
+    "async-rust",
+    "domain-driven-design",
+    "persistence"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "state_machine_exp",
+      "path": "/Users/ember/src/state_machine_exp",
+      "similarity": 0.876
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/dev/redux-rs",
+      "similarity": 0.861
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.858
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.811
+    },
+    {
+      "name": "tsuzuri",
+      "path": "/Users/ember/src/tsuzuri",
+      "similarity": 0.806
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.805
+    },
+    {
+      "name": "eventcore",
+      "path": "/Users/ember/src/eventcore",
+      "similarity": 0.802
+    },
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.795
+    }
+  ]
+}

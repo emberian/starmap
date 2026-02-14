@@ -1,0 +1,277 @@
+{
+  "name": "poly-commit",
+  "description": "A high-performance Rust library for constructing and verifying polynomial commitment schemes (PCS) essential for zkSNARK protocols. It provides a modular framework for univariate, multivariate, and multilinear polynomials, implementing major primitives such as KZG10 (with Marlin and Sonic variants), Inner Product Arguments (IPA), and hash-based linear-code schemes like Ligero and Brakedown. The library emphasizes cryptographic properties like succinctness, extractability, and optional hiding through structured reference strings and batch verification techniques.",
+  "tags": [
+    "cryptography",
+    "rust",
+    "zksnark",
+    "polynomial-commitment",
+    "kzg10",
+    "marlin",
+    "sonic",
+    "hyrax",
+    "ipa",
+    "ligero",
+    "brakedown",
+    "linear-codes",
+    "multilinear",
+    "pairings",
+    "zero-knowledge",
+    "arkworks"
+  ],
+  "category": "Polynomial Commitment Schemes",
+  "concepts": [
+    "Kate-Zaverucha-Goldberg (KZG10)",
+    "Inner Product Argument (IPA)",
+    "Pedersen Commitments",
+    "Reed-Solomon Codes",
+    "Multilinear Extensions (MLE)",
+    "Batch Verification",
+    "Degree Enforcement",
+    "Universal Structured Reference Strings (SRS)",
+    "Fiat-Shamir Transform",
+    "Hiding Property",
+    "Succinctness",
+    "Extractability",
+    "Univariate Polynomials",
+    "Multivariate Polynomials",
+    "AuroraLight",
+    "Papamanthou-Shi-Tamassia (PST)",
+    "Gemini Streaming KZG",
+    "Discrete Logarithm Problem",
+    "Algebraic Group Model (AGM)",
+    "Evaluation Proofs",
+    "Committer Key",
+    "Verifier Key",
+    "Linear Combinations",
+    "Merkle Tree Commitments",
+    "Cryptographic Sponges",
+    "Multi-Scalar Multiplication (MSM)",
+    "Pairing-Friendly Curves",
+    "Evaluation Points",
+    "Shifted Polynomials",
+    "Degree Bounds"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 58,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "bench-templates/src/lib.rs",
+      "poly-commit/src/hyrax/mod.rs",
+      "poly-commit/src/ipa_pc/mod.rs",
+      "poly-commit/src/kzg10/mod.rs"
+    ]
+  },
+  "_hash": "706ed29b96aa4de86bceb63c6fa66cffff0cdc7febf95eb4f3389d183a800901",
+  "_path": "/Users/ember/hellas/poly-commit",
+  "_updated_at": "2026-02-14T00:56:31.909233Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "aa18ada28f43d08ad649715825c3aa05d149424d3034903130bd2caa87deae39",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:41.634725+00:00"
+  },
+  "mined_motifs": [
+    "poseidon-hash",
+    "Recursive SNARKs",
+    "mina-protocol",
+    "elliptic-curves",
+    "polynomial-commitments",
+    "Polynomial Commitment Schemes",
+    "Sponge Construction",
+    "Fiat-Shamir Heuristic",
+    "Foreign Field Arithmetic",
+    "kimchi",
+    "lookup-tables",
+    "pasta-curves"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.985
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.881
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.878
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.878
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.871
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.867
+    },
+    {
+      "name": "kimchi-playground",
+      "path": "/Users/ember/dev/kimchi-playground",
+      "similarity": 0.867
+    },
+    {
+      "name": "binius",
+      "path": "/Users/ember/src/binius",
+      "similarity": 0.855
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "kzg-commitments",
+      "Inner Product Argument (IPA)",
+      "Pedersen Commitments",
+      "Reed-Solomon Codes",
+      "Multilinear Extensions (MLE)",
+      "Batch Verification",
+      "Degree Enforcement",
+      "Universal Structured Reference Strings (SRS)",
+      "Fiat-Shamir Transform",
+      "Hiding Property",
+      "Succinctness",
+      "Extractability",
+      "Univariate Polynomials",
+      "Multivariate Polynomials",
+      "AuroraLight",
+      "Papamanthou-Shi-Tamassia (PST)",
+      "Gemini Streaming KZG",
+      "Discrete Logarithm Problem",
+      "Algebraic Group Model (AGM)",
+      "Evaluation Proofs",
+      "Committer Key",
+      "Verifier Key",
+      "Linear Combinations",
+      "Merkle Tree Commitments",
+      "Cryptographic Sponges",
+      "multi-scalar-multiplication",
+      "Pairing-Friendly Curves",
+      "Evaluation Points",
+      "Shifted Polynomials",
+      "Degree Bounds"
+    ],
+    "tags": [
+      "cryptography",
+      "Rust Language Ecosystem",
+      "ZK-SNARKs",
+      "polynomial-commitment",
+      "kzg-commitments",
+      "marlin",
+      "sonic",
+      "hyrax",
+      "ipa",
+      "ligero",
+      "brakedown",
+      "linear-codes",
+      "multilinear",
+      "pairings",
+      "zero-knowledge-proofs",
+      "arkworks"
+    ],
+    "mined_motifs": [
+      "poseidon-hash",
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "elliptic-curves",
+      "polynomial-commitments",
+      "Polynomial Commitment Schemes",
+      "Sponge Construction",
+      "Fiat-Shamir Heuristic",
+      "Foreign Field Arithmetic",
+      "kimchi",
+      "lookup-tables",
+      "pasta-curves"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 12.532,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks",
+          "kimchi",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 11.087,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "kzg-commitments",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 9.721,
+        "matches": [
+          "mina protocol",
+          "zk-snarks",
+          "pasta-curves"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 8.338,
+        "matches": [
+          "polynomial commitment schemes",
+          "kimchi",
+          "pasta-curves"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.333,
+        "matches": [
+          "kzg-commitments",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.928,
+        "matches": [
+          "polynomial commitment schemes",
+          "arkworks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.909233Z"
+  }
+}

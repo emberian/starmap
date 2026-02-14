@@ -1,0 +1,227 @@
+{
+  "name": "library-project",
+  "description": "This repository contains the formal Requirements Analysis Document (RAD) and architectural design for a library management system developed for the Clarkson Open Source Institute. It leverages LaTeX for high-fidelity technical typesetting of use cases and system specifications, supported by a structured UML suite including object and interaction diagrams. The project documents the engineering lifecycle from preliminary conceptualization to finalized system design using automated build processes.",
+  "tags": [
+    "LMS",
+    "Requirements-Engineering",
+    "UML",
+    "LaTeX",
+    "COSI",
+    "Use-Case",
+    "Object-Diagram",
+    "RAD",
+    "Technical-Documentation",
+    "System-Design",
+    "Makefile",
+    "Specification"
+  ],
+  "category": "Information System Requirements Engineering",
+  "concepts": [
+    "Requirements Engineering",
+    "System Specification",
+    "Unified Modeling Language (UML)",
+    "Use Case Modeling",
+    "Object-Oriented Analysis",
+    "Information System Design",
+    "LaTeX Typesetting",
+    "Document Build Automation",
+    "Software Architecture",
+    "Stakeholder Requirements",
+    "Functional Requirements",
+    "Non-functional Requirements",
+    "System Modeling",
+    "Technical Reporting",
+    "Project Lifecycle Documentation",
+    "Diagrammatic Representation",
+    "Open Source Infrastructure",
+    "Library Management Workflows",
+    "Asset Management Systems",
+    "Interaction Diagrams",
+    "System Decomposition"
+  ],
+  "languages": [
+    "LaTeX",
+    "Makefile"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "d61b3e56f62022781cd9dece0b087adf1f5619c67be21a0383e39662591d167a",
+  "_path": "/Users/ember/dev/gh/library-project",
+  "_updated_at": "2026-02-14T00:56:27.605174Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Requirements Engineering",
+      "System Specification",
+      "Unified Modeling Language (UML)",
+      "Use Case Modeling",
+      "Object-Oriented Analysis",
+      "Information System Design",
+      "LaTeX Typesetting",
+      "Document Build Automation",
+      "Software Architecture",
+      "Stakeholder Requirements",
+      "Functional Requirements",
+      "Non-functional Requirements",
+      "System Modeling",
+      "Technical Reporting",
+      "Project Lifecycle Documentation",
+      "Diagrammatic Representation",
+      "Open Source Infrastructure",
+      "Library Management Workflows",
+      "Asset Management Systems",
+      "Interaction Diagrams",
+      "System Decomposition"
+    ],
+    "tags": [
+      "LMS",
+      "Requirements-Engineering",
+      "UML",
+      "LaTeX",
+      "COSI",
+      "Use-Case",
+      "Object-Diagram",
+      "RAD",
+      "Technical-Documentation",
+      "System-Design",
+      "Makefile",
+      "Specification"
+    ],
+    "mined_motifs": [
+      "library-management",
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "Containerization",
+      "DHCP Service",
+      "DNS Architecture",
+      "Documentation-as-Code",
+      "Firewall Configuration",
+      "Hardware Inventory",
+      "IP Address Management",
+      "Infrastructure Documentation",
+      "Knowledge Transfer"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 5.593,
+        "matches": [
+          "documentation-as-code"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.513,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.483,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 4.15,
+        "matches": [
+          "documentation-as-code"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.718,
+        "matches": []
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 2.715,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.605174Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6237cd5b273b9a159e9362fc27a392c1ffa9f3a4803f4c19a158827d684ef3de",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:01.440217+00:00"
+  },
+  "mined_motifs": [
+    "library-management",
+    "rust",
+    "compiler-design",
+    "Containerization",
+    "DHCP Service",
+    "DNS Architecture",
+    "Documentation-as-Code",
+    "Firewall Configuration",
+    "Hardware Inventory",
+    "IP Address Management",
+    "Infrastructure Documentation",
+    "Knowledge Transfer"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/gh/forks/cosi-book",
+      "similarity": 0.889
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.883
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.878
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.873
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.866
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.865
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.865
+    }
+  ]
+}

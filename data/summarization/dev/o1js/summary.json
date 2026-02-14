@@ -1,0 +1,270 @@
+{
+  "name": "o1js",
+  "description": "A comprehensive TypeScript framework for authoring zero-knowledge smart contracts (zkApps) and recursive ZK-SNARK circuits targeting the Mina Protocol. It exposes a domain-specific language for provable computation, leveraging the Kimchi proof system and Pickles recursion layer via WASM-compiled OCaml bindings. The toolkit includes high-level abstractions for cryptographic primitives, state-transition logic, and sophisticated gadgets for foreign field arithmetic and elliptic curve operations.",
+  "tags": [
+    "mina-protocol",
+    "zk-snarks",
+    "typescript",
+    "zero-knowledge-proofs",
+    "smart-contracts",
+    "kimchi",
+    "pickles",
+    "recursion",
+    "wasm",
+    "cryptography",
+    "blockchain",
+    "provable-code",
+    "poseidon",
+    "gadgets",
+    "plonk",
+    "ocaml"
+  ],
+  "category": "Zero-Knowledge Provable Programming",
+  "concepts": [
+    "Recursive SNARKs",
+    "Provable Types",
+    "Circuit Gadgets",
+    "PlonKish Arithmetization",
+    "Polynomial Commitment Schemes",
+    "Merkle Trees",
+    "Smart Contract State",
+    "Account Updates",
+    "Poseidon Hashing",
+    "Foreign Field Arithmetic",
+    "ECDSA Verification",
+    "Local Blockchain Simulation",
+    "WASM Bindings",
+    "Cryptographic Permutations",
+    "Elliptic Curve Cryptography",
+    "Multi-Scalar Multiplication",
+    "State Proofs",
+    "Modular Arithmetic",
+    "Custom Gates",
+    "Lookup Tables",
+    "Recursion Layer",
+    "Zero-Knowledge Smart Contracts"
+  ],
+  "languages": [
+    "OCaml",
+    "TypeScript",
+    "Rust",
+    "Shell",
+    "Go",
+    "JavaScript",
+    "Python",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 20993,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "dune-project",
+      "src/examples/zkapps/sudoku/index.ts",
+      "src/index.ts",
+      "src/mina/automation/scripts/github_branch_autosync/github_autosync/gcloud_entrypoint/__init__.py"
+    ]
+  },
+  "_hash": "0f57b097c9bb4b56a7426f3c1d815bd21da46bf91024544d67ebfc03b73b8aa5",
+  "_path": "/Users/ember/dev/o1js",
+  "_updated_at": "2026-02-14T00:56:29.749270Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "zero-knowledge-proofs",
+      "Provable Types",
+      "Circuit Gadgets",
+      "PlonKish Arithmetization",
+      "Polynomial Commitment Schemes",
+      "Merkle Trees",
+      "Smart Contract State",
+      "Account Updates",
+      "Poseidon Hashing",
+      "Foreign Field Arithmetic",
+      "ECDSA Verification",
+      "Local Blockchain Simulation",
+      "WASM Bindings",
+      "Cryptographic Permutations",
+      "Elliptic Curve Cryptography",
+      "Multi-Scalar Multiplication",
+      "State Proofs",
+      "Modular Arithmetic",
+      "Custom Gates",
+      "Lookup Tables",
+      "Recursion Layer",
+      "Zero-Knowledge Smart Contracts"
+    ],
+    "tags": [
+      "Mina Protocol",
+      "zero-knowledge-proofs",
+      "typescript",
+      "Zero-Knowledge Proofs (ZKP)",
+      "smart-contracts",
+      "kimchi",
+      "pickles",
+      "recursion",
+      "WebAssembly",
+      "cryptography",
+      "blockchain",
+      "provable-code",
+      "poseidon",
+      "gadgets",
+      "plonk",
+      "ocaml"
+    ],
+    "mined_motifs": [
+      "Arithmetic Circuits",
+      "Recursive SNARKs",
+      "Rust Language Ecosystem",
+      "o1js",
+      "libp2p",
+      "Kimchi Proof System",
+      "proof-of-stake",
+      "succinct-blockchain",
+      "zkapps",
+      "verifiable-computing",
+      "zkapp",
+      "ZK-SNARKs"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 16.795,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks",
+          "zk-snarks",
+          "pickles",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 11.221,
+        "matches": [
+          "polynomial commitment schemes",
+          "recursive snarks",
+          "kimchi",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 11.176,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi",
+          "o1js",
+          "pickles",
+          "plonk"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 9.794,
+        "matches": [
+          "polynomial commitment schemes",
+          "zero-knowledge proofs (zkp)",
+          "plonk"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.79,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.383,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "recursive snarks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.749270Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3925b6231d00402f3f9e9899f9cd4941fde23773ff69d50199b074f89a39dc65",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:11.696607+00:00"
+  },
+  "mined_motifs": [
+    "Arithmetic Circuits",
+    "recursive-snarks",
+    "rust",
+    "o1js",
+    "libp2p",
+    "Kimchi Proof System",
+    "proof-of-stake",
+    "succinct-blockchain",
+    "zkapps",
+    "verifiable-computing",
+    "zkapp",
+    "zk-snark"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.92
+    },
+    {
+      "name": "o1js-groth16",
+      "path": "/Users/ember/dev/o1js-groth16",
+      "similarity": 0.909
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.909
+    },
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.894
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.891
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.889
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.887
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.879
+    }
+  ]
+}

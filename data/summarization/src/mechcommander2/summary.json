@@ -1,0 +1,253 @@
+{
+  "name": "mechcommander2",
+  "description": "A modernized and patched implementation of the MechCommander 2 real-time tactics game engine, originally released by Microsoft. The codebase features a custom 3D rendering pipeline using the Tiny Geometry Layer (TGL), quad-tree based terrain management, and a specialized mission scripting system (ABL). It provides comprehensive tooling including a mission editor and asset management utilities for large-scale tactical simulations.",
+  "tags": [
+    "mechcommander",
+    "battletech",
+    "game-engine",
+    "rts",
+    "tactical",
+    "directx",
+    "legacy-gaming",
+    "simulation",
+    "cpp",
+    "microsoft",
+    "windows",
+    "strategy",
+    "mission-editor"
+  ],
+  "category": "Real-time Tactical Wargame Engine",
+  "concepts": [
+    "Level-of-Detail (LOD) Management",
+    "Terrain Quad-trees",
+    "Mission Logic Scripting (ABL)",
+    "Vertex Lighting",
+    "Fog-of-War Simulation",
+    "Object Lifecycle Management",
+    "Kinematic Animation",
+    "Sound System Integration",
+    "GUI Event Handling",
+    "Collision Geometry",
+    "Pathfinding Algorithms",
+    "Resource Management",
+    "Shader Effects (HLSL/FX)",
+    "Texture Mapping",
+    "Camera Projection Systems",
+    "Unit Designations",
+    "Campaign Management",
+    "Multiplayer Synchronization",
+    "Coordinate System Transformations",
+    "Asset Serialization",
+    "Tiny Geometry Layer (TGL)",
+    "Multiple TG Shape Layer (MSL)",
+    "Particle System (GOSFX)",
+    "GameOS Compatibility Layer",
+    "Tactical AI",
+    "Entity-Component Architecture"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "Shell",
+    "CMake"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2061,
+    "has_readme": true,
+    "sample_files": [
+      "source/mclib/bdactor.cpp",
+      "source/mclib/quad.cpp",
+      "source/mechcmd2/objmgr.cpp",
+      "source/mechcmd2/mission.cpp",
+      "source/tools/editor/editorinterface.cpp"
+    ]
+  },
+  "_hash": "d6e981284ba6684ccd6f97f5422315c62b4b3a500c7e25cbaf91f7ab2dcdf0b9",
+  "_path": "/Users/ember/src/mechcommander2",
+  "_updated_at": "2026-02-14T00:56:33.180881Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9fabacdfb517b53e0deabd7809a3075a9cfe4ad2efee2e9f16220b13554c5d2a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:43.496961+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "real-time-strategy",
+    "A* Pathfinding",
+    "westwood-studios",
+    "pathfinding",
+    "retro-gaming",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "command-and-conquer",
+    "legacy-code",
+    "networking",
+    "ecs"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.805
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.805
+    },
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.803
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.791
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.773
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/gh/multiway-tug",
+      "similarity": 0.763
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.762
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.76
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Level-of-Detail (LOD) Management",
+      "Terrain Quad-trees",
+      "Mission Logic Scripting (ABL)",
+      "Vertex Lighting",
+      "Fog-of-War Simulation",
+      "Object Lifecycle Management",
+      "Kinematic Animation",
+      "Sound System Integration",
+      "GUI Event Handling",
+      "Collision Geometry",
+      "Pathfinding Algorithms",
+      "Resource Management",
+      "Shader Effects (HLSL/FX)",
+      "Texture Mapping",
+      "Camera Projection Systems",
+      "Unit Designations",
+      "Campaign Management",
+      "Multiplayer Synchronization",
+      "Coordinate System Transformations",
+      "Asset Serialization",
+      "Tiny Geometry Layer (TGL)",
+      "Multiple TG Shape Layer (MSL)",
+      "Particle System (GOSFX)",
+      "GameOS Compatibility Layer",
+      "Tactical AI",
+      "Entity-Component Architecture"
+    ],
+    "tags": [
+      "mechcommander",
+      "battletech",
+      "game-engine",
+      "rts",
+      "tactical",
+      "directx",
+      "legacy-gaming",
+      "real-time-simulation",
+      "cpp",
+      "microsoft",
+      "windows",
+      "strategy",
+      "mission-editor"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "real-time-strategy",
+      "A* Pathfinding",
+      "westwood-studios",
+      "pathfinding",
+      "retro-gaming",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "command-and-conquer",
+      "legacy-code",
+      "networking",
+      "ecs"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 10.862,
+        "matches": [
+          "game-engine",
+          "pathfinding",
+          "rts"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.33,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.246,
+        "matches": [
+          "ecs"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.226,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.176,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.029,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.180881Z"
+  }
+}

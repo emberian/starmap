@@ -1,0 +1,221 @@
+{
+  "name": "rust-phf",
+  "description": "Rust-PHF is a library for generating efficient, immutable lookup tables at compile time using perfect hash functions. It implements the CHD algorithm to construct collision-free maps and sets that provide O(1) search performance with minimal memory overhead. The library utilizes Rust macros and compiler plugins to pre-compute hash states, enabling static initialization of optimized data structures for performance-critical applications.",
+  "tags": [
+    "rust",
+    "phf",
+    "perfect-hashing",
+    "chd-algorithm",
+    "compile-time",
+    "static-initialization",
+    "immutable-map",
+    "lookup-table",
+    "hash-map",
+    "hash-set",
+    "xxhash",
+    "compiler-plugin",
+    "no-std"
+  ],
+  "category": "Perfect Hashing Algorithms",
+  "concepts": [
+    "Perfect Hash Functions",
+    "CHD Algorithm",
+    "Hash-Displace",
+    "Compile-time Generation",
+    "Static Memory Layout",
+    "Minimal Perfect Hashing",
+    "Collision-free Hashing",
+    "Rust Macros",
+    "Compiler Plugins",
+    "Static Data Structures",
+    "XXHash",
+    "Ordered Maps",
+    "Ordered Sets"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "phf/src/lib.rs",
+      "phf_mac/src/lib.rs",
+      "shared/mod.rs",
+      "phf/tests/test.rs",
+      "phf_mac/src/util.rs"
+    ]
+  },
+  "_hash": "25d5340a88197042d8afe51c8176b38cb56c07fc06a1af9ca83fc714d1e7cb29",
+  "_path": "/Users/ember/dev/gh/forks/rust-phf",
+  "_updated_at": "2026-02-14T00:56:26.609093Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Perfect Hash Functions",
+      "CHD Algorithm",
+      "Hash-Displace",
+      "Compile-time Generation",
+      "Static Memory Layout",
+      "Minimal Perfect Hashing",
+      "Collision-free Hashing",
+      "Rust Macros",
+      "Compiler Plugins",
+      "Static Data Structures",
+      "XXHash",
+      "Ordered Maps",
+      "Ordered Sets"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "phf",
+      "perfect-hashing",
+      "chd-algorithm",
+      "compile-time",
+      "static-initialization",
+      "immutable-map",
+      "lookup-table",
+      "hash-map",
+      "hash-set",
+      "xxhash",
+      "compiler-plugin"
+    ],
+    "mined_motifs": [
+      "Memory Management",
+      "Systems Programming",
+      "foreign-function-interface",
+      "Compiler Engineering",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Context-Free Grammar",
+      "Formal Language Theory",
+      "Grammar Construction",
+      "Grammar Representation",
+      "Grammar Validation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.201,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.186,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.164,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.397,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.376,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.582,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.609093Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e713afb5b1b91140403c7d3d46456dc519d0e5758e171d285632b54c80220f2b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:15.706865+00:00"
+  },
+  "mined_motifs": [
+    "Manual Memory Management",
+    "memory-management",
+    "systems-programming",
+    "ffi",
+    "compiler-design",
+    "low-level",
+    "resource-management",
+    "Context-Free Grammar",
+    "Formal Language Theory",
+    "Grammar Construction",
+    "Grammar Representation",
+    "Grammar Validation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.831
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.829
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.829
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.826
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.82
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.819
+    }
+  ]
+}

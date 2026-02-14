@@ -1,0 +1,267 @@
+{
+  "name": "google-breakpad-sys",
+  "description": "Low-level Rust FFI bindings and integrated build system for Google Breakpad, a comprehensive multi-platform crash-reporting system. The project facilitates the generation of minidumps from crashed processes and provides tools for stackwalking and symbol resolution using DWARF, ELF, and Mach-O debug formats.",
+  "tags": [
+    "crash-reporting",
+    "minidump",
+    "breakpad",
+    "rust-ffi",
+    "stackwalking",
+    "post-mortem",
+    "debugging",
+    "dwarf",
+    "elf",
+    "macho",
+    "exception-handling",
+    "symbolication",
+    "systems-programming",
+    "cross-platform",
+    "stack-unwinding"
+  ],
+  "category": "Post-mortem Debugging Infrastructure",
+  "concepts": [
+    "Minidump Serialization",
+    "Call Stack Reconstruction",
+    "Thread Context Capture",
+    "Debug Information Parsing",
+    "CFI Unwinding",
+    "Exception Filtering",
+    "Process State Analysis",
+    "Mach-O Reader",
+    "ELF Core Dumps",
+    "DWARF Reader",
+    "Crash Generation Client-Server",
+    "Microdump Generation",
+    "Memory Mapped Files",
+    "Symbol Table Generation",
+    "Stackwalking",
+    "Ptrace Debugging",
+    "Exception Handler Implementation",
+    "SEH (Structured Exception Handling)",
+    "Symbolication",
+    "Address Mapping",
+    "Binary Analysis",
+    "System Information Gathering",
+    "Cross-platform Exception Handling",
+    "Instruction Pointer Resolution",
+    "Register State Restoration",
+    "Dynamic Linker Inspection",
+    "Page Allocation in Compromised Environments",
+    "Libcurl Integration",
+    "Seccomp Unwinding",
+    "Unit Testing for Crash Handlers"
+  ],
+  "languages": [
+    "C++",
+    "Rust",
+    "C",
+    "Shell",
+    "Python",
+    "Go"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 785,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "lib.rs",
+      "src/processor/stackwalker_x86_unittest.cc",
+      "src/common/dwarf/dwarf2reader_cfi_unittest.cc",
+      "src/common/dwarf/dwarf2reader.cc"
+    ]
+  },
+  "_hash": "a63c76c48b6ea30084e522a390ec1acce5097784722ca4a2c182274e06b69655",
+  "_path": "/Users/ember/dev/gh/google-breakpad-sys",
+  "_updated_at": "2026-02-14T00:56:27.281958Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Minidump Serialization",
+      "Call Stack Reconstruction",
+      "Thread Context Capture",
+      "Debug Information Parsing",
+      "CFI Unwinding",
+      "Exception Filtering",
+      "Process State Analysis",
+      "Mach-O Reader",
+      "ELF Core Dumps",
+      "DWARF Reader",
+      "Crash Generation Client-Server",
+      "Microdump Generation",
+      "Memory Mapped Files",
+      "Symbol Table Generation",
+      "Stackwalking",
+      "Ptrace Debugging",
+      "Exception Handler Implementation",
+      "SEH (Structured Exception Handling)",
+      "Symbolication",
+      "Address Mapping",
+      "Binary Analysis",
+      "System Information Gathering",
+      "Cross-platform Exception Handling",
+      "Instruction Pointer Resolution",
+      "Register State Restoration",
+      "Dynamic Linker Inspection",
+      "Page Allocation in Compromised Environments",
+      "Libcurl Integration",
+      "Seccomp Unwinding",
+      "Unit Testing for Crash Handlers"
+    ],
+    "tags": [
+      "crash-reporting",
+      "minidump",
+      "breakpad",
+      "Foreign Function Interface (FFI)",
+      "stackwalking",
+      "post-mortem",
+      "debugging",
+      "dwarf",
+      "elf",
+      "macho",
+      "exception-handling",
+      "symbolication",
+      "Systems Programming",
+      "cross-platform",
+      "stack-unwinding"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Dynamic Dispatch",
+      "foreign-function-interface",
+      "linux",
+      "Compiler Engineering",
+      "Resource Acquisition Is Initialization (RAII)",
+      "address-space-mapping",
+      "backtrace",
+      "binary-translation-compatibility",
+      "call-frame-information",
+      "cfi-assembler",
+      "crash-generation-client"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.302,
+        "matches": [
+          "foreign function interface (ffi)",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.294,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.515,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.513,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.507,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 4.098,
+        "matches": [
+          "crash-reporting"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.281958Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2828a53044419a8df9817165e91dcc32ac89304864b3eac86f11abfe9be02991",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:47.481563+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Dynamic Dispatch",
+    "ffi",
+    "linux",
+    "compiler-design",
+    "resource-management",
+    "address-space-mapping",
+    "backtrace",
+    "binary-translation-compatibility",
+    "call-frame-information",
+    "cfi-assembler",
+    "crash-generation-client"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "google-breakpad",
+      "path": "/Users/ember/dev/gh/google-breakpad",
+      "similarity": 0.949
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.874
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.863
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.857
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.857
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.854
+    }
+  ]
+}

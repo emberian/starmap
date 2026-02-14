@@ -1,0 +1,239 @@
+{
+  "name": "audec",
+  "description": "audec is a technical real-time audio analysis suite implemented in Rust, optimized for high-density signal visualization rather than aesthetic entertainment. The architecture utilizes PortAudio for multi-backend input capture and SDL2 for software-driven rendering of oscilloscope, spectrogram, and vectorscope views. It employs FFT-based spectral decomposition with configurable windowing and zero-crossing detection to provide precise temporal and frequency-domain insights into live audio streams.",
+  "tags": [
+    "audio-analysis",
+    "real-time",
+    "rust",
+    "dsp",
+    "fft",
+    "spectrogram",
+    "oscilloscope",
+    "vectorscope",
+    "portaudio",
+    "sdl2",
+    "waterfall-display",
+    "signal-processing",
+    "low-latency",
+    "cli",
+    "visualizer"
+  ],
+  "category": "Real-time Audio Signal Analysis",
+  "concepts": [
+    "Fast Fourier Transform",
+    "Hann Windowing",
+    "Zero-crossing Detection",
+    "Spectral Bias Compensation",
+    "Waterfall Persistence",
+    "Software Rasterization",
+    "Phase Correlation Visualization",
+    "Ring Buffer Management",
+    "Input Stream Synchronization",
+    "Frequency Domain Mapping",
+    "Amplitude Scaling",
+    "Sample Rate Synchronization",
+    "Concurrent Audio Processing",
+    "Host API Abstraction",
+    "Stereo Field Analysis",
+    "Dynamic Range Visualization",
+    "Logarithmic Frequency Scaling",
+    "In-place FFT Computation",
+    "Vertex Coordinate Mapping"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/view/spec.rs",
+      "src/view/scope.rs",
+      "src/view/vec.rs"
+    ]
+  },
+  "_hash": "e2bd84a633c49c8d5738aa432187618b13aa6c12961869019e2d85fbcb32e246",
+  "_path": "/Users/ember/dev/shitheap/sparklyfarts",
+  "_updated_at": "2026-02-14T00:56:30.296175Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "02996da0bf133adbe03c31598c19217872c97296753382fd077800a1810c14e0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:45.450223+00:00"
+  },
+  "mined_motifs": [
+    "real-time-audio",
+    "audio-synthesis",
+    "Waveform Generation",
+    "systems-programming",
+    "ffi",
+    "ALSA Backend",
+    "Audio Period Management",
+    "Clipping Detection",
+    "Complex Domain Processing",
+    "Cross-platform Audio API",
+    "Dynamic Range Scaling",
+    "Event-driven UI"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "audec",
+      "path": "/Users/ember/dev/gh/forks/audec",
+      "similarity": 0.947
+    },
+    {
+      "name": "synfone2",
+      "path": "/Users/ember/dev/gh/forks/synfone2",
+      "similarity": 0.811
+    },
+    {
+      "name": "stronk",
+      "path": "/Users/ember/dev/shitheap/stronk",
+      "similarity": 0.798
+    },
+    {
+      "name": "audiokart",
+      "path": "/Users/ember/dev/gh/audiokart",
+      "similarity": 0.794
+    },
+    {
+      "name": "ears",
+      "path": "/Users/ember/dev/gh/forks/ears",
+      "similarity": 0.788
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.76
+    },
+    {
+      "name": "rust-signals",
+      "path": "/Users/ember/src/rust-signals",
+      "similarity": 0.756
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.755
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Fast Fourier Transform",
+      "Hann Windowing",
+      "Zero-crossing Detection",
+      "Spectral Bias Compensation",
+      "Waterfall Persistence",
+      "Software Rasterization",
+      "Phase Correlation Visualization",
+      "Ring Buffer Management",
+      "Input Stream Synchronization",
+      "Frequency Domain Mapping",
+      "Amplitude Scaling",
+      "Sample Rate Synchronization",
+      "Concurrent Audio Processing",
+      "Host API Abstraction",
+      "Stereo Field Analysis",
+      "Dynamic Range Visualization",
+      "Logarithmic Frequency Scaling",
+      "In-place FFT Computation",
+      "Vertex Coordinate Mapping"
+    ],
+    "tags": [
+      "audio-analysis",
+      "real-time-simulation",
+      "Rust Language Ecosystem",
+      "dsp",
+      "fast-fourier-transform",
+      "spectrogram",
+      "oscilloscope",
+      "vectorscope",
+      "portaudio",
+      "sdl2",
+      "waterfall-display",
+      "signal-processing",
+      "low-latency",
+      "cli",
+      "visualizer"
+    ],
+    "mined_motifs": [
+      "real-time-audio",
+      "audio-synthesis",
+      "Waveform Generation",
+      "Systems Programming",
+      "foreign-function-interface",
+      "ALSA Backend",
+      "Audio Period Management",
+      "Clipping Detection",
+      "Complex Domain Processing",
+      "Cross-platform Audio API",
+      "Dynamic Range Scaling",
+      "Event-driven UI"
+    ],
+    "metaconstellations": [
+      {
+        "id": "audio-dsp",
+        "name": "Digital Signal Processing & Audio",
+        "score": 8.123,
+        "matches": [
+          "fast fourier transform",
+          "spectrogram",
+          "category:Real-time Audio Signal Analysis"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.019,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.222,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.214,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.213,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.403,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.296175Z"
+  }
+}

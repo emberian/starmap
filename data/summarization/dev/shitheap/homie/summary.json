@@ -1,0 +1,224 @@
+{
+  "name": "homie",
+  "description": "A first-principles cleanroom Rust toolchain and no_std runtime specifically targeting the ATmega32U4-based Arduboy game platform. It implements low-level hardware abstractions for GPIO-mapped peripherals including the OLED display, RGB status LEDs, and tactile button matrix. The project provides a workspace-based architecture for developing firmware with direct register access and custom panic handlers suitable for 8-bit AVR microarchitectures.",
+  "tags": [
+    "avr",
+    "atmega32u4",
+    "arduboy",
+    "rust",
+    "embedded-rust",
+    "no-std",
+    "bare-metal",
+    "firmware",
+    "hardware-abstraction-layer",
+    "gpio",
+    "peripherals",
+    "ssd1306",
+    "game-platform",
+    "toolchain"
+  ],
+  "category": "AVR Embedded Systems Development",
+  "concepts": [
+    "Bare-metal Rust programming",
+    "Memory-mapped I/O (MMIO)",
+    "AVR microarchitecture abstraction",
+    "no_std environment configuration",
+    "GPIO port mapping",
+    "Interrupt handling safety",
+    "Peripheral initialization sequences",
+    "Embedded hardware drivers",
+    "Status LED multiplexing",
+    "Input debounce logic",
+    "OLED controller interfacing",
+    "Rust lang_items implementation",
+    "Workspace-based firmware organization",
+    "Custom target JSON specifications"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "gougoue/src/lib.rs",
+      "gougoule/src/main.rs",
+      "gougoue/src/periphs.rs"
+    ]
+  },
+  "_hash": "d5759e68718aca7d876bd783ef024f937fa10aaa6c27da4194e0929f71e9c917",
+  "_path": "/Users/ember/dev/shitheap/homie",
+  "_updated_at": "2026-02-14T00:56:30.261870Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "45e9bc208734c069a28e737428e1efe127f6308b9c93b0d38e29415c6962efe2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:42.134887+00:00"
+  },
+  "mined_motifs": [
+    "Load-Store Architecture",
+    "Bit Manipulation",
+    "microcontroller",
+    "embedded",
+    "Memory-Mapped I/O",
+    "Abstract Interpretation",
+    "FPGA",
+    "ISA",
+    "MyHDL",
+    "RISC",
+    "Register Allocation",
+    "SpinalHDL"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "homie",
+      "path": "/Users/ember/dev/gh/homie",
+      "similarity": 0.944
+    },
+    {
+      "name": "arduino-display",
+      "path": "/Users/ember/dev/gh/arduino-display",
+      "similarity": 0.82
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.783
+    },
+    {
+      "name": "bfcpu",
+      "path": "/Users/ember/dev/gh/bfcpu",
+      "similarity": 0.766
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/shitheap/absass",
+      "similarity": 0.755
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.754
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.753
+    },
+    {
+      "name": "rust-core_io",
+      "path": "/Users/ember/dev/gh/forks/rust-core_io",
+      "similarity": 0.74
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Bare-metal Rust programming",
+      "Memory-mapped I/O (MMIO)",
+      "AVR microarchitecture abstraction",
+      "no_std environment configuration",
+      "GPIO port mapping",
+      "Interrupt handling safety",
+      "Peripheral initialization sequences",
+      "Embedded hardware drivers",
+      "Status LED multiplexing",
+      "Input debounce logic",
+      "OLED controller interfacing",
+      "Rust lang_items implementation",
+      "Workspace-based firmware organization",
+      "Custom target JSON specifications"
+    ],
+    "tags": [
+      "avr",
+      "atmega32u4",
+      "arduboy",
+      "Rust Language Ecosystem",
+      "embedded-rust",
+      "Systems Programming",
+      "firmware",
+      "hardware-abstraction-layer",
+      "gpio",
+      "peripherals",
+      "ssd1306",
+      "game-platform",
+      "toolchain"
+    ],
+    "mined_motifs": [
+      "Load-Store Architecture",
+      "Bit Manipulation",
+      "microcontroller",
+      "embedded",
+      "Memory-Mapped I/O",
+      "Abstract Interpretation",
+      "FPGA",
+      "ISA",
+      "MyHDL",
+      "RISC",
+      "Register Allocation",
+      "SpinalHDL"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 7.99,
+        "matches": [
+          "fpga",
+          "isa",
+          "spinalhdl",
+          "category:AVR Embedded Systems Development"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 7.947,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.356,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.198,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.354,
+        "matches": []
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 2.352,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.261870Z"
+  }
+}

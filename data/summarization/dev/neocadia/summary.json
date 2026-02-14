@@ -1,0 +1,219 @@
+{
+  "name": "neocadia",
+  "description": "A narrative-driven minigame collection built with Phaser and TypeScript, featuring a sophisticated multi-agent design orchestration system. The project utilizes specialized AI personas—including Creative, Systems, Narrative, and UX Directors—to iteratively refine game specifications and mechanics across diverse thematic zones. It implements a structured ecosystem of arcade-style loops integrated via a central economy and meta-progression framework.",
+  "tags": [
+    "phaser-3",
+    "minigame-collection",
+    "narrative-design",
+    "game-economy",
+    "ai-agents",
+    "automation",
+    "vite",
+    "typescript",
+    "game-design-document",
+    "pixel-art",
+    "arcade-mechanics",
+    "world-building"
+  ],
+  "category": "Agentic Game Design Orchestration",
+  "concepts": [
+    "Multi-agent AI Workflows",
+    "Narrative-driven Meta-progression",
+    "Component-based Game Architecture",
+    "Design Specification Iteration",
+    "Arcade Loop Optimization",
+    "Thematic Zone Segmentation",
+    "Cross-system Economy Balancing",
+    "Accessibility-first UI Design",
+    "Interactive Storytelling",
+    "State Persistence Systems"
+  ],
+  "languages": [
+    "TypeScript",
+    "Python",
+    "Markdown",
+    "HTML",
+    "JSON"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 65,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "specs/designer.py",
+      "src/main.ts",
+      "vite.config.ts",
+      "src/vite-env.d.ts"
+    ]
+  },
+  "_hash": "657d227d7d473f29c95d608ddbfc35e9988e9aca2fdf0e2792bc634eb60c69ac",
+  "_path": "/Users/ember/dev/neocadia",
+  "_updated_at": "2026-02-14T00:56:29.719307Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Multi-agent AI Workflows",
+      "Narrative-driven Meta-progression",
+      "Component-based Game Architecture",
+      "Design Specification Iteration",
+      "Arcade Loop Optimization",
+      "Thematic Zone Segmentation",
+      "Cross-system Economy Balancing",
+      "Accessibility-first UI Design",
+      "Interactive Storytelling",
+      "State Persistence Systems"
+    ],
+    "tags": [
+      "phaser-3",
+      "minigame-collection",
+      "narrative-design",
+      "game-economy",
+      "ai-agents",
+      "automation",
+      "vite",
+      "typescript",
+      "game-design-document",
+      "pixel-art",
+      "arcade-mechanics",
+      "world-building"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "game-engine",
+      "WebAssembly",
+      "state-management",
+      "narrative-engine",
+      "leptos",
+      "A* Pathfinding",
+      "event-driven",
+      "sci-fi",
+      "interactive-fiction",
+      "Event-driven Architecture",
+      "state-machine"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.627,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.321,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.308,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.225,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.223,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.21,
+        "matches": [
+          "automation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.719307Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a7822bde27611fe8e4307d687ffdf19cf875600f9f087c87fe6bc76a2e9fd873",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:07.399001+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "game-engine",
+    "wasm",
+    "state-management",
+    "narrative-engine",
+    "leptos",
+    "A* Pathfinding",
+    "event-driven",
+    "sci-fi",
+    "interactive-fiction",
+    "Event-driven Architecture",
+    "state-machine"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.798
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.797
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.781
+    },
+    {
+      "name": "pinatatown",
+      "path": "/Users/ember/dev/pinatatown",
+      "similarity": 0.78
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.769
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.76
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/multiway-tug",
+      "similarity": 0.758
+    },
+    {
+      "name": "megastructure-maintenance-crew",
+      "path": "/Users/ember/dev/megastructure-maintenance-crew",
+      "similarity": 0.756
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "name": "ocapn.org",
+  "description": "Source for the official Object Capability Network (OCapN) website, a documentation and specification hub for secure distributed computing protocols. The project leverages the Haunt static site generator and Guile Scheme to publish technical implementation details, meeting minutes, and architectural papers concerning the Spritely ecosystem. It specifically focuses on formalizing distributed object capability handoffs and interoperability standards for decentralized systems.",
+  "tags": [
+    "ocapn",
+    "spritely",
+    "goblins",
+    "guile-scheme",
+    "object-capabilities",
+    "distributed-systems",
+    "security-protocols",
+    "static-site-generator",
+    "protocol-specification",
+    "decentralized-web",
+    "capability-security",
+    "haunt",
+    "ocap"
+  ],
+  "category": "Distributed Object Capability Protocols",
+  "concepts": [
+    "Object Capability Model",
+    "Distributed Capability Handoffs",
+    "Capability-Based Security",
+    "Static Site Generation",
+    "Functional Web Design",
+    "Scheme S-Expressions",
+    "Network Interoperability",
+    "Secure Distributed Computing",
+    "Spritely Goblins Integration",
+    "Protocol Formalization",
+    "Decentralized Authorization"
+  ],
+  "languages": [
+    "Scheme",
+    "Markdown",
+    "CSS",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": false,
+    "sample_files": [
+      "Makefile"
+    ]
+  },
+  "_hash": "142be5a7e04db53328bb6be5dd8b30186d6cb637762da2a34f5d489cc4ef0d2c",
+  "_path": "/Users/ember/src/ocapn.org",
+  "_updated_at": "2026-02-14T00:56:33.258324Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7f0877d805f97b717bf8e14d3db06292f03151795a9d8571da4a101e870db431",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:51.385730+00:00"
+  },
+  "mined_motifs": [
+    "captp",
+    "Promise Pipelining",
+    "promise-pipelining",
+    "Distributed Garbage Collection",
+    "cryptography",
+    "Netlayer Abstraction",
+    "Tor Onion Services",
+    "syrup-serialization",
+    "Message Serialization",
+    "Vat-to-Vat Communication",
+    "p2p",
+    "Capability Transport Protocol (CapTP)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.924
+    },
+    {
+      "name": "ocapn-test-suite",
+      "path": "/Users/ember/src/ocapn-test-suite",
+      "similarity": 0.905
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.879
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.866
+    },
+    {
+      "name": "guile-goblins",
+      "path": "/Users/ember/src/guile-goblins",
+      "similarity": 0.858
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.852
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.851
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.841
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Object Capability Model",
+      "Distributed Capability Handoffs",
+      "Capability-Based Security",
+      "Static Site Generation",
+      "Functional Web Design",
+      "Scheme S-Expressions",
+      "Network Interoperability",
+      "Secure Distributed Computing",
+      "Spritely Goblins Integration",
+      "Protocol Formalization",
+      "Decentralized Authorization"
+    ],
+    "tags": [
+      "ocapn",
+      "spritely",
+      "goblins",
+      "guile-scheme",
+      "object-capabilities",
+      "distributed-systems",
+      "security-protocols",
+      "static-site-generator",
+      "protocol-specification",
+      "decentralized-web",
+      "capability-security",
+      "haunt"
+    ],
+    "mined_motifs": [
+      "captp",
+      "Promise Pipelining",
+      "promise-pipelining",
+      "Distributed Garbage Collection",
+      "cryptography",
+      "Netlayer Abstraction",
+      "Tor Onion Services",
+      "syrup-serialization",
+      "Message Serialization",
+      "Vat-to-Vat Communication",
+      "p2p"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 16.657,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "object-capabilities",
+          "p2p",
+          "goblins",
+          "spritely"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 5.562,
+        "matches": [
+          "object-capabilities"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.538,
+        "matches": [
+          "p2p"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.488,
+        "matches": [
+          "capability-security"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.457,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.457,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.258324Z"
+  }
+}

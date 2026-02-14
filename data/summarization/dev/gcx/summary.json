@@ -1,0 +1,204 @@
+{
+  "name": "gcx",
+  "description": "A high-performance codebase context aggregator designed to serialize repository contents into structured formats for LLM consumption. It implements sophisticated filesystem traversal with support for .gitignore rules, glob-based filtering, and multi-format output including XML, JSON, and Markdown.",
+  "tags": [
+    "cli",
+    "context-window",
+    "llm-tools",
+    "filesystem-traversal",
+    "serialization",
+    "rust",
+    "python",
+    "glob-matching",
+    "xml-generation",
+    "markdown-output"
+  ],
+  "category": "Source Code Context Aggregation",
+  "concepts": [
+    "Filesystem Walk Strategy",
+    "Ignore Rule Evaluation",
+    "Glob Pattern Matching",
+    "LLM Context Optimization",
+    "Structured Data Serialization",
+    "Tree-based Traversal",
+    "Path Normalization",
+    "Metadata Filtering"
+  ],
+  "languages": [
+    "Rust",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "crawlxml.py"
+    ]
+  },
+  "_hash": "31bd6fc968fff898db0247f699fc8b230da50370959aa2746ec8290bb658f265",
+  "_path": "/Users/ember/dev/gcx",
+  "_updated_at": "2026-02-14T00:56:24.139150Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Filesystem Walk Strategy",
+      "Ignore Rule Evaluation",
+      "Glob Pattern Matching",
+      "LLM Context Optimization",
+      "Structured Data Serialization",
+      "Tree-based Traversal",
+      "Path Normalization",
+      "Metadata Filtering"
+    ],
+    "tags": [
+      "cli",
+      "context-window",
+      "llm-tools",
+      "filesystem-traversal",
+      "Data Serialization",
+      "Rust Language Ecosystem",
+      "python",
+      "glob-matching",
+      "xml-generation",
+      "markdown-output"
+    ],
+    "mined_motifs": [
+      "llm-context",
+      "model-context-protocol",
+      "json-rpc",
+      "Model Context Protocol",
+      "crates-io",
+      "typescript",
+      "Abstract Syntax Tree (AST) Summarization",
+      "Automated Summarization Feedback Loops",
+      "Background Embedding Workers",
+      "Context Ablation",
+      "Context Augmentation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.181,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.151,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.128,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.052,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.025,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 3.622,
+        "matches": [
+          "model context protocol"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.139150Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7493ab962c357f3df5c74745ea5081fa1ddc62d7790b3ecdd84b3aa518eaf75b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:10.822186+00:00"
+  },
+  "mined_motifs": [
+    "llm-context",
+    "Model Context Protocol (MCP)",
+    "mcp",
+    "json-rpc",
+    "mcp-server",
+    "crates-io",
+    "typescript",
+    "Abstract Syntax Tree (AST) Summarization",
+    "Automated Summarization Feedback Loops",
+    "Background Embedding Workers",
+    "Context Ablation",
+    "Context Augmentation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mkcx",
+      "path": "/Users/ember/dev/mkcx",
+      "similarity": 0.743
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.743
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.725
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.717
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.712
+    },
+    {
+      "name": "crates_llms_txt",
+      "path": "/Users/ember/src/crates_llms_txt",
+      "similarity": 0.709
+    },
+    {
+      "name": "cline",
+      "path": "/Users/ember/dev/cline",
+      "similarity": 0.708
+    },
+    {
+      "name": "git2-rs",
+      "path": "/Users/ember/dev/gh/forks/git2-rs",
+      "similarity": 0.706
+    }
+  ]
+}

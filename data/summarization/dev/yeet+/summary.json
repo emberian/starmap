@@ -1,0 +1,219 @@
+{
+  "name": "yeet+",
+  "description": "A modular Rust workspace architected as a multi-modal experimentation framework for disparate user interface environments. The project organizes separate crates for terminal, web, and native targets alongside a dedicated runtime and core library, facilitating the exploration of shared logic across heterogeneous interface layers.",
+  "tags": [
+    "rust",
+    "cargo-workspace",
+    "tui",
+    "wui",
+    "nui",
+    "runtime",
+    "cross-platform",
+    "modular-design"
+  ],
+  "category": "Multi-modal Interface Runtimes",
+  "concepts": [
+    "Rust Workspace Orchestration",
+    "Terminal User Interface (TUI)",
+    "Web User Interface (WUI)",
+    "Native User Interface (NUI)",
+    "System Runtime Abstraction",
+    "Interface Decoupling",
+    "Multi-target Compilation",
+    "Shared Library Architecture",
+    "Heterogeneous Execution Environments",
+    "Cross-platform UI Development",
+    "Modular Software Design",
+    "Cargo Package Management",
+    "Unit Testing Frameworks",
+    "Logic/View Separation",
+    "Rust 2024 Edition",
+    "Experimental Systems Programming",
+    "Crate-level Encapsulation",
+    "Development Scaffolding",
+    "WebAssembly Integration",
+    "Native API Interoperability",
+    "Event-driven Architecture",
+    "User Interface Paradigms"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/lib/src/lib.rs",
+      "crates/nui/src/lib.rs",
+      "crates/rt/src/lib.rs",
+      "crates/tui/src/main.rs"
+    ]
+  },
+  "_hash": "87613c5d3ffcdf1a8be304657855377963376521783e06e2917acfae412c9080",
+  "_path": "/Users/ember/dev/yeet+",
+  "_updated_at": "2026-02-14T00:56:30.988383Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0c080e6c8b88bc3e35eabb80db0574becdfe3752fb0f31fd0c870c0c0bddc13d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:05.222126+00:00"
+  },
+  "mined_motifs": [
+    "wasm-pack",
+    "webassembly",
+    "linux",
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "cli",
+    "systems-programming",
+    "Foreign Function Interface",
+    "Declarative UI Composition",
+    "Electron Multi-process Model",
+    "Hierarchical State Trees",
+    "Incremental UI Rendering"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "yeet.plus",
+      "path": "/Users/ember/dev/gh/yeet.plus",
+      "similarity": 0.84
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.818
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.814
+    },
+    {
+      "name": "bcknd",
+      "path": "/Users/ember/dev/bcknd",
+      "similarity": 0.8
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.799
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.798
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Rust Workspace Orchestration",
+      "Terminal User Interface (TUI)",
+      "Web User Interface (WUI)",
+      "Native User Interface (NUI)",
+      "System Runtime Abstraction",
+      "Interface Decoupling",
+      "Multi-target Compilation",
+      "Shared Library Architecture",
+      "Heterogeneous Execution Environments",
+      "Cross-platform UI Development",
+      "Modular Software Design",
+      "Cargo Package Management",
+      "Unit Testing Frameworks",
+      "Logic/View Separation",
+      "Rust 2024 Edition",
+      "Experimental Systems Programming",
+      "Crate-level Encapsulation",
+      "Development Scaffolding",
+      "WebAssembly Integration",
+      "Native API Interoperability",
+      "Event-driven Architecture",
+      "User Interface Paradigms"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cargo-workspace",
+      "tui",
+      "wui",
+      "nui",
+      "runtime",
+      "cross-platform",
+      "modular-design"
+    ],
+    "mined_motifs": [
+      "WebAssembly",
+      "linux",
+      "foreign-function-interface",
+      "cli",
+      "Systems Programming",
+      "Declarative UI Composition",
+      "Electron Multi-process Model",
+      "Hierarchical State Trees",
+      "Incremental UI Rendering"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.164,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.801,
+        "matches": [
+          "webassembly",
+          "runtime"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.398,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.392,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.388,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.367,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.988383Z"
+  }
+}

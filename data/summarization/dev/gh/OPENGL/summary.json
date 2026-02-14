@@ -1,0 +1,250 @@
+{
+  "name": "OPENGL",
+  "description": "A collection of C++ implementations demonstrating modern OpenGL fundamentals, including programmable shading pipelines and hardware-accelerated geometry rendering. The project focuses on Vertex Array Object (VAO) and Vertex Buffer Object (VBO) management, providing utility routines for GLSL shader compilation and robust error introspection. It integrates GLUT and GLEW for cross-platform windowing and extension loading, with specific support for macOS Core Profile contexts.",
+  "tags": [
+    "opengl",
+    "glsl",
+    "graphics-programming",
+    "cpp",
+    "vbo",
+    "vao",
+    "shader-compilation",
+    "glut",
+    "glew",
+    "rendering",
+    "vertex-attributes",
+    "graphics-pipeline",
+    "macos-opengl",
+    "gpu-programming",
+    "computer-graphics"
+  ],
+  "category": "Real-time Graphics Pipeline Engineering",
+  "concepts": [
+    "Vertex Array Objects (VAO)",
+    "Vertex Buffer Objects (VBO)",
+    "Programmable Shading Pipeline",
+    "GLSL Vertex Shaders",
+    "GLSL Fragment Shaders",
+    "Shader Compilation",
+    "Program Linkage",
+    "Graphics Extension Loading",
+    "Vertex Attribute Pointers",
+    "Fixed-function Pipeline",
+    "Modern OpenGL Core Profile",
+    "Graphics Context Initialization",
+    "CGL Pixel Format Selection",
+    "Event-driven Input Handling",
+    "Shader Source Introspection",
+    "GPU Memory Management",
+    "Rendering State State Machine",
+    "Buffer Data Streaming",
+    "Static Draw Optimization",
+    "Info Log Debugging",
+    "Triangle Primitive Assembly",
+    "Cross-platform Build Logic",
+    "GLUT Main Loop",
+    "Attribute Binding"
+  ],
+  "languages": [
+    "C++",
+    "GLSL"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "main.cpp",
+      "error.cpp",
+      "shades.cpp"
+    ]
+  },
+  "_hash": "872a04e3aae0c09a6e64e34f57497648ed99d99c05d09860f137fdc17f1d4a38",
+  "_path": "/Users/ember/dev/gh/OPENGL",
+  "_updated_at": "2026-02-14T00:56:24.239525Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Vertex Array Objects (VAO)",
+      "Vertex Buffer Objects (VBO)",
+      "Programmable Shading Pipeline",
+      "GLSL Vertex Shaders",
+      "GLSL Fragment Shaders",
+      "Shader Compilation",
+      "Program Linkage",
+      "Graphics Extension Loading",
+      "Vertex Attribute Pointers",
+      "Fixed-function Pipeline",
+      "Modern OpenGL Core Profile",
+      "Graphics Context Initialization",
+      "CGL Pixel Format Selection",
+      "Event-driven Input Handling",
+      "Shader Source Introspection",
+      "GPU Memory Management",
+      "Rendering State State Machine",
+      "Buffer Data Streaming",
+      "Static Draw Optimization",
+      "Info Log Debugging",
+      "Triangle Primitive Assembly",
+      "Cross-platform Build Logic",
+      "GLUT Main Loop",
+      "Attribute Binding"
+    ],
+    "tags": [
+      "opengl",
+      "glsl",
+      "Computer Graphics & Rendering",
+      "cpp",
+      "vbo",
+      "vao",
+      "shader-compilation",
+      "glut",
+      "glew",
+      "vertex-attributes",
+      "graphics-pipeline",
+      "macos-opengl",
+      "gpu-programming"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "glfw",
+      "systems-programming",
+      "shader-programming",
+      "texture-mapping",
+      "graphics-api",
+      "cgmath",
+      "Computer Graphics & Rendering",
+      "Linear Algebra",
+      "Input Polling",
+      "OpenGL Core Profile"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.472,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.996,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.951,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.464,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.428,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 4.087,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.239525Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cdb4e276309f43e40d8ebddda870b0a782137610fb64cd63b03142908e26387e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:16.554125+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "glfw",
+    "low-level",
+    "shader-programming",
+    "texture-mapping",
+    "graphics-api",
+    "cgmath",
+    "real-time-rendering",
+    "linear-algebra",
+    "Input Polling",
+    "OpenGL Core Profile",
+    "graphics"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.911
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.893
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.88
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.873
+    },
+    {
+      "name": "computer-graphics-book",
+      "path": "/Users/ember/dev/gh/computer-graphics-book",
+      "similarity": 0.872
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.87
+    },
+    {
+      "name": "CS452-LAB2",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB2",
+      "similarity": 0.868
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.861
+    }
+  ]
+}

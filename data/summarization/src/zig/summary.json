@@ -1,0 +1,250 @@
+{
+  "name": "Zig",
+  "description": "A general-purpose programming language and toolchain designed for robustness, optimality, and reusability through a unique compile-time metaprogramming system and explicit resource management. It functions as a drop-in C/C++ compiler with built-in cross-compilation support, featuring a self-hosting compiler architecture and a zero-dependency standard library. The codebase includes extensive runtime support for diverse hardware architectures and low-level system integrations.",
+  "tags": [
+    "compiler",
+    "toolchain",
+    "systems-programming",
+    "cross-compilation",
+    "metaprogramming",
+    "c-replacement",
+    "build-system",
+    "low-level",
+    "self-hosting",
+    "runtime",
+    "llvm",
+    "linker"
+  ],
+  "category": "Systems Programming Language Design",
+  "concepts": [
+    "Compile-time Metaprogramming",
+    "Cross-compilation Toolchain",
+    "Manual Memory Management",
+    "LLVM IR Generation",
+    "Linker Implementation",
+    "Floating-point Emulation",
+    "SIMD Intrinsics",
+    "System Call Wrappers",
+    "Error Return Traces",
+    "C Interoperability",
+    "Self-hosting Compiler",
+    "Memory Safety Sanitizers",
+    "Hardware-specific Optimization",
+    "Zero-dependency Runtime",
+    "Build System Orchestration",
+    "Architecture-specific Code Generation",
+    "Glibc Compatibility",
+    "Mach-O Linking",
+    "ELF Binary Manipulation",
+    "Stack Probing",
+    "Atomic Operations",
+    "Position Independent Code",
+    "Binary Object File Analysis"
+  ],
+  "languages": [
+    "Zig",
+    "C",
+    "C++",
+    "Shell",
+    "Python",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 15809,
+    "has_readme": true,
+    "sample_files": [
+      "test/link/glibc_compat/main.c",
+      "test/link/macho/dead_strip/main.c",
+      "test/link/macho/dead_strip_dylibs/main.c",
+      "test/link/macho/dylib/main.c",
+      "test/link/macho/empty/main.c"
+    ]
+  },
+  "_hash": "dcbdb50c4c7e72c4e3b8debc92f738c41596ca773ea67bedb95cd7a36a69966f",
+  "_path": "/Users/ember/src/zig",
+  "_updated_at": "2026-02-14T00:56:34.222285Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2fe2fecc8db090a85b5213b737e412f35c51ab2573908b1d3f07c500ec84e86a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:19.097459+00:00"
+  },
+  "mined_motifs": [
+    "Foreign Function Interface",
+    "Ahead-of-Time Compilation",
+    "Static Analysis",
+    "distributed-systems",
+    "ffi",
+    "posix",
+    "rust",
+    "Abstract Syntax Trees",
+    "Assembly Programming",
+    "C programming",
+    "Calling Conventions",
+    "Code Generation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.86
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/gh/forks/rust",
+      "similarity": 0.851
+    },
+    {
+      "name": "Gerbil Scheme",
+      "path": "/Users/ember/dev/gerbil",
+      "similarity": 0.844
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.843
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.839
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.834
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Compile-time Metaprogramming",
+      "Cross-compilation Toolchain",
+      "Memory Management",
+      "LLVM IR Generation",
+      "Linker Implementation",
+      "Floating-point Emulation",
+      "SIMD Intrinsics",
+      "System Call Wrappers",
+      "Error Return Traces",
+      "Foreign Function Interface",
+      "Self-hosting Compiler",
+      "Memory Safety Sanitizers",
+      "Hardware-specific Optimization",
+      "Zero-dependency Runtime",
+      "Build System Orchestration",
+      "Architecture-specific Code Generation",
+      "Glibc Compatibility",
+      "Mach-O Linking",
+      "ELF Binary Manipulation",
+      "Stack Probing",
+      "Atomic Operations",
+      "Position Independent Code",
+      "Binary Object File Analysis"
+    ],
+    "tags": [
+      "compiler-design",
+      "toolchain",
+      "Systems Programming",
+      "cross-compilation",
+      "metaprogramming",
+      "c-replacement",
+      "build-system",
+      "systems-programming",
+      "self-hosting",
+      "runtime",
+      "llvm",
+      "linker"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "Ahead-of-Time Compilation",
+      "Static Analysis",
+      "distributed-systems",
+      "posix",
+      "Rust Language Ecosystem",
+      "AST",
+      "Assembly Programming",
+      "C programming",
+      "Calling Conventions",
+      "Code Generation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 13.865,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "linker",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.672,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 8.294,
+        "matches": [
+          "ast",
+          "compiler-design",
+          "llvm"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.289,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.905,
+        "matches": [
+          "compiler-design",
+          "llvm"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.892,
+        "matches": [
+          "code generation",
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.222285Z"
+  }
+}

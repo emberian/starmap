@@ -1,0 +1,237 @@
+{
+  "name": "vulkan-zig",
+  "description": "vulkan-zig appears to be a simulation/games project using Zig, Shell. The available files suggest focus areas around build, triangle, integration, parse.",
+  "tags": [
+    "Zig",
+    "Shell",
+    "build",
+    "triangle",
+    "integration",
+    "parse",
+    "render",
+    "6f189d50b1d93ea217ad6112956ec8b4",
+    "a71e2e184ed295ce08b40c35eb20cf68",
+    "builtin",
+    "context",
+    "debug",
+    "decls",
+    "dependencies",
+    "generator",
+    "graphics"
+  ],
+  "category": "Simulation/Games",
+  "concepts": [
+    "build",
+    "triangle",
+    "integration",
+    "parse",
+    "render",
+    "6f189d50b1d93ea217ad6112956ec8b4",
+    "a71e2e184ed295ce08b40c35eb20cf68",
+    "builtin",
+    "context",
+    "debug",
+    "decls",
+    "dependencies",
+    "generator",
+    "graphics",
+    "index",
+    "license",
+    "main",
+    "readme",
+    "registry",
+    "swapchain",
+    "timestamp"
+  ],
+  "languages": [
+    "Zig",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "f0f3b947598edc583aa75994948f18cac508a3bc62adabe173ad14d14fd53431",
+  "_path": "/Users/ember/dev/peters-broken-shit/libs/vulkan-zig",
+  "_updated_at": "2026-02-14T00:56:29.832796Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "build",
+      "triangle",
+      "integration",
+      "parse",
+      "render",
+      "6f189d50b1d93ea217ad6112956ec8b4",
+      "a71e2e184ed295ce08b40c35eb20cf68",
+      "builtin",
+      "context",
+      "debug",
+      "decls",
+      "dependencies",
+      "generator",
+      "Computer Graphics & Rendering",
+      "index",
+      "license",
+      "main",
+      "readme",
+      "registry",
+      "swapchain",
+      "timestamp"
+    ],
+    "tags": [
+      "Zig",
+      "Shell",
+      "build",
+      "triangle",
+      "integration",
+      "parse",
+      "render",
+      "6f189d50b1d93ea217ad6112956ec8b4",
+      "a71e2e184ed295ce08b40c35eb20cf68",
+      "builtin",
+      "context",
+      "debug",
+      "decls",
+      "dependencies",
+      "generator",
+      "Computer Graphics & Rendering"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "vulkan",
+      "glfw",
+      "glsl",
+      "GPGPU Compute",
+      "spir-v",
+      "renderer",
+      "piston",
+      "ray-tracing",
+      "rust-gpu",
+      "vulkano",
+      "input-handling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 13.278,
+        "matches": [
+          "gpgpu compute",
+          "vulkan",
+          "glsl",
+          "rust-gpu",
+          "spir-v",
+          "vulkano"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 4.862,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.737,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 3.456,
+        "matches": [
+          "vulkan"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 3.441,
+        "matches": [
+          "glsl"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 2.042,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.832796Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "eaaec51995a89545c2fed9cbce0b8dedc84a5f4b08229c0e5d1fd25753172f92",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:19.184664+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "vulkan",
+    "glfw",
+    "glsl",
+    "gpgpu",
+    "spir-v",
+    "renderer",
+    "piston",
+    "ray-tracing",
+    "rust-gpu",
+    "vulkano",
+    "input-handling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vulkan-zig-renderer",
+      "path": "/Users/ember/dev/peters-broken-shit/src",
+      "similarity": 0.754
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitheap/shitting_furiously",
+      "similarity": 0.675
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitting_furiously",
+      "similarity": 0.666
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.659
+    },
+    {
+      "name": "mach-glfw",
+      "path": "/Users/ember/dev/peters-broken-shit/libs/mach-glfw",
+      "similarity": 0.656
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.641
+    },
+    {
+      "name": "cellular",
+      "path": "/Users/ember/dev/shitheap/da250-tj-chris",
+      "similarity": 0.64
+    },
+    {
+      "name": "gfx-rs-deadlock-example",
+      "path": "/Users/ember/dev/gh/gfx-rs-deadlock-example",
+      "similarity": 0.639
+    }
+  ]
+}

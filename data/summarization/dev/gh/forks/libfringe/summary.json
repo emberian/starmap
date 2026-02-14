@@ -1,0 +1,254 @@
+{
+  "name": "libfringe",
+  "description": "libfringe is a low-level Rust library for implementing high-performance, lightweight context switches and green threading without kernel intervention. It provides architecture-specific assembly for x86 and x86_64 to achieve sub-10ns swap times while supporting both hosted and bare-metal (no_std) environments. The library exposes safe generator abstractions alongside unsafe primitives for manual stack management, guard page allocation, and context manipulation.",
+  "tags": [
+    "rust",
+    "context-switching",
+    "green-threads",
+    "generators",
+    "assembly",
+    "x86_64",
+    "no_std",
+    "coroutines",
+    "stack-allocation",
+    "valgrind",
+    "low-level",
+    "multitasking",
+    "embedded",
+    "runtime"
+  ],
+  "category": "User-mode Multitasking Runtimes",
+  "concepts": [
+    "Context Switching",
+    "Green Threads",
+    "Cooperative Multitasking",
+    "Coroutines",
+    "Stack Allocation",
+    "Guard Pages",
+    "Memory Mapping",
+    "SysV ABI",
+    "Windows x64 ABI",
+    "Red Zone",
+    "Stack Alignment",
+    "SIMD Compatibility",
+    "Inline Assembly",
+    "Naked Functions",
+    "no_std",
+    "Bare Metal Programming",
+    "Valgrind Integration",
+    "Generators",
+    "User-space Scheduling",
+    "Register Clobbering",
+    "Floating Point Exceptions",
+    "Trampolines",
+    "Mprotect",
+    "VirtualAlloc",
+    "Instruction Pointer Manipulation",
+    "Non-local Control Flow"
+  ],
+  "languages": [
+    "Rust",
+    "Assembly"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 25,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/arch/mod.rs",
+      "src/debug/mod.rs",
+      "src/lib.rs",
+      "src/os/mod.rs"
+    ]
+  },
+  "_hash": "1dcb151bcc797605e354b420e629f016ba7b40a4d6d6edee1e4f1ac97b155885",
+  "_path": "/Users/ember/dev/gh/forks/libfringe",
+  "_updated_at": "2026-02-14T00:56:25.959569Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Context Switching",
+      "Green Threads",
+      "Cooperative Multitasking",
+      "Coroutines",
+      "Stack Allocation",
+      "Guard Pages",
+      "Memory Mapping",
+      "SysV ABI",
+      "Windows x64 ABI",
+      "Red Zone",
+      "Stack Alignment",
+      "SIMD Compatibility",
+      "Inline Assembly",
+      "Naked Functions",
+      "Rust Language Ecosystem",
+      "Bare Metal Programming",
+      "Valgrind Integration",
+      "Generators",
+      "User-space Scheduling",
+      "Register Clobbering",
+      "Floating Point Exceptions",
+      "Trampolines",
+      "Mprotect",
+      "VirtualAlloc",
+      "Instruction Pointer Manipulation",
+      "Non-local Control Flow"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "context-switching",
+      "green-threads",
+      "generators",
+      "assembly",
+      "x86_64",
+      "coroutines",
+      "stack-allocation",
+      "valgrind",
+      "systems-programming",
+      "multitasking",
+      "embedded",
+      "runtime"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "cgroups",
+      "linux",
+      "foreign-function-interface",
+      "Asynchronous I/O Multiplexing",
+      "Cooperative Yielding",
+      "Coroutine-aware Synchronization",
+      "Event Loop Integration",
+      "Fiber Abstractions",
+      "Global Lock-free Task Queue",
+      "Green Thread Mutex"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 10.879,
+        "matches": [
+          "context switching",
+          "resource acquisition is initialization (raii)",
+          "green-threads",
+          "category:User-mode Multitasking Runtimes"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.289,
+        "matches": [
+          "cgroups",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.279,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.255,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 4.052,
+        "matches": [
+          "runtime"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.651,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.959569Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ca6f57bc355cc161e704588d8b7c7d8b60b896b7419592a818a23cce3fd4183b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:48.050491+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "resource-management",
+    "cgroups",
+    "linux",
+    "ffi",
+    "Asynchronous I/O Multiplexing",
+    "Cooperative Yielding",
+    "Coroutine-aware Synchronization",
+    "Event Loop Integration",
+    "Fiber Abstractions",
+    "Global Lock-free Task Queue",
+    "Green Thread Mutex"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.863
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.841
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.834
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.83
+    },
+    {
+      "name": "grease-bench",
+      "path": "/Users/ember/dev/gh/forks/grease-bench",
+      "similarity": 0.829
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.828
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.828
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.826
+    }
+  ]
+}

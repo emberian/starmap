@@ -1,0 +1,259 @@
+{
+  "name": "apitrace",
+  "description": "A comprehensive suite for tracing, inspecting, and replaying graphics API calls across OpenGL, OpenGL ES, and Direct3D backends. It enables deep analysis of graphics workloads through state reconstruction, frame-by-frame profiling, and visual regression testing. The project employs sophisticated API interposition techniques to capture and serialize command streams for cross-platform debugging.",
+  "tags": [
+    "opengl",
+    "direct3d",
+    "gles",
+    "egl",
+    "dxgi",
+    "graphics-debugging",
+    "tracing",
+    "replay",
+    "profiling",
+    "instrumentation",
+    "qt",
+    "cross-platform",
+    "d3d11",
+    "d3d9",
+    "wgl",
+    "glx"
+  ],
+  "category": "Graphics API Trace & Replay Engine",
+  "concepts": [
+    "API Interposition",
+    "Graphics State Reconstruction",
+    "Command Stream Serialization",
+    "Frame Debugging",
+    "Dynamic Linker Injection",
+    "Texture Inspection",
+    "Buffer Analysis",
+    "Callstream Profiling",
+    "Visual Regression Testing",
+    "Shader Source Extraction",
+    "Hardware Abstraction Layer",
+    "Render State Capture",
+    "Backtrace Analysis",
+    "Binary Serialization",
+    "Context Management",
+    "Driver Interception",
+    "Image Comparison",
+    "Resource Tracking",
+    "API Specification Modeling",
+    "Replay Swizzling",
+    "Profile Heatmaps",
+    "Frame Graphing",
+    "Callset Filtering",
+    "Retrace Mechanism"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "Python",
+    "Shell",
+    "Objective-C++"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 637,
+    "has_readme": false,
+    "sample_files": [
+      "dispatch/__init__.py",
+      "gui/main.cpp",
+      "specs/__init__.py",
+      "thirdparty/less/main.c",
+      "thirdparty/libpng/pngrutil.c"
+    ]
+  },
+  "_hash": "144c0dc8a329bc1b8ba4fde2955ea7517b0c65c29f1082e01a77f7f41caa9cd1",
+  "_path": "/Users/ember/dev/gh/forks/apitrace",
+  "_updated_at": "2026-02-14T00:56:25.131021Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "API Interposition",
+      "Graphics State Reconstruction",
+      "Command Stream Serialization",
+      "Frame Debugging",
+      "Dynamic Linker Injection",
+      "Texture Inspection",
+      "Buffer Analysis",
+      "Callstream Profiling",
+      "Visual Regression Testing",
+      "Shader Source Extraction",
+      "Hardware Abstraction Layer",
+      "Render State Capture",
+      "Backtrace Analysis",
+      "Binary Serialization",
+      "Context Management",
+      "Driver Interception",
+      "Image Comparison",
+      "Resource Tracking",
+      "API Specification Modeling",
+      "Replay Swizzling",
+      "Profile Heatmaps",
+      "Frame Graphing",
+      "Callset Filtering",
+      "Retrace Mechanism"
+    ],
+    "tags": [
+      "opengl",
+      "direct3d",
+      "gles",
+      "egl",
+      "dxgi",
+      "graphics-debugging",
+      "tracing",
+      "replay",
+      "profiling",
+      "instrumentation",
+      "qt",
+      "cross-platform",
+      "d3d11",
+      "d3d9",
+      "wgl",
+      "glx"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "graphics-api",
+      "glsl",
+      "Vertex Array Objects (VAO)",
+      "shader-compilation",
+      "type-safety",
+      "texture-mapping",
+      "gpu-programming",
+      "vao",
+      "vbo"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.453,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.762,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.71,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 6.614,
+        "matches": [
+          "profiling",
+          "instrumentation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.187,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 3.829,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.131021Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0fc2ffe7435050a6cf8e56712da8f6dc4bcbbc4785b34c2e966c36d2370b5c6f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:12.800020+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "rendering",
+    "graphics-api",
+    "glsl",
+    "Vertex Array Objects (VAO)",
+    "shader-compilation",
+    "graphics",
+    "type-safety",
+    "texture-mapping",
+    "gpu-programming",
+    "vao",
+    "vbo"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.815
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.807
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.804
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.8
+    },
+    {
+      "name": "gl-rs",
+      "path": "/Users/ember/dev/gh/forks/gl-rs",
+      "similarity": 0.796
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.792
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.787
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.78
+    }
+  ]
+}

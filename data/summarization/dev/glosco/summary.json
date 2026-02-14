@@ -1,0 +1,242 @@
+{
+  "name": "glosco",
+  "description": "A distributed network monitoring system designed to track flow states and connection lifecycles globally across disparate network segments. It leverages low-level packet capture via libpcap to perform real-time protocol parsing and state machine tracking for TCP, UDP, and ICMP traffic. The architecture incorporates a peer-to-peer mesh synchronization layer built on Tokio to aggregate and broadcast connection events across multiple remote observation nodes.",
+  "tags": [
+    "rust",
+    "pcap",
+    "network-monitoring",
+    "distributed-systems",
+    "connection-tracking",
+    "packet-analysis",
+    "mesh-network",
+    "libpcap",
+    "tokio",
+    "network-observability",
+    "traffic-analysis",
+    "async-rust",
+    "flow-state"
+  ],
+  "category": "Distributed Network Observability",
+  "concepts": [
+    "Deep Packet Inspection",
+    "Connection State Tracking",
+    "Distributed Mesh Networking",
+    "Real-time Traffic Observation",
+    "Network Interface Abstraction",
+    "Flow Lifecycle Management",
+    "TCP State Machine",
+    "Protocol Multiplexing",
+    "Asynchronous Event Loops",
+    "Peer-to-Peer State Synchronization",
+    "Broadcast Channels",
+    "ICMP Error Reporting",
+    "Zero-copy Packet Processing",
+    "Multi-interface Capture",
+    "Network Topology Awareness",
+    "Socket Abstraction Layers",
+    "Payload Parsing",
+    "Ingress Handling",
+    "Flow Dissection",
+    "Distributed Concurrency Control"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "old_main.rs",
+      "src/observe.rs",
+      "src/mesh.rs"
+    ]
+  },
+  "_hash": "01b995da46e833ab397a6f9f1551b8fe1cefcb457d51ce6e155002c4bf16a37a",
+  "_path": "/Users/ember/dev/glosco",
+  "_updated_at": "2026-02-14T00:56:28.766514Z",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Deep Packet Inspection",
+      "Connection State Tracking",
+      "Distributed Mesh Networking",
+      "Real-time Traffic Observation",
+      "Network Interface Abstraction",
+      "Flow Lifecycle Management",
+      "TCP State Machine",
+      "Protocol Multiplexing",
+      "Asynchronous Event Loops",
+      "Peer-to-Peer State Synchronization",
+      "Broadcast Channels",
+      "ICMP Error Reporting",
+      "Zero-copy Packet Processing",
+      "Multi-interface Capture",
+      "Network Topology Awareness",
+      "Socket Abstraction Layers",
+      "Payload Parsing",
+      "Ingress Handling",
+      "Flow Dissection",
+      "Distributed Concurrency Control"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "pcap",
+      "network-monitoring",
+      "distributed-systems",
+      "connection-tracking",
+      "packet-analysis",
+      "mesh-network",
+      "libpcap",
+      "Asynchronous Programming",
+      "network-observability",
+      "traffic-analysis",
+      "rust",
+      "flow-state"
+    ],
+    "mined_motifs": [
+      "Concurrency & Synchronization",
+      "networking",
+      "udp",
+      "rpc",
+      "Asynchronous Programming",
+      "distributed-systems",
+      "State Machine Replication",
+      "blockchain",
+      "quorum-certificates",
+      "p2p",
+      "Attribute Access Interception",
+      "Attribute-level Security"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 9.505,
+        "matches": [
+          "distributed-systems",
+          "network-observability",
+          "category:Distributed Network Observability"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.308,
+        "matches": [
+          "state machine replication",
+          "p2p",
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 8.307,
+        "matches": [
+          "distributed-systems",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.907,
+        "matches": [
+          "distributed-systems",
+          "rpc"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.528,
+        "matches": [
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.507,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.766514Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0037ef95acb940b107810ec2001d7f24dc49703ea6751a17f5d4d7b5f8217aa3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:41.113991+00:00"
+  },
+  "mined_motifs": [
+    "concurrency",
+    "networking",
+    "udp",
+    "rpc",
+    "async-io",
+    "Byzantine Fault Tolerance",
+    "State Machine Replication",
+    "blockchain",
+    "quorum-certificates",
+    "p2p",
+    "Attribute Access Interception",
+    "Attribute-level Security"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.853
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.85
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.848
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.846
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.845
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.838
+    },
+    {
+      "name": "network-census",
+      "path": "/Users/ember/dev/network-census",
+      "similarity": 0.837
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.836
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "name": "sol",
+  "description": "A lightweight, embeddable scripting language implemented in C that synthesizes features from Lua, Python, and JavaScript. It features a Flex/Bison-based compiler, a re-entrant runtime with type-agnostic object handling, and a reference-counting garbage collector. The language supports multiple paradigms including object-orientation via metamethods, closures, and first-class AST manipulation for self-modifying code.",
+  "tags": [
+    "scripting-language",
+    "compiler",
+    "interpreter",
+    "bytecode",
+    "embeddable",
+    "c-api",
+    "garbage-collection",
+    "metaprogramming",
+    "ast",
+    "flex",
+    "bison",
+    "runtime",
+    "lua-inspired",
+    "python-inspired",
+    "dynamic-typing"
+  ],
+  "category": "Interpreted Language Runtime",
+  "concepts": [
+    "Recursive Descent Parsing",
+    "Reference Counting",
+    "Abstract Syntax Tree",
+    "Closure Conversion",
+    "Metatables",
+    "Virtual Machine State",
+    "Foreign Function Interface",
+    "Lexical Scoping",
+    "Dynamic Dispatch",
+    "Prototype-based Inheritance"
+  ],
+  "languages": [
+    "C",
+    "Solidity",
+    "Python",
+    "Shell",
+    "Lex",
+    "Yacc"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 29,
+    "has_readme": true,
+    "sample_files": [
+      "parser.tab.c",
+      "builtins.c",
+      "lex.yy.c",
+      "state.c",
+      "sol.h"
+    ]
+  },
+  "_hash": "0246b9f209266a5799c2de564ae8717be01979030a9e03b65a960e8e7205fea2",
+  "_path": "/Users/ember/dev/gh/forks/sol",
+  "_updated_at": "2026-02-14T00:56:26.726572Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Recursive Descent Parsing",
+      "Reference Counting",
+      "AST",
+      "Closure Conversion",
+      "Metatables",
+      "Virtual Machine State",
+      "foreign-function-interface",
+      "Lexical Scoping",
+      "Dynamic Dispatch",
+      "Prototype-based Inheritance"
+    ],
+    "tags": [
+      "scripting-language",
+      "compiler-design",
+      "interpreter",
+      "bytecode",
+      "embeddable",
+      "c-api",
+      "garbage-collection",
+      "metaprogramming",
+      "abstract-syntax-tree",
+      "flex",
+      "bison",
+      "runtime",
+      "lua-inspired",
+      "python-inspired",
+      "dynamic-typing"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Lexical Analysis",
+      "Compiler Engineering",
+      "lexical-analysis",
+      "parser",
+      "AST",
+      "functional-programming",
+      "logic-programming",
+      "c",
+      "repl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 15.253,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "bytecode",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 13.85,
+        "matches": [
+          "abstract-syntax-tree",
+          "compiler-design",
+          "lexical-analysis",
+          "bytecode",
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.174,
+        "matches": [
+          "foreign-function-interface",
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.876,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 6.805,
+        "matches": [
+          "compiler engineering",
+          "bytecode"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 5.452,
+        "matches": [
+          "garbage-collection"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.726572Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ec45d85c62b38dfcfa8438b60788561da2f5ea7fcda2f06a7c455264807d1d04",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:28.833319+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "lexical-analysis",
+    "compiler-design",
+    "Lexical Analysis",
+    "parser",
+    "Tokenization",
+    "abstract-syntax-tree",
+    "lexer",
+    "functional-programming",
+    "logic-programming",
+    "c",
+    "repl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.844
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.843
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.834
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.834
+    },
+    {
+      "name": "libreDSSP",
+      "path": "/Users/ember/dev/gh/forks/libreDSSP",
+      "similarity": 0.834
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.828
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.822
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.816
+    }
+  ]
+}

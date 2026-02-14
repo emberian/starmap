@@ -1,0 +1,258 @@
+{
+  "name": "engine-sim",
+  "description": "A high-performance real-time internal combustion engine simulator designed for high-fidelity audio synthesis and mechanical response emulation. The system models discrete components including pistons, crankshafts, and valvetrains while simulating complex gas dynamics and combustion thermodynamics to produce procedurally generated engine acoustics. It features a custom domain-specific scripting language for engine configuration and a constraint-based physics solver for mechanical linkages.",
+  "tags": [
+    "engine-simulation",
+    "audio-synthesis",
+    "physics-engine",
+    "thermodynamics",
+    "fluid-dynamics",
+    "mechanical-engineering",
+    "real-time",
+    "procedural-audio",
+    "cpp",
+    "scripting-language",
+    "automotive-engineering",
+    "directx",
+    "dyno-simulation",
+    "combustion-modeling"
+  ],
+  "category": "Combustion Cycle Simulation & Procedural Audio Synthesis",
+  "concepts": [
+    "Piston-crank kinematics",
+    "Combustion thermodynamics",
+    "Gas system fluid dynamics",
+    "Real-time audio synthesis",
+    "Impulse response processing",
+    "Valvetrain dynamics",
+    "Ignition module simulation",
+    "Dyno speed control",
+    "Volumetric efficiency",
+    "Manifold vacuum simulation",
+    "Crankcase pressure modeling",
+    "Thermodynamic cycle emulation",
+    "Exhaust system acoustics",
+    "Domain-specific scripting runtime",
+    "Convolution filtering",
+    "PID governor control",
+    "Starter motor simulation",
+    "Transmission and powertrain modeling",
+    "Vehicle drag constraints",
+    "Multi-cylinder bank architecture",
+    "Camshaft lobe profile simulation",
+    "Fuel-air mixture dynamics",
+    "Heat capacity ratio calculation",
+    "Choked flow modeling",
+    "Constraint-based physics solving",
+    "Oscilloscope data visualization",
+    "Direct throttle linkage modeling",
+    "VTEC variable valve timing",
+    "Rigid body dynamics",
+    "Adiabatic energy conservation"
+  ],
+  "languages": [
+    "C++",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 355,
+    "has_readme": true,
+    "sample_files": [
+      "src/main.cpp",
+      "src/engine_sim_application.cpp",
+      "src/geometry_generator.cpp",
+      "test/gas_system_tests.cpp",
+      "src/gas_system.cpp"
+    ]
+  },
+  "_hash": "94032f45529d89e2f0913a1b8dccd463dfc9961c6a537291bea4eee46c8e90a9",
+  "_path": "/Users/ember/src/engine-sim",
+  "_updated_at": "2026-02-14T00:56:32.689028Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c20970c4e2dd5344817dbe881b6e288cbd786f01ce366774f57a19d2bf4fe5fd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:15.385988+00:00"
+  },
+  "mined_motifs": [
+    "python",
+    "rust",
+    "simulation",
+    "compiler-design",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "westwood-studios",
+    "Applicative-order Evaluation",
+    "Compound Data",
+    "Higher-order Procedures",
+    "Iterative Processes"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.864
+    },
+    {
+      "name": "accordion-sim",
+      "path": "/Users/ember/dev/accordion-sim",
+      "similarity": 0.863
+    },
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.858
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.854
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.851
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.85
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.847
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Piston-crank kinematics",
+      "Combustion thermodynamics",
+      "Gas system fluid dynamics",
+      "Real-time audio synthesis",
+      "Impulse response processing",
+      "Valvetrain dynamics",
+      "Ignition module simulation",
+      "Dyno speed control",
+      "Volumetric efficiency",
+      "Manifold vacuum simulation",
+      "Crankcase pressure modeling",
+      "Thermodynamic cycle emulation",
+      "Exhaust system acoustics",
+      "Domain-specific scripting runtime",
+      "Convolution filtering",
+      "PID governor control",
+      "Starter motor simulation",
+      "Transmission and powertrain modeling",
+      "Vehicle drag constraints",
+      "Multi-cylinder bank architecture",
+      "Camshaft lobe profile simulation",
+      "Fuel-air mixture dynamics",
+      "Heat capacity ratio calculation",
+      "Choked flow modeling",
+      "Constraint-based physics solving",
+      "Oscilloscope data visualization",
+      "Direct throttle linkage modeling",
+      "VTEC variable valve timing",
+      "Rigid body dynamics",
+      "Adiabatic energy conservation"
+    ],
+    "tags": [
+      "engine-simulation",
+      "audio-synthesis",
+      "physics-engine",
+      "thermodynamics",
+      "fluid-dynamics",
+      "mechanical-engineering",
+      "real-time-simulation",
+      "procedural-audio",
+      "cpp",
+      "scripting-language",
+      "automotive-engineering",
+      "directx",
+      "dyno-simulation",
+      "combustion-modeling"
+    ],
+    "mined_motifs": [
+      "python",
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "Compiler Engineering",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "westwood-studios",
+      "Applicative-order Evaluation",
+      "Compound Data",
+      "Higher-order Procedures",
+      "Iterative Processes"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.919,
+        "matches": [
+          "real-time-simulation",
+          "fluid-dynamics"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.578,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.472,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.461,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 3.971,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.707,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.689028Z"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "name": "mina-src",
+  "description": "mina-src appears to be a zero-knowledge proofs project using OCaml, Shell, Python. The available files suggest focus areas around dune, test, mina, ledger.",
+  "tags": [
+    "OCaml",
+    "Shell",
+    "Python",
+    "Go",
+    "JavaScript",
+    "Nix",
+    "Rust",
+    "C",
+    "dune",
+    "test",
+    "mina",
+    "ledger",
+    "readme",
+    "base",
+    "intf",
+    "state"
+  ],
+  "category": "Zero-Knowledge Proofs",
+  "concepts": [
+    "dune",
+    "test",
+    "mina",
+    "ledger",
+    "readme",
+    "base",
+    "intf",
+    "state",
+    "transaction",
+    "proof",
+    "cache",
+    "zkapp",
+    "hash",
+    "block",
+    "snark",
+    "command",
+    "graphql",
+    "transition",
+    "account",
+    "version",
+    "data",
+    "network",
+    "archive",
+    "frontier",
+    "config",
+    "genesis",
+    "node",
+    "versioned",
+    "main",
+    "tests",
+    "fork",
+    "request",
+    "status",
+    "types",
+    "wrap",
+    "build",
+    "pool",
+    "protocol",
+    "response",
+    "slot"
+  ],
+  "languages": [
+    "OCaml",
+    "Shell",
+    "Python",
+    "Go",
+    "JavaScript",
+    "Nix",
+    "Rust",
+    "C"
+  ],
+  "maturity": "exploratory",
+  "_hash": "683cb48d94a70f448f0ba288dd6a6362d25917437b72207b718e804485b21556",
+  "_path": "/Users/ember/dev/mina-src",
+  "_updated_at": "2026-02-14T00:56:29.360071Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "dune",
+      "test",
+      "mina-protocol",
+      "ledger",
+      "readme",
+      "base",
+      "intf",
+      "state",
+      "transaction",
+      "proof",
+      "cache",
+      "zkapp",
+      "hash",
+      "block",
+      "ZK-SNARKs",
+      "command",
+      "graphql",
+      "transition",
+      "account",
+      "version",
+      "data",
+      "network",
+      "archive",
+      "frontier",
+      "config",
+      "genesis",
+      "node",
+      "versioned",
+      "main",
+      "tests",
+      "fork",
+      "request",
+      "status",
+      "types",
+      "wrap",
+      "build",
+      "pool",
+      "protocol",
+      "response",
+      "slot"
+    ],
+    "tags": [
+      "OCaml",
+      "Shell",
+      "Python",
+      "Go",
+      "JavaScript",
+      "Nix",
+      "Rust Language Ecosystem",
+      "C",
+      "dune",
+      "test",
+      "mina-protocol",
+      "ledger",
+      "readme",
+      "base",
+      "intf",
+      "state"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "Mina Protocol",
+      "Zero-Knowledge Proofs (ZKP)",
+      "blockchain",
+      "zero-knowledge-proofs",
+      "Kimchi Proof System",
+      "smart-contracts",
+      "libp2p",
+      "mina-protocol",
+      "tree",
+      "C/C++"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 11.96,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "zk-snarks",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 9.08,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "mina-protocol",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.053,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 7.89,
+        "matches": [
+          "mina-protocol",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 7.658,
+        "matches": [
+          "cryptography",
+          "zkapp",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 5.107,
+        "matches": [
+          "zero-knowledge proofs (zkp)"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.360071Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5d894773dd75407ddcbe5f4086fb5ce749bfcf8a0ff1d7ff7b17ff0a9afed5a3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:57.496398+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "mina-protocol",
+    "zero-knowledge-proofs",
+    "blockchain",
+    "Recursive SNARKs",
+    "Kimchi Proof System",
+    "smart-contracts",
+    "zk-snarks",
+    "libp2p",
+    "coda",
+    "tree",
+    "C/C++"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.946
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.827
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.802
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.774
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.756
+    },
+    {
+      "name": "zulip-terminal",
+      "path": "/Users/ember/src/zulip-terminal",
+      "similarity": 0.754
+    },
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.749
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.74
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "name": "cosmopolitan",
+  "description": "Cosmopolitan Libc is a C/C++ library that enables 'build-once run-anywhere' functionality by outputting a POSIX-approved polyglot binary format known as Actually Portable Executable (APE). It reconfigures compilers to produce native binaries that execute without a virtual machine across Linux, Windows, macOS, and BSD systems, as well as bare-metal BIOS environments. The project provides a hermetic development environment including a custom C++ Template Library and integrated third-party tools optimized for minimal footprint and maximal performance.",
+  "tags": [
+    "cosmopolitan-libc",
+    "ape",
+    "polyglot-binary",
+    "x86_64",
+    "aarch64",
+    "posix",
+    "bios",
+    "static-link",
+    "systems-programming",
+    "cross-platform",
+    "runtime",
+    "libc",
+    "hermetic-build",
+    "multi-os",
+    "low-level",
+    "performance"
+  ],
+  "category": "Polyglot Binary Execution",
+  "concepts": [
+    "Actually Portable Executable",
+    "Polyglot Binaries",
+    "POSIX Compatibility Layer",
+    "BIOS Bootstrapping",
+    "System Call Tracing",
+    "Static Linking",
+    "Hermetic Toolchains",
+    "C++ Template Library",
+    "Digital Signal Processing",
+    "Multi-Architecture Support",
+    "FATAL Error Handling",
+    "Terminal Graphics",
+    "Signal Handling",
+    "Thread Management",
+    "Memory Allocation",
+    "Dynamic Loading",
+    "Network Programming",
+    "Audio Processing",
+    "MPEG Decoding",
+    "UNIX Shell Integration",
+    "Windows Interoperability",
+    "WSL Compatibility",
+    "ELF Header Manipulation",
+    "PE Header Polyglots",
+    "Mach-O Compatibility",
+    "Bare-metal Execution",
+    "Embedded Systems",
+    "Wait-free Synchronization",
+    "SIMD Optimization",
+    "Instruction Set Portability",
+    "System Call Emulation",
+    "Monolithic Repository"
+  ],
+  "languages": [
+    "C",
+    "C++",
+    "Assembly",
+    "Python",
+    "Shell",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 17750,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "third_party/awk/main.c",
+      "third_party/ctags/main.c",
+      "third_party/dash/main.c",
+      "third_party/less/main.c"
+    ]
+  },
+  "_hash": "f948dfc6076e360e144c554e3b18c20c57dc6de626f3946ddc89a54823964734",
+  "_path": "/Users/ember/src/cosmopolitan",
+  "_updated_at": "2026-02-14T00:56:32.364801Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1db5476ebaa2ae744679d2035e6dbc0edf34d325759b6d9d9a0c1cf5c4647d00",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:06.030535+00:00"
+  },
+  "mined_motifs": [
+    "cross-compilation",
+    "C Interoperability",
+    "Foreign Function Interface",
+    "ffi",
+    "Static Analysis",
+    "toolchain",
+    "metaprogramming",
+    "IO Control",
+    "ioctl",
+    "linux",
+    "rust",
+    "Binary Layout Optimization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.87
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.848
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.833
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.832
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.832
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.831
+    },
+    {
+      "name": "heavy_wizardry",
+      "path": "/Users/ember/dev/gh/heavy_wizardry",
+      "similarity": 0.826
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Actually Portable Executable",
+      "Polyglot Binaries",
+      "POSIX Compatibility Layer",
+      "BIOS Bootstrapping",
+      "System Call Tracing",
+      "Static Linking",
+      "Hermetic Toolchains",
+      "C++ Template Library",
+      "Digital Signal Processing",
+      "Multi-Architecture Support",
+      "FATAL Error Handling",
+      "Terminal Graphics",
+      "Signal Handling",
+      "Thread Management",
+      "Memory Allocation",
+      "Dynamic Loading",
+      "Network Programming",
+      "Audio Processing",
+      "MPEG Decoding",
+      "UNIX Shell Integration",
+      "Windows Interoperability",
+      "WSL Compatibility",
+      "ELF Header Manipulation",
+      "PE Header Polyglots",
+      "Mach-O Compatibility",
+      "Bare-metal Execution",
+      "Embedded Systems",
+      "Wait-free Synchronization",
+      "SIMD Optimization",
+      "Instruction Set Portability",
+      "System Call Emulation",
+      "Monolithic Repository"
+    ],
+    "tags": [
+      "cosmopolitan-libc",
+      "ape",
+      "polyglot-binary",
+      "x86_64",
+      "aarch64",
+      "posix",
+      "bios",
+      "static-link",
+      "Systems Programming",
+      "cross-platform",
+      "runtime",
+      "libc",
+      "hermetic-build",
+      "multi-os",
+      "systems-programming",
+      "performance"
+    ],
+    "mined_motifs": [
+      "cross-compilation",
+      "Foreign Function Interface",
+      "foreign-function-interface",
+      "Static Analysis",
+      "toolchain",
+      "metaprogramming",
+      "IO Control",
+      "ioctl",
+      "linux",
+      "Rust Language Ecosystem",
+      "Binary Layout Optimization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 12.428,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 12.406,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.241,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.812,
+        "matches": [
+          "foreign function interface",
+          "runtime"
+        ]
+      },
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 5.442,
+        "matches": [
+          "embedded systems"
+        ]
+      },
+      {
+        "id": "audio-dsp",
+        "name": "Digital Signal Processing & Audio",
+        "score": 5.376,
+        "matches": [
+          "digital signal processing"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.364801Z"
+  }
+}

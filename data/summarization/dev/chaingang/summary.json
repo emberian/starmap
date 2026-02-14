@@ -1,0 +1,237 @@
+{
+  "name": "chaingang",
+  "description": "A collection of interactive audiovisual experiences and multiplayer generative games utilizing a custom entity-component-system and p5.js rendering. It features real-time state synchronization via Y-Sweet CRDTs, a modular audio engine for procedural synthesis, and a physics-driven interaction model based on Matter.js. The architecture supports complex narrative choreography and multi-layered post-processing effects within a browser environment.",
+  "tags": [
+    "multiplayer",
+    "generative-art",
+    "p5js",
+    "ecs",
+    "crdt",
+    "web-audio-api",
+    "matterjs",
+    "typescript",
+    "audiovisual",
+    "procedural-animation",
+    "y-sweet",
+    "interactive-narrative",
+    "creative-coding",
+    "post-processing",
+    "real-time-sync",
+    "physics-engine"
+  ],
+  "category": "Collaborative Generative Audiovisual Systems",
+  "concepts": [
+    "Entity Component System",
+    "CRDT-based State Synchronization",
+    "Procedural Audio Synthesis",
+    "Post-processing Render Pipeline",
+    "Dynamic Matter-state Physics",
+    "Timeline-based Choreography",
+    "Particle System Simulation",
+    "Collaborative Interaction Design",
+    "Vector-based Motion",
+    "Scene Graph Management",
+    "Reactive Soundscapes",
+    "Generative Typography",
+    "Multi-layered Composition",
+    "Web Audio API Integration",
+    "State Machine Orchestration",
+    "Asynchronous Resource Loading"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 126,
+    "has_readme": false,
+    "sample_files": [
+      "chainganged/server/index.ts",
+      "ep1/src/audio/index.js",
+      "ep1/src/behaviors/index.js",
+      "ep1/src/core/index.js",
+      "ep1/src/entities/characters/index.js"
+    ]
+  },
+  "_hash": "fe21a54067f7f3a8217e86a88620dd8e094e71e2d12f0d6cd8884dce80a4bfd7",
+  "_path": "/Users/ember/dev/chaingang",
+  "_updated_at": "2026-02-14T00:56:23.683657Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Entity Component System",
+      "CRDT-based State Synchronization",
+      "Procedural Audio Synthesis",
+      "Post-processing Render Pipeline",
+      "Dynamic Matter-state Physics",
+      "Timeline-based Choreography",
+      "Particle System Simulation",
+      "Collaborative Interaction Design",
+      "Vector-based Motion",
+      "Scene Graph Management",
+      "Reactive Soundscapes",
+      "Generative Typography",
+      "Multi-layered Composition",
+      "Web Audio API Integration",
+      "State Machine Orchestration",
+      "Asynchronous Resource Loading"
+    ],
+    "tags": [
+      "multiplayer",
+      "generative-art",
+      "p5js",
+      "ecs",
+      "Conflict-Free Replicated Data Types",
+      "web-audio-api",
+      "matterjs",
+      "typescript",
+      "audiovisual",
+      "procedural-animation",
+      "y-sweet",
+      "interactive-narrative",
+      "creative-coding",
+      "post-processing",
+      "real-time-sync",
+      "physics-engine"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "Conflict-Free Replicated Data Types",
+      "Event-driven Architecture",
+      "collaboration",
+      "ide",
+      "audio-synthesis",
+      "Waveform Generation",
+      "low-latency",
+      "lexical-analysis",
+      "Recursive Descent Parsing",
+      "dsl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.427,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.402,
+        "matches": [
+          "ecs"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.384,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.377,
+        "matches": [
+          "dsl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.323,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.291,
+        "matches": [
+          "conflict-free replicated data types"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.683657Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4560d2d839cd9d1d7789a4d7860efc59821c6a9df8631373603d2262857253fa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:48.370421+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "real-time",
+    "Conflict-free Replicated Data Types (CRDT)",
+    "Event-driven Architecture",
+    "collaboration",
+    "ide",
+    "audio-synthesis",
+    "Waveform Generation",
+    "low-latency",
+    "Lexical Analysis",
+    "Recursive Descent Parsing",
+    "dsl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "synfone2",
+      "path": "/Users/ember/dev/gh/forks/synfone2",
+      "similarity": 0.815
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.815
+    },
+    {
+      "name": "open-collaboration-tools",
+      "path": "/Users/ember/dev/open-collaboration-tools",
+      "similarity": 0.814
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.812
+    },
+    {
+      "name": "audiokart",
+      "path": "/Users/ember/dev/gh/audiokart",
+      "similarity": 0.805
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.802
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.798
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.797
+    }
+  ]
+}

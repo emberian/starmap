@@ -1,0 +1,281 @@
+{
+  "name": "brorb",
+  "description": "Brorb is a mechanistic, browser-native simulation of mammalian respiratory and cardiovascular dynamics, coupling a brainstem Central Pattern Generator (CPG) with mechanical models of pulmonary and systemic circulation. The system employs a 4th-order Runge-Kutta solver to integrate activity-based neural populations, gas exchange kinetics, and hemodynamics including baroreflex and chemoreceptor feedback loops. It features real-time visualization via a generative shader-based orb and a skeuomorphic medical dashboard, supporting bio-interactive entrainment through microphone-based breath detection.",
+  "tags": [
+    "biophysical-simulation",
+    "central-pattern-generator",
+    "hemodynamics",
+    "respiratory-mechanics",
+    "chemoreception",
+    "baroreflex",
+    "neural-control",
+    "runge-kutta",
+    "audio-entrainment",
+    "skeuomorphic-ui",
+    "webgl-shaders",
+    "real-time-simulation",
+    "mammalian-physiology",
+    "cardiac-arrhythmia",
+    "gas-exchange",
+    "neuroscience"
+  ],
+  "category": "Computational Cardiorespiratory Physiology",
+  "concepts": [
+    "Central Pattern Generator",
+    "Ventral Respiratory Column",
+    "Molkov Model",
+    "Runge-Kutta 4",
+    "Hering-Breuer Reflex",
+    "Frank-Starling Mechanism",
+    "Windkessel Model",
+    "Chemoreception",
+    "Baroreflex",
+    "Respiratory Sinus Arrhythmia",
+    "Oxyhemoglobin Dissociation",
+    "Severinghaus-Hill Equation",
+    "Cardiac Vagal Motor Neurons",
+    "Ischemia Feedback Loop",
+    "Cerebral Autoregulation",
+    "Alveolar Ventilation",
+    "Total Peripheral Resistance",
+    "Cardiac Output",
+    "Neural Adaptation",
+    "INaP Bursting",
+    "Activity-Based Neural Model",
+    "Adaptive Thresholding",
+    "AudioWorklet",
+    "Envelope Follower",
+    "Skeuomorphic Design",
+    "Generative Art",
+    "Differential Equations",
+    "Coupled Oscillators",
+    "Cardiac Rhythm State Machine",
+    "Phrenic Motor Output",
+    "Pulmonary Stretch Receptors",
+    "Arterial Gas Dynamics",
+    "Tonic Drive Modulation",
+    "Sinus Arrhythmia",
+    "Vasoconstriction",
+    "Hypoxic Vagal Surge",
+    "Mean Arterial Pressure",
+    "Myocardial Contractility"
+  ],
+  "languages": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": true,
+    "sample_files": [
+      "vis/dashboard.js",
+      "test_sim.js",
+      "sim/simulation.js",
+      "vis/orb.js",
+      "sim/heart.js"
+    ]
+  },
+  "_hash": "be31e97dcb21e30b7c3751e6402b9caf5ad7d974d5c267bb9863c13413027af7",
+  "_path": "/Users/ember/dev/brorb",
+  "_updated_at": "2026-02-14T00:56:23.614620Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Central Pattern Generator",
+      "Ventral Respiratory Column",
+      "Molkov Model",
+      "Runge-Kutta 4",
+      "Hering-Breuer Reflex",
+      "Frank-Starling Mechanism",
+      "Windkessel Model",
+      "Chemoreception",
+      "Baroreflex",
+      "Respiratory Sinus Arrhythmia",
+      "Oxyhemoglobin Dissociation",
+      "Severinghaus-Hill Equation",
+      "Cardiac Vagal Motor Neurons",
+      "Ischemia Feedback Loop",
+      "Cerebral Autoregulation",
+      "Alveolar Ventilation",
+      "Total Peripheral Resistance",
+      "Cardiac Output",
+      "Neural Adaptation",
+      "INaP Bursting",
+      "Activity-Based Neural Model",
+      "Adaptive Thresholding",
+      "AudioWorklet",
+      "Envelope Follower",
+      "Skeuomorphic Design",
+      "Generative Art",
+      "Differential Equations",
+      "Coupled Oscillators",
+      "Cardiac Rhythm State Machine",
+      "Phrenic Motor Output",
+      "Pulmonary Stretch Receptors",
+      "Arterial Gas Dynamics",
+      "Tonic Drive Modulation",
+      "Sinus Arrhythmia",
+      "Vasoconstriction",
+      "Hypoxic Vagal Surge",
+      "Mean Arterial Pressure",
+      "Myocardial Contractility"
+    ],
+    "tags": [
+      "biophysical-simulation",
+      "central-pattern-generator",
+      "hemodynamics",
+      "respiratory-mechanics",
+      "chemoreception",
+      "baroreflex",
+      "neural-control",
+      "runge-kutta",
+      "audio-entrainment",
+      "skeuomorphic-ui",
+      "webgl-shaders",
+      "real-time-simulation",
+      "mammalian-physiology",
+      "cardiac-arrhythmia",
+      "gas-exchange",
+      "neuroscience"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "vite",
+      "state-machine",
+      "react",
+      "webgl",
+      "real-time-simulation",
+      "glsl",
+      "cellular-automata",
+      "3D Asset Pipeline Management",
+      "Anatomy Visualization",
+      "Asynchronous Serial Communication"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 7.958,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.476,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 5.413,
+        "matches": [
+          "differential equations"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.075,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 3.669,
+        "matches": [
+          "glsl"
+        ]
+      },
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 2.401,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.614620Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "95502916e1134efc1189b970cc1e4119d9096d3f3a18378fd2b5d0793fa0f9e5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:40.964768+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "real-time-rendering",
+    "vite",
+    "state-machine",
+    "react",
+    "webgl",
+    "simulation",
+    "glsl",
+    "cellular-automata",
+    "3D Asset Pipeline Management",
+    "Anatomy Visualization",
+    "Asynchronous Serial Communication"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "jarvis",
+      "path": "/Users/ember/dev/gh/forks/jarvis",
+      "similarity": 0.767
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.76
+    },
+    {
+      "name": "humanbody",
+      "path": "/Users/ember/dev/humanbody",
+      "similarity": 0.757
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.753
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.744
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.735
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.734
+    },
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.731
+    }
+  ]
+}

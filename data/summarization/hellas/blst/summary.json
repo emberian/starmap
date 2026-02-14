@@ -1,0 +1,261 @@
+{
+  "name": "blst",
+  "description": "A high-performance BLS12-381 signature library written in C and assembly, specifically engineered for side-channel resistance and formal verification. It implements IETF BLS Signature V5 and RFC 9380 standards, utilizing highly optimized assembly kernels for x86_64 and ARM64 to perform field and elliptic curve operations. The library maintains run-time neutrality by eschewing internal memory management and multi-threading, facilitating seamless integration into secure execution environments.",
+  "tags": [
+    "cryptography",
+    "bls12-381",
+    "signatures",
+    "pairing-based-cryptography",
+    "assembly-optimization",
+    "constant-time",
+    "ietf-compliance",
+    "rust-bindings",
+    "go-bindings",
+    "elliptic-curve",
+    "formal-verification",
+    "multi-scalar-multiplication",
+    "pippenger",
+    "hash-to-curve",
+    "side-channel-resistance",
+    "blockchain"
+  ],
+  "category": "Pairing-Based Cryptography",
+  "concepts": [
+    "BLS12-381",
+    "Bilinear Pairings",
+    "Miller Loop",
+    "Pippenger's Algorithm",
+    "Multi-Scalar Multiplication (MSM)",
+    "Montgomery Multiplication",
+    "Elliptic Curve Point Addition",
+    "Hash-to-Curve",
+    "Domain Separation Tags (DST)",
+    "Constant-time implementation",
+    "Side-channel attack mitigation",
+    "Formal Verification",
+    "Isogeny Map",
+    "Fr/Fp Field Operations",
+    "Serialization",
+    "ZCash specification",
+    "Scalar Multiplication",
+    "Coordinate Systems",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "Field Inversion",
+    "Modular Arithmetic"
+  ],
+  "languages": [
+    "C",
+    "Assembly",
+    "Rust",
+    "Go",
+    "Python",
+    "Java",
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "C#"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 125,
+    "has_readme": true,
+    "sample_files": [
+      "go.mod",
+      "bindings/rust/src/lib.rs",
+      "bindings/go/blst.go",
+      "src/recip-addchain.h",
+      "src/sqrt-addchain.h"
+    ]
+  },
+  "_hash": "f4ef5677e18697809b4aa62319e6f662f6e25c2e64c91f54e0d94abe4cd805a9",
+  "_path": "/Users/ember/hellas/blst",
+  "_updated_at": "2026-02-14T00:56:31.246628Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "950a1245a476f1662b65a9a9e6971f3ecc51a54c5f0c6cabb7e42621df0352c2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:21.794268+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Cofactor Clearing",
+    "Final Exponentiation",
+    "blst",
+    "Finite Field Arithmetic",
+    "arkworks",
+    "Point Compression",
+    "zero-knowledge",
+    "msm",
+    "Multi-Scalar Multiplication",
+    "finite-fields",
+    "pairings"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.911
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/hellas/blstrs",
+      "similarity": 0.887
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.882
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.876
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.871
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.869
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.868
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.867
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "BLS12-381",
+      "Bilinear Pairings",
+      "Miller Loop",
+      "Pippenger's Algorithm",
+      "multi-scalar-multiplication",
+      "Montgomery Multiplication",
+      "Elliptic Curve Point Addition",
+      "Hash-to-Curve",
+      "Domain Separation Tags (DST)",
+      "Constant-time implementation",
+      "Side-channel attack mitigation",
+      "Formal Verification",
+      "Isogeny Map",
+      "Fr/Fp Field Operations",
+      "Data Serialization",
+      "ZCash specification",
+      "Scalar Multiplication",
+      "Coordinate Systems",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "Field Inversion",
+      "Modular Arithmetic"
+    ],
+    "tags": [
+      "cryptography",
+      "bls12-381",
+      "signatures",
+      "pairing-based-cryptography",
+      "assembly-optimization",
+      "constant-time",
+      "ietf-compliance",
+      "rust-bindings",
+      "go-bindings",
+      "elliptic-curves",
+      "formal-methods",
+      "multi-scalar-multiplication",
+      "pippenger",
+      "hash-to-curve",
+      "side-channel-resistance",
+      "blockchain"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Cofactor Clearing",
+      "Final Exponentiation",
+      "blst",
+      "Finite Field Arithmetic",
+      "arkworks",
+      "Point Compression",
+      "zero-knowledge-proofs",
+      "multi-scalar-multiplication",
+      "Multi-Scalar Multiplication",
+      "finite-fields",
+      "pairings"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 12.573,
+        "matches": [
+          "elliptic-curves",
+          "pairing-based-cryptography",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.758,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.919,
+        "matches": [
+          "formal verification",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.559,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.558,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.558,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.246628Z"
+  }
+}

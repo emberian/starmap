@@ -1,0 +1,229 @@
+{
+  "name": "grease-bench",
+  "description": "A minimalist resource monitoring tool implemented in runtimeless Rust that interfaces directly with the Linux kernel via raw x86-64 syscalls and inline assembly. It utilizes Linux Control Groups (cgroups) to isolate target processes and sample high-frequency memory usage statistics with minimal runtime interference. The architecture avoids standard library overhead by reimplementing core POSIX primitives for I/O, process management, and signal handling.",
+  "tags": [
+    "rust",
+    "linux",
+    "cgroups",
+    "syscalls",
+    "x86_64",
+    "benchmarking",
+    "systems-programming",
+    "inline-asm",
+    "no-runtime",
+    "performance-analysis",
+    "memory-accounting"
+  ],
+  "category": "Linux Resource Accounting",
+  "concepts": [
+    "Linux Control Groups (cgroups v1)",
+    "Raw System Call Interface",
+    "Runtimeless Rust execution",
+    "x86-64 inline assembly blocks",
+    "Process privilege dropping (setuid/setgid)",
+    "Memory usage sampling",
+    "POSIX-compatible error definitions",
+    "Low-level File I/O primitives",
+    "Process orchestration via fork/execve",
+    "Inter-process communication via anonymous pipes",
+    "Clock-based performance sampling",
+    "Wait-loop polling for process state",
+    "Kernel signal management",
+    "Custom Result/Error types",
+    "Resource cleanup via Drop trait"
+  ],
+  "languages": [
+    "Rust",
+    "Assembly"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "src/sys/mod.rs",
+      "src/sys/err.rs",
+      "src/sys/io.rs",
+      "src/cgroup.rs",
+      "src/bench.rs"
+    ]
+  },
+  "_hash": "0ce63c72600ddb9a02045ff6d6f8520cd1d123859e015e2be411bc137a94d5a1",
+  "_path": "/Users/ember/dev/gh/forks/grease-bench",
+  "_updated_at": "2026-02-14T00:56:25.581349Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Linux Control Groups (cgroups v1)",
+      "Raw System Call Interface",
+      "Runtimeless Rust execution",
+      "x86-64 inline assembly blocks",
+      "Process privilege dropping (setuid/setgid)",
+      "Memory usage sampling",
+      "POSIX-compatible error definitions",
+      "Low-level File I/O primitives",
+      "Process orchestration via fork/execve",
+      "Inter-process communication via anonymous pipes",
+      "Clock-based performance sampling",
+      "Wait-loop polling for process state",
+      "Kernel signal management",
+      "Custom Result/Error types",
+      "Resource cleanup via Drop trait"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "linux",
+      "cgroups",
+      "syscalls",
+      "x86_64",
+      "benchmarking",
+      "Systems Programming",
+      "inline-asm",
+      "no-runtime",
+      "performance-analysis",
+      "memory-accounting"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "systems-programming",
+      "sysfs",
+      "Resource Acquisition Is Initialization (RAII)",
+      "libc",
+      "Reference Counting",
+      "Foreign Function Interface",
+      "hardware",
+      "udev",
+      "IO Control"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.067,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 9.722,
+        "matches": [
+          "cgroups",
+          "systems programming",
+          "sysfs"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.698,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 6.916,
+        "matches": [
+          "benchmarking",
+          "performance-analysis"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.91,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.439,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.581349Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9658ea57e06e8971998107e6d8f29255ad4777718012aa6bac85c0866ff15a3b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:38.294856+00:00"
+  },
+  "mined_motifs": [
+    "ffi",
+    "low-level",
+    "sysfs",
+    "resource-management",
+    "libc",
+    "Foreign Function Interface (FFI)",
+    "Reference Counting",
+    "bindings",
+    "hardware",
+    "udev",
+    "Foreign Function Interface",
+    "IO Control"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.91
+    },
+    {
+      "name": "rust-bench",
+      "path": "/Users/ember/dev/gh/rust-bench",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.862
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.861
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.86
+    },
+    {
+      "name": "libudev-rs",
+      "path": "/Users/ember/dev/gh/forks/libudev-rs",
+      "similarity": 0.854
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.852
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "name": "rust-wiki-backup",
+  "description": "A comprehensive historical archive of the original Rust programming language wiki, documenting the language's evolution and compiler design during the pre-1.0 era (2013-2014). It preserves critical technical documentation including rustc hacking guides, API review minutes, RFC triage notes, and early platform-specific implementation details.",
+  "tags": [
+    "rust",
+    "wiki-archive",
+    "rustc",
+    "compiler-internals",
+    "language-evolution",
+    "pre-1.0",
+    "hacking-guide",
+    "api-stabilization",
+    "rfc-process",
+    "historical",
+    "documentation",
+    "cross-compilation",
+    "contributor-notes"
+  ],
+  "category": "Programming Language Evolution & Compiler Documentation",
+  "concepts": [
+    "rustc architecture",
+    "compiler front-end design",
+    "middle-end optimizations",
+    "LLVM backend integration",
+    "API review process",
+    "RFC triage workflows",
+    "cross-platform building",
+    "pre-1.0 breaking changes",
+    "sigil reference",
+    "intrinsic definitions",
+    "operator overloading semantics",
+    "link-time optimization",
+    "bootstrap process",
+    "contributor conventions",
+    "buildbot infrastructure",
+    "early library design"
+  ],
+  "languages": [
+    "Markdown",
+    "reStructuredText"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 73,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "109d67aeb664d5c012b12854a7f647a1e32e623efc593d4c5ce83fe3637e0fc4",
+  "_path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+  "_updated_at": "2026-02-14T00:56:26.624114Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "rustc architecture",
+      "compiler front-end design",
+      "middle-end optimizations",
+      "LLVM backend integration",
+      "API review process",
+      "RFC triage workflows",
+      "cross-platform building",
+      "pre-1.0 breaking changes",
+      "sigil reference",
+      "intrinsic definitions",
+      "operator overloading semantics",
+      "link-time optimization",
+      "bootstrap process",
+      "contributor conventions",
+      "buildbot infrastructure",
+      "early library design"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "wiki-archive",
+      "compiler-internals",
+      "language-evolution",
+      "pre-1.0",
+      "hacking-guide",
+      "api-stabilization",
+      "rfc-process",
+      "historical",
+      "documentation",
+      "cross-compilation",
+      "contributor-notes"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Systems Programming",
+      "Memory Safety",
+      "Static Site Generation",
+      "jekyll",
+      "static-site-generator",
+      "Zero-Cost Abstractions",
+      "JSON serialization",
+      "rustdoc",
+      "static-analysis",
+      "toolchain",
+      "api-evolution"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.211,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 5.434,
+        "matches": [
+          "documentation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.43,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.943,
+        "matches": [
+          "rustdoc"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.658,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.648,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.624114Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6d5cc4954b8d8bcda7bfb8db3978fb0e4dfa8acca2b3f34ff0e8695cd4bb88b4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:18.002457+00:00"
+  },
+  "mined_motifs": [
+    "rust-lang",
+    "systems-programming",
+    "Memory Safety",
+    "Static Site Generation",
+    "jekyll",
+    "static-site-generator",
+    "Zero-Cost Abstractions",
+    "JSON serialization",
+    "rustdoc",
+    "static-analysis",
+    "toolchain",
+    "api-evolution"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "meeting-minutes",
+      "path": "/Users/ember/dev/gh/forks/meeting-minutes",
+      "similarity": 0.916
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.881
+    },
+    {
+      "name": "cmr.github.io",
+      "path": "/Users/ember/dev/gh/cmr.github.io",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.86
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-bench",
+      "path": "/Users/ember/dev/gh/rust-bench",
+      "similarity": 0.849
+    },
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/gh/forks/rust",
+      "similarity": 0.847
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.845
+    }
+  ]
+}

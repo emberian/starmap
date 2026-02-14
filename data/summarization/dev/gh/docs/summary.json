@@ -1,0 +1,199 @@
+{
+  "name": "docs",
+  "description": "A configuration-driven registry and manifest for the Octayn documentation hosting platform, facilitating the automated generation and deployment of library documentation. It leverages the doc_builder tool to orchestrate rustdoc and other build processes directly within git-cloned environments. The repository serves as a centralized control point for expanding the docs.octayn.net catalog through community-contributed pull requests.",
+  "tags": [
+    "rustdoc",
+    "documentation-hosting",
+    "doc-builder",
+    "octayn",
+    "configuration-registry",
+    "automated-builds",
+    "static-site-generation",
+    "rust-ecosystem"
+  ],
+  "category": "Documentation Hosting Infrastructure",
+  "concepts": [
+    "Rustdoc automation",
+    "Git-based documentation registry",
+    "Continuous deployment for technical documentation",
+    "Doc-builder integration",
+    "Static site generation management",
+    "Multi-repository documentation aggregation",
+    "Configuration-as-Code registry",
+    "Octayn network services"
+  ],
+  "languages": [
+    "JSON",
+    "Markdown"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "160bc0f5230794d9563dc56e08e9c0d83ecf683f94ee25a90ec5f36f9f6165ee",
+  "_path": "/Users/ember/dev/gh/docs",
+  "_updated_at": "2026-02-14T00:56:24.995027Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Rustdoc automation",
+      "Git-based documentation registry",
+      "Continuous deployment for technical documentation",
+      "Doc-builder integration",
+      "Static site generation management",
+      "Multi-repository documentation aggregation",
+      "Configuration-as-Code registry",
+      "Octayn network services"
+    ],
+    "tags": [
+      "rustdoc",
+      "documentation-hosting",
+      "doc-builder",
+      "octayn",
+      "configuration-registry",
+      "automated-builds",
+      "static-site-generation",
+      "rust-ecosystem"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "static-site-generator",
+      "markdown",
+      "documentation",
+      "IP Address Management",
+      "clarkson-university",
+      "mdbook",
+      "server-management",
+      "systems-administration",
+      "Static Site Generation",
+      "model-context-protocol",
+      "static-analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 8.334,
+        "matches": [
+          "static-site-generation",
+          "mdbook",
+          "rustdoc"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 8.24,
+        "matches": [
+          "markdown",
+          "static-site-generation"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 6.87,
+        "matches": [
+          "documentation",
+          "static-site-generation"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.381,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.283,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.559,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.995027Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "46aacf8dd2e1d5f1fe60c50fc308de2479b37a59649728cda8c39155d2b1308a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:57.404876+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "static-site-generator",
+    "markdown",
+    "documentation",
+    "IP Address Management",
+    "clarkson-university",
+    "mdbook",
+    "server-management",
+    "systems-administration",
+    "Static Site Generation",
+    "mcp",
+    "static-analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "doc_builder",
+      "path": "/Users/ember/dev/gh/doc_builder",
+      "similarity": 0.902
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/gh/forks/cosi-book",
+      "similarity": 0.831
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/cosi-book",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.824
+    },
+    {
+      "name": "rustaceans.org",
+      "path": "/Users/ember/dev/gh/forks/rustaceans.org",
+      "similarity": 0.823
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.818
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.813
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.812
+    }
+  ]
+}

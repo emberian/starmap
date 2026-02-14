@@ -1,0 +1,203 @@
+{
+  "name": "httpz",
+  "description": "httpz appears to be a developer tooling project using Rust, TypeScript. The available files suggest focus areas around icon, readme, main, 128x128.",
+  "tags": [
+    "Rust",
+    "TypeScript",
+    "icon",
+    "readme",
+    "main",
+    "128x128",
+    "128x128@2x",
+    "32x32",
+    "build",
+    "cargo",
+    "index",
+    "package",
+    "square107x107logo",
+    "square142x142logo",
+    "square150x150logo",
+    "square284x284logo"
+  ],
+  "category": "Developer Tooling",
+  "concepts": [
+    "icon",
+    "readme",
+    "main",
+    "128x128",
+    "128x128@2x",
+    "32x32",
+    "build",
+    "cargo",
+    "index",
+    "package",
+    "square107x107logo",
+    "square142x142logo",
+    "square150x150logo",
+    "square284x284logo",
+    "square30x30logo",
+    "square310x310logo",
+    "square44x44logo",
+    "square71x71logo",
+    "square89x89logo",
+    "storelogo",
+    "styles",
+    "tauri",
+    "tauri.conf",
+    "tsconfig",
+    "typescript",
+    "vite",
+    "vite.config"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript"
+  ],
+  "maturity": "exploratory",
+  "_hash": "7abfa40985f878e94ae5d2f680468bbc98c13752d4a498a6a3f5099a0b892805",
+  "_path": "/Users/ember/dev/httpz",
+  "_updated_at": "2026-02-14T00:56:29.114090Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "icon",
+      "readme",
+      "main",
+      "128x128",
+      "128x128@2x",
+      "32x32",
+      "build",
+      "cargo",
+      "index",
+      "package",
+      "square107x107logo",
+      "square142x142logo",
+      "square150x150logo",
+      "square284x284logo",
+      "square30x30logo",
+      "square310x310logo",
+      "square44x44logo",
+      "square71x71logo",
+      "square89x89logo",
+      "storelogo",
+      "styles",
+      "tauri",
+      "tauri.conf",
+      "tsconfig",
+      "typescript",
+      "vite",
+      "vite.config"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "TypeScript",
+      "icon",
+      "readme",
+      "main",
+      "128x128",
+      "128x128@2x",
+      "32x32",
+      "build",
+      "cargo",
+      "index",
+      "package",
+      "square107x107logo",
+      "square142x142logo",
+      "square150x150logo",
+      "square284x284logo"
+    ],
+    "mined_motifs": [
+      "config",
+      "test",
+      "JavaScript",
+      "license",
+      "appicon",
+      "launcher",
+      "Shell",
+      "info",
+      "sqlite3",
+      "dark",
+      "light",
+      "install"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 4.699,
+        "matches": [
+          "cargo",
+          "category:Developer Tooling"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.526,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.14,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.114090Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6e6f15507e687492ec84e950f40e419d89e62819a7150f6ea7973477d55b948e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:44.857809+00:00"
+  },
+  "mined_motifs": [
+    "config",
+    "test",
+    "JavaScript",
+    "license",
+    "appicon",
+    "launcher",
+    "Shell",
+    "info",
+    "sqlite3",
+    "dark",
+    "light",
+    "install"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "keygen-rs",
+      "path": "/Users/ember/src/keygen-rs",
+      "similarity": 0.695
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.688
+    },
+    {
+      "name": "httpz",
+      "path": "/Users/ember/dev/gh/httpz",
+      "similarity": 0.653
+    },
+    {
+      "name": "CS452-LAB1",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB1",
+      "similarity": 0.604
+    }
+  ]
+}

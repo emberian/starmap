@@ -1,0 +1,227 @@
+{
+  "name": "mcp-rust-sdk",
+  "description": "The official Rust implementation of the Model Context Protocol (MCP), providing a comprehensive, asynchronous SDK built on the Tokio runtime. It enables the development of both MCP clients and servers with support for a wide array of transports including stdio, Server-Sent Events (SSE), TCP, and WASI. The project features sophisticated procedural macros for declarative tool and prompt routing, alongside robust support for resource elicitation, structured outputs, and OAuth2-based authentication.",
+  "tags": [
+    "mcp",
+    "rust-sdk",
+    "tokio",
+    "json-rpc",
+    "sse",
+    "async-rust",
+    "procedural-macros",
+    "wasi",
+    "oauth2",
+    "transport-layer",
+    "ai-integration",
+    "llm-tools"
+  ],
+  "category": "Model Context Protocol SDK",
+  "concepts": [
+    "Model Context Protocol (MCP)",
+    "Asynchronous Runtime (Tokio)",
+    "JSON-RPC 2.0 communication",
+    "Server-Sent Events (SSE) Transport",
+    "Procedural Macros for Tool Discovery",
+    "Resource Elicitation and Management",
+    "Capability Negotiation",
+    "Transport-Agnostic Messaging",
+    "WASI-compliant IO",
+    "OAuth2 Authorization Flow",
+    "Paginated Resource Discovery",
+    "Structured Tool Output Schemas",
+    "Service-Oriented Architecture (Tower)",
+    "Bidirectional RPC communication"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 189,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/rmcp/src/lib.rs",
+      "crates/rmcp/tests/common/mod.rs",
+      "crates/rmcp-macros/src/lib.rs",
+      "examples/rig-integration/src/main.rs"
+    ]
+  },
+  "_hash": "6d2e4f812d8a96e63b025060af0dc5b4b6772075b4f9bbbb629caed4c9da568d",
+  "_path": "/Users/ember/src/mcp-rust-sdk",
+  "_updated_at": "2026-02-14T00:56:33.173269Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1f59f029a45c98f68ed34481215a9a2f5ff807683987a689e1c1044f3b3b44f9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:42.578527+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "backend",
+    "microservice",
+    "async-io",
+    "networking",
+    "http",
+    "Asynchronous I/O",
+    "Context Elicitation",
+    "JSON Schema 2020-12"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rmcp-sdk",
+      "path": "/Users/ember/src/rmcp-sdk",
+      "similarity": 0.955
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.871
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.853
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.84
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.837
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.835
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "model-context-protocol",
+      "Asynchronous Runtime (Tokio)",
+      "JSON-RPC 2.0 communication",
+      "Server-Sent Events (SSE) Transport",
+      "Procedural Macros for Tool Discovery",
+      "Resource Elicitation and Management",
+      "Capability Negotiation",
+      "Transport-Agnostic Messaging",
+      "WASI-compliant IO",
+      "OAuth2 Authorization Flow",
+      "Paginated Resource Discovery",
+      "Structured Tool Output Schemas",
+      "Service-Oriented Architecture (Tower)",
+      "Bidirectional RPC communication"
+    ],
+    "tags": [
+      "model-context-protocol",
+      "rust-sdk",
+      "Asynchronous Programming",
+      "json-rpc",
+      "sse",
+      "rust",
+      "procedural-macros",
+      "wasi",
+      "oauth2",
+      "transport-layer",
+      "ai-integration",
+      "llm-tools"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "backend",
+      "microservice",
+      "Asynchronous Programming",
+      "networking",
+      "http",
+      "Asynchronous I/O",
+      "Context Elicitation",
+      "JSON Schema 2020-12"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 10.937,
+        "matches": [
+          "ai-integration",
+          "json-rpc",
+          "sse",
+          "category:Model Context Protocol SDK"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.497,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.482,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.394,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.352,
+        "matches": [
+          "wasi"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 3.99,
+        "matches": [
+          "rust"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.173269Z"
+  }
+}

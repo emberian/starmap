@@ -1,0 +1,215 @@
+{
+  "name": "pairing",
+  "description": "A foundational Rust library defining traits and abstractions for pairing-friendly elliptic curve constructions. It provides a standardized 'Engine' interface for bilinear pairings, Miller loops, and final exponentiation, enabling interoperability across different curve implementations like BLS12-381.",
+  "tags": [
+    "cryptography",
+    "elliptic-curves",
+    "bilinear-pairings",
+    "zero-knowledge-proofs",
+    "rust",
+    "no-std",
+    "blockchain",
+    "miller-loop",
+    "finite-fields",
+    "zk-snarks"
+  ],
+  "category": "Elliptic Curve Cryptography",
+  "concepts": [
+    "Bilinear Pairings",
+    "Miller Loop",
+    "Final Exponentiation",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "Prime Fields",
+    "Extension Fields",
+    "G1 Group",
+    "G2 Group",
+    "Target Group (Gt)",
+    "Pairing-Friendly Curves",
+    "Multi-Pairing Optimization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "e958c1bd2bf014f2b1ae3c51d3361507b5ca555604a2251342c24efee71ad303",
+  "_path": "/Users/ember/hellas/pairing",
+  "_updated_at": "2026-02-14T00:56:31.900322Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9cd3ca5364afb685485c4a642f69270c76028b4ccd221c508306308866c6c22d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:40.571770+00:00"
+  },
+  "mined_motifs": [
+    "bls12-381",
+    "Cofactor Clearing",
+    "blst",
+    "elliptic-curve",
+    "Scalar Multiplication",
+    "pairing",
+    "zk-snark",
+    "msm",
+    "Point Compression",
+    "constant-time",
+    "Finite Field Arithmetic",
+    "arkworks"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/hellas/blstrs",
+      "similarity": 0.921
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.921
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.898
+    },
+    {
+      "name": "group",
+      "path": "/Users/ember/hellas/group",
+      "similarity": 0.891
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/hellas/ark-blst",
+      "similarity": 0.877
+    },
+    {
+      "name": "o1js-hints",
+      "path": "/Users/ember/dev/o1js-hints",
+      "similarity": 0.857
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.847
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.846
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Bilinear Pairings",
+      "Miller Loop",
+      "Final Exponentiation",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "Prime Fields",
+      "Extension Fields",
+      "G1 Group",
+      "G2 Group",
+      "Target Group (Gt)",
+      "Pairing-Friendly Curves",
+      "Multi-Pairing Optimization"
+    ],
+    "tags": [
+      "cryptography",
+      "elliptic-curves",
+      "bilinear-pairings",
+      "Zero-Knowledge Proofs (ZKP)",
+      "Rust Language Ecosystem",
+      "blockchain",
+      "miller-loop",
+      "finite-fields",
+      "zero-knowledge-proofs"
+    ],
+    "mined_motifs": [
+      "bls12-381",
+      "Cofactor Clearing",
+      "blst",
+      "elliptic-curves",
+      "Scalar Multiplication",
+      "pairing",
+      "ZK-SNARKs",
+      "multi-scalar-multiplication",
+      "Point Compression",
+      "constant-time",
+      "Finite Field Arithmetic",
+      "arkworks"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.652,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.59,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.797,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.416,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.411,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 5.409,
+        "matches": [
+          "zk-snarks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.900322Z"
+  }
+}

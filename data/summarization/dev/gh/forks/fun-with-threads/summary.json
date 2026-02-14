@@ -1,0 +1,239 @@
+{
+  "name": "fun-with-threads",
+  "description": "A comparative performance study of multi-threaded synchronization primitives implemented in C and Rust. It benchmarks various strategies for protecting shared state—including mutexes, spinlocks, and atomic operations—against baseline race conditions. The project utilizes flamegraphs to visualize and analyze the performance overhead and contention characteristics of each concurrency model.",
+  "tags": [
+    "concurrency",
+    "pthreads",
+    "rust",
+    "c",
+    "atomics",
+    "mutex",
+    "spinlock",
+    "benchmarking",
+    "profiling",
+    "flamegraph",
+    "synchronization",
+    "performance",
+    "multithreading",
+    "race-condition"
+  ],
+  "category": "Multicore Synchronization Performance",
+  "concepts": [
+    "Mutual Exclusion",
+    "Atomic Operations",
+    "Spinlocks",
+    "Race Conditions",
+    "Memory Ordering",
+    "Thread Synchronization",
+    "Resource Contention",
+    "Context Switching",
+    "Shared Mutable State",
+    "Lock Overhead",
+    "Performance Profiling",
+    "Data Races",
+    "Lock Contention",
+    "Thread Safety",
+    "POSIX Threads",
+    "Atomics Performance",
+    "Flamegraph Analysis",
+    "Multithreaded Scalability",
+    "Memory Consistency",
+    "Critical Section Management",
+    "User-space Locking",
+    "Barrier Synchronization"
+  ],
+  "languages": [
+    "C",
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "Makefile",
+      "counter_with_spinlock.c",
+      "counter_with_mutex.c",
+      "counter_race.c",
+      "counter_with_atomics.c"
+    ]
+  },
+  "_hash": "8e6011244334d7b43eaa9fa750cc865e7df8fa58fd92168b1993ed8bbb035e10",
+  "_path": "/Users/ember/dev/gh/forks/fun-with-threads",
+  "_updated_at": "2026-02-14T00:56:25.544446Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Mutual Exclusion",
+      "Atomic Operations",
+      "Spinlocks",
+      "Race Conditions",
+      "Memory Ordering",
+      "Thread Synchronization",
+      "Resource Contention",
+      "Context Switching",
+      "Shared Mutable State",
+      "Lock Overhead",
+      "Performance Profiling",
+      "Data Races",
+      "Lock Contention",
+      "Thread Safety",
+      "POSIX Threads",
+      "Atomics Performance",
+      "Flamegraph Analysis",
+      "Multithreaded Scalability",
+      "Memory Consistency",
+      "Critical Section Management",
+      "User-space Locking",
+      "Barrier Synchronization"
+    ],
+    "tags": [
+      "Concurrency & Synchronization",
+      "pthreads",
+      "Rust Language Ecosystem",
+      "c",
+      "atomics",
+      "mutex",
+      "spinlock",
+      "benchmarking",
+      "profiling",
+      "flamegraph",
+      "performance",
+      "race-condition"
+    ],
+    "mined_motifs": [
+      "threading-primitives",
+      "micro-benchmark",
+      "os-threads",
+      "performance-analysis",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Bounded Buffer",
+      "Busy-waiting",
+      "Coarse-grained Locking",
+      "Condition Variables",
+      "Critical Sections",
+      "Data Race Prevention",
+      "Deadlock Prevention"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 11.116,
+        "matches": [
+          "benchmarking",
+          "profiling",
+          "flamegraph",
+          "performance-analysis"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.256,
+        "matches": [
+          "context switching",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.428,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.646,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.644,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.638,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.544446Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7fadcfa4aac8786b8c1602d73ae20fc22f114727a5ad47092cb7d94b3b7ea23a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:33.072171+00:00"
+  },
+  "mined_motifs": [
+    "threading-primitives",
+    "micro-benchmark",
+    "os-threads",
+    "performance-analysis",
+    "resource-management",
+    "Bounded Buffer",
+    "Busy-waiting",
+    "Coarse-grained Locking",
+    "Condition Variables",
+    "Critical Sections",
+    "Data Race Prevention",
+    "Deadlock Prevention"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.899
+    },
+    {
+      "name": "how-long-does-it-take-to-spawn-a-thread",
+      "path": "/Users/ember/dev/how-long-does-it-take-to-spawn-a-thread",
+      "similarity": 0.869
+    },
+    {
+      "name": "how-long-does-it-take-to-spawn-a-thread",
+      "path": "/Users/ember/dev/gh/how-long-does-it-take-to-spawn-a-thread",
+      "similarity": 0.866
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.855
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.847
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.847
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.846
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.84
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "name": "veloren",
+  "description": "A high-performance voxel-based RPG engine written in Rust, utilizing the specs Entity Component System to manage complex game state across distributed client-server nodes. It employs a specialized rendering pipeline leveraging WGPU for cross-platform hardware acceleration, alongside sophisticated procedural generation pipelines for large-scale terrain, climate, and economic simulation. The architecture is highly modular, integrating custom networking protocols, advanced asset management via RON-based manifests, and Nix-based build reproducibility for cross-architecture deployments.",
+  "tags": [
+    "voxel-engine",
+    "rpg",
+    "rust",
+    "multiplayer",
+    "procedural-generation",
+    "ecs",
+    "wgpu",
+    "voxel-graphics",
+    "networking",
+    "simulation",
+    "game-engine",
+    "world-gen",
+    "nix",
+    "voxygen",
+    "specs",
+    "voxel-meshing"
+  ],
+  "category": "Voxel Engine Architecture",
+  "concepts": [
+    "Entity Component System",
+    "Procedural World Generation",
+    "Voxel Rendering Pipeline",
+    "Network State Synchronization",
+    "Level of Detail (LOD)",
+    "Terrain Meshing",
+    "Climate Simulation",
+    "Economy Modeling",
+    "Behavioral AI",
+    "Coordinate Conversion",
+    "Asset Pipeline",
+    "Hot Reloading",
+    "Voxel Animation",
+    "Hardware Abstraction",
+    "Authentication Systems",
+    "Real-time Simulation",
+    "Pathfinding",
+    "Biome Simulation",
+    "Erosion Modeling",
+    "Atmospheric Scattering",
+    "Event Bus Architecture",
+    "Modular Crates",
+    "Non-blocking I/O",
+    "Voxel Raycasting",
+    "Data Serialization"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 9251,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "client/examples/chat-cli/main.rs",
+      "client/i18n/src/lib.rs",
+      "client/src/bin/bot/main.rs"
+    ]
+  },
+  "_hash": "cbcc3a00103b62a3e1fd590a001f85cbebaf1c70889b56ed0d6b49717a72dfd1",
+  "_path": "/Users/ember/src/veloren",
+  "_updated_at": "2026-02-14T00:56:34.202749Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d0d895ec2fe039e3e44506ab38e34becca5baabc75327941e69b86f144a5e950",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:17.545256+00:00"
+  },
+  "mined_motifs": [
+    "cpp",
+    "physics-engine",
+    "game-logic",
+    "Network Synchronization",
+    "collision-detection",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "westwood-studios",
+    "procedural-audio",
+    "Texture Mapping",
+    "glfw"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.871
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.856
+    },
+    {
+      "name": "airshipper",
+      "path": "/Users/ember/src/airshipper",
+      "similarity": 0.85
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.842
+    },
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.838
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.837
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.836
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.836
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Entity Component System",
+      "Procedural World Generation",
+      "Voxel Rendering Pipeline",
+      "Network State Synchronization",
+      "Level of Detail (LOD)",
+      "Terrain Meshing",
+      "Climate Simulation",
+      "Economy Modeling",
+      "Behavioral AI",
+      "Coordinate Conversion",
+      "Asset Pipeline",
+      "Hot Reloading",
+      "Voxel Animation",
+      "Hardware Abstraction",
+      "Authentication Systems",
+      "real-time-simulation",
+      "Pathfinding",
+      "Biome Simulation",
+      "Erosion Modeling",
+      "Atmospheric Scattering",
+      "Event Bus Architecture",
+      "Modular Crates",
+      "Non-blocking I/O",
+      "Voxel Raycasting",
+      "Data Serialization"
+    ],
+    "tags": [
+      "voxel-engine",
+      "rpg",
+      "Rust Language Ecosystem",
+      "multiplayer",
+      "Procedural Generation",
+      "ecs",
+      "wgpu",
+      "voxel-graphics",
+      "networking",
+      "real-time-simulation",
+      "game-engine",
+      "world-gen",
+      "nix",
+      "voxygen",
+      "specs",
+      "voxel-meshing"
+    ],
+    "mined_motifs": [
+      "cpp",
+      "physics-engine",
+      "game-engine",
+      "Network Synchronization",
+      "collision-detection",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "westwood-studios",
+      "procedural-audio",
+      "Texture Mapping",
+      "glfw"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 8.375,
+        "matches": [
+          "ecs",
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 8.347,
+        "matches": [
+          "game-engine",
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.556,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.549,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.546,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.536,
+        "matches": [
+          "game-engine"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.202749Z"
+  }
+}

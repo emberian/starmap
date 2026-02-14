@@ -1,0 +1,193 @@
+{
+  "name": "billary-board",
+  "description": "An exploratory dashboard and visualization toolkit designed for the Binary Intermediate Language (BIL) as utilized in binary analysis frameworks like CMU BAP. It facilitates the inspection and categorization of architecture-independent intermediate representations for systems engineers working on reverse engineering and formal verification.",
+  "tags": [
+    "binary-analysis",
+    "bap",
+    "bil",
+    "intermediate-language",
+    "reverse-engineering",
+    "static-analysis",
+    "formal-methods",
+    "dashboard"
+  ],
+  "category": "Binary Analysis Visualization",
+  "concepts": [
+    "Binary Intermediate Language (BIL)",
+    "Abstract Interpretation",
+    "Static Analysis",
+    "Control Flow Graphs",
+    "Architecture-Independent Analysis",
+    "Instruction Semantics",
+    "Binary Lifters"
+  ],
+  "languages": [
+    "OCaml",
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 0,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/shitheap/billary-board",
+  "_updated_at": "2026-02-14T00:56:30.230109Z",
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9e9917e6d23629af516f4a4950bfd4b802325978449acdbddaada710e32acd57",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:38.816301+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "data-interchange",
+    "elf",
+    "Symbol Resolution",
+    "static-linking",
+    "Arithmetization",
+    "Binary Field Arithmetic",
+    "Binary Merkle Trees",
+    "Commit-and-Prove SNARKs",
+    "Constraint Systems",
+    "Evaluation Proofs",
+    "FRI Protocol"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "binius",
+      "path": "/Users/ember/src/binius",
+      "similarity": 0.781
+    },
+    {
+      "name": "heavy_wizardry",
+      "path": "/Users/ember/dev/gh/heavy_wizardry",
+      "similarity": 0.778
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.777
+    },
+    {
+      "name": "billary-board",
+      "path": "/Users/ember/dev/billary-board",
+      "similarity": 0.77
+    },
+    {
+      "name": "Protogen",
+      "path": "/Users/ember/dev/gh/Protogen",
+      "similarity": 0.765
+    },
+    {
+      "name": "objtab",
+      "path": "/Users/ember/dev/objtab",
+      "similarity": 0.762
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.76
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.756
+    }
+  ],
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Binary Intermediate Language (BIL)",
+      "Abstract Interpretation",
+      "Static Analysis",
+      "Control Flow Graphs",
+      "Architecture-Independent Analysis",
+      "Instruction Semantics",
+      "Binary Lifters"
+    ],
+    "tags": [
+      "binary-analysis",
+      "bap",
+      "bil",
+      "intermediate-language",
+      "reverse-engineering",
+      "static-analysis",
+      "formal-verification",
+      "dashboard"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "data-interchange",
+      "elf",
+      "Symbol Resolution",
+      "static-linking",
+      "Arithmetization",
+      "Binary Field Arithmetic",
+      "Binary Merkle Trees",
+      "Commit-and-Prove SNARKs",
+      "Constraint Systems",
+      "Evaluation Proofs",
+      "FRI Protocol"
+    ],
+    "metaconstellations": [
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.226,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.22,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.22,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.191,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 3.723,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.404,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.230109Z"
+  }
+}

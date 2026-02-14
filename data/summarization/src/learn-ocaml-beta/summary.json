@@ -1,0 +1,260 @@
+{
+  "name": "learn-ocaml-beta",
+  "description": "learn-ocaml-beta appears to be a data/databases project using JavaScript, OCaml, Shell. The available files suggest focus areas around learnocaml, main, mathjax, regular.",
+  "tags": [
+    "JavaScript",
+    "OCaml",
+    "Shell",
+    "learnocaml",
+    "main",
+    "mathjax",
+    "regular",
+    "dune",
+    "icon",
+    "math",
+    "toplevel",
+    "index",
+    "test",
+    "bold",
+    "exercise",
+    "stars"
+  ],
+  "category": "Data/Databases",
+  "concepts": [
+    "learnocaml",
+    "main",
+    "mathjax",
+    "regular",
+    "dune",
+    "icon",
+    "math",
+    "toplevel",
+    "index",
+    "test",
+    "bold",
+    "exercise",
+    "ocaml",
+    "stars",
+    "tryocaml",
+    "combdiacritmarks",
+    "latin",
+    "loading",
+    "other",
+    "basiclatin",
+    "process",
+    "server",
+    "step",
+    "toploop",
+    "tutorial",
+    "config",
+    "grader",
+    "howto",
+    "jsoo",
+    "template",
+    "annot",
+    "descr",
+    "grading",
+    "learn",
+    "prelude",
+    "prepare",
+    "repository",
+    "sansserif",
+    "solution",
+    "view"
+  ],
+  "languages": [
+    "JavaScript",
+    "OCaml",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "abdfd750dcf178e9a7597a39fa09182f9b251e632593bf634682cf9b43baed86",
+  "_path": "/Users/ember/src/learn-ocaml-beta",
+  "_updated_at": "2026-02-14T00:56:33.106308Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d033567ae72b663e9ab1d27525ec900a43f3b07f93ea6a7fa41338a66e7d82d9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:35.097352+00:00"
+  },
+  "mined_motifs": [
+    "readme",
+    "build",
+    "C",
+    "Python",
+    "day1",
+    "day10",
+    "day12",
+    "day13",
+    "day2",
+    "day3",
+    "day4",
+    "day5"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "opam-repository",
+      "path": "/Users/ember/dev/gh/forks/opam-repository",
+      "similarity": 0.781
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.753
+    },
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.704
+    },
+    {
+      "name": "aoc23",
+      "path": "/Users/ember/dev/gh/aoc23",
+      "similarity": 0.703
+    },
+    {
+      "name": "aoc",
+      "path": "/Users/ember/dev/aoc",
+      "similarity": 0.691
+    },
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.681
+    },
+    {
+      "name": "sElement",
+      "path": "/Users/ember/dev/gh/forks/sElement",
+      "similarity": 0.674
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "learnocaml",
+      "main",
+      "mathjax",
+      "regular",
+      "dune",
+      "icon",
+      "math",
+      "toplevel",
+      "index",
+      "test",
+      "bold",
+      "exercise",
+      "ocaml",
+      "stars",
+      "tryocaml",
+      "combdiacritmarks",
+      "latin",
+      "loading",
+      "other",
+      "basiclatin",
+      "process",
+      "server",
+      "step",
+      "toploop",
+      "tutorial",
+      "config",
+      "grader",
+      "howto",
+      "jsoo",
+      "template",
+      "annot",
+      "descr",
+      "grading",
+      "learn",
+      "prelude",
+      "prepare",
+      "repository",
+      "sansserif",
+      "solution",
+      "view"
+    ],
+    "tags": [
+      "JavaScript",
+      "OCaml",
+      "Shell",
+      "learnocaml",
+      "main",
+      "mathjax",
+      "regular",
+      "dune",
+      "icon",
+      "math",
+      "toplevel",
+      "index",
+      "test",
+      "bold",
+      "exercise",
+      "stars"
+    ],
+    "mined_motifs": [
+      "readme",
+      "build",
+      "C",
+      "Python",
+      "day1",
+      "day10",
+      "day12",
+      "day13",
+      "day2",
+      "day3",
+      "day4",
+      "day5"
+    ],
+    "metaconstellations": [
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.261,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.026,
+        "matches": [
+          "category:Data/Databases"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.089,
+        "matches": []
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.079,
+        "matches": []
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 2.073,
+        "matches": []
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.07,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.106308Z"
+  }
+}

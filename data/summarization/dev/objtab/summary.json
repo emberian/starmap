@@ -1,0 +1,253 @@
+{
+  "name": "objtab",
+  "description": "An educational deep-dive into the mechanics of object file formats, symbol resolution, and linking procedures for ELF and WebAssembly. It features a custom Rust-based mdBook extension, mdbook-exec, which facilitates Docker-isolated execution of binary analysis tools to ensure technical accuracy within the documentation. The content bridges the gap between low-level native toolchains and modern web-based binary standards through comparative analysis.",
+  "tags": [
+    "elf",
+    "wasm",
+    "linking",
+    "relocations",
+    "symbols",
+    "symbol-tables",
+    "mdbook",
+    "rust",
+    "binary-analysis",
+    "static-linking",
+    "dynamic-linking",
+    "runtime-loading",
+    "gcc",
+    "docker",
+    "toolchains"
+  ],
+  "category": "Linker and Binary Format Internals",
+  "concepts": [
+    "Symbol Resolution",
+    "ELF Section Headers",
+    "WASM Module Structure",
+    "Relocation Types",
+    "Static Archiving",
+    "Shared Object Layout",
+    "Global Offset Table (GOT)",
+    "Procedure Linkage Table (PLT)",
+    "Dynamic Symbol Resolution",
+    "Linker Scripts",
+    "Binary Anatomy",
+    "Executable Loading",
+    "Position Independent Code (PIC)",
+    "Object File Metadata",
+    "WebAssembly Custom Sections",
+    "Toolchain Orchestration",
+    "Docker-based Reproducibility",
+    "Symbol Name Mangling",
+    "Lazy Binding",
+    "Relocation Processing",
+    "Archive Format (ar)",
+    "Dynamic Segment",
+    "Symbol Visibility",
+    "WASM Import/Export Sections"
+  ],
+  "languages": [
+    "Markdown",
+    "Rust",
+    "JavaScript",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 66,
+    "has_readme": true,
+    "sample_files": [
+      "tools/mdbook-exec/src/main.rs",
+      "book/book-a0b12cfe.js",
+      "book/toc-51d5cdfe.js",
+      "book/searcher-c2a407aa.js",
+      "book/elasticlunr-ef4e11c1.min.js"
+    ]
+  },
+  "_hash": "380554035a85e452e0454dbd509535065d24b1aa6002d279a1b5cf6d70a56cc3",
+  "_path": "/Users/ember/dev/objtab",
+  "_updated_at": "2026-02-14T00:56:29.765486Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Symbol Resolution",
+      "ELF Section Headers",
+      "WASM Module Structure",
+      "Relocation Types",
+      "Static Archiving",
+      "Shared Object Layout",
+      "Global Offset Table (GOT)",
+      "Procedure Linkage Table (PLT)",
+      "Dynamic Symbol Resolution",
+      "Linker Scripts",
+      "Binary Anatomy",
+      "Executable Loading",
+      "Position Independent Code (PIC)",
+      "Object File Metadata",
+      "WebAssembly Custom Sections",
+      "Toolchain Orchestration",
+      "Docker-based Reproducibility",
+      "Symbol Name Mangling",
+      "Lazy Binding",
+      "Relocation Processing",
+      "Archive Format (ar)",
+      "Dynamic Segment",
+      "Symbol Visibility",
+      "WASM Import/Export Sections"
+    ],
+    "tags": [
+      "elf",
+      "WebAssembly",
+      "linking",
+      "relocations",
+      "symbols",
+      "symbol-tables",
+      "mdbook",
+      "Rust Language Ecosystem",
+      "binary-analysis",
+      "static-linking",
+      "dynamic-linking",
+      "runtime-loading",
+      "gcc",
+      "docker",
+      "toolchains"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "assembly",
+      "data-interchange",
+      "Type Marshalling",
+      "Code Generation",
+      "Compiler Engineering",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "Binary Layout Optimization",
+      "ELF Header",
+      "Entry Point Specification"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.119,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.102,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.328,
+        "matches": [
+          "code generation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.312,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.296,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.285,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.765486Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "eb08580ffeb990520f8664a9f8b82727f415ee354ace2981a65c492923c611a7",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:14.254976+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "assembly",
+    "data-interchange",
+    "Type Marshalling",
+    "Code Generation",
+    "code-generation",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "Binary Layout Optimization",
+    "ELF Header",
+    "Entry Point Specification"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "heavy_wizardry",
+      "path": "/Users/ember/dev/gh/heavy_wizardry",
+      "similarity": 0.86
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.801
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.8
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.799
+    },
+    {
+      "name": "Protogen",
+      "path": "/Users/ember/dev/gh/Protogen",
+      "similarity": 0.795
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.795
+    },
+    {
+      "name": "google-breakpad-sys",
+      "path": "/Users/ember/dev/gh/google-breakpad-sys",
+      "similarity": 0.795
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.795
+    }
+  ]
+}

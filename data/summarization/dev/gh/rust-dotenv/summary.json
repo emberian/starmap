@@ -1,0 +1,200 @@
+{
+  "name": "rust-dotenv",
+  "description": "A specialized Rust implementation for managing configuration via environment variables through .env file parsing. It mimics the standard library's environment API to provide a seamless drop-in replacement for development and testing contexts, merging file-based variables with system-level environment state. The implementation utilizes regular expressions for robust line-based parsing and handles byte-level data to ensure compatibility with diverse character encodings.",
+  "tags": [
+    "rust",
+    "dotenv",
+    "environment-variables",
+    "configuration-management",
+    "twelve-factor-app",
+    "parser",
+    "system-programming",
+    "api-compatibility"
+  ],
+  "category": "Configuration Management Systems",
+  "concepts": [
+    "Environment Variable Injection",
+    "Regex-based Lexing",
+    "HashMap State Storage",
+    "Byte-oriented IO",
+    "Twelve-Factor App Methodology",
+    "Process Environment Merging",
+    "API Imitation",
+    "Error Handling Patterns"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "db651e1d02fea122ed122f079b693cf959764b153db34d3258e3e301fe344bf5",
+  "_path": "/Users/ember/dev/gh/rust-dotenv",
+  "_updated_at": "2026-02-14T00:56:28.371853Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Environment Variable Injection",
+      "Regex-based Lexing",
+      "HashMap State Storage",
+      "Byte-oriented IO",
+      "Twelve-Factor App Methodology",
+      "Process Environment Merging",
+      "API Imitation",
+      "Error Handling Patterns"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "dotenv",
+      "environment-variables",
+      "configuration-management",
+      "twelve-factor-app",
+      "parser",
+      "systems-programming",
+      "api-compatibility"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "s-expression",
+      "Recursive Descent Parsing",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Context-Free Grammar",
+      "Formal Language Theory",
+      "Grammar Construction"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.155,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.755,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.584,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.579,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.564,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.558,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.371853Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "06d1a9d84db6ce4ff9a79ce9f0bef8a1813a511151cdcb428db735944834bbf8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:20.263039+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Tokenization",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "s-expression",
+    "tokenization",
+    "Recursive Descent Parsing",
+    "resource-management",
+    "Context-Free Grammar",
+    "Formal Language Theory",
+    "Grammar Construction"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.896
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.887
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.886
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.885
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.88
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.877
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.875
+    }
+  ]
+}

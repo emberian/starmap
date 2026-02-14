@@ -1,0 +1,262 @@
+{
+  "name": "cs341",
+  "description": "A pedagogical repository focused on the implementation of programming language interpreters and formal grammar parsers across multiple paradigms. It includes 'Monty', a Scheme-inspired interpreter written in early-idiom Rust featuring an environment-based evaluation model and custom lexer, alongside an LL(1) recursive descent string expression parser implemented in C. The collection is rounded out by laboratory exercises in Racket and Prolog, exploring functional and logic programming semantics.",
+  "tags": [
+    "rust",
+    "racket",
+    "prolog",
+    "c",
+    "interpreter",
+    "parser",
+    "scheme-lisp",
+    "recursive-descent",
+    "formal-grammars",
+    "syntax-analysis",
+    "programming-languages",
+    "logic-programming",
+    "functional-programming",
+    "repl",
+    "abstract-syntax-tree",
+    "lexical-analysis"
+  ],
+  "category": "Programming Language Theory",
+  "concepts": [
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "recursive-descent-parsing",
+    "environment-model",
+    "read-eval-print-loop",
+    "higher-order-functions",
+    "logic-programming",
+    "context-free-grammar",
+    "s-expressions",
+    "tokenization",
+    "evaluation-semantics",
+    "builtin-procedures",
+    "functional-programming",
+    "imperative-programming",
+    "string-algebra",
+    "manual-memory-management",
+    "identifier-binding",
+    "symbolic-computation",
+    "grammar-normalization",
+    "expression-evaluation",
+    "dynamic-typing",
+    "parsing-algorithms",
+    "closure-conversion",
+    "pointer-arithmetic",
+    "line-buffering"
+  ],
+  "languages": [
+    "Rust",
+    "Racket",
+    "C",
+    "Prolog"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 18,
+    "has_readme": false,
+    "sample_files": [
+      "monty/src/main.rs",
+      "monty/src/eval.rs",
+      "lab8/string_calc.c",
+      "monty/src/syntax.rs"
+    ]
+  },
+  "_hash": "1e69078a7cdc2070172e7a519048e9f1fd84693c6dd7ef9bb4f8d3018b65a061",
+  "_path": "/Users/ember/dev/gh/cs341",
+  "_updated_at": "2026-02-14T00:56:24.871762Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "AST",
+      "Lexical Analysis",
+      "recursive-descent-parsing",
+      "environment-model",
+      "read-eval-print-loop",
+      "higher-order-functions",
+      "logic-programming",
+      "context-free-grammar",
+      "s-expressions",
+      "lexical-analysis",
+      "evaluation-semantics",
+      "builtin-procedures",
+      "functional-programming",
+      "imperative-programming",
+      "string-algebra",
+      "manual-memory-management",
+      "identifier-binding",
+      "symbolic-computation",
+      "grammar-normalization",
+      "expression-evaluation",
+      "dynamic-typing",
+      "parsing-algorithms",
+      "closure-conversion",
+      "pointer-arithmetic",
+      "line-buffering"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "racket",
+      "prolog",
+      "c",
+      "interpreter",
+      "parser",
+      "scheme-lisp",
+      "recursive-descent",
+      "formal-grammars",
+      "syntax-analysis",
+      "programming-languages",
+      "logic-programming",
+      "functional-programming",
+      "repl",
+      "AST",
+      "Lexical Analysis"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "Compiler Engineering",
+      "bison",
+      "flex",
+      "s-expression",
+      "AST",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "Intermediate Representation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.79,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression",
+          "recursive-descent"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.172,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.353,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 7.008,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.549,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.517,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.871762Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e513b112f846e4c23f7db4e42bc194ce2d59981587545887537499c07bc15124",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:49.324258+00:00"
+  },
+  "mined_motifs": [
+    "Lexical Analysis",
+    "lexer",
+    "ast",
+    "compiler-design",
+    "bison",
+    "flex",
+    "s-expression",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "Intermediate Representation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.886
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.879
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.878
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.876
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.872
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.872
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.868
+    }
+  ]
+}

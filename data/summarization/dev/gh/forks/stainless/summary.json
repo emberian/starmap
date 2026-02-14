@@ -1,0 +1,233 @@
+{
+  "name": "stainless",
+  "description": "Stainless is a lightweight, flexible testing framework for Rust implemented as a compiler syntax extension. It provides a domain-specific language for defining hierarchical test suites with scoped setup and teardown hooks. By performing direct AST manipulation, it expands high-level block structures into idiomatic Rust test modules and benchmark functions.",
+  "tags": [
+    "rust",
+    "testing",
+    "bdd",
+    "syntax-extension",
+    "compiler-plugin",
+    "ast",
+    "macro",
+    "code-generation",
+    "benchmarking",
+    "dsl",
+    "unit-test"
+  ],
+  "category": "Behavior-Driven Development (BDD) Testing Framework",
+  "concepts": [
+    "Behavior-Driven Development",
+    "Syntax Extensions",
+    "Abstract Syntax Tree (AST) Manipulation",
+    "Procedural Macros",
+    "Test Lifecycle Hooks",
+    "Hierarchical Test Organization",
+    "Code Generation",
+    "Rust Compiler Plugins",
+    "Benchmarking",
+    "Snake-case Identifier Transformation",
+    "Recursive Macro Expansion",
+    "Scoped Initialization",
+    "Teardown Blocks",
+    "Failing Test Specification",
+    "Submodule Generation",
+    "Plugin Registration",
+    "Lexical Parsing",
+    "AST Building"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/generate.rs",
+      "src/parse.rs",
+      "src/describe.rs"
+    ]
+  },
+  "_hash": "d4c63b33a3ab1b008e870efc573e5fba8f9bf091d9f8dbb5c1d7048c0d079139",
+  "_path": "/Users/ember/dev/gh/forks/stainless",
+  "_updated_at": "2026-02-14T00:56:26.895697Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Behavior-Driven Development",
+      "Syntax Extensions",
+      "Abstract Syntax Tree (AST) Manipulation",
+      "Procedural Macros",
+      "Test Lifecycle Hooks",
+      "Hierarchical Test Organization",
+      "Code Generation",
+      "Rust Compiler Plugins",
+      "Benchmarking",
+      "Snake-case Identifier Transformation",
+      "Recursive Macro Expansion",
+      "Scoped Initialization",
+      "Teardown Blocks",
+      "Failing Test Specification",
+      "Submodule Generation",
+      "Plugin Registration",
+      "Lexical Analysis",
+      "AST Building"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "testing",
+      "bdd",
+      "syntax-extension",
+      "compiler-plugin",
+      "abstract-syntax-tree",
+      "macro",
+      "Compiler Engineering",
+      "benchmarking",
+      "dsl",
+      "unit-test"
+    ],
+    "mined_motifs": [
+      "Recursive Descent Parsing",
+      "lexical-analysis",
+      "parser",
+      "AST",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "s-expression",
+      "Compiler Engineering"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 15.246,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.055,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 9.625,
+        "matches": [
+          "code generation",
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.496,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.465,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.435,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.895697Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e95b3406bbdc374ef2aea21c525a3b3db4977c71c19305cdb441eeab88caef12",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:32.107911+00:00"
+  },
+  "mined_motifs": [
+    "Recursive Descent Parsing",
+    "Lexical Analysis",
+    "lexer",
+    "parser",
+    "Tokenization",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "s-expression",
+    "tokenization",
+    "compiler-design"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.928
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.86
+    },
+    {
+      "name": "iron-test",
+      "path": "/Users/ember/dev/gh/forks/iron-test",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.837
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.834
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.833
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.83
+    }
+  ]
+}

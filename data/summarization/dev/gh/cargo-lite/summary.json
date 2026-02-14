@@ -1,0 +1,234 @@
+{
+  "name": "cargo-lite",
+  "description": "cargo-lite is a minimalist Rust package manager implemented in Python, designed as a lightweight alternative to the official Cargo tool for building and managing Rust crates. It utilizes TOML for manifest configuration and incorporates Blake2 hashing to ensure the cryptographic integrity of package dependencies. The utility streamlines the compilation process by orchestrating Rust compiler invocations and managing local source distributions with minimal system overhead.",
+  "tags": [
+    "rust",
+    "package-manager",
+    "cargo",
+    "python",
+    "build-system",
+    "toml",
+    "blake2",
+    "minimalist",
+    "cli",
+    "dependency-management",
+    "reproducible-builds",
+    "cross-platform"
+  ],
+  "category": "Package Management Systems",
+  "concepts": [
+    "Dependency Resolution",
+    "Build Orchestration",
+    "Crate Manifest Parsing",
+    "Cryptographic Integrity Verification",
+    "Blake2 Hashing",
+    "TOML Serialization",
+    "CLI Command Dispatch",
+    "Cross-platform Compatibility",
+    "Source Tree Management",
+    "Toolchain Invocations",
+    "Package Lifecycle Management",
+    "Metadata Extraction",
+    "Terminal ANSI Diagnostics",
+    "Build Automation",
+    "Local Caching",
+    "Version Selection Logic",
+    "Subprocess Execution",
+    "Semantic Versioning",
+    "Hash-based Cache Invalidation",
+    "Compilation Pipeline Management"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": false,
+    "sample_files": [
+      "setup.py"
+    ]
+  },
+  "_hash": "040b47eff7a30baf95e8114ee57c8936e21139575658b8efb268b601bf91a4a1",
+  "_path": "/Users/ember/dev/gh/cargo-lite",
+  "_updated_at": "2026-02-14T00:56:24.497972Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Dependency Resolution",
+      "Build Orchestration",
+      "Crate Manifest Parsing",
+      "Cryptographic Integrity Verification",
+      "Blake2 Hashing",
+      "TOML Serialization",
+      "CLI Command Dispatch",
+      "Cross-platform Compatibility",
+      "Source Tree Management",
+      "Toolchain Invocations",
+      "Package Lifecycle Management",
+      "Metadata Extraction",
+      "Terminal ANSI Diagnostics",
+      "Build Automation",
+      "Local Caching",
+      "Version Selection Logic",
+      "Subprocess Execution",
+      "Semantic Versioning",
+      "Hash-based Cache Invalidation",
+      "Compilation Pipeline Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "package-manager",
+      "cargo",
+      "python",
+      "build-system",
+      "toml",
+      "blake2",
+      "minimalist",
+      "cli",
+      "dependency-management",
+      "reproducible-builds",
+      "cross-platform"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "systems-programming",
+      "parser",
+      "Resource Acquisition Is Initialization (RAII)",
+      "lexical-analysis",
+      "Build Script Execution",
+      "Content Addressable Storage",
+      "Crate Registry API",
+      "Credential Management",
+      "Cross-platform Target Specifications",
+      "Dependency Graph Resolution",
+      "Diagnostic-driven Refactoring"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 11.1,
+        "matches": [
+          "build-system",
+          "package-manager",
+          "build orchestration",
+          "cargo"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.934,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.921,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.571,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.557,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.552,
+        "matches": [
+          "systems-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.497972Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7f4c6bd9088b27c20e1bb68b5cd99c4ca0c6c8b65c377648b640930cc97f0984",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:35.942423+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "system-programming",
+    "parser",
+    "resource-management",
+    "Tokenization",
+    "Build Script Execution",
+    "Content Addressable Storage",
+    "Crate Registry API",
+    "Credential Management",
+    "Cross-platform Target Specifications",
+    "Dependency Graph Resolution",
+    "Diagnostic-driven Refactoring"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/cargo",
+      "similarity": 0.903
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.886
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.882
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.876
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.871
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.87
+    }
+  ]
+}

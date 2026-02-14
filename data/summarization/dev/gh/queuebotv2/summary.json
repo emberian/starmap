@@ -1,0 +1,200 @@
+{
+  "name": "queuebotv2",
+  "description": "A legacy Rust-based web service designed for task queue management and user aliasing. It implements a custom HTTP server stack that interfaces with PostgreSQL to manage persistent storage for users, queues, and task metadata. The codebase utilizes pre-1.0 Rust experimental features and early serialization paradigms for JSON API responses.",
+  "tags": [
+    "rust",
+    "postgresql",
+    "web-service",
+    "backend",
+    "task-queue",
+    "api-server",
+    "legacy-rust",
+    "sql-persistence"
+  ],
+  "category": "Task Management Backend",
+  "concepts": [
+    "RESTful API Dispatch",
+    "Relational Data Modeling",
+    "Pre-1.0 Rust Syntax",
+    "JSON Serialization",
+    "UUID-based Identification",
+    "User Alias Resolution",
+    "PostgreSQL Connection Pooling",
+    "Synchronous I/O",
+    "Manual Request Routing",
+    "Plaintext Credential Handling"
+  ],
+  "languages": [
+    "Rust",
+    "SQL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": [
+      "webservice/main.rs",
+      "webservice/data.rs",
+      "webservice/logic.rs"
+    ]
+  },
+  "_hash": "a797cae3c187138ce21fc8d8a6c62f676279f838310f2151820f8651c8fe4a95",
+  "_path": "/Users/ember/dev/gh/queuebotv2",
+  "_updated_at": "2026-02-14T00:56:28.091791Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "RESTful API Dispatch",
+      "Relational Data Modeling",
+      "Pre-1.0 Rust Syntax",
+      "JSON Serialization",
+      "UUID-based Identification",
+      "User Alias Resolution",
+      "PostgreSQL Connection Pooling",
+      "Synchronous I/O",
+      "Manual Request Routing",
+      "Plaintext Credential Handling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "postgresql",
+      "web-service",
+      "backend",
+      "task-queue",
+      "api-server",
+      "sql-persistence"
+    ],
+    "mined_motifs": [
+      "rest-api",
+      "axum",
+      "Asynchronous Programming",
+      "iron-framework",
+      "sql",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "microservice",
+      "asynchronous-task-processing",
+      "client-side-rendering",
+      "Concurrency & Synchronization",
+      "concurrency-primitives"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.275,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.216,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.818,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.805,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.421,
+        "matches": []
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 2.407,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.091791Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6b98327593c01979aaa98e5ecfa1ab2940491382d2fe62626aa57737915bc22b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:12.964134+00:00"
+  },
+  "mined_motifs": [
+    "rest-api",
+    "axum",
+    "tokio",
+    "iron-framework",
+    "sql",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "microservice",
+    "asynchronous-task-processing",
+    "client-side-rendering",
+    "concurrency",
+    "concurrency-primitives"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.829
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.825
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.803
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.792
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.788
+    },
+    {
+      "name": "rust-postgres",
+      "path": "/Users/ember/dev/gh/forks/rust-postgres",
+      "similarity": 0.775
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.772
+    },
+    {
+      "name": "bcknd",
+      "path": "/Users/ember/dev/bcknd",
+      "similarity": 0.766
+    }
+  ]
+}

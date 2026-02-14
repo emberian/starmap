@@ -1,0 +1,227 @@
+{
+  "name": "syrup",
+  "description": "Syrup is a self-describing, canonicalized binary serialization format designed for structured data exchange with support for symbolic data and complex types. It extends Bencode-like semantics to include native representations for symbols, records, sets, and IEEE 754 floating-point values, ensuring deterministic encoding through lexicographical sorting of collection elements. The project provides reference implementations in Python, Guile, and Racket alongside a formal draft specification.",
+  "tags": [
+    "serialization",
+    "binary-format",
+    "canonical-encoding",
+    "bencode",
+    "data-interchange",
+    "symbolic-data",
+    "record-types",
+    "python",
+    "scheme",
+    "racket",
+    "guile",
+    "specification",
+    "deterministic-encoding",
+    "netstrings"
+  ],
+  "category": "Canonical Binary Serialization",
+  "concepts": [
+    "Self-describing data",
+    "Canonicalization",
+    "Recursive descent parsing",
+    "Deterministic mapping",
+    "Lexicographical key ordering",
+    "Netstrings",
+    "Symbolic expressions",
+    "IEEE 754 floating point",
+    "Record types",
+    "Finite collection hashing",
+    "Type tagging",
+    "Cross-language portability",
+    "Data marshaling",
+    "Binary protocol specification",
+    "Tail-call optimization constraints"
+  ],
+  "languages": [
+    "Python",
+    "Scheme",
+    "Racket"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "impls/python/syrup.py"
+    ]
+  },
+  "_hash": "2bb7ee132d075b53051cb156988194da0cd6541397c9fc2fa19792e68d3d6128",
+  "_path": "/Users/ember/src/syrup",
+  "_updated_at": "2026-02-14T00:56:34.007276Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "97141babe760f1f2d3e443697782c2aa5468a8c56fe07e8acfc7981260dfdd48",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:15.816510+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "zero-copy",
+    "schema-compiler",
+    "message-passing",
+    "performance",
+    "rpc",
+    "rpc-framework",
+    "no-std",
+    "functional-programming",
+    "binary-serialization",
+    "binary-protocol",
+    "capnproto"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.879
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.876
+    },
+    {
+      "name": "Protogen",
+      "path": "/Users/ember/dev/gh/Protogen",
+      "similarity": 0.863
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.855
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.855
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.842
+    },
+    {
+      "name": "byteorder",
+      "path": "/Users/ember/dev/gh/forks/byteorder",
+      "similarity": 0.838
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.835
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "Self-describing data",
+      "Canonicalization",
+      "Recursive descent parsing",
+      "Deterministic mapping",
+      "Lexicographical key ordering",
+      "Netstrings",
+      "Symbolic expressions",
+      "IEEE 754 floating point",
+      "Record types",
+      "Finite collection hashing",
+      "Type tagging",
+      "Cross-language portability",
+      "Data marshaling",
+      "Binary protocol specification",
+      "Tail-call optimization constraints"
+    ],
+    "tags": [
+      "Data Serialization",
+      "binary-format",
+      "canonical-encoding",
+      "bencode",
+      "data-interchange",
+      "symbolic-data",
+      "record-types",
+      "python",
+      "scheme",
+      "racket",
+      "guile",
+      "specification",
+      "deterministic-encoding",
+      "netstrings"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "zero-copy",
+      "schema-compiler",
+      "message-passing",
+      "performance",
+      "rpc",
+      "rpc-framework",
+      "functional-programming",
+      "Data Serialization",
+      "binary-protocol",
+      "capnproto"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 8.35,
+        "matches": [
+          "binary-format",
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.895,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.427,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 4.016,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 3.986,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.807,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.007276Z"
+  }
+}

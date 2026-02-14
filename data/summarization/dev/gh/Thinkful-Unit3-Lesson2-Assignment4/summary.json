@@ -1,0 +1,220 @@
+{
+  "name": "Thinkful-Unit3-Lesson2-Assignment4",
+  "description": "A Python-based ETL utility designed to ingest structured pet records from CSV files into a PostgreSQL relational database. The implementation utilizes the psycopg2 adapter to execute parameterized bulk insertions into a normalized schema comprising pets, breeds, species, and shelter entities. It demonstrates core database interaction patterns including connection lifecycle management, transaction control, and DDL execution for schema initialization.",
+  "tags": [
+    "postgresql",
+    "psycopg2",
+    "etl",
+    "python-2",
+    "csv-parsing",
+    "relational-database",
+    "bulk-insertion",
+    "sql-automation",
+    "data-ingestion",
+    "data-persistence"
+  ],
+  "category": "Relational Data Persistence",
+  "concepts": [
+    "Bulk Data Ingestion",
+    "Parameterized SQL Queries",
+    "Database Connection Management",
+    "Relational Schema Mapping",
+    "CSV Deserialization",
+    "Transaction Control",
+    "DDL Operations",
+    "Schema Initialization",
+    "Database Driver Integration",
+    "Exception Handling",
+    "Auto-commit Configuration",
+    "Data Normalization",
+    "Multi-table Insertion",
+    "Record Batching",
+    "Dictionary-based Row Access",
+    "SQL Dialect Management"
+  ],
+  "languages": [
+    "Python",
+    "SQL"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "assignment4.py"
+    ]
+  },
+  "_hash": "411dc43d4842fdbf8b65429d670006d426cf3173801dc1538120273f90ec52c5",
+  "_path": "/Users/ember/dev/gh/Thinkful-Unit3-Lesson2-Assignment4",
+  "_updated_at": "2026-02-14T00:56:24.320870Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Bulk Data Ingestion",
+      "Parameterized SQL Queries",
+      "Database Connection Management",
+      "Relational Schema Mapping",
+      "CSV Deserialization",
+      "Transaction Control",
+      "DDL Operations",
+      "Schema Initialization",
+      "Database Driver Integration",
+      "Exception Handling",
+      "Auto-commit Configuration",
+      "Data Normalization",
+      "Multi-table Insertion",
+      "Record Batching",
+      "Dictionary-based Row Access",
+      "SQL Dialect Management"
+    ],
+    "tags": [
+      "postgresql",
+      "psycopg2",
+      "etl",
+      "python-2",
+      "csv-parsing",
+      "relational-database",
+      "bulk-insertion",
+      "sql-automation",
+      "data-ingestion",
+      "data-persistence"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "backend",
+      "libpq",
+      "client-library",
+      "database-driver",
+      "persistence",
+      "sql",
+      "Data Serialization",
+      "library-management",
+      "ANSI C compliance",
+      "Asynchronous NOTIFY support",
+      "Binary OID mapping"
+    ],
+    "metaconstellations": [
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.654,
+        "matches": [
+          "data serialization",
+          "postgresql"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.317,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.254,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.236,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.891,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.693,
+        "matches": [
+          "persistence"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.320870Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "10ce78216a8f9f148dc4dbb89d3d93d54602d63eb41d2f2d31bf0166756fb0d0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:19.736760+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "backend",
+    "libpq",
+    "client-library",
+    "database-driver",
+    "persistence",
+    "sql",
+    "serialization",
+    "library-management",
+    "ANSI C compliance",
+    "Asynchronous NOTIFY support",
+    "Binary OID mapping"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "luapgsql",
+      "path": "/Users/ember/dev/gh/forks/luapgsql",
+      "similarity": 0.826
+    },
+    {
+      "name": "rust-postgres",
+      "path": "/Users/ember/dev/gh/forks/rust-postgres",
+      "similarity": 0.818
+    },
+    {
+      "name": "cs142-proj2",
+      "path": "/Users/ember/dev/gh/cs142-proj2",
+      "similarity": 0.792
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.787
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.781
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.778
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.777
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.777
+    }
+  ]
+}

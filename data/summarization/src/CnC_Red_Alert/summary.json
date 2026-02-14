@@ -1,0 +1,266 @@
+{
+  "name": "CnC_Red_Alert",
+  "description": "The original source code for Command & Conquer: Red Alert, implementing the core game engine and various subsystems for real-time strategy gameplay. The codebase handles complex unit AI, A* pathfinding, and fog-of-war mechanics alongside vintage multimedia processing for VQ video and ADPCM audio. This archived repository serves as a historical reference for legacy game architecture and community-driven Steam Workshop integration.",
+  "tags": [
+    "rts",
+    "game-engine",
+    "westwood-studios",
+    "command-and-conquer",
+    "red-alert",
+    "retro-gaming",
+    "cpp",
+    "assembly",
+    "legacy-code",
+    "vga-graphics",
+    "unit-ai",
+    "pathfinding",
+    "mixfile",
+    "ipx-networking",
+    "real-time-strategy",
+    "steam-workshop"
+  ],
+  "category": "Real-Time Strategy Game Engine",
+  "concepts": [
+    "Finite State Machine AI",
+    "A* Pathfinding",
+    "VGA Framebuffer Management",
+    "Fixed-point Arithmetic",
+    "Sprite Animation Systems",
+    "Palettized Graphics",
+    "Mixfile Virtual File System",
+    "Scenario INI Scripting",
+    "IPX/SPX Network Protocols",
+    "TCP/IP Socket Integration",
+    "Lockstep Multiplayer Synchronization",
+    "VQ Video Decomposition",
+    "ADPCM Audio Compression",
+    "DirectX Legacy API",
+    "TASM Low-level Optimization",
+    "Fog of War Implementation",
+    "Object-Oriented Unit Hierarchy",
+    "Radar Mapping Algorithms",
+    "Blowfish Block Cipher",
+    "Real-time Pathfinding Grid",
+    "Resource Allocation Logic",
+    "Mission State Machines",
+    "CD-ROM Data Streaming",
+    "GDI/DIB Graphics Interface",
+    "Mouse Cursor Intercepts",
+    "Audio Mixing Buffers",
+    "Memory Management Pools",
+    "Scenario Trigger Systems",
+    "Theater-specific Art Loading",
+    "Game Loop Synchronization"
+  ],
+  "languages": [
+    "C++",
+    "Assembly",
+    "C"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 2084,
+    "has_readme": true,
+    "sample_files": [
+      "CODE/TEAM.CPP",
+      "CODE/FOOT.CPP",
+      "CODE/INIT.CPP",
+      "CODE/SCENARIO.CPP",
+      "CODE/WOLAPIOB.CPP"
+    ]
+  },
+  "_hash": "2b28bc5eb127dab7457b8a0d319a25ad14dc9955a3091b1f9057e921eea5a63f",
+  "_path": "/Users/ember/src/CnC_Red_Alert",
+  "_updated_at": "2026-02-14T00:56:31.983642Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "33aff4bcfea31245fc8cd9609d09ccbaa3b0ba305d5c8e765374eeb3d88e5574",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:49.703722+00:00"
+  },
+  "mined_motifs": [
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "game-logic",
+    "simulation",
+    "physics-engine",
+    "Network Synchronization",
+    "networking",
+    "rust",
+    "Custom File Formats (MIX)",
+    "DPMI Protected Mode",
+    "Deterministic Lockstep Networking",
+    "DirectX 5 Integration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.949
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.923
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.91
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.84
+    },
+    {
+      "name": "Achron",
+      "path": "/Users/ember/dev/Achron",
+      "similarity": 0.839
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.837
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.837
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.829
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Finite State Machine AI",
+      "A* Pathfinding",
+      "VGA Framebuffer Management",
+      "Fixed-point Arithmetic",
+      "Sprite Animation Systems",
+      "Palettized Graphics",
+      "Mixfile Virtual File System",
+      "Scenario INI Scripting",
+      "IPX/SPX Network Protocols",
+      "TCP/IP Socket Integration",
+      "Lockstep Multiplayer Synchronization",
+      "VQ Video Decomposition",
+      "ADPCM Audio Compression",
+      "DirectX Legacy API",
+      "TASM Low-level Optimization",
+      "Fog of War Implementation",
+      "Object-Oriented Unit Hierarchy",
+      "Radar Mapping Algorithms",
+      "Blowfish Block Cipher",
+      "Real-time Pathfinding Grid",
+      "Resource Allocation Logic",
+      "Mission State Machines",
+      "CD-ROM Data Streaming",
+      "GDI/DIB Graphics Interface",
+      "Mouse Cursor Intercepts",
+      "Audio Mixing Buffers",
+      "Memory Management Pools",
+      "Scenario Trigger Systems",
+      "Theater-specific Art Loading",
+      "Game Loop Synchronization"
+    ],
+    "tags": [
+      "rts",
+      "game-engine",
+      "westwood-studios",
+      "command-and-conquer",
+      "red-alert",
+      "retro-gaming",
+      "cpp",
+      "assembly",
+      "legacy-code",
+      "vga-graphics",
+      "unit-ai",
+      "pathfinding",
+      "mixfile",
+      "ipx-networking",
+      "real-time-strategy",
+      "steam-workshop"
+    ],
+    "mined_motifs": [
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "game-engine",
+      "real-time-simulation",
+      "physics-engine",
+      "Network Synchronization",
+      "networking",
+      "Rust Language Ecosystem",
+      "Custom File Formats (MIX)",
+      "DPMI Protected Mode",
+      "Deterministic Lockstep Networking",
+      "DirectX 5 Integration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 11.084,
+        "matches": [
+          "game-engine",
+          "pathfinding",
+          "rts"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.588,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.47,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.468,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.459,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.411,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.983642Z"
+  }
+}

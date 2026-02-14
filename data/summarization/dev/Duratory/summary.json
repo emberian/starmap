@@ -1,0 +1,208 @@
+{
+  "name": "Duratory",
+  "description": "A cross-platform Swift application utilizing SwiftUI and SwiftData for persistent temporal record management. It implements a core relational schema for timestamped entries and features a master-detail interface with integrated functional and user interface testing suites.",
+  "tags": [
+    "swift",
+    "swiftui",
+    "swiftdata",
+    "persistence",
+    "ios",
+    "macos",
+    "xctest",
+    "crud",
+    "temporal-logging",
+    "apple-development"
+  ],
+  "category": "Persistent State Management",
+  "concepts": [
+    "SwiftData modeling",
+    "declarative state synchronization",
+    "ModelContainer lifecycle",
+    "XCTest automation",
+    "performance measurement",
+    "NavigationSplitView architecture",
+    "relational persistence",
+    "schema-driven UI"
+  ],
+  "languages": [
+    "Swift"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 17,
+    "has_readme": false,
+    "sample_files": [
+      "Duratory/ContentView.swift",
+      "DuratoryUITests/DuratoryUITests.swift",
+      "DuratoryTests/DuratoryTests.swift",
+      "DuratoryUITests/DuratoryUITestsLaunchTests.swift",
+      "Duratory/DuratoryApp.swift"
+    ]
+  },
+  "_hash": "f66d3a62f4cfc15cfdc5573fba101063f28d26527b3adad41c31580c176f6342",
+  "_path": "/Users/ember/dev/Duratory",
+  "_updated_at": "2026-02-14T00:56:23.368811Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "SwiftData modeling",
+      "declarative state synchronization",
+      "ModelContainer lifecycle",
+      "XCTest automation",
+      "performance measurement",
+      "NavigationSplitView architecture",
+      "relational persistence",
+      "schema-driven UI"
+    ],
+    "tags": [
+      "swift",
+      "swiftui",
+      "swiftdata",
+      "persistence",
+      "ios",
+      "macos",
+      "xctest",
+      "crud",
+      "temporal-logging",
+      "apple-development"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "cryptography",
+      "WebAssembly",
+      "Event Sourcing",
+      "event-sourcing",
+      "Apple-Ecosystem",
+      "Application Life Cycle",
+      "Asset Management",
+      "Conditional Compilation",
+      "Data Binding",
+      "Desktop-Development",
+      "Entitlements Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 8.094,
+        "matches": [
+          "event-sourcing",
+          "persistence"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.029,
+        "matches": [
+          "event-sourcing",
+          "persistence"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.269,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.199,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.199,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.198,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.368811Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cc606261af23389bb1164079c195156bc99a917338eae3995ef680e44c34a0ef",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:18.444181+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "cryptography",
+    "wasm",
+    "Event Sourcing",
+    "event-sourcing",
+    "Apple-Ecosystem",
+    "Application Life Cycle",
+    "Asset Management",
+    "Conditional Compilation",
+    "Data Binding",
+    "Desktop-Development",
+    "Entitlements Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "etool",
+      "path": "/Users/ember/dev/etool",
+      "similarity": 0.896
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.792
+    },
+    {
+      "name": "MessagesTest",
+      "path": "/Users/ember/dev/MessagesTest",
+      "similarity": 0.786
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.771
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.747
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.746
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.746
+    },
+    {
+      "name": "resequence-rs",
+      "path": "/Users/ember/dev/resequence-rs",
+      "similarity": 0.746
+    }
+  ]
+}

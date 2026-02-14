@@ -1,0 +1,224 @@
+{
+  "name": "wordfoo",
+  "description": "wordfoo is a high-performance Rust utility designed to resolve anagrams by generating string permutations and cross-referencing them against an embedded wordlist. The implementation utilizes Heap's algorithm for efficient combinatorial generation and leverages a BTreeSet to achieve logarithmic lookup times against a pre-indexed dictionary. By embedding the lexicon at compile-time and employing unsafe UTF-8 conversions, the tool achieves minimal latency and total self-containment for rapid command-line use.",
+  "tags": [
+    "rust",
+    "anagram-solver",
+    "permutations",
+    "heaps-algorithm",
+    "wordlist",
+    "cli-tool",
+    "text-processing",
+    "combinatorics",
+    "performance",
+    "embedded-data"
+  ],
+  "category": "Combinatorial Anagram Resolution",
+  "concepts": [
+    "Anagram Resolution",
+    "Combinatorial Search",
+    "Heap's Algorithm",
+    "Permutation Generation",
+    "Dictionary Lookup Optimization",
+    "Embedded Lexicon",
+    "Compile-time Static Inclusion",
+    "Unsafe Rust String Conversion",
+    "BTreeSet Membership Testing",
+    "TTY Stream Detection",
+    "Standard I/O Synchronization",
+    "Buffer Pre-allocation",
+    "UTF-8 Byte Processing",
+    "Interactive REPL Design",
+    "High-performance Iteration",
+    "ASPell Dictionary Integration",
+    "Lexicographical Analysis",
+    "Zero-allocation Loop Patterns",
+    "Minimal Dependency Footprint",
+    "Byte-slice Manipulation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "c78a60b94fd2a96defac7518209e5111340e09b18e4ff7906aba1a1851bc72b3",
+  "_path": "/Users/ember/dev/gh/wordfoo",
+  "_updated_at": "2026-02-14T00:56:28.733051Z",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Anagram Resolution",
+      "Combinatorial Search",
+      "Heap's Algorithm",
+      "Permutation Generation",
+      "Dictionary Lookup Optimization",
+      "Embedded Lexicon",
+      "Compile-time Static Inclusion",
+      "Unsafe Rust String Conversion",
+      "BTreeSet Membership Testing",
+      "TTY Stream Detection",
+      "Standard I/O Synchronization",
+      "Buffer Pre-allocation",
+      "UTF-8 Byte Processing",
+      "Interactive REPL Design",
+      "High-performance Iteration",
+      "ASPell Dictionary Integration",
+      "Lexicographical Analysis",
+      "Zero-allocation Loop Patterns",
+      "Minimal Dependency Footprint",
+      "Byte-slice Manipulation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "anagram-solver",
+      "permutations",
+      "heaps-algorithm",
+      "wordlist",
+      "cli-tool",
+      "text-processing",
+      "combinatorics",
+      "performance",
+      "embedded-data"
+    ],
+    "mined_motifs": [
+      "cli",
+      "AST",
+      "lexical-analysis",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "parser",
+      "ANTLR4",
+      "Automated Testing",
+      "Backtracking",
+      "Character Classes"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.349,
+        "matches": [
+          "ast",
+          "parser"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.544,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.118,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 3.706,
+        "matches": [
+          "ast"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.327,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.319,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.733051Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d7241e015b38e76878fdf8a315c9278c95811eaffdc847479e3a56164ddd13e5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:38.259701+00:00"
+  },
+  "mined_motifs": [
+    "cli",
+    "Abstract Syntax Tree",
+    "Lexical Analysis",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "lexer",
+    "parser",
+    "ANTLR4",
+    "Automated Testing",
+    "Backtracking",
+    "Character Classes"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.753
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.728
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.726
+    },
+    {
+      "name": "hammer.rs",
+      "path": "/Users/ember/dev/gh/forks/hammer.rs",
+      "similarity": 0.726
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.725
+    },
+    {
+      "name": "fixedbitset",
+      "path": "/Users/ember/dev/gh/forks/fixedbitset",
+      "similarity": 0.721
+    },
+    {
+      "name": "rust-phf",
+      "path": "/Users/ember/dev/gh/forks/rust-phf",
+      "similarity": 0.72
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.72
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "name": "zkbox",
+  "description": "A zero-knowledge privacy framework built on the Mina Protocol using o1js to facilitate shielded state transitions and private data interactions. It provides a foundational implementation of verifiable smart contracts designed for confidential storage and transaction anonymity on the Mina ledger. The architecture includes automated testing suites and deployment infrastructure for managing zkApp states and interfacing with network RPC providers.",
+  "tags": [
+    "mina-protocol",
+    "o1js",
+    "snarkyjs",
+    "zero-knowledge-proofs",
+    "zkapp",
+    "shielded-pool",
+    "privacy",
+    "blockchain",
+    "typescript",
+    "smart-contracts",
+    "verifiable-computing"
+  ],
+  "category": "Shielded Transaction System",
+  "concepts": [
+    "Zero-Knowledge Proofs",
+    "Shielded Transaction Pools",
+    "Mina Protocol Architecture",
+    "o1js Smart Contracts",
+    "Recursive SNARKs",
+    "Verifiable State Transitions",
+    "Cryptographic Commitments",
+    "Arithmetic Circuits",
+    "Mina Account Updates",
+    "Transaction Proving and Verification",
+    "Local Blockchain Simulation",
+    "Private State Management",
+    "Field-based Computation",
+    "zkApp Deployment Workflows",
+    "ESM Module Interoperability",
+    "Automated Proof Testing"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 15,
+    "has_readme": true,
+    "sample_files": [
+      "contracts/src/index.ts",
+      "contracts/src/interact.ts",
+      "contracts/src/Add.test.ts",
+      "contracts/src/Add.ts",
+      "contracts/jest.config.js"
+    ]
+  },
+  "_hash": "d8827d64ca58039ba9ccf8c845e48e7f95c83c02086224e92693aa4c29341005",
+  "_path": "/Users/ember/dev/zkbox",
+  "_updated_at": "2026-02-14T00:56:30.999501Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e475b0c6365466b9601e2183afd39712aee7db63abd39af02d77824b83fab958",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:06.773504+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "rust",
+    "recursive-snarks",
+    "zkapps",
+    "Account Updates",
+    "libp2p",
+    "ocaml",
+    "kimchi",
+    "plonk",
+    "Kimchi Proof System",
+    "proof-of-stake",
+    "succinct-blockchain"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.949
+    },
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.92
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.917
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.909
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.903
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.896
+    },
+    {
+      "name": "minataur2",
+      "path": "/Users/ember/dev/minataur2",
+      "similarity": 0.894
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.894
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Zero-Knowledge Proofs",
+      "Shielded Transaction Pools",
+      "Mina Protocol Architecture",
+      "o1js Smart Contracts",
+      "zero-knowledge-proofs",
+      "Verifiable State Transitions",
+      "Cryptographic Commitments",
+      "Arithmetic Circuits",
+      "Mina Account Updates",
+      "Transaction Proving and Verification",
+      "Local Blockchain Simulation",
+      "Private State Management",
+      "Field-based Computation",
+      "zkApp Deployment Workflows",
+      "ESM Module Interoperability",
+      "Automated Proof Testing"
+    ],
+    "tags": [
+      "Mina Protocol",
+      "o1js",
+      "snarkyjs",
+      "Zero-Knowledge Proofs (ZKP)",
+      "zkapp",
+      "shielded-pool",
+      "privacy",
+      "blockchain",
+      "typescript",
+      "smart-contracts",
+      "verifiable-computing"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "Rust Language Ecosystem",
+      "Recursive SNARKs",
+      "zkapps",
+      "Account Updates",
+      "libp2p",
+      "ocaml",
+      "kimchi",
+      "plonk",
+      "Kimchi Proof System",
+      "proof-of-stake",
+      "succinct-blockchain"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 12.633,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 11.247,
+        "matches": [
+          "recursive snarks",
+          "zero-knowledge proofs",
+          "kimchi",
+          "plonk"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.839,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.827,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi",
+          "o1js",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.44,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.404,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.999501Z"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "name": "fmodel-rust-demo",
+  "description": "A reference implementation of a restaurant and order management system showcasing algebraic domain modeling with the fmodel-rust library. It integrates Event Sourcing and CQRS architectures, utilizing PostgreSQL for append-only event storage and materialized view projections. The project demonstrates the Decider, View, and Saga patterns to achieve functional, type-safe state management in a distributed system context.",
+  "tags": [
+    "rust",
+    "event-sourcing",
+    "cqrs",
+    "ddd",
+    "postgresql",
+    "sqlx",
+    "actix-web",
+    "functional-programming",
+    "algebraic-data-types",
+    "event-modeling",
+    "materialized-views",
+    "saga-pattern",
+    "decider-pattern",
+    "event-driven"
+  ],
+  "category": "Event-Sourced Algebraic Domain Modeling",
+  "concepts": [
+    "Event Sourcing",
+    "Command Query Responsibility Segregation",
+    "Algebraic Domain Modeling",
+    "Decider Pattern",
+    "Saga Orchestration",
+    "Materialized View Projections",
+    "Optimistic Concurrency Control",
+    "Append-only Event Store",
+    "Domain-Driven Design",
+    "Denormalization",
+    "Event Streaming",
+    "Type-safe State Transitions",
+    "Given-When-Then Specification",
+    "Value Objects",
+    "Newtype Pattern",
+    "Transactional Event Appending"
+  ],
+  "languages": [
+    "Rust",
+    "SQL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 42,
+    "has_readme": true,
+    "sample_files": [
+      "src/adapter/database/mod.rs",
+      "src/adapter/event_stream/mod.rs",
+      "src/adapter/mod.rs",
+      "src/adapter/publisher/mod.rs",
+      "src/adapter/repository/mod.rs"
+    ]
+  },
+  "_hash": "aa07bb7030f3d996d50c71487047e7a209149c8b271bbb6174638536f0bc1928",
+  "_path": "/Users/ember/src/fmodel-rust-demo",
+  "_updated_at": "2026-02-14T00:56:32.758779Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a46494c64769eea6e563f16220afc19dfe6d96c1fc7bf3bac3175a9893d10ac4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:24.000971+00:00"
+  },
+  "mined_motifs": [
+    "persistence",
+    "async-rust",
+    "Materialized Views",
+    "distributed-systems",
+    "event-store",
+    "State Evolution",
+    "domain-driven-design",
+    "Event Persistence",
+    "aggregate",
+    "Command Query Responsibility Segregation (CQRS)",
+    "Optimistic Locking",
+    "macros"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.93
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.919
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.901
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.889
+    },
+    {
+      "name": "cqrs-es",
+      "path": "/Users/ember/src/cqrs",
+      "similarity": 0.882
+    },
+    {
+      "name": "eventcore",
+      "path": "/Users/ember/src/eventcore",
+      "similarity": 0.881
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.868
+    },
+    {
+      "name": "tsuzuri",
+      "path": "/Users/ember/src/tsuzuri",
+      "similarity": 0.86
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Event Sourcing",
+      "Command Query Responsibility Segregation",
+      "Algebraic Domain Modeling",
+      "Decider Pattern",
+      "Saga Orchestration",
+      "Materialized View Projections",
+      "Optimistic Concurrency Control",
+      "Append-only Event Store",
+      "Domain-Driven Design",
+      "Denormalization",
+      "Event Streaming",
+      "Type-safe State Transitions",
+      "Given-When-Then Specification",
+      "Value Objects",
+      "Newtype Pattern",
+      "Transactional Event Appending"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "event-sourcing",
+      "cqrs",
+      "ddd",
+      "postgresql",
+      "sqlx",
+      "actix-web",
+      "functional-programming",
+      "algebraic-data-types",
+      "event-modeling",
+      "materialized-views",
+      "saga-pattern",
+      "decider-pattern",
+      "event-driven"
+    ],
+    "mined_motifs": [
+      "persistence",
+      "rust",
+      "Materialized Views",
+      "distributed-systems",
+      "event-sourcing",
+      "State Evolution",
+      "domain-driven-design",
+      "Event Persistence",
+      "aggregate",
+      "Command Query Responsibility Segregation (CQRS)",
+      "Optimistic Locking",
+      "macros"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 15.278,
+        "matches": [
+          "cqrs",
+          "distributed-systems",
+          "event-sourcing",
+          "persistence",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 11.168,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs",
+          "decider-pattern"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.591,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.46,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.459,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.459,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.758779Z"
+  }
+}

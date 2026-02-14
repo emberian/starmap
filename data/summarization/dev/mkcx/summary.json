@@ -1,0 +1,242 @@
+{
+  "name": "mkcx",
+  "description": "mkcx is a context curation engine designed to synthesize high-fidelity prompts for one-shot LLM software engineering workflows. It integrates a CLI for multi-source ingestion from Local, Crates.io, GitHub, and Opam sources with a background daemon, mkcxd, that manages vector embeddings and semantic context compression. The system employs advanced summarization strategies and trait implementation ablations to optimize token usage while preserving critical architectural intent for large-scale model reasoning.",
+  "tags": [
+    "rust",
+    "llm-context",
+    "mcp-server",
+    "vector-embeddings",
+    "context-compression",
+    "crates-io",
+    "opam",
+    "github-api",
+    "background-daemon",
+    "semantic-search",
+    "rustdoc-analysis",
+    "token-optimization",
+    "openrouter",
+    "sqlite",
+    "cli"
+  ],
+  "category": "LLM Context Engineering & Semantic Compression",
+  "concepts": [
+    "Context Augmentation",
+    "Semantic Context Compression",
+    "Model Context Protocol (MCP)",
+    "Vector Database Integration",
+    "Cross-Platform Dependency Analysis",
+    "Token Efficiency Optimization",
+    "Background Embedding Workers",
+    "Fuzzy File Resolution",
+    "Abstract Syntax Tree (AST) Summarization",
+    "Platonic Representation Hypothesis",
+    "Context Ablation",
+    "One-Shot LLM Workflows",
+    "Multi-Source Data Ingestion",
+    "Trait Implementation Compression",
+    "Dependency Graph Analysis",
+    "Semantic Search",
+    "Semi-Literate Context Structuring",
+    "Automated Summarization Feedback Loops"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell",
+    "SQL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 74,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crate-mcp/src/analyzer/mod.rs",
+      "crate-mcp/src/cache/mod.rs",
+      "crate-mcp/src/config/mod.rs",
+      "crate-mcp/src/formatters/mod.rs"
+    ]
+  },
+  "_hash": "b7e85df4b2fa1b754b73a642bf1a402daa4ce4378a661231b31c7e35e630d7af",
+  "_path": "/Users/ember/dev/mkcx",
+  "_updated_at": "2026-02-14T00:56:29.620170Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Context Augmentation",
+      "Semantic Context Compression",
+      "model-context-protocol",
+      "Vector Database Integration",
+      "Cross-Platform Dependency Analysis",
+      "Token Efficiency Optimization",
+      "Background Embedding Workers",
+      "Fuzzy File Resolution",
+      "Abstract Syntax Tree (AST) Summarization",
+      "Platonic Representation Hypothesis",
+      "Context Ablation",
+      "One-Shot LLM Workflows",
+      "Multi-Source Data Ingestion",
+      "Trait Implementation Compression",
+      "Dependency Graph Analysis",
+      "Semantic Search",
+      "Semi-Literate Context Structuring",
+      "Automated Summarization Feedback Loops"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "llm-context",
+      "Model Context Protocol",
+      "vector-embeddings",
+      "context-compression",
+      "crates-io",
+      "opam",
+      "github-api",
+      "background-daemon",
+      "semantic-search",
+      "rustdoc-analysis",
+      "token-optimization",
+      "openrouter",
+      "sqlite",
+      "cli"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "json-rpc",
+      "context-window",
+      "context-management",
+      "llm-tools",
+      "rustdoc",
+      "Capability Negotiation",
+      "oauth2",
+      "procedural-macros",
+      "sse",
+      "Asynchronous Programming",
+      "wasi"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 8.019,
+        "matches": [
+          "context-management",
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 6.628,
+        "matches": [
+          "json-rpc",
+          "sse"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 6.458,
+        "matches": [
+          "asynchronous programming",
+          "vector-embeddings"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.208,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.053,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.02,
+        "matches": [
+          "wasi"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.620170Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b53a367e1843af0c2cdc9805f659698562a516a8be3446f2cfac0c4ab35e0052",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:02.825234+00:00"
+  },
+  "mined_motifs": [
+    "mcp",
+    "json-rpc",
+    "context-window",
+    "context-management",
+    "llm-tools",
+    "rustdoc",
+    "Capability Negotiation",
+    "oauth2",
+    "procedural-macros",
+    "sse",
+    "tokio",
+    "wasi"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.759
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.744
+    },
+    {
+      "name": "gcx",
+      "path": "/Users/ember/dev/gcx",
+      "similarity": 0.743
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.737
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.729
+    },
+    {
+      "name": "rmcp-sdk",
+      "path": "/Users/ember/src/rmcp-sdk",
+      "similarity": 0.728
+    },
+    {
+      "name": "crates_llms_txt",
+      "path": "/Users/ember/src/crates_llms_txt",
+      "similarity": 0.728
+    },
+    {
+      "name": "mcp-rust-sdk",
+      "path": "/Users/ember/src/mcp-rust-sdk",
+      "similarity": 0.727
+    }
+  ]
+}

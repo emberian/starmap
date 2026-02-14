@@ -1,0 +1,241 @@
+{
+  "name": "rust-grammar",
+  "description": "A standalone lexical and syntactic specification for the Rust programming language (v0.10) featuring multiple parser implementations. It provides a Flex-based lexer alongside LL(1) and LALR(1) grammar definitions using LLnextgen and GNU Bison, respectively, to facilitate formal grammar validation and AST generation. The project includes a verification suite that compares output parity against the reference rustc implementation.",
+  "tags": [
+    "rust",
+    "lexer",
+    "parser",
+    "flex",
+    "bison",
+    "llnextgen",
+    "ll1",
+    "lalr",
+    "ast",
+    "formal-grammar",
+    "compiler-design",
+    "s-expression",
+    "tokenization",
+    "grammar-verification"
+  ],
+  "category": "Compiler Front-end Engineering",
+  "concepts": [
+    "Lexical Analysis",
+    "Syntactic Analysis",
+    "LL(1) Parsing",
+    "LALR(1) Parsing",
+    "Abstract Syntax Tree",
+    "S-expression Generation",
+    "Grammar Specification",
+    "Context-Free Grammars",
+    "Automata Theory",
+    "Recursive Descent",
+    "Tokenization",
+    "Grammar Parity Testing",
+    "JSON AST Serialization",
+    "Lookahead",
+    "Shift-Reduce Parsing",
+    "Ambiguity Resolution",
+    "Syntax Tree Transformation"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "Python",
+    "Shell",
+    "Lex",
+    "Yacc"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "test/mod.rs",
+      "tokens.c",
+      "rlex.rs",
+      "parser-lalr-main.c"
+    ]
+  },
+  "_hash": "08c720f62106a4774301f72f55a27fa957c9442fe40a175c9e1b47cbb9d98285",
+  "_path": "/Users/ember/dev/gh/forks/rust-grammar",
+  "_updated_at": "2026-02-14T00:56:26.586604Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "lexical-analysis",
+      "Syntactic Analysis",
+      "LL(1) Parsing",
+      "LALR(1) Parsing",
+      "AST",
+      "S-expression Generation",
+      "Grammar Specification",
+      "Context-Free Grammars",
+      "Automata Theory",
+      "Recursive Descent",
+      "Grammar Parity Testing",
+      "JSON AST Serialization",
+      "Lookahead",
+      "Shift-Reduce Parsing",
+      "Ambiguity Resolution",
+      "Syntax Tree Transformation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "lexical-analysis",
+      "parser",
+      "flex",
+      "bison",
+      "llnextgen",
+      "ll1",
+      "lalr",
+      "abstract-syntax-tree",
+      "formal-grammar",
+      "Compiler Engineering",
+      "s-expression",
+      "grammar-verification"
+    ],
+    "mined_motifs": [
+      "Context-Free Grammar",
+      "Non-terminal Symbols",
+      "Production Rules",
+      "Terminal Symbols",
+      "symbol-table",
+      "Recursive Descent Parsing",
+      "AST",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "Resource Acquisition Is Initialization (RAII)",
+      "ANTLR4"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.628,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.232,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.45,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.597,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.589,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 4.189,
+        "matches": [
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.586604Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1b3f449a7c5e2827eca59e78a80a005c3b9caf9268ec33758c76d23fdd923af5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:13.018673+00:00"
+  },
+  "mined_motifs": [
+    "Context-Free Grammar",
+    "Non-terminal Symbols",
+    "Production Rules",
+    "Terminal Symbols",
+    "symbol-table",
+    "Recursive Descent Parsing",
+    "Abstract Syntax Trees",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "resource-management",
+    "ANTLR4"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.938
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.936
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.916
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.915
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.902
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.896
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.892
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.887
+    }
+  ]
+}

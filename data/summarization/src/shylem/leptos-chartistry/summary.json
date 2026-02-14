@@ -1,0 +1,264 @@
+{
+  "name": "leptos-chartistry",
+  "description": "A modular and extensible charting library for the Leptos web framework, designed to render performant SVG-based visualizations with minimal boilerplate. It features a reactive composition model for defining series types like line and bar charts, alongside highly customizable axis markers, legends, and interactive tooltips. The architecture supports both client-side WASM hydration and server-side rendering, leveraging a robust coordinate projection system and sophisticated color interpolation.",
+  "tags": [
+    "leptos",
+    "rust",
+    "wasm",
+    "svg",
+    "charting",
+    "data-viz",
+    "ssr",
+    "component-library",
+    "webassembly",
+    "reactive-programming",
+    "bar-chart",
+    "line-chart",
+    "interpolation",
+    "color-gradients",
+    "axum",
+    "nix"
+  ],
+  "category": "Reactive SVG Data Visualization",
+  "concepts": [
+    "SVG Coordinate Projection",
+    "Reactivity Model Integration",
+    "Monotone Cubic Interpolation",
+    "Tick Alignment Algorithms",
+    "Linear and Diverging Color Schemes",
+    "Modular Layout Composition",
+    "Type-safe Data Binding",
+    "Hydration-compatible Rendering",
+    "Time-series Analysis",
+    "Responsive Aspect Ratio Management",
+    "Spatial Bounds Calculation",
+    "Interactive Overlays",
+    "Bilinear Interpolation",
+    "Cartesian Mapping",
+    "Marker Shape Generation",
+    "Step Interpolation",
+    "Legend Placement Logic",
+    "SVG Gradient Rendering",
+    "Dynamic Padding Adjustment",
+    "Guide Line Tracking",
+    "Tooltip Sorting Strategies",
+    "Aligned Float Ticks",
+    "Timestamp Normalization",
+    "Stacked Series Computation",
+    "CSS-in-SVG Styling",
+    "Multi-series Composition",
+    "Workspace Dependency Management",
+    "Nix Flake Reproducibility",
+    "WASM Binary Optimization",
+    "Console Error Panic Hooks"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 93,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "demo/src/data/mod.rs",
+      "demo/src/examples/mod.rs",
+      "demo/src/lib.rs"
+    ]
+  },
+  "_hash": "feb58ed223e87b9d9912999f2702df967dff9d6b68e38a9d8d86f7fc3e963910",
+  "_path": "/Users/ember/src/shylem/leptos-chartistry",
+  "_updated_at": "2026-02-14T00:56:33.957222Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "24862631b39f5e6e05dc32a5fa5c5a2d16d504e611023054284a8a9e8c42dcb7",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:08.583816+00:00"
+  },
+  "mined_motifs": [
+    "signals",
+    "hydration",
+    "server-functions",
+    "full-stack",
+    "reactivity",
+    "frontend",
+    "csr",
+    "web-sys",
+    "Hydration",
+    "declarative-ui",
+    "fine-grained-reactivity",
+    "isomorphic"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.874
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.873
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/shylem/leptos-book",
+      "similarity": 0.869
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/leptos-book",
+      "similarity": 0.864
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.854
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.818
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/shylem/leptos",
+      "similarity": 0.816
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.809
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "SVG Coordinate Projection",
+      "Reactivity Model Integration",
+      "Monotone Cubic Interpolation",
+      "Tick Alignment Algorithms",
+      "Linear and Diverging Color Schemes",
+      "Modular Layout Composition",
+      "Type-safe Data Binding",
+      "Hydration-compatible Rendering",
+      "Time-series Analysis",
+      "Responsive Aspect Ratio Management",
+      "Spatial Bounds Calculation",
+      "Interactive Overlays",
+      "Bilinear Interpolation",
+      "Cartesian Mapping",
+      "Marker Shape Generation",
+      "Step Interpolation",
+      "Legend Placement Logic",
+      "SVG Gradient Rendering",
+      "Dynamic Padding Adjustment",
+      "Guide Line Tracking",
+      "Tooltip Sorting Strategies",
+      "Aligned Float Ticks",
+      "Timestamp Normalization",
+      "Stacked Series Computation",
+      "CSS-in-SVG Styling",
+      "Multi-series Composition",
+      "Workspace Dependency Management",
+      "Nix Flake Reproducibility",
+      "WASM Binary Optimization",
+      "Console Error Panic Hooks"
+    ],
+    "tags": [
+      "leptos",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "svg",
+      "charting",
+      "data-viz",
+      "ssr",
+      "component-library",
+      "reactive-programming",
+      "bar-chart",
+      "line-chart",
+      "interpolation",
+      "color-gradients",
+      "axum",
+      "nix"
+    ],
+    "mined_motifs": [
+      "fine-grained-reactivity",
+      "hydration",
+      "server-functions",
+      "full-stack",
+      "reactivity",
+      "frontend",
+      "csr",
+      "web-sys",
+      "declarative-ui",
+      "isomorphic"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 17.988,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "leptos",
+          "server-functions",
+          "web-sys"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.393,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.384,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.379,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.374,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 2.57,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.957222Z"
+  }
+}

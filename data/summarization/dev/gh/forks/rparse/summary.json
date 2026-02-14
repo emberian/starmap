@@ -1,0 +1,225 @@
+{
+  "name": "rparse",
+  "description": "rparse appears to be a compilers/pl project using Rust. The available files suggest focus areas around tests, test, parsers, rparse.",
+  "tags": [
+    "Rust",
+    "tests",
+    "test",
+    "parsers",
+    "rparse",
+    "changes",
+    "char",
+    "expr",
+    "generic",
+    "helpers",
+    "makefile",
+    "misc",
+    "readme",
+    "string",
+    "todo",
+    "types"
+  ],
+  "category": "Compilers/PL",
+  "concepts": [
+    "tests",
+    "test",
+    "parsers",
+    "rparse",
+    "changes",
+    "char",
+    "expr",
+    "generic",
+    "helpers",
+    "makefile",
+    "misc",
+    "readme",
+    "string",
+    "todo",
+    "types"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "_hash": "4719e20612f061afbd9917df10e34af9f51090bd3c3f8cd4f8d36e1000d0730a",
+  "_path": "/Users/ember/dev/gh/forks/rparse",
+  "_updated_at": "2026-02-14T00:56:26.540201Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "tests",
+      "test",
+      "parsers",
+      "rparse",
+      "changes",
+      "char",
+      "expr",
+      "generic",
+      "helpers",
+      "makefile",
+      "misc",
+      "readme",
+      "string",
+      "todo",
+      "types"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "tests",
+      "test",
+      "parsers",
+      "rparse",
+      "changes",
+      "char",
+      "expr",
+      "generic",
+      "helpers",
+      "makefile",
+      "misc",
+      "readme",
+      "string",
+      "todo",
+      "types"
+    ],
+    "mined_motifs": [
+      "cargo",
+      "main",
+      "AST",
+      "functional-programming",
+      "Lexical Analysis",
+      "logic-programming",
+      "recursive-descent",
+      "parsing-algorithms",
+      "dsl",
+      "lab1",
+      "lite",
+      "compiler-plugin"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 10.426,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "recursive-descent",
+          "category:Compilers/PL"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.433,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 4.945,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.907,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 4.863,
+        "matches": [
+          "dsl"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.553,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.540201Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f9bc54c931f02b3adfb8ebd99a1406cead8e6b9b0697198ce03df82a4cba8041",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:07.164969+00:00"
+  },
+  "mined_motifs": [
+    "cargo",
+    "main",
+    "abstract-syntax-tree",
+    "functional-programming",
+    "lexical-analysis",
+    "logic-programming",
+    "recursive-descent",
+    "parsing-algorithms",
+    "dsl",
+    "lab1",
+    "lite",
+    "compiler-plugin"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.737
+    },
+    {
+      "name": "piston_meta",
+      "path": "/Users/ember/dev/gh/forks/meta",
+      "similarity": 0.73
+    },
+    {
+      "name": "pct",
+      "path": "/Users/ember/dev/gh/pct",
+      "similarity": 0.726
+    },
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.721
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/gh/crate-mcp",
+      "similarity": 0.72
+    },
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/rust",
+      "similarity": 0.719
+    },
+    {
+      "name": "CS452-LAB1",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB1",
+      "similarity": 0.719
+    },
+    {
+      "name": "rest_easy",
+      "path": "/Users/ember/dev/gh/rest_easy",
+      "similarity": 0.717
+    }
+  ]
+}

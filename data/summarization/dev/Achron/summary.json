@@ -1,0 +1,237 @@
+{
+  "name": "Achron",
+  "description": "A comprehensive reverse-engineering and modern reimplementation of the Resequence engine, the core time-travel architecture behind the RTS game Achron. It implements advanced temporal mechanics including event-linked entity histories for O(log n) state queries, parallel timeline observation via variable-speed 'Timewaves', and causal consistency through sorted state propagation. The repository features a high-performance Rust core with WASM bindings, a Svelte-based visualization suite, and various asset decompilation and export tools.",
+  "tags": [
+    "time-travel",
+    "rts-engine",
+    "rust",
+    "wasm",
+    "simulation",
+    "reverse-engineering",
+    "temporal-mechanics",
+    "causality",
+    "resequence",
+    "event-sourcing",
+    "chronoport",
+    "paradox-detection",
+    "game-dev",
+    "blender-scripts"
+  ],
+  "category": "Chronal Real-Time Strategy Architecture",
+  "concepts": [
+    "Event-Linked Entities",
+    "Timewaves",
+    "Same-Name Linking",
+    "Chronoportation",
+    "Paradox Detection",
+    "Causal State Propagation",
+    "Temporal Iterators",
+    "History-Linked Lists",
+    "Discrete-Time Simulation",
+    "Lifecycle State Machines",
+    "Asset Compilers",
+    "Binary Search History",
+    "WASM Interop",
+    "Resequence Object Format",
+    "Interactive Timelines"
+  ],
+  "languages": [
+    "TypeScript",
+    "Rust",
+    "Python",
+    "C",
+    "Java",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2042,
+    "has_readme": false,
+    "sample_files": [
+      "BlenderScripts/Blender_2.55/io_scene_robj/__init__.py",
+      "BlenderScripts/Blender_2.58-2.60a/io_scene_robj/__init__.py",
+      "BlenderScripts/Blender_2.67-2.72/io_scene_robj/__init__.py",
+      "resequence-rs/explainer/src/lib/components/index.ts",
+      "resequence-rs/explainer/src/lib/engine/index.ts"
+    ]
+  },
+  "_hash": "90463c6db263830683bbd744a6e3f0af0406e8a59cc1f8c91122c7313cdc8e1a",
+  "_path": "/Users/ember/dev/Achron",
+  "_updated_at": "2026-02-14T00:56:23.346442Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Event-Linked Entities",
+      "Timewaves",
+      "Same-Name Linking",
+      "Chronoportation",
+      "Paradox Detection",
+      "Causal State Propagation",
+      "Temporal Iterators",
+      "History-Linked Lists",
+      "Discrete-Time Simulation",
+      "Lifecycle State Machines",
+      "Asset Compilers",
+      "Binary Search History",
+      "WASM Interop",
+      "Resequence Object Format",
+      "Interactive Timelines"
+    ],
+    "tags": [
+      "time-travel",
+      "rts-engine",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "real-time-simulation",
+      "reverse-engineering",
+      "temporal-mechanics",
+      "causality",
+      "resequence",
+      "event-sourcing",
+      "chronoport",
+      "paradox-detection",
+      "game-dev",
+      "blender-scripts"
+    ],
+    "mined_motifs": [
+      "game-engine",
+      "real-time-strategy",
+      "A* Pathfinding",
+      "cpp",
+      "westwood-studios",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "pathfinding",
+      "retro-gaming",
+      "command-and-conquer",
+      "legacy-code",
+      "rts"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 11.095,
+        "matches": [
+          "game-engine",
+          "pathfinding",
+          "rts"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 9.691,
+        "matches": [
+          "game-engine",
+          "time-travel",
+          "timewaves"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.497,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.472,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.457,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.457,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.346442Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c5c41bcb2932ce2c9f18f2999c959f33601724e2c77ac6f055723b33bd4d012c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:16.791348+00:00"
+  },
+  "mined_motifs": [
+    "game-engine",
+    "real-time-strategy",
+    "A* Pathfinding",
+    "cpp",
+    "westwood-studios",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "pathfinding",
+    "retro-gaming",
+    "command-and-conquer",
+    "legacy-code",
+    "rts"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "resequence-rs",
+      "path": "/Users/ember/dev/resequence-rs",
+      "similarity": 0.929
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.849
+    },
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.839
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.837
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.835
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.833
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.821
+    }
+  ]
+}

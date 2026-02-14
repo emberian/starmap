@@ -1,0 +1,237 @@
+{
+  "name": "cargo-hold",
+  "description": "A mobile-first narrative space trading game featuring deck-building mechanics and an idle-progression loop. It employs a custom Domain-Specific Language (DSL) and compiler, 'holdsmith', to orchestrate complex branching narrative events known as scenelets. Players manage starship resources, crew morale, and volatile cargo while navigating a post-apocalyptic 'Silence' setting dominated by factions and ancient Prior artifacts.",
+  "tags": [
+    "space-trading",
+    "deck-builder",
+    "narrative-game",
+    "pwa",
+    "dsl",
+    "compiler",
+    "typescript",
+    "idle-game",
+    "procedural-events",
+    "mobile-first",
+    "rpg",
+    "resource-management",
+    "vite",
+    "state-simulation"
+  ],
+  "category": "Narrative Space Economy Simulation",
+  "concepts": [
+    "Branching Narrative Systems",
+    "Domain-Specific Language (DSL) Design",
+    "Recursive Descent Parsing",
+    "Abstract Syntax Tree (AST) Compilation",
+    "Resource Management Loops",
+    "State Persistence Strategy",
+    "Event-driven Architecture",
+    "Deck-building Mechanics",
+    "Idle Gameplay Progression",
+    "Faction Reputation Systems",
+    "Cargo Decay Algorithms",
+    "Ship Module Customization",
+    "Mobile-first UI/UX",
+    "Progressive Web App (PWA) Integration",
+    "Component-based Rendering",
+    "Unit Testing Frameworks",
+    "Game Loop Simulation",
+    "Permadeath Mechanics"
+  ],
+  "languages": [
+    "TypeScript",
+    "CSS",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 104,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/content/achievements/index.ts",
+      "src/content/cards/index.ts",
+      "src/content/index.ts",
+      "src/content/scenelets/compiled/index.ts"
+    ]
+  },
+  "_hash": "04de253fd08ab850e79fd21d5891299af369b8f999e1922a17625711466fc91f",
+  "_path": "/Users/ember/dev/cargo-hold",
+  "_updated_at": "2026-02-14T00:56:23.677262Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Branching Narrative Systems",
+      "Domain-Specific Language (DSL) Design",
+      "Recursive Descent Parsing",
+      "Abstract Syntax Tree (AST) Compilation",
+      "Resource Management Loops",
+      "State Persistence Strategy",
+      "Event-driven Architecture",
+      "Deck-building Mechanics",
+      "Idle Gameplay Progression",
+      "Faction Reputation Systems",
+      "Cargo Decay Algorithms",
+      "Ship Module Customization",
+      "Mobile-first UI/UX",
+      "Progressive Web App (PWA) Integration",
+      "Component-based Rendering",
+      "Unit Testing Frameworks",
+      "Game Loop Simulation",
+      "Permadeath Mechanics"
+    ],
+    "tags": [
+      "space-trading",
+      "deck-builder",
+      "narrative-game",
+      "pwa",
+      "dsl",
+      "compiler-design",
+      "typescript",
+      "idle-game",
+      "procedural-events",
+      "mobile-first",
+      "rpg",
+      "Resource Acquisition Is Initialization (RAII)",
+      "vite",
+      "state-simulation"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "state-management",
+      "real-time-simulation",
+      "event-driven",
+      "sci-fi",
+      "interactive-fiction",
+      "Procedural Generation",
+      "game-engine",
+      "narrative-design",
+      "sqlite",
+      "game-mechanics",
+      "tui"
+    ],
+    "metaconstellations": [
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 8.037,
+        "matches": [
+          "dsl",
+          "game-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.246,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.196,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.135,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.06,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.05,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.677262Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "84be332296734d47270be38d20446f4c1d6c03913c9dafe91c355410bd6a2239",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:47.548673+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "state-management",
+    "simulation",
+    "event-driven",
+    "sci-fi",
+    "interactive-fiction",
+    "procedural-generation",
+    "game-engine",
+    "narrative-design",
+    "sqlite",
+    "game-mechanics",
+    "tui"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.876
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.779
+    },
+    {
+      "name": "megastructure-maintenance-crew",
+      "path": "/Users/ember/dev/megastructure-maintenance-crew",
+      "similarity": 0.767
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.754
+    },
+    {
+      "name": "booty-hunt",
+      "path": "/Users/ember/dev/booty-hunt",
+      "similarity": 0.751
+    },
+    {
+      "name": "Blackwing",
+      "path": "/Users/ember/dev/bw-exp1",
+      "similarity": 0.747
+    },
+    {
+      "name": "neocadia",
+      "path": "/Users/ember/dev/neocadia",
+      "similarity": 0.747
+    },
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/gh/multiway-tug",
+      "similarity": 0.741
+    }
+  ]
+}

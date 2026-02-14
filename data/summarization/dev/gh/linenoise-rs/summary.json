@@ -1,0 +1,212 @@
+{
+  "name": "linenoise-rs",
+  "description": "A Rust wrapper for the linenoise library, providing lightweight line-editing and history management for command-line interfaces. It encapsulates the C implementation via a FFI layer and exposes a thread-safe Rust API through internal mutex synchronization.",
+  "tags": [
+    "readline",
+    "linenoise",
+    "cli",
+    "terminal-input",
+    "ffi",
+    "rust-bindings",
+    "line-editing",
+    "history-management",
+    "tab-completion"
+  ],
+  "category": "Terminal User Interface (TUI) Middleware",
+  "concepts": [
+    "Foreign Function Interface (FFI)",
+    "Line Editing Facilities",
+    "Terminal Raw Mode",
+    "ANSI Escape Sequences",
+    "Command History Persistence",
+    "Callback-based Completion",
+    "Thread Safety via Mutex",
+    "C String Interoperability",
+    "Rust Memory Management",
+    "Native Library Compilation"
+  ],
+  "languages": [
+    "Rust",
+    "C"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "linenoise_sys/lib.rs",
+      "src/lib.rs",
+      "linenoise_sys/linenoise.c",
+      "linenoise_sys/linenoise.h"
+    ]
+  },
+  "_hash": "a1c9b1459cf07ba08c767dcff86ac7188d3aeedbfbc8c652e083d3a7018b26e9",
+  "_path": "/Users/ember/dev/gh/linenoise-rs",
+  "_updated_at": "2026-02-14T00:56:27.620813Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "foreign-function-interface",
+      "Line Editing Facilities",
+      "Terminal Raw Mode",
+      "ANSI Escape Sequences",
+      "Command History Persistence",
+      "Callback-based Completion",
+      "Thread Safety via Mutex",
+      "C String Interoperability",
+      "Rust Memory Management",
+      "Native Library Compilation"
+    ],
+    "tags": [
+      "readline",
+      "linenoise",
+      "cli",
+      "terminal-input",
+      "foreign-function-interface",
+      "rust-bindings",
+      "line-editing",
+      "history-management",
+      "tab-completion"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Systems Programming",
+      "Foreign Function Interface",
+      "Compiler Engineering",
+      "Attribute Caching",
+      "Control Groups (cgroups)",
+      "Controller Discovery",
+      "Linux Kernel Primitives",
+      "Memory Usage Tracking",
+      "Path Resolution"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.14,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.367,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.583,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.565,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.549,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.512,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.620813Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "17369b9c11a3c5a2e7ee03f085da782aa5b2ca97a5044b93d67ad92d1fb5862c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:02.533126+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "low-level",
+    "resource-management",
+    "systems-programming",
+    "bindings",
+    "compiler-design",
+    "Attribute Caching",
+    "Control Groups (cgroups)",
+    "Controller Discovery",
+    "Linux Kernel Primitives",
+    "Memory Usage Tracking",
+    "Path Resolution"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.887
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.878
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.876
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.876
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.874
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.87
+    }
+  ]
+}

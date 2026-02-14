@@ -1,0 +1,241 @@
+{
+  "name": "eggplant",
+  "description": "Eggplant is a low-level 3D graphics engine prototype implemented in an early dialect of Rust. It provides a core framework for geometry processing through a Wavefront OBJ loader and a structured mesh representation layer. The system includes a hierarchical scene graph architecture for managing and rendering complex object relationships via OpenGL bindings.",
+  "tags": [
+    "rust",
+    "opengl",
+    "graphics-engine",
+    "wavefront-obj",
+    "scenegraph",
+    "mesh-processing",
+    "3d-rendering",
+    "geometry-ingestion",
+    "low-level",
+    "render-loop",
+    "asset-loading"
+  ],
+  "category": "Real-time Rendering Systems",
+  "concepts": [
+    "Wavefront OBJ Parsing",
+    "Hierarchical Scene Graph",
+    "Vertex Buffer Specification",
+    "UV Coordinate Mapping",
+    "Surface Normal Calculation",
+    "Recursive Traversal Algorithms",
+    "Graphics API Abstraction",
+    "Spatial Transformation Trees",
+    "Geometry Data Structures",
+    "Mesh Serialization",
+    "OpenGL Graphics Pipeline",
+    "Trait-based Rendering Interfaces",
+    "Index Buffer Optimization",
+    "3D Vector Mathematics",
+    "Object-Relational Scene Mapping",
+    "Asset Loading Pipeline",
+    "Real-time Spatial Partitioning",
+    "Vertex Attribute Interleaving",
+    "Shared Mutable State Management",
+    "Dynamic Dispatch Rendering",
+    "Euclidean Vector Algebra",
+    "Resource Lifetime Management",
+    "Linear Algebra Primitives",
+    "Face-Vertex Mesh Representation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/graphics/mod.rs",
+      "src/main.rs",
+      "src/world/mod.rs",
+      "src/graphics/loader.rs"
+    ]
+  },
+  "_hash": "05e01f559ce8628f02602ff32735e2e1ffb51f54e3c2981dce981971f6f820e2",
+  "_path": "/Users/ember/dev/gh/eggplant",
+  "_updated_at": "2026-02-14T00:56:25.014316Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Wavefront OBJ Parsing",
+      "Hierarchical Scene Graph",
+      "Vertex Buffer Specification",
+      "UV Coordinate Mapping",
+      "Surface Normal Calculation",
+      "Recursive Traversal Algorithms",
+      "Graphics API Abstraction",
+      "Spatial Transformation Trees",
+      "Geometry Data Structures",
+      "Mesh Serialization",
+      "OpenGL Graphics Pipeline",
+      "Trait-based Rendering Interfaces",
+      "Index Buffer Optimization",
+      "3D Vector Mathematics",
+      "Object-Relational Scene Mapping",
+      "Asset Loading Pipeline",
+      "Real-time Spatial Partitioning",
+      "Vertex Attribute Interleaving",
+      "Shared Mutable State Management",
+      "Dynamic Dispatch Rendering",
+      "Euclidean Vector Algebra",
+      "Resource Lifetime Management",
+      "Linear Algebra Primitives",
+      "Face-Vertex Mesh Representation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "opengl",
+      "graphics-engine",
+      "wavefront-obj",
+      "scenegraph",
+      "mesh-processing",
+      "3d-rendering",
+      "geometry-ingestion",
+      "systems-programming",
+      "render-loop",
+      "asset-loading"
+    ],
+    "mined_motifs": [
+      "glfw",
+      "glsl",
+      "Computer Graphics & Rendering",
+      "Texture Mapping",
+      "shader-programming",
+      "Vertex Buffer Objects (VBO)",
+      "3d-graphics",
+      "visualization",
+      "Graphics Pipeline Abstraction",
+      "cgmath"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.285,
+        "matches": [
+          "shader-programming",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.929,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.446,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.436,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 4.109,
+        "matches": [
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 4.055,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.014316Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6e2230a61d69c2b77d53a160ccf7c8b6338ee9a6cc6296b003af8fee4754f682",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:00.123833+00:00"
+  },
+  "mined_motifs": [
+    "glfw",
+    "glsl",
+    "real-time-rendering",
+    "Texture Mapping",
+    "shader-programming",
+    "rendering",
+    "Vertex Buffer Objects (VBO)",
+    "graphics-programming",
+    "3d-graphics",
+    "visualization",
+    "Graphics Pipeline Abstraction",
+    "cgmath"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.9
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.87
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.862
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.854
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.846
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.845
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.841
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.84
+    }
+  ]
+}

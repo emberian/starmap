@@ -1,0 +1,240 @@
+{
+  "name": "ArkeOS",
+  "description": "ArkeOS is a full-stack implementation of a custom computer architecture, including a unique word-based instruction set with recursive parameter resolution and conditionality. The ecosystem provides a hardware emulation layer for processors, system bus controllers, and peripherals alongside a dedicated assembler and debugger. Host applications developed in Avalonia and UWP enable cross-platform simulation and interaction with the virtualized environment.",
+  "tags": [
+    "computer-architecture",
+    "emulator",
+    "instruction-set",
+    "isa",
+    "assembler",
+    "virtual-machine",
+    "csharp",
+    "avalonia",
+    "uwp",
+    "hardware-simulation",
+    "low-level",
+    "custom-cpu",
+    "system-programming",
+    "debugger",
+    "toolchain"
+  ],
+  "category": "Computer Architecture Emulation",
+  "concepts": [
+    "instruction set architecture",
+    "recursive parameter resolution",
+    "interrupt handling",
+    "system bus controller",
+    "memory management",
+    "peripheral emulation",
+    "binary encoding",
+    "assembly language",
+    "boot sequence",
+    "hardware abstraction layer",
+    "floating-point arithmetic",
+    "register-based architecture",
+    "bitstream manipulation",
+    "XAML-based UI",
+    "cross-platform simulation",
+    "word-based addressing",
+    "instruction caching",
+    "system calls",
+    "input-output processing",
+    "hardware virtualization",
+    "device product identification"
+  ],
+  "languages": [
+    "C#",
+    "XAML",
+    "Assembly"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 85,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "dd3e1080d75a620cf4aca70b224989cc10dfa469aeae376c8972af29dc9f0a4a",
+  "_path": "/Users/ember/dev/gh/ArkeOS",
+  "_updated_at": "2026-02-14T00:56:24.205521Z",
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "instruction set architecture",
+      "recursive parameter resolution",
+      "interrupt handling",
+      "system bus controller",
+      "memory management",
+      "peripheral emulation",
+      "binary encoding",
+      "assembly language",
+      "boot sequence",
+      "hardware abstraction layer",
+      "floating-point arithmetic",
+      "register-based architecture",
+      "bitstream manipulation",
+      "XAML-based UI",
+      "cross-platform simulation",
+      "word-based addressing",
+      "instruction caching",
+      "system calls",
+      "input-output processing",
+      "hardware virtualization",
+      "device product identification"
+    ],
+    "tags": [
+      "computer-architecture",
+      "emulator",
+      "instruction-set",
+      "isa",
+      "assembler",
+      "virtual-machine",
+      "csharp",
+      "avalonia",
+      "uwp",
+      "hardware-simulation",
+      "systems-programming",
+      "custom-cpu",
+      "debugger",
+      "toolchain"
+    ],
+    "mined_motifs": [
+      "Formal Verification",
+      "Load-Store Architecture",
+      "symbolic-execution",
+      "Calling Conventions",
+      "Register Allocation",
+      "compiler-design",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "Peripheral Interfacing",
+      "AST",
+      "Abstract Interpretation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 6.968,
+        "matches": [
+          "instruction set architecture",
+          "isa"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.942,
+        "matches": [
+          "formal verification",
+          "symbolic-execution"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.878,
+        "matches": [
+          "ast",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.565,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.551,
+        "matches": [
+          "formal verification"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.501,
+        "matches": [
+          "intermediate representation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.205521Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5198167defd15d2c0157e4f3ce1908c257b20009396ae90c323b8caa5aa45f37",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:12.690603+00:00"
+  },
+  "mined_motifs": [
+    "Formal Verification",
+    "Load-Store Architecture",
+    "symbolic-execution",
+    "Calling Conventions",
+    "Register Allocation",
+    "compiler",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "Peripheral Interfacing",
+    "Abstract Syntax Trees",
+    "Abstract Interpretation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/shitheap/absass",
+      "similarity": 0.874
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.866
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.864
+    },
+    {
+      "name": "bfcpu",
+      "path": "/Users/ember/dev/gh/bfcpu",
+      "similarity": 0.859
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.857
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.855
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.853
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.851
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "name": "async_ssl",
+  "description": "An asynchronous, non-blocking OCaml interface to OpenSSL integrated with the Jane Street Async library. It utilizes ctypes for type-safe FFI and provides high-level pipe-based abstractions for SSL/TLS client-server communication. The project features robust certificate handling, SNI support, and RFC 3526 MODP group implementations for secure key exchange.",
+  "tags": [
+    "ocaml",
+    "openssl",
+    "async",
+    "ffi",
+    "ctypes",
+    "tls",
+    "ssl",
+    "x509",
+    "cryptography",
+    "networking",
+    "stream-processing",
+    "non-blocking",
+    "security"
+  ],
+  "category": "Asynchronous Transport Layer Security",
+  "concepts": [
+    "OpenSSL",
+    "OCaml Async",
+    "Foreign Function Interface (FFI)",
+    "Ctypes",
+    "Transport Layer Security (TLS)",
+    "X.509 Certificate Validation",
+    "Server Name Indication (SNI)",
+    "Session Resumption",
+    "Memory-backed BIO",
+    "Non-blocking I/O",
+    "RFC 3526 MODP Groups",
+    "Diffie-Hellman Key Exchange",
+    "Pipe-based Streaming",
+    "Static Library Initialization",
+    "ASN.1 Object Parsing",
+    "Subject Alternative Name (SAN)",
+    "Cipher Suite Negotiation"
+  ],
+  "languages": [
+    "OCaml",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 45,
+    "has_readme": false,
+    "sample_files": [
+      "dune-project",
+      "Makefile",
+      "src/ssl.ml",
+      "src/ffi__library_must_be_initialized.ml",
+      "bindings/ffi_bindings.ml"
+    ]
+  },
+  "_hash": "0d115536e5ba108eaa2fa8cf03f799cb64de82aa909004dd774da4d0ceb8c7f7",
+  "_path": "/Users/ember/dev/async_ssl",
+  "_updated_at": "2026-02-14T00:56:23.545763Z",
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "OpenSSL",
+      "OCaml Async",
+      "foreign-function-interface",
+      "Ctypes",
+      "Transport Layer Security (TLS)",
+      "X.509 Certificate Validation",
+      "Server Name Indication (SNI)",
+      "Session Resumption",
+      "Memory-backed BIO",
+      "Non-blocking I/O",
+      "RFC 3526 MODP Groups",
+      "Diffie-Hellman Key Exchange",
+      "Pipe-based Streaming",
+      "Static Library Initialization",
+      "ASN.1 Object Parsing",
+      "Subject Alternative Name (SAN)",
+      "Cipher Suite Negotiation"
+    ],
+    "tags": [
+      "ocaml",
+      "openssl",
+      "Asynchronous Programming",
+      "foreign-function-interface",
+      "ctypes",
+      "tls",
+      "ssl",
+      "x509",
+      "cryptography",
+      "networking",
+      "stream-processing",
+      "non-blocking",
+      "security"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Asynchronous Programming",
+      "Distributed Garbage Collection",
+      "Promise Pipelining",
+      "capability-security",
+      "captp",
+      "distributed-systems",
+      "ocapn",
+      "ed25519",
+      "rsa",
+      "Future-based Concurrency",
+      "TCP Socket Binding"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 8.106,
+        "matches": [
+          "captp",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.341,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.337,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.332,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.319,
+        "matches": [
+          "capability-security"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.306,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.545763Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "76e7357b9e38227633919d3c5b26760c065c8d66de6788c1fdbaf6f087ec2ffe",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:32.553110+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "tokio",
+    "Distributed Garbage Collection",
+    "Promise Pipelining",
+    "capability-security",
+    "captp",
+    "distributed-systems",
+    "ocapn",
+    "ed25519",
+    "rsa",
+    "Future-based Concurrency",
+    "TCP Socket Binding"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.807
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.8
+    },
+    {
+      "name": "rcgen",
+      "path": "/Users/ember/src/rcgen",
+      "similarity": 0.799
+    },
+    {
+      "name": "hickory-dns",
+      "path": "/Users/ember/src/hickory-dns",
+      "similarity": 0.798
+    },
+    {
+      "name": "sodiumoxide",
+      "path": "/Users/ember/dev/gh/forks/sodiumoxide",
+      "similarity": 0.791
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.79
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.789
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.788
+    }
+  ]
+}

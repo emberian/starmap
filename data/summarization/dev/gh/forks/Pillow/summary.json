@@ -1,0 +1,276 @@
+{
+  "name": "Pillow",
+  "description": "Pillow is a comprehensive raster graphics library providing an efficient internal representation and extensive file format support for Python applications. It features a high-performance C-based core, libImaging, which implements low-level pixel manipulation, geometric transformations, and sophisticated color space conversions. The library serves as a critical infrastructure component for image processing, supporting advanced features such as quantization, unsharp masking, and ICC profile management.",
+  "tags": [
+    "image-processing",
+    "raster-graphics",
+    "python-bindings",
+    "codec-engine",
+    "pixel-manipulation",
+    "color-science",
+    "geometric-transforms",
+    "metadata-parsing",
+    "exif",
+    "icc-profiles",
+    "bitmap-fonts",
+    "quantization",
+    "convolution",
+    "pil-fork",
+    "dithering",
+    "image-archival"
+  ],
+  "category": "Digital Image Processing & Raster Graphics Runtimes",
+  "concepts": [
+    "Quantization",
+    "Color Space Conversion",
+    "YCbCr",
+    "CMYK",
+    "Affine Transformation",
+    "Bicubic Interpolation",
+    "Lanczos Resampling",
+    "Floyd-Steinberg Dithering",
+    "Unsharp Masking",
+    "Convolution Kernels",
+    "Alpha Blending",
+    "ICC Profile Management",
+    "EXIF Parsing",
+    "TIFF Tag Specification",
+    "LZW Compression",
+    "Huffman Coding",
+    "Pixel Unpacking",
+    "Memory Mapping",
+    "Rasterization",
+    "Bitmap Font Rendering",
+    "Image Segmentation",
+    "Bounding Box Calculation",
+    "Bit-depth Reduction",
+    "Color Palettes",
+    "Multi-frame Sequences",
+    "Animated GIF",
+    "Progressive Decoding",
+    "SANE Scanner Interface",
+    "Win32 GDI Integration",
+    "Tkinter Imaging",
+    "LittleCMS Integration",
+    "Endianness Management",
+    "Bit-stream Decoding",
+    "Sub-pixel Accuracy",
+    "Channel Operations",
+    "Image Histograms",
+    "Point Operations",
+    "Rank Filtering"
+  ],
+  "languages": [
+    "Python",
+    "C",
+    "C++"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 358,
+    "has_readme": false,
+    "sample_files": [
+      "PIL/__init__.py",
+      "_imaging.c",
+      "PIL/Image.py",
+      "libImaging/Quant.c",
+      "Sane/_sane.c"
+    ]
+  },
+  "_hash": "84841027df73e11194e4ada2d3c535be0485a791eea5a79d19056301158bda12",
+  "_path": "/Users/ember/dev/gh/forks/Pillow",
+  "_updated_at": "2026-02-14T00:56:25.103048Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Quantization",
+      "Color Space Conversion",
+      "YCbCr",
+      "CMYK",
+      "Affine Transformation",
+      "Bicubic Interpolation",
+      "Lanczos Resampling",
+      "Floyd-Steinberg Dithering",
+      "Unsharp Masking",
+      "Convolution Kernels",
+      "Alpha Blending",
+      "ICC Profile Management",
+      "EXIF Parsing",
+      "TIFF Tag Specification",
+      "LZW Compression",
+      "Huffman Coding",
+      "Pixel Unpacking",
+      "Memory Mapping",
+      "low-level-graphics",
+      "Bitmap Font Rendering",
+      "Image Segmentation",
+      "Bounding Box Calculation",
+      "Bit-depth Reduction",
+      "Color Palettes",
+      "Multi-frame Sequences",
+      "Animated GIF",
+      "Progressive Decoding",
+      "SANE Scanner Interface",
+      "Win32 GDI Integration",
+      "Tkinter Imaging",
+      "LittleCMS Integration",
+      "Endianness Management",
+      "Bit-stream Decoding",
+      "Sub-pixel Accuracy",
+      "Channel Operations",
+      "Image Histograms",
+      "Point Operations",
+      "Rank Filtering"
+    ],
+    "tags": [
+      "image-processing",
+      "raster-graphics",
+      "python-bindings",
+      "codec-engine",
+      "pixel-manipulation",
+      "color-science",
+      "geometric-transforms",
+      "metadata-parsing",
+      "exif",
+      "icc-profiles",
+      "bitmap-fonts",
+      "quantization",
+      "convolution",
+      "pil-fork",
+      "dithering",
+      "image-archival"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "jpeg",
+      "color-conversion",
+      "codec",
+      "png",
+      "image-codec",
+      "c-library",
+      "compression",
+      "Alpha Compositing",
+      "Bayer Filtering",
+      "CRC-32 Integrity"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.381,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.358,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.328,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 3.834,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.558,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.534,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.103048Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1db89d20df372b8a02f36f4baa1300b5109ac095248bd471316bc2bca7d4f0e1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:09.411131+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "graphics",
+    "jpeg",
+    "color-conversion",
+    "codec",
+    "png",
+    "image-codec",
+    "c-library",
+    "compression",
+    "Alpha Compositing",
+    "Bayer Filtering",
+    "CRC-32 Integrity"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-image",
+      "path": "/Users/ember/dev/gh/forks/rust-image",
+      "similarity": 0.867
+    },
+    {
+      "name": "libjpeg",
+      "path": "/Users/ember/src/qt6-build/qtbase/src/3rdparty/libjpeg",
+      "similarity": 0.867
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.836
+    },
+    {
+      "name": "TEMP-rust-png",
+      "path": "/Users/ember/dev/gh/TEMP-rust-png",
+      "similarity": 0.834
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.816
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.812
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.809
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.807
+    }
+  ]
+}

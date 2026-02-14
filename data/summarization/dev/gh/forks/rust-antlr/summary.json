@@ -1,0 +1,261 @@
+{
+  "name": "rust-antlr",
+  "description": "rust-antlr provides an ANTLR4-based grammar specification for the Rust programming language, supporting both full program parsing and simplified token-tree representations for lexical validation. The repository includes specialized Unicode identifier definitions and a Racket-based testing suite designed to exercise the grammar against real-world Rust source files. Although the lexer-focused token-tree mode successfully validates delimiter matching, the comprehensive program parser demonstrates significant performance bottlenecks characteristic of complex LL(*) grammar definitions.",
+  "tags": [
+    "antlr4",
+    "rust",
+    "grammar",
+    "parser",
+    "lexer",
+    "racket",
+    "compiler-construction",
+    "unicode",
+    "xid-start",
+    "xid-continue",
+    "language-design",
+    "syntactic-analysis"
+  ],
+  "category": "Parser Generation",
+  "concepts": [
+    "ANTLR4",
+    "Context-Free Grammar",
+    "LL(*) Parsing",
+    "Lexical Analysis",
+    "Token Trees",
+    "XID_Start",
+    "XID_Continue",
+    "Unicode Identifier Properties",
+    "Recursive Descent",
+    "Grammar Ambiguity",
+    "Syntactic Analysis",
+    "Parser Performance",
+    "Racket Test Driver",
+    "Automated Testing",
+    "Rust Syntax",
+    "Production Rules",
+    "Terminal Symbols",
+    "Non-terminal Symbols",
+    "Lookahead",
+    "Left Recursion",
+    "Abstract Syntax Tree",
+    "Lexer Predicates",
+    "Semantic Predicates",
+    "Character Classes",
+    "Backtracking",
+    "Parser Generators",
+    "EBNF",
+    "Symbol Tables",
+    "Error Recovery"
+  ],
+  "languages": [
+    "ANTLR",
+    "Racket",
+    "Java",
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "parses-slowly.rs"
+    ]
+  },
+  "_hash": "cd007171da122733871e02aefdb0ac14b24b26a3903244f4e801d403bc316946",
+  "_path": "/Users/ember/dev/gh/forks/rust-antlr",
+  "_updated_at": "2026-02-14T00:56:26.561180Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "ANTLR4",
+      "Context-Free Grammar",
+      "LL(*) Parsing",
+      "lexical-analysis",
+      "Token Trees",
+      "XID_Start",
+      "XID_Continue",
+      "Unicode Identifier Properties",
+      "Recursive Descent",
+      "Grammar Ambiguity",
+      "Syntactic Analysis",
+      "Parser Performance",
+      "Racket Test Driver",
+      "Automated Testing",
+      "Rust Syntax",
+      "Production Rules",
+      "Terminal Symbols",
+      "Non-terminal Symbols",
+      "Lookahead",
+      "Left Recursion",
+      "AST",
+      "Lexer Predicates",
+      "Semantic Predicates",
+      "Character Classes",
+      "Backtracking",
+      "Parser Generators",
+      "EBNF",
+      "Symbol Tables",
+      "Error Recovery"
+    ],
+    "tags": [
+      "antlr4",
+      "Rust Language Ecosystem",
+      "grammar",
+      "parser",
+      "lexical-analysis",
+      "racket",
+      "Compiler Engineering",
+      "unicode",
+      "xid-start",
+      "xid-continue",
+      "language-design",
+      "syntactic-analysis"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lexical-analysis",
+      "AST",
+      "Lexical Analysis",
+      "abstract-syntax-tree",
+      "s-expression",
+      "context-free-grammar",
+      "Recursive Descent Parsing",
+      "functional-programming",
+      "logic-programming",
+      "interpreter"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.753,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression",
+          "grammar"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 12.551,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "grammar",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 8.322,
+        "matches": [
+          "lexical analysis",
+          "ast",
+          "ebnf"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.558,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.505,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.482,
+        "matches": [
+          "logic-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.561180Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "72a0d4a6b818f0d4bb273e64b547a1bd8075a2b15c30630de4deae778c2102b9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:09.697262+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "tokenization",
+    "Tokenization",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "ast",
+    "s-expression",
+    "context-free-grammar",
+    "Recursive Descent Parsing",
+    "functional-programming",
+    "logic-programming",
+    "interpreter"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.938
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.894
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.888
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.873
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.872
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.864
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.861
+    }
+  ]
+}

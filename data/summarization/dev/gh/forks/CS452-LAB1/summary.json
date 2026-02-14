@@ -1,0 +1,175 @@
+{
+  "name": "CS452-LAB1",
+  "description": "CS452-LAB1 appears to be a exploratory project using Rust. The available files suggest focus areas around cargo, lab1, lite, main.",
+  "tags": [
+    "Rust",
+    "cargo",
+    "lab1",
+    "lite",
+    "main",
+    "readme"
+  ],
+  "category": "Exploratory",
+  "concepts": [
+    "cargo",
+    "lab1",
+    "lite",
+    "main",
+    "readme"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "_hash": "b3e221cd519061281888f51d47a51a07a4016d51ddc2411929049066cd4f681a",
+  "_path": "/Users/ember/dev/gh/forks/CS452-LAB1",
+  "_updated_at": "2026-02-14T00:56:25.058736Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "cargo",
+      "lab1",
+      "lite",
+      "main",
+      "readme"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cargo",
+      "lab1",
+      "lite",
+      "main",
+      "readme"
+    ],
+    "mined_motifs": [
+      "test",
+      "changes",
+      "char",
+      "expr",
+      "generic",
+      "helpers",
+      "makefile",
+      "misc",
+      "parsers",
+      "rparse",
+      "string",
+      "tests"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.82,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.562,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.358,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.045,
+        "matches": []
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.036,
+        "matches": []
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 2.019,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.058736Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9aec1afc4815e302aa7925490a6ee7bdf853578d70a5014fc32757a79bb76202",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:03.707505+00:00"
+  },
+  "mined_motifs": [
+    "test",
+    "changes",
+    "char",
+    "expr",
+    "generic",
+    "helpers",
+    "makefile",
+    "misc",
+    "parsers",
+    "rparse",
+    "string",
+    "tests"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/gh/crate-mcp",
+      "similarity": 0.754
+    },
+    {
+      "name": "rparse",
+      "path": "/Users/ember/dev/gh/forks/rparse",
+      "similarity": 0.719
+    },
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.717
+    },
+    {
+      "name": "aoc",
+      "path": "/Users/ember/dev/aoc",
+      "similarity": 0.713
+    },
+    {
+      "name": "emberian",
+      "path": "/Users/ember/dev/gh/emberian",
+      "similarity": 0.692
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.684
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.683
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.677
+    }
+  ]
+}

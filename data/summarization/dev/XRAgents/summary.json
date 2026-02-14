@@ -1,0 +1,233 @@
+{
+  "name": "XRAgents",
+  "description": "A multimodal orchestration framework for real-time digital human interaction, integrating Large Language Models with NVIDIA Audio2Face and Azure Cognitive Services. It facilitates synchronous audio-driven facial animation and low-latency voice communication through a distributed gRPC and WebRTC architecture. The system supports multi-agent conversational scenes with dynamic character profiles and automated script generation.",
+  "tags": [
+    "nvidia-audio2face",
+    "azure-speech",
+    "grpc",
+    "webrtc",
+    "python",
+    "llm",
+    "digital-humans",
+    "tts",
+    "stt",
+    "aiortc",
+    "animation",
+    "multimodal-ai"
+  ],
+  "category": "Digital Human Animation Orchestration",
+  "concepts": [
+    "Real-time Facial Animation",
+    "Neural Text-to-Speech",
+    "Speech-to-Text Transcription",
+    "SSML Integration",
+    "gRPC Audio Streaming",
+    "WebRTC Media Streams",
+    "LLM Prompt Engineering",
+    "Multi-agent Dialogue Orchestration",
+    "NVIDIA Omniverse Integration",
+    "Scene Graph Management",
+    "Distributed Rendering Architectures",
+    "Character Behavioral Profiles",
+    "Low-latency Signal Processing",
+    "Automated Script Execution",
+    "Conversational Context Memory",
+    "Digital Human Persistence",
+    "Audio-Visual Synchronization",
+    "Microphone Signal Calibration",
+    "Interactive Scene Simulation",
+    "Dynamic Persona Injection",
+    "Multimodal Feedback Loops",
+    "Protocol Buffer Definition",
+    "Asynchronous Event Handling",
+    "Networked Animation Pipelines"
+  ],
+  "languages": [
+    "Python",
+    "JavaScript",
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 39,
+    "has_readme": true,
+    "sample_files": [
+      "deps/streaming_server/__init__.py",
+      "main.py",
+      "deps/streaming_server/audio2face_pb2.py",
+      "voice_server/client.js",
+      "xragents/simulator.py"
+    ]
+  },
+  "_hash": "d21331854e633bae56b4e14757d50b3283183b65637965616c66af75241b1f8c",
+  "_path": "/Users/ember/dev/XRAgents",
+  "_updated_at": "2026-02-14T00:56:23.464434Z",
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Real-time Facial Animation",
+      "Neural Text-to-Speech",
+      "Speech-to-Text Transcription",
+      "SSML Integration",
+      "gRPC Audio Streaming",
+      "WebRTC Media Streams",
+      "LLM Prompt Engineering",
+      "Multi-agent Dialogue Orchestration",
+      "NVIDIA Omniverse Integration",
+      "Scene Graph Management",
+      "Distributed Rendering Architectures",
+      "Character Behavioral Profiles",
+      "Low-latency Signal Processing",
+      "Automated Script Execution",
+      "Conversational Context Memory",
+      "Digital Human Persistence",
+      "Audio-Visual Synchronization",
+      "Microphone Signal Calibration",
+      "Interactive Scene Simulation",
+      "Dynamic Persona Injection",
+      "Multimodal Feedback Loops",
+      "Protocol Buffer Definition",
+      "Asynchronous Event Handling",
+      "Networked Animation Pipelines"
+    ],
+    "tags": [
+      "nvidia-audio2face",
+      "azure-speech",
+      "grpc",
+      "webrtc",
+      "python",
+      "Large Language Model Inference",
+      "digital-humans",
+      "tts",
+      "stt",
+      "aiortc",
+      "animation",
+      "multimodal-ai"
+    ],
+    "mined_motifs": [
+      "context-management",
+      "low-latency",
+      "ai-agents",
+      "claude-code",
+      "typescript",
+      "Agent Lifecycle Supervision",
+      "Agent Presence Tracking",
+      "Agent Role Specialization",
+      "Agent-to-Agent Messaging",
+      "Asynchronous Task Chains",
+      "Busy/Sleep Mode Arbitration",
+      "Cognitive Loop Monitoring"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 8.147,
+        "matches": [
+          "ai-agents",
+          "context-management"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.367,
+        "matches": [
+          "large language model inference"
+        ]
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 2.542,
+        "matches": []
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 2.536,
+        "matches": []
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.526,
+        "matches": []
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 2.523,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.464434Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2cc1fb6985442fbcdc6c9311ed5a803ae52d35a130eaa8c3c33ad3ff3316a201",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:24.449931+00:00"
+  },
+  "mined_motifs": [
+    "context-management",
+    "low-latency",
+    "ai-agents",
+    "claude-code",
+    "typescript",
+    "Agent Lifecycle Supervision",
+    "Agent Presence Tracking",
+    "Agent Role Specialization",
+    "Agent-to-Agent Messaging",
+    "Asynchronous Task Chains",
+    "Busy/Sleep Mode Arbitration",
+    "Cognitive Loop Monitoring"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.822
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.809
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.798
+    },
+    {
+      "name": "codrawer-bridge",
+      "path": "/Users/ember/dev/codrawer-bridge",
+      "similarity": 0.79
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.79
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.789
+    },
+    {
+      "name": "Qwen3-TTS",
+      "path": "/Users/ember/src/Qwen3-TTS",
+      "similarity": 0.789
+    }
+  ]
+}

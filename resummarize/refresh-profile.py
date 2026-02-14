@@ -18,7 +18,6 @@ SCAN_DIRS = [
     DEV_ROOT,
     ROOT / "shitheap",
     ROOT / "hellas",
-    ROOT / "elide",
 ]
 
 PROFILE_PATH = DEV_ROOT / "PROFILE.md"

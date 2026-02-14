@@ -1,0 +1,211 @@
+{
+  "name": "lambda",
+  "description": "An implementation of the 'Booleans and Numbers' calculus (NB) as described in 'Types and Programming Languages' (TAPL). It features a LALRPOP-generated parser and provides a REPL environment to compare small-step and big-step operational semantics on arithmetic expressions.",
+  "tags": [
+    "rust",
+    "lalrpop",
+    "tapl",
+    "operational-semantics",
+    "interpreter",
+    "repl",
+    "arithmetic-expressions",
+    "parser-generator"
+  ],
+  "category": "Operational Semantics for Arithmetic Expressions",
+  "concepts": [
+    "Small-step operational semantics",
+    "Big-step operational semantics",
+    "Abstract Syntax Tree (AST)",
+    "LALR parsing",
+    "Peano arithmetic",
+    "Term rewriting",
+    "Normal forms",
+    "Boolean logic",
+    "Structural induction",
+    "Evaluation rules",
+    "REPL implementation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/eval.rs",
+      "src/ast.rs",
+      "build.rs"
+    ]
+  },
+  "_hash": "37f4bc52aabab3eb23324690610919f92fe27fedf16c937b913117f252c33183",
+  "_path": "/Users/ember/dev/gh/lambda",
+  "_updated_at": "2026-02-14T00:56:27.558847Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Small-step operational semantics",
+      "Big-step operational semantics",
+      "Abstract Syntax Tree",
+      "LALR parsing",
+      "Peano arithmetic",
+      "Term rewriting",
+      "Normal forms",
+      "Boolean logic",
+      "Structural induction",
+      "Evaluation rules",
+      "REPL implementation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "lalrpop",
+      "tapl",
+      "operational-semantics",
+      "interpreter",
+      "repl",
+      "arithmetic-expressions",
+      "parser-generator"
+    ],
+    "mined_motifs": [
+      "parser",
+      "AST",
+      "Lexical Analysis",
+      "lexical-analysis",
+      "Recursive Descent Parsing",
+      "functional-programming",
+      "logic-programming",
+      "abstract-syntax-tree"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 15.146,
+        "matches": [
+          "abstract syntax tree",
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 9.547,
+        "matches": [
+          "lalr parsing",
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.536,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.29,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.29,
+        "matches": [
+          "abstract syntax tree"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.264,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.558847Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "59206d21abf9e9d88f6fc0a6a64afc4cd402c6956ade25136622d9aed65a8dbf",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:57.343445+00:00"
+  },
+  "mined_motifs": [
+    "parser",
+    "Abstract Syntax Tree",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "tokenization",
+    "Lexical Analysis",
+    "lexer",
+    "Tokenization",
+    "Recursive Descent Parsing",
+    "functional-programming",
+    "logic-programming",
+    "ast"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.809
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.804
+    },
+    {
+      "name": "ion",
+      "path": "/Users/ember/dev/gh/ion",
+      "similarity": 0.8
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.799
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.797
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.79
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.782
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.782
+    }
+  ]
+}

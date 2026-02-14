@@ -1,0 +1,217 @@
+{
+  "name": "zulip-api",
+  "description": "A comprehensive Rust client library for the Zulip REST API, providing strongly-typed interfaces for messaging, stream management, and realm configuration. It utilizes reqwest and tokio for asynchronous I/O and implements extensive Serde-based data models derived from Zulip's OpenAPI specifications.",
+  "tags": [
+    "zulip",
+    "rest-api",
+    "http-client",
+    "async-rust",
+    "serde",
+    "tokio",
+    "reqwest",
+    "openapi",
+    "chat-api",
+    "json-api",
+    "wasm-support"
+  ],
+  "category": "Collaborative Software API Bindings",
+  "concepts": [
+    "asynchronous request-response",
+    "type-safe api modeling",
+    "openapi specification mapping",
+    "multipart file upload",
+    "bearer/basic authentication",
+    "realm administration",
+    "message narrow filtering",
+    "event queue management",
+    "local echo synchronization",
+    "custom profile field schemas",
+    "channel permission groups",
+    "stream-based file transfers"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 205,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "tests/client/mod.rs",
+      "tests/mod.rs",
+      "src/message/realm_user_settings_default.rs"
+    ]
+  },
+  "_hash": "cc978ca823042c64474a04e34afadfc828c83c45a26028c24f0ae31ddce385ae",
+  "_path": "/Users/ember/dev/zulip-api",
+  "_updated_at": "2026-02-14T00:56:31.008621Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ef8d8c4ce673d00fb8357707e500cbd4a53e4b0996cedfc0b36f960291876785",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:07.354270+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "messaging",
+    "async-io",
+    "networking",
+    "low-level",
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "axum",
+    "Inter-process communication (IPC)",
+    "Memory-safe wrappers",
+    "Message-oriented middleware",
+    "Multiplexed I/O"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.903
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.879
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.87
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.862
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.861
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.859
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.857
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "asynchronous request-response",
+      "type-safe api modeling",
+      "openapi specification mapping",
+      "multipart file upload",
+      "bearer/basic authentication",
+      "realm administration",
+      "message narrow filtering",
+      "event queue management",
+      "local echo synchronization",
+      "custom profile field schemas",
+      "channel permission groups",
+      "stream-based file transfers"
+    ],
+    "tags": [
+      "zulip",
+      "rest-api",
+      "http-client",
+      "rust",
+      "serde",
+      "Asynchronous Programming",
+      "reqwest",
+      "openapi",
+      "chat-api",
+      "json-api",
+      "WebAssembly"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "messaging",
+      "Asynchronous Programming",
+      "networking",
+      "systems-programming",
+      "foreign-function-interface",
+      "axum",
+      "Inter-process communication (IPC)",
+      "Memory-safe wrappers",
+      "Message-oriented middleware",
+      "Multiplexed I/O"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.296,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.566,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.501,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.469,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.435,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.432,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.008621Z"
+  }
+}

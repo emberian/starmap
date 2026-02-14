@@ -1,0 +1,233 @@
+{
+  "name": "semantic-scholar-fastmcp-mcp-server",
+  "description": "A FastMCP-based server providing comprehensive integration with the Semantic Scholar Academic Graph API for large-scale paper discovery and citation analysis. The system implements a robust rate-limiting engine to handle both authenticated and unauthenticated requests across graph and recommendation endpoints. It features a modular architecture that includes a dedicated HTTP bridge for exposing academic data via a minimal REST surface.",
+  "tags": [
+    "mcp-server",
+    "fastmcp",
+    "semantic-scholar-api",
+    "citation-analysis",
+    "academic-graph",
+    "paper-search",
+    "bibliometrics",
+    "citation-networks",
+    "rate-limiting",
+    "fastapi",
+    "asyncio",
+    "python-mcp",
+    "academic-data",
+    "rest-bridge",
+    "batch-retrieval",
+    "recommendation-system"
+  ],
+  "category": "Academic Information Retrieval",
+  "concepts": [
+    "Model Context Protocol (MCP)",
+    "Academic Graph API",
+    "Citation Influence Analysis",
+    "H-index Retrieval",
+    "Relevance-based Ranking",
+    "Semantic Paper Recommendation",
+    "Rate Limit Bucket Management",
+    "Batch Metadata Acquisition",
+    "Asynchronous HTTP Client Pooling",
+    "ASGI Bridge Pattern",
+    "Author Disambiguation",
+    "Bibliographic Network Exploration",
+    "Multi-Seed Recommendations",
+    "Paper Embedding Retrieval",
+    "Publication Venue Filtering",
+    "Graceful Event Loop Shutdown"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 30,
+    "has_readme": true,
+    "sample_files": [
+      "semantic_scholar/__init__.py",
+      "semantic_scholar/api/__init__.py",
+      "semantic_scholar/utils/__init__.py",
+      "test/__init__.py",
+      "semantic_scholar/api/papers.py"
+    ]
+  },
+  "_hash": "04f3750037a9567e1cacb504db95c434874bad1cd63a5fc2bdca597485880fa3",
+  "_path": "/Users/ember/dev/semantic-scholar-fastmcp-mcp-server",
+  "_updated_at": "2026-02-14T00:56:30.140250Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "model-context-protocol",
+      "Academic Graph API",
+      "Citation Influence Analysis",
+      "H-index Retrieval",
+      "Relevance-based Ranking",
+      "Semantic Paper Recommendation",
+      "Rate Limit Bucket Management",
+      "Batch Metadata Acquisition",
+      "Asynchronous HTTP Client Pooling",
+      "ASGI Bridge Pattern",
+      "Author Disambiguation",
+      "Bibliographic Network Exploration",
+      "Multi-Seed Recommendations",
+      "Paper Embedding Retrieval",
+      "Publication Venue Filtering",
+      "Graceful Event Loop Shutdown"
+    ],
+    "tags": [
+      "Model Context Protocol",
+      "semantic-scholar-api",
+      "citation-analysis",
+      "academic-graph",
+      "paper-search",
+      "bibliometrics",
+      "citation-networks",
+      "rate-limiting",
+      "fastapi",
+      "asyncio",
+      "academic-data",
+      "rest-bridge",
+      "batch-retrieval",
+      "recommendation-system"
+    ],
+    "mined_motifs": [
+      "web-scraping",
+      "metadata-extraction",
+      "python",
+      "Model Context Protocol",
+      "Web Scraping",
+      "automation",
+      "api-client",
+      "cobra-cli",
+      "colly",
+      "document-retrieval",
+      "json-rpc",
+      "model-context-protocol"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 6.558,
+        "matches": [
+          "automation",
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.26,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.242,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.233,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.171,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.709,
+        "matches": [
+          "automation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.140250Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fcffaa9b847cb6d926fd7d329c146fa7c0fa19ff8674739d777e2331ec1f6001",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:34.666630+00:00"
+  },
+  "mined_motifs": [
+    "web-scraping",
+    "metadata-extraction",
+    "python",
+    "Model Context Protocol",
+    "Web Scraping",
+    "automation",
+    "api-client",
+    "cobra-cli",
+    "colly",
+    "document-retrieval",
+    "json-rpc",
+    "mcp"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "resp",
+      "path": "/Users/ember/src/resp",
+      "similarity": 0.844
+    },
+    {
+      "name": "annas-mcp",
+      "path": "/Users/ember/dev/gh/forks/annas-mcp",
+      "similarity": 0.781
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.775
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.766
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.757
+    },
+    {
+      "name": "annas-mcp",
+      "path": "/Users/ember/dev/annas-mcp",
+      "similarity": 0.753
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/gh/forks/cosi-book",
+      "similarity": 0.752
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.75
+    }
+  ]
+}

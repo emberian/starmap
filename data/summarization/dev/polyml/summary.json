@@ -1,0 +1,262 @@
+{
+  "name": "Poly/ML",
+  "description": "Poly/ML is a high-performance implementation of the Standard ML (SML'97) language, providing a sophisticated native-code compiler alongside a portable bytecode interpreter. The system features a multi-threaded runtime environment with a parallel garbage collector and an extensive foreign function interface (FFI) for C interoperability. It is optimized for large-scale symbolic computation, serving as the primary execution engine for major interactive theorem provers like Isabelle and HOL.",
+  "tags": [
+    "standard-ml",
+    "compiler",
+    "runtime-system",
+    "parallel-gc",
+    "multithreading",
+    "ffi",
+    "arm64",
+    "x86-64",
+    "bytecode-vm",
+    "sml97",
+    "formal-methods",
+    "theorem-proving",
+    "debugger",
+    "native-code",
+    "cross-platform",
+    "linker"
+  ],
+  "category": "Functional Programming Language Implementation",
+  "concepts": [
+    "Native Code Generation",
+    "Parallel Garbage Collection",
+    "Foreign Function Interface",
+    "Symbolic Debugging",
+    "Standard ML Basis Library",
+    "Multicore Concurrency",
+    "Bytecode Interpretation",
+    "Register Allocation",
+    "Type Inference",
+    "Functor and Structure Parameterization",
+    "Instruction Set Architecture",
+    "Peephole Optimization",
+    "Heap Management",
+    "Persistent State Storage",
+    "Formal Verification Infrastructure",
+    "C Interoperability",
+    "Abstract Syntax Tree Parsing",
+    "Code Tree Optimization",
+    "Thread-Safe Runtime",
+    "Cross-Architecture Compilation",
+    "Static Analysis",
+    "Memory Alignment",
+    "Stack Management",
+    "Exception Handling Mechanism"
+  ],
+  "languages": [
+    "Standard ML",
+    "C++",
+    "C",
+    "Assembly",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 969,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "mlsource/MLCompiler/INITIALISE_.ML",
+      "mlsource/MLCompiler/CodeTree/X86Code/X86ForeignCall.ML",
+      "libpolyml/bytecode.cpp",
+      "mlsource/extra/XWindows/ml_bind.ML"
+    ]
+  },
+  "_hash": "5049cf465c03feea0e464021a90ce736032fee6403d0ed7594ef83f12cf735ad",
+  "_path": "/Users/ember/dev/polyml",
+  "_updated_at": "2026-02-14T00:56:29.861039Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Native Code Generation",
+      "Parallel Garbage Collection",
+      "foreign-function-interface",
+      "Symbolic Debugging",
+      "Standard ML Basis Library",
+      "Multicore Concurrency",
+      "Bytecode Interpretation",
+      "Register Allocation",
+      "Type Inference",
+      "Functor and Structure Parameterization",
+      "Instruction Set Architecture",
+      "Peephole Optimization",
+      "Heap Management",
+      "Persistent State Storage",
+      "Formal Verification Infrastructure",
+      "Foreign Function Interface",
+      "Abstract Syntax Tree Parsing",
+      "Code Tree Optimization",
+      "Thread-Safe Runtime",
+      "Cross-Architecture Compilation",
+      "Static Analysis",
+      "Memory Alignment",
+      "Stack Management",
+      "Exception Handling Mechanism"
+    ],
+    "tags": [
+      "standard-ml",
+      "compiler-design",
+      "runtime-system",
+      "parallel-gc",
+      "Concurrency & Synchronization",
+      "foreign-function-interface",
+      "arm64",
+      "x86-64",
+      "bytecode-vm",
+      "sml97",
+      "formal-verification",
+      "Interactive Theorem Proving (ITP)",
+      "debugger",
+      "native-code",
+      "cross-platform",
+      "linker"
+    ],
+    "mined_motifs": [
+      "formal-methods",
+      "Inductive Definitions",
+      "Verification Condition Generation",
+      "Lexical Scoping",
+      "lisp",
+      "scheme",
+      "AST",
+      "Signal Handling",
+      "posix",
+      "runtime",
+      "Systems Programming",
+      "Abstract Data Types for Theorems"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.007,
+        "matches": [
+          "foreign function interface",
+          "systems programming",
+          "linker",
+          "posix"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.295,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.22,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.857,
+        "matches": [
+          "ast",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 6.834,
+        "matches": [
+          "foreign-function-interface",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.796,
+        "matches": [
+          "foreign function interface",
+          "runtime"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.861039Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e8482e59d38c1f234782ae4d71383b76d48e4e4ec6299bacabf76f2badffcb7e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:23.397129+00:00"
+  },
+  "mined_motifs": [
+    "formal-verification",
+    "Inductive Definitions",
+    "Verification Condition Generation",
+    "Lexical Scoping",
+    "lisp",
+    "scheme",
+    "Abstract Syntax Trees",
+    "Signal Handling",
+    "posix",
+    "runtime",
+    "systems-programming",
+    "Abstract Data Types for Theorems"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.855
+    },
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/gh/RuPaulyML",
+      "similarity": 0.846
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.845
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.843
+    },
+    {
+      "name": "CakeML",
+      "path": "/Users/ember/dev/CakeML",
+      "similarity": 0.842
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.84
+    },
+    {
+      "name": "Gerbil Scheme",
+      "path": "/Users/ember/dev/gerbil",
+      "similarity": 0.84
+    },
+    {
+      "name": "cosmopolitan",
+      "path": "/Users/ember/src/cosmopolitan",
+      "similarity": 0.832
+    }
+  ]
+}

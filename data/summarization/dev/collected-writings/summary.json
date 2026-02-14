@@ -1,0 +1,192 @@
+{
+  "name": "collected-writings",
+  "description": "A repository dedicated to the systematic aggregation and preservation of heterogeneous digital communications and technical artifacts. It defines a framework for capturing a longitudinal record of personal and professional output across IRC logs, mailing list interactions, private correspondence, and version control metadata.",
+  "tags": [
+    "archival",
+    "digital-preservation",
+    "metadata-harvesting",
+    "corpus-construction",
+    "data-aggregation",
+    "personal-knowledge-management",
+    "vcs-metadata",
+    "communication-logs"
+  ],
+  "category": "Digital Artifact Archival & Preservation",
+  "concepts": [
+    "heterogeneous data ingestion",
+    "communication log archival",
+    "version control mining",
+    "digital provenance",
+    "biographic data aggregation",
+    "corpus synthesis",
+    "longitudinal record keeping",
+    "technical artifact tracking",
+    "knowledge retrieval",
+    "data consolidation"
+  ],
+  "languages": [],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "3d9e9f93f8bfb374348b9dd76f54f7a65361375b7103cd9618bb9ed5274628a6",
+  "_path": "/Users/ember/dev/collected-writings",
+  "_updated_at": "2026-02-14T00:56:23.720253Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "heterogeneous data ingestion",
+      "communication log archival",
+      "version control mining",
+      "digital provenance",
+      "biographic data aggregation",
+      "corpus synthesis",
+      "longitudinal record keeping",
+      "technical artifact tracking",
+      "knowledge retrieval",
+      "data consolidation"
+    ],
+    "tags": [
+      "archival",
+      "digital-preservation",
+      "metadata-harvesting",
+      "corpus-construction",
+      "data-aggregation",
+      "personal-knowledge-management",
+      "vcs-metadata",
+      "communication-logs"
+    ],
+    "mined_motifs": [
+      "Gist Synchronization",
+      "Metadata Tracking",
+      "Repository Management",
+      "Snippet Archival",
+      "Versioned Fragments",
+      "code-snippets",
+      "github-gists",
+      "local-management",
+      "version-control",
+      "API-driven project management",
+      "ChatOps",
+      "SDLC automation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.4,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 3.922,
+        "matches": [
+          "chatops"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.903,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.517,
+        "matches": []
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 2.516,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.514,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.720253Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4dca6440fc4c3b8bc79da42349931220c8ca53c4c0ad93e8c20c804ceea598a8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:52.121713+00:00"
+  },
+  "mined_motifs": [
+    "Gist Synchronization",
+    "Metadata Tracking",
+    "Repository Management",
+    "Snippet Archival",
+    "Versioned Fragments",
+    "code-snippets",
+    "github-gists",
+    "local-management",
+    "version-control",
+    "API-driven project management",
+    "ChatOps",
+    "SDLC automation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.83
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.814
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.814
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.803
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.797
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.797
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.796
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.795
+    }
+  ]
+}

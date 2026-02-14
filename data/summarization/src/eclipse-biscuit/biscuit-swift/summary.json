@@ -1,0 +1,228 @@
+{
+  "name": "biscuit-swift",
+  "description": "A Swift implementation of the Biscuit authorization token specification, facilitating decentralized validation and cryptographic offline attenuation. It features a Datalog-based logic engine for evaluating access policies and constraints, coupled with a type-safe Swift DSL for token construction and verification. The framework leverages Ed25519 and Secp256r1 for signature chains and Protocol Buffers for efficient binary serialization.",
+  "tags": [
+    "authorization",
+    "biscuit-token",
+    "datalog",
+    "swift",
+    "cryptography",
+    "ed25519",
+    "secp256r1",
+    "access-control",
+    "decentralized",
+    "attenuation",
+    "security-tokens",
+    "protocol-buffers",
+    "bearer-tokens"
+  ],
+  "category": "Logic-based Decentralized Authorization Framework",
+  "concepts": [
+    "Datalog Engine",
+    "Offline Attenuation",
+    "Chained Signatures",
+    "Result Builders",
+    "Policy Evaluation",
+    "Symbolic Resolution",
+    "Cryptographic Bearer Tokens",
+    "Third-party Blocks",
+    "Predicate Logic",
+    "Fact Resolution",
+    "Caveat Validation",
+    "Trusted Scopes",
+    "Internment Tables",
+    "Formal Verification Context"
+  ],
+  "languages": [
+    "Swift"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 84,
+    "has_readme": true,
+    "sample_files": [
+      "Sources/Biscuits/schema.pb.swift",
+      "Tests/BiscuitsTests/GenerationTests.swift",
+      "Sources/Biscuits/Datalog/Parser/Parser.swift",
+      "Sources/Biscuits/Datalog/Value.swift",
+      "Sources/Biscuits/Biscuit.swift"
+    ]
+  },
+  "_hash": "e648a1930ae13b65e515d964fdfb8eaf7dd35f3e72dcd06c8631ef57319ba093",
+  "_path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+  "_updated_at": "2026-02-14T00:56:32.676467Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1666fed6ae23eb46f052b37bae9e2de7bec9d0d91b193f533e8cae5a09381f9b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:13.535681+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "Token Attenuation",
+    "rust",
+    "security",
+    "Transitive Trust",
+    "Hierarchical Authorization",
+    "Sealed Tokens",
+    "Policy Enforcement",
+    "Protobuf Serialization",
+    "authentication",
+    "Microservices Security",
+    "capability-based"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "biscuit-cli",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-cli",
+      "similarity": 0.916
+    },
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.901
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.895
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.868
+    },
+    {
+      "name": "fly-macaroon",
+      "path": "/Users/ember/src/fly-macaroon",
+      "similarity": 0.827
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.824
+    },
+    {
+      "name": "etool",
+      "path": "/Users/ember/dev/etool",
+      "similarity": 0.822
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.819
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Datalog Engine",
+      "Offline Attenuation",
+      "Chained Signatures",
+      "Result Builders",
+      "Policy Evaluation",
+      "Symbolic Resolution",
+      "Cryptographic Bearer Tokens",
+      "Third-party Blocks",
+      "Predicate Logic",
+      "Fact Resolution",
+      "Caveat Validation",
+      "Trusted Scopes",
+      "Internment Tables",
+      "Formal Verification Context"
+    ],
+    "tags": [
+      "authorization",
+      "biscuit-token",
+      "datalog",
+      "swift",
+      "cryptography",
+      "ed25519",
+      "secp256r1",
+      "access-control",
+      "decentralized",
+      "attenuation",
+      "security-tokens",
+      "protocol-buffers",
+      "bearer-tokens"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "Token Attenuation",
+      "Rust Language Ecosystem",
+      "security",
+      "Transitive Trust",
+      "Hierarchical Authorization",
+      "Sealed Tokens",
+      "Policy Enforcement",
+      "Protobuf Serialization",
+      "authentication",
+      "Microservices Security",
+      "capability-based"
+    ],
+    "metaconstellations": [
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 11.133,
+        "matches": [
+          "access-control",
+          "authorization",
+          "datalog"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 8.282,
+        "matches": [
+          "authorization",
+          "access-control",
+          "datalog"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.461,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.458,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.454,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.454,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.676467Z"
+  }
+}

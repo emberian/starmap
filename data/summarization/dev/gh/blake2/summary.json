@@ -1,0 +1,246 @@
+{
+  "name": "blake2",
+  "description": "The BLAKE2 reference source code package provides portable and high-performance implementations of the BLAKE2 cryptographic hash function suite, including the 64-bit BLAKE2b and 32-bit BLAKE2s algorithms. It features SIMD-optimized C implementations leveraging SSE2, SSSE3, SSE4.1, AVX, and XOP extensions to maximize throughput on x86_64 architectures. The repository further includes parallelized variants (BLAKE2bp and BLAKE2sp) that employ a tree hashing structure for multicore efficiency, as well as a native C# implementation and CLI benchmarking tools.",
+  "tags": [
+    "cryptography",
+    "hash-function",
+    "blake2",
+    "simd",
+    "sse4.1",
+    "avx",
+    "xop",
+    "tree-hashing",
+    "parallel-computing",
+    "reference-implementation",
+    "x86-intrinsics",
+    "c-sharp",
+    "multicore-optimization",
+    "benchmarking",
+    "arx-design"
+  ],
+  "category": "SIMD-Optimized Cryptographic Primitives",
+  "concepts": [
+    "ARX (Addition-Rotation-XOR) network",
+    "Tree hashing",
+    "SIMD vectorization",
+    "Parallel hashing",
+    "Message Authentication Code (MAC)",
+    "Keyed hashing",
+    "Salting",
+    "Personalization",
+    "Instruction-level parallelism",
+    "OpenMP parallelization",
+    "x86_64 intrinsics",
+    "Cycle-accurate timing",
+    "Endian-neutral implementation",
+    "Differential cryptanalysis resistance",
+    "ChaCha-based permutation",
+    "Cryptographic primitives",
+    "Performance profiling",
+    "Reference implementations",
+    "SIMD dispatching",
+    "Bitwise operations",
+    "Data parallelism",
+    "Instruction pipelining"
+  ],
+  "languages": [
+    "C",
+    "C#",
+    "Assembly",
+    "Makefile"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 67,
+    "has_readme": true,
+    "sample_files": [
+      "sse/blake2b.c",
+      "sse/blake2s.c",
+      "ref/blake2b-ref.c",
+      "ref/blake2s-ref.c",
+      "sse/blake2s-load-xop.h"
+    ]
+  },
+  "_hash": "5090f2a71f47c165f101f7625a280069afaf30da14f2c6becbac50fdfc943fe4",
+  "_path": "/Users/ember/dev/gh/blake2",
+  "_updated_at": "2026-02-14T00:56:24.465653Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "ARX (Addition-Rotation-XOR) network",
+      "Tree hashing",
+      "SIMD vectorization",
+      "Parallel hashing",
+      "Message Authentication Code (MAC)",
+      "Keyed hashing",
+      "Salting",
+      "Personalization",
+      "Instruction-level parallelism",
+      "OpenMP parallelization",
+      "x86_64 intrinsics",
+      "Cycle-accurate timing",
+      "Endian-neutral implementation",
+      "Differential cryptanalysis resistance",
+      "ChaCha-based permutation",
+      "Cryptographic primitives",
+      "Performance profiling",
+      "Reference implementations",
+      "SIMD dispatching",
+      "Bitwise operations",
+      "Data parallelism",
+      "Instruction pipelining"
+    ],
+    "tags": [
+      "cryptography",
+      "hash-function",
+      "blake2",
+      "simd",
+      "sse4.1",
+      "avx",
+      "xop",
+      "tree-hashing",
+      "concurrency",
+      "reference-implementation",
+      "x86-intrinsics",
+      "c-sharp",
+      "multicore-optimization",
+      "benchmarking",
+      "arx-design"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Finite Field Arithmetic",
+      "performance",
+      "foreign-function-interface",
+      "Modular Arithmetic",
+      "Montgomery Multiplication",
+      "constant-time",
+      "Affine Coordinates",
+      "Miller Loop",
+      "Projective Coordinates",
+      "bls12-381"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.043,
+        "matches": [
+          "concurrency",
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.719,
+        "matches": [
+          "cryptography",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.318,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.274,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.24,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 2.475,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.465653Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "315aba5da5850db634ec2c271d4a21395c6761dff78c060865cce9f84146176f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:33.096220+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Finite Field Arithmetic",
+    "performance",
+    "Foreign Function Interface",
+    "ffi",
+    "Modular Arithmetic",
+    "Montgomery Multiplication",
+    "constant-time",
+    "Affine Coordinates",
+    "Miller Loop",
+    "Projective Coordinates",
+    "bls12-381"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libblake2",
+      "path": "/Users/ember/dev/gh/libblake2",
+      "similarity": 0.949
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.905
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.822
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.794
+    },
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.793
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.786
+    },
+    {
+      "name": "lockstitch",
+      "path": "/Users/ember/src/lockstitch",
+      "similarity": 0.786
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.784
+    }
+  ]
+}

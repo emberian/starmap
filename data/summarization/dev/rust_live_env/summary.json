@@ -1,0 +1,227 @@
+{
+  "name": "rust_live_env",
+  "description": "A browser-based Rust development environment utilizing CheerpX to execute a full x86 virtualization layer and Linux kernel in the browser. It integrates Monaco Editor and xterm.js to provide a functional IDE experience capable of compiling native Rust binaries and WebAssembly modules via an ext2 disk image containing the Rust toolchain.",
+  "tags": [
+    "browser-ide",
+    "webassembly",
+    "x86-emulation",
+    "rust-toolchain",
+    "cheerpx",
+    "virtualization",
+    "linux-vm",
+    "monaco-editor",
+    "xtermjs",
+    "vite",
+    "ext2",
+    "wasm-pack",
+    "cargo",
+    "crates-io-api",
+    "sandboxing"
+  ],
+  "category": "Web-Based Systems Emulation",
+  "concepts": [
+    "Instruction Set Emulation",
+    "Virtual File System Mounting",
+    "User-mode Linux Virtualization",
+    "WebAssembly Compilation Pipeline",
+    "Cross-Origin Isolation",
+    "Client-side Package Management",
+    "Disk Image Orchestration",
+    "Pseudo-terminal (PTY) Multiplexing",
+    "In-browser Compiler Toolchains"
+  ],
+  "languages": [
+    "JavaScript",
+    "Shell",
+    "Rust",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 10,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/main.js",
+      "src/cheerpx-manager.js",
+      "src/crates-manager.js",
+      "scripts/build-disk-image.sh"
+    ]
+  },
+  "_hash": "9b99ce9d6d4ef9f270a6b575134abb549e1aa67e44d525a74539f474cf1f29ae",
+  "_path": "/Users/ember/dev/rust_live_env",
+  "_updated_at": "2026-02-14T00:56:30.124791Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Instruction Set Emulation",
+      "Virtual File System Mounting",
+      "User-mode Linux Virtualization",
+      "WebAssembly Compilation Pipeline",
+      "Cross-Origin Isolation",
+      "Client-side Package Management",
+      "Disk Image Orchestration",
+      "Pseudo-terminal (PTY) Multiplexing",
+      "In-browser Compiler Toolchains"
+    ],
+    "tags": [
+      "browser-ide",
+      "webassembly",
+      "x86-emulation",
+      "rust-toolchain",
+      "cheerpx",
+      "virtualization",
+      "linux-vm",
+      "monaco-editor",
+      "xtermjs",
+      "vite",
+      "ext2",
+      "cargo",
+      "crates-io-api",
+      "sandboxing"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "typescript",
+      "TCP/IP Stack Emulation",
+      "alpine-linux",
+      "riscv",
+      "tinyemu",
+      "Monaco Editor Integration",
+      "emulator",
+      "toolchain",
+      "ide",
+      "WebAssembly"
+    ],
+    "metaconstellations": [
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 12.476,
+        "matches": [
+          "emulator",
+          "virtualization",
+          "webassembly",
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 9.836,
+        "matches": [
+          "riscv",
+          "virtualization",
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 8.073,
+        "matches": [
+          "webassembly",
+          "cheerpx",
+          "category:Web-Based Systems Emulation"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.514,
+        "matches": [
+          "riscv"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.475,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.473,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.124791Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8d133e68e0aeeed50605869e2031b55c922a8bf367b52fd56ef9c438c5cd77e5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:33.226903+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "typescript",
+    "rust-lang",
+    "TCP/IP Stack Emulation",
+    "alpine-linux",
+    "riscv",
+    "tinyemu",
+    "Monaco Editor Integration",
+    "emulator",
+    "toolchain",
+    "ide",
+    "wasm"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.942
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/-live-dev-env-abcdeez",
+      "similarity": 0.924
+    },
+    {
+      "name": "-live-web-editor-abcdeez",
+      "path": "/Users/ember/dev/-live-web-editor-abcdeez",
+      "similarity": 0.896
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.881
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/vscode-rustup",
+      "similarity": 0.839
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/gh/vscode-rustup",
+      "similarity": 0.831
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.825
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.822
+    }
+  ]
+}

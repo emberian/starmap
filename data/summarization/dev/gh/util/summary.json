@@ -1,0 +1,273 @@
+{
+  "name": "util",
+  "description": "util appears to be a web/app project using C/C++, C, C++. The available files suggest focus areas around cryptography, datastream, misc, socket.",
+  "tags": [
+    "C/C++",
+    "C",
+    "C++",
+    "cryptography",
+    "datastream",
+    "misc",
+    "socket",
+    "tcpserver",
+    "cmakelists",
+    "common",
+    "array",
+    "asynchashtable",
+    "asynclinkedlist",
+    "asynclist",
+    "asyncqueue",
+    "asyncstack"
+  ],
+  "category": "Web/App",
+  "concepts": [
+    "cryptography",
+    "datastream",
+    "misc",
+    "socket",
+    "tcpserver",
+    "cmakelists",
+    "common",
+    "array",
+    "asynchashtable",
+    "asynclinkedlist",
+    "asynclist",
+    "asyncqueue",
+    "asyncstack",
+    "database",
+    "doxyfile",
+    "hashtable",
+    "linkedlist",
+    "list",
+    "memory",
+    "postgresql",
+    "queue",
+    "requestserver",
+    "stack",
+    "strings",
+    "tcpclient",
+    "tcpconnection",
+    "thread",
+    "time",
+    "utilities",
+    "websocketconnection",
+    "c utilities",
+    "event",
+    "license",
+    "locked",
+    "main",
+    "optional",
+    "tests",
+    "timer",
+    "workprocessor",
+    "workqueue"
+  ],
+  "languages": [
+    "C/C++",
+    "C",
+    "C++"
+  ],
+  "maturity": "exploratory",
+  "_hash": "c1e29ad07ca205b8d8ce4cde345a43adf9e5aefb86c5d682d4fb29b56b2e66ec",
+  "_path": "/Users/ember/dev/gh/util",
+  "_updated_at": "2026-02-14T00:56:28.721863Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "cryptography",
+      "datastream",
+      "misc",
+      "socket",
+      "tcpserver",
+      "cmakelists",
+      "common",
+      "array",
+      "asynchashtable",
+      "asynclinkedlist",
+      "asynclist",
+      "asyncqueue",
+      "asyncstack",
+      "database",
+      "doxyfile",
+      "hashtable",
+      "linkedlist",
+      "list",
+      "memory",
+      "postgresql",
+      "queue",
+      "requestserver",
+      "stack",
+      "strings",
+      "tcpclient",
+      "tcpconnection",
+      "thread",
+      "time",
+      "utilities",
+      "websocketconnection",
+      "c utilities",
+      "event",
+      "license",
+      "locked",
+      "main",
+      "optional",
+      "tests",
+      "timer",
+      "workprocessor",
+      "workqueue"
+    ],
+    "tags": [
+      "C/C++",
+      "C",
+      "C++",
+      "cryptography",
+      "datastream",
+      "misc",
+      "socket",
+      "tcpserver",
+      "cmakelists",
+      "common",
+      "array",
+      "asynchashtable",
+      "asynclinkedlist",
+      "asynclist",
+      "asyncqueue",
+      "asyncstack"
+    ],
+    "mined_motifs": [
+      "readme",
+      "posix",
+      "http",
+      "commoncrypto",
+      "commoncryptoerror",
+      "commoncryptor",
+      "commondigest",
+      "commonhmac",
+      "commonkeyderivation",
+      "commonrandom",
+      "commonsymmetrickeywrap",
+      "networking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 4.804,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 4.799,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 4.744,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.398,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 3.349,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.316,
+        "matches": [
+          "postgresql"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.721863Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9c25a4019c03218c57b5405c3ef656f302f9289fe35916e96a573c1fa89f1b02",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:36.915007+00:00"
+  },
+  "mined_motifs": [
+    "readme",
+    "posix",
+    "http",
+    "commoncrypto",
+    "commoncryptoerror",
+    "commoncryptor",
+    "commondigest",
+    "commonhmac",
+    "commonkeyderivation",
+    "commonrandom",
+    "commonsymmetrickeywrap",
+    "networking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "C-Utilities",
+      "path": "/Users/ember/dev/gh/C-Utilities",
+      "similarity": 0.852
+    },
+    {
+      "name": "Utilities",
+      "path": "/Users/ember/dev/gh/Utilities",
+      "similarity": 0.722
+    },
+    {
+      "name": "CommonCrypto",
+      "path": "/Users/ember/src/CommonCrypt/CommonCrypto",
+      "similarity": 0.715
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.71
+    },
+    {
+      "name": "cracked-coconut",
+      "path": "/Users/ember/dev/cracked-coconut",
+      "similarity": 0.68
+    },
+    {
+      "name": "async_ssl",
+      "path": "/Users/ember/dev/async_ssl",
+      "similarity": 0.672
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.661
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.642
+    }
+  ]
+}

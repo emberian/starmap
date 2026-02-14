@@ -1,0 +1,231 @@
+{
+  "name": "lets-build-a-compiler",
+  "description": "A Rust implementation of Jack Crenshaw's 'Let's Build a Compiler' series, targeting x86 assembly generation. The project demonstrates recursive descent parsing, expression translation, control flow structures, and a simple interpreter. It follows a modular structure where different phases of the tutorial (multicharacter tokens, control flow, interpretation) are implemented as distinct modules.",
+  "tags": [
+    "compiler-design",
+    "recursive-descent-parser",
+    "x86-assembly",
+    "rust-lang",
+    "parser-combinators",
+    "code-generation",
+    "educational",
+    "interpreter",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "semantic-analysis",
+    "lookahead-parsing"
+  ],
+  "category": "Recursive Descent Compiler Construction",
+  "concepts": [
+    "Recursive Descent Parsing",
+    "Single-character Lookahead",
+    "Expression Translation",
+    "Control Flow Synthesis",
+    "Backus-Naur Form (BNF)",
+    "Assembly Emission",
+    "Symbol Table Management",
+    "Tokenization",
+    "Arithmetic Expression Evaluation",
+    "Boolean Conditionals",
+    "Iterative Control Structures",
+    "Instruction Selection",
+    "Intermediate Representation",
+    "Error Reporting",
+    "Standard I/O Interfacing"
+  ],
+  "languages": [
+    "Rust",
+    "x86 Assembly"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "src/main.rs",
+      "src/translator_control.rs",
+      "src/translator_multichar.rs",
+      "src/translator_interp.rs",
+      "src/translator.rs"
+    ]
+  },
+  "_hash": "e3e7abf7f854d1945f5cfd38d4181d97aef66edf08db2d801b6dd07fdda932b2",
+  "_path": "/Users/ember/dev/gh/lets-build-a-compiler",
+  "_updated_at": "2026-02-14T00:56:27.574870Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Recursive Descent Parsing",
+      "Single-character Lookahead",
+      "Expression Translation",
+      "Control Flow Synthesis",
+      "Backus-Naur Form (BNF)",
+      "Assembly Emission",
+      "Symbol Table Management",
+      "lexical-analysis",
+      "Arithmetic Expression Evaluation",
+      "Boolean Conditionals",
+      "Iterative Control Structures",
+      "Instruction Selection",
+      "Intermediate Representation",
+      "Error Reporting",
+      "Standard I/O Interfacing"
+    ],
+    "tags": [
+      "Compiler Engineering",
+      "recursive-descent-parser",
+      "x86-assembly",
+      "Rust Language Ecosystem",
+      "parser-combinators",
+      "educational",
+      "interpreter",
+      "AST",
+      "Lexical Analysis",
+      "semantic-analysis",
+      "lookahead-parsing"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "parser",
+      "bison",
+      "flex",
+      "s-expression",
+      "symbol-table",
+      "Lexical Scoping",
+      "AST",
+      "lisp"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 15.407,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 12.411,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression",
+          "category:Recursive Descent Compiler Construction"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.443,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 8.392,
+        "matches": [
+          "lexical analysis",
+          "ast",
+          "parser-combinators"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.592,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.796,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.574870Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "806beeb8a7adddeb3f9a9b90c09f2c1d3199499db1616d37fc846718b1e8a875",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:58.634518+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "parser",
+    "bison",
+    "flex",
+    "s-expression",
+    "symbol-table",
+    "Lexical Scoping",
+    "Abstract Syntax Trees",
+    "lisp"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.915
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.909
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.907
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.903
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.901
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.895
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.891
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.883
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "ants",
+  "description": "ants appears to be a exploratory project using mixed tooling. The available files suggest focus areas around repository structure and source files.",
+  "tags": [],
+  "category": "Exploratory",
+  "concepts": [],
+  "languages": [],
+  "maturity": "exploratory",
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/shitheap/ants",
+  "_updated_at": "2026-02-11T08:55:30.173967Z",
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "095525512e9e0889f0deac5411b56dec9a7ab683fa59abdd6161365cb6507a4b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:37.754371+00:00"
+  },
+  "mined_motifs": [
+    "readme"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.819
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.809
+    },
+    {
+      "name": "fuckin_bullshit",
+      "path": "/Users/ember/dev/shitheap/fuckin_bullshit",
+      "similarity": 0.806
+    },
+    {
+      "name": "jourtress",
+      "path": "/Users/ember/dev/shitheap/jourtress",
+      "similarity": 0.79
+    },
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/shitheap/esgea",
+      "similarity": 0.79
+    },
+    {
+      "name": "spw-workbench",
+      "path": "/Users/ember/src/spw-workbench/__MACOSX/spw-workbench",
+      "similarity": 0.776
+    },
+    {
+      "name": "sscvid",
+      "path": "/Users/ember/dev/sscvid",
+      "similarity": 0.748
+    },
+    {
+      "name": "emberian",
+      "path": "/Users/ember/dev/gh/emberian",
+      "similarity": 0.743
+    }
+  ],
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [],
+    "tags": [],
+    "mined_motifs": [
+      "readme"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 2.056,
+        "matches": []
+      }
+    ],
+    "aligner": "gemini",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-11T08:55:30.173956Z"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "lsm-tree",
+  "description": "A high-performance Log-Structured Merge Tree (LSMT) implementation in Rust designed as a modular storage primitive for key-value engines. It features block-based SSTables with partitioned indexes, Bloom filters for optimized point lookups, and diverse compaction strategies including Leveled, Size-Tiered, and FIFO. The architecture supports MVCC via snapshots, multi-threaded memtable flushing, and optional key-value separation to mitigate write amplification in blob-heavy workloads.",
+  "tags": [
+    "lsmt",
+    "rust",
+    "database-engine",
+    "storage",
+    "sstable",
+    "compaction",
+    "mvcc",
+    "bloom-filter",
+    "key-value-store",
+    "block-cache",
+    "blob-tree",
+    "memtable"
+  ],
+  "category": "Log-Structured Merge Trees",
+  "concepts": [
+    "Log-Structured Merge Tree",
+    "Sorted String Table (SST)",
+    "Memtable",
+    "Leveled Compaction",
+    "Size-Tiered Compaction",
+    "FIFO Compaction",
+    "Bloom Filter",
+    "Multi-Version Concurrency Control (MVCC)",
+    "Key-Value Separation",
+    "Partitioned Index",
+    "Block Caching",
+    "Snapshot Isolation",
+    "Tombstone Management",
+    "Write Amplification Reduction",
+    "SkipList",
+    "Atomic Manifest Updates",
+    "Sequence Numbers",
+    "Forward and Reverse Iteration",
+    "Range Queries",
+    "Data Integrity Checksums"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 175,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "examples/kv/src/main.rs",
+      "src/blob_tree/gc/mod.rs",
+      "src/blob_tree/mod.rs",
+      "src/bloom/mod.rs"
+    ]
+  },
+  "_hash": "09e6ef399f0862e7ad67cce3ca9f40ad485778725b37c54986eeeff565d7a429",
+  "_path": "/Users/ember/src/lsm-tree",
+  "_updated_at": "2026-02-14T00:56:33.136477Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0c7af2f9d01f655c39c5e0ced2e01ec52c099b0f11c35ab1fb7649bf774e2a06",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:38.976643+00:00"
+  },
+  "mined_motifs": [
+    "data-structures",
+    "embedded-database",
+    "persistence",
+    "storage-engine",
+    "snapshot-isolation",
+    "ACID Transactions",
+    "Copy-on-Write (CoW)",
+    "Page Allocation",
+    "acid",
+    "copy-on-write",
+    "transactional",
+    "Atomic Write Batches"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fjall",
+      "path": "/Users/ember/src/fjall",
+      "similarity": 0.928
+    },
+    {
+      "name": "redb",
+      "path": "/Users/ember/dev/redb",
+      "similarity": 0.831
+    },
+    {
+      "name": "persy",
+      "path": "/Users/ember/src/persy",
+      "similarity": 0.824
+    },
+    {
+      "name": "derpfs",
+      "path": "/Users/ember/dev/gh/derpfs",
+      "similarity": 0.79
+    },
+    {
+      "name": "tj-binomheap",
+      "path": "/Users/ember/dev/shitheap/tj-binomheap",
+      "similarity": 0.789
+    },
+    {
+      "name": "cons-list",
+      "path": "/Users/ember/dev/gh/forks/cons-list",
+      "similarity": 0.783
+    },
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.782
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.78
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Log-Structured Merge Tree",
+      "Sorted String Table (SST)",
+      "Memtable",
+      "Leveled Compaction",
+      "Size-Tiered Compaction",
+      "FIFO Compaction",
+      "Bloom Filter",
+      "Multi-Version Concurrency Control (MVCC)",
+      "Key-Value Separation",
+      "Partitioned Index",
+      "Block Caching",
+      "Snapshot Isolation",
+      "Tombstone Management",
+      "Write Amplification Reduction",
+      "SkipList",
+      "Atomic Manifest Updates",
+      "Sequence Numbers",
+      "Forward and Reverse Iteration",
+      "Range Queries",
+      "Data Integrity Checksums"
+    ],
+    "tags": [
+      "lsmt",
+      "Rust Language Ecosystem",
+      "database-engine",
+      "storage",
+      "sstable",
+      "compaction",
+      "mvcc",
+      "bloom-filter",
+      "key-value-store",
+      "block-cache",
+      "blob-tree",
+      "memtable"
+    ],
+    "mined_motifs": [
+      "data-structures",
+      "embedded-database",
+      "persistence",
+      "storage-engine",
+      "snapshot-isolation",
+      "ACID Transactions",
+      "Copy-on-Write (CoW)",
+      "Page Allocation",
+      "acid",
+      "copy-on-write",
+      "transactional",
+      "Atomic Write Batches"
+    ],
+    "metaconstellations": [
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 12.607,
+        "matches": [
+          "acid transactions",
+          "copy-on-write",
+          "mvcc",
+          "persistence",
+          "storage-engine"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 12.183,
+        "matches": [
+          "acid",
+          "mvcc",
+          "persistence",
+          "category:Log-Structured Merge Trees"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 5.407,
+        "matches": [
+          "acid transactions"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.312,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.305,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.495,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.136477Z"
+  }
+}

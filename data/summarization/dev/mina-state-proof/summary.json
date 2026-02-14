@@ -1,0 +1,243 @@
+{
+  "name": "mina-state-proof",
+  "description": "An In-EVM verification framework for Mina Protocol state and account proofs, enabling trustless cross-chain interoperability on Ethereum. The system utilizes the Placeholder proof system—a PLONK-based SNARK—implemented as a series of Solidity verifier contracts for various arithmetic gates and commitment schemes. It provides a complete Hardhat-based development environment for deploying verifiers, validating ledger state proofs, and verifying account-specific Merkle paths within the EVM.",
+  "tags": [
+    "mina-protocol",
+    "zero-knowledge-proofs",
+    "solidity",
+    "ethereum",
+    "evm",
+    "placeholder-verifier",
+    "plonk",
+    "blockchain-bridge",
+    "cryptography",
+    "hardhat",
+    "zkllvm",
+    "interoperability",
+    "smart-contracts",
+    "succinct-verification"
+  ],
+  "category": "In-EVM Succinct Verification",
+  "concepts": [
+    "PLONK Proof System",
+    "Placeholder Verifier",
+    "FRI Commitment",
+    "LPC Commitment",
+    "Polynomial IOP",
+    "Arithmetic Gates",
+    "Recursive Proofs",
+    "Merkle Path Verification",
+    "Poseidon Hash",
+    "Elliptic Curve Cryptography",
+    "Constraint Systems",
+    "Solidity Verifier Generation",
+    "Cross-chain State Validation",
+    "Mina Consensus Verification",
+    "Gate Arguments",
+    "Permutation Arguments",
+    "Transcript Simulation"
+  ],
+  "languages": [
+    "TypeScript",
+    "Solidity",
+    "C++",
+    "Python",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 462,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "examples/mina-add-zkapp/src/index.ts",
+      "typechain-types/@nilfoundation/evm-placeholder-verification/contracts/index.ts",
+      "typechain-types/@nilfoundation/evm-placeholder-verification/contracts/interfaces/gate_argument.sol/index.ts",
+      "typechain-types/@nilfoundation/evm-placeholder-verification/contracts/interfaces/index.ts"
+    ]
+  },
+  "_hash": "d6e840cb370ea72fa150bf8b989cd2298e2d419a9adc8ffcb7df47ea5771604b",
+  "_path": "/Users/ember/dev/mina-state-proof",
+  "_updated_at": "2026-02-14T00:56:29.366986Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "PLONK Proof System",
+      "Placeholder Verifier",
+      "FRI Commitment",
+      "LPC Commitment",
+      "Polynomial IOP",
+      "Arithmetic Gates",
+      "Recursive Proofs",
+      "Merkle Path Verification",
+      "Poseidon Hash",
+      "Elliptic Curve Cryptography",
+      "Constraint Systems",
+      "Solidity Verifier Generation",
+      "Cross-chain State Validation",
+      "Mina Consensus Verification",
+      "Gate Arguments",
+      "Permutation Arguments",
+      "Transcript Simulation"
+    ],
+    "tags": [
+      "Mina Protocol",
+      "Zero-Knowledge Proofs (ZKP)",
+      "solidity",
+      "ethereum",
+      "evm",
+      "placeholder-verifier",
+      "plonk",
+      "blockchain-bridge",
+      "cryptography",
+      "hardhat",
+      "zkllvm",
+      "interoperability",
+      "smart-contracts",
+      "succinct-verification"
+    ],
+    "mined_motifs": [
+      "Ouroboros Samasika Consensus",
+      "libp2p",
+      "zero-knowledge-proofs",
+      "blockchain",
+      "Kimchi Proof System",
+      "zkApps",
+      "Proof-of-Stake",
+      "o1js",
+      "typescript",
+      "Staged Ledger",
+      "Rust Language Ecosystem"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 9.682,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "plonk"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.679,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 8.264,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js",
+          "plonk"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.232,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.896,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 6.879,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.366986Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "784d14206edd425c23d14eaa9fcf8ab83706bf64446eac637e65196eb2f52786",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:58.325962+00:00"
+  },
+  "mined_motifs": [
+    "Ouroboros Samasika Consensus",
+    "libp2p",
+    "Recursive SNARKs",
+    "blockchain",
+    "Kimchi Proof System",
+    "zkApps",
+    "Proof-of-Stake",
+    "o1js",
+    "typescript",
+    "Staged Ledger",
+    "rust",
+    "proof-of-stake"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "verimina",
+      "path": "/Users/ember/dev/verimina",
+      "similarity": 0.894
+    },
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.879
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.879
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.877
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.871
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.867
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.866
+    },
+    {
+      "name": "o1js-groth16",
+      "path": "/Users/ember/dev/o1js-groth16",
+      "similarity": 0.866
+    }
+  ]
+}

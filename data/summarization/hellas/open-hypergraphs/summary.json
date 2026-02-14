@@ -1,0 +1,268 @@
+{
+  "name": "open-hypergraphs",
+  "description": "A high-performance Rust library implementing data-parallel algorithms for open hypergraphs and string diagrams as described in contemporary applied category theory research. It facilitates the algebraic construction of multi-input/multi-output operation networks through tensor products and composition, featuring built-in support for functors and optic transformations for reverse differentiation. The implementation provides both a mutable lax interface for term building and a strict, parallelizable representation optimized for large-scale evaluation and automatic differentiation.",
+  "tags": [
+    "open-hypergraph",
+    "string-diagram",
+    "category-theory",
+    "data-parallel",
+    "automatic-differentiation",
+    "optic",
+    "cospan",
+    "monoidal-category",
+    "differentiable-programming",
+    "finite-function",
+    "indexed-coproduct",
+    "hypergraph",
+    "semifinite-function",
+    "rust"
+  ],
+  "category": "Categorical String Diagram Computation",
+  "concepts": [
+    "String Diagram",
+    "Symmetric Monoidal Category",
+    "Data Parallelism",
+    "Optic Transformation",
+    "Reverse Differentiation",
+    "Cospan of Hypergraphs",
+    "Hyperedge Mapping",
+    "Lax Representation",
+    "Strict Representation",
+    "Finite Function",
+    "Indexed Coproduct",
+    "Semifinite Function",
+    "Polynomial Circuit",
+    "Automatic Differentiation",
+    "Gradient-Based Learning",
+    "Hypergraph Morphism",
+    "Functorial Mapping",
+    "Quotient Map",
+    "Array-Based Backend",
+    "Connected Components",
+    "Coequalizer",
+    "Monoidal Product",
+    "Arrow Composition",
+    "Spider Representation",
+    "Identity Functor",
+    "Tensor Product",
+    "Layered Diagram Evaluation",
+    "Interaction Nets",
+    "Categorical Logic",
+    "Symbolic Computation",
+    "Syntax Tree Alternative",
+    "Differentiable Programming",
+    "Graph-Based Syntax",
+    "Algebraic Construction",
+    "Compositional Semantics"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 87,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/array/mod.rs",
+      "src/array/vec/mod.rs",
+      "src/category/mod.rs",
+      "src/finite_function/mod.rs"
+    ]
+  },
+  "_hash": "ccbe74e51a6f19d901031a3007f19269f4c6b544d1c8af29f853d4307509609e",
+  "_path": "/Users/ember/hellas/open-hypergraphs",
+  "_updated_at": "2026-02-14T00:56:31.634959Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5bad24bd93b37e28fe136ce5fd603ac3aebe0cedc642e6f4562817e8cde15532",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:39.006374+00:00"
+  },
+  "mined_motifs": [
+    "Memory Mapping",
+    "transformer",
+    "e-graphs",
+    "safetensors",
+    "GPGPU",
+    "gpgpu",
+    "opencl",
+    "parallel-computing",
+    "memory-management",
+    "Attention Mechanisms",
+    "CPU Kernel Optimization",
+    "Categorical Composition"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.824
+    },
+    {
+      "name": "opencl3",
+      "path": "/Users/ember/src/opencl3",
+      "similarity": 0.8
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/catgrad",
+      "similarity": 0.787
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.779
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.77
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.768
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.768
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.767
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "String Diagram",
+      "Symmetric Monoidal Category",
+      "Data Parallelism",
+      "Optic Transformation",
+      "Reverse Differentiation",
+      "Cospan of Hypergraphs",
+      "Hyperedge Mapping",
+      "Lax Representation",
+      "Strict Representation",
+      "Finite Function",
+      "Indexed Coproduct",
+      "Semifinite Function",
+      "Polynomial Circuit",
+      "Automatic Differentiation",
+      "Gradient-Based Learning",
+      "Hypergraph Morphism",
+      "Functorial Mapping",
+      "Quotient Map",
+      "Array-Based Backend",
+      "Connected Components",
+      "Coequalizer",
+      "Monoidal Product",
+      "Arrow Composition",
+      "Spider Representation",
+      "Identity Functor",
+      "Tensor Product",
+      "Layered Diagram Evaluation",
+      "Interaction Nets",
+      "category-theory",
+      "Symbolic Computation",
+      "Syntax Tree Alternative",
+      "Differentiable Programming",
+      "Graph-Based Syntax",
+      "Algebraic Construction",
+      "Compositional Semantics"
+    ],
+    "tags": [
+      "open-hypergraph",
+      "string-diagram",
+      "category-theory",
+      "data-parallel",
+      "automatic-differentiation",
+      "optic",
+      "cospan",
+      "monoidal-category",
+      "differentiable-programming",
+      "finite-function",
+      "indexed-coproduct",
+      "hypergraph",
+      "semifinite-function",
+      "Rust Language Ecosystem"
+    ],
+    "mined_motifs": [
+      "Memory Mapping",
+      "transformer",
+      "e-graphs",
+      "safetensors",
+      "GPGPU Compute",
+      "opencl",
+      "concurrency",
+      "Memory Management",
+      "Attention Mechanisms",
+      "CPU Kernel Optimization",
+      "Categorical Composition"
+    ],
+    "metaconstellations": [
+      {
+        "id": "algebraic-optimization-compilers",
+        "name": "Algebraic Optimization & Categorical Compilers",
+        "score": 8.244,
+        "matches": [
+          "category-theory",
+          "e-graphs"
+        ]
+      },
+      {
+        "id": "topological-information-design",
+        "name": "Topological Information Design",
+        "score": 5.463,
+        "matches": [
+          "category-theory"
+        ]
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 5.265,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.23,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.229,
+        "matches": [
+          "concurrency"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.226,
+        "matches": [
+          "gpgpu compute"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.634959Z"
+  }
+}

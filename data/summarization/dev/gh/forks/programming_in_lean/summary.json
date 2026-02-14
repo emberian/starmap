@@ -1,0 +1,238 @@
+{
+  "name": "programming_in_lean",
+  "description": "An educational resource and interactive tutorial for programming and formal verification using the Lean theorem prover. It leverages Emacs Org-mode to generate structured HTML and PDF documentation while providing integrated testing for Lean code snippets. The project covers foundational concepts from basic data types and recursion to advanced topics like monads, tactic writing, and proof automation.",
+  "tags": [
+    "lean-prover",
+    "formal-verification",
+    "functional-programming",
+    "interactive-theorem-proving",
+    "org-mode",
+    "documentation-generator",
+    "automated-reasoning",
+    "tactic-programming",
+    "monads",
+    "type-classes",
+    "formal-methods",
+    "proof-assistant",
+    "lean-mode",
+    "dependent-types",
+    "literate-programming"
+  ],
+  "category": "Interactive Theorem Proving",
+  "concepts": [
+    "dependent type theory",
+    "formal verification",
+    "monadic programming",
+    "tactic-based proof construction",
+    "metaprogramming in Lean",
+    "type class synthesis",
+    "structural recursion",
+    "program correctness",
+    "automated theorem proving",
+    "proof automation",
+    "denotational semantics",
+    "functional correctness",
+    "inductive types",
+    "interactive proof assistants",
+    "literate programming",
+    "computational logic"
+  ],
+  "languages": [
+    "Lean",
+    "Emacs Lisp",
+    "Shell",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "deploy.sh"
+    ]
+  },
+  "_hash": "8f215ce41f77e152eec628a09f036a578701047f524381f68cc1d73a3846385a",
+  "_path": "/Users/ember/dev/gh/forks/programming_in_lean",
+  "_updated_at": "2026-02-14T00:56:26.360600Z",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "dependent type theory",
+      "formal verification",
+      "monadic programming",
+      "tactic-based proof construction",
+      "metaprogramming in Lean",
+      "type class synthesis",
+      "structural recursion",
+      "program correctness",
+      "automated theorem proving",
+      "proof automation",
+      "denotational semantics",
+      "functional correctness",
+      "inductive types",
+      "interactive proof assistants",
+      "literate programming",
+      "computational logic"
+    ],
+    "tags": [
+      "lean-prover",
+      "formal-methods",
+      "functional-programming",
+      "Interactive Theorem Proving (ITP)",
+      "org-mode",
+      "documentation-generator",
+      "automated-reasoning",
+      "tactic-programming",
+      "monads",
+      "type-classes",
+      "formal-verification",
+      "lean-mode",
+      "dependent-types",
+      "literate-programming"
+    ],
+    "mined_motifs": [
+      "logic",
+      "Interactive Theorem Proving (ITP)",
+      "Order Theory",
+      "mathematics",
+      "Type Class Inference",
+      "Child Process Communication",
+      "Context-Aware Completion",
+      "Elaboration Diagnostics",
+      "Go-to-Definition",
+      "Language Server Protocol",
+      "Mathematical Notation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 12.31,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.31,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.296,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 8.229,
+        "matches": [
+          "dependent type theory",
+          "formal-verification",
+          "category:Interactive Theorem Proving"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.95,
+        "matches": [
+          "formal verification",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.543,
+        "matches": [
+          "formal-methods"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.360600Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b048a7fa6435fd99ed421dfd340503b8e272f0d7ea812984b6d897333a590759",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:02.725941+00:00"
+  },
+  "mined_motifs": [
+    "logic",
+    "theorem-prover",
+    "Order Theory",
+    "mathematics",
+    "Type Class Inference",
+    "theorem-proving",
+    "Child Process Communication",
+    "Context-Aware Completion",
+    "Elaboration Diagnostics",
+    "Go-to-Definition",
+    "Language Server Protocol",
+    "Mathematical Notation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.922
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.884
+    },
+    {
+      "name": "library_dev",
+      "path": "/Users/ember/dev/gh/forks/library_dev",
+      "similarity": 0.881
+    },
+    {
+      "name": "lean",
+      "path": "/Users/ember/dev/gh/forks/lean",
+      "similarity": 0.875
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.868
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.865
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.851
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.851
+    }
+  ]
+}

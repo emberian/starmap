@@ -1,0 +1,284 @@
+{
+  "name": "Gerbil Scheme",
+  "description": "Gerbil is a high-performance, systems-oriented dialect of Scheme that extends the Gambit runtime with a sophisticated macro and module system. It features a native implementation of syntax-case and a full meta-syntactic tower, enabling advanced metaprogramming while maintaining efficient ahead-of-time compilation via single-instantiation modules. The project provides an extensive standard library supporting actor-oriented distributed programming, database interfacing, and low-level POSIX systems integration.",
+  "tags": [
+    "scheme",
+    "lisp",
+    "compiler",
+    "runtime",
+    "gambit",
+    "systems-programming",
+    "metaprogramming",
+    "macros",
+    "aot",
+    "distributed-systems",
+    "actor-model",
+    "ffi",
+    "posix",
+    "mop"
+  ],
+  "category": "Systems-Oriented Scheme Dialect",
+  "concepts": [
+    "Meta-Object Protocol",
+    "Actor Model",
+    "Syntax-case",
+    "Ahead-of-Time Compilation",
+    "Single Instantiation Modules",
+    "Foreign Function Interface",
+    "Meta-syntactic Tower",
+    "LL(1) Parser Generation",
+    "JSON-RPC",
+    "SXML",
+    "Protobuf Serialization",
+    "Distributed Computing",
+    "Concurrent Programming",
+    "POSIX Systems Programming",
+    "Gambit Runtime Integration",
+    "Static Analysis",
+    "Bytecode Generation",
+    "Tail Call Optimization",
+    "Hygiene-Preserving Macros",
+    "R7RS Compatibility",
+    "SRFI Compliance",
+    "Actor-oriented Programming",
+    "Database Interface (DBI)",
+    "WebSocket Protocol",
+    "HTTP Server Implementation",
+    "TLS/SSL Integration",
+    "Zlib Compression",
+    "C3 Linearization",
+    "Coroutines",
+    "Lazy Evaluation",
+    "Red-Black Trees",
+    "LRU Caching",
+    "UUID Generation",
+    "Base64/Base58 Encoding",
+    "Event-driven Programming",
+    "Signal Handling",
+    "File Descriptor I/O",
+    "Symmetric Key Cryptography"
+  ],
+  "languages": [
+    "Scheme",
+    "C",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1425,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "src/build.sh",
+      "src/std/crypto/libcrypto-rfc5114.c",
+      "src/gerbil/boot-gxi.c",
+      "install.sh"
+    ]
+  },
+  "_hash": "4cab11a472932e82a1067f11811ec7f069a277da9722feac669369fbab1265a2",
+  "_path": "/Users/ember/dev/gerbil",
+  "_updated_at": "2026-02-14T00:56:24.198464Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Meta-Object Protocol",
+      "Actor Model",
+      "Syntax-case",
+      "Ahead-of-Time Compilation",
+      "Single Instantiation Modules",
+      "foreign-function-interface",
+      "Meta-syntactic Tower",
+      "LL(1) Parser Generation",
+      "JSON-RPC",
+      "SXML",
+      "Protobuf Serialization",
+      "Distributed Computing",
+      "Concurrent Programming",
+      "POSIX Systems Programming",
+      "Gambit Runtime Integration",
+      "Static Analysis",
+      "Bytecode Generation",
+      "Tail Call Optimization",
+      "Hygiene-Preserving Macros",
+      "R7RS Compatibility",
+      "SRFI Compliance",
+      "Actor-oriented Programming",
+      "Database Interface (DBI)",
+      "WebSocket Protocol",
+      "HTTP Server Implementation",
+      "TLS/SSL Integration",
+      "Zlib Compression",
+      "C3 Linearization",
+      "Coroutines",
+      "Lazy Evaluation",
+      "Red-Black Trees",
+      "LRU Caching",
+      "UUID Generation",
+      "Base64/Base58 Encoding",
+      "Event-driven Programming",
+      "Signal Handling",
+      "File Descriptor I/O",
+      "Symmetric Key Cryptography"
+    ],
+    "tags": [
+      "scheme",
+      "lisp",
+      "compiler-design",
+      "runtime",
+      "gambit",
+      "Systems Programming",
+      "metaprogramming",
+      "macros",
+      "aot",
+      "distributed-systems",
+      "actor-model",
+      "foreign-function-interface",
+      "posix",
+      "mop"
+    ],
+    "mined_motifs": [
+      "capability-security",
+      "racket",
+      "functional-programming",
+      "systems-programming",
+      "Data Serialization",
+      "zero-copy",
+      "Rust Language Ecosystem",
+      "Foreign Function Interface",
+      "linker",
+      "Asynchronous Message Passing",
+      "Bootstrapping Capabilities",
+      "Broken Promises"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 13.854,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "linker",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.659,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.249,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.84,
+        "matches": [
+          "foreign function interface",
+          "runtime"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.493,
+        "matches": [
+          "capability-security"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.483,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.198464Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0f3637457ef12cef30eca3a3c95c2214b5921fb31a9e003694e3352f308e7805",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:11.893499+00:00"
+  },
+  "mined_motifs": [
+    "capability-security",
+    "racket",
+    "functional-programming",
+    "low-level",
+    "serialization",
+    "zero-copy",
+    "rust",
+    "C Interoperability",
+    "linker",
+    "Asynchronous Message Passing",
+    "Bootstrapping Capabilities",
+    "Broken Promises"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.874
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.869
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.854
+    },
+    {
+      "name": "Zig",
+      "path": "/Users/ember/src/zig",
+      "similarity": 0.844
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.843
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.841
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.84
+    }
+  ]
+}

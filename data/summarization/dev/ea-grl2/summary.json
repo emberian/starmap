@@ -1,0 +1,267 @@
+{
+  "name": "ea-grl2",
+  "description": "A high-performance, decentralized 3D engine and virtual world platform built on the Matrix protocol, forked from Third Room. It implements a multi-threaded architecture using bitECS for state management, Three.js for rendering, and Rapier3D for physics, synchronized across federated nodes. The system features a programmable scripting runtime (WebSG) powered by QuickJS and WebAssembly, enabling rich interactivity within cryptographically verified spatial environments.",
+  "tags": [
+    "metaverse",
+    "matrix-protocol",
+    "ecs",
+    "webassembly",
+    "quickjs",
+    "gltf",
+    "threejs",
+    "decentralized",
+    "multiplayer",
+    "physics-engine",
+    "webxr",
+    "spatial-audio",
+    "typescript",
+    "webrtc",
+    "react",
+    "p2p"
+  ],
+  "category": "Decentralized Metaverse Engine",
+  "concepts": [
+    "Entity Component System",
+    "Triple Buffering",
+    "WASM Scripting Runtime",
+    "Federated Real-time Communication",
+    "GLTF Extension Pipelines",
+    "Physically Based Rendering",
+    "Kinematic Character Controllers",
+    "Network State Interpolation",
+    "Matrix Room Replication",
+    "End-to-End Encryption",
+    "Geospatial 3D Tiles",
+    "Audio Spatialization",
+    "Reflection Probes",
+    "Lightmap Baking",
+    "Input Remapping",
+    "Avatar Rigging",
+    "Trigger Volumes",
+    "OffscreenCanvas Rendering",
+    "MessagePort Synchronization",
+    "SharedArrayBuffer Serialization",
+    "Bit-packed Component Storage",
+    "Asset Pipeline Optimization",
+    "Scene Graph Traversal",
+    "Raycasting",
+    "Collision Filtering",
+    "Bloom Post-processing",
+    "WebXR Avatar Rigs",
+    "Service Worker Caching",
+    "Object Pooling",
+    "Inter-thread Communication"
+  ],
+  "languages": [
+    "TypeScript",
+    "C",
+    "C++",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1083,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/engine/renderer/materials/index.ts",
+      "src/ui/views/session/chat/tiles/index.tsx",
+      "src/ui/views/session/world-chat/tiles/index.tsx",
+      "src/engine/scripting/websg.ts"
+    ]
+  },
+  "_hash": "6101b3fbcccd170e39a385719ce53339942609a444c1b48f9816e497f97ebb75",
+  "_path": "/Users/ember/dev/ea-grl2",
+  "_updated_at": "2026-02-14T00:56:23.767605Z",
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Entity Component System",
+      "Triple Buffering",
+      "WASM Scripting Runtime",
+      "Federated Real-time Communication",
+      "GLTF Extension Pipelines",
+      "Physically Based Rendering",
+      "Kinematic Character Controllers",
+      "Network State Interpolation",
+      "Matrix Room Replication",
+      "End-to-End Encryption",
+      "Geospatial 3D Tiles",
+      "Audio Spatialization",
+      "Reflection Probes",
+      "Lightmap Baking",
+      "Input Remapping",
+      "Avatar Rigging",
+      "Trigger Volumes",
+      "OffscreenCanvas Rendering",
+      "MessagePort Synchronization",
+      "SharedArrayBuffer Serialization",
+      "Bit-packed Component Storage",
+      "Asset Pipeline Optimization",
+      "Scene Graph Traversal",
+      "Raycasting",
+      "Collision Filtering",
+      "Bloom Post-processing",
+      "WebXR Avatar Rigs",
+      "Service Worker Caching",
+      "Object Pooling",
+      "Inter-thread Communication"
+    ],
+    "tags": [
+      "metaverse",
+      "matrix-protocol",
+      "ecs",
+      "webassembly",
+      "quickjs",
+      "gltf",
+      "threejs",
+      "decentralized",
+      "multiplayer",
+      "physics-engine",
+      "webxr",
+      "spatial-audio",
+      "typescript",
+      "webrtc",
+      "react",
+      "p2p"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "webgl",
+      "WebAssembly",
+      "End-to-End Encryption (E2EE)",
+      "Resource Management",
+      "game-engine",
+      "nix",
+      "Procedural Generation",
+      "graphics-engine",
+      "opengl",
+      "Asynchronous Asset Loading",
+      "Deterministic Physics Simulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 8.148,
+        "matches": [
+          "ecs",
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.365,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.328,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.319,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.292,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.292,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.767605Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "41514367a0b0cc148f7b0df1436f6f9e5568f805e570411ee12c65c9c844172d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:57.431420+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "webgl",
+    "wasm",
+    "End-to-End Encryption (E2EE)",
+    "Resource Management",
+    "game-engine",
+    "nix",
+    "procedural-generation",
+    "graphics-engine",
+    "opengl",
+    "Asynchronous Asset Loading",
+    "Deterministic Physics Simulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/gh/forks/ea-grl",
+      "similarity": 0.945
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.804
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.799
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.773
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.772
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.771
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.77
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.764
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "name": "gfx-rs",
+  "description": "A high-performance, type-safe, and bindless graphics abstraction layer for Rust that provides a unified API over low-level backends like OpenGL. It leverages procedural macros to enforce static safety for shader parameters and vertex formats, effectively eliminating common pitfalls associated with global state and manual resource binding. The architecture is designed to be orthogonal to windowing contexts and math libraries, focusing on minimal-latency rendering operations.",
+  "tags": [
+    "rust",
+    "graphics-api",
+    "opengl",
+    "rendering",
+    "low-level",
+    "type-safety",
+    "bindless-rendering",
+    "gpu-programming",
+    "hardware-abstraction",
+    "shader-parameters",
+    "cross-platform",
+    "macro-system"
+  ],
+  "category": "Graphics Hardware Abstraction Layer",
+  "concepts": [
+    "Bindless Rendering",
+    "Hardware Abstraction Layer (HAL)",
+    "Type-Safe Graphics",
+    "Shader Parameter Mapping",
+    "Vertex Format Specification",
+    "Command Buffer Recording",
+    "Pipeline State Management",
+    "Resource Handle Management",
+    "Cross-Platform Rendering",
+    "Static Verification",
+    "Draw Call Abstraction",
+    "Texture Unit Management",
+    "Framebuffer Targets",
+    "Asynchronous Submission",
+    "Primitive Topology",
+    "Uniform Blocks",
+    "Mapped Buffers",
+    "Depth-Stencil State",
+    "Blending Modes",
+    "Attribute Slotting",
+    "Device Capabilities",
+    "Render Passes",
+    "Macro-based Code Generation",
+    "Memory Safety",
+    "Internal State Caching",
+    "Batch Rendering"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 49,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "examples/cube/main.rs",
+      "examples/glutin/main.rs",
+      "examples/performance/main.rs"
+    ]
+  },
+  "_hash": "ecafccf9b670adc238d9397e0a4729339950985398fdcaae42b7ca756558f108",
+  "_path": "/Users/ember/dev/gh/forks/gfx-rs",
+  "_updated_at": "2026-02-14T00:56:25.549012Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Bindless Rendering",
+      "Hardware Abstraction Layer (HAL)",
+      "Type-Safe Graphics",
+      "Shader Parameter Mapping",
+      "Vertex Format Specification",
+      "Command Buffer Recording",
+      "Pipeline State Management",
+      "Resource Handle Management",
+      "Cross-Platform Rendering",
+      "Static Verification",
+      "Draw Call Abstraction",
+      "Texture Unit Management",
+      "Framebuffer Targets",
+      "Asynchronous Submission",
+      "Primitive Topology",
+      "Uniform Blocks",
+      "Mapped Buffers",
+      "Depth-Stencil State",
+      "Blending Modes",
+      "Attribute Slotting",
+      "Device Capabilities",
+      "Render Passes",
+      "Macro-based Code Generation",
+      "Memory Safety",
+      "Internal State Caching",
+      "Batch Rendering"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "graphics-api",
+      "opengl",
+      "Computer Graphics & Rendering",
+      "systems-programming",
+      "type-safety",
+      "bindless-rendering",
+      "gpu-programming",
+      "hardware-abstraction",
+      "shader-parameters",
+      "cross-platform",
+      "macro-system"
+    ],
+    "mined_motifs": [
+      "gpu",
+      "glsl",
+      "Command Queue Management",
+      "shader-compilation",
+      "texture-mapping",
+      "gfx-rs",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "cuda"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.33,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 7.044,
+        "matches": [
+          "hardware abstraction layer (hal)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 7.025,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.551,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.543,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.512,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.549012Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "db425fc6c22d8552e0ce40c61e121100ff2670f1cc57f54e48b71673e92b5b0b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:34.002289+00:00"
+  },
+  "mined_motifs": [
+    "gpu",
+    "glsl",
+    "Command Queue Management",
+    "shader-compilation",
+    "texture-mapping",
+    "gfx-rs",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "cuda"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.923
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.916
+    },
+    {
+      "name": "gfx-rs.github.io",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+      "similarity": 0.902
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.897
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.894
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.892
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.89
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.889
+    }
+  ]
+}

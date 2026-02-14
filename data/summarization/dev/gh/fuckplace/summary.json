@@ -1,0 +1,217 @@
+{
+  "name": "fuckplace",
+  "description": "fuckplace is a specialized automation utility implemented in Rust designed to flood a distributed collaborative canvas with specific pixel data via WebSockets. The tool employs a multi-threaded architecture to decouple message transmission from reception, maintaining persistent connectivity and handling protocol-level control frames like Pings. It systematically iterates across a 500x500 coordinate space to synchronize a uniform state across the remote canvas interface.",
+  "tags": [
+    "rust",
+    "websocket",
+    "automation",
+    "concurrency",
+    "canvas",
+    "bot",
+    "networking",
+    "pixel-art",
+    "distributed-state"
+  ],
+  "category": "Collaborative Canvas Automation",
+  "concepts": [
+    "WebSocket Protocol",
+    "Protocol Control Frames",
+    "Ping-Pong Heartbeat",
+    "MPSC Channel Communication",
+    "Multi-threaded Execution",
+    "Coordinate Space Iteration",
+    "JSON Payload Serialization",
+    "Network Socket Splitting",
+    "Insecure WebSocket Handshaking",
+    "State Synchronization Flooding",
+    "Concurrent I/O Multiplexing",
+    "Transmission/Reception Decoupling",
+    "Systematic Data Injection",
+    "Real-time Protocol Handling",
+    "Thread Lifecycle Management"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "25c35857e9fbe2d618a65ef12d5e9314157b17edda0e9a0eb7555e9141650f46",
+  "_path": "/Users/ember/dev/gh/fuckplace",
+  "_updated_at": "2026-02-14T00:56:27.227814Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "WebSocket Protocol",
+      "Protocol Control Frames",
+      "Ping-Pong Heartbeat",
+      "MPSC Channel Communication",
+      "Multi-threaded Execution",
+      "Coordinate Space Iteration",
+      "JSON Payload Serialization",
+      "Network Socket Splitting",
+      "Insecure WebSocket Handshaking",
+      "State Synchronization Flooding",
+      "Concurrent I/O Multiplexing",
+      "Transmission/Reception Decoupling",
+      "Systematic Data Injection",
+      "Real-time Protocol Handling",
+      "Thread Lifecycle Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "websocket",
+      "automation",
+      "Concurrency & Synchronization",
+      "canvas",
+      "bot",
+      "networking",
+      "pixel-art",
+      "distributed-state"
+    ],
+    "mined_motifs": [
+      "axum",
+      "Asynchronous Programming",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "backend",
+      "microservice",
+      "WebAssembly",
+      "Asynchronous I/O",
+      "http-server",
+      "distributed-systems",
+      "Asynchronous Task Scheduling",
+      "Trait-based Extensions"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.578,
+        "matches": [
+          "distributed-systems",
+          "websocket"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 6.372,
+        "matches": [
+          "automation",
+          "category:Collaborative Canvas Automation"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.212,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.198,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.194,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.191,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.227814Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4b0d67151c8048ac94ba19450e810fd21aafbcb15eca683196dd5f169c3a5ad9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:43.526709+00:00"
+  },
+  "mined_motifs": [
+    "axum",
+    "tokio",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "backend",
+    "microservice",
+    "wasm",
+    "Asynchronous I/O",
+    "http-server",
+    "distributed-systems",
+    "Asynchronous Task Scheduling",
+    "Trait-based Extensions"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ruplace-target",
+      "path": "/Users/ember/dev/gh/forks/ruplace-target",
+      "similarity": 0.773
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.77
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.755
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.753
+    },
+    {
+      "name": "visualizers",
+      "path": "/Users/ember/hellas/hades-v0/visualizers",
+      "similarity": 0.753
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.748
+    },
+    {
+      "name": "persistent",
+      "path": "/Users/ember/dev/gh/forks/persistent",
+      "similarity": 0.744
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.741
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "name": "infra",
+  "description": "A NixOS-based infrastructure repository for Hellas AI's EZGen platform, leveraging Colmena for multi-host deployment and Disko for declarative ZFS storage orchestration. It implements a custom secret management layer using GPG-encrypted pass stores and Nix library helpers to securely inject environment variables into distributed Rust services. The system integrates a comprehensive observability stack including Prometheus, Grafana, Loki, and Jaeger across Hetzner-based compute nodes.",
+  "tags": [
+    "nixos",
+    "colmena",
+    "flake",
+    "disko",
+    "zfs",
+    "hetzner",
+    "prometheus",
+    "grafana",
+    "jaeger",
+    "loki",
+    "cloudflared",
+    "pass",
+    "rust",
+    "postgresql",
+    "nginx",
+    "github-actions"
+  ],
+  "category": "NixOS Infrastructure Orchestration",
+  "concepts": [
+    "Infrastructure as Code",
+    "Declarative System Configuration",
+    "Distributed Service Orchestration",
+    "Ephemeral Secret Management",
+    "ZFS Storage Layouts",
+    "OpenTelemetry Tracing",
+    "Metrics Aggregation",
+    "Log Aggregation",
+    "Self-Hosted GitHub Runners",
+    "Relational Database Provisioning",
+    "Tunneling and Ingress Control",
+    "Bare-metal Bootstrapping",
+    "Kexec-based Installation",
+    "Declarative Firewall Management",
+    "Nix Flake Inputs",
+    "Systemd Service Hardening"
+  ],
+  "languages": [
+    "Nix",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 34,
+    "has_readme": true,
+    "sample_files": [
+      "flake.nix",
+      "hosts/vps.nix",
+      "modules/disko-zfs.nix",
+      "modules/ezgen.nix",
+      "modules/gh-runner.nix"
+    ]
+  },
+  "_hash": "97e6f26dea7d905ec1b5098ba515690d61d957749d10e541445a86a0c953ef96",
+  "_path": "/Users/ember/hellas/infra",
+  "_updated_at": "2026-02-14T00:56:31.596142Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e0a3eba928fcebfb8624e2ffcbf3d264f30e0adeadd75bef5e10f708779059c3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:34.510665+00:00"
+  },
+  "mined_motifs": [
+    "typescript",
+    "blockchain",
+    "mina-protocol",
+    "API Key Lifecycle Management",
+    "Asynchronous Result Reconciliation",
+    "Backend-for-Frontend (BFF) Architecture",
+    "CUDA GPU Acceleration",
+    "Content-addressable Weight Loading",
+    "Distributed Task Orchestration",
+    "Docker Image Derivation",
+    "Generative Media Pipelines",
+    "High-Performance Rust Concurrency"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ezgen",
+      "path": "/Users/ember/hellas/ezgen",
+      "similarity": 0.82
+    },
+    {
+      "name": "gitops-infrastructure",
+      "path": "/Users/ember/dev/gitops-infrastructure",
+      "similarity": 0.811
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.805
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.803
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/gh/forks/cosi-book",
+      "similarity": 0.801
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.797
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.795
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.794
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Infrastructure as Code",
+      "Declarative System Configuration",
+      "Distributed Service Orchestration",
+      "Ephemeral Secret Management",
+      "ZFS Storage Layouts",
+      "OpenTelemetry Tracing",
+      "Metrics Aggregation",
+      "Log Aggregation",
+      "Self-Hosted GitHub Runners",
+      "Relational Database Provisioning",
+      "Tunneling and Ingress Control",
+      "Bare-metal Bootstrapping",
+      "Kexec-based Installation",
+      "Declarative Firewall Management",
+      "Nix Flake Inputs",
+      "Systemd Service Hardening"
+    ],
+    "tags": [
+      "nixos",
+      "colmena",
+      "flake",
+      "disko",
+      "zfs",
+      "hetzner",
+      "prometheus",
+      "grafana",
+      "jaeger",
+      "loki",
+      "cloudflared",
+      "pass",
+      "Rust Language Ecosystem",
+      "postgresql",
+      "nginx",
+      "github-actions"
+    ],
+    "mined_motifs": [
+      "typescript",
+      "blockchain",
+      "Mina Protocol",
+      "API Key Lifecycle Management",
+      "Asynchronous Result Reconciliation",
+      "Backend-for-Frontend (BFF) Architecture",
+      "CUDA GPU Acceleration",
+      "Content-addressable Weight Loading",
+      "Distributed Task Orchestration",
+      "Docker Image Derivation",
+      "Generative Media Pipelines",
+      "High-Performance Rust Concurrency"
+    ],
+    "metaconstellations": [
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 6.866,
+        "matches": [
+          "nixos",
+          "colmena"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.302,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 5.276,
+        "matches": [
+          "mina protocol"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.874,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.741,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 2.533,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.596142Z"
+  }
+}

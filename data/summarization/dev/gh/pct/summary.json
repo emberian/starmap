@@ -1,0 +1,204 @@
+{
+  "name": "pct",
+  "description": "A Rust library for generating and executing LL(1) parsers from context-free grammars. It implements algorithms for computing nullability, FIRST/FOLLOW sets, and deterministic parse tables, supporting a custom BNF-like input format.",
+  "tags": [
+    "rust",
+    "compiler-construction",
+    "ll1-parser",
+    "cfg",
+    "formal-languages",
+    "parsing-algorithms",
+    "bnf",
+    "parser-generator"
+  ],
+  "category": "Formal Language Theory",
+  "concepts": [
+    "Context-Free Grammars",
+    "LL(1) Parsing",
+    "FIRST and FOLLOW Sets",
+    "Nullability Analysis",
+    "BNF Serialization",
+    "Deterministic Top-Down Parsing",
+    "Derivation Trees",
+    "Symbol Packing",
+    "Grammar Augmentation",
+    "Type-Safe Grammar States"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/cfg/mod.rs",
+      "src/lib.rs",
+      "src/cfg/util.rs",
+      "src/cfg/test.rs"
+    ]
+  },
+  "_hash": "11ce74ce1edf500399798b2167a4a1379649a7c98e3204c0d32cbaee06c8315f",
+  "_path": "/Users/ember/dev/gh/pct",
+  "_updated_at": "2026-02-14T00:56:27.855300Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Context-Free Grammars",
+      "LL(1) Parsing",
+      "FIRST and FOLLOW Sets",
+      "Nullability Analysis",
+      "BNF Serialization",
+      "Deterministic Top-Down Parsing",
+      "Derivation Trees",
+      "Symbol Packing",
+      "Grammar Augmentation",
+      "Type-Safe Grammar States"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "ll1-parser",
+      "cfg",
+      "formal-languages",
+      "parsing-algorithms",
+      "bnf",
+      "parser-generator"
+    ],
+    "mined_motifs": [
+      "parser",
+      "lexical-analysis",
+      "Recursive Descent",
+      "AST",
+      "Lookahead",
+      "Syntactic Analysis",
+      "Compiler Engineering",
+      "Context-Free Grammar"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.511,
+        "matches": [
+          "ast",
+          "parser"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.7,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.255,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.22,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 3.883,
+        "matches": [
+          "ast"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 3.617,
+        "matches": [
+          "category:Formal Language Theory"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.855300Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "88af41606ddfac7cdb943702a22a93ca479015bffa39bf2cbddf7e4554b12c3e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:08.167756+00:00"
+  },
+  "mined_motifs": [
+    "parser",
+    "Lexical Analysis",
+    "Recursive Descent",
+    "lexer",
+    "Tokenization",
+    "tokenization",
+    "abstract-syntax-tree",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Syntactic Analysis",
+    "compiler-design",
+    "Context-Free Grammar"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.831
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.822
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.821
+    },
+    {
+      "name": "piston_meta",
+      "path": "/Users/ember/dev/gh/forks/meta",
+      "similarity": 0.819
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.806
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.802
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.778
+    },
+    {
+      "name": "easyply",
+      "path": "/Users/ember/dev/gh/forks/easyply",
+      "similarity": 0.777
+    }
+  ]
+}

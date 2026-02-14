@@ -1,0 +1,264 @@
+{
+  "name": "ocapn-rs",
+  "description": "A modular Rust implementation of the Object Capability Network (OCapN) specifications, facilitating secure, decentralized object-graph traversal and invocation across heterogeneous netlayers. It provides a high-performance serialization engine for the Syrup format leveraging nom and serde, alongside a transport-agnostic networking stack supporting TCP, TLS, and Tor onion services. The project is engineered to enable seamless interoperability between Rust-based systems and existing CapTP ecosystems like Spritely Goblins.",
+  "tags": [
+    "rust",
+    "ocapn",
+    "captp",
+    "syrup-serialization",
+    "object-capabilities",
+    "p2p-networking",
+    "distributed-systems",
+    "cryptography",
+    "tor-onion",
+    "tls",
+    "tokio",
+    "serde",
+    "nom-parsers",
+    "secure-messaging",
+    "capability-security",
+    "sturdyrefs"
+  ],
+  "category": "Object Capability Transport",
+  "concepts": [
+    "CapTP Protocol",
+    "OCapN Specifications",
+    "Syrup Serialization Format",
+    "Object Capabilities (OCaps)",
+    "SturdyRefs",
+    "Swiss Numbers",
+    "Netlayer Abstraction",
+    "Tor Onion Services",
+    "TLS Handshaking",
+    "Canonical Serialization",
+    "Asynchronous I/O",
+    "Message-oriented Middleware",
+    "Distributed Garbage Collection",
+    "Cryptographic Identity",
+    "Capability Security Model",
+    "Decentralized Systems",
+    "Remote Object Invocation",
+    "Promise Pipelining",
+    "Zero-Trust Architecture",
+    "Peer-to-Peer Routing",
+    "Binary Protocol Parsing",
+    "State Machine Verification",
+    "Identity-based Addressing",
+    "Secure Socket Layers",
+    "Nom Combinators",
+    "Serde Integration"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 23,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "ocapn-agent/src/lib.rs",
+      "ocapn-netlayer/src/lib.rs",
+      "ocapn-syrup/src/lib.rs",
+      "ocapn-syrup/src/format.rs"
+    ]
+  },
+  "_hash": "a047dd3baa7a931aac9b02bdc065e9b56e19681bc3968c6ef8f7bf6a03a0199a",
+  "_path": "/Users/ember/src/ocapn-rs",
+  "_updated_at": "2026-02-14T00:56:33.242962Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "903a609d7886fd4e11310abaf6eae71f66746c6ffc9a12787c25bb9f6081639f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:49.798839+00:00"
+  },
+  "mined_motifs": [
+    "promise-pipelining",
+    "rpc",
+    "serialization",
+    "Message Serialization",
+    "Vat-to-Vat Communication",
+    "p2p",
+    "spritely",
+    "Distributed Objects",
+    "Object-Capability Model",
+    "ocap",
+    "racket",
+    "zero-copy"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.899
+    },
+    {
+      "name": "ocapn-test-suite",
+      "path": "/Users/ember/src/ocapn-test-suite",
+      "similarity": 0.893
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.875
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.871
+    },
+    {
+      "name": "ocapn.org",
+      "path": "/Users/ember/src/ocapn.org",
+      "similarity": 0.866
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.862
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.858
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.853
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "CapTP Protocol",
+      "OCapN Specifications",
+      "Syrup Serialization Format",
+      "Object Capabilities (OCaps)",
+      "SturdyRefs",
+      "Swiss Numbers",
+      "Netlayer Abstraction",
+      "Tor Onion Services",
+      "TLS Handshaking",
+      "Canonical Serialization",
+      "Asynchronous I/O",
+      "Message-oriented Middleware",
+      "Distributed Garbage Collection",
+      "Cryptographic Identity",
+      "Capability Security Model",
+      "Decentralized Systems",
+      "Remote Object Invocation",
+      "Promise Pipelining",
+      "Zero-Trust Architecture",
+      "Peer-to-Peer Routing",
+      "Binary Protocol Parsing",
+      "State Machine Verification",
+      "Identity-based Addressing",
+      "Secure Socket Layers",
+      "Nom Combinators",
+      "Serde Integration"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "ocapn",
+      "captp",
+      "syrup-serialization",
+      "object-capabilities",
+      "p2p-networking",
+      "distributed-systems",
+      "cryptography",
+      "tor-onion",
+      "tls",
+      "Asynchronous Programming",
+      "serde",
+      "nom-parsers",
+      "secure-messaging",
+      "capability-security",
+      "sturdyrefs"
+    ],
+    "mined_motifs": [
+      "promise-pipelining",
+      "rpc",
+      "Data Serialization",
+      "Message Serialization",
+      "Vat-to-Vat Communication",
+      "p2p",
+      "spritely",
+      "Distributed Objects",
+      "Object-Capability Model",
+      "object-capabilities",
+      "racket",
+      "zero-copy"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 16.678,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "object-capabilities",
+          "p2p",
+          "spritely",
+          "sturdyrefs"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 9.678,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking",
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.278,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 6.897,
+        "matches": [
+          "zero-copy",
+          "syrup-serialization"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 6.876,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 5.564,
+        "matches": [
+          "object-capabilities"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.242962Z"
+  }
+}

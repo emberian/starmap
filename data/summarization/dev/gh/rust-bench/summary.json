@@ -1,0 +1,217 @@
+{
+  "name": "rust-bench",
+  "description": "A benchmarking suite for monitoring and analyzing the resource consumption of the Rust compiler across historical revisions. It utilizes Linux cgroups for fine-grained memory and CPU telemetry, providing automated build orchestration, JSON serialization of performance metrics, and visualization scripts for regression analysis.",
+  "tags": [
+    "benchmarking",
+    "rustc",
+    "cgroups",
+    "resource-monitoring",
+    "telemetry",
+    "data-visualization",
+    "automated-testing",
+    "performance-regression",
+    "systemd-run",
+    "linux-kernel-apis",
+    "compiler-optimization",
+    "metrics-collection"
+  ],
+  "category": "Compiler Performance Telemetry",
+  "concepts": [
+    "cgroups memory controller",
+    "cgroups cpuacct controller",
+    "process accounting",
+    "time-series data collection",
+    "regression plotting",
+    "automated build pipelines",
+    "JSON serialization",
+    "Linux system metrics",
+    "resource isolation",
+    "performance profiling"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "R"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "benchit.py",
+      "auto-build.py"
+    ]
+  },
+  "_hash": "fe4015bf850f61402fa1a7ead9b44bca05af5e263402d905aa3f350810649e63",
+  "_path": "/Users/ember/dev/gh/rust-bench",
+  "_updated_at": "2026-02-14T00:56:28.133865Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "cgroups memory controller",
+      "cgroups cpuacct controller",
+      "process accounting",
+      "time-series data collection",
+      "regression plotting",
+      "automated build pipelines",
+      "JSON serialization",
+      "Linux system metrics",
+      "resource isolation",
+      "performance profiling"
+    ],
+    "tags": [
+      "benchmarking",
+      "Rust Language Ecosystem",
+      "cgroups",
+      "resource-monitoring",
+      "telemetry",
+      "data-visualization",
+      "automated-testing",
+      "performance-regression",
+      "systemd-run",
+      "linux-kernel-apis",
+      "compiler-optimization",
+      "metrics-collection"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "Resource Acquisition Is Initialization (RAII)",
+      "lexical-analysis",
+      "Attribute Caching",
+      "Control Groups (cgroups)",
+      "Controller Discovery",
+      "Linux Kernel Primitives",
+      "Memory Usage Tracking",
+      "Path Resolution",
+      "Process Isolation",
+      "Procfs Parsing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 6.726,
+        "matches": [
+          "benchmarking",
+          "category:Compiler Performance Telemetry"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.471,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.468,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.463,
+        "matches": [
+          "cgroups"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.44,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.429,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.133865Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cc2df1968b5456ce07d076d89eb25cd0c51784f3ba595236c6db30fcd6050380",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:17.196899+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "compiler-design",
+    "resource-management",
+    "Tokenization",
+    "Attribute Caching",
+    "Control Groups (cgroups)",
+    "Controller Discovery",
+    "Linux Kernel Primitives",
+    "Memory Usage Tracking",
+    "Path Resolution",
+    "Process Isolation",
+    "Procfs Parsing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.894
+    },
+    {
+      "name": "grease-bench",
+      "path": "/Users/ember/dev/gh/forks/grease-bench",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.852
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.849
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.845
+    }
+  ]
+}

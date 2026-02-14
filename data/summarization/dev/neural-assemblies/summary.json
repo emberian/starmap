@@ -1,0 +1,264 @@
+{
+  "name": "neural-assemblies",
+  "description": "This repository implements the Assembly Calculus and NEMO models to simulate brain computation through synchronized groups of neurons representing cognitive concepts. It facilitates the study of complex neural operations such as projection, association, and merge for modeling language acquisition, syntactic parsing, and Turing-equivalent computational power. The framework provides both high-level Python simulations for cognitive experiments and optimized C++ implementations for large-scale neural network dynamics.",
+  "tags": [
+    "brain-simulation",
+    "assembly-calculus",
+    "nemo-model",
+    "computational-neuroscience",
+    "synaptic-plasticity",
+    "hebbian-learning",
+    "language-acquisition",
+    "syntax-parsing",
+    "turing-completeness",
+    "biologically-plausible",
+    "neuron-modeling",
+    "stochastic-simulation",
+    "spiking-neural-networks",
+    "pattern-completion",
+    "cognitive-modeling",
+    "neural-networks"
+  ],
+  "category": "Neural Assembly Calculus",
+  "concepts": [
+    "Neural Assemblies",
+    "Assembly Calculus",
+    "NEMO Model",
+    "Hebbian Plasticity",
+    "Synaptic Weight Dynamics",
+    "Random Projection",
+    "Association Learning",
+    "Merge Operations",
+    "Recursive Parsing",
+    "Turing Completeness",
+    "Homeostatic Plasticity",
+    "Stochastic Modeling",
+    "Spiking Neurons",
+    "Pattern Completion",
+    "Overlap Preservation",
+    "Excitation-Inhibition Balance",
+    "Dense Assembly Encoding",
+    "Sparse Connectivity",
+    "Sparse-only Simulation",
+    "Word Acquisition",
+    "Syntactic Structure Simulation",
+    "Brain Area Interconnectivity",
+    "Explicit Area Simulation",
+    "Support Size Stabilization",
+    "Convergence of Projections",
+    "Reciprocal Projection",
+    "Contextual Area Models",
+    "Phonological Modeling",
+    "Motor Area Integration",
+    "Visual Stimulus Processing"
+  ],
+  "languages": [
+    "Python",
+    "C++",
+    "Matlab"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 36,
+    "has_readme": true,
+    "sample_files": [
+      "learner.py",
+      "simulations.py",
+      "recursive_parser.py",
+      "brain.py",
+      "parser.py"
+    ]
+  },
+  "_hash": "0eb5e8b338b05f6920880d1efbe6749e70f3d700e61852f858a975edb7ef38c7",
+  "_path": "/Users/ember/dev/neural-assemblies",
+  "_updated_at": "2026-02-14T00:56:29.730708Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Neural Assemblies",
+      "Assembly Calculus",
+      "NEMO Model",
+      "Hebbian Plasticity",
+      "Synaptic Weight Dynamics",
+      "Random Projection",
+      "Association Learning",
+      "Merge Operations",
+      "Recursive Parsing",
+      "Turing Completeness",
+      "Homeostatic Plasticity",
+      "Stochastic Modeling",
+      "Spiking Neurons",
+      "Pattern Completion",
+      "Overlap Preservation",
+      "Excitation-Inhibition Balance",
+      "Dense Assembly Encoding",
+      "Sparse Connectivity",
+      "Sparse-only Simulation",
+      "Word Acquisition",
+      "Syntactic Structure Simulation",
+      "Brain Area Interconnectivity",
+      "Explicit Area Simulation",
+      "Support Size Stabilization",
+      "Convergence of Projections",
+      "Reciprocal Projection",
+      "Contextual Area Models",
+      "Phonological Modeling",
+      "Motor Area Integration",
+      "Visual Stimulus Processing"
+    ],
+    "tags": [
+      "brain-simulation",
+      "assembly-calculus",
+      "nemo-model",
+      "computational-neuroscience",
+      "synaptic-plasticity",
+      "hebbian-learning",
+      "language-acquisition",
+      "syntax-parsing",
+      "turing-completeness",
+      "biologically-plausible",
+      "neuron-modeling",
+      "stochastic-simulation",
+      "spiking-neural-networks",
+      "pattern-completion",
+      "cognitive-modeling",
+      "neural-networks"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "functional-programming",
+      "Compiler Engineering",
+      "cpp",
+      "Area-Stimulus Mapping",
+      "Association",
+      "Bilingualism Modeling",
+      "Language Acquisition",
+      "Merge Operation",
+      "Neuronal Assemblies",
+      "Part-of-Speech Acquisition",
+      "Plasticity Convergence Analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 5.555,
+        "matches": [
+          "stochastic-simulation"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 5.5,
+        "matches": [
+          "stochastic modeling"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 5.432,
+        "matches": [
+          "neural-networks"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.432,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.381,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 3.988,
+        "matches": [
+          "neuronal assemblies"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.730708Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e3ca52c963cf6054ba344abd814233d35dc5960ed6181d4fddcd4f28fbadced5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:09.326950+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "functional-programming",
+    "compiler-design",
+    "cpp",
+    "Area-Stimulus Mapping",
+    "Association",
+    "Bilingualism Modeling",
+    "Language Acquisition",
+    "Merge Operation",
+    "Neuronal Assemblies",
+    "Part-of-Speech Acquisition",
+    "Plasticity Convergence Analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "assemblies",
+      "path": "/Users/ember/dev/assemblies",
+      "similarity": 0.9
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.858
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.853
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.853
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.84
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.833
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.832
+    }
+  ]
+}

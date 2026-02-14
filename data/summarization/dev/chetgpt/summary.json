@@ -1,0 +1,228 @@
+{
+  "name": "chetgpt",
+  "description": "A specialized AI news anchor application that emulates the Chet Ubetcha persona from The Fairly OddParents through dynamic speech synthesis. It integrates content analysis with the Qwen3-TTS engine to automatically select from eight distinct prosodic modes, ranging from breaking news urgency to tragic gravitas. The system combines real-time news aggregation, LLM-driven chat capabilities, and ASCII-based visual feedback to provide a cohesive broadcast simulation.",
+  "tags": [
+    "text-to-speech",
+    "voice-synthesis",
+    "qwen-tts",
+    "news-aggregator",
+    "cli-application",
+    "natural-language-analysis",
+    "prosody-control",
+    "ascii-art",
+    "openai-api",
+    "hacker-news-api",
+    "python",
+    "character-ai",
+    "sentiment-analysis",
+    "content-categorization",
+    "interactive-chat",
+    "broadcast-simulation"
+  ],
+  "category": "Affective Speech Synthesis & Broadcast Automation",
+  "concepts": [
+    "dynamic-voice-design",
+    "prosodic-switching",
+    "content-aware-tts",
+    "news-category-classification",
+    "sentiment-driven-speech",
+    "low-rank-adaptation-inference",
+    "zero-shot-voice-cloning",
+    "latency-optimized-audio-generation",
+    "algorithmic-news-curation",
+    "persona-constrained-llm-interaction",
+    "terminal-ui-visualization",
+    "voice-reference-caching",
+    "heuristic-sentiment-scoring",
+    "real-time-content-analysis",
+    "broadcast-journalism-prosody",
+    "automated-news-formatting"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "main.py",
+      "visual_display.py",
+      "tts_engine.py",
+      "voice_analyzer.py"
+    ]
+  },
+  "_hash": "ded94cb3c00bbe0008615fb764face6406d77c531c5d832865faa89e97f65665",
+  "_path": "/Users/ember/dev/chetgpt",
+  "_updated_at": "2026-02-14T00:56:23.689154Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "dynamic-voice-design",
+      "prosodic-switching",
+      "content-aware-tts",
+      "news-category-classification",
+      "sentiment-driven-speech",
+      "low-rank-adaptation-inference",
+      "zero-shot-voice-cloning",
+      "latency-optimized-audio-generation",
+      "algorithmic-news-curation",
+      "persona-constrained-llm-interaction",
+      "terminal-ui-visualization",
+      "voice-reference-caching",
+      "heuristic-sentiment-scoring",
+      "real-time-content-analysis",
+      "broadcast-journalism-prosody",
+      "automated-news-formatting"
+    ],
+    "tags": [
+      "text-to-speech",
+      "voice-synthesis",
+      "qwen-tts",
+      "news-aggregator",
+      "cli-application",
+      "natural-language-analysis",
+      "prosody-control",
+      "ascii-art",
+      "openai-api",
+      "hacker-news-api",
+      "python",
+      "character-ai",
+      "sentiment-analysis",
+      "content-categorization",
+      "interactive-chat",
+      "broadcast-simulation"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "transformer",
+      "BigVGAN Vocoding",
+      "Cross-lingual Prosody Transfer",
+      "Diffusion Transformer (DiT) Decoders",
+      "Discrete Multi-codebook Latent Modeling",
+      "Dual-Track Hybrid Streaming Architecture",
+      "ECAPA-TDNN Speaker Encoding",
+      "End-to-End Acoustic Modeling",
+      "FlashAttention-2 Optimization",
+      "Instruction-based Voice Design",
+      "Low-latency Stream Synthesis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 5.397,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.305,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 3.903,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 2.521,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.502,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.498,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.689154Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c6c556380ba4f74f3c615ccb0f742e9e304f0e1086a1313382cd0c11e7dc79a6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:49.276209+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "transformer",
+    "BigVGAN Vocoding",
+    "Cross-lingual Prosody Transfer",
+    "Diffusion Transformer (DiT) Decoders",
+    "Discrete Multi-codebook Latent Modeling",
+    "Dual-Track Hybrid Streaming Architecture",
+    "ECAPA-TDNN Speaker Encoding",
+    "End-to-End Acoustic Modeling",
+    "FlashAttention-2 Optimization",
+    "Instruction-based Voice Design",
+    "Low-latency Stream Synthesis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Qwen3-TTS",
+      "path": "/Users/ember/src/Qwen3-TTS",
+      "similarity": 0.817
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.81
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.793
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.793
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.792
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.791
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.789
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.788
+    }
+  ]
+}

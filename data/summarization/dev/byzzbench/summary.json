@@ -1,0 +1,268 @@
+{
+  "name": "byzzbench",
+  "description": "A comprehensive benchmarking suite and simulation framework designed to evaluate the robustness and performance of Byzantine Fault Tolerance (BFT) protocols. It provides a modular environment for injecting network and process faults into standardized protocol implementations, allowing for the deterministic reproduction of execution schedules and the automated detection of safety and liveness violations.",
+  "tags": [
+    "bft",
+    "distributed-systems",
+    "consensus-protocols",
+    "fault-injection",
+    "benchmarking",
+    "simulation",
+    "byzantine-agreement",
+    "pbft",
+    "hotstuff",
+    "xrpl",
+    "java",
+    "typescript",
+    "spring-boot",
+    "nextjs",
+    "fuzzing",
+    "distributed-consensus"
+  ],
+  "category": "Byzantine Fault Tolerance Simulation and Testing",
+  "concepts": [
+    "Byzantine Fault Tolerance",
+    "Distributed Consensus",
+    "Fault Injection",
+    "Network Partitioning",
+    "Message Mutation",
+    "Schedule Reproduction",
+    "State Machine Replication",
+    "Liveness Analysis",
+    "Agreement Predicates",
+    "Quorum Systems",
+    "View Change Mechanisms",
+    "Leader Election",
+    "Checkpointing",
+    "Deterministic Scheduling",
+    "Byzantine Fuzzing",
+    "Network Stabilization Time",
+    "Message Logging",
+    "Partial Order Trace",
+    "Total Order Commitment",
+    "Replica State Synchronization",
+    "Quorum Certificates",
+    "Byzantine Quorum Systems",
+    "Event-driven Architecture",
+    "Timeout Management",
+    "Process Isolation",
+    "Linear Backoff",
+    "Speculative History",
+    "Client Request Serialization"
+  ],
+  "languages": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "Kotlin",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 458,
+    "has_readme": true,
+    "sample_files": [
+      "webui/components/ActionIcon/index.ts",
+      "webui/components/ColorSchemeToggle/index.ts",
+      "webui/components/Events/EventCard/index.ts",
+      "webui/components/Events/MessagesList/index.ts",
+      "webui/components/Events/MutateMessageMenu/index.ts"
+    ]
+  },
+  "_hash": "317ad133a5abfc1d0ac584fe88c8b01d5b59d1a3711b512dfe90b9724d147bec",
+  "_path": "/Users/ember/dev/byzzbench",
+  "_updated_at": "2026-02-14T00:56:23.646322Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "distributed-systems",
+      "Distributed Consensus",
+      "Fault Injection",
+      "Network Partitioning",
+      "Message Mutation",
+      "Schedule Reproduction",
+      "State Machine Replication",
+      "Liveness Analysis",
+      "Agreement Predicates",
+      "Quorum Systems",
+      "View Change Mechanisms",
+      "Leader Election",
+      "Checkpointing",
+      "Deterministic Scheduling",
+      "Byzantine Fuzzing",
+      "Network Stabilization Time",
+      "Message Logging",
+      "Partial Order Trace",
+      "Total Order Commitment",
+      "Replica State Synchronization",
+      "quorum-certificates",
+      "Byzantine Quorum Systems",
+      "Event-driven Architecture",
+      "Timeout Management",
+      "Process Isolation",
+      "Linear Backoff",
+      "Speculative History",
+      "Client Request Serialization"
+    ],
+    "tags": [
+      "distributed-systems",
+      "consensus-protocols",
+      "fault-injection",
+      "benchmarking",
+      "real-time-simulation",
+      "byzantine-agreement",
+      "pbft",
+      "hotstuff",
+      "xrpl",
+      "java",
+      "typescript",
+      "spring-boot",
+      "nextjs",
+      "fuzzing"
+    ],
+    "mined_motifs": [
+      "blockchain",
+      "quorum-certificates",
+      "Rust Language Ecosystem",
+      "Partial Synchrony",
+      "autobahn-protocol",
+      "Distributed Consensus",
+      "Consensus Safety",
+      "directed-acyclic-graph",
+      "Gossip Protocols",
+      "byzantine-fault-tolerance",
+      "zero-knowledge-proofs",
+      "Mina Protocol"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 12.5,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates",
+          "autobahn-protocol"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 11.116,
+        "matches": [
+          "consensus-protocols",
+          "distributed-systems",
+          "consensus safety",
+          "gossip protocols"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.319,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.316,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.532,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.517,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.646322Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8c096514d392cc9d89ed5bb6ebf30a73bfe72fe0da60bf93927d31a79967fa94",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:44.476784+00:00"
+  },
+  "mined_motifs": [
+    "blockchain",
+    "quorum-certificates",
+    "rust",
+    "Partial Synchrony",
+    "autobahn-protocol",
+    "bft-consensus",
+    "Consensus Safety",
+    "Directed Acyclic Graph (DAG)",
+    "Gossip Protocols",
+    "byzantine-fault-tolerance",
+    "Recursive SNARKs",
+    "mina-protocol"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.904
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.902
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.876
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.863
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.858
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.857
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.855
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.847
+    }
+  ]
+}

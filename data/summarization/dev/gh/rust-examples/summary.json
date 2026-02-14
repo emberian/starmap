@@ -1,0 +1,239 @@
+{
+  "name": "rust-examples",
+  "description": "A collection of early Rust programming examples demonstrating core systems capabilities and algorithmic logic. The repository includes TCP echo client/server implementations, file system manipulation, and Project Euler solutions utilizing custom iterator traits. It serves as a pedagogical resource for understanding low-level abstractions and iterator-based composition in the pre-1.0 Rust ecosystem.",
+  "tags": [
+    "rust",
+    "systems-programming",
+    "project-euler",
+    "networking",
+    "tcp",
+    "iterators",
+    "file-io",
+    "algorithms",
+    "socket-programming",
+    "archival",
+    "reference",
+    "examples",
+    "demonstration",
+    "computer-science",
+    "backend",
+    "legacy"
+  ],
+  "category": "Systems Programming Pedagogy",
+  "concepts": [
+    "TCP Networking",
+    "Iterator Trait Implementation",
+    "Prime Factorization",
+    "Fibonacci Sequence Generation",
+    "Lazy Evaluation",
+    "File Stream I/O",
+    "IPv4 Networking",
+    "Socket API Abstraction",
+    "Byte Buffer Manipulation",
+    "Early Rust Error Handling",
+    "Additive Iterator Patterns",
+    "Modular Arithmetic Logic",
+    "Stream Processing",
+    "Resource Ownership",
+    "Systems Interface Design",
+    "Algorithmic Complexity"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "euler/three.rs",
+      "euler/four.rs",
+      "file.rs",
+      "euler/one.rs",
+      "echo_server.rs"
+    ]
+  },
+  "_hash": "01c6b3164efac3f8507d4f16d59627599c5dd20399e871cd4ec592622039b9c7",
+  "_path": "/Users/ember/dev/gh/rust-examples",
+  "_updated_at": "2026-02-14T00:56:28.382517Z",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "TCP Networking",
+      "Iterator Trait Implementation",
+      "Prime Factorization",
+      "Fibonacci Sequence Generation",
+      "Lazy Evaluation",
+      "File Stream I/O",
+      "IPv4 Networking",
+      "Socket API Abstraction",
+      "Byte Buffer Manipulation",
+      "Early Rust Error Handling",
+      "Additive Iterator Patterns",
+      "Modular Arithmetic Logic",
+      "Stream Processing",
+      "Resource Ownership",
+      "Systems Interface Design",
+      "Algorithmic Complexity"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Systems Programming",
+      "project-euler",
+      "networking",
+      "tcp",
+      "iterators",
+      "file-io",
+      "algorithms",
+      "socket-programming",
+      "archival",
+      "reference",
+      "examples",
+      "demonstration",
+      "computer-science",
+      "backend",
+      "legacy"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "libc",
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "Asynchronous I/O",
+      "Bitflags",
+      "Domain Sockets",
+      "Error Handling",
+      "Error Number Mapping",
+      "Event Notification",
+      "Eventfd"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.613,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.19,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.827,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 6.626,
+        "matches": [
+          "systems programming",
+          "category:Systems Programming Pedagogy"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.375,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.984,
+        "matches": [
+          "archival"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.382517Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "96757306868ba87a581aa675a539075c1a18fe33f04d2fc41ff4f72a728cd180",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:20.917136+00:00"
+  },
+  "mined_motifs": [
+    "rust-lang",
+    "ffi",
+    "libc",
+    "resource-management",
+    "low-level",
+    "Asynchronous I/O",
+    "Bitflags",
+    "Domain Sockets",
+    "Error Handling",
+    "Error Number Mapping",
+    "Event Notification",
+    "Eventfd"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.844
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.836
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.836
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.833
+    },
+    {
+      "name": "meeting-minutes",
+      "path": "/Users/ember/dev/gh/forks/meeting-minutes",
+      "similarity": 0.833
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.833
+    }
+  ]
+}

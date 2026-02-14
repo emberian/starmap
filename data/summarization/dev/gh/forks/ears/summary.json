@@ -1,0 +1,231 @@
+{
+  "name": "ears",
+  "description": "ears is a high-level audio library for Rust that abstracts OpenAL and libsndfile to provide a simplified interface for spatialized sound playback and recording. It implements a dual-mode architecture consisting of memory-resident Sound buffers for low-latency effects and circular-buffered Music streams for large assets. The library handles listener kinematics, source-relative positioning, and metadata extraction, leveraging FFI bindings to manage low-level audio hardware and codec interactions.",
+  "tags": [
+    "rust",
+    "audio",
+    "openal",
+    "libsndfile",
+    "spatialization",
+    "recording",
+    "streaming",
+    "ffi",
+    "3d-audio",
+    "multimedia",
+    "sound-engine",
+    "dsp"
+  ],
+  "category": "Spatial Audio Rendering",
+  "concepts": [
+    "Audio Spatialization",
+    "Circular Buffers",
+    "Audio Streaming",
+    "Audio Hardware Abstraction",
+    "Pulse-Code Modulation",
+    "FFI Bindings",
+    "Audio Metadata Extraction",
+    "Concurrent Audio Processing",
+    "Listener Kinematics",
+    "Source Attenuation",
+    "Pitch Shifting",
+    "Audio Capture",
+    "Buffer Management",
+    "libsndfile Integration",
+    "OpenAL Context Management",
+    "Doppler Effect",
+    "Distance Attenuation",
+    "Shared Buffer Management",
+    "Task-based Concurrency",
+    "Stereo Panning",
+    "Sample Rate Handling"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 24,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "src/examples/many_sounds/main.rs",
+      "src/examples/record/main.rs",
+      "src/examples/simple_player/main.rs",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "d11362446d8ef206d0e9a00584621e458bf9f1cb427f122077499859c306cdb5",
+  "_path": "/Users/ember/dev/gh/forks/ears",
+  "_updated_at": "2026-02-14T00:56:25.501117Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Audio Spatialization",
+      "Circular Buffers",
+      "Audio Streaming",
+      "Audio Hardware Abstraction",
+      "Pulse-Code Modulation",
+      "FFI Bindings",
+      "Audio Metadata Extraction",
+      "Concurrent Audio Processing",
+      "Listener Kinematics",
+      "Source Attenuation",
+      "Pitch Shifting",
+      "Audio Capture",
+      "Buffer Management",
+      "libsndfile Integration",
+      "OpenAL Context Management",
+      "Doppler Effect",
+      "Distance Attenuation",
+      "Shared Buffer Management",
+      "Task-based Concurrency",
+      "Stereo Panning",
+      "Sample Rate Handling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "audio",
+      "openal",
+      "libsndfile",
+      "spatialization",
+      "recording",
+      "streaming",
+      "foreign-function-interface",
+      "3d-audio",
+      "multimedia",
+      "sound-engine",
+      "dsp"
+    ],
+    "mined_motifs": [
+      "signal-processing",
+      "sdl2",
+      "low-latency",
+      "Waveform Generation",
+      "Fast Fourier Transform",
+      "Hann Windowing",
+      "Logarithmic Frequency Scaling",
+      "Zero-crossing Detection",
+      "audio-analysis",
+      "fast-fourier-transform",
+      "oscilloscope",
+      "portaudio"
+    ],
+    "metaconstellations": [
+      {
+        "id": "audio-dsp",
+        "name": "Digital Signal Processing & Audio",
+        "score": 5.423,
+        "matches": [
+          "fast fourier transform"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.21,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.183,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.398,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.393,
+        "matches": []
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.376,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.501117Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c8fded58d4aa18ce14a7001447770904a91ad5b6354897b3725c96bf4db8b3bd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:28.009568+00:00"
+  },
+  "mined_motifs": [
+    "signal-processing",
+    "sdl2",
+    "low-latency",
+    "Waveform Generation",
+    "Fast Fourier Transform",
+    "Hann Windowing",
+    "Logarithmic Frequency Scaling",
+    "Zero-crossing Detection",
+    "audio-analysis",
+    "fft",
+    "oscilloscope",
+    "portaudio"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "audiokart",
+      "path": "/Users/ember/dev/gh/audiokart",
+      "similarity": 0.795
+    },
+    {
+      "name": "audec",
+      "path": "/Users/ember/dev/shitheap/sparklyfarts",
+      "similarity": 0.788
+    },
+    {
+      "name": "audec",
+      "path": "/Users/ember/dev/gh/forks/audec",
+      "similarity": 0.775
+    },
+    {
+      "name": "synfone2",
+      "path": "/Users/ember/dev/gh/forks/synfone2",
+      "similarity": 0.774
+    },
+    {
+      "name": "noise-rs",
+      "path": "/Users/ember/dev/gh/forks/noise-rs",
+      "similarity": 0.77
+    },
+    {
+      "name": "rust-sdl2",
+      "path": "/Users/ember/dev/gh/forks/rust-sdl2",
+      "similarity": 0.766
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.757
+    },
+    {
+      "name": "sax-rs",
+      "path": "/Users/ember/dev/gh/forks/sax-rs",
+      "similarity": 0.754
+    }
+  ]
+}

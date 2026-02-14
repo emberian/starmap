@@ -1,0 +1,264 @@
+{
+  "name": "conduit",
+  "description": "A high-performance Matrix homeserver implementation written in Rust, leveraging the Ruma crate for spec-compliant type definitions and Axum for its asynchronous web interface. It prioritizes resource efficiency and deployment simplicity, featuring a modular database abstraction layer that supports multiple key-value backends including RocksDB, Sled, and SQLite. The architecture implements core Matrix primitives such as federated state resolution, persistent data units (PDUs), and appservice integration for extensible communication bridging.",
+  "tags": [
+    "matrix",
+    "homeserver",
+    "rust",
+    "federation",
+    "ruma",
+    "axum",
+    "rocksdb",
+    "sled",
+    "sqlite",
+    "decentralized",
+    "messaging",
+    "appservice",
+    "pdu",
+    "e2ee",
+    "nix",
+    "docker"
+  ],
+  "category": "Federated Messaging Protocol Implementation",
+  "concepts": [
+    "Matrix Protocol Specification",
+    "Federated State Resolution",
+    "Persistent Data Units (PDU)",
+    "Auth Chain Calculation",
+    "Event DAG (Directed Acyclic Graph)",
+    "Power Level Semantics",
+    "User-Interactive Authentication (UIAA)",
+    "Appservice Bridge Interface",
+    "Key-Value Store Abstraction",
+    "Room State Compression",
+    "End-to-End Encryption (E2EE)",
+    "Cross-Signing and Key Backup",
+    "Media Repository Management",
+    "Push Gateway Integration",
+    "Presence and Typing Notifications",
+    "Room Membership Lifecycle",
+    "Event Redaction and Filtering",
+    "Device Management and Sync",
+    "Third-party Identifiers (3PID)",
+    "Server-to-Server Federation (S2S)",
+    "Client-to-Server API (C2S)",
+    "Transaction ID Idempotency",
+    "Read Receipt Tracking",
+    "Space and Directory Navigation",
+    "Volatile Event Handling (EDU)",
+    "Database Backend Pluggability",
+    "Async Task Scheduling",
+    "Configuration via Figment",
+    "Tracing and Jaeger Integration",
+    "Nix Flake Reproducibility"
+  ],
+  "languages": [
+    "Rust",
+    "Shell",
+    "Nix",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 190,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "src/api/client_server/mod.rs",
+      "src/api/mod.rs",
+      "src/api/ruma_wrapper/mod.rs"
+    ]
+  },
+  "_hash": "dc85919c225c89e259ff9b7623b493dbf5143e9d8d2a29832013a4e38e2f3446",
+  "_path": "/Users/ember/src/conduit",
+  "_updated_at": "2026-02-14T00:56:32.351349Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d11bf5f3b78df3349f41383bc7998dea4f21c876e940465cfc773be5a7ad5fcb",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:04.065013+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "Partial Synchrony",
+    "Quorum Certificates",
+    "autobahn-protocol",
+    "bft-consensus",
+    "quorum-certificates",
+    "blockchain",
+    "async-rust",
+    "compiler-design",
+    "Accountability",
+    "Bisimulation",
+    "Byzantine Fault Tolerance"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.877
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.865
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.863
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.861
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.858
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.858
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.856
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Matrix Protocol Specification",
+      "Federated State Resolution",
+      "Persistent Data Units (PDU)",
+      "Auth Chain Calculation",
+      "Event DAG (Directed Acyclic Graph)",
+      "Power Level Semantics",
+      "User-Interactive Authentication (UIAA)",
+      "Appservice Bridge Interface",
+      "Key-Value Store Abstraction",
+      "Room State Compression",
+      "End-to-End Encryption (E2EE)",
+      "Cross-Signing and Key Backup",
+      "Media Repository Management",
+      "Push Gateway Integration",
+      "Presence and Typing Notifications",
+      "Room Membership Lifecycle",
+      "Event Redaction and Filtering",
+      "Device Management and Sync",
+      "Third-party Identifiers (3PID)",
+      "Server-to-Server Federation (S2S)",
+      "Client-to-Server API (C2S)",
+      "Transaction ID Idempotency",
+      "Read Receipt Tracking",
+      "Space and Directory Navigation",
+      "Volatile Event Handling (EDU)",
+      "Database Backend Pluggability",
+      "Async Task Scheduling",
+      "Configuration via Figment",
+      "Tracing and Jaeger Integration",
+      "Nix Flake Reproducibility"
+    ],
+    "tags": [
+      "matrix",
+      "homeserver",
+      "Rust Language Ecosystem",
+      "federation",
+      "ruma",
+      "axum",
+      "rocksdb",
+      "sled",
+      "sqlite",
+      "decentralized",
+      "messaging",
+      "appservice",
+      "pdu",
+      "e2ee",
+      "nix",
+      "docker"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "Partial Synchrony",
+      "quorum-certificates",
+      "autobahn-protocol",
+      "Distributed Consensus",
+      "blockchain",
+      "rust",
+      "Compiler Engineering",
+      "Accountability",
+      "Bisimulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 6.879,
+        "matches": [
+          "quorum-certificates",
+          "autobahn-protocol"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.556,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.552,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.552,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.552,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.551,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.351349Z"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "name": "native_model",
+  "description": "A high-performance Rust interoperability layer that extends standard serialization formats with unique identity and versioning metadata. It facilitates seamless data model evolution through declarative upgrade and downgrade paths, utilizing zero-copy abstractions to maintain near-zero runtime overhead for binary headers.",
+  "tags": [
+    "rust",
+    "serialization",
+    "versioning",
+    "interoperability",
+    "schema-evolution",
+    "proc-macros",
+    "zero-copy",
+    "bincode",
+    "postcard",
+    "msgpack",
+    "serde",
+    "data-integrity",
+    "binary-protocols",
+    "low-latency"
+  ],
+  "category": "Binary Schema Evolution",
+  "concepts": [
+    "Schema Evolution",
+    "Identity-based Decoding",
+    "Model Versioning",
+    "Data Upgrading",
+    "Data Downgrading",
+    "Zero-copy Metadata",
+    "Binary Header Encapsulation",
+    "Codec Abstraction",
+    "Type Identity Verification",
+    "Declarative Data Models",
+    "Incremental Upgrades",
+    "Backward Compatibility",
+    "Forward Compatibility",
+    "Serialization Wrappers",
+    "Trait-based Dispatch",
+    "Compile-time Model Definition",
+    "Minimal Runtime Overhead",
+    "Binary Compatibility",
+    "Endian-aware Headers",
+    "Cross-application Interoperability",
+    "Metadata-less Format Extension",
+    "Feature-gated Codecs"
+  ],
+  "languages": [
+    "Rust",
+    "Shell",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 47,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "native_model_macro/src/lib.rs",
+      "native_model_macro/src/method/mod.rs",
+      "src/codec/mod.rs",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "6e39611b466c2645bd2751090ce8959129544f96309493d7d2580dbe7201e2e8",
+  "_path": "/Users/ember/src/native_model",
+  "_updated_at": "2026-02-14T00:56:33.216183Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cf929740c653f695821f6e39e60c559551ca3d374b53438431702d0a179f0c9c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:47.171583+00:00"
+  },
+  "mined_motifs": [
+    "data-interchange",
+    "schema-compiler",
+    "no-std",
+    "python",
+    "message-passing",
+    "Canonicalization",
+    "binary-format",
+    "racket",
+    "performance",
+    "rpc",
+    "rpc-framework",
+    "binary-serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.82
+    },
+    {
+      "name": "Protogen",
+      "path": "/Users/ember/dev/gh/Protogen",
+      "similarity": 0.82
+    },
+    {
+      "name": "syrup",
+      "path": "/Users/ember/src/syrup",
+      "similarity": 0.816
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.81
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.808
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.798
+    },
+    {
+      "name": "byteorder",
+      "path": "/Users/ember/dev/gh/forks/byteorder",
+      "similarity": 0.795
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.792
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "Schema Evolution",
+      "Identity-based Decoding",
+      "Model Versioning",
+      "Data Upgrading",
+      "Data Downgrading",
+      "Zero-copy Metadata",
+      "Binary Header Encapsulation",
+      "Codec Abstraction",
+      "Type Identity Verification",
+      "Declarative Data Models",
+      "Incremental Upgrades",
+      "Backward Compatibility",
+      "Forward Compatibility",
+      "Serialization Wrappers",
+      "Trait-based Dispatch",
+      "Compile-time Model Definition",
+      "Minimal Runtime Overhead",
+      "Binary Compatibility",
+      "Endian-aware Headers",
+      "Cross-application Interoperability",
+      "Metadata-less Format Extension",
+      "Feature-gated Codecs"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Data Serialization",
+      "versioning",
+      "interoperability",
+      "schema-evolution",
+      "proc-macros",
+      "zero-copy",
+      "bincode",
+      "postcard",
+      "msgpack",
+      "serde",
+      "data-integrity",
+      "binary-protocols",
+      "low-latency"
+    ],
+    "mined_motifs": [
+      "data-interchange",
+      "schema-compiler",
+      "Rust Language Ecosystem",
+      "python",
+      "message-passing",
+      "Canonicalization",
+      "binary-format",
+      "racket",
+      "performance",
+      "rpc",
+      "rpc-framework",
+      "Data Serialization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 13.813,
+        "matches": [
+          "binary-format",
+          "schema-evolution",
+          "zero-copy",
+          "bincode",
+          "postcard"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.736,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.269,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 3.842,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 3.799,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.679,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.216183Z"
+  }
+}

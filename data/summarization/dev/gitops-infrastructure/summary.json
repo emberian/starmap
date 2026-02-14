@@ -1,0 +1,262 @@
+{
+  "name": "gitops-infrastructure",
+  "description": "A GitOps-based orchestration framework for managing Mina Protocol infrastructure across multiple Kubernetes clusters using ArgoCD and Helm. The repository automates the lifecycle of blockchain components, including archival migrations, state dump procedures, and node deployments via a seeder-based application pattern. It incorporates a comprehensive CI/CD observability stack that extracts performance metrics from Buildkite and GitHub for long-term analysis in InfluxDB.",
+  "tags": [
+    "argocd",
+    "kubernetes",
+    "helm",
+    "mina-protocol",
+    "gitops",
+    "gcp",
+    "infrastructure-as-code",
+    "blockchain",
+    "python",
+    "shell",
+    "prometheus",
+    "influxdb",
+    "buildkite",
+    "external-dns",
+    "external-secrets",
+    "automation"
+  ],
+  "category": "Cloud-Native Blockchain Orchestration",
+  "concepts": [
+    "GitOps Seeder Pattern",
+    "ArgoCD ApplicationSets",
+    "Berkeley Migration",
+    "Mina Archive Node",
+    "Block Producer Orchestration",
+    "Snark Worker Coordination",
+    "Helmfile Secrets",
+    "State Dump Automation",
+    "Blockchain Replayer",
+    "CI/CD Metrics Collection",
+    "InfluxDB Integration",
+    "Kubernetes Sidecars",
+    "Sync Waves",
+    "Resource Hooks",
+    "Genesis Ledger Management",
+    "Multi-Cluster Configuration",
+    "Automated Schema Migration",
+    "GCP Service Account Management",
+    "Ephemeral Testbeds",
+    "Blockchain Node Observability",
+    "CronJob Scheduling",
+    "Database Bootstrap",
+    "Prometheus ServiceMonitors",
+    "External DNS",
+    "External Secrets Operator",
+    "State Hash Verification"
+  ],
+  "languages": [
+    "Python",
+    "Shell",
+    "Smarty",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 275,
+    "has_readme": true,
+    "sample_files": [
+      "charts/ci-dashboard/files/buildkite/buildkite.py",
+      "charts/berkeley-migration/files/migration.sh",
+      "charts/ci-dashboard/files/buildkite-agents/agents.py",
+      "charts/ci-dashboard/files/github/githubber.py",
+      "charts/ci-dashboard/files/dbPusher/dbPusher.py"
+    ]
+  },
+  "_hash": "f6e4cfe1beec686f61e1904df13511038e1a265bcd60e4e33daad3487f3a1052",
+  "_path": "/Users/ember/dev/gitops-infrastructure",
+  "_updated_at": "2026-02-14T00:56:28.757093Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "GitOps Seeder Pattern",
+      "ArgoCD ApplicationSets",
+      "Berkeley Migration",
+      "Mina Archive Node",
+      "Block Producer Orchestration",
+      "Snark Worker Coordination",
+      "Helmfile Secrets",
+      "State Dump Automation",
+      "Blockchain Replayer",
+      "CI/CD Metrics Collection",
+      "InfluxDB Integration",
+      "Kubernetes Sidecars",
+      "Sync Waves",
+      "Resource Hooks",
+      "Genesis Ledger Management",
+      "Multi-Cluster Configuration",
+      "Automated Schema Migration",
+      "GCP Service Account Management",
+      "Ephemeral Testbeds",
+      "Blockchain Node Observability",
+      "CronJob Scheduling",
+      "Database Bootstrap",
+      "Prometheus ServiceMonitors",
+      "External DNS",
+      "External Secrets Operator",
+      "State Hash Verification"
+    ],
+    "tags": [
+      "argocd",
+      "kubernetes",
+      "helm",
+      "Mina Protocol",
+      "gitops",
+      "gcp",
+      "infrastructure-as-code",
+      "blockchain",
+      "python",
+      "shell",
+      "prometheus",
+      "influxdb",
+      "buildkite",
+      "external-dns",
+      "external-secrets",
+      "automation"
+    ],
+    "mined_motifs": [
+      "Zero-Knowledge Proofs (ZKP)",
+      "smart-contracts",
+      "cryptography",
+      "libp2p",
+      "zkapps",
+      "Kimchi Proof System",
+      "Rust Language Ecosystem",
+      "zero-knowledge-proofs",
+      "Staged Ledger",
+      "proof-of-stake",
+      "Recursive SNARKs",
+      "succinct-blockchain"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 11.028,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.245,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.207,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.501,
+        "matches": [
+          "infrastructure-as-code"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 5.452,
+        "matches": [
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 5.446,
+        "matches": [
+          "zero-knowledge proofs (zkp)"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.757093Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "166d51d8a31c9ea25342d4a55c5074387d015d595829b0f69716e9b202eb5e83",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:40.421688+00:00"
+  },
+  "mined_motifs": [
+    "zero-knowledge-proofs",
+    "smart-contracts",
+    "cryptography",
+    "libp2p",
+    "zkapps",
+    "Kimchi Proof System",
+    "rust",
+    "Recursive SNARKs",
+    "Staged Ledger",
+    "proof-of-stake",
+    "recursive-snarks",
+    "succinct-blockchain"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.873
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.869
+    },
+    {
+      "name": "minataur2",
+      "path": "/Users/ember/dev/minataur2",
+      "similarity": 0.865
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.864
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.861
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.855
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.847
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.843
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "name": "connectfour",
+  "description": "A cross-platform implementation of the Connect Four game using the Simple and Fast Multimedia Library (SFML). The project features a custom board state manager with win-condition detection algorithms for horizontal, vertical, and diagonal alignments. It employs a decoupled architecture separating the graphical rendering loop, the grid-based game logic, and the event-driven user interface.",
+  "tags": [
+    "sfml",
+    "cpp",
+    "game-development",
+    "connect-four",
+    "2d-graphics",
+    "board-game",
+    "collision-detection",
+    "event-handling"
+  ],
+  "category": "2D Game Engine Integration",
+  "concepts": [
+    "Grid-based Logic",
+    "Win-condition Algorithms",
+    "Event-driven Architecture",
+    "Coordinate Mapping",
+    "Vertex Rendering",
+    "Game Loop Implementation",
+    "State Management",
+    "Object-oriented Design"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "main.cpp",
+      "board.cpp",
+      "board.h",
+      "uInterface.cpp",
+      "uInterface.h"
+    ]
+  },
+  "_hash": "911ccc9eb7afc883038599aad9b782713a81a3df4eba91970e37da8c2a99463d",
+  "_path": "/Users/ember/dev/gh/connectfour",
+  "_updated_at": "2026-02-14T00:56:24.812492Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Grid-based Logic",
+      "Win-condition Algorithms",
+      "Event-driven Architecture",
+      "Coordinate Mapping",
+      "Vertex Rendering",
+      "Game Loop Implementation",
+      "State Management",
+      "Object-oriented Design"
+    ],
+    "tags": [
+      "sfml",
+      "cpp",
+      "game-engine",
+      "connect-four",
+      "2d-graphics",
+      "board-game",
+      "collision-detection",
+      "event-handling"
+    ],
+    "mined_motifs": [
+      "real-time-strategy",
+      "game-engine",
+      "Rust Language Ecosystem",
+      "pathfinding",
+      "retro-gaming",
+      "A* Pathfinding",
+      "westwood-studios",
+      "Coordinate System Transformation",
+      "Custom File Formats (MIX)",
+      "DPMI Protected Mode",
+      "Deterministic Lockstep Networking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 8.269,
+        "matches": [
+          "game-engine",
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.496,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.452,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.356,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.622,
+        "matches": []
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.618,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.812492Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "025fea25615f9f34c28ec25fd728d03cf2a1f35ceece28e40bc67896f72adb78",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:43.119767+00:00"
+  },
+  "mined_motifs": [
+    "real-time-strategy",
+    "game-engine",
+    "rust",
+    "pathfinding",
+    "retro-gaming",
+    "A* Pathfinding",
+    "westwood-studios",
+    "game-logic",
+    "Coordinate System Transformation",
+    "Custom File Formats (MIX)",
+    "DPMI Protected Mode",
+    "Deterministic Lockstep Networking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.841
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.836
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.83
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.828
+    },
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.826
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.823
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.822
+    },
+    {
+      "name": "good_night",
+      "path": "/Users/ember/dev/shitheap/good_night",
+      "similarity": 0.813
+    }
+  ]
+}

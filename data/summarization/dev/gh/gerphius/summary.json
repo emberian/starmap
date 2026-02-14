@@ -1,0 +1,225 @@
+{
+  "name": "gerphius",
+  "description": "A hardware-accelerated 2D competitive game engine implemented in early-dialect Rust, utilizing OpenGL 3.2 for rendering and GLFW for window management. The system features a custom kinematic physics module with discrete state-based acceleration curves and a programmable sprite-based rendering pipeline.",
+  "tags": [
+    "rust",
+    "opengl-3.2",
+    "glfw",
+    "kinematic-physics",
+    "sprite-rendering",
+    "real-time-simulation",
+    "collision-detection",
+    "glsl",
+    "game-loop",
+    "input-handling",
+    "state-machine"
+  ],
+  "category": "Real-time Kinematic Game Simulation",
+  "concepts": [
+    "Vertex Buffer Objects (VBO)",
+    "Element Buffer Objects (EBO)",
+    "GLSL Shader Programming",
+    "Discrete Acceleration Modeling",
+    "Stateful Resource Management",
+    "Event-Driven Input Polling",
+    "Coordinate Normalization",
+    "Texture Mapping",
+    "Linear Interpolation",
+    "Kinematic Integration",
+    "Adversarial Game Logic",
+    "Reference Counting (Rc/RefCell)",
+    "Orthographic Projection"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL",
+    "Makefile"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 18,
+    "has_readme": false,
+    "sample_files": [
+      "Makefile",
+      "src/main.rs",
+      "src/physics.rs",
+      "src/render.rs",
+      "src/game.rs"
+    ]
+  },
+  "_hash": "1d2f5be174a56cc3e5e1e1b233ae6c12f88dcaea0b33a750cae416d0a336ae6e",
+  "_path": "/Users/ember/dev/gh/gerphius",
+  "_updated_at": "2026-02-14T00:56:27.234015Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Vertex Buffer Objects (VBO)",
+      "Element Buffer Objects (EBO)",
+      "GLSL Shader Programming",
+      "Discrete Acceleration Modeling",
+      "Stateful Resource Management",
+      "Event-Driven Input Polling",
+      "Coordinate Normalization",
+      "Texture Mapping",
+      "Linear Interpolation",
+      "Kinematic Integration",
+      "Adversarial Game Logic",
+      "Reference Counting (Rc/RefCell)",
+      "Orthographic Projection"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "opengl-3.2",
+      "glfw",
+      "kinematic-physics",
+      "sprite-rendering",
+      "real-time-simulation",
+      "collision-detection",
+      "glsl",
+      "game-loop",
+      "input-handling",
+      "state-machine"
+    ],
+    "mined_motifs": [
+      "opengl",
+      "Computer Graphics & Rendering",
+      "systems-programming",
+      "shader-programming",
+      "graphics-engine",
+      "Procedural Generation",
+      "cgmath",
+      "sdl2",
+      "game-engine",
+      "3d-graphics",
+      "Arc-ball Camera"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.34,
+        "matches": [
+          "real-time-simulation",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "category:Real-time Kinematic Game Simulation"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.909,
+        "matches": [
+          "procedural generation",
+          "game-loop"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.905,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.515,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.507,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.428,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.234015Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "73f4ca7d5e3dff15c830d454f9a4c2f3413e7d6cdddbe4659c8f2b4e79b137a4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:44.136262+00:00"
+  },
+  "mined_motifs": [
+    "opengl",
+    "real-time-rendering",
+    "low-level",
+    "shader-programming",
+    "graphics-programming",
+    "graphics-engine",
+    "procedural-generation",
+    "cgmath",
+    "sdl2",
+    "game-engine",
+    "3d-graphics",
+    "Arc-ball Camera"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.858
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.847
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.845
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.84
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.836
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.835
+    },
+    {
+      "name": "Piston-Tutorials",
+      "path": "/Users/ember/dev/gh/forks/Piston-Tutorials",
+      "similarity": 0.833
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.831
+    }
+  ]
+}

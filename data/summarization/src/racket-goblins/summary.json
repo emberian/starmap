@@ -1,0 +1,265 @@
+{
+  "name": "racket-goblins",
+  "description": "A Racket implementation of the Goblins distributed object-capability system, providing a secure actor-model programming environment with transactional state management. It features isolated 'vats' for state consistency, asynchronous message passing with promise pipelining, and the OCapN protocol for secure cross-network capability transport. The project facilitates decentralized, peer-to-peer coordination through cryptographic primitives and transport layers like Tor.",
+  "tags": [
+    "racket",
+    "actor-model",
+    "ocap",
+    "ocapn",
+    "captp",
+    "distributed-systems",
+    "security",
+    "transactional",
+    "vats",
+    "p2p",
+    "capability-security",
+    "tor",
+    "asynchronous-messaging",
+    "cryptography",
+    "promise-pipelining"
+  ],
+  "category": "Distributed Object-Capability Systems",
+  "concepts": [
+    "Object-Capability Security",
+    "Actor Model",
+    "Vat-based Isolation",
+    "CapTP (Capability Transport Protocol)",
+    "OCapN (Object Capability Network)",
+    "Transactional State Management",
+    "Asynchronous Message Passing",
+    "Promise Pipelining",
+    "Distributed Garbage Collection",
+    "Sealed Objects",
+    "Rights Amplification",
+    "Facet Pattern",
+    "Mints and Purses",
+    "Revocable Capabilities",
+    "E-order Messaging",
+    "Onion Routing",
+    "Cryptographic Nonces",
+    "Bootstrapping Capabilities",
+    "Message Dispatching",
+    "Serialization and Marshaling",
+    "Remote Invocations",
+    "Causal Consistency",
+    "Secure Networking Layers",
+    "Principle of Least Authority (POLA)",
+    "Eventual Consistency",
+    "Synchronous vs Asynchronous Vats",
+    "Broken Promises",
+    "Distributed Capability URLs",
+    "Racket Eventspaces",
+    "Causal Ordering"
+  ],
+  "languages": [
+    "Racket"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 70,
+    "has_readme": false,
+    "sample_files": [
+      "Makefile"
+    ]
+  },
+  "_hash": "0546aad0b2fb05d4631e3ec1db37cbdb66aac2a8a143384a35251d48f7611848",
+  "_path": "/Users/ember/src/racket-goblins",
+  "_updated_at": "2026-02-14T00:56:33.475676Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "df46dabc2a64d741eb6209dffdd051c2ec0cc12921e765f9da3cc0150ccf2fb2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:00.184467+00:00"
+  },
+  "mined_motifs": [
+    "object-capabilities",
+    "syrup-serialization",
+    "Netlayer Abstraction",
+    "Tor Onion Services",
+    "functional-programming",
+    "Capability Transport Protocol (CapTP)",
+    "guile-scheme",
+    "Syrup Serialization",
+    "onion-routing",
+    "SturdyRefs",
+    "p2p-networking",
+    "spritely"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "guile-goblins",
+      "path": "/Users/ember/src/guile-goblins",
+      "similarity": 0.91
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.889
+    },
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.888
+    },
+    {
+      "name": "ocapn.org",
+      "path": "/Users/ember/src/ocapn.org",
+      "similarity": 0.879
+    },
+    {
+      "name": "ocapn-test-suite",
+      "path": "/Users/ember/src/ocapn-test-suite",
+      "similarity": 0.877
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.875
+    },
+    {
+      "name": "Gerbil Scheme",
+      "path": "/Users/ember/dev/gerbil",
+      "similarity": 0.874
+    },
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.87
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Object-Capability Security",
+      "Actor Model",
+      "Vat-based Isolation",
+      "CapTP (Capability Transport Protocol)",
+      "OCapN (Object Capability Network)",
+      "Transactional State Management",
+      "Asynchronous Message Passing",
+      "Promise Pipelining",
+      "Distributed Garbage Collection",
+      "Sealed Objects",
+      "Rights Amplification",
+      "Facet Pattern",
+      "Mints and Purses",
+      "Revocable Capabilities",
+      "E-order Messaging",
+      "Onion Routing",
+      "Cryptographic Nonces",
+      "Bootstrapping Capabilities",
+      "Message Dispatching",
+      "Serialization and Marshaling",
+      "Remote Invocations",
+      "Causal Consistency",
+      "Secure Networking Layers",
+      "Principle of Least Authority (POLA)",
+      "Eventual Consistency",
+      "Synchronous vs Asynchronous Vats",
+      "Broken Promises",
+      "Distributed Capability URLs",
+      "Racket Eventspaces",
+      "Causal Ordering"
+    ],
+    "tags": [
+      "racket",
+      "actor-model",
+      "object-capabilities",
+      "ocapn",
+      "captp",
+      "distributed-systems",
+      "security",
+      "transactional",
+      "vats",
+      "p2p",
+      "capability-security",
+      "tor",
+      "asynchronous-messaging",
+      "cryptography",
+      "promise-pipelining"
+    ],
+    "mined_motifs": [
+      "object-capabilities",
+      "syrup-serialization",
+      "Netlayer Abstraction",
+      "Tor Onion Services",
+      "functional-programming",
+      "captp",
+      "guile-scheme",
+      "Syrup Serialization",
+      "onion-routing",
+      "SturdyRefs",
+      "p2p-networking",
+      "spritely"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 18.157,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "object-capabilities",
+          "p2p",
+          "spritely",
+          "sturdyrefs",
+          "vats"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.357,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.357,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 6.955,
+        "matches": [
+          "distributed-systems",
+          "p2p-networking"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 5.608,
+        "matches": [
+          "object-capabilities"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.59,
+        "matches": [
+          "p2p"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.475676Z"
+  }
+}

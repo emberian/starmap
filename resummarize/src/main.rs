@@ -104,6 +104,7 @@ struct Config {
     verbose: bool,
     trace_dir: Option<PathBuf>,
     embeddings: Option<EmbeddingConfig>,
+    embed_only: bool,
 }
 
 #[derive(Debug, Clone)]
@@ -261,7 +262,6 @@ fn category_rules() -> Vec<(&'static str, Vec<&'static str>)> {
                 "jit",
                 "syscall",
                 "dhttp",
-                "elide",
                 "graal",
             ],
         ),
@@ -377,7 +377,6 @@ fn default_targets(home: &Path) -> Vec<PathBuf> {
         home.join("dev"),
         home.join("shitheap"),
         home.join("hellas"),
-        home.join("elide"),
         home.join("src"),
     ]
 }
@@ -407,6 +406,7 @@ Usage:\n\
   --embed-timeout <seconds>    Embedding request timeout for curl (default: 120)\n\
   --motif-neighbors <n>        Nearest neighbors for motif mining (default: 6)\n\
   --motif-min-sim <float>      Minimum cosine similarity for motif transfer (default: 0.63)\n\
+  --embed-only                 Skip summarization; only run embedding + motif mining on existing summaries\n\
   -h, --help                   Show this help"
     );
 }
@@ -437,6 +437,7 @@ fn parse_args(home: &Path) -> Result<Config, String> {
         });
     let mut dry_run = false;
     let mut verbose = false;
+    let mut embed_only = false;
     let mut trace_dir = env::var("STARMAP_TRACE_DIR")
         .ok()
         .filter(|x| !x.trim().is_empty())
@@ -529,6 +530,7 @@ fn parse_args(home: &Path) -> Result<Config, String> {
             }
             "--dry-run" => dry_run = true,
             "--verbose" => verbose = true,
+            "--embed-only" => embed_only = true,
             "--trace-dir" => {
                 idx += 1;
                 if idx >= args.len() {
@@ -661,6 +663,7 @@ fn parse_args(home: &Path) -> Result<Config, String> {
         verbose,
         trace_dir,
         embeddings,
+        embed_only,
     })
 }
 
@@ -992,6 +995,24 @@ fn gather_project_context(path: &Path) -> ProjectContext {
         let candidate = path.join(pref);
         if candidate.exists() && candidate.is_file() {
             samples.push(candidate);
+        }
+    }
+
+    // Prioritise entry-point source files anywhere in the tree.
+    let entry_point_names: HashSet<&str> = [
+        "main.rs", "lib.rs", "mod.rs",
+        "main.py", "__init__.py", "app.py",
+        "index.ts", "index.js", "index.tsx",
+        "main.go", "main.c", "main.cpp",
+    ].into_iter().collect();
+    for (_, source) in &source_candidates {
+        if samples.len() >= MAX_SOURCE_SNIPPETS {
+            break;
+        }
+        if let Some(name) = source.file_name().and_then(|n| n.to_str()) {
+            if entry_point_names.contains(name) && !samples.iter().any(|x| x == source) {
+                samples.push(source.clone());
+            }
         }
     }
 
@@ -1569,6 +1590,25 @@ fn process_project(
         Value::String(Utc::now().to_rfc3339()),
     );
 
+    // Preserve enrichment fields from prior pipeline stages (attribution, metaconstellations,
+    // repair metadata, alignment metadata) that this binary doesn't produce.
+    if let Ok(existing_text) = fs::read_to_string(&summary_file) {
+        if let Ok(existing) = serde_json::from_str::<Value>(&existing_text) {
+            if let Some(existing_obj) = existing.as_object() {
+                for key in [
+                    "attribution",
+                    "_repair",
+                ] {
+                    if !summary_obj.contains_key(key) {
+                        if let Some(value) = existing_obj.get(key) {
+                            summary_obj.insert(key.to_string(), value.clone());
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     write_json(&summary_file, &summary)?;
     write_project_trace(
         trace_root,
@@ -2102,26 +2142,6 @@ fn cosine_similarity(a: &[f64], b: &[f64]) -> Option<f64> {
     Some(dot / (na.sqrt() * nb.sqrt()))
 }
 
-fn merge_concepts(existing: Vec<String>, mined: &[String], max: usize) -> Vec<String> {
-    let mut out = Vec::new();
-    let mut seen = HashSet::new();
-
-    for item in existing.into_iter().chain(mined.iter().cloned()) {
-        let trimmed = item.trim();
-        if trimmed.is_empty() {
-            continue;
-        }
-        let key = trimmed.to_lowercase();
-        if seen.insert(key) {
-            out.push(trimmed.to_string());
-            if out.len() >= max {
-                break;
-            }
-        }
-    }
-
-    out
-}
 
 fn ensure_object(value: &mut Value) -> Option<&mut Map<String, Value>> {
     value.as_object_mut()
@@ -2375,69 +2395,82 @@ fn update_embeddings_and_motifs(
             continue;
         }
 
-        let existing_concepts = string_array_from_object(&records[idx].data, "concepts");
-        let merged = merge_concepts(existing_concepts.clone(), &mined, MAX_SUMMARY_CONCEPTS);
-
-        if merged != existing_concepts {
-            let project_path = records[idx]
+        let project_path = records[idx]
+            .data
+            .get("_path")
+            .and_then(|v| v.as_str())
+            .unwrap_or("")
+            .to_string();
+        records[idx].data.insert(
+            "mined_motifs".to_string(),
+            Value::Array(mined.into_iter().map(Value::String).collect()),
+        );
+        records[idx]
+            .data
+            .insert("_motif_neighbors".to_string(), Value::Array(neighbor_links));
+        records[idx].data.insert(
+            "_updated_at".to_string(),
+            Value::String(Utc::now().to_rfc3339()),
+        );
+        records[idx].changed = true;
+        motif_updates += 1;
+        motif_events.push(json!({
+            "path": project_path,
+            "status": "updated",
+            "motif_count": records[idx]
                 .data
-                .get("_path")
-                .and_then(|v| v.as_str())
-                .unwrap_or("")
-                .to_string();
-            records[idx].data.insert(
-                "concepts".to_string(),
-                Value::Array(merged.into_iter().map(Value::String).collect()),
-            );
-            records[idx].data.insert(
-                "mined_motifs".to_string(),
-                Value::Array(mined.into_iter().map(Value::String).collect()),
-            );
-            records[idx]
+                .get("mined_motifs")
+                .and_then(|v| v.as_array())
+                .map(|v| v.len())
+                .unwrap_or(0),
+            "neighbor_count": records[idx]
                 .data
-                .insert("_motif_neighbors".to_string(), Value::Array(neighbor_links));
-            records[idx].data.insert(
-                "_updated_at".to_string(),
-                Value::String(Utc::now().to_rfc3339()),
-            );
-            records[idx].changed = true;
-            motif_updates += 1;
-            motif_events.push(json!({
-                "path": project_path,
-                "status": "updated",
-                "motif_count": records[idx]
-                    .data
-                    .get("mined_motifs")
-                    .and_then(|v| v.as_array())
-                    .map(|v| v.len())
-                    .unwrap_or(0),
-                "neighbor_count": records[idx]
-                    .data
-                    .get("_motif_neighbors")
-                    .and_then(|v| v.as_array())
-                    .map(|v| v.len())
-                    .unwrap_or(0),
-                "motifs": records[idx]
-                    .data
-                    .get("mined_motifs")
-                    .cloned()
-                    .unwrap_or_else(|| Value::Array(Vec::new())),
-                "neighbors": records[idx]
-                    .data
-                    .get("_motif_neighbors")
-                    .cloned()
-                    .unwrap_or_else(|| Value::Array(Vec::new())),
-            }));
-        }
+                .get("_motif_neighbors")
+                .and_then(|v| v.as_array())
+                .map(|v| v.len())
+                .unwrap_or(0),
+            "motifs": records[idx]
+                .data
+                .get("mined_motifs")
+                .cloned()
+                .unwrap_or_else(|| Value::Array(Vec::new())),
+            "neighbors": records[idx]
+                .data
+                .get("_motif_neighbors")
+                .cloned()
+                .unwrap_or_else(|| Value::Array(Vec::new())),
+        }));
     }
 
     if !dry_run {
+        // Merge-write: re-read each file before writing so we only touch
+        // embedding/motif fields and never clobber concurrent summarizer updates.
+        let merge_keys: &[&str] = &[
+            "_embedding",
+            "mined_motifs",
+            "_motif_neighbors",
+            "_updated_at",
+        ];
         for record in records {
             if !record.changed {
                 continue;
             }
-            let root = Value::Object(record.data);
-            if let Err(err) = write_json(&record.path, &root) {
+            // Re-read the current on-disk version (may have been updated by summarizer).
+            let disk_root = fs::read_to_string(&record.path)
+                .ok()
+                .and_then(|text| serde_json::from_str::<Value>(&text).ok());
+            let merged = if let Some(Value::Object(mut disk_obj)) = disk_root {
+                for &key in merge_keys {
+                    if let Some(value) = record.data.get(key) {
+                        disk_obj.insert(key.to_string(), value.clone());
+                    }
+                }
+                Value::Object(disk_obj)
+            } else {
+                // File disappeared or is corrupt; write what we have.
+                Value::Object(record.data)
+            };
+            if let Err(err) = write_json(&record.path, &merged) {
                 eprintln!("[warn] failed writing {}: {}", record.path.display(), err);
             }
         }
@@ -2478,7 +2511,11 @@ fn main() -> Result<(), String> {
 
     let cfg = parse_args(&home)?;
 
-    if cfg.targets.is_empty() {
+    if cfg.embed_only && cfg.embeddings.is_none() {
+        return Err("--embed-only requires an embedding backend (set --embed-local-model or --embed-url)".to_string());
+    }
+
+    if !cfg.embed_only && cfg.targets.is_empty() {
         return Err("No valid target directories to scan".to_string());
     }
 
@@ -2496,6 +2533,68 @@ fn main() -> Result<(), String> {
     } else {
         None
     };
+
+    if let Some(embed_cfg) = &cfg.embeddings {
+        match &embed_cfg.backend {
+            EmbeddingBackend::Http { url } => {
+                println!(
+                    "Embeddings: enabled (http={}, model={})",
+                    url, embed_cfg.model
+                );
+            }
+            EmbeddingBackend::Local(local_cfg) => {
+                let isq = local_cfg.isq.as_ref().map(|v| v.as_str()).unwrap_or("auto");
+                println!(
+                    "Embeddings: enabled (mistralrs-local model={} isq={} force_cpu={})",
+                    local_cfg.model_id, isq, local_cfg.force_cpu
+                );
+            }
+        }
+    } else {
+        println!("Embeddings: disabled (set --embed-local-model or --embed-url to enable)");
+    }
+
+    if cfg.embed_only {
+        println!("Mode: embed-only (skipping summarization)");
+        println!("Shadow root: {}", cfg.shadow_root.display());
+        let summary_count = collect_summary_files(&cfg.shadow_root).len();
+        println!("Existing summaries: {}", summary_count);
+        if let Some(trace_root) = &trace_root {
+            println!("Trace directory: {}", trace_root.display());
+        }
+
+        let embed_cfg = cfg.embeddings.as_ref().unwrap();
+        let (embedded_updates, motif_updates) = update_embeddings_and_motifs(
+            &cfg.shadow_root,
+            embed_cfg,
+            cfg.dry_run,
+            cfg.verbose,
+            trace_root.as_deref(),
+        );
+
+        println!("Done.");
+        println!(
+            "Embedding Summary: embeddings_updated={}, motif_enriched={}",
+            embedded_updates, motif_updates
+        );
+
+        write_trace_file(
+            trace_root.as_deref(),
+            "run.json",
+            json!({
+                "started_at": run_started_at,
+                "finished_at": Utc::now().to_rfc3339(),
+                "elapsed_ms": run_started.elapsed().as_millis(),
+                "shadow_root": cfg.shadow_root.to_string_lossy(),
+                "mode": "embed-only",
+                "embedding_updates": embedded_updates,
+                "motif_updates": motif_updates,
+            }),
+            cfg.verbose,
+        );
+
+        return Ok(());
+    }
 
     let gh_root = home.join("dev").join("gh");
 
@@ -2525,25 +2624,6 @@ fn main() -> Result<(), String> {
             .join(", ")
     );
     println!("Discovered projects: {}", project_roots.len());
-    if let Some(embed_cfg) = &cfg.embeddings {
-        match &embed_cfg.backend {
-            EmbeddingBackend::Http { url } => {
-                println!(
-                    "Embeddings: enabled (http={}, model={})",
-                    url, embed_cfg.model
-                );
-            }
-            EmbeddingBackend::Local(local_cfg) => {
-                let isq = local_cfg.isq.as_ref().map(|v| v.as_str()).unwrap_or("auto");
-                println!(
-                    "Embeddings: enabled (mistralrs-local model={} isq={} force_cpu={})",
-                    local_cfg.model_id, isq, local_cfg.force_cpu
-                );
-            }
-        }
-    } else {
-        println!("Embeddings: disabled (set --embed-local-model or --embed-url to enable)");
-    }
     if let Some(trace_root) = &trace_root {
         println!("Trace directory: {}", trace_root.display());
     }

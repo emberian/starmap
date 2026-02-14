@@ -1,0 +1,269 @@
+{
+  "name": "booty-hunt",
+  "description": "Booty Hunt is a high-performance 3D nautical roguelike built with Three.js and a Rust-based backend for asynchronous social mechanics. The engine features advanced procedural systems for world generation, real-time maritime combat, and a unique Web Audio-driven procedural shanty synthesizer. It implements a robust telemetry and replay infrastructure to support competitive ghost-fleet leaderboards and persistent world events.",
+  "tags": [
+    "three.js",
+    "rust",
+    "typescript",
+    "webgl",
+    "procedural-generation",
+    "web-audio",
+    "ntex",
+    "roguelike",
+    "pirate-game",
+    "real-time-combat",
+    "asynchronous-multiplayer",
+    "telemetry",
+    "scenario-editor",
+    "shanty-engine",
+    "sqlite",
+    "vite"
+  ],
+  "category": "Procedural Nautical Roguelike Simulation",
+  "concepts": [
+    "Procedural World Generation",
+    "Real-time 3D Simulation",
+    "WebGL Rendering",
+    "Digital Signal Processing",
+    "Procedural Music Synthesis",
+    "Asynchronous Multiplayer",
+    "Ghost Replay Systems",
+    "Game State Serialization",
+    "Deterministic Seeded RNG",
+    "Maritime Combat Dynamics",
+    "Economy Modeling",
+    "Narrative Scripting Systems",
+    "Telemetry Analytics",
+    "Scenario Orchestration",
+    "Component-Based Architecture",
+    "RESTful API Integration",
+    "Relational Data Modeling",
+    "Concurrent Backend Services",
+    "Vector Mathematics",
+    "Collision Detection",
+    "VFX Particle Systems",
+    "Game Loop Optimization",
+    "Cross-platform Web Deployment",
+    "Dynamic Weather Simulation",
+    "Faction Reputation Systems",
+    "Roguelike Progression Design",
+    "Procedural Shanty Generation",
+    "Entity Behavior AI",
+    "UI State Management",
+    "Automated Regression Testing"
+  ],
+  "languages": [
+    "TypeScript",
+    "Rust",
+    "JavaScript",
+    "SQL",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 92,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "server/src/handlers/mod.rs",
+      "server/src/main.rs",
+      "server/src/models/mod.rs",
+      "server/src/services/mod.rs"
+    ]
+  },
+  "_hash": "faa9726b129ce4c3dce108edbc392c44e352659e446770344c45e2749c2610a7",
+  "_path": "/Users/ember/dev/booty-hunt",
+  "_updated_at": "2026-02-14T00:56:23.608630Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Procedural World Generation",
+      "Real-time 3D Simulation",
+      "WebGL Rendering",
+      "Digital Signal Processing",
+      "Procedural Music Synthesis",
+      "Asynchronous Multiplayer",
+      "Ghost Replay Systems",
+      "Game State Serialization",
+      "Deterministic Seeded RNG",
+      "Maritime Combat Dynamics",
+      "Economy Modeling",
+      "Narrative Scripting Systems",
+      "Telemetry Analytics",
+      "Scenario Orchestration",
+      "Component-Based Architecture",
+      "RESTful API Integration",
+      "Relational Data Modeling",
+      "Concurrent Backend Services",
+      "Vector Mathematics",
+      "Collision Detection",
+      "VFX Particle Systems",
+      "Game Loop Optimization",
+      "Cross-platform Web Deployment",
+      "Dynamic Weather Simulation",
+      "Faction Reputation Systems",
+      "Roguelike Progression Design",
+      "Procedural Shanty Generation",
+      "Entity Behavior AI",
+      "UI State Management",
+      "Automated Regression Testing"
+    ],
+    "tags": [
+      "three.js",
+      "Rust Language Ecosystem",
+      "typescript",
+      "webgl",
+      "Procedural Generation",
+      "web-audio",
+      "ntex",
+      "roguelike",
+      "pirate-game",
+      "real-time-combat",
+      "asynchronous-multiplayer",
+      "telemetry",
+      "scenario-editor",
+      "shanty-engine",
+      "sqlite",
+      "vite"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "game-engine",
+      "axum",
+      "Hot Reloading",
+      "User Authentication",
+      "cellular-automata",
+      "canvas-api",
+      "WebAssembly",
+      "leptos",
+      "sea-orm",
+      "api-design"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.793,
+        "matches": [
+          "procedural generation",
+          "roguelike"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.726,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.697,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.37,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.357,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "audio-dsp",
+        "name": "Digital Signal Processing & Audio",
+        "score": 5.297,
+        "matches": [
+          "digital signal processing"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.608630Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6ac7031945400604776e132ecf9af62ed54e0630515d458d7dc975c0bdfd64d3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:39.716456+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "game-engine",
+    "axum",
+    "Real-time Simulation",
+    "Hot Reloading",
+    "User Authentication",
+    "cellular-automata",
+    "canvas-api",
+    "WebAssembly",
+    "leptos",
+    "sea-orm",
+    "api-design"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.796
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.795
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.794
+    },
+    {
+      "name": "booty-haul",
+      "path": "/Users/ember/dev/booty-haul",
+      "similarity": 0.79
+    },
+    {
+      "name": "Blackwing",
+      "path": "/Users/ember/dev/bw-exp1",
+      "similarity": 0.786
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.785
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.785
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.784
+    }
+  ]
+}

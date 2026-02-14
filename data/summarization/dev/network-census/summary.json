@@ -1,0 +1,234 @@
+{
+  "name": "network-census",
+  "description": "A Rust-based utility designed for system-level auditing of installed software packages on Windows environments via the Microsoft Installer (MSI) API. The tool leverages native FFI calls and the windows-rs crate to enumerate product codes and extract granular metadata such as publisher info, versioning, and installation paths. It facilitates automated software census by serializing endpoint state into structured JSON reports for network-wide inventory management and security auditing.",
+  "tags": [
+    "rust",
+    "windows-api",
+    "msi",
+    "inventory",
+    "audit",
+    "system-discovery",
+    "windows-rs",
+    "software-census",
+    "json-report",
+    "endpoint-observability",
+    "native-ffi",
+    "systems-administration",
+    "metadata-extraction",
+    "software-asset-management",
+    "security-auditing"
+  ],
+  "category": "Endpoint Inventory Discovery",
+  "concepts": [
+    "Microsoft Installer (MSI)",
+    "Windows API Interoperability",
+    "Product Code Enumeration",
+    "Installation Contexts (MSIINSTALLCONTEXT)",
+    "Software Asset Management (SAM)",
+    "Foreign Function Interface (FFI)",
+    "Registry-based Discovery",
+    "JSON Data Interchange",
+    "Endpoint Security Auditing",
+    "Windows SDK Hooks",
+    "Low-level System Enumeration",
+    "Metadata Extraction",
+    "MsiEnumProductsExW",
+    "MsiGetProductInfoExW",
+    "UTF-16 String Conversion",
+    "Product GUID Analysis",
+    "Inventory Reporting",
+    "Bitflags Management",
+    "Memory-safe Native Wrappers",
+    "Automated System Profiling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "CensusAgent/src/lib.rs",
+      "CensusAgent/src/main.rs",
+      "CensusAgent/src/msi.rs"
+    ]
+  },
+  "_hash": "c73f6a25ef66c9de6be811f6f56c62c834805e75a4b6c0f9cfb7f3abc9ee5f91",
+  "_path": "/Users/ember/dev/network-census",
+  "_updated_at": "2026-02-14T00:56:29.725568Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Microsoft Installer (MSI)",
+      "Windows API Interoperability",
+      "Product Code Enumeration",
+      "Installation Contexts (MSIINSTALLCONTEXT)",
+      "Software Asset Management (SAM)",
+      "foreign-function-interface",
+      "Registry-based Discovery",
+      "JSON Data Interchange",
+      "Endpoint Security Auditing",
+      "Windows SDK Hooks",
+      "Low-level System Enumeration",
+      "Metadata Extraction",
+      "MsiEnumProductsExW",
+      "MsiGetProductInfoExW",
+      "UTF-16 String Conversion",
+      "Product GUID Analysis",
+      "Inventory Reporting",
+      "Bitflags Management",
+      "Memory-safe Native Wrappers",
+      "Automated System Profiling"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "windows-api",
+      "msi",
+      "inventory",
+      "audit",
+      "system-discovery",
+      "windows-rs",
+      "software-census",
+      "json-report",
+      "endpoint-observability",
+      "foreign-function-interface",
+      "systems-administration",
+      "metadata-extraction",
+      "software-asset-management",
+      "security-auditing"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "systems-programming",
+      "Memory Management",
+      "Process Management",
+      "linux",
+      "Systems Programming",
+      "cli",
+      "Attribute Caching",
+      "Control Groups (cgroups)",
+      "Controller Discovery"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.292,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.288,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.497,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.497,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.687,
+        "matches": []
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 2.684,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.725568Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e3bbe0404bef34c8ec50e6cada8cfe61adf0b367f3d1315f9d87e98b32f8f79a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:08.310859+00:00"
+  },
+  "mined_motifs": [
+    "ffi",
+    "system-programming",
+    "low-level",
+    "Foreign Function Interface",
+    "Memory Management",
+    "Process Management",
+    "linux",
+    "systems-programming",
+    "cli",
+    "Attribute Caching",
+    "Control Groups (cgroups)",
+    "Controller Discovery"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.863
+    },
+    {
+      "name": "winapi-rs",
+      "path": "/Users/ember/dev/gh/forks/winapi-rs",
+      "similarity": 0.861
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.854
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.848
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.845
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.844
+    }
+  ]
+}

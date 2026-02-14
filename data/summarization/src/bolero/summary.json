@@ -1,0 +1,271 @@
+{
+  "name": "bolero",
+  "description": "Bolero is a unified testing facade for Rust that integrates coverage-guided fuzzing, property-based testing, and formal verification into a single developer workflow. It leverages a trait-based input generation system to transform raw byte streams from engines like AFL, LibFuzzer, and Honggfuzz into structured types, while also supporting symbolic execution through Kani. The framework includes a specialized CLI for managing test targets, corpus maintenance, and failure reduction across diverse execution environments.",
+  "tags": [
+    "rust",
+    "fuzzing",
+    "property-testing",
+    "libfuzzer",
+    "afl",
+    "honggfuzz",
+    "kani",
+    "model-checking",
+    "cargo-subcommand",
+    "coverage-guided",
+    "structured-fuzzing",
+    "shrinking",
+    "symbolic-execution",
+    "test-harness",
+    "miri",
+    "formal-verification"
+  ],
+  "category": "Unified Fuzzing & Model Checking Interface",
+  "concepts": [
+    "Coverage-guided fuzzing",
+    "Property-based testing",
+    "Structured input generation",
+    "Symbolic execution",
+    "Model checking",
+    "Input shrinking",
+    "Corpus replay",
+    "Differential testing",
+    "Mutation-based fuzzing",
+    "Test harness",
+    "Engine abstraction",
+    "Formal verification",
+    "Crash reporting",
+    "Persistent fuzzing",
+    "Deferred fork server",
+    "Seed management",
+    "Sanitizers",
+    "Miri validation",
+    "Crate instrumentation",
+    "LLVM coverage",
+    "Exhaustive testing",
+    "Random input generation",
+    "Combinatoric generators",
+    "Type-driven generation",
+    "Dataflow tracing",
+    "Binary instrumentation",
+    "AddressSanitizer",
+    "LeakSanitizer",
+    "MemorySanitizer",
+    "ThreadSanitizer",
+    "Workspace discovery",
+    "Target location resolution"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "C++",
+    "Shell",
+    "Python"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 340,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "bin/cargo-bolero/src/main.rs",
+      "bin/cargo-bolero/test_crates/failing_tests/src/lib.rs",
+      "examples/basic/src/lib.rs",
+      "examples/boolean-tree/src/lib.rs"
+    ]
+  },
+  "_hash": "b515e9cc2b1e6b65afc814b56194f814a65ead2833fc1de1da1e071979a09d5e",
+  "_path": "/Users/ember/src/bolero",
+  "_updated_at": "2026-02-14T00:56:32.320803Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b5e3ea1b3fab797f74c2d9aaba0cc9c23aacaa77ceae7b6080c39e8a19af834e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:01.150971+00:00"
+  },
+  "mined_motifs": [
+    "benchmarking",
+    "Behavior-Driven Development",
+    "Syntax Extensions",
+    "bdd",
+    "code-generation",
+    "compiler-plugin",
+    "dsl",
+    "ast",
+    "Byzantine Fault Tolerance",
+    "Quorum Certificates",
+    "State Machine Replication",
+    "distributed-systems"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.792
+    },
+    {
+      "name": "stainless",
+      "path": "/Users/ember/dev/gh/forks/stainless",
+      "similarity": 0.785
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.768
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.761
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.756
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.754
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.754
+    },
+    {
+      "name": "FStar",
+      "path": "/Users/ember/dev/FStar",
+      "similarity": 0.749
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Coverage-guided fuzzing",
+      "Property-based testing",
+      "Structured input generation",
+      "Symbolic execution",
+      "Model checking",
+      "Input shrinking",
+      "Corpus replay",
+      "Differential testing",
+      "Mutation-based fuzzing",
+      "Test harness",
+      "Engine abstraction",
+      "Formal verification",
+      "Crash reporting",
+      "Persistent fuzzing",
+      "Deferred fork server",
+      "Seed management",
+      "Sanitizers",
+      "Miri validation",
+      "Crate instrumentation",
+      "LLVM coverage",
+      "Exhaustive testing",
+      "Random input generation",
+      "Combinatoric generators",
+      "Type-driven generation",
+      "Dataflow tracing",
+      "Binary instrumentation",
+      "AddressSanitizer",
+      "LeakSanitizer",
+      "MemorySanitizer",
+      "ThreadSanitizer",
+      "Workspace discovery",
+      "Target location resolution"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "fuzzing",
+      "property-testing",
+      "libfuzzer",
+      "afl",
+      "honggfuzz",
+      "kani",
+      "model-checking",
+      "cargo-subcommand",
+      "coverage-guided",
+      "structured-fuzzing",
+      "shrinking",
+      "symbolic-execution",
+      "test-harness",
+      "miri",
+      "formal-methods"
+    ],
+    "mined_motifs": [
+      "benchmarking",
+      "Behavior-Driven Development",
+      "Syntax Extensions",
+      "bdd",
+      "Compiler Engineering",
+      "compiler-plugin",
+      "dsl",
+      "abstract-syntax-tree",
+      "distributed-systems",
+      "quorum-certificates",
+      "State Machine Replication"
+    ],
+    "metaconstellations": [
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 8.027,
+        "matches": [
+          "formal verification",
+          "formal-methods",
+          "symbolic-execution"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.264,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.248,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.246,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.236,
+        "matches": [
+          "abstract-syntax-tree"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.232,
+        "matches": [
+          "formal verification"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.320803Z"
+  }
+}

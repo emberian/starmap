@@ -1,0 +1,238 @@
+{
+  "name": "ual-tool",
+  "description": "A comprehensive Rust-based implementation of the Unified Augmentation Language (UAL) and Semantic Pattern Weaving (SPW), providing a metacircular transformation engine. It utilizes a Gnostic-themed algebraic data structure (Gnosis, Schema, Pleroma) to perform term rewriting and tree transmutations, supporting multiple semantic targets like UI components and LLM prompts.",
+  "tags": [
+    "parser",
+    "visualization",
+    "term-rewriting",
+    "metacircular",
+    "gnostic-calculus",
+    "semantic-weaving",
+    "rust",
+    "leptos",
+    "nom",
+    "cli",
+    "webassembly",
+    "tree-transformation",
+    "abstract-syntax-tree",
+    "symbolic-computation"
+  ],
+  "category": "Metacircular Term Rewriting System",
+  "concepts": [
+    "Metacircular Interpretation",
+    "Term Rewriting System (TRS)",
+    "Algebraic Data Types",
+    "Gnostic Computation",
+    "Tree Transmutation",
+    "Semantic Layering",
+    "Pattern Matching",
+    "Rule-Based Transformation",
+    "Breadth-First Traversal",
+    "Post-Order Traversal",
+    "Fixed-Point Iteration",
+    "Symbolic Weaving",
+    "WebAssembly Integration",
+    "Reactive UI Components",
+    "Trace Collection",
+    "Canon Construction"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 36,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "ual-tool/src/lib.rs",
+      "ual-tool/src/main.rs",
+      "ual-tool-web/src/main.rs",
+      "ual-tool/src/transcend.rs"
+    ]
+  },
+  "_hash": "c0a9231f6d24c03b104f9a0c2f40a580f214a9312db6814a06f97a2a3d4c6431",
+  "_path": "/Users/ember/dev/ual-tool",
+  "_updated_at": "2026-02-14T00:56:30.967189Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "974ccc5e696816926a17a159eabe3a01fd0aafbef131b6ac3740e36a931906c3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:02.121838+00:00"
+  },
+  "mined_motifs": [
+    "ast",
+    "Recursive Descent Parsing",
+    "Abstract Syntax Tree",
+    "functional-programming",
+    "Lexical Analysis",
+    "Tokenization",
+    "tokenization",
+    "lexical-analysis",
+    "wasm",
+    "recursive-descent",
+    "syntax-analysis",
+    "parsing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ual-tool",
+      "path": "/Users/ember/dev/gh/ual-tool",
+      "similarity": 0.886
+    },
+    {
+      "name": "rtt",
+      "path": "/Users/ember/dev/rtt",
+      "similarity": 0.848
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.81
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.799
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.797
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.796
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.794
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.786
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Metacircular Interpretation",
+      "Term Rewriting System (TRS)",
+      "Algebraic Data Types",
+      "Gnostic Computation",
+      "Tree Transmutation",
+      "Semantic Layering",
+      "Pattern Matching",
+      "Rule-Based Transformation",
+      "Breadth-First Traversal",
+      "Post-Order Traversal",
+      "Fixed-Point Iteration",
+      "Symbolic Weaving",
+      "WebAssembly Integration",
+      "Reactive UI Components",
+      "Trace Collection",
+      "Canon Construction"
+    ],
+    "tags": [
+      "parser",
+      "visualization",
+      "term-rewriting",
+      "metacircular",
+      "gnostic-calculus",
+      "semantic-weaving",
+      "Rust Language Ecosystem",
+      "leptos",
+      "nom",
+      "cli",
+      "webassembly",
+      "tree-transformation",
+      "AST",
+      "symbolic-computation"
+    ],
+    "mined_motifs": [
+      "abstract-syntax-tree",
+      "Recursive Descent Parsing",
+      "AST",
+      "functional-programming",
+      "lexical-analysis",
+      "Lexical Analysis",
+      "WebAssembly",
+      "recursive-descent",
+      "syntax-analysis",
+      "parsing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 13.788,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "recursive-descent"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.588,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.773,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.764,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.364,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.363,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.967189Z"
+  }
+}

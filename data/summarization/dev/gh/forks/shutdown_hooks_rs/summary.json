@@ -1,0 +1,249 @@
+{
+  "name": "shutdown_hooks",
+  "description": "A minimal Rust interface for registering process shutdown hooks by wrapping the C standard library's atexit function. It provides a simplified FFI abstraction to ensure specific cleanup logic is executed during the program's termination sequence, bridging Rust applications with low-level process lifecycle management. The implementation currently supports hook registration with future plans for managed hook removal and collection handling.",
+  "tags": [
+    "rust",
+    "ffi",
+    "libc",
+    "atexit",
+    "shutdown",
+    "lifecycle",
+    "process",
+    "callback",
+    "cleanup",
+    "systems-programming",
+    "os-abstraction"
+  ],
+  "category": "Process Lifecycle Management",
+  "concepts": [
+    "atexit(3)",
+    "Foreign Function Interface (FFI)",
+    "Process Termination",
+    "Runtime Hooks",
+    "Cleanup Routines",
+    "C Interoperability",
+    "Resource Deallocation",
+    "Static Execution",
+    "Program Exit Sequence",
+    "Libc Bindings",
+    "LIFO Execution Order",
+    "System Programming",
+    "Process Finalization",
+    "Exit Handlers",
+    "Unsafe Rust",
+    "Extern Function Pointers",
+    "Synchronous Termination",
+    "Standard Library Extensions",
+    "C-style Callbacks",
+    "Deterministic Finalization",
+    "Runtime Lifecycle Hooks",
+    "Symbol Linkage",
+    "Process Control",
+    "Native Code Integration",
+    "Hook Registration",
+    "Stack-based Cleanup",
+    "Posix Compatibility",
+    "Environment Finalization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "1ff3570cdd1e1cefb6cb6200729de0c1f569a1f9beb17059883f9648ac1c105a",
+  "_path": "/Users/ember/dev/gh/forks/shutdown_hooks_rs",
+  "_updated_at": "2026-02-14T00:56:26.671374Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "atexit(3)",
+      "foreign-function-interface",
+      "Process Termination",
+      "Runtime Hooks",
+      "Cleanup Routines",
+      "Foreign Function Interface",
+      "Resource Deallocation",
+      "Static Execution",
+      "Program Exit Sequence",
+      "Libc Bindings",
+      "LIFO Execution Order",
+      "System Programming",
+      "Process Finalization",
+      "Exit Handlers",
+      "Unsafe Rust",
+      "Extern Function Pointers",
+      "Synchronous Termination",
+      "Standard Library Extensions",
+      "C-style Callbacks",
+      "Deterministic Finalization",
+      "Runtime Lifecycle Hooks",
+      "Symbol Linkage",
+      "Process Control",
+      "Hook Registration",
+      "Stack-based Cleanup",
+      "Posix Compatibility",
+      "Environment Finalization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "libc",
+      "atexit",
+      "shutdown",
+      "lifecycle",
+      "process",
+      "callback",
+      "cleanup",
+      "Systems Programming",
+      "os-abstraction"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Compiler Engineering",
+      "Asynchronous interrupt handling",
+      "C-string interoperability",
+      "External C function bindings",
+      "FFI linkage to libc",
+      "Fixed stack segment constraints",
+      "Global signal handlers",
+      "Kernel-to-user-space callbacks",
+      "POSIX signal constants"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.036,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 10.869,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc",
+          "category:Process Lifecycle Management"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.885,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.47,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.452,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.402,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.671374Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c27d1af8122263c256ac81b3257b3c3531857e5dca85dc4d7e6c4df9614296be",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:24.285449+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "resource-management",
+    "system-programming",
+    "compiler-design",
+    "Asynchronous interrupt handling",
+    "C-string interoperability",
+    "External C function bindings",
+    "FFI linkage to libc",
+    "Fixed stack segment constraints",
+    "Global signal handlers",
+    "Kernel-to-user-space callbacks",
+    "POSIX signal constants"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.871
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.869
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.862
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.858
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.844
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.834
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.834
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "name": "binius",
+  "description": "Binius is a high-performance Rust library implementing a cryptographic SNARK optimized for towers of binary fields. It provides a comprehensive framework for constructing multilinear polynomial interactive oracle proofs (PIOPs), featuring optimized implementations of the sumcheck protocol, FRI-based polynomial commitments, and Lasso lookup arguments. The system leverages hardware-level acceleration, including SIMD and GFNI instructions, to achieve high-throughput proving for large-scale circuit constraints.",
+  "tags": [
+    "snark",
+    "zero-knowledge-proofs",
+    "binary-fields",
+    "cryptography",
+    "polynomial-iop",
+    "sumcheck-protocol",
+    "fri-protocol",
+    "merkle-tree",
+    "simd",
+    "gfni",
+    "multilinear-polynomials",
+    "piop",
+    "lasso-lookup",
+    "gkr-protocol",
+    "arithmetic-circuits",
+    "rust"
+  ],
+  "category": "Succinct Arguments over Binary Field Towers",
+  "concepts": [
+    "Towers of Binary Fields",
+    "Multilinear Polynomials",
+    "Polynomial Interactive Oracle Proofs (PIOP)",
+    "Sumcheck Protocol",
+    "FRI Protocol",
+    "Lasso Lookup Argument",
+    "Binary Merkle Trees",
+    "Reed-Solomon Codes",
+    "Fiat-Shamir Transform",
+    "GFNI Optimization",
+    "SIMD Parallelism",
+    "GKR Protocol",
+    "Zerocheck Protocol",
+    "Evaluation Proofs",
+    "Multivariate Polynomials",
+    "Commit-and-Prove SNARKs",
+    "Arithmetization",
+    "Constraint Systems",
+    "Witness Generation",
+    "Oracle Querying",
+    "Transcript Management",
+    "Reed-Solomon Proximity Testing",
+    "Vector Commitment Schemes",
+    "Linear Transformations",
+    "Binary Field Arithmetic",
+    "High-Performance Cryptography"
+  ],
+  "languages": [
+    "Rust",
+    "Shell",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 437,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/circuits/src/arithmetic/mod.rs",
+      "crates/circuits/src/builder/mod.rs",
+      "crates/circuits/src/lasso/big_integer_ops/mod.rs",
+      "crates/circuits/src/lasso/lookups/mod.rs"
+    ]
+  },
+  "_hash": "5d094be477dae5001a3b5caed1a5039434bb725c67c3ef60780d9052520649b2",
+  "_path": "/Users/ember/src/binius",
+  "_updated_at": "2026-02-14T00:56:32.313464Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "07d30bc9b1ab364e238b6eeed31d9ab88f175a3c8ddec54902e626dbcd091f38",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:00.155222+00:00"
+  },
+  "mined_motifs": [
+    "arkworks",
+    "zero-knowledge",
+    "pairings",
+    "elliptic-curves",
+    "Succinctness",
+    "Multi-Scalar Multiplication (MSM)",
+    "Finite Field Arithmetic",
+    "Pairing-Friendly Curves",
+    "Univariate Polynomials",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "bls12-381"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.867
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.866
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.864
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.858
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.858
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.857
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.856
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/hellas/poly-commit",
+      "similarity": 0.855
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Towers of Binary Fields",
+      "Multilinear Polynomials",
+      "Polynomial Interactive Oracle Proofs (PIOP)",
+      "Sumcheck Protocol",
+      "FRI Protocol",
+      "Lasso Lookup Argument",
+      "Binary Merkle Trees",
+      "Reed-Solomon Codes",
+      "Fiat-Shamir Transform",
+      "GFNI Optimization",
+      "SIMD Parallelism",
+      "GKR Protocol",
+      "Zerocheck Protocol",
+      "Evaluation Proofs",
+      "Multivariate Polynomials",
+      "Commit-and-Prove SNARKs",
+      "Arithmetization",
+      "Constraint Systems",
+      "Witness Generation",
+      "Oracle Querying",
+      "Transcript Management",
+      "Reed-Solomon Proximity Testing",
+      "Vector Commitment Schemes",
+      "Linear Transformations",
+      "Binary Field Arithmetic",
+      "High-Performance Cryptography"
+    ],
+    "tags": [
+      "ZK-SNARKs",
+      "Zero-Knowledge Proofs (ZKP)",
+      "binary-fields",
+      "cryptography",
+      "polynomial-iop",
+      "sumcheck-protocol",
+      "fri-protocol",
+      "merkle-tree",
+      "simd",
+      "gfni",
+      "multilinear-polynomials",
+      "piop",
+      "lasso-lookup",
+      "gkr-protocol",
+      "arithmetic-circuits",
+      "Rust Language Ecosystem"
+    ],
+    "mined_motifs": [
+      "arkworks",
+      "zero-knowledge-proofs",
+      "pairings",
+      "elliptic-curves",
+      "Succinctness",
+      "multi-scalar-multiplication",
+      "Finite Field Arithmetic",
+      "Pairing-Friendly Curves",
+      "Univariate Polynomials",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "bls12-381"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 12.535,
+        "matches": [
+          "arithmetic-circuits",
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.712,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.33,
+        "matches": [
+          "arithmetic-circuits",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.924,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 6.917,
+        "matches": [
+          "zk-snarks",
+          "arithmetic-circuits"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 6.914,
+        "matches": [
+          "cryptography",
+          "arithmetic-circuits"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.313464Z"
+  }
+}

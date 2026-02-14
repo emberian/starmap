@@ -1,0 +1,227 @@
+{
+  "name": "persistent",
+  "description": "A middleware implementation for the Iron web framework designed to facilitate thread-safe state sharing across the request-response lifecycle. It leverages atomic reference counting and various synchronization primitives to provide granular access control for read-only, read-write, and write-heavy persistent data storage within a type-safe extension system.",
+  "tags": [
+    "rust",
+    "middleware",
+    "iron-framework",
+    "concurrency",
+    "web-development",
+    "shared-state",
+    "synchronization",
+    "http-server",
+    "thread-safety",
+    "type-safe-extensions",
+    "arc",
+    "mutex",
+    "rwlock"
+  ],
+  "category": "Concurrent State Middleware",
+  "concepts": [
+    "Middleware Pattern",
+    "Shared Mutable State",
+    "Thread Safety",
+    "Atomic Reference Counting",
+    "Type-Safe Extension Maps",
+    "Mutual Exclusion",
+    "Read-Write Locking",
+    "Request Context Management",
+    "Concurrency Primitives",
+    "Component Reusability",
+    "Resource Sharing",
+    "Plugin Architecture",
+    "Static Dispatch",
+    "Phantom Types",
+    "Trait-based Extensions",
+    "Request-Response Lifecycle",
+    "Persistent Storage Abstractions",
+    "Concurrent Access Patterns",
+    "Web Server State Management",
+    "Generic Type Parameters",
+    "Reference Counting",
+    "Internal Mutability"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "examples/hitcounter.rs"
+    ]
+  },
+  "_hash": "f6807174fcd1af3a8d2ebb1bae1b249df2fc73a1d38913906a91d128ebdba5ef",
+  "_path": "/Users/ember/dev/gh/forks/persistent",
+  "_updated_at": "2026-02-14T00:56:26.242019Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Middleware Pattern",
+      "Shared Mutable State",
+      "Thread Safety",
+      "Atomic Reference Counting",
+      "Type-Safe Extension Maps",
+      "Mutual Exclusion",
+      "Read-Write Locking",
+      "Request Context Management",
+      "Concurrency Primitives",
+      "Component Reusability",
+      "Resource Sharing",
+      "Plugin Architecture",
+      "Static Dispatch",
+      "Phantom Types",
+      "Trait-based Extensions",
+      "Request-Response Lifecycle",
+      "Persistent Storage Abstractions",
+      "Concurrent Access Patterns",
+      "Web Server State Management",
+      "Generic Type Parameters",
+      "Reference Counting",
+      "Internal Mutability"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "middleware",
+      "iron-framework",
+      "Concurrency & Synchronization",
+      "web-development",
+      "shared-state",
+      "http-server",
+      "type-safe-extensions",
+      "arc",
+      "mutex",
+      "rwlock"
+    ],
+    "mined_motifs": [
+      "Asynchronous Programming",
+      "backend",
+      "rest-api",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "microservice",
+      "Asynchronous Task Scheduling",
+      "web-framework",
+      "Zero-cost Abstractions",
+      "Middleware Architecture"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.421,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.356,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 2.577,
+        "matches": []
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 2.57,
+        "matches": []
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 2.569,
+        "matches": []
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.568,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.242019Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "85a5e6662cb0e8e0976953b5b01637d29dc9af4e1ca2e1d9924bf2ab4b45de3c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:00.003880+00:00"
+  },
+  "mined_motifs": [
+    "tokio",
+    "backend",
+    "rest-api",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "microservice",
+    "Asynchronous Task Scheduling",
+    "web-framework",
+    "Zero-cost Abstractions",
+    "Middleware Architecture",
+    "Asynchronous Programming"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.839
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.826
+    },
+    {
+      "name": "spin-rs",
+      "path": "/Users/ember/dev/gh/forks/spin-rs",
+      "similarity": 0.821
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.819
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.818
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.818
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.813
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.812
+    }
+  ]
+}

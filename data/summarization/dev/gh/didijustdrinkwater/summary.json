@@ -1,0 +1,235 @@
+{
+  "name": "didijustdrinkwater",
+  "description": "A native Android hydration tracking application implementing modern architectural patterns with the Jetpack suite. It utilizes Room for local SQLite persistence of timestamped events, Kotlin Coroutines and Flows for reactive data streams, and a ViewModel-driven UI layer with RecyclerView for efficient list rendering.",
+  "tags": [
+    "android",
+    "kotlin",
+    "room-persistence",
+    "jetpack",
+    "mvvm",
+    "recyclerview",
+    "coroutines",
+    "flow",
+    "livedata",
+    "sqlite",
+    "hydration-tracker",
+    "android-architecture",
+    "diffutil",
+    "viewmodel"
+  ],
+  "category": "Android MVVM Architecture",
+  "concepts": [
+    "Model-View-ViewModel (MVVM)",
+    "Object-Relational Mapping (ORM)",
+    "Reactive Programming",
+    "Asynchronous Coroutines",
+    "Database Type Converters",
+    "Repository Pattern",
+    "Manual Dependency Injection",
+    "UI List Virtualization",
+    "Data Access Object (DAO) Pattern",
+    "Lifecycle-aware Components",
+    "SQLite Persistence",
+    "Android Jetpack",
+    "Temporal Data Handling",
+    "Unit Testing",
+    "Instrumented Testing"
+  ],
+  "languages": [
+    "Kotlin",
+    "XML",
+    "Groovy"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 40,
+    "has_readme": true,
+    "sample_files": [
+      "app/src/main/java/town/lunar/waterdrinking/WaterDataAccess.kt",
+      "app/src/main/java/town/lunar/waterdrinking/MainActivity.kt",
+      "app/src/androidTest/java/town/lunar/waterdrinking/ExampleInstrumentedTest.kt",
+      "app/src/test/java/town/lunar/waterdrinking/ExampleUnitTest.kt"
+    ]
+  },
+  "_hash": "b568d2b5b06aba988576e224ad351907c1c189c9389ff635df51468a535a8f4e",
+  "_path": "/Users/ember/dev/gh/didijustdrinkwater",
+  "_updated_at": "2026-02-14T00:56:24.983062Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Model-View-ViewModel (MVVM)",
+      "Object-Relational Mapping (ORM)",
+      "Reactive Programming",
+      "Asynchronous Coroutines",
+      "Database Type Converters",
+      "Repository Pattern",
+      "Manual Dependency Injection",
+      "UI List Virtualization",
+      "Data Access Object (DAO) Pattern",
+      "Lifecycle-aware Components",
+      "SQLite Persistence",
+      "Android Jetpack",
+      "Temporal Data Handling",
+      "Unit Testing",
+      "Instrumented Testing"
+    ],
+    "tags": [
+      "android",
+      "kotlin",
+      "room-persistence",
+      "jetpack",
+      "mvvm",
+      "recyclerview",
+      "coroutines",
+      "flow",
+      "livedata",
+      "sqlite",
+      "hydration-tracker",
+      "android-architecture",
+      "diffutil",
+      "viewmodel"
+    ],
+    "mined_motifs": [
+      "persistence",
+      "Event Sourcing",
+      "cqrs",
+      "ddd",
+      "event-sourcing",
+      "Rust Language Ecosystem",
+      "sqlx",
+      "SwiftData",
+      "zero-knowledge-proofs",
+      "blockchain",
+      "Mina Protocol",
+      "o1js"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 10.761,
+        "matches": [
+          "cqrs",
+          "event-sourcing",
+          "persistence"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 9.405,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.276,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.467,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.215,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.14,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.983062Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a06a3f71d56977c71737df09aeb047816fa8884c26bd068e847b26d49844596a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:56.019757+00:00"
+  },
+  "mined_motifs": [
+    "persistence",
+    "Event Sourcing",
+    "cqrs",
+    "ddd",
+    "event-sourcing",
+    "rust",
+    "sqlx",
+    "SwiftData",
+    "Recursive SNARKs",
+    "blockchain",
+    "mina-protocol",
+    "o1js"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.766
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.757
+    },
+    {
+      "name": "etool",
+      "path": "/Users/ember/dev/etool",
+      "similarity": 0.748
+    },
+    {
+      "name": "Duratory",
+      "path": "/Users/ember/dev/Duratory",
+      "similarity": 0.738
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.738
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.738
+    },
+    {
+      "name": "fmodel-rust-demo",
+      "path": "/Users/ember/src/fmodel-rust-demo",
+      "similarity": 0.736
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.734
+    }
+  ]
+}

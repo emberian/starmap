@@ -1,0 +1,229 @@
+{
+  "name": "biscuit-cli",
+  "description": "A comprehensive command-line interface for the Biscuit authentication token system, enabling the creation, attenuation, and inspection of cryptographically signed tokens. It implements a Datalog-based policy engine for decentralized authorization, supporting Ed25519 and Secp256r1 signature schemes and interactive policy authoring via system editors.",
+  "tags": [
+    "rust",
+    "cli",
+    "biscuit-auth",
+    "datalog",
+    "authorization",
+    "cryptography",
+    "ed25519",
+    "secp256r1",
+    "nix-flake",
+    "security-tool",
+    "identity-management",
+    "access-control",
+    "binary-formats",
+    "json-output"
+  ],
+  "category": "Decentralized Authorization Framework",
+  "concepts": [
+    "Datalog Policy Engine",
+    "Public-key Cryptography",
+    "Capabilities-based Security",
+    "Token Attenuation",
+    "Third-party Blocks",
+    "Revocation Identifiers",
+    "Fact Generation",
+    "Logic Programming",
+    "Transitive Trust",
+    "Sealed Tokens",
+    "Hierarchical Authorization",
+    "Keypair Generation",
+    "Sub-command CLI Architecture",
+    "Environment-based Configuration",
+    "Input Stream Multiplexing"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "src/main.rs",
+      "src/inspect.rs",
+      "src/input.rs"
+    ]
+  },
+  "_hash": "9e31fac1f578e74cfd010ceab0ff915b0bd1810b982ee2e3e6e5040f0e41fa72",
+  "_path": "/Users/ember/src/eclipse-biscuit/biscuit-cli",
+  "_updated_at": "2026-02-14T00:56:32.657365Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f66e995b8120047377517ba5de6e3ef7112b0a655b897c29c20f4bc477bba9e2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:11.219711+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "authentication",
+    "attenuation",
+    "security",
+    "Policy Enforcement",
+    "Protobuf Serialization",
+    "Predicate Logic",
+    "Microservices Security",
+    "capability-based",
+    "blockchain",
+    "caveats",
+    "Access Control Lists"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.925
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.923
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.916
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.913
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.844
+    },
+    {
+      "name": "fly-macaroon",
+      "path": "/Users/ember/src/fly-macaroon",
+      "similarity": 0.84
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.836
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Datalog Policy Engine",
+      "Public-key Cryptography",
+      "Capabilities-based Security",
+      "Token Attenuation",
+      "Third-party Blocks",
+      "Revocation Identifiers",
+      "Fact Generation",
+      "Logic Programming",
+      "Transitive Trust",
+      "Sealed Tokens",
+      "Hierarchical Authorization",
+      "Keypair Generation",
+      "Sub-command CLI Architecture",
+      "Environment-based Configuration",
+      "Input Stream Multiplexing"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cli",
+      "biscuit-auth",
+      "datalog",
+      "authorization",
+      "cryptography",
+      "ed25519",
+      "secp256r1",
+      "nix-flake",
+      "security-tool",
+      "identity-management",
+      "access-control",
+      "binary-formats",
+      "json-output"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "authentication",
+      "attenuation",
+      "security",
+      "Policy Enforcement",
+      "Protobuf Serialization",
+      "Predicate Logic",
+      "Microservices Security",
+      "capability-based",
+      "blockchain",
+      "caveats",
+      "Access Control Lists"
+    ],
+    "metaconstellations": [
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 12.591,
+        "matches": [
+          "access-control",
+          "authorization",
+          "datalog",
+          "biscuit-auth"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 8.311,
+        "matches": [
+          "authorization",
+          "access-control",
+          "datalog"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.501,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.499,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.486,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.486,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.657365Z"
+  }
+}

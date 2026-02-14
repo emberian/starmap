@@ -1,0 +1,244 @@
+{
+  "name": "cmr.github.io",
+  "description": "A legacy technical blog repository implemented with the Octopress framework, serving as a primary archive for the early 'This Week in Rust' series and deep-dive research into the Rust compiler. The codebase integrates legacy web technologies including JWPlayer for Flash/HTML5 video fallback, jQuery-based UI components, and the Ender modular framework to deliver technical discourse on memory safety and language internals. It represents a significant historical record of systems engineering documentation during the pre-1.0 evolution of the Rust ecosystem.",
+  "tags": [
+    "octopress",
+    "rust-lang",
+    "static-site-generator",
+    "this-week-in-rust",
+    "rustc",
+    "legacy-web",
+    "jekyll",
+    "atom-feed",
+    "jwplayer",
+    "fancybox",
+    "systems-programming",
+    "blog-archive",
+    "github-pages",
+    "modernizr",
+    "ender-js",
+    "technical-writing"
+  ],
+  "category": "Technical Blog Engineering",
+  "concepts": [
+    "Static Site Generation",
+    "Rust Compiler Architecture",
+    "Stack Safety",
+    "Type-Based Alias Analysis",
+    "Technical Journalism",
+    "Legacy Web Standards",
+    "Modular JavaScript Frameworks",
+    "Flash-HTML5 Hybrid Video",
+    "Social API Integration",
+    "Asynchronous Resource Loading",
+    "Syndication Formats",
+    "CSS Preprocessing",
+    "Web Font Embedding",
+    "Browser Compatibility Shims",
+    "Content Categorization",
+    "Archival Documentation",
+    "Memory Safety",
+    "Compiler Design",
+    "Web Content Management"
+  ],
+  "languages": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "XML"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 174,
+    "has_readme": true,
+    "sample_files": [
+      "javascripts/libs/jquery.min.js",
+      "javascripts/libs/ender.js",
+      "javascripts/ender.js",
+      "javascripts/jquery.fancybox.pack.js",
+      "javascripts/libs/swfobject-dynamic.js"
+    ]
+  },
+  "_hash": "3b619c1678a1f165ea17096cea5d6a4048cc713345dc932c0c7518994edb140e",
+  "_path": "/Users/ember/dev/gh/cmr.github.io",
+  "_updated_at": "2026-02-14T00:56:24.766084Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Static Site Generation",
+      "Rust Compiler Architecture",
+      "Stack Safety",
+      "Type-Based Alias Analysis",
+      "Technical Journalism",
+      "Legacy Web Standards",
+      "Modular JavaScript Frameworks",
+      "Flash-HTML5 Hybrid Video",
+      "Social API Integration",
+      "Asynchronous Resource Loading",
+      "Syndication Formats",
+      "CSS Preprocessing",
+      "Web Font Embedding",
+      "Browser Compatibility Shims",
+      "Content Categorization",
+      "Archival Documentation",
+      "Memory Safety",
+      "Compiler Design",
+      "Web Content Management"
+    ],
+    "tags": [
+      "octopress",
+      "Rust Language Ecosystem",
+      "static-site-generator",
+      "this-week-in-rust",
+      "legacy-web",
+      "jekyll",
+      "atom-feed",
+      "jwplayer",
+      "fancybox",
+      "Systems Programming",
+      "blog-archive",
+      "github-pages",
+      "modernizr",
+      "ender-js",
+      "technical-writing"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "markdown",
+      "rfc-process",
+      "Static Asset Optimization",
+      "compiler-design",
+      "lexical-analysis",
+      "Compiler Engineering",
+      "API Stability",
+      "Algebraic Data Types",
+      "Atom Feed",
+      "Borrowing",
+      "Cargo Package Manager"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 8.199,
+        "matches": [
+          "compiler-design",
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.187,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.449,
+        "matches": [
+          "markdown"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.398,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.391,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 3.972,
+        "matches": [
+          "compiler-design"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.766084Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3dba5d119fd33e991eaa30e05e2de582a97cb14cd69da117ae00159e304a1158",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:39.251647+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "markdown",
+    "rfc-process",
+    "Static Asset Optimization",
+    "compiler",
+    "Tokenization",
+    "compiler-design",
+    "API Stability",
+    "Algebraic Data Types",
+    "Atom Feed",
+    "Borrowing",
+    "Cargo Package Manager"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.901
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.86
+    },
+    {
+      "name": "blog",
+      "path": "/Users/ember/dev/gh/blog",
+      "similarity": 0.852
+    },
+    {
+      "name": "meeting-minutes",
+      "path": "/Users/ember/dev/gh/forks/meeting-minutes",
+      "similarity": 0.837
+    },
+    {
+      "name": "gfx-rs.github.io",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+      "similarity": 0.826
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.822
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.819
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.819
+    }
+  ]
+}

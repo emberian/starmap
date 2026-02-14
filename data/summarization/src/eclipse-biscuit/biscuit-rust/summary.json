@@ -1,0 +1,267 @@
+{
+  "name": "biscuit-rust",
+  "description": "A comprehensive Rust implementation of the Biscuit authentication and authorization token system, providing a decentralized and offline-delegatable capability framework for microservices. It utilizes a custom Datalog-based logic language to define fine-grained authorization policies and employs public-key cryptography for secure token attenuation and validation. The repository includes a core authentication library, a parser for the Datalog DSL, procedural macros for compile-time token construction, and C-compatible FFI bindings.",
+  "tags": [
+    "authorization",
+    "authentication",
+    "datalog",
+    "cryptography",
+    "security-token",
+    "microservices",
+    "ed25519",
+    "secp256r1",
+    "capabilities",
+    "distributed-systems",
+    "logic-programming",
+    "rust",
+    "protobuf",
+    "ffi",
+    "macros"
+  ],
+  "category": "Distributed Capability-based Access Control",
+  "concepts": [
+    "Datalog Logic Language",
+    "Token Attenuation",
+    "Decentralized Validation",
+    "Offline Delegation",
+    "Public Key Cryptography",
+    "Ed25519 Signatures",
+    "Secp256r1 (P-256) Support",
+    "Protobuf Serialization",
+    "Symbol Table Interning",
+    "Authorization Policies",
+    "Policy Enforcement",
+    "Logic-based Reasoning",
+    "Microservices Security",
+    "Capability-based Security",
+    "Zero-trust Architecture",
+    "Procedural Macros",
+    "FFI Bindings",
+    "Fact-based Authorization",
+    "Rule-based Delegation",
+    "Ambient Data Constraints",
+    "Authorizer Execution",
+    "Block-based Token Structure",
+    "Caveat Enforcement",
+    "Scoped Logic Rules",
+    "Predicate Logic",
+    "Third-party Block Verification",
+    "Sealed Tokens",
+    "Datalog Engine Runtime",
+    "Language-agnostic Tokens",
+    "Hierarchical Authorization"
+  ],
+  "languages": [
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 117,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "biscuit-auth/src/crypto/mod.rs",
+      "biscuit-auth/src/datalog/mod.rs",
+      "biscuit-auth/src/format/mod.rs",
+      "biscuit-auth/src/lib.rs"
+    ]
+  },
+  "_hash": "c0e047e87c34bb4559eb1d7d316c7f555fc17fc79e0052dc8a565fcedd3d2401",
+  "_path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+  "_updated_at": "2026-02-14T00:56:32.669474Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "da1c47627dbce97509b16a5d8c453dc97c94653921907c65dcbcf74937c7dac2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:12.835585+00:00"
+  },
+  "mined_motifs": [
+    "Transitive Trust",
+    "security",
+    "Third-party Blocks",
+    "access-control",
+    "attenuation",
+    "capability-security",
+    "compiler-design",
+    "Capabilities-based Security",
+    "Datalog Policy Engine",
+    "Environment-based Configuration",
+    "Fact Generation",
+    "Input Stream Multiplexing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "biscuit-cli",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-cli",
+      "similarity": 0.923
+    },
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.915
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.91
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.895
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.862
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.859
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.858
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.856
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Datalog Logic Language",
+      "Token Attenuation",
+      "Decentralized Validation",
+      "Offline Delegation",
+      "Public Key Cryptography",
+      "Ed25519 Signatures",
+      "Secp256r1 (P-256) Support",
+      "Protobuf Serialization",
+      "Symbol Table Interning",
+      "Authorization Policies",
+      "Policy Enforcement",
+      "Logic-based Reasoning",
+      "Microservices Security",
+      "Capability-based Security",
+      "Zero-trust Architecture",
+      "Procedural Macros",
+      "FFI Bindings",
+      "Fact-based Authorization",
+      "Rule-based Delegation",
+      "Ambient Data Constraints",
+      "Authorizer Execution",
+      "Block-based Token Structure",
+      "Caveat Enforcement",
+      "Scoped Logic Rules",
+      "Predicate Logic",
+      "Third-party Block Verification",
+      "Sealed Tokens",
+      "Datalog Engine Runtime",
+      "Language-agnostic Tokens",
+      "Hierarchical Authorization"
+    ],
+    "tags": [
+      "authorization",
+      "authentication",
+      "datalog",
+      "cryptography",
+      "security-token",
+      "microservices",
+      "ed25519",
+      "secp256r1",
+      "capabilities",
+      "distributed-systems",
+      "logic-programming",
+      "Rust Language Ecosystem",
+      "protobuf",
+      "foreign-function-interface",
+      "macros"
+    ],
+    "mined_motifs": [
+      "Transitive Trust",
+      "security",
+      "Third-party Blocks",
+      "access-control",
+      "attenuation",
+      "capability-security",
+      "Compiler Engineering",
+      "Capabilities-based Security",
+      "Datalog Policy Engine",
+      "Environment-based Configuration",
+      "Fact Generation",
+      "Input Stream Multiplexing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 13.941,
+        "matches": [
+          "authorization",
+          "capability-security",
+          "logic-programming",
+          "access-control",
+          "datalog"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 11.22,
+        "matches": [
+          "access-control",
+          "authorization",
+          "datalog"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.509,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.508,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.669474Z"
+  }
+}

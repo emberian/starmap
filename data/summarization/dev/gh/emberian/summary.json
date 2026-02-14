@@ -1,0 +1,103 @@
+{
+  "name": "emberian",
+  "description": "emberian appears to be a exploratory project using mixed tooling. The available files suggest focus areas around readme.",
+  "tags": [
+    "readme"
+  ],
+  "category": "Exploratory",
+  "concepts": [
+    "readme"
+  ],
+  "languages": [],
+  "maturity": "exploratory",
+  "_hash": "9b352bc8783937798e62b01e2a1170865bb713535c8ece8ba614278a06d70aff",
+  "_path": "/Users/ember/dev/gh/emberian",
+  "_updated_at": "2026-02-11T08:55:20.314774Z",
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [
+      "readme"
+    ],
+    "tags": [
+      "readme"
+    ],
+    "mined_motifs": [
+      "paper1"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 2.046,
+        "matches": []
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.005,
+        "matches": []
+      }
+    ],
+    "aligner": "gemini",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-11T08:55:20.314761Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8cba83eaf640102ee82ac494d75ceeb4ffb57c975e3b314eb87e71f8ced24e59",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:00.465796+00:00"
+  },
+  "mined_motifs": [
+    "paper1"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/shitheap/esgea",
+      "similarity": 0.771
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.769
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.759
+    },
+    {
+      "name": "fuckin_bullshit",
+      "path": "/Users/ember/dev/shitheap/fuckin_bullshit",
+      "similarity": 0.748
+    },
+    {
+      "name": "ants",
+      "path": "/Users/ember/dev/shitheap/ants",
+      "similarity": 0.743
+    },
+    {
+      "name": "jourtress",
+      "path": "/Users/ember/dev/shitheap/jourtress",
+      "similarity": 0.742
+    },
+    {
+      "name": "univ190",
+      "path": "/Users/ember/dev/gh/univ190",
+      "similarity": 0.736
+    },
+    {
+      "name": "spw-workbench",
+      "path": "/Users/ember/src/spw-workbench/__MACOSX/spw-workbench",
+      "similarity": 0.733
+    }
+  ]
+}

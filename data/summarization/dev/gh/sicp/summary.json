@@ -1,0 +1,209 @@
+{
+  "name": "sicp",
+  "description": "A collection of Scheme implementations and theoretical exercises derived from the 'Structure and Interpretation of Computer Programs' curriculum. The project explores fundamental computational models, focusing on procedural and data abstractions, evaluation strategies, and the mechanics of symbolic expression. It serves as a technical sandbox for mastering the Lisp-based paradigms of recursion and functional decomposition.",
+  "tags": [
+    "scheme",
+    "lisp",
+    "sicp",
+    "functional-programming",
+    "recursion",
+    "mit-6.001",
+    "computational-logic",
+    "lambda-calculus",
+    "procedural-abstraction",
+    "symbolic-computation"
+  ],
+  "category": "Functional Programming & Symbolic Abstraction",
+  "concepts": [
+    "Applicative-order Evaluation",
+    "Normal-order Evaluation",
+    "Substitution Model",
+    "Linear Recursion",
+    "Iterative Processes",
+    "Tail-call Optimization",
+    "Higher-order Procedures",
+    "Lexical Scoping",
+    "Procedural Decomposition",
+    "Symbolic Expressions",
+    "Compound Data",
+    "Lambda Abstraction"
+  ],
+  "languages": [
+    "Scheme"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "27ca54c0d23a1b70801e2ef5f4f594db452ea48fe4967ea523932ccc4d725fff",
+  "_path": "/Users/ember/dev/gh/sicp",
+  "_updated_at": "2026-02-14T00:56:28.635574Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Applicative-order Evaluation",
+      "Normal-order Evaluation",
+      "Substitution Model",
+      "Linear Recursion",
+      "Iterative Processes",
+      "Tail-call Optimization",
+      "Higher-order Procedures",
+      "Lexical Scoping",
+      "Procedural Decomposition",
+      "Symbolic Expressions",
+      "Compound Data",
+      "Lambda Abstraction"
+    ],
+    "tags": [
+      "scheme",
+      "lisp",
+      "sicp",
+      "functional-programming",
+      "recursion",
+      "mit-6.001",
+      "computational-logic",
+      "lambda-calculus",
+      "procedural-abstraction",
+      "symbolic-computation"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "Compiler Engineering",
+      "Rust Language Ecosystem",
+      "abstract-syntax-tree",
+      "parser",
+      "AST",
+      "Recursive Descent Parsing",
+      "s-expression",
+      "Intermediate Representation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.543,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.145,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.385,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.531,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 4.135,
+        "matches": [
+          "ast"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.773,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.635574Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0369687aa7c4a263ba6dfdd214eb1a6495049313b2232582c3951b04ebf122c8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:28.228927+00:00"
+  },
+  "mined_motifs": [
+    "Tokenization",
+    "compiler-design",
+    "rust",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "parser",
+    "Abstract Syntax Trees",
+    "Recursive Descent Parsing",
+    "s-expression",
+    "tokenization",
+    "Intermediate Representation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.903
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.899
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.899
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.889
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.887
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.884
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.883
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.883
+    }
+  ]
+}

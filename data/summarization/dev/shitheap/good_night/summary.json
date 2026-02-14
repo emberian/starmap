@@ -1,0 +1,227 @@
+{
+  "name": "good_night",
+  "description": "A compact terminal-based ray tracer implemented in C, utilizing linear algebra and quaternion rotations to render 3D scenes. The engine features ray-sphere intersection logic, diffuse illumination models, and sub-pixel sampling for antialiasing, designed for animated output via POSIX terminal interfaces.",
+  "tags": [
+    "ray-tracing",
+    "c",
+    "terminal-graphics",
+    "3d-rendering",
+    "linear-algebra",
+    "quaternions",
+    "posix",
+    "animation",
+    "graphics-engine",
+    "math-library",
+    "ansi-escape-sequences"
+  ],
+  "category": "Terminal Ray-Casting Engine",
+  "concepts": [
+    "Ray Casting",
+    "Vector Calculus",
+    "Quaternion Rotations",
+    "Matrix Transformations",
+    "Ray-Sphere Intersection",
+    "Diffuse Illumination",
+    "Sub-pixel Sampling",
+    "Terminal IO Control",
+    "Frame-based Animation",
+    "Color Space Mapping",
+    "Transformation Matrices",
+    "Dot Product Operations",
+    "Normal Vector Calculation",
+    "Alpha Blending",
+    "Geometry Primitives",
+    "Perspective Projection",
+    "Coordinate System Transformation",
+    "Real-time Rendering"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "Makefile",
+      "good_night.c"
+    ]
+  },
+  "_hash": "837e777fa9baefcf4287d7f6813e61eecdb7ba06c16e3d00c0504aa76fe05ca8",
+  "_path": "/Users/ember/dev/shitheap/good_night",
+  "_updated_at": "2026-02-14T00:56:30.253235Z",
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fdd2640e3f75d859ea877c81db0a586a626e0a95813f0d4fda6539c177f38c4a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:41.354844+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "opengl",
+    "glfw",
+    "real-time-rendering",
+    "rendering",
+    "glsl",
+    "3d-graphics",
+    "visualization",
+    "Graphics Pipeline Abstraction",
+    "Texture Mapping",
+    "raytracing",
+    "Rasterization Pipeline"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.861
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.858
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.854
+    },
+    {
+      "name": "computer-graphics-book",
+      "path": "/Users/ember/dev/gh/computer-graphics-book",
+      "similarity": 0.848
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.842
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.837
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.837
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.836
+    }
+  ],
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Ray Casting",
+      "Vector Calculus",
+      "Quaternion Rotations",
+      "Matrix Transformations",
+      "Ray-Sphere Intersection",
+      "Diffuse Illumination",
+      "Sub-pixel Sampling",
+      "Terminal IO Control",
+      "Frame-based Animation",
+      "Color Space Mapping",
+      "Transformation Matrices",
+      "Dot Product Operations",
+      "Normal Vector Calculation",
+      "Alpha Blending",
+      "Geometry Primitives",
+      "Perspective Projection",
+      "Coordinate System Transformation",
+      "Real-time Rendering"
+    ],
+    "tags": [
+      "ray-tracing",
+      "c",
+      "terminal-graphics",
+      "3d-rendering",
+      "Linear Algebra",
+      "quaternions",
+      "posix",
+      "animation",
+      "graphics-engine",
+      "math-library",
+      "ansi-escape-sequences"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "opengl",
+      "glfw",
+      "Computer Graphics & Rendering",
+      "glsl",
+      "3d-graphics",
+      "visualization",
+      "Graphics Pipeline Abstraction",
+      "Texture Mapping",
+      "Rasterization Pipeline"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.898,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.896,
+        "matches": [
+          "real-time rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 6.859,
+        "matches": [
+          "rust language ecosystem",
+          "posix"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.483,
+        "matches": [
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.446,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 4.065,
+        "matches": [
+          "posix"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.253235Z"
+  }
+}

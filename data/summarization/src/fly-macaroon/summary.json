@@ -1,0 +1,237 @@
+{
+  "name": "fly-macaroon",
+  "description": "A production-grade implementation of Macaroon tokens used for distributed authorization and fine-grained access control within the Fly.io platform. The system employs cryptographically chained caveats to enable decentralized token attenuation, supporting both first-party and third-party discharge flows via symmetric-key cryptography. It features a robust resource matching engine and MessagePack-based serialization for high-performance credential validation in high-scale network environments.",
+  "tags": [
+    "go",
+    "macaroon",
+    "flyio",
+    "authorization",
+    "security",
+    "capability-based",
+    "cryptography",
+    "caveats",
+    "bearer-token",
+    "hmac",
+    "chacha20",
+    "poly1305",
+    "messagepack",
+    "distributed-systems",
+    "access-control"
+  ],
+  "category": "Capability-based Access Control",
+  "concepts": [
+    "macaroons",
+    "caveats",
+    "attenuation",
+    "third-party caveats",
+    "discharge macaroons",
+    "cryptographic chaining",
+    "hmac-sha256",
+    "chacha20-poly1305",
+    "messagepack serialization",
+    "hierarchical resource sets",
+    "predicate-based validation",
+    "token bundling",
+    "first-party location",
+    "symmetric-key cryptography",
+    "authorization header schemes",
+    "bearer authentication",
+    "nonce generation",
+    "resource scoping"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 67,
+    "has_readme": true,
+    "sample_files": [
+      "go.mod",
+      "macaroon.go",
+      "macaroon_test.go",
+      "flyio/caveats.go",
+      "bundle/bundle_test.go"
+    ]
+  },
+  "_hash": "4d037a053c97e9e3165fdbe80b2e8fd8a9702ee2b6272db005dcb0ca7900a673",
+  "_path": "/Users/ember/src/fly-macaroon",
+  "_updated_at": "2026-02-14T00:56:32.748256Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "266b790cc7e1d4c2f02c0b457eaeeaa39fd27a44cc59d3a3e825d90ccca706dd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:22.534409+00:00"
+  },
+  "mined_motifs": [
+    "datalog",
+    "Token Attenuation",
+    "rust",
+    "authentication",
+    "ed25519",
+    "secp256r1",
+    "Policy Enforcement",
+    "Protobuf Serialization",
+    "Transitive Trust",
+    "Hierarchical Authorization",
+    "Sealed Tokens",
+    "Predicate Logic"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.848
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.843
+    },
+    {
+      "name": "biscuit-cli",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-cli",
+      "similarity": 0.84
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.827
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.823
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.787
+    },
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.773
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "macaroons",
+      "caveats",
+      "attenuation",
+      "third-party caveats",
+      "discharge macaroons",
+      "cryptographic chaining",
+      "hmac-sha256",
+      "chacha20-poly1305",
+      "messagepack serialization",
+      "hierarchical resource sets",
+      "predicate-based validation",
+      "token bundling",
+      "first-party location",
+      "symmetric-key cryptography",
+      "authorization header schemes",
+      "bearer authentication",
+      "nonce generation",
+      "resource scoping"
+    ],
+    "tags": [
+      "go",
+      "macaroon",
+      "flyio",
+      "authorization",
+      "security",
+      "capability-based",
+      "cryptography",
+      "caveats",
+      "bearer-token",
+      "hmac",
+      "chacha20",
+      "poly1305",
+      "messagepack",
+      "distributed-systems",
+      "access-control"
+    ],
+    "mined_motifs": [
+      "datalog",
+      "Token Attenuation",
+      "Rust Language Ecosystem",
+      "authentication",
+      "ed25519",
+      "secp256r1",
+      "Policy Enforcement",
+      "Protobuf Serialization",
+      "Transitive Trust",
+      "Hierarchical Authorization",
+      "Sealed Tokens",
+      "Predicate Logic"
+    ],
+    "metaconstellations": [
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 12.447,
+        "matches": [
+          "access-control",
+          "authorization",
+          "datalog",
+          "macaroons"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 9.533,
+        "matches": [
+          "authorization",
+          "access-control",
+          "datalog",
+          "macaroons"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.288,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.288,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.288,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.288,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.748256Z"
+  }
+}

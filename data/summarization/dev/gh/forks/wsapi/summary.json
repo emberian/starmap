@@ -1,0 +1,228 @@
+{
+  "name": "wsapi",
+  "description": "WSAPI is a unified interface and abstraction layer between Lua web applications and various web server backends, including CGI, FastCGI, and Xavante. It provides a standardized environment for request/response handling, output buffering, and middleware implementation, drawing architectural inspiration from Ruby's Rack and Python's WSGI while maintaining Lua-specific idioms. The project incorporates C-based FastCGI bindings and specialized launchers to facilitate deployment across heterogeneous UNIX and Windows environments.",
+  "tags": [
+    "lua",
+    "web-server-api",
+    "cgi",
+    "fastcgi",
+    "xavante",
+    "middleware",
+    "rack-inspired",
+    "wsgi-inspired",
+    "request-handling",
+    "response-handling",
+    "luarocks",
+    "c-bindings",
+    "web-framework-abstraction",
+    "http-gateway"
+  ],
+  "category": "Web Application Gateway Interface",
+  "concepts": [
+    "Web Server Abstraction",
+    "Request-Response Lifecycle",
+    "Middleware Filter Pattern",
+    "FastCGI Protocol implementation",
+    "CGI Environment Mapping",
+    "Output Stream Buffering",
+    "Isolated Lua State Management",
+    "Persistent Process Lifecycles",
+    "Cross-platform SAPI Emulation",
+    "Query String Serialization",
+    "Multipart POST Parsing",
+    "Request Multiplexing",
+    "Mock Handler Testing",
+    "Resource-embedded Lua Interpreters",
+    "State TTL and Garbage Collection",
+    "Environment Rewindability"
+  ],
+  "languages": [
+    "Lua",
+    "C"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 84,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "src/fastcgi/lfcgi.c",
+      "src/launcher/wsapi.c",
+      "src/launcher/launcher.c",
+      "src/fastcgi/lfcgi.h"
+    ]
+  },
+  "_hash": "422d6a1afe1a78d6da7d9aba360b8eaec73e9f37c2744e1b5ed70c91af3f1739",
+  "_path": "/Users/ember/dev/gh/forks/wsapi",
+  "_updated_at": "2026-02-14T00:56:27.043701Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Web Server Abstraction",
+      "Request-Response Lifecycle",
+      "Middleware Filter Pattern",
+      "FastCGI Protocol implementation",
+      "CGI Environment Mapping",
+      "Output Stream Buffering",
+      "Isolated Lua State Management",
+      "Persistent Process Lifecycles",
+      "Cross-platform SAPI Emulation",
+      "Query String Serialization",
+      "Multipart POST Parsing",
+      "Request Multiplexing",
+      "Mock Handler Testing",
+      "Resource-embedded Lua Interpreters",
+      "State TTL and Garbage Collection",
+      "Environment Rewindability"
+    ],
+    "tags": [
+      "lua",
+      "web-server-api",
+      "cgi",
+      "fastcgi",
+      "xavante",
+      "middleware",
+      "rack-inspired",
+      "wsgi-inspired",
+      "request-handling",
+      "response-handling",
+      "luarocks",
+      "Foreign Function Interface (FFI)",
+      "web-framework-abstraction",
+      "http-gateway"
+    ],
+    "mined_motifs": [
+      "rest-api",
+      "web-framework",
+      "http-server",
+      "Rust Language Ecosystem",
+      "routing",
+      "jquery",
+      "WebAssembly",
+      "controller-dispatch",
+      "dynamic-path-segmentation",
+      "error-handling-middleware",
+      "http-method-matching"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.422,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.415,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.412,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.409,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.392,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.596,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.043701Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b7a176276203a33aad1b0227b538a65fff36ecde14de3ed333d1c1c8151aa00c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:42.175358+00:00"
+  },
+  "mined_motifs": [
+    "rest-api",
+    "web-framework",
+    "http-server",
+    "rust",
+    "routing",
+    "jquery",
+    "wasm",
+    "webassembly",
+    "controller-dispatch",
+    "dynamic-path-segmentation",
+    "error-handling-middleware",
+    "http-method-matching"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tweed",
+      "path": "/Users/ember/dev/gh/tweed",
+      "similarity": 0.869
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.847
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.834
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.825
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.818
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.815
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.813
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.81
+    }
+  ]
+}

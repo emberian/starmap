@@ -1,0 +1,210 @@
+{
+  "name": "aoc",
+  "description": "aoc appears to be a exploratory project using OCaml, Rust. The available files suggest focus areas around dune, cargo, day12, input.",
+  "tags": [
+    "OCaml",
+    "Rust",
+    "dune",
+    "cargo",
+    "day12",
+    "input",
+    "main",
+    "audit",
+    "day1",
+    "day10",
+    "day11",
+    "day13",
+    "day2",
+    "day3",
+    "day4",
+    "day5"
+  ],
+  "category": "Exploratory",
+  "concepts": [
+    "dune",
+    "cargo",
+    "day12",
+    "input",
+    "main",
+    "audit",
+    "day1",
+    "day10",
+    "day11",
+    "day13",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7",
+    "day8",
+    "project",
+    "shape",
+    "shapes",
+    "type"
+  ],
+  "languages": [
+    "OCaml",
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "_hash": "833fff83a4ae8f90f5a79caeb5c86c8a3b2e2235cadb713f5efb6d9f47001387",
+  "_path": "/Users/ember/dev/aoc",
+  "_updated_at": "2026-02-14T00:56:23.516927Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "dune",
+      "cargo",
+      "day12",
+      "input",
+      "main",
+      "audit",
+      "day1",
+      "day10",
+      "day11",
+      "day13",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "day6",
+      "day7",
+      "day8",
+      "project",
+      "shape",
+      "shapes",
+      "type"
+    ],
+    "tags": [
+      "OCaml",
+      "Rust Language Ecosystem",
+      "dune",
+      "cargo",
+      "day12",
+      "input",
+      "main",
+      "audit",
+      "day1",
+      "day10",
+      "day11",
+      "day13",
+      "day2",
+      "day3",
+      "day4",
+      "day5"
+    ],
+    "mined_motifs": [
+      "readme",
+      "test",
+      "Shell",
+      "lab1",
+      "lite",
+      "build",
+      "config.ml",
+      "core",
+      "flowtype",
+      "install",
+      "jenga",
+      "meta"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.766,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.493,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.307,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.516927Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0b7c300fa9c9ba5a221e43a417293bab50d6300f01c361c1be9d4019012ef14f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:30.007002+00:00"
+  },
+  "mined_motifs": [
+    "readme",
+    "test",
+    "Shell",
+    "lab1",
+    "lite",
+    "build",
+    "config.ml",
+    "core",
+    "flowtype",
+    "install",
+    "jenga",
+    "meta"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "aoc23",
+      "path": "/Users/ember/dev/gh/aoc23",
+      "similarity": 0.891
+    },
+    {
+      "name": "CS452-LAB1",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB1",
+      "similarity": 0.713
+    },
+    {
+      "name": "opam-repository",
+      "path": "/Users/ember/dev/gh/forks/opam-repository",
+      "similarity": 0.699
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.697
+    },
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.691
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/gh/crate-mcp",
+      "similarity": 0.672
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.671
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.667
+    }
+  ]
+}

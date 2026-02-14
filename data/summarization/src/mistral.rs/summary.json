@@ -1,0 +1,264 @@
+{
+  "name": "mistral.rs",
+  "description": "A high-performance multimodal inference engine written in Rust, optimized for low-latency execution of Large Language Models across diverse hardware backends. It incorporates advanced memory management through PagedAttention and continuous batching, alongside comprehensive support for adapter techniques such as LoRA, X-LoRA, and AnyMoE. The system provides integrated agentic capabilities, including native tool calling and web search, accessible via unified Rust and Python SDKs or an OpenAI-compatible server.",
+  "tags": [
+    "llm-inference",
+    "rust",
+    "quantization",
+    "paged-attention",
+    "lora",
+    "x-lora",
+    "anymoe",
+    "multimodal",
+    "cuda",
+    "metal",
+    "vllm",
+    "agentic-ai",
+    "mcp",
+    "diffusion",
+    "gguf",
+    "tensor-parallelism"
+  ],
+  "category": "Large Language Model Inference Systems",
+  "concepts": [
+    "Continuous Batching",
+    "PagedAttention",
+    "In-situ Quantization (ISQ)",
+    "Tensor Parallelism",
+    "Speculative Decoding",
+    "LoRA Adapters",
+    "X-LoRA",
+    "AnyMoE (Dynamic Mixture of Experts)",
+    "FlashAttention V2/V3",
+    "GGUF / GPTQ / AWQ / HQQ",
+    "UQFF (Universal Quantized File Format)",
+    "Tool Calling",
+    "Model Context Protocol (MCP)",
+    "Web Search Integration",
+    "Prefix Caching",
+    "Vision-Language Modeling",
+    "Audio-Language Processing",
+    "Diffusion Model Inference",
+    "Structured Output Generation",
+    "Device Mapping",
+    "CPU Offloading",
+    "Logits Processing",
+    "Per-layer Topology",
+    "Hardware Tuning"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "JavaScript",
+    "C",
+    "C++",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 933,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "mistralrs/examples/agent/main.rs",
+      "mistralrs/examples/agent_streaming/main.rs",
+      "mistralrs/examples/anymoe/main.rs"
+    ]
+  },
+  "_hash": "25b674c069ff350ff1fdae0eee07f452fcdcdfb23751d6e613282d916ab6a2e1",
+  "_path": "/Users/ember/src/mistral.rs",
+  "_updated_at": "2026-02-14T00:56:33.197224Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0b8fd9bedddacb77ca466b77d258e56f5aac23b5715a28047540a7493fa2d50b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:45.348835+00:00"
+  },
+  "mined_motifs": [
+    "tokenization",
+    "machine-learning",
+    "cross-platform",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd",
+    "gpgpu",
+    "hardware-abstraction",
+    "intel",
+    "nvidia"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "llama.cpp",
+      "path": "/Users/ember/src/llama.cpp",
+      "similarity": 0.841
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/gh/forks/rust",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.827
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.825
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.823
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Continuous Batching",
+      "PagedAttention",
+      "In-situ Quantization (ISQ)",
+      "Tensor Parallelism",
+      "Speculative Decoding",
+      "LoRA Adapters",
+      "X-LoRA",
+      "AnyMoE (Dynamic Mixture of Experts)",
+      "FlashAttention V2/V3",
+      "GGUF / GPTQ / AWQ / HQQ",
+      "UQFF (Universal Quantized File Format)",
+      "Tool Calling",
+      "model-context-protocol",
+      "Web Search Integration",
+      "Prefix Caching",
+      "Vision-Language Modeling",
+      "Audio-Language Processing",
+      "Diffusion Model Inference",
+      "Structured Output Generation",
+      "Device Mapping",
+      "CPU Offloading",
+      "Logits Processing",
+      "Per-layer Topology",
+      "Hardware Tuning"
+    ],
+    "tags": [
+      "Large Language Model Inference",
+      "Rust Language Ecosystem",
+      "quantization",
+      "paged-attention",
+      "lora",
+      "x-lora",
+      "anymoe",
+      "multimodal",
+      "cuda",
+      "metal",
+      "vllm",
+      "agentic-ai",
+      "model-context-protocol",
+      "diffusion",
+      "gguf",
+      "tensor-parallelism"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "machine-learning",
+      "cross-platform",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd",
+      "GPGPU Compute",
+      "hardware-abstraction",
+      "intel",
+      "nvidia"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 18.095,
+        "matches": [
+          "cuda",
+          "metal",
+          "quantization",
+          "tensor-parallelism",
+          "gguf",
+          "lora",
+          "paged-attention"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 9.694,
+        "matches": [
+          "large language model inference",
+          "diffusion",
+          "gguf",
+          "quantization"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.453,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.414,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.384,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.337,
+        "matches": [
+          "agentic-ai"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.197224Z"
+  }
+}

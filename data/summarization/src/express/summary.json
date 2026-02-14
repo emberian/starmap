@@ -1,0 +1,211 @@
+{
+  "name": "Express",
+  "description": "A fast, unopinionated, and minimalist web framework for Node.js, designed for building robust web applications and APIs. It provides a thin layer of fundamental web application features, including sophisticated routing, high-performance HTTP helpers, and a flexible view system supporting numerous template engines without obscuring Node.js features.",
+  "tags": [
+    "web-framework",
+    "nodejs",
+    "http-server",
+    "middleware",
+    "routing",
+    "rest-api",
+    "mvc",
+    "content-negotiation",
+    "template-engine",
+    "javascript"
+  ],
+  "category": "Web Application Framework",
+  "concepts": [
+    "Middleware Architecture",
+    "HTTP Request/Response Abstraction",
+    "Dynamic Routing",
+    "View Engine Integration",
+    "Content Negotiation",
+    "Static File Serving",
+    "Error Handling Patterns",
+    "Session Management",
+    "Cookie Parsing",
+    "Asynchronous Control Flow"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 201,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "examples/auth/index.js",
+      "examples/content-negotiation/index.js",
+      "examples/cookie-sessions/index.js",
+      "examples/cookies/index.js"
+    ]
+  },
+  "_hash": "0e282925a92c30e521240233673c597e81429ba940514048aa20c27586365f29",
+  "_path": "/Users/ember/src/express",
+  "_updated_at": "2026-02-14T00:56:32.729601Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0ee75eeff716e0531627fe9504ff54536cb28fcc48b0352cd1d4cc9e08e280fd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:19.686370+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "wasm",
+    "hydration",
+    "server-functions",
+    "ssr",
+    "declarative-ui",
+    "fine-grained-reactivity",
+    "full-stack",
+    "isomorphic",
+    "reactivity",
+    "signals",
+    "Non-blocking I/O"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.862
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.852
+    },
+    {
+      "name": "Node.js",
+      "path": "/Users/ember/src/node",
+      "similarity": 0.85
+    },
+    {
+      "name": "wsapi",
+      "path": "/Users/ember/dev/gh/forks/wsapi",
+      "similarity": 0.847
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.847
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.841
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.84
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.837
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Middleware Architecture",
+      "HTTP Request/Response Abstraction",
+      "Dynamic Routing",
+      "View Engine Integration",
+      "Content Negotiation",
+      "Static File Serving",
+      "Error Handling Patterns",
+      "Session Management",
+      "Cookie Parsing",
+      "Asynchronous Control Flow"
+    ],
+    "tags": [
+      "web-framework",
+      "nodejs",
+      "http-server",
+      "middleware",
+      "routing",
+      "rest-api",
+      "mvc",
+      "content-negotiation",
+      "template-engine",
+      "javascript"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "hydration",
+      "server-functions",
+      "ssr",
+      "declarative-ui",
+      "fine-grained-reactivity",
+      "full-stack",
+      "isomorphic",
+      "reactivity",
+      "Non-blocking I/O"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 15.249,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "server-functions"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.455,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.452,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.447,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.444,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.649,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.729601Z"
+  }
+}

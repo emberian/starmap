@@ -1,0 +1,251 @@
+{
+  "name": "smlfmt",
+  "description": "A high-performance, configurable code formatter for Standard ML designed for large-scale projects and automated CI workflows. It features a complete SML parser compliant with the formal definition and SuccessorML extensions, integrated with an advanced pretty-printing engine for idiomatic code generation. The system supports full-project formatting via ML Basis (.mlb) files and provides robust error diagnostics with visual code references.",
+  "tags": [
+    "standard-ml",
+    "sml",
+    "code-formatter",
+    "mlton",
+    "successorml",
+    "ml-basis",
+    "parser",
+    "abstract-syntax-tree",
+    "pretty-printer",
+    "developer-tools",
+    "static-analysis",
+    "functional-programming",
+    "source-to-source",
+    "syntax-highlighting",
+    "cli",
+    "toolchain"
+  ],
+  "category": "Standard ML Language Tooling",
+  "concepts": [
+    "abstract syntax tree",
+    "recursive descent parsing",
+    "combinator parsing",
+    "pretty printing",
+    "lexical analysis",
+    "tokenization",
+    "infix precedence resolution",
+    "ML Basis path maps",
+    "SuccessorML extensions",
+    "record punning",
+    "or-patterns",
+    "ANSI escape sequences",
+    "idempotent formatting",
+    "CLI option parsing",
+    "error diagnostics",
+    "syntax highlighting",
+    "source mapping",
+    "Standard ML formal definition",
+    "MLB parsing",
+    "functional language tooling",
+    "code aesthetics",
+    "indentation algorithms",
+    "maximum width wrapping",
+    "ribbon fraction control",
+    "MLton compiler integration"
+  ],
+  "languages": [
+    "Standard ML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 240,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile"
+    ]
+  },
+  "_hash": "417f32691865e38215609ea6f58591f342d82ffee61224cb3525b3b45b9ddecc",
+  "_path": "/Users/ember/src/smlfmt",
+  "_updated_at": "2026-02-14T00:56:33.976543Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2eb02d17f710c80403d4594a18ac26d3a04e2848d887bfc69cb02ca131f9bfb9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:11.379223+00:00"
+  },
+  "mined_motifs": [
+    "Type Inference",
+    "Standard ML",
+    "Bytecode Interpretation",
+    "Foreign Function Interface",
+    "Formal Verification Infrastructure",
+    "formal-methods",
+    "Register Allocation",
+    "compiler",
+    "x86-64",
+    "AOT Compilation",
+    "Functional Programming",
+    "PolyML"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.797
+    },
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/RuPaulyML",
+      "similarity": 0.761
+    },
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/gh/RuPaulyML",
+      "similarity": 0.759
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.754
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.753
+    },
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.751
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.751
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.748
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "AST",
+      "recursive descent parsing",
+      "combinator parsing",
+      "pretty printing",
+      "lexical-analysis",
+      "infix precedence resolution",
+      "ML Basis path maps",
+      "SuccessorML extensions",
+      "record punning",
+      "or-patterns",
+      "ANSI escape sequences",
+      "idempotent formatting",
+      "CLI option parsing",
+      "error diagnostics",
+      "syntax highlighting",
+      "source mapping",
+      "Standard ML formal definition",
+      "MLB parsing",
+      "functional language tooling",
+      "code aesthetics",
+      "indentation algorithms",
+      "maximum width wrapping",
+      "ribbon fraction control",
+      "MLton compiler integration"
+    ],
+    "tags": [
+      "standard-ml",
+      "sml",
+      "code-formatter",
+      "mlton",
+      "successorml",
+      "ml-basis",
+      "parser",
+      "AST",
+      "pretty-printer",
+      "developer-tools",
+      "static-analysis",
+      "functional-programming",
+      "source-to-source",
+      "syntax-highlighting",
+      "cli",
+      "toolchain"
+    ],
+    "mined_motifs": [
+      "Type Inference",
+      "Standard ML",
+      "Bytecode Interpretation",
+      "foreign-function-interface",
+      "Formal Verification Infrastructure",
+      "formal-verification",
+      "Register Allocation",
+      "compiler-design",
+      "x86-64",
+      "AOT Compilation",
+      "Functional Programming",
+      "PolyML"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 10.82,
+        "matches": [
+          "ast",
+          "parser",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.417,
+        "matches": [
+          "compiler-design",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.245,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.245,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.233,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.142,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.976543Z"
+  }
+}

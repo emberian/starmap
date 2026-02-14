@@ -1,0 +1,213 @@
+{
+  "name": "simplebuilder",
+  "description": "A minimalist shell utility designed to automate the batch compilation of Arch Linux packages directly from the Arch Build System (ABS) tree. It processes package identifiers via standard input, leveraging makepkg for dependency resolution and unattended installation while maintaining persistent logs of build results. The script implements robust signal handling to ensure clean state reporting during interrupted execution cycles.",
+  "tags": [
+    "shell",
+    "bash",
+    "arch-linux",
+    "abs",
+    "makepkg",
+    "package-management",
+    "automation",
+    "build-tool",
+    "minimalist"
+  ],
+  "category": "Arch Linux Package Build Automation",
+  "concepts": [
+    "Arch Build System (ABS)",
+    "makepkg integration",
+    "automated dependency resolution",
+    "stdin stream processing",
+    "POSIX signal handling",
+    "unattended package installation",
+    "bulk compilation",
+    "build status persistence",
+    "Arch Linux packaging",
+    "working directory stack management",
+    "shell trap mechanisms",
+    "process exit code validation",
+    "package repository mapping",
+    "system-wide build automation",
+    "log file generation",
+    "batch package processing"
+  ],
+  "languages": [
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "simplebuilder.sh"
+    ]
+  },
+  "_hash": "7ed887e0f2e15ad906d7fc16ce27a7d233f4e582302082be3ef7ee8869976d30",
+  "_path": "/Users/ember/dev/gh/simplebuilder",
+  "_updated_at": "2026-02-14T00:56:28.651109Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Arch Build System (ABS)",
+      "makepkg integration",
+      "automated dependency resolution",
+      "stdin stream processing",
+      "POSIX signal handling",
+      "unattended package installation",
+      "bulk compilation",
+      "build status persistence",
+      "Arch Linux packaging",
+      "working directory stack management",
+      "shell trap mechanisms",
+      "process exit code validation",
+      "package repository mapping",
+      "system-wide build automation",
+      "log file generation",
+      "batch package processing"
+    ],
+    "tags": [
+      "shell",
+      "bash",
+      "arch-linux",
+      "abs",
+      "makepkg",
+      "package-management",
+      "automation",
+      "build-tool",
+      "minimalist"
+    ],
+    "mined_motifs": [
+      "dependency-management",
+      "build-system",
+      "toolchain",
+      "Blake2 Hashing",
+      "Build Automation",
+      "Build Orchestration",
+      "CLI Command Dispatch",
+      "Compilation Pipeline Management",
+      "Crate Manifest Parsing",
+      "Cross-platform Compatibility",
+      "Cryptographic Integrity Verification",
+      "Dependency Resolution"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 6.744,
+        "matches": [
+          "build-system",
+          "build orchestration"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.429,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.411,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.924,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.61,
+        "matches": []
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 2.589,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.651109Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2567fc940e871fb2eaa9558e8e682d70e3506b09741d77aeb385adc8745da6a9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:29.585134+00:00"
+  },
+  "mined_motifs": [
+    "dependency-management",
+    "build-system",
+    "toolchain",
+    "Blake2 Hashing",
+    "Build Automation",
+    "Build Orchestration",
+    "CLI Command Dispatch",
+    "Compilation Pipeline Management",
+    "Crate Manifest Parsing",
+    "Cross-platform Compatibility",
+    "Cryptographic Integrity Verification",
+    "Dependency Resolution"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.85
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.846
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.843
+    },
+    {
+      "name": "qtbase-mkspecs-modules",
+      "path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+      "similarity": 0.841
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.838
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.838
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.836
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.832
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "name": "servo",
+  "description": "Servo is a high-performance, parallelized web browser engine designed to leverage the memory safety and concurrency primitives of the Rust language. Its architecture decomposes the traditional monolithic browser pipeline into independent, task-oriented components for layout, scripting (SpiderMonkey), networking, and compositing, enabling fine-grained parallelism across CPU cores and GPU-accelerated rendering via display lists.",
+  "tags": [
+    "browser-engine",
+    "parallel-computing",
+    "rust-lang",
+    "layout-engine",
+    "web-standards",
+    "gpu-rendering",
+    "dom",
+    "compositor",
+    "webidl",
+    "css-parser",
+    "spider-monkey",
+    "font-shaping",
+    "multi-process",
+    "cross-platform",
+    "memory-safety"
+  ],
+  "category": "Parallel Browser Architecture",
+  "concepts": [
+    "Parallel Layout Algorithms",
+    "Asynchronous Task Scheduling",
+    "Retained-mode Display Lists",
+    "WebIDL Binding Generation",
+    "Component-based Systems Architecture",
+    "Cross-task Message Passing",
+    "Incremental Reflow",
+    "Harfbuzz Text Shaping",
+    "Remote DevTools Protocol",
+    "CSS Computed Style Resolution",
+    "CORS Fetch Implementation",
+    "Hardware-accelerated Compositing",
+    "Tiled Rendering",
+    "Font Cache Management",
+    "DOM Tree Traversal",
+    "Pipeline Orchestration"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "C++",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2001,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "components/canvas/lib.rs",
+      "components/compositing/lib.rs",
+      "components/compositing/platform/mod.rs",
+      "components/devtools/lib.rs"
+    ]
+  },
+  "_hash": "8e0a8969cd09a7eec6f2bad4faa2c6e4d64b35a63f093d0617756a12ea486ec9",
+  "_path": "/Users/ember/dev/gh/forks/servo",
+  "_updated_at": "2026-02-14T00:56:26.661319Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Parallel Layout Algorithms",
+      "Asynchronous Task Scheduling",
+      "Retained-mode Display Lists",
+      "WebIDL Binding Generation",
+      "Component-based Systems Architecture",
+      "Cross-task Message Passing",
+      "Incremental Reflow",
+      "Harfbuzz Text Shaping",
+      "Remote DevTools Protocol",
+      "CSS Computed Style Resolution",
+      "CORS Fetch Implementation",
+      "Hardware-accelerated Compositing",
+      "Tiled Rendering",
+      "Font Cache Management",
+      "DOM Tree Traversal",
+      "Pipeline Orchestration"
+    ],
+    "tags": [
+      "browser-engine",
+      "concurrency",
+      "Rust Language Ecosystem",
+      "layout-engine",
+      "web-standards",
+      "gpu-rendering",
+      "dom",
+      "compositor",
+      "webidl",
+      "css-parser",
+      "spider-monkey",
+      "font-shaping",
+      "multi-process",
+      "cross-platform",
+      "memory-safety"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "webassembly",
+      "web-framework",
+      "toolchain",
+      "javascript",
+      "backend",
+      "http-server",
+      "Ahead-of-Time Compilation",
+      "Client-side Build Systems",
+      "Crate Orchestration",
+      "Cross-compilation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.454,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.452,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.449,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.449,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.441,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.43,
+        "matches": [
+          "concurrency"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.661319Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ead8c66d7876eb7d976ace359c188e5d5dae224a635f100435a46c55e6f0dc6e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:22.782104+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "webassembly",
+    "web-framework",
+    "toolchain",
+    "wasm",
+    "javascript",
+    "backend",
+    "http-server",
+    "Ahead-of-Time Compilation",
+    "Client-side Build Systems",
+    "Crate Orchestration",
+    "Cross-compilation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.84
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.827
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.824
+    },
+    {
+      "name": "bcknd",
+      "path": "/Users/ember/dev/bcknd",
+      "similarity": 0.823
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.82
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.819
+    }
+  ]
+}

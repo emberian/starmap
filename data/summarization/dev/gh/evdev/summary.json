@@ -1,0 +1,219 @@
+{
+  "name": "evdev",
+  "description": "A comprehensive Rust implementation of the Linux evdev input subsystem interface, providing high-level abstractions for reading hardware events and managing device state. It features a synchronization engine to handle kernel ring buffer overflows (SYN_DROPPED) by injecting synthetic state updates, ensuring userspace state consistency. The library supports both physical device interaction and virtual device emulation via uinput, with optional asynchronous stream support through Tokio.",
+  "tags": [
+    "evdev",
+    "uinput",
+    "linux-input",
+    "kernel-interface",
+    "joystick",
+    "force-feedback",
+    "raw-events",
+    "virtual-device",
+    "input-driver",
+    "rust-lang",
+    "ioctl",
+    "device-state-sync"
+  ],
+  "category": "Input Subsystem Interfacing",
+  "concepts": [
+    "Event Stream Synchronization",
+    "Kernel-Userspace Communication",
+    "Virtual Device Emulation",
+    "Force Feedback Protocols",
+    "Input Event Deserialization",
+    "Absolute and Relative Axis Tracking",
+    "Async I/O Streams",
+    "Ring Buffer Management",
+    "IOCTL Abstraction",
+    "Character Device Handling"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 35,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/tests/mod.rs",
+      "tests/common/mod.rs",
+      "src/sync_stream.rs"
+    ]
+  },
+  "_hash": "9e53fa48992710bbca06f44fae68e376b83b38d779c16ffa1bc6b33d5986e272",
+  "_path": "/Users/ember/dev/gh/evdev",
+  "_updated_at": "2026-02-14T00:56:25.043505Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Event Stream Synchronization",
+      "Kernel-Userspace Communication",
+      "Virtual Device Emulation",
+      "Force Feedback Protocols",
+      "Input Event Deserialization",
+      "Absolute and Relative Axis Tracking",
+      "Async I/O Streams",
+      "Ring Buffer Management",
+      "IOCTL Abstraction",
+      "Character Device Handling"
+    ],
+    "tags": [
+      "evdev",
+      "uinput",
+      "linux-input",
+      "kernel-interface",
+      "joystick",
+      "force-feedback",
+      "raw-events",
+      "virtual-device",
+      "input-driver",
+      "Rust Language Ecosystem",
+      "ioctl",
+      "device-state-sync"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "linux",
+      "Systems Programming",
+      "Reference Counting",
+      "Foreign Function Interface",
+      "hardware",
+      "udev",
+      "sysfs",
+      "systems-programming",
+      "libc"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 11.053,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "libc"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.03,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 6.862,
+        "matches": [
+          "systems programming",
+          "sysfs"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.419,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 4.055,
+        "matches": [
+          "libc"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 4.023,
+        "matches": [
+          "ioctl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.043505Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "72f80171afe2d1bea2c82e50603be81d8a1c33067b2141cc3aa75ffc6dd75835",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:02.232122+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "ffi",
+    "Foreign Function Interface (FFI)",
+    "linux",
+    "systems-programming",
+    "Reference Counting",
+    "bindings",
+    "hardware",
+    "udev",
+    "sysfs",
+    "low-level",
+    "libc"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libudev-rs",
+      "path": "/Users/ember/dev/gh/forks/libudev-rs",
+      "similarity": 0.877
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.871
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.868
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.85
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.836
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.836
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.834
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "name": "library_dev",
+  "description": "A foundational development library for the Lean theorem prover, formalizing essential mathematical structures and data types. It features a comprehensive treatment of lattice theory, including complete boolean algebras and fixed point theory, integrated with core algebraic hierarchies like groups and rings. The project also incorporates specialized proof automation tactics, modal logic parsers, and intuitionistic logic tools for formal verification.",
+  "tags": [
+    "lean",
+    "formal-methods",
+    "theorem-proving",
+    "abstract-algebra",
+    "lattice-theory",
+    "order-theory",
+    "logic",
+    "proof-automation",
+    "verified-data-types",
+    "modal-logic",
+    "intuitionistic-logic",
+    "mathematics"
+  ],
+  "category": "Formalized Lattice Theory and Algebraic Foundations",
+  "concepts": [
+    "Complete Lattices",
+    "Boolean Algebras",
+    "Group Theory",
+    "Ring Theory",
+    "Order Theory",
+    "Fixed Point Theory",
+    "Modal Logic",
+    "Intuitionistic Logic",
+    "Proof Tactics",
+    "Verified Data Structures",
+    "Natural Number Induction",
+    "Integer Arithmetic",
+    "Rational Numbers",
+    "List Permutations",
+    "Formal Verification",
+    "Interactive Theorem Proving",
+    "Bounded Quantification",
+    "Complete Boolean Algebras",
+    "Lattice Fixed Points",
+    "List Sorting Algorithms",
+    "Finite Sets",
+    "Combinatorics",
+    "Automated Reasoning",
+    "Syntactic Parsing",
+    "Tactical Proof Engineering"
+  ],
+  "languages": [
+    "Lean"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 37,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "f5ead2faf5bed55735cf9ac17adf84eaba86470ee28c666aa45ad8e09e7d22c0",
+  "_path": "/Users/ember/dev/gh/forks/library_dev",
+  "_updated_at": "2026-02-14T00:56:25.985553Z",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Complete Lattices",
+      "Boolean Algebras",
+      "Group Theory",
+      "Ring Theory",
+      "Order Theory",
+      "Fixed Point Theory",
+      "Modal Logic",
+      "Intuitionistic Logic",
+      "Proof Tactics",
+      "Verified Data Structures",
+      "Natural Number Induction",
+      "Integer Arithmetic",
+      "Rational Numbers",
+      "List Permutations",
+      "Formal Verification",
+      "formal-verification",
+      "Bounded Quantification",
+      "Complete Boolean Algebras",
+      "Lattice Fixed Points",
+      "List Sorting Algorithms",
+      "Finite Sets",
+      "Combinatorics",
+      "Automated Reasoning",
+      "Syntactic Parsing",
+      "Tactical Proof Engineering"
+    ],
+    "tags": [
+      "Formal Methods & Verification",
+      "formal-verification",
+      "Interactive Theorem Proving (ITP)",
+      "abstract-algebra",
+      "lattice-theory",
+      "order-theory",
+      "logic",
+      "verified-data-types",
+      "modal-logic",
+      "intuitionistic-logic",
+      "mathematics"
+    ],
+    "mined_motifs": [
+      "lean-prover",
+      "Interactive Theorem Proving (ITP)",
+      "dependent-types",
+      "Dependent Type Theory",
+      "functional-programming",
+      "formal-methods",
+      "Algebraic Hierarchies",
+      "Banach Spaces",
+      "Category Theory",
+      "Commutative Algebra",
+      "Complex Analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 11.046,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 9.767,
+        "matches": [
+          "dependent type theory",
+          "verified data structures",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.246,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.237,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.919,
+        "matches": [
+          "formal verification",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.505,
+        "matches": [
+          "formal verification"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.985553Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "90a9698fd11baa83ceb9fcf07e27a5622dae222e72fb83df4adb88f4c755b14e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:51.223280+00:00"
+  },
+  "mined_motifs": [
+    "lean-prover",
+    "proof-assistant",
+    "dependent-types",
+    "interactive-theorem-proving",
+    "Dependent Type Theory",
+    "functional-programming",
+    "formal-verification",
+    "Algebraic Hierarchies",
+    "Banach Spaces",
+    "Category Theory",
+    "Commutative Algebra",
+    "Complex Analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.913
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.881
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.865
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.853
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.852
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.851
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.839
+    }
+  ]
+}

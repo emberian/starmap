@@ -1,0 +1,215 @@
+{
+  "name": "hellas-common",
+  "description": "Core cryptographic and type-safe foundations for the Hellas protocol ecosystem. It provides misuse-resistant identity management supporting both Ed25519 and threshold-based 'hints' primitives, alongside a 64.64 fixed-point arithmetic engine for high-precision currency operations.",
+  "tags": [
+    "cryptography",
+    "rust",
+    "fixed-point",
+    "ed25519",
+    "blake3",
+    "serde",
+    "blockchain",
+    "currency",
+    "type-safe-ids",
+    "serialization",
+    "identity-management"
+  ],
+  "category": "Cryptographic Protocol Primitive",
+  "concepts": [
+    "Threshold Signatures",
+    "Fixed-point Arithmetic",
+    "Deterministic Hashing",
+    "Identity-based Cryptography",
+    "Type-safe Identifiers",
+    "Misuse-resistant API Design",
+    "Key Management",
+    "Domain-separated Hashing",
+    "Checked Arithmetic",
+    "Binary Serialization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/identity.rs",
+      "src/amount.rs",
+      "src/ids.rs"
+    ]
+  },
+  "_hash": "2ba5783b52ed0d88156afc59d1e66e53f3b30767de49f4e58efc1247201bac86",
+  "_path": "/Users/ember/hellas/hellas-common",
+  "_updated_at": "2026-02-14T00:56:31.583475Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "be4cddfb8a1d200495daf14000dcd9388a3923f41d5825f0fd5deb5713c8cbdf",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:32.851653+00:00"
+  },
+  "mined_motifs": [
+    "Finite Field Arithmetic",
+    "arkworks",
+    "Quorum Certificates",
+    "State Machine Replication",
+    "distributed-systems",
+    "Elliptic Curve Cryptography",
+    "kzg-commitments",
+    "threshold-signatures",
+    "bls12-381",
+    "finite-fields",
+    "msm",
+    "pairings"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.819
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.818
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.814
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.814
+    },
+    {
+      "name": "hints",
+      "path": "/Users/ember/src/hints",
+      "similarity": 0.81
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.81
+    },
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.809
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.809
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Threshold Signatures",
+      "Fixed-point Arithmetic",
+      "Deterministic Hashing",
+      "Identity-based Cryptography",
+      "Type-safe Identifiers",
+      "Misuse-resistant API Design",
+      "Key Management",
+      "Domain-separated Hashing",
+      "Checked Arithmetic",
+      "Binary Serialization"
+    ],
+    "tags": [
+      "cryptography",
+      "Rust Language Ecosystem",
+      "fixed-point",
+      "ed25519",
+      "blake3",
+      "serde",
+      "blockchain",
+      "currency",
+      "type-safe-ids",
+      "Data Serialization",
+      "identity-management"
+    ],
+    "mined_motifs": [
+      "Finite Field Arithmetic",
+      "arkworks",
+      "quorum-certificates",
+      "State Machine Replication",
+      "distributed-systems",
+      "Elliptic Curve Cryptography",
+      "kzg-commitments",
+      "threshold-signatures",
+      "bls12-381",
+      "finite-fields",
+      "multi-scalar-multiplication",
+      "pairings"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 11.016,
+        "matches": [
+          "cryptography",
+          "threshold-signatures",
+          "bls12-381",
+          "kzg-commitments"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.419,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.392,
+        "matches": [
+          "kzg-commitments"
+        ]
+      },
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 5.338,
+        "matches": [
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.321,
+        "matches": [
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.312,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.583475Z"
+  }
+}

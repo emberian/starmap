@@ -1,0 +1,236 @@
+{
+  "name": "spweebo'ard",
+  "description": "A cross-platform LLM-powered virtual keyboard that utilizes SPW, a 13-symbol symbolic language, for incremental expression composition and grounding. The system implements a Rust core with UniFFI bindings for Android (Kotlin/Jetpack Compose) and iOS (Swift/SwiftUI), featuring a decoupled architecture where a main app hosts the inference engine to bypass memory constraints in keyboard extensions.",
+  "tags": [
+    "virtual-keyboard",
+    "llm-inference",
+    "symbolic-language",
+    "rust",
+    "kotlin",
+    "swift",
+    "uniffi",
+    "llama-cpp",
+    "ios-extension",
+    "android-ime",
+    "ipc",
+    "compositional-semantics",
+    "cross-platform",
+    "mobile-llm"
+  ],
+  "category": "Symbolic NLP & Mobile Inference Systems",
+  "concepts": [
+    "incremental-parsing",
+    "context-grounding",
+    "operator-metaphysics",
+    "cross-language-ffi",
+    "server-sent-events",
+    "memory-constrained-inference",
+    "prompt-compilation",
+    "asynchronous-generation",
+    "resource-management",
+    "symbolic-composition",
+    "inter-process-communication",
+    "modular-architecture",
+    "llm-prompt-budgeting"
+  ],
+  "languages": [
+    "Rust",
+    "Kotlin",
+    "Swift",
+    "C/C++",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 100,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/spweeboard-core/src/buffer/mod.rs",
+      "crates/spweeboard-core/src/compiler/mod.rs",
+      "crates/spweeboard-core/src/ground/mod.rs",
+      "crates/spweeboard-core/src/inference/mod.rs"
+    ]
+  },
+  "_hash": "e24a4f518974afd6fc54292257d0963452c8c6bdcc6a41712cbfc762abca93de",
+  "_path": "/Users/ember/dev/spweebo'ard",
+  "_updated_at": "2026-02-14T00:56:30.382914Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9c1775a2b67351596e7d10a1cfc171fab2eeada228a7f9711dd74ae22dbd9ce5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:52.093982+00:00"
+  },
+  "mined_motifs": [
+    "gguf",
+    "cuda",
+    "quantization",
+    "hardware-acceleration",
+    "ast",
+    "dsl",
+    "wayland",
+    "x11",
+    "lora",
+    "async-runtime",
+    "asynchronous-message-handling",
+    "autonomous-agent"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "qwobot",
+      "path": "/Users/ember/dev/qwobot",
+      "similarity": 0.727
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.718
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.713
+    },
+    {
+      "name": "spw-workbench",
+      "path": "/Users/ember/src/spw-workbench/spw-workbench",
+      "similarity": 0.712
+    },
+    {
+      "name": "llama.cpp",
+      "path": "/Users/ember/src/llama.cpp",
+      "similarity": 0.707
+    },
+    {
+      "name": "Weylus",
+      "path": "/Users/ember/src/Weylus",
+      "similarity": 0.707
+    },
+    {
+      "name": "spwsft",
+      "path": "/Users/ember/dev/spwsft",
+      "similarity": 0.699
+    },
+    {
+      "name": "mistral.rs",
+      "path": "/Users/ember/src/mistral.rs",
+      "similarity": 0.698
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "incremental-parsing",
+      "context-grounding",
+      "operator-metaphysics",
+      "cross-language-ffi",
+      "server-sent-events",
+      "memory-constrained-inference",
+      "prompt-compilation",
+      "asynchronous-generation",
+      "Resource Acquisition Is Initialization (RAII)",
+      "symbolic-composition",
+      "inter-process-communication",
+      "modular-architecture",
+      "llm-prompt-budgeting"
+    ],
+    "tags": [
+      "virtual-keyboard",
+      "Large Language Model Inference",
+      "symbolic-language",
+      "Rust Language Ecosystem",
+      "kotlin",
+      "swift",
+      "uniffi",
+      "llama-cpp",
+      "ios-extension",
+      "android-ime",
+      "ipc",
+      "compositional-semantics",
+      "cross-platform",
+      "mobile-llm"
+    ],
+    "mined_motifs": [
+      "gguf",
+      "cuda",
+      "quantization",
+      "low-level-graphics",
+      "abstract-syntax-tree",
+      "dsl",
+      "wayland",
+      "x11",
+      "lora",
+      "async-runtime",
+      "asynchronous-message-handling",
+      "autonomous-agent"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 10.628,
+        "matches": [
+          "cuda",
+          "quantization",
+          "gguf",
+          "lora"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 9.317,
+        "matches": [
+          "large language model inference",
+          "gguf",
+          "llama-cpp",
+          "quantization"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 7.933,
+        "matches": [
+          "ipc",
+          "wayland"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.038,
+        "matches": [
+          "abstract-syntax-tree"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.017,
+        "matches": [
+          "dsl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.013,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.382914Z"
+  }
+}

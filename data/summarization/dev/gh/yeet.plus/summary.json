@@ -1,0 +1,219 @@
+{
+  "name": "yeet.plus",
+  "description": "A hierarchical system state introspection framework and browser utilizing a 'registry-style' architecture for exploring mounted components. It employs a hybrid stack of Rust-based logic and Electron/WebAssembly for the UI, allowing modular components to dynamically curate and render their own subtrees of system data.",
+  "tags": [
+    "rust",
+    "electron",
+    "webassembly",
+    "wasm",
+    "system-introspection",
+    "observability",
+    "moxie",
+    "declarative-ui",
+    "cross-platform",
+    "linux",
+    "state-explorer",
+    "registry-architecture",
+    "wasm-pack"
+  ],
+  "category": "System State Introspection",
+  "concepts": [
+    "Hierarchical State Trees",
+    "Wasm-JS Interoperability",
+    "Declarative UI Composition",
+    "System Observability",
+    "Modular Component Architecture",
+    "Electron Multi-process Model",
+    "Rust Wasm Bindings",
+    "Incremental UI Rendering",
+    "System Introspection Hooks"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "HTML"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 26,
+    "has_readme": true,
+    "sample_files": [
+      "yeet.core/src/lib.rs",
+      "yeet.explorer/src/lib.rs",
+      "yeet.linux/src/lib.rs",
+      "yeet.explorer/src/main.js",
+      "yeet.explorer/tests/app.rs"
+    ]
+  },
+  "_hash": "79466aabba5bf51c8cde18c2afc9fa2e49af1521375bb10c9f4c5e31118a6cb5",
+  "_path": "/Users/ember/dev/gh/yeet.plus",
+  "_updated_at": "2026-02-14T00:56:28.742214Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Hierarchical State Trees",
+      "Wasm-JS Interoperability",
+      "Declarative UI Composition",
+      "System Observability",
+      "Modular Component Architecture",
+      "Electron Multi-process Model",
+      "Rust Wasm Bindings",
+      "Incremental UI Rendering",
+      "System Introspection Hooks"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "electron",
+      "webassembly",
+      "system-introspection",
+      "observability",
+      "moxie",
+      "declarative-ui",
+      "cross-platform",
+      "linux",
+      "state-explorer",
+      "registry-architecture"
+    ],
+    "mined_motifs": [
+      "hydration",
+      "server-functions",
+      "ssr",
+      "web-sys",
+      "Virtual Scrolling",
+      "accessibility",
+      "Computer Graphics & Rendering",
+      "retained-mode",
+      "vello",
+      "Functional Reactive UI",
+      "fine-grained-reactivity",
+      "full-stack"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 16.624,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "server-functions",
+          "web-sys"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.425,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.416,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.404,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.348,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.272,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.742214Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2afde32543ec2426dfa7fecf99429c3cdc1b8631143776c77264afa02838d069",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:38.891981+00:00"
+  },
+  "mined_motifs": [
+    "hydration",
+    "server-functions",
+    "ssr",
+    "web-sys",
+    "Virtual Scrolling",
+    "accessibility",
+    "graphics",
+    "retained-mode",
+    "vello",
+    "Functional Reactive UI",
+    "fine-grained-reactivity",
+    "full-stack"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "yeet+",
+      "path": "/Users/ember/dev/yeet+",
+      "similarity": 0.84
+    },
+    {
+      "name": "visualizers",
+      "path": "/Users/ember/hellas/hades-v0/visualizers",
+      "similarity": 0.817
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.813
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.809
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/xilem",
+      "similarity": 0.797
+    },
+    {
+      "name": "shylem",
+      "path": "/Users/ember/dev/shylem",
+      "similarity": 0.796
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.795
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.793
+    }
+  ]
+}

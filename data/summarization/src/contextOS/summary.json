@@ -1,0 +1,253 @@
+{
+  "name": "contextOS",
+  "description": "contextOS is a distributed orchestration platform for autonomous AI agents that facilitates real-time coordination, resource locking, and context management across heterogeneous IDE environments. It utilizes the proprietary Omega (\u03a9) encoding protocol to achieve significant token compression for agent-to-agent communication while maintaining a unified state backend via Convex. The system integrates Model Context Protocol (MCP) connectivity with a Windows 95-inspired dashboard and a high-performance terminal interface for system-wide observability.",
+  "tags": [
+    "multi-agent-orchestration",
+    "mcp-protocol",
+    "token-compression",
+    "distributed-state",
+    "resource-locking",
+    "autonomous-agents",
+    "context-management",
+    "convex",
+    "win95-ui",
+    "terminal-ui",
+    "task-chains",
+    "inter-agent-comms",
+    "agent-swarm",
+    "discord-bridge",
+    "system-observability",
+    "mcp-remote"
+  ],
+  "category": "Distributed Multi-Agent Orchestration",
+  "concepts": [
+    "Omega (\u03a9) Encoding Protocol",
+    "Model Context Protocol (MCP)",
+    "Distributed Resource Locking",
+    "Token-Efficient Message Exchange",
+    "Context Expertise Retrieval",
+    "Asynchronous Task Chains",
+    "Agent-to-Agent Messaging",
+    "Huddle Synthesis Mechanism",
+    "Differential TUI Rendering",
+    "Agent Lifecycle Supervision",
+    "Convex Persistence Layer",
+    "Semantic Vector Search",
+    "Cross-Agent Memory Management",
+    "Hierarchical Agent Spawning",
+    "Git Worktree Coordination",
+    "Real-time Event Bus",
+    "Cognitive Loop Monitoring",
+    "Agent Role Specialization",
+    "Multi-Org Federation",
+    "Cost-Tracking Analytics",
+    "Shared CRDT Document Synchronization",
+    "Discord Thread Mapping",
+    "Stale State Eviction",
+    "Agent Presence Tracking",
+    "Busy/Sleep Mode Arbitration",
+    "Pub/Sub Channel Infrastructure",
+    "Model-Neutral MCP Adapters",
+    "Differential State Sync"
+  ],
+  "languages": [
+    "TypeScript",
+    "Shell",
+    "Python",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 647,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "convex/discord/index.ts",
+      "src/components/dashboard/index.ts",
+      "src/components/mobile/index.ts",
+      "src/components/shared/index.ts"
+    ]
+  },
+  "_hash": "3deca82c67a70de0a49655bb6156994f368d66b6d1b07783e2ac773d0903b120",
+  "_path": "/Users/ember/src/contextOS",
+  "_updated_at": "2026-02-14T00:56:32.357659Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ab50fcffdf444c72228df795f4674ee173ce2d51c5d6244bb88fce7c630e61dd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:05.087345+00:00"
+  },
+  "mined_motifs": [
+    "claude-code",
+    "ai-agents",
+    "mcp",
+    "workflow-automation",
+    "blockchain",
+    "distributed-systems",
+    "rust",
+    "Agent Performance Analytics",
+    "Automated Handoff Logic",
+    "Consensus-based Decision Making",
+    "Context Garbage Collection",
+    "Cross-platform State Synchronization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.894
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.873
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.868
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.866
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.863
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.859
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Omega (\u03a9) Encoding Protocol",
+      "model-context-protocol",
+      "Distributed Resource Locking",
+      "Token-Efficient Message Exchange",
+      "Context Expertise Retrieval",
+      "Asynchronous Task Chains",
+      "Agent-to-Agent Messaging",
+      "Huddle Synthesis Mechanism",
+      "Differential TUI Rendering",
+      "Agent Lifecycle Supervision",
+      "Convex Persistence Layer",
+      "Semantic Vector Search",
+      "Cross-Agent Memory Management",
+      "Hierarchical Agent Spawning",
+      "Git Worktree Coordination",
+      "Real-time Event Bus",
+      "Cognitive Loop Monitoring",
+      "Agent Role Specialization",
+      "Multi-Org Federation",
+      "Cost-Tracking Analytics",
+      "Conflict-Free Replicated Data Types",
+      "Discord Thread Mapping",
+      "Stale State Eviction",
+      "Agent Presence Tracking",
+      "Busy/Sleep Mode Arbitration",
+      "Pub/Sub Channel Infrastructure",
+      "Model-Neutral MCP Adapters",
+      "Differential State Sync"
+    ],
+    "tags": [
+      "multi-agent-orchestration",
+      "Model Context Protocol",
+      "token-compression",
+      "distributed-state",
+      "resource-locking",
+      "autonomous-agents",
+      "context-management",
+      "convex",
+      "win95-ui",
+      "terminal-ui",
+      "task-chains",
+      "inter-agent-comms",
+      "agent-swarm",
+      "discord-bridge",
+      "system-observability",
+      "mcp-remote"
+    ],
+    "mined_motifs": [
+      "claude-code",
+      "ai-agents",
+      "model-context-protocol",
+      "workflow-automation",
+      "blockchain",
+      "distributed-systems",
+      "Rust Language Ecosystem",
+      "Agent Performance Analytics",
+      "Automated Handoff Logic",
+      "Consensus-based Decision Making",
+      "Context Garbage Collection",
+      "Cross-platform State Synchronization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 11.13,
+        "matches": [
+          "ai-agents",
+          "context-management",
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.551,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.55,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.55,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.55,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.544,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.357659Z"
+  }
+}

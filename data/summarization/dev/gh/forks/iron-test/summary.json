@@ -1,0 +1,197 @@
+{
+  "name": "iron-test",
+  "description": "A testing utility suite for the Iron web framework providing constructors for mock requests and responses. It includes a specialized ProjectBuilder for programmatically generating temporary directory structures and files for integration testing with automatic cleanup.",
+  "tags": [
+    "rust",
+    "iron-framework",
+    "testing-tools",
+    "mocking",
+    "http-requests",
+    "integration-testing",
+    "test-fixtures",
+    "filesystem-utilities"
+  ],
+  "category": "Web Framework Testing Utilities",
+  "concepts": [
+    "Mock Objects",
+    "HTTP Request Mocking",
+    "Test Fixtures",
+    "Resource Acquisition Is Initialization (RAII)",
+    "Integration Testing",
+    "Fluent Interface",
+    "Temporary Filesystem Management"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/project_builder.rs"
+    ]
+  },
+  "_hash": "295d69cea6350027912c964d4fa0789c4dc3b24b73c25643c77074a7c8b5339d",
+  "_path": "/Users/ember/dev/gh/forks/iron-test",
+  "_updated_at": "2026-02-14T00:56:25.642858Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Mock Objects",
+      "HTTP Request Mocking",
+      "Test Fixtures",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Integration Testing",
+      "Fluent Interface",
+      "Temporary Filesystem Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "iron-framework",
+      "testing-tools",
+      "mocking",
+      "http-requests",
+      "integration-testing",
+      "test-fixtures",
+      "filesystem-utilities"
+    ],
+    "mined_motifs": [
+      "Behavior-Driven Development",
+      "Syntax Extensions",
+      "bdd",
+      "benchmarking",
+      "Compiler Engineering",
+      "compiler-plugin",
+      "dsl",
+      "abstract-syntax-tree",
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "AST Building"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 5.397,
+        "matches": [
+          "benchmarking"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.377,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.37,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.36,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.351,
+        "matches": [
+          "abstract-syntax-tree"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.35,
+        "matches": [
+          "systems-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.642858Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4c6d37433a8b5911c700c0166110c9b58006c5d3819aaa9aa040e3354965e64e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:42.777825+00:00"
+  },
+  "mined_motifs": [
+    "Behavior-Driven Development",
+    "Syntax Extensions",
+    "bdd",
+    "benchmarking",
+    "code-generation",
+    "compiler-plugin",
+    "dsl",
+    "ast",
+    "resource-management",
+    "low-level",
+    "compiler-design",
+    "AST Building"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "stainless",
+      "path": "/Users/ember/dev/gh/forks/stainless",
+      "similarity": 0.858
+    },
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.826
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.821
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.817
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.815
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.814
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.813
+    }
+  ]
+}

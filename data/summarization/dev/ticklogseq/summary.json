@@ -1,0 +1,196 @@
+{
+  "name": "ticklogseq",
+  "description": "A localized personal knowledge base and inventory management repository structured as a Logseq graph. It leverages Org-mode syntax to document, categorize, and track outdoor equipment and hiking gear through a bidirectional link-based architecture. The repository functions as a version-controlled digital garden for personal asset logistics and situational readiness.",
+  "tags": [
+    "logseq",
+    "org-mode",
+    "pkm",
+    "inventory-tracking",
+    "personal-wiki",
+    "digital-garden",
+    "knowledge-graph",
+    "asset-management",
+    "hiking-logistics",
+    "documentation"
+  ],
+  "category": "Knowledge Graph-based Inventory Management",
+  "concepts": [
+    "Personal Knowledge Management (PKM)",
+    "Bidirectional Linking",
+    "Hierarchical Outlining",
+    "Org-mode Document Structure",
+    "Local-first Data Persistence",
+    "Digital Asset Reference",
+    "Linked Data",
+    "Contextual Backlinking",
+    "Knowledge Base Organization",
+    "Inventory Metadata"
+  ],
+  "languages": [
+    "Org"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "47685a1c6ea70ca5b1cced3bcd9f2c366c344384121d3cc46394f3e4da3cac9a",
+  "_path": "/Users/ember/dev/ticklogseq",
+  "_updated_at": "2026-02-14T00:56:30.872568Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6c5f77618b278f32e036e760e0618da2c55012dc35052fc9c1a2c0d3e021270d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:57.474291+00:00"
+  },
+  "mined_motifs": [
+    "zettelkasten",
+    "knowledge-base",
+    "systems-engineering",
+    "Zettelkasten Method",
+    "workflow-automation",
+    "Block-based Outlining",
+    "Document-to-Graph Mapping",
+    "Graph Visualization",
+    "Knowledge Graph Architecture",
+    "Local-first Storage",
+    "Note-taking Workflow",
+    "graph-database"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "'logseq",
+      "path": "/Users/ember/dev/shitheap/'logseq",
+      "similarity": 0.864
+    },
+    {
+      "name": "lunar-logseq",
+      "path": "/Users/ember/dev/lunar-logseq",
+      "similarity": 0.849
+    },
+    {
+      "name": "erp",
+      "path": "/Users/ember/dev/erp",
+      "similarity": 0.806
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.796
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.783
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.782
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.78
+    },
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.78
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Personal Knowledge Management (PKM)",
+      "Bidirectional Linking",
+      "Hierarchical Outlining",
+      "Org-mode Document Structure",
+      "Local-first Data Persistence",
+      "Digital Asset Reference",
+      "Linked Data",
+      "Contextual Backlinking",
+      "Knowledge Base Organization",
+      "Inventory Metadata"
+    ],
+    "tags": [
+      "logseq",
+      "org-mode",
+      "pkm",
+      "inventory-tracking",
+      "personal-wiki",
+      "digital-garden",
+      "knowledge-graph",
+      "asset-management",
+      "hiking-logistics",
+      "documentation"
+    ],
+    "mined_motifs": [
+      "zettelkasten",
+      "knowledge-base",
+      "systems-engineering",
+      "Zettelkasten Method",
+      "workflow-automation",
+      "Block-based Outlining",
+      "Document-to-Graph Mapping",
+      "Graph Visualization",
+      "Knowledge Graph Architecture",
+      "Local-first Storage",
+      "Note-taking Workflow",
+      "graph-database"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 5.377,
+        "matches": [
+          "documentation"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.279,
+        "matches": [
+          "knowledge-graph"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.534,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.485,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.484,
+        "matches": []
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 2.48,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.872568Z"
+  }
+}

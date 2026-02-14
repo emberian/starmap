@@ -1,0 +1,192 @@
+{
+  "name": "tree-generator",
+  "description": "A Rust-based CLI utility for procedural ASCII tree generation, originally developed as a solution for Reddit's r/dailyprogrammer Challenge #145. The tool implements iterative geometry logic to render centered triangular foliage and a supporting trunk structure based on user-defined width and character sets. It demonstrates basic terminal-based rendering patterns and command-line argument processing in early-dialect Rust.",
+  "tags": [
+    "rust",
+    "cli",
+    "ascii-art",
+    "procedural-generation",
+    "terminal-graphics",
+    "dailyprogrammer-challenge"
+  ],
+  "category": "Procedural ASCII Art",
+  "concepts": [
+    "ASCII rendering",
+    "procedural geometry",
+    "CLI argument parsing",
+    "iterative algorithms",
+    "terminal output",
+    "string formatting"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "dc1448fe047e1a11f1859cdd749efc883ff6f6c5b01b95c3365dc6a4910612b9",
+  "_path": "/Users/ember/dev/gh/tree-generator",
+  "_updated_at": "2026-02-14T00:56:28.688082Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "ASCII rendering",
+      "procedural geometry",
+      "CLI argument parsing",
+      "iterative algorithms",
+      "terminal output",
+      "string formatting"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cli",
+      "ascii-art",
+      "Procedural Generation",
+      "terminal-graphics",
+      "dailyprogrammer-challenge"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lexical-analysis",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Recursive Descent Parsing",
+      "Rust Language Ecosystem",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "Depth-First Search"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.12,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.722,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.549,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.538,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.522,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.479,
+        "matches": [
+          "procedural generation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.688082Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "74edc3dce3a6d87c441b91e6c2c0b422da70b6ace97f54dc5bb69b4351e8f13b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:32.849079+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Tokenization",
+    "resource-management",
+    "Recursive Descent Parsing",
+    "rust-lang",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "Depth-First Search"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.88
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.878
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.878
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.876
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.871
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.868
+    },
+    {
+      "name": "rust-logo-3d",
+      "path": "/Users/ember/dev/gh/rust-logo-3d",
+      "similarity": 0.866
+    }
+  ]
+}

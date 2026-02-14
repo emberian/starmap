@@ -1,0 +1,207 @@
+{
+  "name": "cs465-hw1",
+  "description": "A C++ implementation of a ROS-based communication and control framework featuring publisher-subscriber nodes. The repository extends basic messaging patterns with dedicated buffering and controller components, likely intended for handling temporal synchronization or compute-intensive control loops within a robotic middleware context.",
+  "tags": [
+    "ros",
+    "robotics",
+    "cpp",
+    "middleware",
+    "pub-sub",
+    "control-systems",
+    "real-time",
+    "message-buffering",
+    "distributed-systems",
+    "ipc",
+    "cmake"
+  ],
+  "category": "Robotics Middleware",
+  "concepts": [
+    "Publisher-Subscriber Pattern",
+    "Message Queuing",
+    "Feedback Control Loops",
+    "Inter-process Communication",
+    "Temporal Data Buffering",
+    "Robot Operating System (ROS)",
+    "Asynchronous Event Handling",
+    "Node-based Architecture",
+    "CMake Build Orchestration"
+  ],
+  "languages": [
+    "C++",
+    "CMake"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "728de8ff098ed991fe80514744407bfda191439212d861e0fdcb1919d1219c96",
+  "_path": "/Users/ember/dev/gh/cs465-hw1",
+  "_updated_at": "2026-02-14T00:56:24.971148Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Publisher-Subscriber Pattern",
+      "Message Queuing",
+      "Feedback Control Loops",
+      "Inter-process Communication",
+      "Temporal Data Buffering",
+      "Robot Operating System (ROS)",
+      "Asynchronous Event Handling",
+      "Node-based Architecture",
+      "CMake Build Orchestration"
+    ],
+    "tags": [
+      "ros",
+      "robotics",
+      "cpp",
+      "middleware",
+      "pub-sub",
+      "control-systems",
+      "real-time-simulation",
+      "message-buffering",
+      "distributed-systems",
+      "ipc",
+      "cmake"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "Rust Language Ecosystem",
+      "AST",
+      "Lexical Analysis",
+      "logic-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "interpreter",
+      "c",
+      "Callable Wrappers",
+      "Function Composition",
+      "Higher-order Functions",
+      "Operator Overloading"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 8.236,
+        "matches": [
+          "ast",
+          "lexical analysis"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.859,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 5.449,
+        "matches": [
+          "ipc"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.442,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.44,
+        "matches": [
+          "logic-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.438,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.971148Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2a00f125b450cfca97bcbc3eb8f1b4551e7d551d762602418685699ca20eff4f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:54.343451+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "rust",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "logic-programming",
+    "resource-management",
+    "interpreter",
+    "c",
+    "Callable Wrappers",
+    "Function Composition",
+    "Higher-order Functions",
+    "Operator Overloading"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.847
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.841
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.839
+    },
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.835
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.834
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.833
+    },
+    {
+      "name": "cs142-proj2",
+      "path": "/Users/ember/dev/gh/cs142-proj2",
+      "similarity": 0.832
+    },
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.83
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "name": "surrealdb",
+  "description": "SurrealDB is a distributed, multi-model database engine that unifies document, graph, and relational paradigms within a single scalable platform. It implements ACID transactions, real-time live queries, and a granular permissions-based security model to facilitate direct client-side integration without traditional intermediate backends. The system supports pluggable key-value backends and integrates a server-side JavaScript runtime for custom business logic execution.",
+  "tags": [
+    "rust",
+    "distributed-database",
+    "nosql",
+    "graph-database",
+    "acid-transactions",
+    "cloud-native",
+    "real-time",
+    "surrealql",
+    "embedded-database",
+    "multi-tenant",
+    "full-text-search",
+    "geospatial",
+    "javascript-functions",
+    "object-storage",
+    "nix"
+  ],
+  "category": "Multi-Model Distributed Database",
+  "concepts": [
+    "ACID Transactions",
+    "Document-Graph Model",
+    "Real-time Live Queries",
+    "Row-level Permissions",
+    "SurrealQL",
+    "Distributed KV Storage",
+    "Incremental Computed Views",
+    "Full-text Indexing",
+    "Geospatial Querying",
+    "JavaScript Extensibility",
+    "Change Feeds",
+    "Multi-tenant Isolation",
+    "Schema-full Database",
+    "Schema-less Database",
+    "Vector Embedding Search",
+    "SurrealML Integration",
+    "WebSocket API",
+    "GraphQL Interface",
+    "Namespace-Database Hierarchy",
+    "Rquickjs Runtime",
+    "Query Execution Planning",
+    "KV Backend Abstraction",
+    "RocksDB Storage",
+    "TiKV Distribution",
+    "FoundationDB Support",
+    "Object Storage Buckets",
+    "Bearer Token Authentication",
+    "JWT Access Control",
+    "Record ID Mapping",
+    "Directed Graph Connections"
+  ],
+  "languages": [
+    "Rust",
+    "Nix",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1964,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "Makefile",
+      "crates/core/src/api/middleware/api/mod.rs",
+      "crates/core/src/api/middleware/api/req/mod.rs"
+    ]
+  },
+  "_hash": "4383d88d1535d2f61bdbfcdbdf7ca74b079c5749ec839d96ea1bb8d683974eb8",
+  "_path": "/Users/ember/src/surrealdb",
+  "_updated_at": "2026-02-14T00:56:34.001559Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e012438587a797eeccc0bb9408697f2b7e6420b01fde8991a01410e11720643a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:15.070386+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "persistence",
+    "transactional",
+    "Copy-on-Write (CoW)",
+    "Multi-Version Concurrency Control (MVCC)",
+    "Page Allocation",
+    "acid",
+    "copy-on-write",
+    "storage-engine",
+    "postgresql",
+    "python",
+    "wasm"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "persy",
+      "path": "/Users/ember/src/persy",
+      "similarity": 0.798
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.773
+    },
+    {
+      "name": "noosphere",
+      "path": "/Users/ember/dev/noosphere",
+      "similarity": 0.771
+    },
+    {
+      "name": "redb",
+      "path": "/Users/ember/dev/redb",
+      "similarity": 0.769
+    },
+    {
+      "name": "eventcore",
+      "path": "/Users/ember/src/eventcore",
+      "similarity": 0.766
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.761
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.759
+    },
+    {
+      "name": "Gerbil Scheme",
+      "path": "/Users/ember/dev/gerbil",
+      "similarity": 0.759
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "ACID Transactions",
+      "Document-Graph Model",
+      "Real-time Live Queries",
+      "Row-level Permissions",
+      "SurrealQL",
+      "Distributed KV Storage",
+      "Incremental Computed Views",
+      "Full-text Indexing",
+      "Geospatial Querying",
+      "JavaScript Extensibility",
+      "Change Feeds",
+      "Multi-tenant Isolation",
+      "Schema-full Database",
+      "Schema-less Database",
+      "Vector Embedding Search",
+      "SurrealML Integration",
+      "WebSocket API",
+      "GraphQL Interface",
+      "Namespace-Database Hierarchy",
+      "Rquickjs Runtime",
+      "Query Execution Planning",
+      "KV Backend Abstraction",
+      "RocksDB Storage",
+      "TiKV Distribution",
+      "FoundationDB Support",
+      "Object Storage Buckets",
+      "Bearer Token Authentication",
+      "JWT Access Control",
+      "Record ID Mapping",
+      "Directed Graph Connections"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "distributed-database",
+      "nosql",
+      "graph-database",
+      "acid-transactions",
+      "cloud-native",
+      "real-time-simulation",
+      "surrealql",
+      "embedded-database",
+      "multi-tenant",
+      "full-text-search",
+      "geospatial",
+      "javascript-functions",
+      "object-storage",
+      "nix"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "persistence",
+      "transactional",
+      "Copy-on-Write (CoW)",
+      "Multi-Version Concurrency Control (MVCC)",
+      "Page Allocation",
+      "acid",
+      "copy-on-write",
+      "storage-engine",
+      "postgresql",
+      "python",
+      "WebAssembly"
+    ],
+    "metaconstellations": [
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 11.028,
+        "matches": [
+          "acid transactions",
+          "copy-on-write",
+          "persistence",
+          "storage-engine"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 8.114,
+        "matches": [
+          "acid",
+          "persistence"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.077,
+        "matches": [
+          "distributed-systems",
+          "persistence"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 6.737,
+        "matches": [
+          "acid transactions",
+          "postgresql"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.262,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.26,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.001559Z"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "name": "proto-dumping-ground",
+  "description": "A research workspace aggregating prototype implementations of high-performance Byzantine fault-tolerant consensus protocols, primarily focusing on DAG-based ordering and object-centric state models. It features the Morpheus protocol, which utilizes threshold cryptography and a dual-phase execution pipeline to optimize throughput across varying network conditions. The architecture employs a purely functional logic-processor pattern with content-addressed persistence for deterministic replay and verification.",
+  "tags": [
+    "rust",
+    "bft",
+    "consensus",
+    "dag",
+    "distributed-systems",
+    "cryptography",
+    "threshold-signatures",
+    "blockchain",
+    "state-machine-replication",
+    "content-addressed-storage",
+    "sui-architecture",
+    "replication",
+    "protocols",
+    "systems-programming",
+    "simulation-harness",
+    "persistence"
+  ],
+  "category": "DAG-based BFT Consensus Research",
+  "concepts": [
+    "Directed Acyclic Graph (DAG)",
+    "Byzantine Fault Tolerance (BFT)",
+    "Quorum Certificates (QC)",
+    "View-Based Consensus",
+    "Threshold Cryptography",
+    "Content-Addressed Storage",
+    "State Machine Replication (SMR)",
+    "Object-Centric Data Model",
+    "Event Journaling",
+    "Deterministic Replay",
+    "Validator Quorum",
+    "Transaction Finalization",
+    "View Synchronization",
+    "Block Validation Logic",
+    "Logical Time Simulation",
+    "Purely Functional State Transitions",
+    "High-Throughput Pipelines",
+    "Low-Latency Consensus",
+    "Transaction Deduplication",
+    "Persistent Embedded Database",
+    "Binary Serialization",
+    "Bloom Filters",
+    "Slot-Based Block Production",
+    "Timeout Management",
+    "Protocol Effects Engine",
+    "Action-Processor Pattern",
+    "Content Hashing",
+    "Fault Tolerance",
+    "Asynchronous Networks"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 36,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "mega-morpheus/src/lib.rs",
+      "mega-morpheus/src/logic/mod.rs",
+      "mega-morpheus/src/mod.rs",
+      "mini-morpheus/src/lib.rs"
+    ]
+  },
+  "_hash": "a424b690a420119c41d4a107b7bebf920fc3e85e12f189061ec721d7b63fa3bf",
+  "_path": "/Users/ember/hellas/proto-dumping-ground",
+  "_updated_at": "2026-02-14T00:56:31.917405Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "aa2eb3fba294ce2a078351e5a9a7b8116f6bdb97476fa37d50a70e94dd44c696",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:42.606452+00:00"
+  },
+  "mined_motifs": [
+    "byzantine-fault-tolerance",
+    "State Machine Replication",
+    "state-machine",
+    "quorum-certificates",
+    "Byzantine Fault Tolerance",
+    "consensus-protocol",
+    "decentralized-compute",
+    "leptos",
+    "parallel-execution",
+    "Quorum Certificates",
+    "simulation",
+    "deterministic-simulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.936
+    },
+    {
+      "name": "protoproto2",
+      "path": "/Users/ember/hellas/protoproto2",
+      "similarity": 0.886
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.88
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.873
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.86
+    },
+    {
+      "name": "devvber",
+      "path": "/Users/ember/hellas/devvber",
+      "similarity": 0.832
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.824
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.814
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "directed-acyclic-graph",
+      "byzantine-fault-tolerance",
+      "quorum-certificates",
+      "View-Based Consensus",
+      "Threshold Cryptography",
+      "Content-Addressed Storage",
+      "Distributed Consensus",
+      "Object-Centric Data Model",
+      "Event Journaling",
+      "Deterministic Replay",
+      "Validator Quorum",
+      "Transaction Finalization",
+      "View Synchronization",
+      "Block Validation Logic",
+      "Logical Time Simulation",
+      "Purely Functional State Transitions",
+      "High-Throughput Pipelines",
+      "Low-Latency Consensus",
+      "Transaction Deduplication",
+      "Persistent Embedded Database",
+      "Binary Serialization",
+      "Bloom Filters",
+      "Slot-Based Block Production",
+      "Timeout Management",
+      "Protocol Effects Engine",
+      "Action-Processor Pattern",
+      "Content Hashing",
+      "Fault Tolerance",
+      "Asynchronous Networks"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "distributed-systems",
+      "consensus",
+      "directed-acyclic-graph",
+      "cryptography",
+      "threshold-signatures",
+      "blockchain",
+      "state-machine-replication",
+      "Content-Addressable Storage (CAS)",
+      "sui-architecture",
+      "replication",
+      "protocols",
+      "Systems Programming",
+      "simulation-harness",
+      "persistence"
+    ],
+    "mined_motifs": [
+      "byzantine-fault-tolerance",
+      "State Machine Replication",
+      "state-machine",
+      "quorum-certificates",
+      "distributed-systems",
+      "Distributed Consensus",
+      "decentralized-compute",
+      "leptos",
+      "parallel-execution",
+      "real-time-simulation",
+      "deterministic-simulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 15.26,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates",
+          "state-machine-replication",
+          "view synchronization"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 12.244,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "consensus",
+          "distributed-systems",
+          "state-machine-replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.172,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.031,
+        "matches": [
+          "distributed-systems",
+          "persistence"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.026,
+        "matches": [
+          "cryptography",
+          "threshold-signatures"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 7.91,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.917405Z"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "name": "website",
+  "description": "The official documentation hub and marketing site for the Biscuit authentication system, providing comprehensive guides, specifications, and interactive tooling. It utilizes Zola for the primary site and mdBook for technical documentation, featuring a custom web-component-based Datalog playground for real-time policy evaluation. The project integrates cryptographic capability concepts with user-friendly web interfaces to demonstrate decentralized authorization patterns.",
+  "tags": [
+    "biscuit",
+    "datalog",
+    "authorization",
+    "zola",
+    "mdbook",
+    "web-components",
+    "nix",
+    "security",
+    "cryptography",
+    "static-site",
+    "playground",
+    "documentation",
+    "capability-security",
+    "distributed-systems",
+    "bootstrap"
+  ],
+  "category": "Datalog-based Distributed Authorization",
+  "concepts": [
+    "Token Attenuation",
+    "Datalog Policy Language",
+    "Decentralized Authorization",
+    "Public Key Infrastructure",
+    "Policy Playgrounds",
+    "Web Component Orchestration",
+    "Snapshot Inspection",
+    "Third-party Proofs",
+    "Revocation Lists",
+    "Capability Systems",
+    "Static Site Integration",
+    "Role-Based Access Control",
+    "Microservices Security",
+    "Bearer Token Attenuation",
+    "Cryptographic Verification",
+    "Contextual Policy Evaluation",
+    "Cross-language Documentation",
+    "Interactive Datalog Debugging",
+    "Offline Policy Validation",
+    "Policy Scoping",
+    "Third-party Block Attenuation",
+    "Datalog Syntax Highlighting",
+    "Client-side Token Generation",
+    "Authorizer Logic",
+    "Fact Injection"
+  ],
+  "languages": [
+    "JavaScript",
+    "Nix",
+    "Shell",
+    "Markdown",
+    "HTML",
+    "SCSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 301,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "themes/adidoks/sass/bootstrap/js/src/util/index.js",
+      "themes/adidoks/static/index.js",
+      "wc/index.js",
+      "themes/adidoks/sass/bootstrap/js/src/tooltip.js"
+    ]
+  },
+  "_hash": "e643678ec10a97623a021a139eb77f7e4ad1f13820e7eb263bc2112510a7de66",
+  "_path": "/Users/ember/src/eclipse-biscuit/website",
+  "_updated_at": "2026-02-14T00:56:32.682500Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b5316cf79d5af13e706a53ed9073d56226f7f3312d818ffa2126e54766515c4e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:14.364123+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "ed25519",
+    "secp256r1",
+    "Hierarchical Authorization",
+    "Sealed Tokens",
+    "Transitive Trust",
+    "Policy Enforcement",
+    "Protobuf Serialization",
+    "authentication",
+    "Third-party Blocks",
+    "access-control",
+    "Predicate Logic"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "biscuit-cli",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-cli",
+      "similarity": 0.913
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.91
+    },
+    {
+      "name": "biscuit",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit",
+      "similarity": 0.878
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.868
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.857
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.855
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.854
+    },
+    {
+      "name": "ocapn.org",
+      "path": "/Users/ember/src/ocapn.org",
+      "similarity": 0.852
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Token Attenuation",
+      "Datalog Policy Language",
+      "Decentralized Authorization",
+      "Public Key Infrastructure",
+      "Policy Playgrounds",
+      "Web Component Orchestration",
+      "Snapshot Inspection",
+      "Third-party Proofs",
+      "Revocation Lists",
+      "Capability Systems",
+      "Static Site Integration",
+      "Role-Based Access Control",
+      "Microservices Security",
+      "Bearer Token Attenuation",
+      "Cryptographic Verification",
+      "Contextual Policy Evaluation",
+      "Cross-language Documentation",
+      "Interactive Datalog Debugging",
+      "Offline Policy Validation",
+      "Policy Scoping",
+      "Third-party Block Attenuation",
+      "Datalog Syntax Highlighting",
+      "Client-side Token Generation",
+      "Authorizer Logic",
+      "Fact Injection"
+    ],
+    "tags": [
+      "biscuit",
+      "datalog",
+      "authorization",
+      "zola",
+      "mdbook",
+      "web-components",
+      "nix",
+      "security",
+      "cryptography",
+      "static-site",
+      "playground",
+      "documentation",
+      "capability-security",
+      "distributed-systems",
+      "bootstrap"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "ed25519",
+      "secp256r1",
+      "Hierarchical Authorization",
+      "Sealed Tokens",
+      "Transitive Trust",
+      "Policy Enforcement",
+      "Protobuf Serialization",
+      "authentication",
+      "Third-party Blocks",
+      "access-control",
+      "Predicate Logic"
+    ],
+    "metaconstellations": [
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 12.495,
+        "matches": [
+          "authorization",
+          "capability-security",
+          "access-control",
+          "biscuit",
+          "datalog"
+        ]
+      },
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 11.187,
+        "matches": [
+          "access-control",
+          "authorization",
+          "datalog"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.488,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.487,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.486,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.486,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.682500Z"
+  }
+}

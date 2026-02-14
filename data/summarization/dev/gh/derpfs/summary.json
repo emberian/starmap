@@ -1,0 +1,251 @@
+{
+  "name": "derpfs",
+  "description": "derpfs is an experimental FUSE-based filesystem implementation that leverages memory-mapped I/O to manage on-disk data structures within a linear address space. It defines a custom disk layout featuring superblocks, bitmap-based block allocation, and hierarchical entity metadata, while intentionally incorporating a background fault-injection thread to simulate system instability.",
+  "tags": [
+    "rust",
+    "fuse",
+    "mmap",
+    "filesystem",
+    "storage",
+    "metadata",
+    "fault-injection",
+    "unix",
+    "userspace",
+    "binary-layout",
+    "bitmap",
+    "superblock",
+    "uuid",
+    "block-device",
+    "ioctl",
+    "experimental"
+  ],
+  "category": "Userspace Filesystem Implementation",
+  "concepts": [
+    "FUSE (Filesystem in Userspace)",
+    "Memory-Mapped I/O (mmap)",
+    "Superblock Architecture",
+    "On-Disk Metadata Layout",
+    "Free-Space Bitmaps",
+    "Entity-Based Storage (Inodes)",
+    "Fault Injection Simulation",
+    "Userspace Storage Drivers",
+    "Block Device Abstraction",
+    "Linear Address Space Mapping",
+    "UUID-based Volume Identification",
+    "Unix Permission Model",
+    "Pointer-based Data Navigation (Offsets)",
+    "Inline List Structures (IList)",
+    "Content Chunking",
+    "Disk Formatting Logic",
+    "Mount Point Management",
+    "Concurrent Task Spawning",
+    "Raw Pointer Transmutation",
+    "Static Memory Alignment",
+    "File Descriptor Management",
+    "IOCTL Interface Integration",
+    "Write-ahead Dirty Flags",
+    "Hierarchical Directory Structure",
+    "32-bit Address Space Constraints"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": [
+      "src/lib.rs",
+      "src/fs.rs",
+      "src/disk.rs"
+    ]
+  },
+  "_hash": "c0dfcddc3852639729821cfeb5c9ef997d4ef53f8bb05b9f0b5cc3e7de8d775f",
+  "_path": "/Users/ember/dev/gh/derpfs",
+  "_updated_at": "2026-02-14T00:56:24.977847Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "FUSE (Filesystem in Userspace)",
+      "Memory-Mapped I/O (mmap)",
+      "Superblock Architecture",
+      "On-Disk Metadata Layout",
+      "Free-Space Bitmaps",
+      "Entity-Based Storage (Inodes)",
+      "Fault Injection Simulation",
+      "Userspace Storage Drivers",
+      "Block Device Abstraction",
+      "Linear Address Space Mapping",
+      "UUID-based Volume Identification",
+      "Unix Permission Model",
+      "Pointer-based Data Navigation (Offsets)",
+      "Inline List Structures (IList)",
+      "Content Chunking",
+      "Disk Formatting Logic",
+      "Mount Point Management",
+      "Concurrent Task Spawning",
+      "Raw Pointer Transmutation",
+      "Static Memory Alignment",
+      "File Descriptor Management",
+      "IOCTL Interface Integration",
+      "Write-ahead Dirty Flags",
+      "Hierarchical Directory Structure",
+      "32-bit Address Space Constraints"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "fuse",
+      "mmap",
+      "filesystem",
+      "storage",
+      "metadata",
+      "fault-injection",
+      "unix",
+      "userspace",
+      "binary-layout",
+      "bitmap",
+      "superblock",
+      "uuid",
+      "block-device",
+      "ioctl",
+      "experimental"
+    ],
+    "mined_motifs": [
+      "linux",
+      "Systems Programming",
+      "foreign-function-interface",
+      "systems-programming",
+      "IO Control",
+      "posix",
+      "cgroups",
+      "syscalls",
+      "x86_64",
+      "Attribute Caching"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 11.023,
+        "matches": [
+          "cgroups",
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 11.016,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.616,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 3.919,
+        "matches": [
+          "ioctl"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.606,
+        "matches": []
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 2.602,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.977847Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "40c2143f7fd62f6fe1199f68ff42446d065c4d178f3650efbb89d07cad70ff03",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:55.288160+00:00"
+  },
+  "mined_motifs": [
+    "linux",
+    "systems-programming",
+    "ffi",
+    "low-level",
+    "system-programming",
+    "Foreign Function Interface",
+    "IO Control",
+    "posix",
+    "cgroups",
+    "syscalls",
+    "x86_64",
+    "Attribute Caching"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.82
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.819
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.818
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.817
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.816
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.816
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.816
+    },
+    {
+      "name": "grease-bench",
+      "path": "/Users/ember/dev/gh/forks/grease-bench",
+      "similarity": 0.813
+    }
+  ]
+}

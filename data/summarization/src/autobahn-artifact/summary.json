@@ -1,0 +1,268 @@
+{
+  "name": "autobahn-artifact",
+  "description": "A high-performance BFT consensus engine implemented in Rust, serving as a research prototype for the Sailfish protocol and its Autobahn optimization variant. It leverages a Directed Acyclic Graph (DAG) structure to decouple transaction dissemination from metadata ordering, achieving high throughput through parallel proposal slots and optimistic validation. The system integrates a robust networking layer, RocksDB-backed persistent storage, and cryptographic primitives for signature aggregation and quorum verification.",
+  "tags": [
+    "bft-consensus",
+    "dag-mempool",
+    "distributed-systems",
+    "high-throughput",
+    "low-latency",
+    "asynchronous-consensus",
+    "narwhal-tusk",
+    "sailfish-protocol",
+    "autobahn-protocol",
+    "rust",
+    "byzantine-fault-tolerance",
+    "quorum-certificates",
+    "transaction-batching",
+    "consensus-engine",
+    "rocksdb",
+    "cryptographic-signatures"
+  ],
+  "category": "DAG-based BFT Consensus Protocols",
+  "concepts": [
+    "Directed Acyclic Graph (DAG)",
+    "Quorum Certificates",
+    "Byzantine Fault Tolerance (BFT)",
+    "Asynchronous Consensus",
+    "Mempool Dissemination",
+    "Data Availability",
+    "Leader Election",
+    "Reliable Broadcast",
+    "Signature Aggregation",
+    "Total Ordering",
+    "Parallel Proposals",
+    "Optimistic Execution",
+    "Multi-worker Architecture",
+    "Height-based DAG",
+    "Round-based Consensus",
+    "Network Partition Tolerance",
+    "Crash Recovery",
+    "Committee Management",
+    "Stake-weighted Voting",
+    "Resource Control",
+    "Transaction Sequencing",
+    "Event-driven Architecture",
+    "Ed25519 Cryptography",
+    "RocksDB Storage",
+    "Tokio Runtime",
+    "Partial Synchrony",
+    "Message Batching",
+    "Gossip Protocols",
+    "Consensus Safety",
+    "Consensus Liveness"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 68,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "config/src/lib.rs",
+      "consensus/src/lib.rs",
+      "crypto/src/lib.rs",
+      "network/src/lib.rs"
+    ]
+  },
+  "_hash": "8ecfbf6aceb00bc50bbf73b75b5613b6444fa0bab24198046f268f5a593dced2",
+  "_path": "/Users/ember/src/autobahn-artifact",
+  "_updated_at": "2026-02-14T00:56:32.305866Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "31ea36ca055742eb9edbdaa8667ef2ffbf9e2240e0cb80d10e4a8167dfb37b93",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:59.192234+00:00"
+  },
+  "mined_motifs": [
+    "blockchain",
+    "State Machine Replication",
+    "Byzantine Fault Tolerance",
+    "Quorum Certificates (QC)",
+    "consensus-protocol",
+    "cryptography",
+    "typescript",
+    "dag-consensus",
+    "dag",
+    "state-machine",
+    "Byzantine Quorum Systems",
+    "bft"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.929
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.905
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.895
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.876
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.871
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.865
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.863
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.86
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "directed-acyclic-graph",
+      "quorum-certificates",
+      "byzantine-fault-tolerance",
+      "Asynchronous Consensus",
+      "Mempool Dissemination",
+      "Data Availability",
+      "Leader Election",
+      "Reliable Broadcast",
+      "Signature Aggregation",
+      "Total Ordering",
+      "Parallel Proposals",
+      "Optimistic Execution",
+      "Multi-worker Architecture",
+      "Height-based DAG",
+      "Round-based Consensus",
+      "Network Partition Tolerance",
+      "Crash Recovery",
+      "Committee Management",
+      "Stake-weighted Voting",
+      "Resource Control",
+      "Transaction Sequencing",
+      "Event-driven Architecture",
+      "Ed25519 Cryptography",
+      "RocksDB Storage",
+      "Tokio Runtime",
+      "Partial Synchrony",
+      "Message Batching",
+      "Gossip Protocols",
+      "Consensus Safety",
+      "Consensus Liveness"
+    ],
+    "tags": [
+      "Distributed Consensus",
+      "dag-mempool",
+      "distributed-systems",
+      "high-throughput",
+      "low-latency",
+      "asynchronous-consensus",
+      "narwhal-tusk",
+      "sailfish-protocol",
+      "autobahn-protocol",
+      "Rust Language Ecosystem",
+      "byzantine-fault-tolerance",
+      "quorum-certificates",
+      "transaction-batching",
+      "consensus-engine",
+      "rocksdb",
+      "cryptographic-signatures"
+    ],
+    "mined_motifs": [
+      "blockchain",
+      "State Machine Replication",
+      "distributed-systems",
+      "quorum-certificates",
+      "Distributed Consensus",
+      "cryptography",
+      "typescript",
+      "directed-acyclic-graph",
+      "state-machine",
+      "Byzantine Quorum Systems"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 14.028,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates",
+          "autobahn-protocol",
+          "narwhal-tusk"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.409,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.377,
+        "matches": [
+          "distributed-systems",
+          "consensus safety",
+          "gossip protocols"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.377,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.61,
+        "matches": [
+          "gossip protocols"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.578,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.305866Z"
+  }
+}

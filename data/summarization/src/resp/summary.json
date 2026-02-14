@@ -1,0 +1,232 @@
+{
+  "name": "resp",
+  "description": "A Python-based scholarly search orchestration library designed to aggregate research papers from disparate academic repositories including ArXiv, ACM, Semantic Scholar, and Google Scholar. It implements a unified interface for keyword-based retrieval, citation tree expansion via SerpAPI, and similarity-based graph construction using Selenium-driven automation. The system facilitates automated bibliometric data collection and metadata extraction for large-scale academic literature reviews.",
+  "tags": [
+    "academic-search",
+    "bibliometrics",
+    "research-automation",
+    "web-scraping",
+    "serpapi",
+    "google-scholar",
+    "arxiv",
+    "semantic-scholar",
+    "citation-graph",
+    "metadata-extraction",
+    "python",
+    "scholarly-data",
+    "literature-review",
+    "scraping-framework"
+  ],
+  "category": "Scholarly Information Retrieval",
+  "concepts": [
+    "Automated Bibliographic Search",
+    "Citation Tree Expansion",
+    "Scholarly Metadata Aggregation",
+    "Multi-source Academic Indexing",
+    "Similarity-based Research Graphs",
+    "Headless Browser Scraping",
+    "API Orchestration",
+    "Bibliometric Data Mining",
+    "Paper Metadata Extraction",
+    "Scholarly Repository Scraper",
+    "ArXiv API Integration",
+    "ACM Digital Library Access",
+    "Semantic Scholar API Client",
+    "Connected Papers Automation",
+    "BibTeX Parsing",
+    "Citation Data Pagination",
+    "Research Keyword Search",
+    "Academic Graph Construction",
+    "Electronic Preprint Harvesting",
+    "Conference Proceeding Scraper",
+    "DOI Resolution",
+    "Search Engine Results Page (SERP) Parsing"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": true,
+    "sample_files": [
+      "resp/apis/serp_api.py",
+      "resp/apis/cnnp.py",
+      "resp/resp.py",
+      "resp/apis/semantic_s.py",
+      "resp/apis/arxiv_api.py"
+    ]
+  },
+  "_hash": "eb93184d48f7077244b5fb8551e07457cdcae89b536cc8c9425169fed0ad8c0d",
+  "_path": "/Users/ember/src/resp",
+  "_updated_at": "2026-02-14T00:56:33.504637Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "380c876faa214bae360b0c302571ca26081f2256c8e69cea7c89caca8e443291",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:02.649441+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "library-management",
+    "rest-api",
+    "ASGI Bridge Pattern",
+    "Academic Graph API",
+    "Asynchronous HTTP Client Pooling",
+    "Author Disambiguation",
+    "Batch Metadata Acquisition",
+    "Bibliographic Network Exploration",
+    "Citation Influence Analysis",
+    "Graceful Event Loop Shutdown",
+    "H-index Retrieval"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "semantic-scholar-fastmcp-mcp-server",
+      "path": "/Users/ember/dev/semantic-scholar-fastmcp-mcp-server",
+      "similarity": 0.844
+    },
+    {
+      "name": "IACR-eprint-mirror",
+      "path": "/Users/ember/dev/gh/forks/IACR-eprint-mirror",
+      "similarity": 0.827
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.817
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.816
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.796
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.795
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.795
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.792
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Automated Bibliographic Search",
+      "Citation Tree Expansion",
+      "Scholarly Metadata Aggregation",
+      "Multi-source Academic Indexing",
+      "Similarity-based Research Graphs",
+      "Headless Browser Scraping",
+      "API Orchestration",
+      "Bibliometric Data Mining",
+      "Paper Metadata Extraction",
+      "Scholarly Repository Scraper",
+      "ArXiv API Integration",
+      "ACM Digital Library Access",
+      "Semantic Scholar API Client",
+      "Connected Papers Automation",
+      "BibTeX Parsing",
+      "Citation Data Pagination",
+      "Research Keyword Search",
+      "Academic Graph Construction",
+      "Electronic Preprint Harvesting",
+      "Conference Proceeding Scraper",
+      "DOI Resolution",
+      "Search Engine Results Page (SERP) Parsing"
+    ],
+    "tags": [
+      "academic-search",
+      "bibliometrics",
+      "research-automation",
+      "web-scraping",
+      "serpapi",
+      "google-scholar",
+      "arxiv",
+      "semantic-scholar",
+      "citation-graph",
+      "metadata-extraction",
+      "python",
+      "scholarly-data",
+      "literature-review",
+      "scraping-framework"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "library-management",
+      "rest-api",
+      "ASGI Bridge Pattern",
+      "Academic Graph API",
+      "Asynchronous HTTP Client Pooling",
+      "Author Disambiguation",
+      "Batch Metadata Acquisition",
+      "Bibliographic Network Exploration",
+      "Citation Influence Analysis",
+      "Graceful Event Loop Shutdown",
+      "H-index Retrieval"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.292,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.557,
+        "matches": []
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 2.523,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.521,
+        "matches": []
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 2.518,
+        "matches": []
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 2.496,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.504637Z"
+  }
+}

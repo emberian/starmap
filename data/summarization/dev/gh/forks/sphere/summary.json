@@ -1,0 +1,211 @@
+{
+  "name": "sphere",
+  "description": "A Rust library providing a closed-form implementation for calculating the volume of an n-dimensional hypersphere (n-sphere). The implementation utilizes case-wise logic for integer and half-integer Gamma function evaluations to support arbitrary dimensions in Euclidean space. It includes a custom floating-point equality implementation using both absolute tolerance and Units in the Last Place (ULPS) to ensure numerical stability during verification.",
+  "tags": [
+    "rust",
+    "mathematics",
+    "geometry",
+    "hypersphere",
+    "n-sphere",
+    "volume-calculation",
+    "numerical-analysis",
+    "floating-point",
+    "algorithms"
+  ],
+  "category": "High-Dimensional Euclidean Geometry",
+  "concepts": [
+    "n-sphere volume formula",
+    "hypersphere geometry",
+    "Gamma function evaluation",
+    "factorial recursion",
+    "IEEE 754 floating-point comparison",
+    "ULPS-based equality",
+    "absolute difference tolerance",
+    "mathematical computation",
+    "Euclidean volume",
+    "closed-form solutions",
+    "numerical verification",
+    "unit testing",
+    "Rust package management",
+    "cargo build system",
+    "dimension-dependent logic",
+    "recursive algorithms"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "ec30db0efa90485697dd32c5ea71a286dd4286ffb215b0da2243f304b9cba454",
+  "_path": "/Users/ember/dev/gh/forks/sphere",
+  "_updated_at": "2026-02-14T00:56:26.756158Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "n-sphere volume formula",
+      "hypersphere geometry",
+      "Gamma function evaluation",
+      "factorial recursion",
+      "IEEE 754 floating-point comparison",
+      "ULPS-based equality",
+      "absolute difference tolerance",
+      "mathematical computation",
+      "Euclidean volume",
+      "closed-form solutions",
+      "numerical verification",
+      "unit testing",
+      "Rust package management",
+      "cargo build system",
+      "dimension-dependent logic",
+      "recursive algorithms"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "mathematics",
+      "geometry",
+      "hypersphere",
+      "n-sphere",
+      "volume-calculation",
+      "numerical-analysis",
+      "floating-point",
+      "algorithms"
+    ],
+    "mined_motifs": [
+      "Linear Algebra",
+      "foreign-function-interface",
+      "Foreign Function Interface",
+      "math-library",
+      "Arbitrary-Precision Floating-Point (mpf)",
+      "Arbitrary-Precision Integers (mpz)",
+      "Arbitrary-Precision Rationals (mpq)",
+      "Base Conversion",
+      "BigNum Performance Optimization",
+      "Bitwise Operations",
+      "Euclidean Algorithm"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.076,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.295,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.239,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.485,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.472,
+        "matches": []
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 2.461,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.756158Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f2565e869d0f6d92a0e20b70a6a7edef48c510f12d0d9233d3c089bdb9262c8e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:30.643825+00:00"
+  },
+  "mined_motifs": [
+    "linear-algebra",
+    "Foreign Function Interface (FFI)",
+    "bindings",
+    "ffi",
+    "math-library",
+    "Arbitrary-Precision Floating-Point (mpf)",
+    "Arbitrary-Precision Integers (mpz)",
+    "Arbitrary-Precision Rationals (mpq)",
+    "Base Conversion",
+    "BigNum Performance Optimization",
+    "Bitwise Operations",
+    "Euclidean Algorithm"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.808
+    },
+    {
+      "name": "cgmath-rs",
+      "path": "/Users/ember/dev/gh/forks/cgmath-rs",
+      "similarity": 0.805
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.796
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.794
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.788
+    },
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/forks/libblas-sys-1",
+      "similarity": 0.788
+    },
+    {
+      "name": "noise-rs",
+      "path": "/Users/ember/dev/gh/forks/noise-rs",
+      "similarity": 0.787
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.782
+    }
+  ]
+}

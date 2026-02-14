@@ -1,0 +1,246 @@
+{
+  "name": "o1js-hints",
+  "description": "o1js-hints provides a comprehensive implementation of the BN254 pairing-friendly elliptic curve suite tailored for the o1js provable programming environment. The library features optimized arithmetic for tower extension fields up to Fq12, as well as robust group operations for G1 and G2 in both affine and projective coordinates. By leveraging foreign field gadgets and specialized pairing 'hints', it enables the efficient verification of BN254-based cryptographic primitives within Mina Protocol zero-knowledge circuits.",
+  "tags": [
+    "mina-zkapp",
+    "o1js",
+    "bn254",
+    "pairing",
+    "zk-snark",
+    "elliptic-curve",
+    "field-arithmetic",
+    "tower-extension",
+    "cryptography",
+    "typescript",
+    "provable-computation",
+    "mina-protocol"
+  ],
+  "category": "Pairing-Friendly Curve Cryptography",
+  "concepts": [
+    "BN254",
+    "Optimal Ate Pairing",
+    "Tower Extension Fields",
+    "Fq2 Extension",
+    "Fq6 Extension",
+    "Fq12 Arithmetic",
+    "Frobenius Map",
+    "Cyclotomic Squaring",
+    "Bilinear Map",
+    "G1 Group Operations",
+    "G2 Group Operations",
+    "Projective Coordinates",
+    "Affine Coordinates",
+    "Foreign Field Arithmetic",
+    "Provable Programming",
+    "o1js Gadgets",
+    "Mina Protocol",
+    "Zero-Knowledge Proofs",
+    "Non-deterministic Witnesses",
+    "Pairing Hints",
+    "Elliptic Curve Cryptography",
+    "Arithmetic Circuits",
+    "Field Inversion",
+    "Scalar Multiplication"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 52,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/index.ts",
+      "src/bn254/fq12.test.ts",
+      "src/bn254/fq6.test.ts",
+      "src/bn254/pairing_new.test.ts"
+    ]
+  },
+  "_hash": "c09f31ecb782a482c13cd9ec80277d280d7d569175d16c818b266896d789ee3d",
+  "_path": "/Users/ember/dev/o1js-hints",
+  "_updated_at": "2026-02-14T00:56:29.760969Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "BN254",
+      "Optimal Ate Pairing",
+      "Tower Extension Fields",
+      "Fq2 Extension",
+      "Fq6 Extension",
+      "Fq12 Arithmetic",
+      "Frobenius Map",
+      "Cyclotomic Squaring",
+      "Bilinear Map",
+      "G1 Group Operations",
+      "G2 Group Operations",
+      "Projective Coordinates",
+      "Affine Coordinates",
+      "Foreign Field Arithmetic",
+      "Provable Programming",
+      "o1js Gadgets",
+      "Mina Protocol",
+      "Zero-Knowledge Proofs",
+      "Non-deterministic Witnesses",
+      "Pairing Hints",
+      "Elliptic Curve Cryptography",
+      "Arithmetic Circuits",
+      "Field Inversion",
+      "Scalar Multiplication"
+    ],
+    "tags": [
+      "mina-zkapp",
+      "o1js",
+      "bn254",
+      "pairing",
+      "ZK-SNARKs",
+      "elliptic-curves",
+      "field-arithmetic",
+      "tower-extension",
+      "cryptography",
+      "typescript",
+      "provable-computation",
+      "Mina Protocol"
+    ],
+    "mined_motifs": [
+      "Final Exponentiation",
+      "Miller Loop",
+      "Rust Language Ecosystem",
+      "bls12-381",
+      "Bilinear Pairings",
+      "miller-loop",
+      "Montgomery Multiplication",
+      "Cofactor Clearing",
+      "blst",
+      "Point Compression",
+      "finite-fields",
+      "blockchain"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 8.189,
+        "matches": [
+          "mina protocol",
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.815,
+        "matches": [
+          "elliptic-curves",
+          "o1js"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 6.798,
+        "matches": [
+          "o1js"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.725,
+        "matches": [
+          "cryptography",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 5.381,
+        "matches": [
+          "zero-knowledge proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.327,
+        "matches": [
+          "cryptography"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.760969Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "afa4ab4850cb6e496fb0d6e9500a4a38990898f94b7cbfda26400a3545dde814",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:13.407691+00:00"
+  },
+  "mined_motifs": [
+    "Final Exponentiation",
+    "Miller Loop",
+    "rust",
+    "bls12-381",
+    "Bilinear Pairings",
+    "miller-loop",
+    "Montgomery Multiplication",
+    "Cofactor Clearing",
+    "blst",
+    "Point Compression",
+    "finite-fields",
+    "blockchain"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "o1js-groth16",
+      "path": "/Users/ember/dev/o1js-groth16",
+      "similarity": 0.896
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.87
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/hellas/blstrs",
+      "similarity": 0.866
+    },
+    {
+      "name": "pairing",
+      "path": "/Users/ember/hellas/pairing",
+      "similarity": 0.857
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.845
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.842
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.822
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.822
+    }
+  ]
+}

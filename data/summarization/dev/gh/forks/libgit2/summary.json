@@ -1,0 +1,227 @@
+{
+  "name": "libgit2",
+  "description": "A portable, pure C implementation of Git core methods provided as a re-entrant linkable library with a high-performance API. It facilitates native-speed Git operations including object database management, revision walking, index manipulation, and network transport handling across multiple platforms.",
+  "tags": [
+    "git",
+    "vcs",
+    "c-library",
+    "native",
+    "reentrant",
+    "cross-platform",
+    "linkable",
+    "odb",
+    "revision-walking",
+    "index-manipulation",
+    "transport-protocols",
+    "diff-engine",
+    "merge-algorithms",
+    "thread-safe"
+  ],
+  "category": "Distributed Version Control System Engine",
+  "concepts": [
+    "Object Database (ODB)",
+    "Content-Addressable Storage",
+    "Revision Walking",
+    "Packfile Processing",
+    "Delta Compression",
+    "Index Staging",
+    "Three-way Merge",
+    "D/F Conflicts",
+    "Smart Transport Protocol",
+    "Reflog Management",
+    "Submodule Recursion",
+    "Attribute Filtering",
+    "Rename Detection",
+    "Rev-parse Evaluation",
+    "Conflict Resolution"
+  ],
+  "languages": [
+    "C",
+    "CMake",
+    "Shell",
+    "Python"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 1148,
+    "has_readme": true,
+    "sample_files": [
+      "tests/main.c",
+      "deps/regex/regcomp.c",
+      "deps/zlib/zlib.h",
+      "src/merge.c",
+      "deps/zlib/deflate.c"
+    ]
+  },
+  "_hash": "71fdfb792493cc7a9cedbf6e3acefb5b991668d4397ed085baa0881d7ab05578",
+  "_path": "/Users/ember/dev/gh/forks/libgit2",
+  "_updated_at": "2026-02-14T00:56:25.966319Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Object Database (ODB)",
+      "Content-Addressable Storage (CAS)",
+      "Revision Walking",
+      "Packfile Processing",
+      "Delta Compression",
+      "Index Staging",
+      "Three-way Merge",
+      "D/F Conflicts",
+      "Smart Transport Protocol",
+      "Reflog Management",
+      "Submodule Recursion",
+      "Attribute Filtering",
+      "Rename Detection",
+      "Rev-parse Evaluation",
+      "Conflict Resolution"
+    ],
+    "tags": [
+      "git",
+      "vcs",
+      "c-library",
+      "native",
+      "reentrant",
+      "cross-platform",
+      "linkable",
+      "odb",
+      "revision-walking",
+      "index-manipulation",
+      "transport-protocols",
+      "diff-engine",
+      "merge-algorithms",
+      "thread-safe"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Blame Algorithms",
+      "Checkout Notification Callbacks",
+      "Commit Graph Traversal",
+      "Configuration Key-Value Stores",
+      "Credential Helper Protocols",
+      "Diff Delta Analysis",
+      "foreign-function-interface",
+      "Git Index Specification",
+      "Git Object Model",
+      "Network Transport Layers"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.507,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.499,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.495,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.464,
+        "matches": [
+          "content-addressable storage (cas)"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.693,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.692,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.966319Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "dcaf2b2fb3e3c5b1a6b26f26fcdfc0918bcdcd8e6378cf07cf136b1c983df541",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:48.791667+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "resource-management",
+    "Blame Algorithms",
+    "Checkout Notification Callbacks",
+    "Commit Graph Traversal",
+    "Configuration Key-Value Stores",
+    "Credential Helper Protocols",
+    "Diff Delta Analysis",
+    "Foreign Function Interface (FFI)",
+    "Git Index Specification",
+    "Git Object Model",
+    "Network Transport Layers"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "git2-rs",
+      "path": "/Users/ember/dev/gh/forks/git2-rs",
+      "similarity": 0.893
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.86
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.854
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.853
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.848
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.845
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.844
+    }
+  ]
+}

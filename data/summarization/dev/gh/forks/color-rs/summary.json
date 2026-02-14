@@ -1,0 +1,209 @@
+{
+  "name": "color-rs",
+  "description": "A low-level Rust library for color space manipulation and representation. It provides generic data structures for RGB, HSV, YCbCr, and sRGB formats, along with traits for channel-wise conversions and normalized float-based color arithmetic.",
+  "tags": [
+    "rust",
+    "color-space",
+    "graphics",
+    "rgb",
+    "hsv",
+    "ycbcr",
+    "srgb",
+    "color-conversion",
+    "linear-algebra",
+    "image-processing"
+  ],
+  "category": "Color Science and Computer Graphics",
+  "concepts": [
+    "color space conversion",
+    "tristimulus values",
+    "alpha compositing",
+    "gamma correction",
+    "chrominance encoding",
+    "perceptual color models",
+    "generic programming",
+    "fixed-point arithmetic",
+    "floating-point normalization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/rgb.rs",
+      "src/channel.rs",
+      "src/hsv.rs"
+    ]
+  },
+  "_hash": "679340c672ba45ddbf5812626fdfbd0ba68bf79927e2565aeabb26cab430a986",
+  "_path": "/Users/ember/dev/gh/forks/color-rs",
+  "_updated_at": "2026-02-14T00:56:25.451074Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "color space conversion",
+      "tristimulus values",
+      "alpha compositing",
+      "gamma correction",
+      "chrominance encoding",
+      "perceptual color models",
+      "generic programming",
+      "fixed-point arithmetic",
+      "floating-point normalization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "color-space",
+      "Computer Graphics & Rendering",
+      "rgb",
+      "hsv",
+      "ycbcr",
+      "srgb",
+      "color-conversion",
+      "Linear Algebra",
+      "image-processing"
+    ],
+    "mined_motifs": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "Depth-First Search",
+      "Interior Mutability",
+      "Memory Management",
+      "Object Graph Traversal",
+      "Reference Cycle Detection",
+      "Smart Pointers",
+      "Trait-based Polymorphism",
+      "Weak Reference Cleanup",
+      "cycle-collection",
+      "cyclic-references",
+      "garbage-collection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.353,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.545,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.53,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.517,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 5.369,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 3.871,
+        "matches": [
+          "category:Color Science and Computer Graphics"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.451074Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "071bb4567f1bdf24ea43e7f943fca102d7b4aebb6e9cdd57a63922692b3fb145",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:22.328349+00:00"
+  },
+  "mined_motifs": [
+    "resource-management",
+    "Depth-First Search",
+    "Interior Mutability",
+    "Manual Memory Management",
+    "Object Graph Traversal",
+    "Reference Cycle Detection",
+    "Smart Pointers",
+    "Trait-based Polymorphism",
+    "Weak Reference Cleanup",
+    "cycle-collection",
+    "cyclic-references",
+    "garbage-collection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.884
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.883
+    },
+    {
+      "name": "cgmath-rs",
+      "path": "/Users/ember/dev/gh/forks/cgmath-rs",
+      "similarity": 0.881
+    },
+    {
+      "name": "rust-image",
+      "path": "/Users/ember/dev/gh/forks/rust-image",
+      "similarity": 0.879
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.873
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.871
+    }
+  ]
+}

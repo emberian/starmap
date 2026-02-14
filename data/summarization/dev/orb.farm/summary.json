@@ -1,0 +1,225 @@
+{
+  "name": "orb.farm",
+  "description": "A high-performance cellular automata engine that simulates a closed ecosystem using Rust and WebAssembly for biological logic and WebGL for real-time rendering. The simulation models complex trophic interactions, nutrient cycling, and atmospheric gas exchange (O2/CO2) between diverse species including autotrophs, consumers, and decomposers. It utilizes a custom 'SandApi' for stochastic cell updates and a stack-based undo system for state management.",
+  "tags": [
+    "cellular-automata",
+    "webassembly",
+    "rust",
+    "webgl",
+    "ecosystem-simulation",
+    "sandtable",
+    "wasm-bindgen",
+    "regl",
+    "glsl",
+    "react",
+    "stochastic-modeling",
+    "biota"
+  ],
+  "category": "Biological Cellular Automata",
+  "concepts": [
+    "Cellular Automata",
+    "WebAssembly Interop",
+    "GPGPU Rendering",
+    "Trophic Level Modeling",
+    "Biogeochemical Cycling",
+    "Stochastic State Transitions",
+    "Oxygen-Carbon Cycle",
+    "Spatial Data Structures",
+    "Real-time Simulation",
+    "Pixel-based Physics",
+    "Wasm-Bindgen Memory Management",
+    "Shader-based Light Transport"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "TypeScript",
+    "GLSL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 533,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "crate/pkg/index.js",
+      "crate/src/lib.rs",
+      "js/index.js",
+      "crate/src/species.rs"
+    ]
+  },
+  "_hash": "843631008d15d248a80e999504b8137a9cad80e20903ef7a088a24fb05b246fc",
+  "_path": "/Users/ember/dev/orb.farm",
+  "_updated_at": "2026-02-14T00:56:29.821775Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "cellular-automata",
+      "WebAssembly Interop",
+      "GPGPU Rendering",
+      "Trophic Level Modeling",
+      "Biogeochemical Cycling",
+      "Stochastic State Transitions",
+      "Oxygen-Carbon Cycle",
+      "Spatial Data Structures",
+      "real-time-simulation",
+      "Pixel-based Physics",
+      "Wasm-Bindgen Memory Management",
+      "Shader-based Light Transport"
+    ],
+    "tags": [
+      "cellular-automata",
+      "webassembly",
+      "Rust Language Ecosystem",
+      "webgl",
+      "ecosystem-simulation",
+      "sandtable",
+      "regl",
+      "glsl",
+      "react",
+      "stochastic-modeling",
+      "biota"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "WebAssembly",
+      "wgpu",
+      "Totalistic Rules",
+      "egui",
+      "GPGPU Compute",
+      "webgpu",
+      "wgsl",
+      "game-of-life",
+      "Computer Graphics & Rendering",
+      "Double buffering",
+      "Moore neighborhood"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.261,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 8.202,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata",
+          "stochastic-modeling"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.842,
+        "matches": [
+          "gpgpu compute",
+          "glsl"
+        ]
+      },
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 5.482,
+        "matches": [
+          "stochastic-modeling"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.458,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.453,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.821775Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "250b814d4e82f839bcb1c8767284cbbdc53e7c2fa46177aa3cc44650a461486c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:17.556949+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "wasm",
+    "wgpu",
+    "Totalistic Rules",
+    "egui",
+    "gpgpu",
+    "webgpu",
+    "wgsl",
+    "game-of-life",
+    "real-time-rendering",
+    "Double buffering",
+    "Moore neighborhood"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.872
+    },
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.87
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.857
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.84
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.83
+    },
+    {
+      "name": "antfarm",
+      "path": "/Users/ember/dev/gh/antfarm",
+      "similarity": 0.827
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.826
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.822
+    }
+  ]
+}

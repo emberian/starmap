@@ -1,0 +1,255 @@
+{
+  "name": "flux-reference",
+  "description": "A reference inference implementation for the FLUX.1 family of latent flow matching models, supporting high-fidelity text-to-image synthesis, structural conditioning, and advanced image editing. The codebase integrates optimized TensorRT engines for high-performance execution alongside standard PyTorch paths, covering specialized tasks such as inpainting, depth/canny conditioning, and image variation. It provides a modular framework for transformer-based diffusion, including components for T5/CLIP text embedding, VAE autoencoding, and flexible sampling schedules.",
+  "tags": [
+    "image-generation",
+    "flow-matching",
+    "latent-diffusion",
+    "tensorrt",
+    "text-to-image",
+    "inpainting",
+    "outpainting",
+    "lora",
+    "transformer",
+    "vae",
+    "nvidia-cuda",
+    "black-forest-labs",
+    "computer-vision",
+    "pytorch",
+    "huggingface",
+    "onnx"
+  ],
+  "category": "Latent Flow Matching Synthesis",
+  "concepts": [
+    "Flow Matching",
+    "Latent Space Diffusion",
+    "Structural Conditioning",
+    "TensorRT Acceleration",
+    "In-Context Generation",
+    "Inpainting",
+    "Outpainting",
+    "Image Variation",
+    "Classifier-Free Guidance",
+    "Rotary Embeddings (RoPE)",
+    "T5 Text Encoding",
+    "CLIP Vision Encoding",
+    "LoRA Integration",
+    "Variational Autoencoders",
+    "Sampling Distillation",
+    "Model Offloading",
+    "Dynamic Shape Inference",
+    "ONNX Graph Surgery",
+    "Polygraphy Conversion",
+    "Multimodal Fusion",
+    "Cross-Attention Layers",
+    "Sequence Packing",
+    "Flow-based ODE Solvers",
+    "Latent Space Manipulation",
+    "Conditioning Embedders"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 62,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "src/flux/__init__.py",
+      "src/flux/trt/__init__.py",
+      "src/flux/trt/engine/__init__.py",
+      "src/flux/trt/trt_config/__init__.py"
+    ]
+  },
+  "_hash": "d63dab1e873ff5077b70089fb1adda1dd7f25f225818127c1b7bc53e8b99d324",
+  "_path": "/Users/ember/src/flux-reference",
+  "_updated_at": "2026-02-14T00:56:32.742148Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d2f9490ad523aa13ca35751de2d9946eb1bb024d2b334f58ed53732e3d01fc44",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:21.839756+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "deep-learning",
+    "diffusion-models",
+    "video-generation",
+    "machine-learning",
+    "generative-ai",
+    "cuda",
+    "distributed-systems",
+    "Ancestral Sampling",
+    "Attention Slicing",
+    "Audio Diffusion",
+    "BitsAndBytes"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "diffusers-reference",
+      "path": "/Users/ember/src/diffusers-reference",
+      "similarity": 0.823
+    },
+    {
+      "name": "TurboDiffusion",
+      "path": "/Users/ember/src/TurboDiffusion",
+      "similarity": 0.78
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.772
+    },
+    {
+      "name": "Qwen3-TTS",
+      "path": "/Users/ember/src/Qwen3-TTS",
+      "similarity": 0.762
+    },
+    {
+      "name": "ezgen",
+      "path": "/Users/ember/hellas/ezgen",
+      "similarity": 0.754
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.753
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.751
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.751
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Flow Matching",
+      "Latent Space Diffusion",
+      "Structural Conditioning",
+      "TensorRT Acceleration",
+      "In-Context Generation",
+      "Inpainting",
+      "Outpainting",
+      "Image Variation",
+      "Classifier-Free Guidance",
+      "Rotary Embeddings (RoPE)",
+      "T5 Text Encoding",
+      "CLIP Vision Encoding",
+      "LoRA Integration",
+      "Variational Autoencoders",
+      "Sampling Distillation",
+      "Model Offloading",
+      "Dynamic Shape Inference",
+      "ONNX Graph Surgery",
+      "Polygraphy Conversion",
+      "Multimodal Fusion",
+      "Cross-Attention Layers",
+      "Sequence Packing",
+      "Flow-based ODE Solvers",
+      "Latent Space Manipulation",
+      "Conditioning Embedders"
+    ],
+    "tags": [
+      "image-generation",
+      "flow-matching",
+      "latent-diffusion",
+      "tensorrt",
+      "text-to-image",
+      "inpainting",
+      "outpainting",
+      "lora",
+      "transformer",
+      "vae",
+      "nvidia-cuda",
+      "black-forest-labs",
+      "computer-vision",
+      "pytorch",
+      "huggingface",
+      "onnx"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "deep-learning",
+      "diffusion-models",
+      "video-generation",
+      "machine-learning",
+      "generative-ai",
+      "cuda",
+      "distributed-systems",
+      "Ancestral Sampling",
+      "Attention Slicing",
+      "Audio Diffusion",
+      "BitsAndBytes"
+    ],
+    "metaconstellations": [
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 8.202,
+        "matches": [
+          "diffusion-models",
+          "transformer"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 6.856,
+        "matches": [
+          "generative-ai",
+          "transformer"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 6.696,
+        "matches": [
+          "cuda",
+          "lora"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.166,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.166,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.163,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.742148Z"
+  }
+}

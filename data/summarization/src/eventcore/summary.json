@@ -1,0 +1,245 @@
+{
+  "name": "eventcore",
+  "description": "A high-performance, type-safe event sourcing framework for Rust that introduces dynamic consistency boundaries via multi-stream atomicity. It enables commands to atomically read from and write to multiple event streams, breaking traditional aggregate constraints while maintaining strong optimistic concurrency control and rigorous type-level invariants.",
+  "tags": [
+    "event-sourcing",
+    "cqrs",
+    "rust",
+    "multi-stream",
+    "atomicity",
+    "postgresql",
+    "distributed-systems",
+    "domain-driven-design",
+    "typestate",
+    "persistence",
+    "serialization",
+    "optimistic-locking",
+    "event-store",
+    "sagas",
+    "type-safety",
+    "asynchronous"
+  ],
+  "category": "Event-Sourced Distributed Systems",
+  "concepts": [
+    "Multi-stream Atomicity",
+    "Dynamic Consistency Boundaries",
+    "Optimistic Concurrency Control",
+    "Typestate Pattern",
+    "Event Schema Evolution",
+    "Command Query Responsibility Segregation",
+    "Read Model Projection",
+    "Saga Pattern Coordination",
+    "Phantom Type Stream Sets",
+    "Idempotent Command Execution",
+    "Causation and Correlation Tracking",
+    "Event Store Adapters",
+    "State Reconstruction",
+    "Zero-Boilerplate Macros",
+    "Checkpoint Persistence",
+    "Property-Based Testing"
+  ],
+  "languages": [
+    "Rust",
+    "Nix",
+    "SQL",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 286,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "eventcore/src/cqrs/mod.rs",
+      "eventcore/src/lib.rs",
+      "eventcore/src/serialization/mod.rs"
+    ]
+  },
+  "_hash": "bc6c9420f5e51a2920f6bb3b092f5311b3ba8bde07d55ae6eae784b2666d7ec5",
+  "_path": "/Users/ember/src/eventcore",
+  "_updated_at": "2026-02-14T00:56:32.716470Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b9c90271524777e6d617af2ed28e483915e84c139da4054c999f769cf5efbbe6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:18.311562+00:00"
+  },
+  "mined_motifs": [
+    "ddd",
+    "Event Sourcing",
+    "async-rust",
+    "sqlx",
+    "Materialized Views",
+    "algebraic-data-types",
+    "Conflict Detection",
+    "Event Store",
+    "Bounded Contexts",
+    "Domain Events",
+    "macros",
+    "dynamodb"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.912
+    },
+    {
+      "name": "tsuzuri",
+      "path": "/Users/ember/src/tsuzuri",
+      "similarity": 0.907
+    },
+    {
+      "name": "cqrs-es",
+      "path": "/Users/ember/src/cqrs",
+      "similarity": 0.905
+    },
+    {
+      "name": "es-entity",
+      "path": "/Users/ember/src/es-entity",
+      "similarity": 0.905
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.886
+    },
+    {
+      "name": "fmodel-rust-demo",
+      "path": "/Users/ember/src/fmodel-rust-demo",
+      "similarity": 0.881
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.86
+    },
+    {
+      "name": "fmodel-rust-postgres",
+      "path": "/Users/ember/src/fmodel-rust-postgres",
+      "similarity": 0.856
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Multi-stream Atomicity",
+      "Dynamic Consistency Boundaries",
+      "Optimistic Concurrency Control",
+      "Typestate Pattern",
+      "Event Schema Evolution",
+      "Command Query Responsibility Segregation",
+      "Read Model Projection",
+      "Saga Pattern Coordination",
+      "Phantom Type Stream Sets",
+      "Idempotent Command Execution",
+      "Causation and Correlation Tracking",
+      "Event Store Adapters",
+      "State Reconstruction",
+      "Zero-Boilerplate Macros",
+      "Checkpoint Persistence",
+      "Property-Based Testing"
+    ],
+    "tags": [
+      "event-sourcing",
+      "cqrs",
+      "Rust Language Ecosystem",
+      "multi-stream",
+      "atomicity",
+      "postgresql",
+      "distributed-systems",
+      "domain-driven-design",
+      "typestate",
+      "persistence",
+      "Data Serialization",
+      "optimistic-locking",
+      "sagas",
+      "type-safety",
+      "asynchronous"
+    ],
+    "mined_motifs": [
+      "ddd",
+      "Event Sourcing",
+      "rust",
+      "sqlx",
+      "Materialized Views",
+      "algebraic-data-types",
+      "Conflict Detection",
+      "Event Store",
+      "Bounded Contexts",
+      "Domain Events",
+      "macros",
+      "dynamodb"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 18.089,
+        "matches": [
+          "cqrs",
+          "distributed-systems",
+          "event-sourcing",
+          "persistence",
+          "domain events",
+          "event store",
+          "optimistic concurrency control"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 9.763,
+        "matches": [
+          "event-sourcing",
+          "persistence",
+          "cqrs"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.848,
+        "matches": [
+          "data serialization",
+          "postgresql"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 5.588,
+        "matches": [
+          "event sourcing"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.479,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.479,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.716470Z"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "name": "Protogen",
+  "description": "Protogen is a domain-specific compiler and code generation utility designed for the Arke Industries Interchange Protocol (AIIP). It utilizes the Grako parser generator to translate EBNF-defined schemas into serialization and deserialization interfaces, supporting compact binary layouts without alignment padding. The tool specializes in mapping RPC methods, notifications, and complex object hierarchies to target language constructs, with a primary implementation for C# environments.",
+  "tags": [
+    "protocol-idl",
+    "code-generation",
+    "binary-serialization",
+    "rpc-framework",
+    "grako",
+    "ebnf",
+    "python",
+    "csharp-generator",
+    "aiip",
+    "message-passing",
+    "schema-compiler",
+    "parser-generator",
+    "data-interchange",
+    "type-marshalling"
+  ],
+  "category": "Binary Serialization IDL & Code Generation",
+  "concepts": [
+    "Abstract Syntax Tree",
+    "Parser Generation",
+    "Binary Data Layout",
+    "Domain Specific Language",
+    "Template-based Code Synthesis",
+    "Zero-padding Serialization",
+    "Type Marshalling",
+    "Interface Definition Language",
+    "RPC Method Signatures",
+    "Formal Grammar Specification",
+    "Metadata Propagation",
+    "Heterogeneous Object Collections",
+    "Primitive Type Mapping",
+    "Textual Inclusion Preprocessing"
+  ],
+  "languages": [
+    "Python",
+    "EBNF",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "parser.py",
+      "generators/cs.py"
+    ]
+  },
+  "_hash": "b406bfc70995b4232618bd2542113ff81f69f9286b7cc65fa86792bca8590703",
+  "_path": "/Users/ember/dev/gh/Protogen",
+  "_updated_at": "2026-02-14T00:56:24.246083Z",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "AST",
+      "Parser Generation",
+      "Binary Data Layout",
+      "Domain Specific Language",
+      "Template-based Code Synthesis",
+      "Zero-padding Serialization",
+      "Type Marshalling",
+      "Interface Definition Language",
+      "RPC Method Signatures",
+      "Formal Grammar Specification",
+      "Metadata Propagation",
+      "Heterogeneous Object Collections",
+      "Primitive Type Mapping",
+      "Textual Inclusion Preprocessing"
+    ],
+    "tags": [
+      "protocol-idl",
+      "Compiler Engineering",
+      "Data Serialization",
+      "rpc-framework",
+      "grako",
+      "ebnf",
+      "python",
+      "csharp-generator",
+      "aiip",
+      "message-passing",
+      "schema-compiler",
+      "parser-generator",
+      "data-interchange"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "zero-copy",
+      "Rust Language Ecosystem",
+      "binary-protocol",
+      "capnproto",
+      "rpc",
+      "Canonicalization",
+      "binary-format",
+      "racket",
+      "performance",
+      "Compiler Engineering",
+      "java"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 8.335,
+        "matches": [
+          "binary-format",
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.885,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 6.636,
+        "matches": [
+          "compiler engineering",
+          "category:Binary Serialization IDL & Code Generation"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.461,
+        "matches": [
+          "ast",
+          "ebnf"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 5.446,
+        "matches": [
+          "ast"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.433,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.246083Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "57543371b6bffda19d7f550379b6549caeed4e44dd0fd7e98cfb1e92c56f3192",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:17.312888+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "zero-copy",
+    "rust",
+    "binary-protocol",
+    "capnproto",
+    "rpc",
+    "Canonicalization",
+    "binary-format",
+    "racket",
+    "performance",
+    "codegen",
+    "java"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.873
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.87
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.863
+    },
+    {
+      "name": "syrup",
+      "path": "/Users/ember/src/syrup",
+      "similarity": 0.863
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.857
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.843
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.832
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.828
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "name": "imperious",
+  "description": "A nascent systems-level orchestration framework developed by Emberian, likely designed for high-level control and supervision of high-performance runtimes or custom RISC micro-architectures. Leveraging the developer's expertise in formal methods and verifiable computation, the project potentially aims to bridge imperative execution models with rigorous policy enforcement or zero-knowledge circuit generation. The repository is currently in an early exploratory phase with an focus on system-level authority and resource governance.",
+  "tags": [
+    "systems-engineering",
+    "orchestration",
+    "supervisor",
+    "runtime-control",
+    "formal-methods",
+    "zk-cryptography",
+    "capability-security",
+    "process-management",
+    "resource-governance",
+    "isa-supervision"
+  ],
+  "category": "System Orchestration Framework",
+  "concepts": [
+    "Process Supervision",
+    "Capability-based Security",
+    "Resource Governance",
+    "Mandatory Access Control",
+    "Formal Specification",
+    "Verifiable Computation Orchestration",
+    "Imperative Execution Models",
+    "System-level Authority",
+    "Policy Enforcement",
+    "Runtime Interoperability",
+    "Sandboxing",
+    "Micro-architecture Simulation"
+  ],
+  "languages": [
+    "OCaml",
+    "Rust",
+    "C"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 0,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/gh/imperious",
+  "_updated_at": "2026-02-14T00:56:27.369131Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Process Supervision",
+      "Capability-based Security",
+      "Resource Governance",
+      "Mandatory Access Control",
+      "Formal Specification",
+      "Verifiable Computation Orchestration",
+      "Imperative Execution Models",
+      "System-level Authority",
+      "Policy Enforcement",
+      "Runtime Interoperability",
+      "Sandboxing",
+      "Micro-architecture Simulation"
+    ],
+    "tags": [
+      "systems-engineering",
+      "orchestration",
+      "supervisor",
+      "runtime-control",
+      "formal-verification",
+      "zk-cryptography",
+      "capability-security",
+      "process-management",
+      "resource-governance",
+      "isa-supervision"
+    ],
+    "mined_motifs": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "Rust Language Ecosystem",
+      "Agent Lifecycle Supervision",
+      "Agent Presence Tracking",
+      "Agent Role Specialization",
+      "Agent-to-Agent Messaging",
+      "Asynchronous Task Chains",
+      "Busy/Sleep Mode Arbitration",
+      "Cognitive Loop Monitoring",
+      "Context Expertise Retrieval",
+      "Convex Persistence Layer",
+      "Cost-Tracking Analytics"
+    ],
+    "metaconstellations": [
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.506,
+        "matches": [
+          "orchestration"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.488,
+        "matches": [
+          "capability-security"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.468,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.464,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.464,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.452,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.369131Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f67526dd61d0d771110f704291d689ac981fd4008a25f312d455498e74aadb26",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:53.917991+00:00"
+  },
+  "mined_motifs": [
+    "resource-management",
+    "rust",
+    "Agent Lifecycle Supervision",
+    "Agent Presence Tracking",
+    "Agent Role Specialization",
+    "Agent-to-Agent Messaging",
+    "Asynchronous Task Chains",
+    "Busy/Sleep Mode Arbitration",
+    "Cognitive Loop Monitoring",
+    "Context Expertise Retrieval",
+    "Convex Persistence Layer",
+    "Cost-Tracking Analytics"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.835
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.832
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.829
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.829
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.827
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.826
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.824
+    }
+  ]
+}

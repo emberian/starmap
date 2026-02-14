@@ -1,0 +1,237 @@
+{
+  "name": "resume",
+  "description": "A modular LaTeX framework for engineering professional resumes and cover letters based on the Awesome-CV document class. It utilizes the XeLaTeX engine for advanced font rendering and FontAwesome integration, managed through a Makefile-driven build system. The architecture promotes clean separation of concerns by isolating distinct CV sections into individual TeX fragments for maintainable document orchestration.",
+  "tags": [
+    "latex",
+    "xelatex",
+    "awesome-cv",
+    "resume",
+    "cv",
+    "typesetting",
+    "makefile",
+    "pdf-generation",
+    "document-class",
+    "roboto",
+    "fontawesome",
+    "tex",
+    "automation",
+    "templating"
+  ],
+  "category": "Professional Document Typesetting and Automated Synthesis",
+  "concepts": [
+    "LaTeX Document Classes",
+    "Modular TeX Architecture",
+    "XeLaTeX Engine Integration",
+    "OpenType/TrueType Font Embedding",
+    "Iconographic Typography",
+    "Automated Build Systems",
+    "PDF Compilation Pipelines",
+    "Structural Document Composition",
+    "Section-Based Content Abstraction",
+    "Style and Formatting Separation",
+    "Typography and Grid Alignment",
+    "Vector Asset Integration",
+    "Continuous Integration for Documents",
+    "Curriculum Vitae Orchestration",
+    "Cover Letter Template Generation",
+    "Color Palette Definition",
+    "Bibliography and Writing Management",
+    "Extracurricular Activity Tracking",
+    "Professional Experience Modeling",
+    "Academic Honor Categorization",
+    "Multi-page Layout Handling",
+    "Header and Footer Customization",
+    "Font Family Management",
+    "Makefile-based Dependency Tracking"
+  ],
+  "languages": [
+    "TeX",
+    "Makefile"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 36,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile"
+    ]
+  },
+  "_hash": "98571e3a1564a168c2d95a42d8061a56bf036d8cfb40abc3bf43deeb5eda9c2d",
+  "_path": "/Users/ember/dev/gh/resume",
+  "_updated_at": "2026-02-14T00:56:28.120319Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "LaTeX Document Classes",
+      "Modular TeX Architecture",
+      "XeLaTeX Engine Integration",
+      "OpenType/TrueType Font Embedding",
+      "Iconographic Typography",
+      "Automated Build Systems",
+      "PDF Compilation Pipelines",
+      "Structural Document Composition",
+      "Section-Based Content Abstraction",
+      "Style and Formatting Separation",
+      "Typography and Grid Alignment",
+      "Vector Asset Integration",
+      "Continuous Integration for Documents",
+      "Curriculum Vitae Orchestration",
+      "Cover Letter Template Generation",
+      "Color Palette Definition",
+      "Bibliography and Writing Management",
+      "Extracurricular Activity Tracking",
+      "Professional Experience Modeling",
+      "Academic Honor Categorization",
+      "Multi-page Layout Handling",
+      "Header and Footer Customization",
+      "Font Family Management",
+      "Makefile-based Dependency Tracking"
+    ],
+    "tags": [
+      "latex",
+      "xelatex",
+      "awesome-cv",
+      "resume",
+      "cv",
+      "typesetting",
+      "makefile",
+      "pdf-generation",
+      "document-class",
+      "roboto",
+      "fontawesome",
+      "tex",
+      "automation",
+      "templating"
+    ],
+    "mined_motifs": [
+      "vim",
+      "dotfiles",
+      "Asset Management Systems",
+      "COSI",
+      "Diagrammatic Representation",
+      "Document Build Automation",
+      "Functional Requirements",
+      "Information System Design",
+      "Interaction Diagrams",
+      "LMS",
+      "LaTeX Typesetting",
+      "Library Management Workflows"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.388,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.364,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.949,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 2.581,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.536,
+        "matches": []
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 2.533,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.120319Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d4b619e6959e553f7900e8c87a96cd7620e3fa60f3007d5dc69cc1ca0213b8d4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:15.931782+00:00"
+  },
+  "mined_motifs": [
+    "vim",
+    "dotfiles",
+    "Asset Management Systems",
+    "COSI",
+    "Diagrammatic Representation",
+    "Document Build Automation",
+    "Functional Requirements",
+    "Information System Design",
+    "Interaction Diagrams",
+    "LMS",
+    "LaTeX Typesetting",
+    "Library Management Workflows"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.856
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.816
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.811
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.81
+    },
+    {
+      "name": "app-examples-template",
+      "path": "/Users/ember/src/qt6-build/qtbase/doc/global/app-examples-template",
+      "similarity": 0.807
+    },
+    {
+      "name": "computer-graphics-book",
+      "path": "/Users/ember/dev/gh/computer-graphics-book",
+      "similarity": 0.807
+    },
+    {
+      "name": "dotfiles",
+      "path": "/Users/ember/dev/gh/dotfiles",
+      "similarity": 0.807
+    },
+    {
+      "name": "kickstart-modular.nvim",
+      "path": "/Users/ember/dev/gh/nvim",
+      "similarity": 0.807
+    }
+  ]
+}

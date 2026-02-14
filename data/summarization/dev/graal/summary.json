@@ -1,0 +1,243 @@
+{
+  "name": "graal",
+  "description": "GraalVM is a high-performance polyglot virtual machine and compiler infrastructure supporting both just-in-time (JIT) and ahead-of-time (AOT) execution. It utilizes the Truffle framework to implement language runtimes for JVM-based, LLVM-based, and dynamic languages while providing SubstrateVM for compiling applications into standalone native binaries. The architecture incorporates advanced optimization techniques such as speculative compilation, partial evaluation, and aggressive escape analysis to achieve peak performance across heterogeneous workloads.",
+  "tags": [
+    "graalvm",
+    "jit-compiler",
+    "aot-compiler",
+    "native-image",
+    "truffle-framework",
+    "jvm",
+    "llvm",
+    "webassembly",
+    "polyglot-runtime",
+    "speculative-optimization",
+    "substratevm",
+    "compiler-infrastructure",
+    "dynamic-linker",
+    "static-analysis"
+  ],
+  "category": "Multi-Language Virtual Machine and AOT Compiler",
+  "concepts": [
+    "Partial Evaluation",
+    "Deoptimization",
+    "Speculative Optimization",
+    "Language Implementation Framework",
+    "Ahead-of-Time Compilation",
+    "Just-In-Time Compilation",
+    "Virtual Machine Architecture",
+    "LLVM Bitcode Execution",
+    "WebAssembly Engine",
+    "Java-on-Truffle",
+    "Managed Heap Management",
+    "Compiler Intermediate Representation",
+    "Escape Analysis",
+    "Profile-Guided Optimization",
+    "Native Binary Generation",
+    "Dynamic Linker Integration",
+    "Symbol Resolution",
+    "Tooling Framework",
+    "Static Analysis Framework",
+    "Garbage Collection",
+    "Mach-O File Parsing",
+    "Shared Cache Building",
+    "Relocation Processing",
+    "Polyglot Interoperability"
+  ],
+  "languages": [
+    "Java",
+    "C++",
+    "C",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Shell",
+    "OCaml",
+    "Swift"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 355771,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "apple-ld64/unit-tests/test-cases/Lpath/main.c",
+      "apple-ld64/unit-tests/test-cases/absolute-symbol/main.c",
+      "apple-ld64/unit-tests/test-cases/alias-basic/main.c",
+      "apple-ld64/unit-tests/test-cases/all-load-file-sources/main.c"
+    ]
+  },
+  "_hash": "4f566127aadc3860546fbd11b15ebd94538326c2cae937a5195538e3e23e4b68",
+  "_path": "/Users/ember/dev/graal",
+  "_updated_at": "2026-02-14T00:56:29.088993Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Partial Evaluation",
+      "Deoptimization",
+      "Speculative Optimization",
+      "Language Implementation Framework",
+      "Ahead-of-Time Compilation",
+      "Just-In-Time Compilation",
+      "Virtual Machine Architecture",
+      "LLVM Bitcode Execution",
+      "WebAssembly Engine",
+      "Java-on-Truffle",
+      "Managed Heap Management",
+      "Compiler Intermediate Representation",
+      "Escape Analysis",
+      "Profile-Guided Optimization",
+      "Native Binary Generation",
+      "Dynamic Linker Integration",
+      "Symbol Resolution",
+      "Tooling Framework",
+      "Static Analysis Framework",
+      "Garbage Collection",
+      "Mach-O File Parsing",
+      "Shared Cache Building",
+      "Relocation Processing",
+      "Polyglot Interoperability"
+    ],
+    "tags": [
+      "graalvm",
+      "jit-compiler",
+      "aot-compiler",
+      "native-image",
+      "truffle-framework",
+      "jvm",
+      "llvm",
+      "webassembly",
+      "polyglot-runtime",
+      "speculative-optimization",
+      "substratevm",
+      "compiler-design",
+      "dynamic-linker",
+      "static-analysis"
+    ],
+    "mined_motifs": [
+      "runtime",
+      "kotlin",
+      "Rust Language Ecosystem",
+      "typescript",
+      "cross-compilation",
+      "Static Analysis",
+      "ELF Header Manipulation",
+      "Polyglot Binaries",
+      "Static Linking",
+      "ape",
+      "cosmopolitan-libc",
+      "cli"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 12.112,
+        "matches": [
+          "graalvm",
+          "webassembly",
+          "native-image",
+          "truffle-framework",
+          "category:Multi-Language Virtual Machine and AOT Compiler"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 8.1,
+        "matches": [
+          "webassembly",
+          "graalvm",
+          "runtime"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 6.827,
+        "matches": [
+          "native-image",
+          "graalvm"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.716,
+        "matches": [
+          "compiler-design",
+          "llvm"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 5.306,
+        "matches": [
+          "compiler-design",
+          "llvm"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.299,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.088993Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f71883cdac6b816cf6774827d91ecf31ec10bde5e8bd4e37d05f45d73e5d2901",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:42.654341+00:00"
+  },
+  "mined_motifs": [
+    "runtime",
+    "kotlin",
+    "rust",
+    "typescript",
+    "cross-compilation",
+    "Static Analysis",
+    "ELF Header Manipulation",
+    "Polyglot Binaries",
+    "Static Linking",
+    "ape",
+    "cosmopolitan-libc",
+    "cli"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.833
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.812
+    },
+    {
+      "name": "cosmopolitan",
+      "path": "/Users/ember/src/cosmopolitan",
+      "similarity": 0.811
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.797
+    }
+  ]
+}

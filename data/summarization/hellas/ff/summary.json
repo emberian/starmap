@@ -1,0 +1,235 @@
+{
+  "name": "ff",
+  "description": "A pure Rust library providing core traits and procedural macros for efficient finite field arithmetic. It facilitates the definition of prime fields via a derive macro that generates optimized, Montgomery-reduced arithmetic without using unsafe code. The architecture supports performance-critical cryptographic primitives such as those used in elliptic curve and zero-knowledge proof systems.",
+  "tags": [
+    "rust",
+    "finite-fields",
+    "cryptography",
+    "prime-fields",
+    "procedural-macros",
+    "zero-knowledge",
+    "arithmetic",
+    "no-std",
+    "zk-snarks",
+    "elliptic-curves",
+    "montgomery-reduction"
+  ],
+  "category": "Finite Field Arithmetic",
+  "concepts": [
+    "Finite Fields",
+    "Prime Fields",
+    "Montgomery Reduction",
+    "Tonelli-Shanks Algorithm",
+    "Addition Chains",
+    "Procedural Macros",
+    "Constant-time Operations",
+    "Batch Inversion",
+    "Rust Traits",
+    "no_std",
+    "Modular Inverse",
+    "Modular Square Root",
+    "Quadratic Residue",
+    "BigInt Arithmetic",
+    "Little-endian Representation",
+    "Multiplicative Group",
+    "Additive Identity",
+    "Multiplicative Identity",
+    "Modular Exponentiation",
+    "Field Extension Subsets"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 14,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "ff_derive/src/lib.rs",
+      "src/lib.rs",
+      "src/helpers.rs",
+      "tests/derive.rs"
+    ]
+  },
+  "_hash": "1082e8a146cb870f75c3f59cfb506d853e3704ce4a601e85a85c4cbba502a4b7",
+  "_path": "/Users/ember/hellas/ff",
+  "_updated_at": "2026-02-14T00:56:31.386636Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7f379cb9267ccd5d08c206c236e0c0761d4c45e748db5cce6c40036ab65e68d1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:30.102242+00:00"
+  },
+  "mined_motifs": [
+    "Finite Field Arithmetic",
+    "arkworks",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "Miller Loop",
+    "Cofactor Clearing",
+    "zero-knowledge-proofs",
+    "cuda",
+    "msm",
+    "opencl",
+    "bls12-381",
+    "Final Exponentiation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "pairing",
+      "path": "/Users/ember/hellas/pairing",
+      "similarity": 0.81
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.806
+    },
+    {
+      "name": "group",
+      "path": "/Users/ember/hellas/group",
+      "similarity": 0.804
+    },
+    {
+      "name": "ring",
+      "path": "/Users/ember/dev/gh/forks/ring",
+      "similarity": 0.802
+    },
+    {
+      "name": "ec-gpu",
+      "path": "/Users/ember/hellas/ec-gpu",
+      "similarity": 0.798
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.796
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/hellas/ark-blst",
+      "similarity": 0.795
+    },
+    {
+      "name": "ark-std",
+      "path": "/Users/ember/hellas/ark-std",
+      "similarity": 0.792
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Finite Fields",
+      "Prime Fields",
+      "Montgomery Reduction",
+      "Tonelli-Shanks Algorithm",
+      "Addition Chains",
+      "Procedural Macros",
+      "Constant-time Operations",
+      "Batch Inversion",
+      "Rust Traits",
+      "Rust Language Ecosystem",
+      "Modular Inverse",
+      "Modular Square Root",
+      "Quadratic Residue",
+      "BigInt Arithmetic",
+      "Little-endian Representation",
+      "Multiplicative Group",
+      "Additive Identity",
+      "Multiplicative Identity",
+      "Modular Exponentiation",
+      "Field Extension Subsets"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "finite-fields",
+      "cryptography",
+      "prime-fields",
+      "procedural-macros",
+      "zero-knowledge-proofs",
+      "arithmetic",
+      "elliptic-curves",
+      "montgomery-reduction"
+    ],
+    "mined_motifs": [
+      "Finite Field Arithmetic",
+      "arkworks",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "Miller Loop",
+      "Cofactor Clearing",
+      "Zero-Knowledge Proofs (ZKP)",
+      "cuda",
+      "multi-scalar-multiplication",
+      "opencl",
+      "bls12-381",
+      "Final Exponentiation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.454,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.41,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.623,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.233,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.231,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.216,
+        "matches": [
+          "cryptography"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.386636Z"
+  }
+}

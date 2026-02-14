@@ -1,0 +1,239 @@
+{
+  "name": "corn-sprite",
+  "description": "A custom RISC-V 64-bit kernel coupled with a verified bytecode runtime and compiler toolchain. The system implements core OS primitives including Sv39 paging, preemptive scheduling, and an in-memory VFS, while offloading userland execution to a specialized VM that statically verifies bytecode safety before execution.",
+  "tags": [
+    "riscv",
+    "kernel",
+    "rust",
+    "bytecode-vm",
+    "compiler",
+    "operating-system",
+    "virtio",
+    "networking",
+    "verifier",
+    "vfs",
+    "scheduler",
+    "paging",
+    "no_std",
+    "qemu",
+    "systems-programming",
+    "smp"
+  ],
+  "category": "Verified Bytecode Operating System",
+  "concepts": [
+    "RISC-V 64-bit Architecture",
+    "S-mode Privilege Level",
+    "Trap Delegation",
+    "Sv39 Paging",
+    "Physical Frame Allocation",
+    "In-memory Virtual File System",
+    "Virtio-MMIO Drivers",
+    "Lightweight IPv4 Stack",
+    "Static Bytecode Verification",
+    "Stack-based Virtual Machine",
+    "Recursive Descent Parsing",
+    "Abstract Syntax Trees",
+    "Preemptive Multi-tasking",
+    "Symmetric Multi-processing (SMP)",
+    "Capability-based Security",
+    "Instruction-level Fuel Management"
+  ],
+  "languages": [
+    "Rust",
+    "Assembly",
+    "Makefile"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 56,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "kernel/src/fs/mod.rs",
+      "kernel/src/main.rs",
+      "kernel/src/memory/mod.rs"
+    ]
+  },
+  "_hash": "026c619c21462317b775cb76b595197da823cd647bac18f3a99bda912089c23e",
+  "_path": "/Users/ember/dev/corn-sprite",
+  "_updated_at": "2026-02-14T00:56:23.734031Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "RISC-V 64-bit Architecture",
+      "S-mode Privilege Level",
+      "Trap Delegation",
+      "Sv39 Paging",
+      "Physical Frame Allocation",
+      "In-memory Virtual File System",
+      "Virtio-MMIO Drivers",
+      "Lightweight IPv4 Stack",
+      "Static Bytecode Verification",
+      "Stack-based Virtual Machine",
+      "Recursive Descent Parsing",
+      "AST",
+      "Preemptive Multi-tasking",
+      "Symmetric Multi-processing (SMP)",
+      "Capability-based Security",
+      "Instruction-level Fuel Management"
+    ],
+    "tags": [
+      "riscv",
+      "kernel",
+      "Rust Language Ecosystem",
+      "bytecode-vm",
+      "compiler-design",
+      "operating-system",
+      "virtio",
+      "networking",
+      "verifier",
+      "vfs",
+      "scheduler",
+      "paging",
+      "qemu",
+      "Systems Programming",
+      "smp"
+    ],
+    "mined_motifs": [
+      "arm",
+      "16-bit Instruction Set",
+      "Arithmetic Logic Unit (ALU)",
+      "Calling Convention Specification",
+      "Generalized Bitwise Logic",
+      "Instruction Encoding",
+      "Load-Store Architecture",
+      "Pest Grammar Parsing",
+      "assembly",
+      "virtualization",
+      "embedded",
+      "Instruction Set Emulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 8.091,
+        "matches": [
+          "riscv",
+          "virtualization"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 8.055,
+        "matches": [
+          "kernel",
+          "riscv"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 7.922,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.556,
+        "matches": [
+          "ast",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.151,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.151,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.734031Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2ccca04c6502f11efaf4db0f24ff9c40c474da01acf9aecfb988b4bc4418bc5b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:53.421450+00:00"
+  },
+  "mined_motifs": [
+    "arm",
+    "16-bit Instruction Set",
+    "Arithmetic Logic Unit (ALU)",
+    "Calling Convention Specification",
+    "Generalized Bitwise Logic",
+    "Instruction Encoding",
+    "Load-Store Architecture",
+    "Pest Grammar Parsing",
+    "assembly",
+    "virtualization",
+    "embedded",
+    "Instruction Set Emulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cmoss",
+      "path": "/Users/ember/dev/gh/cmoss",
+      "similarity": 0.77
+    },
+    {
+      "name": "seL4",
+      "path": "/Users/ember/dev/gh/forks/seL4",
+      "similarity": 0.766
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.759
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.754
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.752
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.745
+    },
+    {
+      "name": "cs444-lab1",
+      "path": "/Users/ember/dev/gh/cs444-lab1",
+      "similarity": 0.743
+    },
+    {
+      "name": "libfringe",
+      "path": "/Users/ember/dev/gh/forks/libfringe",
+      "similarity": 0.742
+    }
+  ]
+}

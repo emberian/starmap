@@ -1,0 +1,233 @@
+{
+  "name": "rustdoc_ng",
+  "description": "An archival documentation extraction engine for Rust that served as the architectural prototype for the modern rustdoc tool. It leverages the rustc compiler frontend to perform deep semantic analysis of crates, transforming internal abstract syntax trees into a simplified, document-oriented schema. The tool employs a pass-based transformation pipeline and supports external dynamic library plugins for customizable metadata processing and output formatting.",
+  "tags": [
+    "rust",
+    "rustdoc",
+    "compiler-api",
+    "ast-transformation",
+    "static-analysis",
+    "documentation-generator",
+    "plugin-architecture",
+    "metadata-extraction"
+  ],
+  "category": "Compiler-Integrated Documentation Generation",
+  "concepts": [
+    "AST cleaning",
+    "crate analysis",
+    "internal compiler API",
+    "dynamic library plugins",
+    "tree folding",
+    "visitor pattern",
+    "pass-based architecture",
+    "type resolution",
+    "documentation passes",
+    "semantic analysis",
+    "docstring processing",
+    "privacy-aware stripping",
+    "JSON serialization",
+    "linkage metadata",
+    "node ID mapping",
+    "span tracking",
+    "parse session management",
+    "macro expansion",
+    "trait resolution",
+    "item visibility analysis",
+    "attribute parsing",
+    "dylib symbol resolution",
+    "diagnostic handling",
+    "phase-based compilation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 15,
+    "has_readme": true,
+    "sample_files": [
+      "main.rs",
+      "clean.rs",
+      "visit_ast.rs",
+      "passes.rs",
+      "fold.rs"
+    ]
+  },
+  "_hash": "b43f8a09c5f3c903ad287fa131176beec0496f0f4828ca03cc2d3db23ff9f3fe",
+  "_path": "/Users/ember/dev/gh/rustdoc_ng",
+  "_updated_at": "2026-02-14T00:56:28.604130Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "AST cleaning",
+      "crate analysis",
+      "internal compiler API",
+      "dynamic library plugins",
+      "tree folding",
+      "visitor pattern",
+      "pass-based architecture",
+      "type resolution",
+      "documentation passes",
+      "semantic analysis",
+      "docstring processing",
+      "privacy-aware stripping",
+      "JSON serialization",
+      "linkage metadata",
+      "node ID mapping",
+      "span tracking",
+      "parse session management",
+      "macro expansion",
+      "trait resolution",
+      "item visibility analysis",
+      "attribute parsing",
+      "dylib symbol resolution",
+      "diagnostic handling",
+      "phase-based compilation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "rustdoc",
+      "compiler-api",
+      "ast-transformation",
+      "static-analysis",
+      "documentation-generator",
+      "plugin-architecture",
+      "metadata-extraction"
+    ],
+    "mined_motifs": [
+      "cli",
+      "cargo",
+      "model-context-protocol",
+      "Rust Language Ecosystem",
+      "docs-rs",
+      "developer-tools",
+      "llm-context",
+      "json-rpc",
+      "api-docs",
+      "cli-argument-parsing",
+      "crate-index-traversal"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.463,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.407,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.341,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.996,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.95,
+        "matches": [
+          "rustdoc"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.899,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.604130Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1f01d3f3263971c5769140cdd14e97a34d9f10f4a56ea011fe7bfb091d97d851",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:25.143753+00:00"
+  },
+  "mined_motifs": [
+    "cli",
+    "cargo",
+    "mcp",
+    "rustc",
+    "docs-rs",
+    "developer-tools",
+    "llm-context",
+    "Model Context Protocol (MCP)",
+    "json-rpc",
+    "api-docs",
+    "cli-argument-parsing",
+    "crate-index-traversal"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.868
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.867
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.859
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.858
+    },
+    {
+      "name": "rest_easy",
+      "path": "/Users/ember/dev/gh/rest_easy",
+      "similarity": 0.852
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.842
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.838
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.835
+    }
+  ]
+}

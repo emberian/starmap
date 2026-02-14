@@ -1,0 +1,202 @@
+{
+  "name": "UInt64",
+  "description": "A lightweight JavaScript implementation of 64-bit unsigned integers designed to bypass ECMAScript's native 53-bit integer precision limit. It manages 64-bit state using dual 32-bit registers and provides manual bitwise operations, logical shifts, and modular arithmetic. The implementation specifically addresses sign-propagation issues in standard JavaScript bitwise operators by utilizing bit-array conversions for intermediate calculations.",
+  "tags": [
+    "uint64",
+    "bitwise-operators",
+    "arbitrary-precision",
+    "integer-arithmetic",
+    "javascript-numbers",
+    "low-level",
+    "binary-manipulation",
+    "emulated-types"
+  ],
+  "category": "Fixed-Precision Emulation",
+  "concepts": [
+    "unsigned-integers",
+    "bit-masking",
+    "logical-shift",
+    "arithmetic-shift",
+    "modular-arithmetic",
+    "little-endian",
+    "overflow-handling",
+    "register-simulation",
+    "bitwise-xor",
+    "bitwise-and",
+    "bitwise-or",
+    "two-complement-logic"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "uint64.js",
+      "test_uint64.js"
+    ]
+  },
+  "_hash": "f93edafceaaa78a9ca85885024b46105772cb7da90c5686d233ec5e113efe365",
+  "_path": "/Users/ember/dev/gh/UInt64",
+  "_updated_at": "2026-02-14T00:56:24.335845Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "unsigned-integers",
+      "bit-masking",
+      "logical-shift",
+      "arithmetic-shift",
+      "modular-arithmetic",
+      "little-endian",
+      "overflow-handling",
+      "register-simulation",
+      "bitwise-xor",
+      "bitwise-and",
+      "bitwise-or",
+      "two-complement-logic"
+    ],
+    "tags": [
+      "uint64",
+      "bitwise-operators",
+      "arbitrary-precision",
+      "integer-arithmetic",
+      "javascript-numbers",
+      "systems-programming",
+      "binary-manipulation",
+      "emulated-types"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "functional-programming",
+      "performance",
+      "Systems Programming",
+      "ASCII character sets",
+      "Arithmetic mean calculation",
+      "Array discretization",
+      "Closure-based memoization",
+      "Discrete intervals",
+      "Discrete range generation",
+      "Floating-point arithmetic correction",
+      "Function composition"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.191,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.392,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.387,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.593,
+        "matches": []
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 2.579,
+        "matches": []
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.579,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.335845Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f6b072d208bbb44a036b530cea9b095acc30d9090e2aea18457ee22a00d473f2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:20.412144+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "functional-programming",
+    "performance",
+    "systems-programming",
+    "ASCII character sets",
+    "Arithmetic mean calculation",
+    "Array discretization",
+    "Closure-based memoization",
+    "Discrete intervals",
+    "Discrete range generation",
+    "Floating-point arithmetic correction",
+    "Function composition"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sinful.js",
+      "path": "/Users/ember/dev/gh/forks/sinful.js",
+      "similarity": 0.858
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.822
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.816
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.816
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.812
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.812
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/shitheap/absass",
+      "similarity": 0.812
+    },
+    {
+      "name": "byteorder",
+      "path": "/Users/ember/dev/gh/forks/byteorder",
+      "similarity": 0.812
+    }
+  ]
+}

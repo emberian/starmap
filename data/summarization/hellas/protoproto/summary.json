@@ -1,0 +1,238 @@
+{
+  "name": "protoproto",
+  "description": "A high-performance research sandbox for the Hellas protocol, featuring the Morpheus consensus engine. It integrates DAG-based Byzantine Fault Tolerance with weighted threshold signatures and a custom actor-based state machine framework.",
+  "tags": [
+    "consensus-protocol",
+    "dag-bft",
+    "threshold-signatures",
+    "weighted-aggregation",
+    "kzg-commitments",
+    "fiat-shamir",
+    "actor-model",
+    "state-machine",
+    "distributed-systems",
+    "cryptography",
+    "rust",
+    "zero-knowledge-proofs",
+    "byzantine-fault-tolerance",
+    "high-throughput",
+    "formal-verification-ready"
+  ],
+  "category": "High-Throughput Distributed Consensus",
+  "concepts": [
+    "DAG-based Consensus",
+    "Byzantine Fault Tolerance (BFT)",
+    "Weighted Threshold Signatures",
+    "KZG Polynomial Commitments",
+    "Fiat-Shamir Transcript Protocol",
+    "State Machine Replication",
+    "Quorum Certificates",
+    "View Management",
+    "Leader-based Ordering",
+    "Asynchronous Message Handling",
+    "Transition-based Automata",
+    "Formal Invariant Tracking",
+    "Trusted Setup Integration",
+    "Simulation-based Testing",
+    "WASM-compatible Nodes"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell",
+    "HTML",
+    "SCSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 199,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "hades/src/main.rs",
+      "hellas-morpheus/src/lib.rs",
+      "hellas-node/src/lib.rs",
+      "hellas-node/src/models/mod.rs"
+    ]
+  },
+  "_hash": "4c92bdaca21e726c210eab3724908f77154204f0b973783ef526a66b43708312",
+  "_path": "/Users/ember/hellas/protoproto",
+  "_updated_at": "2026-02-14T00:56:31.922653Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "15b96396f629565ec02964eea4a8fcb11177dc98bb86868abacdb11dca7c1585",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:43.343499+00:00"
+  },
+  "mined_motifs": [
+    "blockchain",
+    "dag",
+    "Quorum Certificates (QC)",
+    "quorum-certificates",
+    "Byzantine Fault Tolerance",
+    "Directed Acyclic Graph (DAG)",
+    "bft",
+    "consensus",
+    "Deterministic Replay",
+    "Threshold Cryptography",
+    "decentralized-compute",
+    "leptos"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.94
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.916
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.895
+    },
+    {
+      "name": "protoproto2",
+      "path": "/Users/ember/hellas/protoproto2",
+      "similarity": 0.894
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.89
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.885
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/hellas/proto-dumping-ground",
+      "similarity": 0.88
+    },
+    {
+      "name": "devvber",
+      "path": "/Users/ember/hellas/devvber",
+      "similarity": 0.879
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "DAG-based Consensus",
+      "byzantine-fault-tolerance",
+      "Weighted Threshold Signatures",
+      "kzg-commitments",
+      "Fiat-Shamir Transcript Protocol",
+      "State Machine Replication",
+      "quorum-certificates",
+      "View Management",
+      "Leader-based Ordering",
+      "Asynchronous Message Handling",
+      "Transition-based Automata",
+      "Formal Invariant Tracking",
+      "Trusted Setup Integration",
+      "Simulation-based Testing",
+      "WASM-compatible Nodes"
+    ],
+    "tags": [
+      "Distributed Consensus",
+      "dag-bft",
+      "threshold-signatures",
+      "weighted-aggregation",
+      "kzg-commitments",
+      "fiat-shamir",
+      "actor-model",
+      "state-machine",
+      "distributed-systems",
+      "cryptography",
+      "Rust Language Ecosystem",
+      "Zero-Knowledge Proofs (ZKP)",
+      "byzantine-fault-tolerance",
+      "high-throughput",
+      "formal-verification"
+    ],
+    "mined_motifs": [
+      "blockchain",
+      "directed-acyclic-graph",
+      "quorum-certificates",
+      "distributed-systems",
+      "consensus",
+      "Deterministic Replay",
+      "Threshold Cryptography",
+      "decentralized-compute",
+      "leptos"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 11.223,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 11.111,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "consensus",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.699,
+        "matches": [
+          "cryptography",
+          "threshold-signatures",
+          "kzg-commitments"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 8.382,
+        "matches": [
+          "distributed consensus",
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-fabric",
+        "name": "Distributed Consensus Fabric",
+        "score": 5.662,
+        "matches": [
+          "consensus"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.511,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.922653Z"
+  }
+}

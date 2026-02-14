@@ -1,0 +1,225 @@
+{
+  "name": "o1js-groth16",
+  "description": "An implementation of the Groth16 zk-SNARK verifier tailored for the Mina Protocol's o1js framework. It features complex arithmetic over pairing-friendly elliptic curves, specifically BN254, utilizing non-native field gadgets to perform Miller loops and final exponentiations. The project enables Mina smart contracts to verify Circom-generated SNARK proofs by providing the necessary cryptographic primitives for cross-curve pairing operations.",
+  "tags": [
+    "mina-zkapp",
+    "o1js",
+    "groth16",
+    "pairing-friendly-curves",
+    "bn254",
+    "zk-snark",
+    "non-native-arithmetic",
+    "miller-loop",
+    "elliptic-curve-pairing",
+    "cryptography",
+    "typescript",
+    "verifier"
+  ],
+  "category": "Zero-Knowledge Proof Systems",
+  "concepts": [
+    "Groth16 Verifier",
+    "Bilinear Pairings",
+    "BN254 Elliptic Curve",
+    "Miller Loop",
+    "Final Exponentiation",
+    "Extension Field Arithmetic (Fp12, Fp6, Fp2)",
+    "Non-native Field Gadgets",
+    "Montgomery Multiplication",
+    "Frobenius Map",
+    "Affine Coordinates",
+    "Mina Smart Contracts",
+    "Cyclotomic Squaring"
+  ],
+  "languages": [
+    "TypeScript",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 52,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/index.ts",
+      "src/fq12.test.ts",
+      "calc.py",
+      "src/fq6.test.ts"
+    ]
+  },
+  "_hash": "59ff5070c1b67b1dda849638dc576a4f42be205266ae64ac33ec09609aaed6e0",
+  "_path": "/Users/ember/dev/o1js-groth16",
+  "_updated_at": "2026-02-14T00:56:29.755517Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Groth16 Verifier",
+      "Bilinear Pairings",
+      "BN254 Elliptic Curve",
+      "Miller Loop",
+      "Final Exponentiation",
+      "Extension Field Arithmetic (Fp12, Fp6, Fp2)",
+      "Non-native Field Gadgets",
+      "Montgomery Multiplication",
+      "Frobenius Map",
+      "Affine Coordinates",
+      "Mina Smart Contracts",
+      "Cyclotomic Squaring"
+    ],
+    "tags": [
+      "mina-zkapp",
+      "o1js",
+      "groth16",
+      "elliptic-curves",
+      "bn254",
+      "ZK-SNARKs",
+      "non-native-arithmetic",
+      "miller-loop",
+      "elliptic-curve-pairing",
+      "cryptography",
+      "typescript",
+      "verifier"
+    ],
+    "mined_motifs": [
+      "Mina Protocol",
+      "zero-knowledge-proofs",
+      "blockchain",
+      "smart-contracts",
+      "Zero-Knowledge Proofs (ZKP)",
+      "Foreign Field Arithmetic",
+      "Arithmetic Circuits",
+      "Rust Language Ecosystem",
+      "Elliptic Curve Cryptography",
+      "Custom Gates",
+      "Lookup Tables",
+      "kimchi"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 11.188,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "kimchi",
+          "o1js"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.787,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 8.39,
+        "matches": [
+          "mina protocol",
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.315,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 5.584,
+        "matches": [
+          "zero-knowledge proofs (zkp)"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.577,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.755517Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4edc56d70f238f9a1840a94983e0d534316b0fbd411a61ec08389e96cea0db12",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:12.513829+00:00"
+  },
+  "mined_motifs": [
+    "mina-protocol",
+    "Recursive SNARKs",
+    "blockchain",
+    "smart-contracts",
+    "zero-knowledge-proofs",
+    "Foreign Field Arithmetic",
+    "Arithmetic Circuits",
+    "rust",
+    "Elliptic Curve Cryptography",
+    "Custom Gates",
+    "Lookup Tables",
+    "kimchi"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.909
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.899
+    },
+    {
+      "name": "o1js-hints",
+      "path": "/Users/ember/dev/o1js-hints",
+      "similarity": 0.896
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.889
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.876
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.876
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.874
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.87
+    }
+  ]
+}

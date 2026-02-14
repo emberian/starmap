@@ -1,0 +1,297 @@
+{
+  "name": "iroh",
+  "description": "Iroh is a peer-to-peer networking stack designed for high-performance direct connectivity between nodes using public key-based addressing. It leverages the QUIC transport protocol to provide authenticated encryption and multiplexed streams, implementing robust NAT traversal through hole punching and globally distributed relay fallbacks. The framework facilitates decentralized application development by integrating discovery services, gossip overlays, and content-addressed data transfer within a unified connection management layer.",
+  "tags": [
+    "rust",
+    "p2p",
+    "networking",
+    "quic",
+    "nat-traversal",
+    "hole-punching",
+    "relay",
+    "discovery",
+    "gossip",
+    "content-addressing",
+    "encryption",
+    "node-id",
+    "dht",
+    "pkarr",
+    "stun",
+    "overlay"
+  ],
+  "category": "P2P Overlay Network Infrastructure",
+  "concepts": [
+    "QUIC Transport Protocol",
+    "UDP Hole Punching",
+    "NAT Traversal",
+    "Public Key Addressing",
+    "Node Identity (NodeId)",
+    "Relay Server Infrastructure",
+    "STUN Protocol",
+    "DERP Protocol",
+    "PKARR (Public Key Address Record Retrieval)",
+    "Mainline DHT Discovery",
+    "mDNS Local Discovery",
+    "TLS-based Authentication",
+    "Multiplexed Streams",
+    "Unreliable Datagrams",
+    "ALPN Negotiation",
+    "Network Topology Reporting",
+    "NAT Hairpinning",
+    "Captive Portal Detection",
+    "Content-Addressable Storage",
+    "Gossip Overlays",
+    "Eventually Consistent Key-Value Stores",
+    "Overlay Network Topology",
+    "Endpoint Connection Management",
+    "Magic Sockets",
+    "Path Selection Algorithms",
+    "RTT Estimation",
+    "Connection State Tracking",
+    "Zero-RTT Handshakes",
+    "Cryptographic Node Identity",
+    "Signed DNS Packets",
+    "DNS-over-HTTPS (DoH)",
+    "Node Authority Management",
+    "UPnP/PMP/PCP Port Mapping",
+    "Stream Priorities",
+    "Head-of-Line Blocking Mitigation",
+    "Peer Discovery Protocols",
+    "Distributed Systems Coordination",
+    "Structured Concurrency",
+    "Flow Control Mechanisms",
+    "Congestion Control"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 153,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "iroh/bench/src/lib.rs",
+      "iroh/src/lib.rs",
+      "iroh-base/src/lib.rs",
+      "iroh-dns-server/src/lib.rs"
+    ]
+  },
+  "_hash": "c2d4336520bb0350a936e13e299daa23dfa0e2d508209759f3c7814b018e6089",
+  "_path": "/Users/ember/hellas/iroh",
+  "_updated_at": "2026-02-14T00:56:31.601462Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "262551267863c1bc088c55d2ce504169272e7cfac24a786d4a0ad8c60125bef3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:35.661925+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "iroh",
+    "bao",
+    "blake3",
+    "redb",
+    "verified-streaming",
+    "rpc",
+    "concurrency",
+    "udp",
+    "ALPN",
+    "BLAKE3",
+    "Bao"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "iroh-blobs",
+      "path": "/Users/ember/dev/gh/forks/iroh-blobs",
+      "similarity": 0.839
+    },
+    {
+      "name": "iroh-gossip",
+      "path": "/Users/ember/dev/gh/forks/iroh-gossip",
+      "similarity": 0.828
+    },
+    {
+      "name": "glosco",
+      "path": "/Users/ember/dev/glosco",
+      "similarity": 0.815
+    },
+    {
+      "name": "iroh-blobs",
+      "path": "/Users/ember/hellas/iroh-blobs",
+      "similarity": 0.809
+    },
+    {
+      "name": "nom",
+      "path": "/Users/ember/dev/gh/forks/nom",
+      "similarity": 0.808
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.808
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.807
+    },
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.806
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "QUIC Transport Protocol",
+      "UDP Hole Punching",
+      "NAT Traversal",
+      "Public Key Addressing",
+      "Node Identity (NodeId)",
+      "Relay Server Infrastructure",
+      "STUN Protocol",
+      "DERP Protocol",
+      "PKARR (Public Key Address Record Retrieval)",
+      "Mainline DHT Discovery",
+      "mDNS Local Discovery",
+      "TLS-based Authentication",
+      "Multiplexed Streams",
+      "Unreliable Datagrams",
+      "ALPN Negotiation",
+      "Network Topology Reporting",
+      "NAT Hairpinning",
+      "Captive Portal Detection",
+      "Content-Addressable Storage (CAS)",
+      "Gossip Overlays",
+      "Eventually Consistent Key-Value Stores",
+      "Overlay Network Topology",
+      "Endpoint Connection Management",
+      "Magic Sockets",
+      "Path Selection Algorithms",
+      "RTT Estimation",
+      "Connection State Tracking",
+      "Zero-RTT Handshakes",
+      "Cryptographic Node Identity",
+      "Signed DNS Packets",
+      "DNS-over-HTTPS (DoH)",
+      "Node Authority Management",
+      "UPnP/PMP/PCP Port Mapping",
+      "Stream Priorities",
+      "Head-of-Line Blocking Mitigation",
+      "Peer Discovery Protocols",
+      "Distributed Systems Coordination",
+      "Structured Concurrency",
+      "Flow Control Mechanisms",
+      "Congestion Control"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "p2p",
+      "networking",
+      "quic",
+      "nat-traversal",
+      "hole-punching",
+      "relay",
+      "discovery",
+      "gossip",
+      "Content-Addressable Storage (CAS)",
+      "encryption",
+      "node-id",
+      "dht",
+      "pkarr",
+      "stun",
+      "overlay"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "iroh",
+      "bao",
+      "blake3",
+      "redb",
+      "verified-streaming",
+      "rpc",
+      "Concurrency & Synchronization",
+      "udp",
+      "ALPN"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 17.845,
+        "matches": [
+          "p2p",
+          "quic",
+          "verified-streaming",
+          "bao",
+          "blake3",
+          "iroh",
+          "nat traversal",
+          "category:P2P Overlay Network Infrastructure"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 13.787,
+        "matches": [
+          "content-addressable storage (cas)",
+          "quic",
+          "dht",
+          "gossip",
+          "iroh",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.166,
+        "matches": [
+          "distributed-systems",
+          "gossip",
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 8.166,
+        "matches": [
+          "distributed-systems",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.766,
+        "matches": [
+          "distributed-systems",
+          "iroh"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.393,
+        "matches": [
+          "p2p",
+          "rpc"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.601462Z"
+  }
+}

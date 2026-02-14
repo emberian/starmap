@@ -1,0 +1,186 @@
+{
+  "name": "alexandria",
+  "description": "A centralized meta-repository serving as the primary coordination hub and governance nexus for the Alexandria project ecosystem. It functions as a global issue tracker for cross-component feature requests, architectural discussions, and bug reports that transcend individual software modules. The repository defines the legal and contribution framework for the entire project collection under the Apache Software License 2.0.",
+  "tags": [
+    "meta-repository",
+    "project-governance",
+    "issue-tracking",
+    "apache-2.0",
+    "coordination-hub",
+    "ecosystem-management",
+    "cross-component"
+  ],
+  "category": "Software Project Governance & Meta-Orchestration",
+  "concepts": [
+    "Meta-Issue Tracking",
+    "Global Project Coordination",
+    "Legal Licensing Framework",
+    "Project Lifecycle Management",
+    "Cross-Module Governance",
+    "Centralized Feature Requesting"
+  ],
+  "languages": [
+    "Markdown"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "d4b5ac917c7b10b2a24f61ac170813642d9c643cf5a1eb9c73199932077d18ac",
+  "_path": "/Users/ember/dev/gh/alexandria",
+  "_updated_at": "2026-02-14T00:56:24.376251Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Meta-Issue Tracking",
+      "Global Project Coordination",
+      "Legal Licensing Framework",
+      "Project Lifecycle Management",
+      "Cross-Module Governance",
+      "Centralized Feature Requesting"
+    ],
+    "tags": [
+      "meta-repository",
+      "project-governance",
+      "issue-tracking",
+      "apache-2.0",
+      "coordination-hub",
+      "ecosystem-management",
+      "cross-component"
+    ],
+    "mined_motifs": [
+      "library-management",
+      "Rust Language Ecosystem",
+      "rest-api",
+      "Gist Synchronization",
+      "Metadata Tracking",
+      "Repository Management",
+      "Snippet Archival",
+      "Versioned Fragments",
+      "archival",
+      "code-snippets",
+      "github-gists",
+      "local-management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.368,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.288,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.869,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.663,
+        "matches": [
+          "category:Software Project Governance & Meta-Orchestration"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.522,
+        "matches": []
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 2.51,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.376251Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fa9555e25dbd372e6ff56da16360125f7277d3b8aa660c7dde91381c540af9c3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:23.819066+00:00"
+  },
+  "mined_motifs": [
+    "library-management",
+    "rust",
+    "rest-api",
+    "Gist Synchronization",
+    "Metadata Tracking",
+    "Repository Management",
+    "Snippet Archival",
+    "Versioned Fragments",
+    "archival",
+    "code-snippets",
+    "github-gists",
+    "local-management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.817
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.812
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.806
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.804
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.799
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.792
+    },
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.791
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.787
+    }
+  ]
+}

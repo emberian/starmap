@@ -1,0 +1,195 @@
+{
+  "name": "wayland",
+  "description": "This repository provides the core Wayland protocol XML specifications integrated into the Qt 6 base framework. These definitions serve as the foundational interface descriptions for inter-process communication between Wayland-based display servers and clients. It is a critical component for the Qt Wayland platform abstraction, ensuring standardized protocol compatibility across the Wayland ecosystem.",
+  "tags": [
+    "wayland",
+    "protocol",
+    "xml",
+    "qt6",
+    "ipc",
+    "display-server",
+    "compositor",
+    "graphics-subsystem",
+    "linux-graphics",
+    "interface-definition"
+  ],
+  "category": "Display Server Protocol Specifications",
+  "concepts": [
+    "Wayland Protocol Architecture",
+    "XML-based Interface Definition",
+    "Inter-Process Communication",
+    "Client-Server Graphics",
+    "Display Compositor Management",
+    "Qt Platform Abstraction Layer",
+    "Asynchronous Protocol Design"
+  ],
+  "languages": [
+    "XML"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "4ee756d1b36d06284bbebce6ac2f7b820e045547bef38321a5be267645eef763",
+  "_path": "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/protocols/wayland",
+  "_updated_at": "2026-02-14T00:56:33.454481Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4efd6cd29b9d6fb780b9c1e24115867a6f99c714098f0b474d8f95d73d1cdaba",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:57.310052+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "qt",
+    "nix",
+    "blockchain",
+    "Binary Compatibility",
+    "Client-Server Synchronization",
+    "Cross-Process Resource Sharing",
+    "DMABUF Management",
+    "Display Server Architecture",
+    "EGL Stream Extensions",
+    "Hardware Abstraction Layers",
+    "IPC Serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "extensions",
+      "path": "/Users/ember/src/qt6-build/qtbase/share/qt6/wayland/extensions",
+      "similarity": 0.891
+    },
+    {
+      "name": "qtbase-mkspecs-modules",
+      "path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+      "similarity": 0.789
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.781
+    },
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.78
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.777
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.776
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.775
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.772
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Wayland Protocol Architecture",
+      "XML-based Interface Definition",
+      "Inter-Process Communication",
+      "Client-Server Graphics",
+      "Display Compositor Management",
+      "Qt Platform Abstraction Layer",
+      "Asynchronous Protocol Design"
+    ],
+    "tags": [
+      "wayland",
+      "protocol",
+      "xml",
+      "qt6",
+      "ipc",
+      "display-server",
+      "compositor",
+      "graphics-subsystem",
+      "linux-graphics",
+      "interface-definition"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "qt",
+      "nix",
+      "blockchain",
+      "Binary Compatibility",
+      "Client-Server Synchronization",
+      "Cross-Process Resource Sharing",
+      "DMABUF Management",
+      "Display Server Architecture",
+      "EGL Stream Extensions",
+      "Hardware Abstraction Layers",
+      "IPC Serialization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 12.473,
+        "matches": [
+          "ipc",
+          "linux-graphics",
+          "wayland",
+          "compositor"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.278,
+        "matches": [
+          "protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.263,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.463,
+        "matches": []
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.463,
+        "matches": []
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 2.456,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.454481Z"
+  }
+}

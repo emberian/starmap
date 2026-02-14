@@ -1,0 +1,210 @@
+{
+  "name": "green-factory",
+  "description": "A specialized factory automation game utilizing a Petri Net simulation engine to model beverage production pipelines. The system features a bipartite graph-based execution model where 'Places' manage resource token counts and 'Transitions' consume inputs to fire recipe transformations over discrete simulation ticks.",
+  "tags": [
+    "petri-net",
+    "simulation-engine",
+    "react",
+    "zustand",
+    "factory-automation",
+    "bipartite-graph",
+    "typescript",
+    "game-design",
+    "discrete-event-simulation",
+    "resource-management",
+    "canvas-api",
+    "state-persistence"
+  ],
+  "category": "Petri Net Simulation",
+  "concepts": [
+    "bipartite graph execution",
+    "token-based resource modeling",
+    "transition firing logic",
+    "discrete-time simulation ticks",
+    "immutable state management",
+    "directed acyclic graphs",
+    "production scheduling",
+    "spatial node placement",
+    "recipe dependency resolution"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "CSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 32,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "src/state/gameStore.ts",
+      "src/components/factory/FactoryCanvas.tsx",
+      "src/components/menus/NodeConfigPanel.tsx",
+      "src/engine/petri/simulation.ts"
+    ]
+  },
+  "_hash": "36916b5908378c28db505edcbac35bd9292cdd7328c53d6156259fabb8d01043",
+  "_path": "/Users/ember/dev/green-factory",
+  "_updated_at": "2026-02-14T00:56:29.098110Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "bipartite graph execution",
+      "token-based resource modeling",
+      "transition firing logic",
+      "discrete-time simulation ticks",
+      "immutable state management",
+      "directed acyclic graphs",
+      "production scheduling",
+      "spatial node placement",
+      "recipe dependency resolution"
+    ],
+    "tags": [
+      "petri-net",
+      "simulation-engine",
+      "react",
+      "zustand",
+      "factory-automation",
+      "bipartite-graph",
+      "typescript",
+      "game-design",
+      "discrete-event-simulation",
+      "Resource Acquisition Is Initialization (RAII)",
+      "canvas-api",
+      "state-persistence"
+    ],
+    "mined_motifs": [
+      "vite",
+      "real-time-simulation",
+      "state-machine",
+      "desktop-application",
+      "Double buffering",
+      "Moore neighborhood",
+      "cellular-automata",
+      "Rust Language Ecosystem",
+      "Ambiance Modeling",
+      "Asynchronous Action Processing",
+      "Canvas Rendering Pipeline"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.795,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.314,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.269,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.878,
+        "matches": [
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 2.611,
+        "matches": []
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 2.607,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.098110Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "835c55a38cc59f87f45f02cd4da8a1585dbe9c82be1be014e961085d7956d85a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:43.218309+00:00"
+  },
+  "mined_motifs": [
+    "vite",
+    "simulation",
+    "real-time-simulation",
+    "state-machine",
+    "desktop-application",
+    "Double buffering",
+    "Moore neighborhood",
+    "cellular-automata",
+    "rust",
+    "Ambiance Modeling",
+    "Asynchronous Action Processing",
+    "Canvas Rendering Pipeline"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.823
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.821
+    },
+    {
+      "name": "LetsPlay",
+      "path": "/Users/ember/dev/gh/LetsPlay",
+      "similarity": 0.821
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.813
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.807
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.803
+    },
+    {
+      "name": "cs242-proj1",
+      "path": "/Users/ember/dev/gh/cs242-proj1",
+      "similarity": 0.799
+    },
+    {
+      "name": "bead-calculus",
+      "path": "/Users/ember/dev/bead-calculus",
+      "similarity": 0.798
+    }
+  ]
+}

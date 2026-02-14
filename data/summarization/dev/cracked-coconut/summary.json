@@ -1,0 +1,264 @@
+{
+  "name": "cracked-coconut",
+  "description": "cracked-coconut appears to be a web/app project using C/C++, C++, C. The available files suggest focus areas around minitable, grpc, filter, channel.",
+  "tags": [
+    "C/C++",
+    "C++",
+    "C",
+    "TypeScript",
+    "JavaScript",
+    "Swift",
+    "Java",
+    "Shell",
+    "minitable",
+    "grpc",
+    "filter",
+    "channel",
+    "posix",
+    "config",
+    "http",
+    "client"
+  ],
+  "category": "Web/App",
+  "concepts": [
+    "minitable",
+    "grpc",
+    "filter",
+    "channel",
+    "posix",
+    "config",
+    "http",
+    "client",
+    "internal",
+    "credentials",
+    "server",
+    "info",
+    "service",
+    "call",
+    "security",
+    "alts",
+    "utils",
+    "windows",
+    "status",
+    "time",
+    "resolver",
+    "googlesignin",
+    "transport",
+    "endpoint",
+    "socket",
+    "engine",
+    "event",
+    "util",
+    "provider",
+    "internal.h",
+    "leveldb",
+    "policy",
+    "load",
+    "message",
+    "thread",
+    "trace",
+    "x509",
+    "string",
+    "listener",
+    "config.upb"
+  ],
+  "languages": [
+    "C/C++",
+    "C++",
+    "C",
+    "TypeScript",
+    "JavaScript",
+    "Swift",
+    "Java",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "8395cc157b65d3866e69894c5037745aee26be6544a39786e6361659976438f8",
+  "_path": "/Users/ember/dev/cracked-coconut",
+  "_updated_at": "2026-02-14T00:56:23.747235Z",
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "minitable",
+      "grpc",
+      "filter",
+      "channel",
+      "posix",
+      "config",
+      "http",
+      "client",
+      "internal",
+      "credentials",
+      "server",
+      "info",
+      "service",
+      "call",
+      "security",
+      "alts",
+      "utils",
+      "windows",
+      "status",
+      "time",
+      "resolver",
+      "googlesignin",
+      "transport",
+      "endpoint",
+      "socket",
+      "engine",
+      "event",
+      "util",
+      "provider",
+      "internal.h",
+      "leveldb",
+      "policy",
+      "load",
+      "message",
+      "thread",
+      "trace",
+      "x509",
+      "string",
+      "listener",
+      "config.upb"
+    ],
+    "tags": [
+      "C/C++",
+      "C++",
+      "C",
+      "TypeScript",
+      "JavaScript",
+      "Swift",
+      "Java",
+      "Shell",
+      "minitable",
+      "grpc",
+      "filter",
+      "channel",
+      "posix",
+      "config",
+      "http",
+      "client"
+    ],
+    "mined_motifs": [
+      "common",
+      "readme",
+      "array",
+      "asynchashtable",
+      "asynclinkedlist",
+      "asynclist",
+      "asyncqueue",
+      "asyncstack",
+      "datastream",
+      "misc",
+      "license",
+      "build"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 4.81,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 3.425,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 3.378,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "audio-dsp",
+        "name": "Digital Signal Processing & Audio",
+        "score": 3.264,
+        "matches": [
+          "filter"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 2.081,
+        "matches": []
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.068,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.747235Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e17ccd122a82a34b42520e0b967861ab9d1077656990bd78f556c47094a6c780",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:54.834026+00:00"
+  },
+  "mined_motifs": [
+    "common",
+    "readme",
+    "array",
+    "asynchashtable",
+    "asynclinkedlist",
+    "asynclist",
+    "asyncqueue",
+    "asyncstack",
+    "datastream",
+    "misc",
+    "license",
+    "build"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "util",
+      "path": "/Users/ember/dev/gh/util",
+      "similarity": 0.68
+    },
+    {
+      "name": "C-Utilities",
+      "path": "/Users/ember/dev/gh/C-Utilities",
+      "similarity": 0.668
+    },
+    {
+      "name": "capnweb",
+      "path": "/Users/ember/src/capnweb",
+      "similarity": 0.647
+    },
+    {
+      "name": "CommonCrypto",
+      "path": "/Users/ember/src/CommonCrypt/CommonCrypto",
+      "similarity": 0.645
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.644
+    },
+    {
+      "name": "github-api-testing",
+      "path": "/Users/ember/dev/gh/github-api-testing",
+      "similarity": 0.636
+    }
+  ]
+}

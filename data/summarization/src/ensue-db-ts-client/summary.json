@@ -1,0 +1,243 @@
+{
+  "name": "ensue-db-ts-client",
+  "description": "A high-performance TypeScript SDK for the ensue-db service that integrates Rust-compiled WebAssembly bindings for efficient cryptographic operations. It facilitates verifiable storage proofs and polynomial commitments over the Pallas elliptic curve using a Structured Reference String (SRS) for data integrity verification. The library provides a dual-interface for JSON-RPC over HTTP and WebSockets, enabling real-time contract updates and batch query execution with verifiable proof-of-read capabilities.",
+  "tags": [
+    "typescript",
+    "webassembly",
+    "cryptography",
+    "pallas-curve",
+    "zero-knowledge-proofs",
+    "storage-proofs",
+    "polynomial-commitments",
+    "json-rpc",
+    "websockets",
+    "srs",
+    "verifiable-computing",
+    "o1-labs",
+    "blockchain-storage",
+    "pallas-scalar-field"
+  ],
+  "category": "Zero-Knowledge Storage Protocols",
+  "concepts": [
+    "Pallas Elliptic Curve",
+    "Polynomial Commitment Schemes",
+    "Structured Reference String (SRS)",
+    "WASM-JS FFI Interoperability",
+    "Zero-Knowledge Storage Proofs",
+    "Field Element Arithmetic",
+    "Verifiable Read Proofs",
+    "JSON-RPC Protocol",
+    "WebSocket Subscriptions",
+    "Deterministic Serialization",
+    "Field Encoding and Decoding",
+    "Vector Commitments",
+    "Cryptographic Signatures",
+    "Batch Query Execution",
+    "Pallas Scalar Field Fq",
+    "Asynchronous RPC Client",
+    "SRS Memory Management",
+    "Curve Point Serialization",
+    "Storage Contract Updates",
+    "Proof Verification Logic"
+  ],
+  "languages": [
+    "TypeScript",
+    "WebAssembly",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 22,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/index.ts",
+      "src/rpc/index.ts",
+      "pkg/ensue_db_wasm_client_bg.wasm.d.ts",
+      "tests/integration.test.ts"
+    ]
+  },
+  "_hash": "9910647d9b821e98efb77fdbc462b6c56bc02288a17ac80746a56a8195d14849",
+  "_path": "/Users/ember/src/ensue-db-ts-client",
+  "_updated_at": "2026-02-14T00:56:32.703530Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "044a856d74ecbf247db7d6837d893a39d0e21af08cc56af537c2aaadd2cd69f0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:16.767617+00:00"
+  },
+  "mined_motifs": [
+    "Recursive SNARKs",
+    "mina-protocol",
+    "rust",
+    "blockchain",
+    "smart-contracts",
+    "o1js",
+    "Multi-Scalar Multiplication (MSM)",
+    "Arithmetic Circuits",
+    "zero-knowledge",
+    "Custom Gates",
+    "Foreign Field Arithmetic",
+    "Lookup Tables"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.847
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.843
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.843
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/hellas/poly-commit",
+      "similarity": 0.839
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.839
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.837
+    },
+    {
+      "name": "o1js-groth16",
+      "path": "/Users/ember/dev/o1js-groth16",
+      "similarity": 0.832
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.831
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Pallas Elliptic Curve",
+      "Polynomial Commitment Schemes",
+      "Structured Reference String (SRS)",
+      "WASM-JS FFI Interoperability",
+      "Zero-Knowledge Storage Proofs",
+      "Field Element Arithmetic",
+      "Verifiable Read Proofs",
+      "JSON-RPC Protocol",
+      "WebSocket Subscriptions",
+      "Deterministic Serialization",
+      "Field Encoding and Decoding",
+      "Vector Commitments",
+      "Cryptographic Signatures",
+      "Batch Query Execution",
+      "Pallas Scalar Field Fq",
+      "Asynchronous RPC Client",
+      "SRS Memory Management",
+      "Curve Point Serialization",
+      "Storage Contract Updates",
+      "Proof Verification Logic"
+    ],
+    "tags": [
+      "typescript",
+      "webassembly",
+      "cryptography",
+      "pallas-curve",
+      "Zero-Knowledge Proofs (ZKP)",
+      "storage-proofs",
+      "polynomial-commitments",
+      "json-rpc",
+      "websockets",
+      "srs",
+      "verifiable-computing",
+      "o1-labs",
+      "blockchain-storage",
+      "pallas-scalar-field"
+    ],
+    "mined_motifs": [
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "Rust Language Ecosystem",
+      "blockchain",
+      "smart-contracts",
+      "o1js",
+      "multi-scalar-multiplication",
+      "Arithmetic Circuits",
+      "Custom Gates",
+      "Foreign Field Arithmetic",
+      "Lookup Tables"
+    ],
+    "metaconstellations": [
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.66,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 8.258,
+        "matches": [
+          "polynomial commitment schemes",
+          "zero-knowledge proofs (zkp)"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.234,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.861,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.46,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 5.458,
+        "matches": [
+          "polynomial commitment schemes"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.703530Z"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": "rust-docs-mcp",
+  "description": "A Model Context Protocol (MCP) server providing comprehensive, offline-capable access to Rust crate documentation, source code analysis, and dependency graphs. It leverages rustdoc JSON generation and the Tantivy search engine to enable high-fidelity programmatic exploration of crate internals, including module hierarchies and type relationships. The system facilitates deep understanding for AI agents through optimized local caching and indexing of crates sourced from crates.io, GitHub, or local directories.",
+  "tags": [
+    "mcp",
+    "rust",
+    "rustdoc",
+    "static-analysis",
+    "caching",
+    "dependency-graph",
+    "tantivy",
+    "fuzzy-search",
+    "documentation-engine",
+    "cargo",
+    "nix-flakes",
+    "github",
+    "crates-io",
+    "developer-tools",
+    "ai-infrastructure"
+  ],
+  "category": "Programmatic Rust Documentation Analysis",
+  "concepts": [
+    "Model Context Protocol",
+    "Rustdoc JSON Serialization",
+    "Cargo Metadata Analysis",
+    "Full-text Search Indexing",
+    "Tantivy Integration",
+    "Fuzzy String Matching",
+    "Dependency Tree Visualization",
+    "Module Structure Mapping",
+    "Workspace Member Discovery",
+    "Crate Versioning",
+    "Persistent Local Caching",
+    "GitHub Repository Mirroring",
+    "Crates.io API Integration",
+    "Source Code Fragmentation Analysis",
+    "Nightly Rust Toolchain Execution",
+    "Nix Flake Reproducibility",
+    "Diagnostic Health Checks",
+    "Transactional Cache Updates",
+    "Asynchronous Task Management",
+    "JSON-RPC Communication",
+    "Stdio Transport Protocol",
+    "Item Visibility Analysis",
+    "Trait and Type Relationship Mapping",
+    "Offline Documentation Retrieval"
+  ],
+  "languages": [
+    "Rust",
+    "Nix",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 78,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "flake.nix",
+      "cargo-modules/src/colors/mod.rs",
+      "cargo-modules/src/graph/mod.rs",
+      "cargo-modules/src/lib.rs"
+    ]
+  },
+  "_hash": "acfeef1e872bb1284b0ef9a8fdca0b9130aeb4bf880d805a5f6ba40a3ae57c0b",
+  "_path": "/Users/ember/src/rust-docs-mcp",
+  "_updated_at": "2026-02-14T00:56:33.890302Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c3b519659ed553e66675055efe65d0d9e9ef064645edf01c276c74509d0e1a11",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:04.384840+00:00"
+  },
+  "mined_motifs": [
+    "cli",
+    "llm-context",
+    "Model Context Protocol (MCP)",
+    "json-rpc",
+    "docs-rs",
+    "mcp-server",
+    "documentation-generator",
+    "Context Window Optimization",
+    "HTML Content Extraction",
+    "Rust Crate API Discovery",
+    "Stateless Tool Execution",
+    "Stdio Transport Layer"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.918
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.901
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.882
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.873
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.867
+    },
+    {
+      "name": "cargo-public-api",
+      "path": "/Users/ember/src/cargo-public-api",
+      "similarity": 0.848
+    },
+    {
+      "name": "lcrio",
+      "path": "/Users/ember/dev/lcrio",
+      "similarity": 0.842
+    },
+    {
+      "name": "doc_builder",
+      "path": "/Users/ember/dev/gh/doc_builder",
+      "similarity": 0.838
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Model Context Protocol",
+      "Rustdoc JSON Serialization",
+      "Cargo Metadata Analysis",
+      "Full-text Search Indexing",
+      "Tantivy Integration",
+      "Fuzzy String Matching",
+      "Dependency Tree Visualization",
+      "Module Structure Mapping",
+      "Workspace Member Discovery",
+      "Crate Versioning",
+      "Persistent Local Caching",
+      "GitHub Repository Mirroring",
+      "Crates.io API Integration",
+      "Source Code Fragmentation Analysis",
+      "Nightly Rust Toolchain Execution",
+      "Nix Flake Reproducibility",
+      "Diagnostic Health Checks",
+      "Transactional Cache Updates",
+      "Asynchronous Task Management",
+      "JSON-RPC Communication",
+      "Stdio Transport Protocol",
+      "Item Visibility Analysis",
+      "Trait and Type Relationship Mapping",
+      "Offline Documentation Retrieval"
+    ],
+    "tags": [
+      "model-context-protocol",
+      "Rust Language Ecosystem",
+      "rustdoc",
+      "static-analysis",
+      "caching",
+      "dependency-graph",
+      "tantivy",
+      "fuzzy-search",
+      "documentation-engine",
+      "cargo",
+      "nix-flakes",
+      "github",
+      "crates-io",
+      "developer-tools",
+      "ai-infrastructure"
+    ],
+    "mined_motifs": [
+      "cli",
+      "llm-context",
+      "model-context-protocol",
+      "json-rpc",
+      "docs-rs",
+      "Model Context Protocol",
+      "documentation-generator",
+      "Context Window Optimization",
+      "HTML Content Extraction",
+      "Rust Crate API Discovery",
+      "Stateless Tool Execution",
+      "Stdio Transport Layer"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 6.644,
+        "matches": [
+          "rustdoc",
+          "tantivy",
+          "category:Programmatic Rust Documentation Analysis"
+        ]
+      },
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 5.609,
+        "matches": [
+          "json-rpc"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.532,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.459,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.381,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 4.046,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.890302Z"
+  }
+}

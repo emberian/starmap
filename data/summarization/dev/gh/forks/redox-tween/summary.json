@@ -1,0 +1,215 @@
+{
+  "name": "redox-tween",
+  "description": "A lightweight Rust library for smooth numerical value interpolation, commonly utilized in animation and game development. It implements a variety of classic easing equations—including quadratic, quintic, and elastic curves—while providing flexible mechanisms for sequential and parallel orchestration. The library supports multiple value mutation strategies through trait-based access, including Cell wrappers, unsafe pointers, and callback functions.",
+  "tags": [
+    "rust",
+    "tweening",
+    "easing-functions",
+    "interpolation",
+    "animation-engine",
+    "gamedev",
+    "linear-interpolation",
+    "sequencing",
+    "orchestration",
+    "mutation-traits",
+    "low-level",
+    "ppm-export"
+  ],
+  "category": "Kinematic Animation and Interpolation",
+  "concepts": [
+    "Tweening",
+    "Easing Equations",
+    "Interpolation Curves",
+    "Sequential Execution",
+    "Parallel Execution",
+    "Trait-based Access",
+    "Value Mutation",
+    "Cell Interior Mutability",
+    "Pointer Manipulation",
+    "Callback-driven State",
+    "PPM Visualization",
+    "Time-delta Updating"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "src/lib.rs",
+      "src/ease.rs",
+      "src/examples/images.rs",
+      "src/examples/basic.rs"
+    ]
+  },
+  "_hash": "0aaf3cbb92d7ac66bf1eb35efb008bf8e44ac728695616877050fcae433ce719",
+  "_path": "/Users/ember/dev/gh/forks/redox-tween",
+  "_updated_at": "2026-02-14T00:56:26.384221Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Tweening",
+      "Easing Equations",
+      "Interpolation Curves",
+      "Sequential Execution",
+      "Parallel Execution",
+      "Trait-based Access",
+      "Value Mutation",
+      "Cell Interior Mutability",
+      "Pointer Manipulation",
+      "Callback-driven State",
+      "PPM Visualization",
+      "Time-delta Updating"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "tweening",
+      "easing-functions",
+      "interpolation",
+      "animation-engine",
+      "gamedev",
+      "linear-interpolation",
+      "sequencing",
+      "orchestration",
+      "mutation-traits",
+      "systems-programming",
+      "ppm-export"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "Resource Acquisition Is Initialization (RAII)",
+      "ANSI Escape Sequences",
+      "C String Interoperability",
+      "Callback-based Completion",
+      "Command History Persistence",
+      "Line Editing Facilities",
+      "Native Library Compilation",
+      "Rust Memory Management",
+      "Terminal Raw Mode",
+      "Thread Safety via Mutex"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.106,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.328,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.292,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 5.26,
+        "matches": [
+          "orchestration"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.259,
+        "matches": [
+          "orchestration"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 2.481,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.384221Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f8ff22debf22e743759529eb3769b147cb8e24c7fbb205fc5258d625c431abbd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:05.286701+00:00"
+  },
+  "mined_motifs": [
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "resource-management",
+    "ANSI Escape Sequences",
+    "C String Interoperability",
+    "Callback-based Completion",
+    "Command History Persistence",
+    "Line Editing Facilities",
+    "Native Library Compilation",
+    "Rust Memory Management",
+    "Terminal Raw Mode",
+    "Thread Safety via Mutex"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.806
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.799
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.797
+    },
+    {
+      "name": "noise-rs",
+      "path": "/Users/ember/dev/gh/forks/noise-rs",
+      "similarity": 0.794
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.794
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.792
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.792
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.791
+    }
+  ]
+}

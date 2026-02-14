@@ -1,0 +1,255 @@
+{
+  "name": "rust-gpu-tools",
+  "description": "A cross-platform Rust abstraction library designed to provide a unified interface for executing GPU kernels on both CUDA and OpenCL backends. It streamlines GPGPU development by abstracting device discovery, memory buffer management, and kernel dispatch into a single host-side API. The library employs a synchronous execution model for enhanced safety and supports a broad range of hardware including NVIDIA, AMD, Intel, and Apple Silicon via conditional compilation of specialized runtimes.",
+  "tags": [
+    "rust",
+    "cuda",
+    "opencl",
+    "gpgpu",
+    "gpu-compute",
+    "abstraction-layer",
+    "parallel-computing",
+    "nvidia",
+    "amd",
+    "intel",
+    "apple-silicon",
+    "systems-programming",
+    "hardware-abstraction",
+    "kernel-execution",
+    "memory-management",
+    "pci-bus"
+  ],
+  "category": "Heterogeneous Computing Abstraction",
+  "concepts": [
+    "GPGPU",
+    "CUDA Kernel Dispatch",
+    "OpenCL Runtime Abstraction",
+    "Device Discovery",
+    "PCI Bus Topology",
+    "UUID Hardware Mapping",
+    "Unified Memory Buffers",
+    "Compute Capability Detection",
+    "Synchronous Command Execution",
+    "Feature-Flagged Architectures",
+    "Vendor-Specific Runtimes",
+    "Streaming Multiprocessors",
+    "Kernel Binary Serialization",
+    "Host-to-Device Memory Transfer",
+    "Command Queue Management",
+    "Heterogeneous Computing",
+    "OpenCL Command Queues",
+    "CUDA Streams",
+    "Shared Memory Management",
+    "Device Vendor Identification",
+    "Error Mapping",
+    "Cross-Backend Closure Macros",
+    "Fatbin Support",
+    "Device Selection Logic",
+    "Hardware Topology Discovery"
+  ],
+  "languages": [
+    "Rust",
+    "OpenCL C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 19,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/cuda/mod.rs",
+      "src/lib.rs",
+      "src/opencl/mod.rs",
+      "src/device.rs"
+    ]
+  },
+  "_hash": "f344758ac6c21298a9f90fc465de9c50766d1d6d3b1acd45f6c44b954913a594",
+  "_path": "/Users/ember/hellas/rust-gpu-tools",
+  "_updated_at": "2026-02-14T00:56:31.946252Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a88fe6ef041355c3f62ddd7ff3af223ae5765d9b99ab9c64f78296eb309305ff",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:45.741512+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "acceleration",
+    "gpu",
+    "gpu-programming",
+    "graphics-api",
+    "resource-management",
+    "Buffer Management",
+    "Compute Kernels",
+    "Context Virtualization",
+    "Device Enumeration",
+    "Device UUID Mapping",
+    "Fatbin Loading"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.984
+    },
+    {
+      "name": "opencl3",
+      "path": "/Users/ember/src/opencl3",
+      "similarity": 0.899
+    },
+    {
+      "name": "runpod-rs",
+      "path": "/Users/ember/hellas/runpod-rs",
+      "similarity": 0.894
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.894
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.892
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.89
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.875
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "GPGPU Compute",
+      "CUDA Kernel Dispatch",
+      "OpenCL Runtime Abstraction",
+      "Device Discovery",
+      "PCI Bus Topology",
+      "UUID Hardware Mapping",
+      "Unified Memory Buffers",
+      "Compute Capability Detection",
+      "Synchronous Command Execution",
+      "Feature-Flagged Architectures",
+      "Vendor-Specific Runtimes",
+      "Streaming Multiprocessors",
+      "Kernel Binary Serialization",
+      "Host-to-Device Memory Transfer",
+      "Command Queue Management",
+      "Heterogeneous Computing",
+      "OpenCL Command Queues",
+      "CUDA Streams",
+      "Shared Memory Management",
+      "Device Vendor Identification",
+      "Error Mapping",
+      "Cross-Backend Closure Macros",
+      "Fatbin Support",
+      "Device Selection Logic",
+      "Hardware Topology Discovery"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cuda",
+      "opencl",
+      "GPGPU Compute",
+      "abstraction-layer",
+      "concurrency",
+      "nvidia",
+      "amd",
+      "intel",
+      "apple-silicon",
+      "Systems Programming",
+      "hardware-abstraction",
+      "kernel-execution",
+      "Memory Management",
+      "pci-bus"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "acceleration",
+      "gpu",
+      "gpu-programming",
+      "graphics-api",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Buffer Management",
+      "Compute Kernels",
+      "Context Virtualization",
+      "Device Enumeration",
+      "Device UUID Mapping",
+      "Fatbin Loading"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.37,
+        "matches": [
+          "concurrency",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.363,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.328,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.615,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.593,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.545,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.946252Z"
+  }
+}

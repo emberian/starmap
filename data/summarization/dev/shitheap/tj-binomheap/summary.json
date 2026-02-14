@@ -1,0 +1,213 @@
+{
+  "name": "tj-binomheap",
+  "description": "A Rust implementation of the binomial heap data structure, providing a mergeable priority queue with O(log n) worst-case performance for most operations. The library represents the heap as a forest of binomial trees where the presence of a tree of order 'k' corresponds to the k-th bit in the binary representation of the total element count. This structural property enables heap merges to be implemented as a binary addition analogy over the underlying tree sequence.",
+  "tags": [
+    "rust",
+    "data-structures",
+    "binomial-heap",
+    "priority-queue",
+    "mergeable-heap",
+    "algorithm",
+    "forest",
+    "min-heap",
+    "amortized-analysis",
+    "collection"
+  ],
+  "category": "Mergeable Priority Queues",
+  "concepts": [
+    "Binomial Tree",
+    "Binomial Heap",
+    "Binary Addition Analogy",
+    "Logarithmic Merge",
+    "Amortized O(1) Insertion",
+    "O(log n) Deletion",
+    "Forest of Trees",
+    "Heap-Ordered Tree",
+    "Carry Propagation",
+    "Order Invariants",
+    "Structural Induction",
+    "Min-Priority Queue",
+    "Tree Linking",
+    "Recursive Merging",
+    "Generic Type Constraints",
+    "Well-formedness Verification"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "b9683272597af73e51e6fac84587e08ff6f60c269309e787ef40f9b55045323d",
+  "_path": "/Users/ember/dev/shitheap/tj-binomheap",
+  "_updated_at": "2026-02-14T00:56:30.321811Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "20424ebd9cac4fedee824c11b171194f709950b8bb20fe93484619ccb38b2769",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:46.890383+00:00"
+  },
+  "mined_motifs": [
+    "Manual Memory Management",
+    "memory-management",
+    "resource-management",
+    "reference-counting",
+    "compiler-design",
+    "Amortized Complexity",
+    "Binary Tree",
+    "Custom Comparators",
+    "Double-Ended Priority Queue",
+    "Heapification",
+    "In-place Algorithm",
+    "Interval Heap"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "interval-heap",
+      "path": "/Users/ember/dev/interval-heap",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.839
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.836
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.834
+    },
+    {
+      "name": "cons-list",
+      "path": "/Users/ember/dev/gh/forks/cons-list",
+      "similarity": 0.832
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.828
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.822
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Binomial Tree",
+      "Binomial Heap",
+      "Binary Addition Analogy",
+      "Logarithmic Merge",
+      "Amortized O(1) Insertion",
+      "O(log n) Deletion",
+      "Forest of Trees",
+      "Heap-Ordered Tree",
+      "Carry Propagation",
+      "Order Invariants",
+      "Structural Induction",
+      "Min-Priority Queue",
+      "Tree Linking",
+      "Recursive Merging",
+      "Generic Type Constraints",
+      "Well-formedness Verification"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "data-structures",
+      "binomial-heap",
+      "priority-queue",
+      "mergeable-heap",
+      "algorithm",
+      "forest",
+      "min-heap",
+      "amortized-analysis",
+      "collection"
+    ],
+    "mined_motifs": [
+      "Memory Management",
+      "Resource Acquisition Is Initialization (RAII)",
+      "reference-counting",
+      "Compiler Engineering",
+      "Amortized Complexity",
+      "Binary Tree",
+      "Custom Comparators",
+      "Double-Ended Priority Queue",
+      "Heapification",
+      "In-place Algorithm",
+      "Interval Heap"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.239,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.419,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.407,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.618,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.609,
+        "matches": []
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 2.605,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.321811Z"
+  }
+}

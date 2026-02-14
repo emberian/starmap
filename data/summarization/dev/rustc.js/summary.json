@@ -1,0 +1,212 @@
+{
+  "name": "rustc.js",
+  "description": "rustc.js provides a JavaScript-based orchestration layer for the Rust compiler, targeting WebAssembly environments for in-browser and server-side compilation. It abstracts the underlying rustc and LLVM toolchain into a high-level programmatic interface capable of transforming crate source into executable WASM modules. This enables dynamic, client-side compilation for web-based IDEs and high-performance polyglot runtimes.",
+  "tags": [
+    "rust",
+    "rustc",
+    "wasm",
+    "webassembly",
+    "javascript",
+    "compiler",
+    "toolchain",
+    "js-api",
+    "in-browser-compilation",
+    "crate-system",
+    "polyglot",
+    "build-tools",
+    "dynamic-compilation"
+  ],
+  "category": "Browser-Based Compiler Toolchains",
+  "concepts": [
+    "WebAssembly Target Support",
+    "Ahead-of-Time Compilation",
+    "Crate Orchestration",
+    "LLVM IR Generation",
+    "Polyglot Runtime Integration",
+    "Dynamic Binary Generation",
+    "Cross-compilation",
+    "WASM-in-WASM",
+    "Programmatic Compilation API",
+    "Client-side Build Systems"
+  ],
+  "languages": [
+    "JavaScript",
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "5becfb46afed5ad16de410ffb3175536e57a15f1112ec2f18652de7a82250122",
+  "_path": "/Users/ember/dev/rustc.js",
+  "_updated_at": "2026-02-14T00:56:30.132751Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "WebAssembly Target Support",
+      "Ahead-of-Time Compilation",
+      "Crate Orchestration",
+      "LLVM IR Generation",
+      "Polyglot Runtime Integration",
+      "Dynamic Binary Generation",
+      "Cross-compilation",
+      "WASM-in-WASM",
+      "Programmatic Compilation API",
+      "Client-side Build Systems"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "javascript",
+      "compiler-design",
+      "toolchain",
+      "js-api",
+      "in-browser-compilation",
+      "crate-system",
+      "polyglot",
+      "build-tools",
+      "dynamic-compilation"
+    ],
+    "mined_motifs": [
+      "monaco-editor",
+      "WebAssembly Compilation Pipeline",
+      "browser-ide",
+      "cheerpx",
+      "x86-emulation",
+      "Monaco Editor Integration",
+      "emulator",
+      "lexical-analysis",
+      "Compiler Engineering",
+      "Rust Language Ecosystem",
+      "Client-side Package Management",
+      "Cross-Origin Isolation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 8.313,
+        "matches": [
+          "compiler-design",
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 8.278,
+        "matches": [
+          "emulator",
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.899,
+        "matches": [
+          "webassembly",
+          "cheerpx"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.522,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.499,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.475,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.132751Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b3ad1b12a882f0171107716b65798ab39cee7f530dd618e2874a07df8bb924d7",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:33.875551+00:00"
+  },
+  "mined_motifs": [
+    "monaco-editor",
+    "WebAssembly Compilation Pipeline",
+    "browser-ide",
+    "cheerpx",
+    "x86-emulation",
+    "Monaco Editor Integration",
+    "emulator",
+    "Tokenization",
+    "compiler-design",
+    "rust-lang",
+    "Client-side Package Management",
+    "Cross-Origin Isolation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.881
+    },
+    {
+      "name": "-live-web-editor-abcdeez",
+      "path": "/Users/ember/dev/-live-web-editor-abcdeez",
+      "similarity": 0.874
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.871
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.869
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.862
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.859
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.859
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "name": "spwsft",
+  "description": "A high-performance fine-tuning environment optimized for the GLM-4.7-Flash model series using the Unsloth library. The system implements memory-efficient Supervised Fine-Tuning (SFT) with LoRA adapters and 4-bit/8-bit quantization on NVIDIA A100 hardware, specifically targeting conversational datasets with custom response-only training masks.",
+  "tags": [
+    "llm-finetuning",
+    "lora",
+    "peft",
+    "unsloth",
+    "glm-4",
+    "qwen3",
+    "cuda",
+    "triton",
+    "pytorch",
+    "huggingface",
+    "quantization",
+    "sft",
+    "a100",
+    "low-rank-adaptation",
+    "gradient-checkpointing",
+    "transformer"
+  ],
+  "category": "Parameter-Efficient Fine-Tuning (PEFT)",
+  "concepts": [
+    "Low-Rank Adaptation (LoRA)",
+    "Supervised Fine-Tuning (SFT)",
+    "4-bit NormalFloat Quantization",
+    "8-bit AdamW Optimization",
+    "Gradient Checkpointing",
+    "Sparse Weights",
+    "Flash Attention Integration",
+    "Conversation Template Masking",
+    "Memory-Efficient Backpropagation",
+    "Sequence Packing",
+    "PEFT Model Saving",
+    "Dataset Mapping",
+    "HuggingFace Transformers Integration",
+    "Triton Kernel Acceleration",
+    "4-bit Dynamic Quantization",
+    "LoRA Rank-to-Alpha Scaling"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "glm_flash_a100(80gb).py",
+      "spw_finetune_local.py"
+    ]
+  },
+  "_hash": "e80c6f9be09ed0448fa9bbb307f57215e151aae01aea2ee3348bbd04fd3e59c0",
+  "_path": "/Users/ember/dev/spwsft",
+  "_updated_at": "2026-02-14T00:56:30.604616Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "16b8e26db2c95cc972f55facb07efd1d52a9320f6f441909e5f348ade609c086",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:53.722949+00:00"
+  },
+  "mined_motifs": [
+    "llm-inference",
+    "rust",
+    "blockchain",
+    "machine-learning",
+    "gguf",
+    "Recursive SNARKs",
+    "mina-protocol",
+    "o1js",
+    "smart-contracts",
+    "typescript",
+    "verifiable-computing",
+    "zero-knowledge-proofs"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.804
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.789
+    },
+    {
+      "name": "llama.cpp",
+      "path": "/Users/ember/src/llama.cpp",
+      "similarity": 0.785
+    },
+    {
+      "name": "mistral.rs",
+      "path": "/Users/ember/src/mistral.rs",
+      "similarity": 0.783
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.778
+    },
+    {
+      "name": "TurboDiffusion",
+      "path": "/Users/ember/src/TurboDiffusion",
+      "similarity": 0.778
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.773
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.77
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Low-Rank Adaptation (LoRA)",
+      "Supervised Fine-Tuning (SFT)",
+      "4-bit NormalFloat Quantization",
+      "8-bit AdamW Optimization",
+      "Gradient Checkpointing",
+      "Sparse Weights",
+      "Flash Attention Integration",
+      "Conversation Template Masking",
+      "Memory-Efficient Backpropagation",
+      "Sequence Packing",
+      "PEFT Model Saving",
+      "Dataset Mapping",
+      "HuggingFace Transformers Integration",
+      "Triton Kernel Acceleration",
+      "4-bit Dynamic Quantization",
+      "LoRA Rank-to-Alpha Scaling"
+    ],
+    "tags": [
+      "llm-finetuning",
+      "lora",
+      "peft",
+      "unsloth",
+      "glm-4",
+      "qwen3",
+      "cuda",
+      "triton",
+      "pytorch",
+      "huggingface",
+      "quantization",
+      "sft",
+      "a100",
+      "low-rank-adaptation",
+      "gradient-checkpointing",
+      "transformer"
+    ],
+    "mined_motifs": [
+      "Large Language Model Inference",
+      "Rust Language Ecosystem",
+      "blockchain",
+      "machine-learning",
+      "gguf",
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "o1js",
+      "smart-contracts",
+      "typescript",
+      "verifiable-computing",
+      "Zero-Knowledge Proofs (ZKP)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 10.916,
+        "matches": [
+          "cuda",
+          "quantization",
+          "gguf",
+          "lora"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.405,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 8.122,
+        "matches": [
+          "large language model inference",
+          "gguf",
+          "quantization"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.598,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 5.416,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 5.21,
+        "matches": [
+          "zero-knowledge proofs (zkp)"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.604616Z"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "name": "rhaposPDE",
+  "description": "rhaposPDE is a curated collection of mathematical puzzles and challenges focused on the theory and application of partial differential equations (PDEs). Conceived as a thematic exploration of mathematical physics, the repository aggregates problems ranging from fundamental boundary value scenarios to complex analytical derivations. It serves as a conceptual framework for deepening understanding of elliptic, parabolic, and hyperbolic operators through structured problem-solving.",
+  "tags": [
+    "pde",
+    "partial-differential-equations",
+    "mathematical-physics",
+    "calculus",
+    "puzzles",
+    "education",
+    "recreational-math",
+    "analytical-mechanics",
+    "differential-operators",
+    "boundary-value-problems",
+    "mathematical-modeling"
+  ],
+  "category": "Recreational Mathematical Physics",
+  "concepts": [
+    "Laplace's Equation",
+    "Heat Equation",
+    "Wave Equation",
+    "Boundary Value Problems",
+    "Initial Value Problems",
+    "Separation of Variables",
+    "Green's Functions",
+    "Fourier Series",
+    "Sobolev Spaces",
+    "Elliptic Operators",
+    "Parabolic Equations",
+    "Hyperbolic Equations",
+    "Dirichlet Boundary Conditions",
+    "Neumann Boundary Conditions",
+    "Cauchy Problems",
+    "Sturm-Liouville Theory",
+    "Eigenvalue Problems",
+    "Method of Characteristics",
+    "Poisson Equation",
+    "Maxwell's Equations",
+    "Schrödinger Equation",
+    "Navier-Stokes Equations",
+    "Euler-Lagrange Equations",
+    "Variational Principles",
+    "Distributions",
+    "Fundamental Solutions",
+    "Harmonic Functions",
+    "Maximum Principle",
+    "Energy Methods",
+    "Well-posedness",
+    "Asymptotic Analysis",
+    "Perturbation Theory",
+    "Korteweg–De Vries Equation",
+    "Burgers' Equation",
+    "Reaction-Diffusion Systems",
+    "Finite Element Analysis",
+    "Spectral Methods",
+    "Transform Methods",
+    "Non-linear PDEs"
+  ],
+  "languages": [
+    "Markdown"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "c4d508c285fb3c4183b1ed88a1d04c4961f02d97d78aac26d82cfc917977fb73",
+  "_path": "/Users/ember/dev/rhaposPDE",
+  "_updated_at": "2026-02-14T00:56:30.011375Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Laplace's Equation",
+      "Heat Equation",
+      "Wave Equation",
+      "Boundary Value Problems",
+      "Initial Value Problems",
+      "Separation of Variables",
+      "Green's Functions",
+      "Fourier Series",
+      "Sobolev Spaces",
+      "Elliptic Operators",
+      "Parabolic Equations",
+      "Hyperbolic Equations",
+      "Dirichlet Boundary Conditions",
+      "Neumann Boundary Conditions",
+      "Cauchy Problems",
+      "Sturm-Liouville Theory",
+      "Eigenvalue Problems",
+      "Method of Characteristics",
+      "Poisson Equation",
+      "Maxwell's Equations",
+      "Schrödinger Equation",
+      "Navier-Stokes Equations",
+      "Euler-Lagrange Equations",
+      "Variational Principles",
+      "Distributions",
+      "Fundamental Solutions",
+      "Harmonic Functions",
+      "Maximum Principle",
+      "Energy Methods",
+      "Well-posedness",
+      "Asymptotic Analysis",
+      "Perturbation Theory",
+      "Korteweg–De Vries Equation",
+      "Burgers' Equation",
+      "Reaction-Diffusion Systems",
+      "Finite Element Analysis",
+      "Spectral Methods",
+      "Transform Methods",
+      "Non-linear PDEs"
+    ],
+    "tags": [
+      "pde",
+      "partial-differential-equations",
+      "mathematical-physics",
+      "calculus",
+      "puzzles",
+      "education",
+      "recreational-math",
+      "analytical-mechanics",
+      "differential-operators",
+      "boundary-value-problems",
+      "mathematical-modeling"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "lisp",
+      "Compiler Engineering",
+      "Recursive Descent Parsing",
+      "lexical-analysis",
+      "Applicative-order Evaluation",
+      "Compound Data",
+      "Higher-order Procedures",
+      "Iterative Processes",
+      "Lambda Abstraction",
+      "Lexical Scoping"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.279,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.25,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.233,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.464,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.446,
+        "matches": []
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.439,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.011375Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4ccea111eedde4d6c9c79aa02e6c054fbe3f6989900e37fa494d0760b61297e0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:30.443145+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "lisp",
+    "compiler-design",
+    "Recursive Descent Parsing",
+    "Tokenization",
+    "rust-lang",
+    "Applicative-order Evaluation",
+    "Compound Data",
+    "Higher-order Procedures",
+    "Iterative Processes",
+    "Lambda Abstraction",
+    "Lexical Scoping"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.808
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.794
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.791
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.788
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.787
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.787
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.782
+    },
+    {
+      "name": "rust-logo-3d",
+      "path": "/Users/ember/dev/gh/rust-logo-3d",
+      "similarity": 0.782
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "name": "mina2",
+  "description": "mina2 appears to be a zero-knowledge proofs project using OCaml, Shell, C. The available files suggest focus areas around dune, ledger, test, intf.",
+  "tags": [
+    "OCaml",
+    "Shell",
+    "C",
+    "C/C++",
+    "Nix",
+    "Python",
+    "Rust",
+    "dune",
+    "ledger",
+    "test",
+    "intf",
+    "hash",
+    "coda",
+    "snark",
+    "transition",
+    "state"
+  ],
+  "category": "Zero-Knowledge Proofs",
+  "concepts": [
+    "dune",
+    "ledger",
+    "test",
+    "intf",
+    "hash",
+    "coda",
+    "snark",
+    "transition",
+    "state",
+    "proof",
+    "digestif",
+    "merkle",
+    "transaction",
+    "webfont",
+    "database",
+    "frontier",
+    "parallel",
+    "snarky",
+    "tree",
+    "blockchain",
+    "latin1",
+    "pipe",
+    "main",
+    "pool",
+    "controller",
+    "file",
+    "ibmplexsans",
+    "metropolis",
+    "readme",
+    "sodium",
+    "baijiu",
+    "data",
+    "postake",
+    "util",
+    "inputs",
+    "lite",
+    "project",
+    "random",
+    "rocks",
+    "testnet"
+  ],
+  "languages": [
+    "OCaml",
+    "Shell",
+    "C",
+    "C/C++",
+    "Nix",
+    "Python",
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "_hash": "a8db7317a05ef7da1e1901d8d7618f23193e983d563a52015cdb300d1f148c55",
+  "_path": "/Users/ember/dev/mina2",
+  "_updated_at": "2026-02-14T00:56:29.378232Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "dune",
+      "ledger",
+      "test",
+      "intf",
+      "hash",
+      "mina-protocol",
+      "ZK-SNARKs",
+      "transition",
+      "state",
+      "proof",
+      "digestif",
+      "merkle",
+      "transaction",
+      "webfont",
+      "database",
+      "frontier",
+      "parallel",
+      "snarky",
+      "tree",
+      "blockchain",
+      "latin1",
+      "pipe",
+      "main",
+      "pool",
+      "controller",
+      "file",
+      "ibmplexsans",
+      "metropolis",
+      "readme",
+      "sodium",
+      "baijiu",
+      "data",
+      "postake",
+      "util",
+      "inputs",
+      "lite",
+      "project",
+      "random",
+      "rocks",
+      "testnet"
+    ],
+    "tags": [
+      "OCaml",
+      "Shell",
+      "C",
+      "C/C++",
+      "Nix",
+      "Python",
+      "Rust Language Ecosystem",
+      "dune",
+      "ledger",
+      "test",
+      "intf",
+      "hash",
+      "mina-protocol",
+      "ZK-SNARKs",
+      "transition",
+      "state"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "types",
+      "block",
+      "signature",
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "Zero-Knowledge Proofs (ZKP)",
+      "check",
+      "base",
+      "mina-protocol",
+      "JavaScript",
+      "request"
+    ],
+    "metaconstellations": [
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.187,
+        "matches": [
+          "mina-protocol",
+          "zero-knowledge-proofs",
+          "snarky"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 9.057,
+        "matches": [
+          "mina protocol",
+          "zk-snarks",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.957,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 7.574,
+        "matches": [
+          "zero-knowledge-proofs",
+          "mina-protocol",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 6.247,
+        "matches": [
+          "mina-protocol",
+          "snarky",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 6.162,
+        "matches": [
+          "cryptography",
+          "category:Zero-Knowledge Proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.378232Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ad86e75d7edb1054215e414940c56870e2c34b4bf95e546c42f56ad214e82916",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:00.028624+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "types",
+    "block",
+    "signature",
+    "Recursive SNARKs",
+    "mina-protocol",
+    "zero-knowledge-proofs",
+    "check",
+    "base",
+    "mina",
+    "JavaScript",
+    "request"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.946
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.803
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.768
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.746
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.739
+    },
+    {
+      "name": "zulip-terminal",
+      "path": "/Users/ember/src/zulip-terminal",
+      "similarity": 0.727
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.719
+    },
+    {
+      "name": "biscuit-java",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-java",
+      "similarity": 0.719
+    }
+  ]
+}

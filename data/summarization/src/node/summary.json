@@ -1,0 +1,258 @@
+{
+  "name": "Node.js",
+  "description": "Node.js is a high-performance, asynchronous event-driven JavaScript runtime built on Chrome's V8 engine and the libuv platform abstraction layer. It provides a non-blocking I/O model designed for scalable network applications, exposing low-level system primitives through a comprehensive standard library. The architecture supports both CommonJS and ECMAScript modules, multi-threaded execution via Worker Threads, and high-efficiency native extensibility through the Node-API.",
+  "tags": [
+    "nodejs",
+    "v8",
+    "libuv",
+    "runtime",
+    "javascript",
+    "async-io",
+    "event-loop",
+    "n-api",
+    "cross-platform",
+    "http2",
+    "quic",
+    "openssl",
+    "streams",
+    "worker-threads",
+    "wasm",
+    "systems-programming"
+  ],
+  "category": "Event-Driven Systems Runtime",
+  "concepts": [
+    "Event Loop",
+    "Non-blocking I/O",
+    "V8 Engine Integration",
+    "CommonJS/ESM Interop",
+    "Native Addons",
+    "Buffer Management",
+    "Stream Piping",
+    "Worker Threads",
+    "Asynchronous Hooks",
+    "Diagnostic Channels",
+    "Cryptography",
+    "TLS/SSL",
+    "Memory Allocation",
+    "Garbage Collection Hooks",
+    "Process Management",
+    "Package Resolution",
+    "WebAssembly Integration",
+    "Network Sockets",
+    "Filesystem I/O",
+    "Signal Handling",
+    "DNS Resolution",
+    "REPL",
+    "Event Emitter Pattern",
+    "Tracing",
+    "Profiling",
+    "Module Resolution Algorithm"
+  ],
+  "languages": [
+    "JavaScript",
+    "C++",
+    "C",
+    "Python",
+    "TypeScript",
+    "Shell",
+    "Rust",
+    "Nix"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 42799,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "Makefile",
+      "benchmark/napi/buffer/index.js",
+      "benchmark/napi/create_object_with_properties/index.js",
+      "benchmark/napi/define_properties/index.js"
+    ]
+  },
+  "_hash": "2cde7d5d777f37052d37d4b3fb0eda2edc3b29b5923ba5bd9a8dbbedf690fa27",
+  "_path": "/Users/ember/src/node",
+  "_updated_at": "2026-02-14T00:56:33.226755Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a31576679b3c7f230380857761a36318ddbdf15928e7308eecdba44aab920acd",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:48.054479+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "git",
+    "macos",
+    "unix",
+    "distributed-systems",
+    "postgresql",
+    "Asynchronous Control Flow",
+    "Content Negotiation",
+    "Cookie Parsing",
+    "Dynamic Routing",
+    "Error Handling Patterns",
+    "HTTP Request/Response Abstraction"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.85
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.834
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.833
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.831
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.825
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.821
+    },
+    {
+      "name": "eventually-rs",
+      "path": "/Users/ember/src/eventually-rs",
+      "similarity": 0.82
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Event Loop",
+      "Non-blocking I/O",
+      "V8 Engine Integration",
+      "CommonJS/ESM Interop",
+      "Native Addons",
+      "Buffer Management",
+      "Stream Piping",
+      "Worker Threads",
+      "Asynchronous Hooks",
+      "Diagnostic Channels",
+      "Cryptography",
+      "TLS/SSL",
+      "Memory Allocation",
+      "Garbage Collection Hooks",
+      "Process Management",
+      "Package Resolution",
+      "WebAssembly Integration",
+      "Network Sockets",
+      "Filesystem I/O",
+      "Signal Handling",
+      "DNS Resolution",
+      "REPL",
+      "Event Emitter Pattern",
+      "Tracing",
+      "Profiling",
+      "Module Resolution Algorithm"
+    ],
+    "tags": [
+      "nodejs",
+      "v8",
+      "libuv",
+      "runtime",
+      "javascript",
+      "Asynchronous Programming",
+      "n-api",
+      "cross-platform",
+      "http2",
+      "quic",
+      "openssl",
+      "streams",
+      "worker-threads",
+      "WebAssembly",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "git",
+      "macos",
+      "unix",
+      "distributed-systems",
+      "postgresql",
+      "Asynchronous Control Flow",
+      "Content Negotiation",
+      "Cookie Parsing",
+      "Dynamic Routing",
+      "Error Handling Patterns",
+      "HTTP Request/Response Abstraction"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.194,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 8.185,
+        "matches": [
+          "v8",
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.808,
+        "matches": [
+          "webassembly",
+          "runtime"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.412,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.404,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.404,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.226755Z"
+  }
+}

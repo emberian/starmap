@@ -1,0 +1,35 @@
+{
+  "name": "ski-vpn",
+  "description": "ski-vpn appears to be a exploratory project using mixed tooling. The available files suggest focus areas around repository structure and source files.",
+  "tags": [],
+  "category": "Exploratory",
+  "concepts": [],
+  "languages": [],
+  "maturity": "exploratory",
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/shitheap/ski-vpn",
+  "_updated_at": "2026-02-11T08:55:30.532293Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1abfa00cc63326d3ec360f1f4161a385e5e52da29731bd9d97b778aaa7e12c92",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:44.616725+00:00"
+  },
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [],
+    "tags": [],
+    "mined_motifs": [],
+    "metaconstellations": [],
+    "aligner": "gemini",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-11T08:55:30.532285Z"
+  }
+}

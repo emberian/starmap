@@ -1,0 +1,219 @@
+{
+  "name": "fixedbitset",
+  "description": "A minimalist Rust library providing a fixed-capacity bitset backed by a boxed slice of unsigned 32-bit integers. It offers high-performance bit manipulation with constant-time access and direct memory-slice interoperability for bulk processing. The implementation balances safety and performance through strategic use of internal unsafe blocks for unchecked memory access.",
+  "tags": [
+    "rust",
+    "bitset",
+    "bit-vector",
+    "data-structure",
+    "memory-efficiency",
+    "bit-manipulation",
+    "low-level",
+    "containers"
+  ],
+  "category": "Bit-Vector Data Structures",
+  "concepts": [
+    "Bitwise masking",
+    "Word-aligned storage",
+    "Bit-level addressing",
+    "Boxed slices",
+    "Memory locality",
+    "Constant-time complexity",
+    "Unsafe memory optimization",
+    "Trait-based indexing",
+    "Slice projections",
+    "Bounds-checked operations",
+    "Boolean algebra",
+    "Set theory primitives",
+    "Capacity management",
+    "Primitive word optimization",
+    "Inlining strategy",
+    "Rust memory safety",
+    "Cache-friendly layouts",
+    "Fixed-width integers",
+    "Bulk memory clearing",
+    "Heap allocation management"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "77d0111c0d5367c0da34291c296db0cdb09aa643c963320e97277db231fb6d40",
+  "_path": "/Users/ember/dev/gh/forks/fixedbitset",
+  "_updated_at": "2026-02-14T00:56:25.531315Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Bitwise masking",
+      "Word-aligned storage",
+      "Bit-level addressing",
+      "Boxed slices",
+      "Memory locality",
+      "Constant-time complexity",
+      "Unsafe memory optimization",
+      "Trait-based indexing",
+      "Slice projections",
+      "Bounds-checked operations",
+      "Boolean algebra",
+      "Set theory primitives",
+      "Capacity management",
+      "Primitive word optimization",
+      "Inlining strategy",
+      "Rust memory safety",
+      "Cache-friendly layouts",
+      "Fixed-width integers",
+      "Bulk memory clearing",
+      "Heap allocation management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "bitset",
+      "bit-vector",
+      "data-structure",
+      "memory-efficiency",
+      "bit-manipulation",
+      "systems-programming",
+      "containers"
+    ],
+    "mined_motifs": [
+      "data-structures",
+      "Bitwise Operations",
+      "Systems Programming",
+      "Memory Management",
+      "reference-counting",
+      "Bit Masking",
+      "Bit-Slicing",
+      "Bounds Validation",
+      "Byte Alignment",
+      "Checked Arithmetic",
+      "Dense Bitmap"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.153,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.395,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.388,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.387,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 2.566,
+        "matches": []
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 2.562,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.531315Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "cfa1ce57c68d691b160997413200650f6834237ab99b751efe3c308a4485d0a0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:31.610511+00:00"
+  },
+  "mined_motifs": [
+    "data-structures",
+    "Bitwise Operations",
+    "systems-programming",
+    "Manual Memory Management",
+    "memory-management",
+    "reference-counting",
+    "Bit Masking",
+    "Bit-Slicing",
+    "Bounds Validation",
+    "Byte Alignment",
+    "Checked Arithmetic",
+    "Dense Bitmap"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.926
+    },
+    {
+      "name": "bitflags",
+      "path": "/Users/ember/dev/gh/forks/bitflags",
+      "similarity": 0.875
+    },
+    {
+      "name": "cons-list",
+      "path": "/Users/ember/dev/gh/forks/cons-list",
+      "similarity": 0.823
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.822
+    },
+    {
+      "name": "byteorder",
+      "path": "/Users/ember/dev/gh/forks/byteorder",
+      "similarity": 0.819
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.817
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.816
+    },
+    {
+      "name": "tj-binomheap",
+      "path": "/Users/ember/dev/shitheap/tj-binomheap",
+      "similarity": 0.815
+    }
+  ]
+}

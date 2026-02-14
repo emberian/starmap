@@ -1,0 +1,239 @@
+{
+  "name": "noise-rs",
+  "description": "A high-performance procedural noise generation library for Rust, implementing a variety of gradient and coherent noise algorithms. It provides composable primitives for 2D, 3D, and 4D noise, including Perlin, OpenSimplex, and Simplectic honeycomb variations. The library supports multi-octave fractal brownian motion and ridged multi-fractal generation with customizable spectral weights.",
+  "tags": [
+    "rust",
+    "procedural-generation",
+    "noise-algorithms",
+    "perlin-noise",
+    "simplex-noise",
+    "fbm",
+    "graphics-programming",
+    "math-library",
+    "coherent-noise",
+    "gradient-noise",
+    "ridged-multi-fractal",
+    "opensimplex",
+    "simplectic-honeycomb",
+    "texture-synthesis",
+    "terrain-generation",
+    "random-number-generation"
+  ],
+  "category": "Procedural Content Generation",
+  "concepts": [
+    "Gradient Noise",
+    "Coherent Noise",
+    "Fractional Brownian Motion (fBm)",
+    "Simplex Noise",
+    "OpenSimplex Algorithm",
+    "Perlin Noise",
+    "Ridged Multi-fractal",
+    "Simplectic Honeycomb",
+    "Interpolation (Lerp)",
+    "S-curve Functions (Smoothing)",
+    "Octave Summation",
+    "Spectral Weighting",
+    "Lacunarity",
+    "Persistence",
+    "Seed-based Determinism",
+    "Coordinate Skewing/Unskewing",
+    "Spatial Gradients",
+    "Multi-dimensional Sampling (2D/3D/4D)"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 25,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/source/mod.rs",
+      "src/simplex.rs",
+      "src/gen.rs",
+      "src/simplectic.rs"
+    ]
+  },
+  "_hash": "178e3d33f128cc7461ff84f87e9f5b2b38c819c12fe6c6dab392cd431674ae7a",
+  "_path": "/Users/ember/dev/gh/forks/noise-rs",
+  "_updated_at": "2026-02-14T00:56:26.216534Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Gradient Noise",
+      "Coherent Noise",
+      "Fractional Brownian Motion (fBm)",
+      "Simplex Noise",
+      "OpenSimplex Algorithm",
+      "Perlin Noise",
+      "Ridged Multi-fractal",
+      "Simplectic Honeycomb",
+      "Interpolation (Lerp)",
+      "S-curve Functions (Smoothing)",
+      "Octave Summation",
+      "Spectral Weighting",
+      "Lacunarity",
+      "Persistence",
+      "Seed-based Determinism",
+      "Coordinate Skewing/Unskewing",
+      "Spatial Gradients",
+      "Multi-dimensional Sampling (2D/3D/4D)"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Procedural Generation",
+      "noise-algorithms",
+      "perlin-noise",
+      "simplex-noise",
+      "fbm",
+      "Computer Graphics & Rendering",
+      "math-library",
+      "coherent-noise",
+      "gradient-noise",
+      "ridged-multi-fractal",
+      "opensimplex",
+      "simplectic-honeycomb",
+      "texture-synthesis",
+      "terrain-generation",
+      "random-number-generation"
+    ],
+    "mined_motifs": [
+      "Linear Algebra",
+      "Resource Acquisition Is Initialization (RAII)",
+      "2d-noise",
+      "3d-noise",
+      "4d-noise",
+      "Barycentric Coordinates",
+      "Coordinate Skewing",
+      "Grid-based Interpolation",
+      "Higher-dimensional Sampling",
+      "Lattice-based Noise",
+      "Permutation Table",
+      "Pseudo-random Number Generation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.61,
+        "matches": [
+          "procedural generation",
+          "category:Procedural Content Generation"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.43,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.409,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.409,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.335,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 5.332,
+        "matches": [
+          "persistence"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.216534Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "88be025f6da83f98a6ce6118d7de85804822c17fcc36993e6ca4b4b0891330d3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:57.594804+00:00"
+  },
+  "mined_motifs": [
+    "linear-algebra",
+    "resource-management",
+    "2d-noise",
+    "3d-noise",
+    "4d-noise",
+    "Barycentric Coordinates",
+    "Coordinate Skewing",
+    "Grid-based Interpolation",
+    "Higher-dimensional Sampling",
+    "Lattice-based Noise",
+    "Permutation Table",
+    "Pseudo-random Number Generation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "simplectic-c",
+      "path": "/Users/ember/dev/gh/simplectic-c",
+      "similarity": 0.9
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.841
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.835
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.834
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.833
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.832
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.831
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.829
+    }
+  ]
+}

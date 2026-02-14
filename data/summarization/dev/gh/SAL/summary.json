@@ -1,0 +1,201 @@
+{
+  "name": "SAL",
+  "description": "SAL appears to be a zero-knowledge proofs project using C/C++, C. The available files suggest focus areas around cryptography, socket, thread, time.",
+  "tags": [
+    "C/C++",
+    "C",
+    "cryptography",
+    "socket",
+    "thread",
+    "time",
+    "cmakelists",
+    "common",
+    "doxyfile",
+    "license",
+    "readme"
+  ],
+  "category": "Zero-Knowledge Proofs",
+  "concepts": [
+    "cryptography",
+    "socket",
+    "thread",
+    "time",
+    "cmakelists",
+    "common",
+    "doxyfile",
+    "license",
+    "readme"
+  ],
+  "languages": [
+    "C/C++",
+    "C"
+  ],
+  "maturity": "exploratory",
+  "_hash": "2140fffdd51b77a4d600e843c0d8dee8cef54c3f5d1470a32d513ed14b129d43",
+  "_path": "/Users/ember/dev/gh/SAL",
+  "_updated_at": "2026-02-14T00:56:24.257451Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "cryptography",
+      "socket",
+      "thread",
+      "time",
+      "cmakelists",
+      "common",
+      "doxyfile",
+      "license",
+      "readme"
+    ],
+    "tags": [
+      "C/C++",
+      "C",
+      "cryptography",
+      "socket",
+      "thread",
+      "time",
+      "cmakelists",
+      "common",
+      "doxyfile",
+      "license",
+      "readme"
+    ],
+    "mined_motifs": [
+      "test",
+      "dune",
+      "intf",
+      "ledger",
+      "state",
+      "data",
+      "hash",
+      "ZK-SNARKs",
+      "transition",
+      "main",
+      "Python",
+      "OCaml"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 6.1,
+        "matches": [
+          "zk-snarks",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 6.067,
+        "matches": [
+          "cryptography",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.064,
+        "matches": [
+          "cryptography",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 3.221,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 3.22,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 2.023,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.257451Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a945fa233bc40184364065c42e01db24954874d5ca2970db6dac79b96c541392",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:18.306419+00:00"
+  },
+  "mined_motifs": [
+    "test",
+    "dune",
+    "intf",
+    "ledger",
+    "state",
+    "data",
+    "hash",
+    "snark",
+    "transition",
+    "main",
+    "Python",
+    "OCaml"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.746
+    },
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.74
+    },
+    {
+      "name": "util",
+      "path": "/Users/ember/dev/gh/util",
+      "similarity": 0.71
+    },
+    {
+      "name": "zulip-terminal",
+      "path": "/Users/ember/src/zulip-terminal",
+      "similarity": 0.708
+    },
+    {
+      "name": "CommonCrypto",
+      "path": "/Users/ember/src/CommonCrypt/CommonCrypto",
+      "similarity": 0.694
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.693
+    },
+    {
+      "name": "biscuit-java",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-java",
+      "similarity": 0.674
+    },
+    {
+      "name": "ark-std",
+      "path": "/Users/ember/hellas/ark-std",
+      "similarity": 0.664
+    }
+  ]
+}

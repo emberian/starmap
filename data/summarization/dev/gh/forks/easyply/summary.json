@@ -1,0 +1,214 @@
+{
+  "name": "easyply",
+  "description": "A meta-parser and DSL for Python Lex-Yacc (PLY) that simplifies grammar definition through EBNF-like extensions. It provides automated production expansion for optional and alternative terms, and uses function docstring introspection to inject named parameter extraction and PLY-compatible rules at runtime.",
+  "tags": [
+    "ply",
+    "parser-generator",
+    "ebnf",
+    "dsl",
+    "metaprogramming",
+    "python-lex-yacc",
+    "abstract-syntax-tree",
+    "introspection",
+    "grammar-expansion",
+    "codegen"
+  ],
+  "category": "Parser Combinators & Meta-Generators",
+  "concepts": [
+    "LALR(1) Parsing",
+    "EBNF Production Expansion",
+    "Docstring-driven Logic Injection",
+    "Recursive Descent Pre-parsing",
+    "Named Semantic Actions",
+    "Context-Free Grammar Transformation",
+    "Abstract Syntax Tree (AST) Modeling",
+    "Lexical Analysis",
+    "Symbolic Term Resolution",
+    "Function Wrapping & Decorators"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": false,
+    "sample_files": [
+      "easyply/__init__.py",
+      "test/test_easyply.py",
+      "easyply/parser.py",
+      "easyply/nodes.py",
+      "setup.py"
+    ]
+  },
+  "_hash": "f96d4d90b52a5ca21184631b85d41bb373d690639d31c540fefa8cad7dcecdc6",
+  "_path": "/Users/ember/dev/gh/forks/easyply",
+  "_updated_at": "2026-02-14T00:56:25.508775Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "LALR(1) Parsing",
+      "EBNF Production Expansion",
+      "Docstring-driven Logic Injection",
+      "Recursive Descent Pre-parsing",
+      "Named Semantic Actions",
+      "Context-Free Grammar Transformation",
+      "Abstract Syntax Tree (AST) Modeling",
+      "lexical-analysis",
+      "Symbolic Term Resolution",
+      "Function Wrapping & Decorators"
+    ],
+    "tags": [
+      "ply",
+      "parser-generator",
+      "ebnf",
+      "dsl",
+      "metaprogramming",
+      "python-lex-yacc",
+      "AST",
+      "introspection",
+      "grammar-expansion",
+      "Compiler Engineering"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "lexical-analysis",
+      "parser",
+      "abstract-syntax-tree",
+      "Recursive Descent",
+      "AST",
+      "Compiler Engineering",
+      "bison",
+      "flex",
+      "s-expression"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.427,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.024,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.441,
+        "matches": [
+          "ast",
+          "ebnf"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.42,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.376,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.337,
+        "matches": [
+          "dsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.508775Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "43431c9457d1ea6951a86431a27f1e4d649a625b486b59ef4591b8e677a398de",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:28.823469+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "lexer",
+    "parser",
+    "ast",
+    "Tokenization",
+    "Recursive Descent",
+    "Abstract Syntax Trees",
+    "compiler-design",
+    "bison",
+    "flex",
+    "s-expression",
+    "tokenization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.842
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.838
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.834
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.831
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.829
+    },
+    {
+      "name": "piston_meta",
+      "path": "/Users/ember/dev/gh/forks/meta",
+      "similarity": 0.823
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.822
+    }
+  ]
+}

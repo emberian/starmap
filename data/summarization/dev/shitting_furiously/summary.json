@@ -1,0 +1,260 @@
+{
+  "name": "shitting_furiously",
+  "description": "A hybrid ray tracing implementation that utilizes a unified Rust codebase for both host-side orchestration and GPU-resident compute kernels via the rust-gpu/SPIR-V toolchain. It leverages Vulkan compute pipelines for massively parallel ray-sphere intersection tests, while providing a Rayon-based multi-threaded CPU fallback for comparative performance analysis. The system integrates real-time display capabilities through the Piston framework and handles complex Vulkan state management including descriptor sets, command buffers, and memory-mapped storage buffers.",
+  "tags": [
+    "rust",
+    "vulkan",
+    "ray-tracing",
+    "spirv",
+    "rust-gpu",
+    "compute-shader",
+    "gpgpu",
+    "vulkano",
+    "piston",
+    "rayon",
+    "path-tracing",
+    "graphics-engine",
+    "shader-compiler",
+    "real-time",
+    "hardware-acceleration",
+    "parallel-programming"
+  ],
+  "category": "Hardware-Accelerated Path Tracing",
+  "concepts": [
+    "Ray-Sphere Intersection",
+    "Vulkan Compute Pipelines",
+    "SPIR-V Intermediate Representation",
+    "Push Constant Buffers",
+    "Storage Buffer Descriptor Sets",
+    "Unified Memory Model",
+    "Command Buffer Synchronization",
+    "Parallel Ray Dispatch",
+    "Image Space Sampling",
+    "Monte Carlo Integration",
+    "Host-Device Interop",
+    "Piston Window Event Loop",
+    "Rayon Parallel Iterators",
+    "Dynamic Sphere Buffers",
+    "Perspective Camera Projection",
+    "Pseudo-random Number Generation",
+    "OpenGL Texture Mapping",
+    "SPIR-V Module Loading",
+    "Kernel Entry Point Management",
+    "Multi-threaded CPU Fallback",
+    "Vulkan Instance Management",
+    "Physical Device Selection",
+    "Queue Family Identification",
+    "Memory-Mapped I/O"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "runner/src/main.rs",
+      "shaders/src/lib.rs",
+      "runner/src/vulkan.rs",
+      "runner/build.rs"
+    ]
+  },
+  "_hash": "e2ef902dfc89195cea6c80ddb0f372eafa1ed3397005a6e645a148a6fe89d36a",
+  "_path": "/Users/ember/dev/shitting_furiously",
+  "_updated_at": "2026-02-14T00:56:30.347171Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2469f36aff3044ee2ca853befc8f53fe7b07f38383df8a521db8a7a81cf1aa83",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:48.777979+00:00"
+  },
+  "mined_motifs": [
+    "glsl",
+    "low-level",
+    "parallel-computing",
+    "graphics",
+    "glfw",
+    "gpu-compute",
+    "spir-v",
+    "graphics-programming",
+    "opengl",
+    "shader-programming",
+    "Command Queue Management",
+    "hardware-abstraction"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitheap/shitting_furiously",
+      "similarity": 0.949
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.874
+    },
+    {
+      "name": "mesmerize",
+      "path": "/Users/ember/dev/shitheap/tjmes",
+      "similarity": 0.823
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.819
+    },
+    {
+      "name": "good_night",
+      "path": "/Users/ember/dev/shitheap/good_night",
+      "similarity": 0.808
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.799
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.799
+    },
+    {
+      "name": "vulkan-zig-renderer",
+      "path": "/Users/ember/dev/peters-broken-shit/src",
+      "similarity": 0.799
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Ray-Sphere Intersection",
+      "Vulkan Compute Pipelines",
+      "SPIR-V Intermediate Representation",
+      "Push Constant Buffers",
+      "Storage Buffer Descriptor Sets",
+      "Unified Memory Model",
+      "Command Buffer Synchronization",
+      "Parallel Ray Dispatch",
+      "Image Space Sampling",
+      "Monte Carlo Integration",
+      "Host-Device Interop",
+      "Piston Window Event Loop",
+      "Rayon Parallel Iterators",
+      "Dynamic Sphere Buffers",
+      "Perspective Camera Projection",
+      "Pseudo-random Number Generation",
+      "OpenGL Texture Mapping",
+      "SPIR-V Module Loading",
+      "Kernel Entry Point Management",
+      "Multi-threaded CPU Fallback",
+      "Vulkan Instance Management",
+      "Physical Device Selection",
+      "Queue Family Identification",
+      "Memory-Mapped I/O"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "vulkan",
+      "ray-tracing",
+      "spirv",
+      "rust-gpu",
+      "GPGPU Compute",
+      "vulkano",
+      "piston",
+      "rayon",
+      "path-tracing",
+      "graphics-engine",
+      "shader-compiler",
+      "real-time-simulation",
+      "low-level-graphics",
+      "parallel-programming"
+    ],
+    "mined_motifs": [
+      "glsl",
+      "systems-programming",
+      "concurrency",
+      "Computer Graphics & Rendering",
+      "glfw",
+      "GPGPU Compute",
+      "spir-v",
+      "opengl",
+      "shader-programming",
+      "Command Queue Management",
+      "hardware-abstraction"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 13.843,
+        "matches": [
+          "gpgpu compute",
+          "vulkan",
+          "glsl",
+          "rust-gpu",
+          "spir-v",
+          "vulkano"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 10.943,
+        "matches": [
+          "real-time-simulation",
+          "shader-programming",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.122,
+        "matches": [
+          "concurrency",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.798,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 5.405,
+        "matches": [
+          "opengl",
+          "vulkan"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.304,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.347171Z"
+  }
+}

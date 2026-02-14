@@ -1,0 +1,237 @@
+{
+  "name": "maze",
+  "description": "A Love2D-based exploratory framework for investigating procedural maze generation and automated solving heuristics in Lua. The project implements a custom grid-based simulation environment to experiment with graph-theoretic synthesis and pathfinding without reliance on standard algorithmic templates. It serves as both a graphical demonstration of spatial partitioning and a sandbox for testing foundational logic in a real-time rendering context.",
+  "tags": [
+    "lua",
+    "love2d",
+    "maze-generation",
+    "maze-solving",
+    "procedural-generation",
+    "pathfinding",
+    "graph-theory",
+    "2d-graphics",
+    "game-development",
+    "algorithmic-experiments",
+    "grid-simulation"
+  ],
+  "category": "Procedural Maze Synthesis",
+  "concepts": [
+    "Graph Representation",
+    "Grid Topology",
+    "Pathfinding Heuristics",
+    "Recursive Backtracking",
+    "Spatial Partitioning",
+    "Randomized Growth",
+    "Breadth-First Search",
+    "Depth-First Search",
+    "Manhattan Distance",
+    "Euclidean Distance",
+    "Game Loop Architecture",
+    "State Management",
+    "Real-time Visualization",
+    "Coordinate Mapping",
+    "Wall Collision Logic",
+    "Vector Graphics",
+    "Seed-based Generation",
+    "Dead-end Detection",
+    "Branching Factor Analysis",
+    "Constraint Satisfaction",
+    "Vertex Buffers",
+    "Input Polling",
+    "Event-driven Rendering",
+    "Modular Logic Design"
+  ],
+  "languages": [
+    "Lua"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "b9f6ea83ffab12418cd59e93dfb7e9d2f6d47169d15568599eb1515086cc0e9e",
+  "_path": "/Users/ember/dev/gh/maze",
+  "_updated_at": "2026-02-14T00:56:27.637247Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Graph Representation",
+      "Grid Topology",
+      "Pathfinding Heuristics",
+      "Recursive Backtracking",
+      "Spatial Partitioning",
+      "Randomized Growth",
+      "Breadth-First Search",
+      "Depth-First Search",
+      "Manhattan Distance",
+      "Euclidean Distance",
+      "Game Loop Architecture",
+      "State Management",
+      "Real-time Visualization",
+      "Coordinate Mapping",
+      "Wall Collision Logic",
+      "Vector Graphics",
+      "Seed-based Generation",
+      "Dead-end Detection",
+      "Branching Factor Analysis",
+      "Constraint Satisfaction",
+      "Vertex Buffers",
+      "Input Polling",
+      "Event-driven Rendering",
+      "Modular Logic Design"
+    ],
+    "tags": [
+      "lua",
+      "love2d",
+      "maze-generation",
+      "maze-solving",
+      "Procedural Generation",
+      "pathfinding",
+      "graph-theory",
+      "2d-graphics",
+      "game-engine",
+      "algorithmic-experiments",
+      "grid-simulation"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "visualization",
+      "Double buffering",
+      "Moore neighborhood",
+      "cellular-automata",
+      "real-time-simulation",
+      "Cellular replication rules",
+      "Discrete dynamical systems",
+      "Dynamic asset scaling",
+      "Emergent behavior",
+      "Event-driven GUI",
+      "Forest fire ecology simulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 8.195,
+        "matches": [
+          "emergent behavior",
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 8.163,
+        "matches": [
+          "game-engine",
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.775,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 5.378,
+        "matches": [
+          "graph-theory"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.374,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.363,
+        "matches": [
+          "game-engine"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.637247Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "95f0bf47b7bd18bf267d7a149cef9411785527a5880599ed1863c6ee20b1227f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:04.104350+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "visualization",
+    "Double buffering",
+    "Moore neighborhood",
+    "cellular-automata",
+    "real-time",
+    "Cellular replication rules",
+    "Discrete dynamical systems",
+    "Dynamic asset scaling",
+    "Emergent behavior",
+    "Event-driven GUI",
+    "Forest fire ecology simulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.823
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.805
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.799
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.799
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.798
+    },
+    {
+      "name": "app.factshift.com",
+      "path": "/Users/ember/dev/app.factshift.com",
+      "similarity": 0.797
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.795
+    },
+    {
+      "name": "blender-graphify",
+      "path": "/Users/ember/dev/gh/blender-graphify",
+      "similarity": 0.792
+    }
+  ]
+}

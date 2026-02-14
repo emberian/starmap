@@ -1,0 +1,250 @@
+{
+  "name": "rust-sdl2",
+  "description": "rust-sdl2 implements idiomatic Rust bindings for the SDL2 multimedia library, providing a high-level abstraction over cross-platform hardware interfaces for graphics, audio, and input devices. It employs RAII patterns to manage the lifecycle of low-level C resources, effectively mitigating manual memory management risks inherent in FFI. The library covers core SDL2 functionality including event loops, windowing, and hardware-accelerated 2D rendering through a modular architecture.",
+  "tags": [
+    "rust",
+    "sdl2",
+    "ffi",
+    "multimedia",
+    "graphics",
+    "game-development",
+    "windowing",
+    "input-handling",
+    "event-loop",
+    "cross-platform",
+    "raii",
+    "2d-rendering",
+    "audio-bindings",
+    "low-level"
+  ],
+  "category": "Multimedia System Abstraction",
+  "concepts": [
+    "Foreign Function Interface",
+    "RAII Resource Management",
+    "Event-Driven Architecture",
+    "Hardware-Accelerated 2D Rendering",
+    "Window Context Management",
+    "Scancode Translation",
+    "Keycode Mapping",
+    "Joystick and Game Controller Integration",
+    "Touch and Gesture Processing",
+    "Pixel Format Handling",
+    "Surface and Texture Abstraction",
+    "Timer Management",
+    "RWops Abstraction",
+    "C-FFI Safety Wrappers",
+    "Low-level Multimedia Abstraction",
+    "Multi-Platform HAL",
+    "Error Handling via SDL_GetError",
+    "Automated Code Generation",
+    "Pixel Buffer Manipulation",
+    "Input Device Abstraction",
+    "Cross-Platform System Interop",
+    "Graphics Pipeline Abstraction",
+    "Input Event Polling",
+    "Rectangular Geometry",
+    "RGBA Color Models"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 28,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "src/codegen/main.rs",
+      "src/demo/main.rs",
+      "src/sdl2/lib.rs",
+      "src/sdl2/generated/scancode.rs"
+    ]
+  },
+  "_hash": "d742c4507586500d012fc2f0dca220a2d57a8746cb79d86f074deb75ba99d548",
+  "_path": "/Users/ember/dev/gh/forks/rust-sdl2",
+  "_updated_at": "2026-02-14T00:56:26.619710Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "foreign-function-interface",
+      "RAII Resource Management",
+      "Event-Driven Architecture",
+      "Hardware-Accelerated 2D Rendering",
+      "Window Context Management",
+      "Scancode Translation",
+      "Keycode Mapping",
+      "Joystick and Game Controller Integration",
+      "Touch and Gesture Processing",
+      "Pixel Format Handling",
+      "Surface and Texture Abstraction",
+      "Timer Management",
+      "RWops Abstraction",
+      "C-FFI Safety Wrappers",
+      "Low-level Multimedia Abstraction",
+      "Multi-Platform HAL",
+      "Error Handling via SDL_GetError",
+      "Automated Code Generation",
+      "Pixel Buffer Manipulation",
+      "Input Device Abstraction",
+      "Cross-Platform System Interop",
+      "Graphics Pipeline Abstraction",
+      "Input Event Polling",
+      "Rectangular Geometry",
+      "RGBA Color Models"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "sdl2",
+      "foreign-function-interface",
+      "multimedia",
+      "Computer Graphics & Rendering",
+      "game-engine",
+      "windowing",
+      "input-handling",
+      "Asynchronous Programming",
+      "cross-platform",
+      "Resource Acquisition Is Initialization (RAII)",
+      "2d-rendering",
+      "audio-bindings",
+      "systems-programming"
+    ],
+    "mined_motifs": [
+      "hardware-abstraction",
+      "Device Discovery",
+      "Systems Programming",
+      "systems-programming",
+      "foreign-function-interface",
+      "graphics-api",
+      "Computer Graphics & Rendering",
+      "CUDA Streams",
+      "Compute Capability Detection",
+      "OpenCL Command Queues",
+      "PCI Bus Topology",
+      "amd"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.228,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.186,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.428,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.418,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.415,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.37,
+        "matches": [
+          "graphics-api"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.619710Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "60f120a8b039dd5181abfd38fbc97df952271113e9d275160b6abb9b0799cfa4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:17.279153+00:00"
+  },
+  "mined_motifs": [
+    "hardware-abstraction",
+    "Device Discovery",
+    "systems-programming",
+    "system-programming",
+    "Foreign Function Interface (FFI)",
+    "graphics-api",
+    "rendering",
+    "CUDA Streams",
+    "Compute Capability Detection",
+    "OpenCL Command Queues",
+    "PCI Bus Topology",
+    "amd"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.854
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.852
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.848
+    },
+    {
+      "name": "winapi-rs",
+      "path": "/Users/ember/dev/gh/forks/winapi-rs",
+      "similarity": 0.842
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.838
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.835
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.83
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.83
+    }
+  ]
+}

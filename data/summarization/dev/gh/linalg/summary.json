@@ -1,0 +1,198 @@
+{
+  "name": "linalg",
+  "description": "A pedagogical linear algebra library implemented in early-stage Rust, providing fundamental matrix structures and linear system operations. It features a generic two-dimensional matrix implementation with support for row and column iteration, matrix augmentation, and row-wise manipulations. The project serves as a functional exploration of matrix calculus and linear equation substitution using Rust's primitive type system.",
+  "tags": [
+    "linear-algebra",
+    "matrix-operations",
+    "rust-lang",
+    "computational-math",
+    "pedagogical",
+    "matrices",
+    "linear-systems",
+    "row-operations"
+  ],
+  "category": "Computational Linear Algebra",
+  "concepts": [
+    "2D Matrix Representation",
+    "Matrix Augmentation",
+    "Linear System Substitution",
+    "Row/Column Iterators",
+    "Generic Numeric Constraints",
+    "Early Rust Ownership Idioms",
+    "Invariant Validation",
+    "Row Swapping",
+    "Matrix-Vector Folding"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "lib.rs",
+      "matrix.rs",
+      "system.rs"
+    ]
+  },
+  "_hash": "3aaff418f3b6068e2b64e6d7bf5fd0fb0b024b126962cc741c25bc859fe977a9",
+  "_path": "/Users/ember/dev/gh/linalg",
+  "_updated_at": "2026-02-14T00:56:27.613023Z",
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [
+      "2D Matrix Representation",
+      "Matrix Augmentation",
+      "Linear System Substitution",
+      "Row/Column Iterators",
+      "Generic Numeric Constraints",
+      "Early Rust Ownership Idioms",
+      "Invariant Validation",
+      "Row Swapping",
+      "Matrix-Vector Folding"
+    ],
+    "tags": [
+      "Linear Algebra",
+      "matrix-operations",
+      "Rust Language Ecosystem",
+      "computational-math",
+      "pedagogical",
+      "matrices",
+      "linear-systems",
+      "row-operations"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "Static Linking",
+      "blas",
+      "numerical-computing",
+      "openblas",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Basic Linear Algebra Subprograms (BLAS)",
+      "CBLAS Interface",
+      "Complex Number Support"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.341,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.548,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.515,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 3.625,
+        "matches": [
+          "category:Computational Linear Algebra"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.74,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.718,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.613023Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3b3165d522e1c99797afb6152578cdca3b0b0c396de72a247c26384c13b06a98",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:01.988124+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Foreign Function Interface (FFI)",
+    "Static Linking",
+    "blas",
+    "ffi",
+    "numerical-computing",
+    "openblas",
+    "low-level",
+    "resource-management",
+    "Basic Linear Algebra Subprograms (BLAS)",
+    "CBLAS Interface",
+    "Complex Number Support"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/forks/libblas-sys-1",
+      "similarity": 0.894
+    },
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/libblas-sys",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.886
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.881
+    },
+    {
+      "name": "cgmath-rs",
+      "path": "/Users/ember/dev/gh/forks/cgmath-rs",
+      "similarity": 0.874
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.873
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.872
+    }
+  ]
+}

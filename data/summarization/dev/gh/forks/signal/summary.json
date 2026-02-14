@@ -1,0 +1,217 @@
+{
+  "name": "signal",
+  "description": "A Rust library providing high-level abstractions for Unix signal handling, specifically optimized for building robust process supervisors. It features an execution-based crash recovery handler and a synchronous signal trapping mechanism for precise control over asynchronous events.",
+  "tags": [
+    "rust",
+    "unix-signals",
+    "system-programming",
+    "process-supervisor",
+    "signal-trapping",
+    "exec-handler",
+    "nix",
+    "linux",
+    "crash-safety",
+    "synchronous-io",
+    "raii",
+    "ffi",
+    "process-management"
+  ],
+  "category": "Unix Systems Programming",
+  "concepts": [
+    "Signal Masking",
+    "Process Execution (execve)",
+    "Synchronous Signal Handling",
+    "RAII Resource Guards",
+    "Crash Recovery Strategies",
+    "Process Supervision",
+    "POSIX Signal API",
+    "Signal Race Conditions"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/exec_handler.rs",
+      "src/trap.rs",
+      "examples/run.rs"
+    ]
+  },
+  "_hash": "ebf3e7df65900b2128c1dfffb6263081263ab06c37d5cf342cc864a97c08b925",
+  "_path": "/Users/ember/dev/gh/forks/signal",
+  "_updated_at": "2026-02-14T00:56:26.693729Z",
+  "_alignment": {
+    "category": "Infrastructure & Ops",
+    "concepts": [
+      "Signal Masking",
+      "Process Execution (execve)",
+      "Synchronous Signal Handling",
+      "RAII Resource Guards",
+      "Crash Recovery Strategies",
+      "Process Supervision",
+      "POSIX Signal API",
+      "Signal Race Conditions"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "unix-signals",
+      "systems-programming",
+      "process-supervisor",
+      "signal-trapping",
+      "exec-handler",
+      "nix",
+      "linux",
+      "crash-safety",
+      "synchronous-io",
+      "Resource Acquisition Is Initialization (RAII)",
+      "foreign-function-interface",
+      "process-management"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "libc",
+      "foreign-function-interface",
+      "systems-programming",
+      "fine-grained-reactivity",
+      "System Calls",
+      "posix",
+      "os-abstraction",
+      "Asynchronous interrupt handling",
+      "C-string interoperability",
+      "External C function bindings",
+      "FFI linkage to libc"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 11.021,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.587,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.24,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 6.832,
+        "matches": [
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.329,
+        "matches": [
+          "fine-grained-reactivity"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.581,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.693729Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "801e8f3a20b32ae6907d7fcb8459330d1d9a749d2f843839f738fb67bcc96a9a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:25.442204+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "libc",
+    "Foreign Function Interface (FFI)",
+    "low-level",
+    "signals",
+    "System Calls",
+    "posix",
+    "os-abstraction",
+    "Asynchronous interrupt handling",
+    "C-string interoperability",
+    "External C function bindings",
+    "FFI linkage to libc"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.896
+    },
+    {
+      "name": "rust-signals",
+      "path": "/Users/ember/src/rust-signals",
+      "similarity": 0.864
+    },
+    {
+      "name": "cs444-lab1",
+      "path": "/Users/ember/dev/gh/cs444-lab1",
+      "similarity": 0.863
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.838
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.826
+    },
+    {
+      "name": "shutdown_hooks",
+      "path": "/Users/ember/dev/gh/forks/shutdown_hooks_rs",
+      "similarity": 0.822
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.821
+    }
+  ]
+}

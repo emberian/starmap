@@ -1,0 +1,243 @@
+{
+  "name": "qwobot",
+  "description": "A high-performance multimodal Discord bot implemented in Rust, orchestrating local LLM inference via llama.cpp and diffusion/vision tasks through mistralrs. The system features runtime model hot-swapping, an autonomous chat agent with persistent SQLite-backed memory, and native support for the SPW symbolic expression language. It utilizes a prioritized asynchronous operation queue to manage resource-intensive generative tasks including FLUX-based image synthesis and Qwen-VL vision processing.",
+  "tags": [
+    "discord-bot",
+    "rust",
+    "llama-cpp",
+    "llm",
+    "diffusion-models",
+    "vision-language-models",
+    "flux",
+    "hot-swapping",
+    "spw",
+    "autonomous-agent",
+    "async-runtime",
+    "mistralrs",
+    "gguf",
+    "generative-ai",
+    "image-generation",
+    "vision"
+  ],
+  "category": "Multimodal LLM & Diffusion Orchestration",
+  "concepts": [
+    "local-inference",
+    "gguf-quantization",
+    "symbolic-expression-parsing",
+    "diffusion-pipelines",
+    "vision-transformers",
+    "hot-swappable-models",
+    "persistent-agent-memory",
+    "operation-queueing",
+    "command-telemetry",
+    "img2img",
+    "prompt-engineering",
+    "hardware-acceleration",
+    "metal-offloading",
+    "model-versioning",
+    "asynchronous-message-handling",
+    "remote-prompt-polling",
+    "reimagine-chains",
+    "vision-description-modes",
+    "sampling-parameters",
+    "huggingface-integration"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 641,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/commands/mod.rs",
+      "src/main.rs",
+      "src/commands/imagine.rs",
+      "src/queue.rs"
+    ]
+  },
+  "_hash": "564919f9102c178a5c5e5acb2b63bbcb0a450315ec32a48c3d631f236822be8f",
+  "_path": "/Users/ember/dev/qwobot",
+  "_updated_at": "2026-02-14T00:56:29.888015Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Large Language Model Inference",
+      "gguf-quantization",
+      "symbolic-expression-parsing",
+      "diffusion-pipelines",
+      "vision-transformers",
+      "hot-swappable-models",
+      "persistent-agent-memory",
+      "operation-queueing",
+      "command-telemetry",
+      "img2img",
+      "prompt-engineering",
+      "low-level-graphics",
+      "metal-offloading",
+      "model-versioning",
+      "asynchronous-message-handling",
+      "remote-prompt-polling",
+      "reimagine-chains",
+      "vision-description-modes",
+      "sampling-parameters",
+      "huggingface-integration"
+    ],
+    "tags": [
+      "discord-bot",
+      "Rust Language Ecosystem",
+      "llama-cpp",
+      "Large Language Model Inference",
+      "diffusion-models",
+      "vision-language-models",
+      "flux",
+      "hot-swapping",
+      "spw",
+      "autonomous-agent",
+      "async-runtime",
+      "mistralrs",
+      "gguf",
+      "generative-ai",
+      "image-generation",
+      "vision"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "cuda",
+      "Large Language Model Inference",
+      "quantization",
+      "rust",
+      "asynchronous-task-processing",
+      "client-side-rendering",
+      "Concurrency & Synchronization",
+      "concurrency-primitives",
+      "database-abstraction-layer",
+      "event-loop-architecture"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 10.791,
+        "matches": [
+          "large language model inference",
+          "gguf",
+          "llama-cpp",
+          "quantization",
+          "category:Multimodal LLM & Diffusion Orchestration"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 9.549,
+        "matches": [
+          "cuda",
+          "quantization",
+          "gguf"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 8.203,
+        "matches": [
+          "generative-ai",
+          "vision-language-models"
+        ]
+      },
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 5.424,
+        "matches": [
+          "diffusion-models"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.347,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.331,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.888015Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "19dfade839b0ea74a036d7fe1fc2c2c48b13c0e0d968c958c350157f9e991ea0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:25.869870+00:00"
+  },
+  "mined_motifs": [
+    "Model Context Protocol (MCP)",
+    "mcp",
+    "cuda",
+    "llm-inference",
+    "quantization",
+    "async-rust",
+    "asynchronous-task-processing",
+    "client-side-rendering",
+    "concurrency",
+    "concurrency-primitives",
+    "database-abstraction-layer",
+    "event-loop-architecture"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.824
+    },
+    {
+      "name": "mistral.rs",
+      "path": "/Users/ember/src/mistral.rs",
+      "similarity": 0.816
+    },
+    {
+      "name": "zwobot",
+      "path": "/Users/ember/dev/zwobot",
+      "similarity": 0.796
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.792
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.785
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.783
+    },
+    {
+      "name": "llama.cpp",
+      "path": "/Users/ember/src/llama.cpp",
+      "similarity": 0.783
+    }
+  ]
+}

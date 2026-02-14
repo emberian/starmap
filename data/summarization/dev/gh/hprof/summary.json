@@ -1,0 +1,236 @@
+{
+  "name": "hprof",
+  "description": "hprof is a real-time hierarchical profiler for Rust designed for rough performance measurements in systems with tree-like execution patterns, such as game engines. It allows developers to annotate code blocks into a structured tree of behavior, measuring the relative time consumption of nested systems like physics, AI, and rendering. The library provides both explicit profiler management and implicit thread-local state using RAII guards for non-invasive instrumentation.",
+  "tags": [
+    "rust",
+    "profiler",
+    "hierarchical",
+    "real-time",
+    "instrumentation",
+    "performance-analysis",
+    "game-development",
+    "raii",
+    "thread-local",
+    "benchmarking",
+    "diagnostics"
+  ],
+  "category": "Instrumenting Hierarchical Profiling",
+  "concepts": [
+    "Hierarchical Execution Trees",
+    "Scope-based Timing Instrumentation",
+    "RAII Performance Guards",
+    "Thread-local Profiling Context",
+    "Real-time Latency Analysis",
+    "Call Tree Visualization",
+    "Nested Timing Statistics",
+    "Frame-based Profiling",
+    "Performance Attribution",
+    "Dynamic Node Allocation",
+    "Parent-Child Behavioral Mapping",
+    "Nanosecond-precision Measurement",
+    "Instrumentation Overhead Management",
+    "Manual Scope Control",
+    "Automatic Destructor-based Leaves",
+    "Static String Interning for Labels",
+    "System-level Bottleneck Identification",
+    "Non-sampling Performance Attribution",
+    "Iterative Performance Optimization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "examples/noguard.rs",
+      "examples/implicit.rs",
+      "examples/explicit.rs"
+    ]
+  },
+  "_hash": "1076cfdf731a3f54f172f21c7a156f3c2289722c8933fb4ac5374dd65bd890eb",
+  "_path": "/Users/ember/dev/gh/hprof",
+  "_updated_at": "2026-02-14T00:56:27.326543Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Hierarchical Execution Trees",
+      "Scope-based Timing Instrumentation",
+      "RAII Performance Guards",
+      "Thread-local Profiling Context",
+      "Real-time Latency Analysis",
+      "Call Tree Visualization",
+      "Nested Timing Statistics",
+      "Frame-based Profiling",
+      "Performance Attribution",
+      "Dynamic Node Allocation",
+      "Parent-Child Behavioral Mapping",
+      "Nanosecond-precision Measurement",
+      "Instrumentation Overhead Management",
+      "Manual Scope Control",
+      "Automatic Destructor-based Leaves",
+      "Static String Interning for Labels",
+      "System-level Bottleneck Identification",
+      "Non-sampling Performance Attribution",
+      "Iterative Performance Optimization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "profiler",
+      "hierarchical",
+      "real-time-simulation",
+      "instrumentation",
+      "performance-analysis",
+      "game-engine",
+      "Resource Acquisition Is Initialization (RAII)",
+      "thread-local",
+      "benchmarking",
+      "diagnostics"
+    ],
+    "mined_motifs": [
+      "Resource Acquisition Is Initialization (RAII)",
+      "cgroups",
+      "systems-programming",
+      "Rust Language Ecosystem",
+      "Systems Programming",
+      "performance profiling",
+      "Behavior-Driven Development",
+      "Syntax Extensions",
+      "bdd",
+      "Compiler Engineering",
+      "compiler-plugin",
+      "dsl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 9.389,
+        "matches": [
+          "benchmarking",
+          "instrumentation",
+          "performance-analysis",
+          "category:Instrumenting Hierarchical Profiling"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.136,
+        "matches": [
+          "cgroups",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.121,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 8.09,
+        "matches": [
+          "dsl",
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.35,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.332,
+        "matches": [
+          "systems-programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.326543Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9784531a52ff719e4bb76925c20aa64093d14ac20de9645ea4d2362a339e7ff2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:51.354781+00:00"
+  },
+  "mined_motifs": [
+    "resource-management",
+    "cgroups",
+    "low-level",
+    "no_std",
+    "systems-programming",
+    "performance profiling",
+    "Behavior-Driven Development",
+    "Syntax Extensions",
+    "bdd",
+    "code-generation",
+    "compiler-plugin",
+    "dsl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.813
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.797
+    },
+    {
+      "name": "shuteye",
+      "path": "/Users/ember/dev/gh/forks/shuteye",
+      "similarity": 0.796
+    },
+    {
+      "name": "rust-bench",
+      "path": "/Users/ember/dev/gh/rust-bench",
+      "similarity": 0.795
+    },
+    {
+      "name": "libfringe",
+      "path": "/Users/ember/dev/gh/forks/libfringe",
+      "similarity": 0.793
+    },
+    {
+      "name": "how-long-does-it-take-to-spawn-a-thread",
+      "path": "/Users/ember/dev/gh/how-long-does-it-take-to-spawn-a-thread",
+      "similarity": 0.79
+    },
+    {
+      "name": "speculate.rs",
+      "path": "/Users/ember/dev/gh/forks/speculate.rs",
+      "similarity": 0.79
+    },
+    {
+      "name": "stainless",
+      "path": "/Users/ember/dev/gh/forks/stainless",
+      "similarity": 0.788
+    }
+  ]
+}

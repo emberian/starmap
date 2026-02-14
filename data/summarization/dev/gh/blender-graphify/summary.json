@@ -1,0 +1,208 @@
+{
+  "name": "blender-graphify",
+  "description": "A Blender operator and mesh utility for extracting topological face-adjacency graphs from arbitrary manifold geometry. It provides a specialized cuboid generator with parametric subdivision and a 'graphify' process that maps mesh faces to graph nodes and shared edges to graph links using the BMesh API.",
+  "tags": [
+    "blender-addon",
+    "bmesh",
+    "topology-analysis",
+    "mesh-processing",
+    "python-scripting",
+    "graph-theory",
+    "procedural-generation",
+    "face-adjacency",
+    "geometry-processing",
+    "manifold-topology"
+  ],
+  "category": "Computational Geometry & Mesh Topology",
+  "concepts": [
+    "dual graph extraction",
+    "face-adjacency graphs",
+    "parametric mesh subdivision",
+    "boundary representation (B-Rep)",
+    "manifold topology",
+    "Blender BMesh integration",
+    "topological data structures",
+    "connectivity mapping",
+    "primitive mesh generation",
+    "operator registration",
+    "non-destructive geometry analysis"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "mesh_to_graph.py"
+    ]
+  },
+  "_hash": "1c31fc94b16b6bff7187db0306c2ff954c69e4dc994e8d83811d568c93a076fa",
+  "_path": "/Users/ember/dev/gh/blender-graphify",
+  "_updated_at": "2026-02-14T00:56:24.474117Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "dual graph extraction",
+      "face-adjacency graphs",
+      "parametric mesh subdivision",
+      "boundary representation (B-Rep)",
+      "manifold topology",
+      "Blender BMesh integration",
+      "topological data structures",
+      "connectivity mapping",
+      "primitive mesh generation",
+      "operator registration",
+      "non-destructive geometry analysis"
+    ],
+    "tags": [
+      "blender-addon",
+      "bmesh",
+      "topology-analysis",
+      "mesh-processing",
+      "python-scripting",
+      "graph-theory",
+      "Procedural Generation",
+      "face-adjacency",
+      "geometry-processing",
+      "manifold-topology"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "opengl",
+      "Computer Graphics & Rendering",
+      "glfw",
+      "3d-graphics",
+      "visualization",
+      "graphics-engine",
+      "cpp",
+      "3D Geometry Rendering",
+      "Coordinate System Scaling",
+      "Depth Testing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.77,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 5.398,
+        "matches": [
+          "graph-theory"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.321,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.314,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 3.932,
+        "matches": [
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 3.931,
+        "matches": [
+          "opengl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.474117Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "46eb0104d75e58ccbc40072811e58dbe29e2ef678d1644f249adbbcf13d26c66",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:33.679181+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "opengl",
+    "graphics",
+    "glfw",
+    "real-time-rendering",
+    "3d-graphics",
+    "visualization",
+    "graphics-engine",
+    "cpp",
+    "3D Geometry Rendering",
+    "Coordinate System Scaling",
+    "Depth Testing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.818
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.817
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.816
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.815
+    },
+    {
+      "name": "rust-logo-3d",
+      "path": "/Users/ember/dev/gh/rust-logo-3d",
+      "similarity": 0.808
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.802
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.796
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.794
+    }
+  ]
+}

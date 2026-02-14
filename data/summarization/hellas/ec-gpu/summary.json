@@ -1,0 +1,266 @@
+{
+  "name": "ec-gpu",
+  "description": "ec-gpu is a Rust-based framework for generating and executing CUDA and OpenCL kernels optimized for finite-field and elliptic curve arithmetic. It provides a compile-time code generation pipeline that produces optimized fatbins or source strings for cryptographic primitives such as Fast Fourier Transforms (FFT) and Multi-Scalar Multiplication (MSM). The system is designed to accelerate zero-knowledge proof systems by offloading heavy algebraic computations to heterogeneous hardware with minimal runtime overhead.",
+  "tags": [
+    "rust",
+    "cuda",
+    "opencl",
+    "cryptography",
+    "finite-fields",
+    "elliptic-curves",
+    "msm",
+    "fft",
+    "zkp",
+    "gpgpu",
+    "code-generation",
+    "performance",
+    "zero-knowledge-proofs",
+    "hardware-acceleration"
+  ],
+  "category": "GPU-Accelerated Cryptographic Primitives",
+  "concepts": [
+    "finite field arithmetic",
+    "prime fields",
+    "elliptic curve arithmetic",
+    "multi-scalar multiplication",
+    "fast fourier transform",
+    "montgomery reduction",
+    "cuda kernels",
+    "opencl kernels",
+    "fatbin generation",
+    "radix-fft",
+    "windowed msm",
+    "extension fields",
+    "limb-based arithmetic",
+    "heterogeneous computing",
+    "hardware acceleration",
+    "zero-knowledge proofs",
+    "thread pooling",
+    "parallel computing",
+    "memory padding",
+    "compute capability",
+    "butterfly operations",
+    "prime curve affine",
+    "scalar fields",
+    "field extension",
+    "radix-256",
+    "compile-time-codegen",
+    "gpu-memory-management",
+    "computational-acceleration",
+    "parallel-fft",
+    "parallel-msm",
+    "bit-reversal-permutation"
+  ],
+  "languages": [
+    "Rust",
+    "OpenCL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 41,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "ec-gpu/src/lib.rs",
+      "ec-gpu-gen/src/lib.rs",
+      "ec-gpu-gen/src/source.rs",
+      "ec-gpu-gen/src/multiexp_cpu.rs"
+    ]
+  },
+  "_hash": "372fd562b35a763c66902ad6f2d709271c0c05028fe57d9e0be787a88cc2a826",
+  "_path": "/Users/ember/hellas/ec-gpu",
+  "_updated_at": "2026-02-14T00:56:31.335731Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e9974b4a5f1d227e9c4cf31e25798714d7babce55b1cb99bdbb301d7902991db",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:27.010473+00:00"
+  },
+  "mined_motifs": [
+    "arkworks",
+    "gpu-acceleration",
+    "Multi-Scalar Multiplication (MSM)",
+    "bls12-381",
+    "zero-knowledge",
+    "Fast Fourier Transform (FFT)",
+    "Elliptic Curve Cryptography",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "pairings",
+    "Canonical Serialization",
+    "Cofactor Clearing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ec-gpu",
+      "path": "/Users/ember/dev/gh/forks/ec-gpu",
+      "similarity": 0.978
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.895
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/dev/gh/forks/rust-gpu-tools",
+      "similarity": 0.867
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.865
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.859
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.856
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/hellas/ark-blst",
+      "similarity": 0.854
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "finite field arithmetic",
+      "prime fields",
+      "elliptic curve arithmetic",
+      "multi-scalar multiplication",
+      "fast fourier transform",
+      "montgomery reduction",
+      "cuda kernels",
+      "opencl kernels",
+      "fatbin generation",
+      "radix-fft",
+      "windowed msm",
+      "extension fields",
+      "limb-based arithmetic",
+      "heterogeneous computing",
+      "hardware acceleration",
+      "zero-knowledge proofs",
+      "thread pooling",
+      "parallel computing",
+      "memory padding",
+      "compute capability",
+      "butterfly operations",
+      "prime curve affine",
+      "scalar fields",
+      "field extension",
+      "radix-256",
+      "compile-time-codegen",
+      "gpu-memory-management",
+      "computational-acceleration",
+      "parallel-fft",
+      "parallel-msm",
+      "bit-reversal-permutation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cuda",
+      "opencl",
+      "cryptography",
+      "finite-fields",
+      "elliptic-curves",
+      "multi-scalar-multiplication",
+      "fast-fourier-transform",
+      "zero-knowledge-proofs",
+      "GPGPU Compute",
+      "Compiler Engineering",
+      "performance",
+      "Zero-Knowledge Proofs (ZKP)",
+      "low-level-graphics"
+    ],
+    "mined_motifs": [
+      "arkworks",
+      "low-level-graphics",
+      "multi-scalar-multiplication",
+      "bls12-381",
+      "zero-knowledge-proofs",
+      "fast-fourier-transform",
+      "Elliptic Curve Cryptography",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "pairings",
+      "Canonical Serialization",
+      "Cofactor Clearing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.705,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.657,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.889,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.517,
+        "matches": [
+          "cuda"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.495,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.495,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.335731Z"
+  }
+}

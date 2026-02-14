@@ -1,0 +1,245 @@
+{
+  "name": "Blackwing",
+  "description": "Blackwing is a scriptable space simulation and tactical combat engine built with Rust, featuring a multi-client architecture including WebAssembly and TUI frontends. The core engine integrates a Rhai-based scripting environment with JIT compilation via Cranelift to drive sophisticated behavior tree and utility AI systems. It maintains a persistent game world using Sea-ORM and SQLite, supporting high-fidelity simulation cycles and hot-reloadable game logic.",
+  "tags": [
+    "rust",
+    "space-sim",
+    "rhai",
+    "behavior-trees",
+    "utility-ai",
+    "jit-compiler",
+    "cranelift",
+    "leptos",
+    "sqlite",
+    "websocket",
+    "game-engine",
+    "scripting",
+    "simulation",
+    "tui",
+    "axum",
+    "sea-orm"
+  ],
+  "category": "Scriptable Space Simulation Engine",
+  "concepts": [
+    "Behavior Trees",
+    "Utility AI",
+    "JIT Compilation",
+    "Domain Scripting",
+    "Entity Archetypes",
+    "Hot Reloading",
+    "Event-Driven Architecture",
+    "Procedural Mission Generation",
+    "Simulation Loop",
+    "Game State Export",
+    "Reactive UI",
+    "WebAssembly",
+    "Coroutine Scheduling",
+    "State Synchronization",
+    "MessagePack Serialization",
+    "Behavior-Driven Development",
+    "Entity Component Modeling",
+    "Asynchronous Task Execution"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "Shell",
+    "JavaScript",
+    "Rhai"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1116,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/bw-ai/src/lib.rs",
+      "crates/bw-auth/src/lib.rs",
+      "crates/bw-core/src/events/mod.rs",
+      "crates/bw-core/src/lib.rs"
+    ]
+  },
+  "_hash": "2bb1e5997fb15f4803a6b398ecbd21d345e50a5f21d3c7ed1ad3dd77682a66e3",
+  "_path": "/Users/ember/dev/bw-exp1",
+  "_updated_at": "2026-02-14T00:56:23.636388Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Behavior Trees",
+      "Utility AI",
+      "JIT Compilation",
+      "Domain Scripting",
+      "Entity Archetypes",
+      "Hot Reloading",
+      "Event-Driven Architecture",
+      "Procedural Mission Generation",
+      "Simulation Loop",
+      "Game State Export",
+      "Reactive UI",
+      "WebAssembly",
+      "Coroutine Scheduling",
+      "State Synchronization",
+      "MessagePack Serialization",
+      "Behavior-Driven Development",
+      "Entity Component Modeling",
+      "Asynchronous Task Execution"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "space-sim",
+      "rhai",
+      "behavior-trees",
+      "utility-ai",
+      "jit-compiler",
+      "cranelift",
+      "leptos",
+      "sqlite",
+      "websocket",
+      "game-engine",
+      "scripting",
+      "real-time-simulation",
+      "tui",
+      "axum",
+      "sea-orm"
+    ],
+    "mined_motifs": [
+      "typescript",
+      "ecs",
+      "narrative-engine",
+      "state-management",
+      "vite",
+      "WebAssembly",
+      "Reactive UI Components",
+      "Entity Component System",
+      "Economy Modeling",
+      "Procedural World Generation",
+      "Procedural Generation",
+      "physics-engine"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 8.153,
+        "matches": [
+          "ecs",
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 8.095,
+        "matches": [
+          "jit compilation",
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.696,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.376,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.364,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.35,
+        "matches": [
+          "game-engine"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.636388Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9bc33e014c19de1abcde736b286103c5b9d4b040777b8f8fef7689c59758a23c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:43.579338+00:00"
+  },
+  "mined_motifs": [
+    "typescript",
+    "ecs",
+    "narrative-engine",
+    "state-management",
+    "vite",
+    "wasm",
+    "Reactive UI Components",
+    "Entity Component System",
+    "Economy Modeling",
+    "Procedural World Generation",
+    "procedural-generation",
+    "physics-engine"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.829
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.815
+    },
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.791
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.788
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.787
+    },
+    {
+      "name": "booty-hunt",
+      "path": "/Users/ember/dev/booty-hunt",
+      "similarity": 0.786
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.781
+    },
+    {
+      "name": "Baystation12",
+      "path": "/Users/ember/dev/gh/forks/Baystation12",
+      "similarity": 0.78
+    }
+  ]
+}

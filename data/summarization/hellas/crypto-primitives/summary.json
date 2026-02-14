@@ -1,0 +1,272 @@
+{
+  "name": "ark-crypto-primitives",
+  "description": "ark-crypto-primitives is a core component of the arkworks ecosystem, providing high-performance implementations of cryptographic primitives specifically optimized for zero-knowledge proof systems. It offers a comprehensive suite of traits and gadgets for collision-resistant hashing, hiding commitments, digital signatures, and asymmetric encryption, along with their corresponding Rank-1 Constraint System (R1CS) representations. The library enables the construction of complex SNARK circuits by offering standardized, modular components like Pedersen hashes and Merkle tree accumulators.",
+  "tags": [
+    "cryptography",
+    "zksnarks",
+    "r1cs",
+    "rust",
+    "arkworks",
+    "merkle-tree",
+    "pedersen-hash",
+    "poseidon-hash",
+    "schnorr-signature",
+    "elgamal-encryption",
+    "blake2s",
+    "gadgets",
+    "sponge-construction",
+    "circuit-design",
+    "zero-knowledge",
+    "elliptic-curves"
+  ],
+  "category": "zkSNARK Cryptographic Primitives",
+  "concepts": [
+    "Zero-Knowledge Succinct Non-Interactive Arguments (zkSNARKs)",
+    "Rank-1 Constraint Systems (R1CS)",
+    "Collision-Resistant Hash Functions (CRH)",
+    "Hiding Commitments",
+    "Digital Signatures",
+    "Asymmetric Encryption",
+    "Merkle Trees",
+    "Arithmetic Circuit Gadgets",
+    "Poseidon Hash Function",
+    "Pedersen Hashing",
+    "Bowe-Hopwood Hashing",
+    "Schnorr Signatures",
+    "ElGamal Encryption",
+    "Blake2s",
+    "Sponge Construction",
+    "Elliptic Curve Cryptography",
+    "Twisted Edwards Curves",
+    "Finite Field Arithmetic",
+    "Fiat-Shamir Transformation",
+    "Pseudo-Random Functions (PRF)",
+    "Constraint System Composition",
+    "Succinctness",
+    "Non-Interactivity",
+    "Circuit Optimization",
+    "Modular Arithmetic",
+    "Curve Embeddings",
+    "ZEXE Protocol",
+    "Subgroup Membership Verification",
+    "Injective Mappings",
+    "Linear Feedback Shift Registers (LFSR)"
+  ],
+  "languages": [
+    "Rust",
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 71,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crypto-primitives/src/commitment/blake2s/mod.rs",
+      "crypto-primitives/src/commitment/injective_map/mod.rs",
+      "crypto-primitives/src/commitment/mod.rs",
+      "crypto-primitives/src/commitment/pedersen/mod.rs"
+    ]
+  },
+  "_hash": "4669bbac6ba3c267e1d640fda54a8695a3f80f9d21939edfd46d6aab3c1e423e",
+  "_path": "/Users/ember/hellas/crypto-primitives",
+  "_updated_at": "2026-02-14T00:56:31.315256Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6580203ba4c0b57014150c3ff9e3a394af49b855c9e297d3ef6fea979da2109c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:25.313779+00:00"
+  },
+  "mined_motifs": [
+    "mina-protocol",
+    "Recursive SNARKs",
+    "Zero-Knowledge Proofs",
+    "pairings",
+    "polynomial-commitments",
+    "Arithmetic Circuits",
+    "blockchain",
+    "smart-contracts",
+    "zero-knowledge-proofs",
+    "Multivariate Polynomials",
+    "Pairing-Friendly Curves",
+    "R1CS Constraints"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.931
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.908
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.904
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.9
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.891
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.89
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.888
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.884
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Zero-Knowledge Cryptography",
+      "Rank-1 Constraint Systems (R1CS)",
+      "Collision-Resistant Hash Functions (CRH)",
+      "Hiding Commitments",
+      "Digital Signatures",
+      "Asymmetric Encryption",
+      "Merkle Trees",
+      "Arithmetic Circuit Gadgets",
+      "Poseidon Hash Function",
+      "Pedersen Hashing",
+      "Bowe-Hopwood Hashing",
+      "Schnorr Signatures",
+      "ElGamal Encryption",
+      "Blake2s",
+      "Sponge Construction",
+      "Elliptic Curve Cryptography",
+      "Twisted Edwards Curves",
+      "Finite Field Arithmetic",
+      "Fiat-Shamir Transformation",
+      "Pseudo-Random Functions (PRF)",
+      "Constraint System Composition",
+      "Succinctness",
+      "Non-Interactivity",
+      "Circuit Optimization",
+      "Modular Arithmetic",
+      "Curve Embeddings",
+      "ZEXE Protocol",
+      "Subgroup Membership Verification",
+      "Injective Mappings",
+      "Linear Feedback Shift Registers (LFSR)"
+    ],
+    "tags": [
+      "cryptography",
+      "ZK-SNARKs",
+      "r1cs",
+      "Rust Language Ecosystem",
+      "arkworks",
+      "merkle-tree",
+      "pedersen-hash",
+      "poseidon-hash",
+      "schnorr-signature",
+      "elgamal-encryption",
+      "blake2s",
+      "gadgets",
+      "sponge-construction",
+      "circuit-design",
+      "zero-knowledge-proofs",
+      "elliptic-curves"
+    ],
+    "mined_motifs": [
+      "Mina Protocol",
+      "zero-knowledge-proofs",
+      "Zero-Knowledge Proofs",
+      "pairings",
+      "polynomial-commitments",
+      "Arithmetic Circuits",
+      "blockchain",
+      "smart-contracts",
+      "Zero-Knowledge Proofs (ZKP)",
+      "Multivariate Polynomials",
+      "Pairing-Friendly Curves",
+      "R1CS Constraints"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 11.225,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.765,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 8.396,
+        "matches": [
+          "mina protocol",
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 8.366,
+        "matches": [
+          "cryptography",
+          "zero-knowledge cryptography"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 7.021,
+        "matches": [
+          "zero-knowledge proofs",
+          "r1cs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 7.011,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.315256Z"
+  }
+}

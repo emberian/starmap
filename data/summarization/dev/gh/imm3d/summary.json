@@ -1,0 +1,217 @@
+{
+  "name": "imm3d",
+  "description": "imm3d is an exploratory Rust library designed for immediate-mode 3D graphics programming, providing a streamlined imperative interface for rendering spatial primitives. By abstracting the complexities of retained-mode graphics pipelines, the project facilitates rapid prototyping and direct visualization through a simplified API. It currently serves as a minimal scaffold for implementing lightweight 3D rendering routines suitable for systems-level diagnostics and tooling.",
+  "tags": [
+    "rust",
+    "immediate-mode",
+    "3d-graphics",
+    "graphics-api",
+    "rendering",
+    "visualization",
+    "graphics-library",
+    "bsl-1.0"
+  ],
+  "category": "Immediate-Mode Graphics Rendering",
+  "concepts": [
+    "Immediate Mode Rendering",
+    "Graphics Pipeline Abstraction",
+    "3D Primitive Assembly",
+    "Direct-Mode Drawing",
+    "Spatial Visualization",
+    "Imperative Graphics API",
+    "Vertex Specification",
+    "Coordinate Transformations",
+    "Fixed-Function Emulation",
+    "Rasterization Pipeline",
+    "Depth Buffer Management",
+    "Real-time Rendering",
+    "Shader State Abstraction",
+    "Graphics Context Lifecycle",
+    "Lightweight Rendering Routines",
+    "Systems Visualization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "c1911723416a7fbac272e16caa35216f4d3522e1b4e77eb3b9790531867b4ccf",
+  "_path": "/Users/ember/dev/gh/imm3d",
+  "_updated_at": "2026-02-14T00:56:27.359441Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Immediate Mode Rendering",
+      "Graphics Pipeline Abstraction",
+      "3D Primitive Assembly",
+      "Direct-Mode Drawing",
+      "Spatial Visualization",
+      "Imperative Graphics API",
+      "Vertex Specification",
+      "Coordinate Transformations",
+      "Fixed-Function Emulation",
+      "Rasterization Pipeline",
+      "Depth Buffer Management",
+      "Real-time Rendering",
+      "Shader State Abstraction",
+      "Graphics Context Lifecycle",
+      "Lightweight Rendering Routines",
+      "Systems Visualization"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "immediate-mode",
+      "3d-graphics",
+      "graphics-api",
+      "Computer Graphics & Rendering",
+      "visualization",
+      "graphics-library",
+      "bsl-1.0"
+    ],
+    "mined_motifs": [
+      "opengl",
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "glfw",
+      "Computer Graphics & Rendering",
+      "hardware-abstraction",
+      "Arc-ball Camera",
+      "Deferred Rendering Targets",
+      "Event Propagation",
+      "First-person Camera",
+      "Framebuffer Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.987,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.979,
+        "matches": [
+          "real-time rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.928,
+        "matches": [
+          "graphics-api",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.542,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.538,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.521,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.359441Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "741145c69fea5466c91f61e455b037f22385beb776c91091b652ae78f82dbf89",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:53.215895+00:00"
+  },
+  "mined_motifs": [
+    "opengl",
+    "low-level",
+    "resource-management",
+    "glfw",
+    "real-time-rendering",
+    "hardware-abstraction",
+    "graphics",
+    "Arc-ball Camera",
+    "Deferred Rendering Targets",
+    "Event Propagation",
+    "First-person Camera",
+    "Framebuffer Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.916
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.889
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.883
+    },
+    {
+      "name": "rust-logo-3d",
+      "path": "/Users/ember/dev/gh/rust-logo-3d",
+      "similarity": 0.882
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.875
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.872
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.871
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "name": "reu_unif",
+  "description": "A symbolic security protocol analyzer implemented in Rust, designed to model and verify intruder deduction capabilities within cryptographic environments. The system utilizes Sigma and Cap term representations to execute forward-search algorithms, determining if an attacker can derive sensitive goals from a set of protocol rules and facts. It incorporates custom matching logic for handling cryptographic primitives like pairing and encryption, facilitating formal verification of security properties.",
+  "tags": [
+    "rust",
+    "security-protocols",
+    "formal-methods",
+    "unification",
+    "symbolic-logic",
+    "dolev-yao",
+    "protocol-verification",
+    "intruder-model",
+    "term-rewriting",
+    "static-analysis",
+    "cryptography",
+    "logic-programming"
+  ],
+  "category": "Symbolic Security Protocol Analysis",
+  "concepts": [
+    "Sigma-terms",
+    "Cap-terms",
+    "Intruder knowledge deduction",
+    "Symbolic matching",
+    "Forward search algorithm",
+    "Cryptographic protocol modeling",
+    "Capability matching",
+    "Syntactic matching",
+    "Formal logic",
+    "Term substitution",
+    "Protocol rules",
+    "Deduction system",
+    "Security goal verification",
+    "Dolev-Yao attacker model",
+    "Term rewriting systems",
+    "Knowledge base saturation",
+    "Automated theorem proving",
+    "Abstract syntax trees",
+    "Lexical analysis",
+    "Recursive descent parsing"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/capmatch.rs",
+      "src/parse.rs"
+    ]
+  },
+  "_hash": "8148b8a2837a66076d019c09f13f9aeef6272f9ebae2fc6a219dbd3653041ef5",
+  "_path": "/Users/ember/dev/gh/reu_unif",
+  "_updated_at": "2026-02-14T00:56:28.125389Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Sigma-terms",
+      "Cap-terms",
+      "Intruder knowledge deduction",
+      "Symbolic matching",
+      "Forward search algorithm",
+      "Cryptographic protocol modeling",
+      "Capability matching",
+      "Syntactic matching",
+      "Formal logic",
+      "Term substitution",
+      "Protocol rules",
+      "Deduction system",
+      "Security goal verification",
+      "Dolev-Yao attacker model",
+      "Term rewriting systems",
+      "Knowledge base saturation",
+      "Automated theorem proving",
+      "AST",
+      "lexical-analysis",
+      "Recursive descent parsing"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "security-protocols",
+      "formal-verification",
+      "unification",
+      "symbolic-logic",
+      "dolev-yao",
+      "protocol-verification",
+      "intruder-model",
+      "term-rewriting",
+      "static-analysis",
+      "cryptography",
+      "logic-programming"
+    ],
+    "mined_motifs": [
+      "Data Serialization",
+      "Compiler Engineering",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "functional-programming",
+      "lisp",
+      "Context-Free Grammar",
+      "Formal Language Theory"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.615,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression",
+          "term rewriting systems",
+          "symbolic-logic"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.011,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 6.634,
+        "matches": [
+          "logic-programming",
+          "category:Symbolic Security Protocol Analysis"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.428,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.427,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.424,
+        "matches": [
+          "cryptography"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.125389Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "74b33fb5248027d35dc03ec28ce3ab1d6de629f288b0c0cbd619a721db7d79f8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:16.650520+00:00"
+  },
+  "mined_motifs": [
+    "serialization",
+    "compiler-design",
+    "Tokenization",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "functional-programming",
+    "lisp",
+    "Context-Free Grammar",
+    "Formal Language Theory"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.843
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.84
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.833
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.826
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.825
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.825
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.824
+    }
+  ]
+}

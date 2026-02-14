@@ -1,0 +1,211 @@
+{
+  "name": "cs242_hw3",
+  "description": "A JavaFX-based implementation of a sequential dice game involving fair and biased probability distributions. The application facilitates user-configured game parameters, including die dimensionality and specific side weighting via a 'LoadedDie' subclass. It demonstrates event-driven UI management and basic state-based game logic within a desktop environment.",
+  "tags": [
+    "java",
+    "javafx",
+    "dice-game",
+    "stochastic-simulation",
+    "event-driven",
+    "gui",
+    "homework",
+    "probability-simulation"
+  ],
+  "category": "Stochastic Game Simulation",
+  "concepts": [
+    "JavaFX Application Framework",
+    "Event-Driven Architecture",
+    "Stochastic Processes",
+    "Discrete Probability Distributions",
+    "Weighted Random Sampling",
+    "Object-Oriented Polymorphism",
+    "State Machine Design",
+    "UI Layout Management",
+    "User Input Validation",
+    "Exception Propagation",
+    "Inheritance Patterns",
+    "Anonymous Inner Classes",
+    "Modal Interaction Patterns",
+    "Scene Graph Manipulation",
+    "Callback-based Control Flow",
+    "Application Lifecycle Management"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": false,
+    "sample_files": [
+      "src/three/GUI.java"
+    ]
+  },
+  "_hash": "f4ca8f5e9ea89aa0a50bf8520ba03048b8aa4ff260c4b5178694dcd88a9cfd5f",
+  "_path": "/Users/ember/dev/gh/cs242_hw3",
+  "_updated_at": "2026-02-14T00:56:24.864310Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "JavaFX Application Framework",
+      "Event-Driven Architecture",
+      "Stochastic Processes",
+      "Discrete Probability Distributions",
+      "Weighted Random Sampling",
+      "Object-Oriented Polymorphism",
+      "State Machine Design",
+      "UI Layout Management",
+      "User Input Validation",
+      "Exception Propagation",
+      "Inheritance Patterns",
+      "Anonymous Inner Classes",
+      "Modal Interaction Patterns",
+      "Scene Graph Manipulation",
+      "Callback-based Control Flow",
+      "Application Lifecycle Management"
+    ],
+    "tags": [
+      "java",
+      "javafx",
+      "dice-game",
+      "stochastic-simulation",
+      "event-driven",
+      "gui",
+      "homework",
+      "probability-simulation"
+    ],
+    "mined_motifs": [
+      "python",
+      "desktop-application",
+      "game-engine",
+      "real-time-simulation",
+      "cellular-automata",
+      "html5",
+      "collision-detection",
+      "Dice Roll Probability Logic",
+      "Event-Driven GUI",
+      "FXML Layout Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.782,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.409,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.393,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 5.385,
+        "matches": [
+          "stochastic-simulation"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.89,
+        "matches": [
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.548,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.864310Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "db08de97485755101fbd22bc27c213b6a415e608aa86799a4384b21c58433b6a",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:48.372440+00:00"
+  },
+  "mined_motifs": [
+    "python",
+    "desktop-application",
+    "game-logic",
+    "simulation",
+    "game-development",
+    "cellular-automata",
+    "real-time",
+    "html5",
+    "collision-detection",
+    "Dice Roll Probability Logic",
+    "Event-Driven GUI",
+    "FXML Layout Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs242-proj1",
+      "path": "/Users/ember/dev/gh/cs242-proj1",
+      "similarity": 0.897
+    },
+    {
+      "name": "LetsPlay",
+      "path": "/Users/ember/dev/gh/LetsPlay",
+      "similarity": 0.818
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.818
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.805
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.804
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.803
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.8
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.797
+    }
+  ]
+}

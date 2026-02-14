@@ -1,0 +1,214 @@
+{
+  "name": "mrmeistopheles",
+  "description": "A lightweight asynchronous HTTP server constructed using the Axum framework and Tokio runtime in Rust. The service implements a minimal routing architecture to deliver dynamically generated responses salted with entropy from the rand crate. It is designed to bind directly to privileged network ports, requiring elevated system permissions for production deployment and execution.",
+  "tags": [
+    "rust",
+    "axum",
+    "tokio",
+    "http",
+    "async-rs",
+    "backend",
+    "privileged-port",
+    "microservice"
+  ],
+  "category": "Asynchronous Web Services",
+  "concepts": [
+    "Asynchronous Event Loops",
+    "HTTP Route Dispatching",
+    "TCP Socket Binding",
+    "Privileged Port Access",
+    "Future-based Concurrency",
+    "Pseudo-random Number Generation",
+    "Rust Memory Safety",
+    "Static Type Inference",
+    "Cargo Package Orchestration",
+    "Runtime Initialization",
+    "Stateless Request Processing",
+    "Binary Deployment",
+    "Network Listener Abstraction",
+    "Process Lifecycle Management",
+    "Zero-cost Abstractions",
+    "Middleware Composition"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "88e80b25d2ac4564765fe0ef0eedbc631f9f9d6d11f824db2d144e1fc88ef119",
+  "_path": "/Users/ember/dev/mrmeistopheles",
+  "_updated_at": "2026-02-14T00:56:29.639828Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Asynchronous Event Loops",
+      "HTTP Route Dispatching",
+      "TCP Socket Binding",
+      "Privileged Port Access",
+      "Future-based Concurrency",
+      "Pseudo-random Number Generation",
+      "Rust Memory Safety",
+      "Static Type Inference",
+      "Cargo Package Orchestration",
+      "Runtime Initialization",
+      "Stateless Request Processing",
+      "Binary Deployment",
+      "Network Listener Abstraction",
+      "Process Lifecycle Management",
+      "Zero-cost Abstractions",
+      "Middleware Composition"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "axum",
+      "Asynchronous Programming",
+      "http",
+      "async-rs",
+      "backend",
+      "privileged-port",
+      "microservice"
+    ],
+    "mined_motifs": [
+      "rest-api",
+      "Asynchronous Task Scheduling",
+      "rust",
+      "Asynchronous Programming",
+      "Concurrency & Synchronization",
+      "serde",
+      "distributed-systems",
+      "postgresql",
+      "iron-framework",
+      "Event-driven Runtimes",
+      "HTTP Server Implementation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.58,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.489,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.489,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.488,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.487,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.486,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.639828Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "49198c257ca2c15d1b16ba0baaa49ceb16b20bab87044dbdaffd074bb62a0135",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:05.398217+00:00"
+  },
+  "mined_motifs": [
+    "rest-api",
+    "Asynchronous Task Scheduling",
+    "async-rust",
+    "async-io",
+    "concurrency",
+    "serde",
+    "distributed-systems",
+    "postgresql",
+    "iron-framework",
+    "Asynchronous Programming",
+    "Event-driven Runtimes",
+    "HTTP Server Implementation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.955
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.863
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.859
+    },
+    {
+      "name": "bcknd",
+      "path": "/Users/ember/dev/bcknd",
+      "similarity": 0.852
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.849
+    },
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.849
+    },
+    {
+      "name": "spaceapi-server-rs",
+      "path": "/Users/ember/dev/gh/forks/spaceapi-server-rs",
+      "similarity": 0.848
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.847
+    }
+  ]
+}

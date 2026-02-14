@@ -1,0 +1,285 @@
+{
+  "name": "cxx-qt",
+  "description": "CXX-Qt is a language interoperability framework that extends the CXX bridge to provide bidirectional bindings between Rust and C++ specifically for the Qt ecosystem. It utilizes procedural macros and code generation to implement QObject subclasses in Rust, enabling seamless integration with Qt's signal-slot mechanism, property system, and QML runtimes. The project facilitates the embedding of Rust logic into CMake-based C++ applications and allows for the construction of standalone Rust applications with deep Qt integration.",
+  "tags": [
+    "rust",
+    "c-plus-plus",
+    "qt-framework",
+    "qobject",
+    "qml",
+    "bindings",
+    "ffi",
+    "code-generation",
+    "interoperability",
+    "systems-programming",
+    "metaprogramming",
+    "build-systems",
+    "cmake",
+    "cargo",
+    "cross-platform",
+    "gui"
+  ],
+  "category": "Rust-Qt Interoperability Framework",
+  "concepts": [
+    "qobject-subclassing",
+    "signal-slot-mechanism",
+    "qt-property-system",
+    "cxx-bridge",
+    "procedural-macros",
+    "type-safe-bindings",
+    "build-system-integration",
+    "cmake-qt-integration",
+    "cargo-build-scripts",
+    "qml-element-registration",
+    "memory-management-interop",
+    "thread-safety",
+    "event-loop-integration",
+    "cross-language-inheritance",
+    "shared-types",
+    "opaque-pointers",
+    "smart-pointer-mapping",
+    "meta-object-system",
+    "qt-core-bindings",
+    "qt-gui-bindings",
+    "wasm-compilation",
+    "singleton-registration",
+    "variant-type-mapping",
+    "collection-interop",
+    "signal-handlers",
+    "property-notification",
+    "constructor-injection",
+    "namespace-mapping",
+    "foreign-item-parsing",
+    "syn-parsing",
+    "quote-generation",
+    "clang-format-integration",
+    "build-optimization",
+    "rust-pinning",
+    "lifetime-tracking",
+    "bidirectional-communication",
+    "api-design",
+    "trait-based-dispatch"
+  ],
+  "languages": [
+    "Rust",
+    "C++",
+    "C",
+    "Shell",
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1023,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/cxx-qt/src/lib.rs",
+      "crates/cxx-qt-build/src/lib.rs",
+      "crates/cxx-qt-gen/src/generator/cpp/mod.rs",
+      "crates/cxx-qt-gen/src/generator/cpp/property/mod.rs"
+    ]
+  },
+  "_hash": "87cf00f149210f67f94418c4f4fc7d63e4936129234bf6ee9f1c2fdf20636e4e",
+  "_path": "/Users/ember/src/cxx-qt",
+  "_updated_at": "2026-02-14T00:56:32.392514Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e53b686eea83f7017035f6f1e77b00e043a407e5388a4590c3d7776808b410c8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:08.618610+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "resource-management",
+    "qt",
+    "qtbase",
+    "Foreign Function Interface (FFI)",
+    "Build Environment Normalization",
+    "Build Feature Discovery",
+    "Build-time Feature Toggling",
+    "Component Discovery",
+    "Conditional Linking",
+    "Cross-platform Build Orchestration",
+    "Dependency Injection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "qtbase-mkspecs-modules",
+      "path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+      "similarity": 0.836
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.832
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.831
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.829
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.828
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.825
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.824
+    },
+    {
+      "name": "app-examples-template",
+      "path": "/Users/ember/src/qt6-build/qtbase/doc/global/app-examples-template",
+      "similarity": 0.821
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "qobject-subclassing",
+      "signal-slot-mechanism",
+      "qt-property-system",
+      "cxx-bridge",
+      "procedural-macros",
+      "type-safe-bindings",
+      "build-system-integration",
+      "cmake-qt-integration",
+      "cargo-build-scripts",
+      "qml-element-registration",
+      "memory-management-interop",
+      "Concurrency & Synchronization",
+      "event-loop-integration",
+      "cross-language-inheritance",
+      "shared-types",
+      "opaque-pointers",
+      "smart-pointer-mapping",
+      "meta-object-system",
+      "qt-core-bindings",
+      "qt-gui-bindings",
+      "wasm-compilation",
+      "singleton-registration",
+      "variant-type-mapping",
+      "collection-interop",
+      "signal-handlers",
+      "property-notification",
+      "constructor-injection",
+      "namespace-mapping",
+      "foreign-item-parsing",
+      "syn-parsing",
+      "quote-generation",
+      "clang-format-integration",
+      "build-optimization",
+      "rust-pinning",
+      "lifetime-tracking",
+      "bidirectional-communication",
+      "api-design",
+      "trait-based-dispatch"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "c-plus-plus",
+      "qt-framework",
+      "qobject",
+      "qml",
+      "Foreign Function Interface",
+      "foreign-function-interface",
+      "Compiler Engineering",
+      "interoperability",
+      "Systems Programming",
+      "metaprogramming",
+      "build-systems",
+      "cmake",
+      "cargo",
+      "cross-platform",
+      "gui"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "qt",
+      "qtbase",
+      "foreign-function-interface",
+      "Build Environment Normalization",
+      "Build Feature Discovery",
+      "Build-time Feature Toggling",
+      "Component Discovery",
+      "Conditional Linking",
+      "Cross-platform Build Orchestration",
+      "Dependency Injection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 10.973,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.191,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.401,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.393,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.392,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.362,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.392514Z"
+  }
+}

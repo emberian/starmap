@@ -1,0 +1,241 @@
+{
+  "name": "embershot",
+  "description": "embershot is an experimental Rust-based runtime implementing a pure, lazy combinator calculus via an eval/apply transition system inspired by the Spineless Tagless G-machine. Developed for the ICFP Programming Contest 2020, it features a custom, non-moving concurrent garbage collector named 'incinerator' based on the Ueno-Ohori algorithm. The system prioritizes graph reduction and thunk management over high-level language features, providing a low-level substrate for functional program execution.",
+  "tags": [
+    "rust",
+    "icfp2020",
+    "combinator-calculus",
+    "stg-machine",
+    "lazy-evaluation",
+    "garbage-collection",
+    "eval-apply",
+    "virtual-machine",
+    "graph-reduction",
+    "abstract-machine"
+  ],
+  "category": "Lazy Functional Abstract Machines",
+  "concepts": [
+    "eval/apply transition system",
+    "Ueno-Ohori concurrent GC",
+    "combinator reduction",
+    "graph-based heap",
+    "thunk forcing",
+    "applicative forms",
+    "bitmap tree memory tracking",
+    "segment allocation",
+    "handshake synchronization",
+    "61-bit tagged pointers",
+    "administrative normal form",
+    "non-moving garbage collection",
+    "exact tracing",
+    "partial application",
+    "function currying",
+    "write barriers",
+    "root enumeration",
+    "subheap partitioning",
+    "stackless parsing",
+    "thunk updating",
+    "spineless tagless g-machine",
+    "size-class allocation",
+    "continuation-passing style",
+    "heap-allocated thunks",
+    "garbage collection handshake",
+    "bitmap-based allocation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 18,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/incinerator/lib.rs",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/machine.rs"
+    ]
+  },
+  "_hash": "4fe3c052af05a4bc7c31ab0cd399c5007580057a044649a4e05a3595b866d4d8",
+  "_path": "/Users/ember/dev/gh/icfp2020",
+  "_updated_at": "2026-02-14T00:56:27.350364Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "eval/apply transition system",
+      "Ueno-Ohori concurrent GC",
+      "combinator reduction",
+      "graph-based heap",
+      "thunk forcing",
+      "applicative forms",
+      "bitmap tree memory tracking",
+      "segment allocation",
+      "handshake synchronization",
+      "61-bit tagged pointers",
+      "administrative normal form",
+      "non-moving garbage collection",
+      "exact tracing",
+      "partial application",
+      "function currying",
+      "write barriers",
+      "root enumeration",
+      "subheap partitioning",
+      "stackless parsing",
+      "thunk updating",
+      "spineless tagless g-machine",
+      "size-class allocation",
+      "continuation-passing style",
+      "heap-allocated thunks",
+      "garbage collection handshake",
+      "bitmap-based allocation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "icfp2020",
+      "combinator-calculus",
+      "stg-machine",
+      "lazy-evaluation",
+      "garbage-collection",
+      "eval-apply",
+      "virtual-machine",
+      "graph-reduction",
+      "abstract-machine"
+    ],
+    "mined_motifs": [
+      "Memory Management",
+      "tracing-gc",
+      "Concurrency & Synchronization",
+      "Systems Programming",
+      "Non-moving Memory Management",
+      "interpreter",
+      "Concurrent Mark-and-Sweep",
+      "Tree-structured Bitmaps",
+      "Ueno-Ohori Algorithm",
+      "lock-free",
+      "non-moving-gc",
+      "write-barrier"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 7.941,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 5.319,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.156,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.153,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.145,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.364,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.350364Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ee0635e9d602d4d2bdf3363095341cad5e010b668862951f5f3ac5a9a5ea8031",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:52.607321+00:00"
+  },
+  "mined_motifs": [
+    "memory-management",
+    "tracing-gc",
+    "concurrency",
+    "systems-programming",
+    "Non-moving Memory Management",
+    "interpreter",
+    "Concurrent Mark-and-Sweep",
+    "Tree-structured Bitmaps",
+    "Ueno-Ohori Algorithm",
+    "lock-free",
+    "non-moving-gc",
+    "write-barrier"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "embershot",
+      "path": "/Users/ember/dev/embershot",
+      "similarity": 0.942
+    },
+    {
+      "name": "incinerator",
+      "path": "/Users/ember/dev/incinerator",
+      "similarity": 0.795
+    },
+    {
+      "name": "incinerator",
+      "path": "/Users/ember/dev/gh/incinerator",
+      "similarity": 0.769
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.756
+    },
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/RuPaulyML",
+      "similarity": 0.741
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.73
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.729
+    },
+    {
+      "name": "libfringe",
+      "path": "/Users/ember/dev/gh/forks/libfringe",
+      "similarity": 0.728
+    }
+  ]
+}

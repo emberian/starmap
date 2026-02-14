@@ -1,0 +1,244 @@
+{
+  "name": "cs445",
+  "description": "A comprehensive Pascal-like language compiler implemented in C, targeting x86_64 assembly. It features a complete frontend with Flex/Bison-based lexical and syntactic analysis, a symbol table manager with lexical scoping, and a backend for semantic analysis and code generation including register allocation and stack frame management.",
+  "tags": [
+    "compiler",
+    "pascal",
+    "x86-64",
+    "codegen",
+    "flex",
+    "bison",
+    "ast",
+    "symbol-table",
+    "lexer",
+    "parser",
+    "semantic-analysis",
+    "assembly",
+    "data-structures",
+    "type-checking"
+  ],
+  "category": "Compiler Construction",
+  "concepts": [
+    "Lexical Analysis",
+    "LALR Parsing",
+    "Abstract Syntax Trees",
+    "Symbol Table Management",
+    "Lexical Scoping",
+    "Semantic Analysis",
+    "Type Inference",
+    "Register Allocation",
+    "Calling Conventions",
+    "Stack Frame Layout",
+    "Code Generation",
+    "Intermediate Representation",
+    "Assembly Programming",
+    "Formal Languages",
+    "Compiler Backend",
+    "C programming"
+  ],
+  "languages": [
+    "C",
+    "C++",
+    "Lex",
+    "Yacc",
+    "Assembly",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 95,
+    "has_readme": false,
+    "sample_files": [
+      "dragon/main.c",
+      "dragon/analysis.c",
+      "dragon/ast.c",
+      "dragon/symbol.c",
+      "dragon/util.c"
+    ]
+  },
+  "_hash": "a88ef074e116aeb1cebbe4e261a248a9efb79de87ef9c1c8a6079558f297de81",
+  "_path": "/Users/ember/dev/gh/cs445",
+  "_updated_at": "2026-02-14T00:56:24.951257Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "lexical-analysis",
+      "LALR Parsing",
+      "AST",
+      "Symbol Table Management",
+      "Lexical Scoping",
+      "Semantic Analysis",
+      "Type Inference",
+      "Register Allocation",
+      "Calling Conventions",
+      "Stack Frame Layout",
+      "Code Generation",
+      "Intermediate Representation",
+      "Assembly Programming",
+      "Formal Languages",
+      "Compiler Backend",
+      "C programming"
+    ],
+    "tags": [
+      "compiler-design",
+      "pascal",
+      "x86-64",
+      "Compiler Engineering",
+      "flex",
+      "bison",
+      "abstract-syntax-tree",
+      "symbol-table",
+      "lexical-analysis",
+      "parser",
+      "semantic-analysis",
+      "assembly",
+      "data-structures",
+      "type-checking"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "functional-programming",
+      "Compiler Engineering",
+      "lexical-analysis",
+      "AST",
+      "Lexical Analysis",
+      "interpreter",
+      "Recursive Descent Parsing",
+      "symbolic-computation",
+      "recursion",
+      "s-expression"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.789,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 13.984,
+        "matches": [
+          "abstract-syntax-tree",
+          "compiler-design",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 12.604,
+        "matches": [
+          "code generation",
+          "lalr parsing",
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.376,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.522,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 2.736,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.951257Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "579873e6990762296ea4be412050ad05736a4f5a9b26cbddf2e71fd86ad70386",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:52.223185+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "functional-programming",
+    "compiler-design",
+    "Tokenization",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "tokenization",
+    "interpreter",
+    "Recursive Descent Parsing",
+    "symbolic-computation",
+    "recursion",
+    "s-expression"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.909
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.896
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.883
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.878
+    },
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.877
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.869
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.866
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.864
+    }
+  ]
+}

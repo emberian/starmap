@@ -1,0 +1,260 @@
+{
+  "name": "mathlib",
+  "description": "The Lean 3 mathematical library is a massive, community-driven formalization of undergraduate and research-level mathematics using dependent type theory. It implements a unified algebraic hierarchy and comprehensive theories in topology, analysis, and category theory, optimized for interactive theorem proving. Although succeeded by mathlib4, it remains a seminal artifact in the field of formal methods and machine-checked proof.",
+  "tags": [
+    "lean-prover",
+    "formal-methods",
+    "mathematics",
+    "proof-assistant",
+    "dependent-types",
+    "algebra",
+    "topology",
+    "analysis",
+    "category-theory",
+    "number-theory",
+    "logic",
+    "interactive-theorem-proving",
+    "verified-math",
+    "lean3",
+    "archived"
+  ],
+  "category": "Formalized Higher Mathematics",
+  "concepts": [
+    "Dependent Type Theory",
+    "Tactic-based Proofs",
+    "Type Class Inference",
+    "Algebraic Hierarchies",
+    "Topological Spaces",
+    "Metric Spaces",
+    "Measure Theory",
+    "Galois Theory",
+    "Category Theory",
+    "Functors",
+    "Limits and Colimits",
+    "Commutative Algebra",
+    "Linear Algebra",
+    "Complex Analysis",
+    "Differential Calculus",
+    "Set Theory",
+    "Order Theory",
+    "Lattices",
+    "Filter Convergence",
+    "Manifolds",
+    "Sheaves",
+    "Homological Algebra",
+    "Prime Ideals",
+    "Group Actions",
+    "Hilbert Spaces",
+    "Banach Spaces",
+    "Universal Properties"
+  ],
+  "languages": [
+    "Lean",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 3542,
+    "has_readme": true,
+    "sample_files": [
+      "scripts/lint-style.py",
+      "scripts/lint_style_sanity_test.py",
+      "scripts/port_status.py",
+      "scripts/add_port_comments.py",
+      "scripts/polyrith_sage.py"
+    ]
+  },
+  "_hash": "36472fb92f4b33b40a0d285bcc865b17222d3d47d8147c6ddc4475476701b05b",
+  "_path": "/Users/ember/src/mathlib",
+  "_updated_at": "2026-02-14T00:56:33.141139Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0eef66e18249e4b26cca5c0f4d9d1c1e05bd61516d3954a5e120efaa8d580dd9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:39.794838+00:00"
+  },
+  "mined_motifs": [
+    "Formal Verification",
+    "theorem-proving",
+    "formal-verification",
+    "functional-programming",
+    "automated-reasoning",
+    "theorem-prover",
+    "Automated Reasoning",
+    "Boolean Algebras",
+    "Bounded Quantification",
+    "Combinatorics",
+    "Complete Boolean Algebras",
+    "Complete Lattices"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "library_dev",
+      "path": "/Users/ember/dev/gh/forks/library_dev",
+      "similarity": 0.913
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.884
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.88
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.864
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.859
+    },
+    {
+      "name": "lean",
+      "path": "/Users/ember/dev/gh/forks/lean",
+      "similarity": 0.859
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.856
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.853
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Dependent Type Theory",
+      "Tactic-based Proofs",
+      "Type Class Inference",
+      "Algebraic Hierarchies",
+      "Topological Spaces",
+      "Metric Spaces",
+      "Measure Theory",
+      "Galois Theory",
+      "Category Theory",
+      "Functors",
+      "Limits and Colimits",
+      "Commutative Algebra",
+      "Linear Algebra",
+      "Complex Analysis",
+      "Differential Calculus",
+      "Set Theory",
+      "Order Theory",
+      "Lattices",
+      "Filter Convergence",
+      "Manifolds",
+      "Sheaves",
+      "Homological Algebra",
+      "Prime Ideals",
+      "Group Actions",
+      "Hilbert Spaces",
+      "Banach Spaces",
+      "Universal Properties"
+    ],
+    "tags": [
+      "lean-prover",
+      "formal-verification",
+      "mathematics",
+      "Interactive Theorem Proving (ITP)",
+      "dependent-types",
+      "algebra",
+      "topology",
+      "analysis",
+      "category-theory",
+      "number-theory",
+      "logic",
+      "verified-math",
+      "lean3",
+      "archived"
+    ],
+    "mined_motifs": [
+      "Formal Verification",
+      "Interactive Theorem Proving (ITP)",
+      "formal-methods",
+      "functional-programming",
+      "automated-reasoning",
+      "Automated Reasoning",
+      "Boolean Algebras",
+      "Bounded Quantification",
+      "Combinatorics",
+      "Complete Boolean Algebras",
+      "Complete Lattices"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 11.095,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.295,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.286,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 7.0,
+        "matches": [
+          "dependent type theory",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.932,
+        "matches": [
+          "formal verification",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.533,
+        "matches": [
+          "formal-methods"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.141139Z"
+  }
+}

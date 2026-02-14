@@ -1,0 +1,241 @@
+{
+  "name": "CnC_Renegade",
+  "description": "The complete source code for Command & Conquer Renegade, a hybrid first-person shooter and real-time strategy title. It encompasses the proprietary W3D engine, including advanced skeletal animation, vehicle physics, and a robust networking layer supporting GameSpy and Westwood Online. The repository also features comprehensive game logic, mission-specific scripting, and specialized development tools like LevelEdit and W3DView.",
+  "tags": [
+    "command-and-conquer",
+    "renegade",
+    "game-engine",
+    "directx-8",
+    "westwood-studios",
+    "win32",
+    "cpp",
+    "networking",
+    "physics-engine",
+    "fps",
+    "rts",
+    "legacy-code",
+    "game-development",
+    "simulation"
+  ],
+  "category": "Hybrid FPS/RTS Engine Architecture",
+  "concepts": [
+    "W3D Model Format",
+    "Skeletal Animation",
+    "Vehicle Physics Simulation",
+    "Human AI State Machines",
+    "Network Synchronization",
+    "Master Server Protocols",
+    "Collision Detection Trees",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Weather and Environmental Simulation",
+    "Bink Video Integration",
+    "Miles Sound System Integration",
+    "Legacy DirectX 8 Rendering",
+    "Mission Scripting Framework",
+    "Dedicated Server Architecture",
+    "Game Launcher and Patching",
+    "Terrain Rendering",
+    "Resource Mix File Management",
+    "Inverse Kinematics",
+    "Heads-Up Display Design"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "Java"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 3623,
+    "has_readme": true,
+    "sample_files": [
+      "Code/Launcher/main.cpp",
+      "Code/Tests/LocalHost/main.cpp",
+      "Code/Tests/mathtest/main.cpp",
+      "Code/Tools/W3DView/MainFrm.cpp",
+      "Code/Scripts/Mission10.cpp"
+    ]
+  },
+  "_hash": "23806d69fddd66a249255a68ebb3db9fdf9f85b29d677b6fc07be77b4b7ca4b7",
+  "_path": "/Users/ember/src/CnC_Renegade",
+  "_updated_at": "2026-02-14T00:56:31.989276Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "8c682e28f2ef83bc5f03c45a6d65747c3b1f4ff93c8890b5c817c49a58187785",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:50.542410+00:00"
+  },
+  "mined_motifs": [
+    "real-time-strategy",
+    "multiplayer",
+    "pathfinding",
+    "retro-gaming",
+    "game-logic",
+    "rust",
+    "game-server",
+    "AI State Machines",
+    "Asset Pipeline Tools",
+    "Audio Event Sequencing",
+    "Binary Serialization (Xfer)",
+    "CRC Debugging"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.932
+    },
+    {
+      "name": "CnC_Tiberian_Dawn",
+      "path": "/Users/ember/src/CnC_Tiberian_Dawn",
+      "similarity": 0.916
+    },
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.91
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.848
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.841
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.837
+    },
+    {
+      "name": "Achron",
+      "path": "/Users/ember/dev/Achron",
+      "similarity": 0.833
+    },
+    {
+      "name": "Baystation12",
+      "path": "/Users/ember/dev/gh/forks/Baystation12",
+      "similarity": 0.826
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "W3D Model Format",
+      "Skeletal Animation",
+      "Vehicle Physics Simulation",
+      "Human AI State Machines",
+      "Network Synchronization",
+      "Master Server Protocols",
+      "Collision Detection Trees",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Weather and Environmental Simulation",
+      "Bink Video Integration",
+      "Miles Sound System Integration",
+      "Legacy DirectX 8 Rendering",
+      "Mission Scripting Framework",
+      "Dedicated Server Architecture",
+      "Game Launcher and Patching",
+      "Terrain Rendering",
+      "Resource Mix File Management",
+      "Inverse Kinematics",
+      "Heads-Up Display Design"
+    ],
+    "tags": [
+      "command-and-conquer",
+      "renegade",
+      "game-engine",
+      "directx-8",
+      "westwood-studios",
+      "win32",
+      "cpp",
+      "networking",
+      "physics-engine",
+      "fps",
+      "rts",
+      "legacy-code",
+      "real-time-simulation"
+    ],
+    "mined_motifs": [
+      "real-time-strategy",
+      "multiplayer",
+      "pathfinding",
+      "retro-gaming",
+      "game-engine",
+      "Rust Language Ecosystem",
+      "game-server",
+      "AI State Machines",
+      "Asset Pipeline Tools",
+      "Audio Event Sequencing",
+      "Binary Serialization (Xfer)",
+      "CRC Debugging"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 11.073,
+        "matches": [
+          "game-engine",
+          "pathfinding",
+          "rts"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.569,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.512,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.46,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.445,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.388,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.989276Z"
+  }
+}

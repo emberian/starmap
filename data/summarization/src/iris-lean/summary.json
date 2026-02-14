@@ -1,0 +1,264 @@
+{
+  "name": "iris-lean",
+  "description": "A Lean 4 formalization and port of the Iris higher-order concurrent separation logic framework, specifically implementing the MoSeL proof interface for mechanized reasoning. The project provides a specialized Iris Proof Mode (IPM) within Lean, utilizing custom tactics and type-class-driven automation to facilitate proofs in diverse separation logics. It includes fundamental algebraic abstractions such as Canonical Mixed Radical Algebras (CMRA) and Ordered Families of Equivalences (OFE) to support complex safety properties of concurrent programs.",
+  "tags": [
+    "separation-logic",
+    "iris",
+    "lean4",
+    "formal-verification",
+    "proof-assistant",
+    "concurrent-logic",
+    "theorem-proving",
+    "mosel",
+    "bi-logic",
+    "separation-logic-tactics",
+    "logical-relations",
+    "cmra",
+    "ofe",
+    "higher-order-logic",
+    "mechanized-proofs"
+  ],
+  "category": "Higher-order Concurrent Separation Logic",
+  "concepts": [
+    "Iris Proof Mode",
+    "Bunched Implications",
+    "BI",
+    "BIBase",
+    "Separation Logic",
+    "Concurrent Separation Logic",
+    "Separation Conjunction",
+    "Intuitionistic Logic",
+    "Spatial Logic",
+    "Proof Interface",
+    "MoSeL",
+    "Lean 4 Tactics",
+    "Type Class Resolution",
+    "Entailment",
+    "Affine Logic",
+    "Delaborators",
+    "Macro Rules",
+    "EnvsEntails",
+    "CMRA",
+    "OFE",
+    "COFE",
+    "Big Operators",
+    "Separation Logic Tactics",
+    "IPM",
+    "Ordered Families of Equivalences",
+    "Canonical Mixed Radical Algebra",
+    "Tactic Theorems",
+    "Prop Quotation",
+    "Logical Relations",
+    "Data Abstraction"
+  ],
+  "languages": [
+    "Lean 4"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 68,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "d26e976041f26a0f04d76bb9bfc912c4b6dd9ddfa153d95c1f9d28224304df4e",
+  "_path": "/Users/ember/src/iris-lean",
+  "_updated_at": "2026-02-14T00:56:33.000469Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "74d07fcd46715141c454ceac9282075493047a362d7f8a7fdd1298aa09e6e2c1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:28.681654+00:00"
+  },
+  "mined_motifs": [
+    "formal-methods",
+    "lean-prover",
+    "Formal Verification",
+    "Bisimulation",
+    "dependent-types",
+    "interactive-theorem-proving",
+    "Dependent Type Theory",
+    "lean",
+    "Order Theory",
+    "logic",
+    "mathematics",
+    "Byzantine Fault Tolerance"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "itree-program-logic",
+      "path": "/Users/ember/src/itree-program-logic",
+      "similarity": 0.859
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.83
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.826
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.822
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.809
+    },
+    {
+      "name": "library_dev",
+      "path": "/Users/ember/dev/gh/forks/library_dev",
+      "similarity": 0.803
+    },
+    {
+      "name": "mathlib",
+      "path": "/Users/ember/src/mathlib",
+      "similarity": 0.801
+    },
+    {
+      "name": "verimina",
+      "path": "/Users/ember/dev/verimina",
+      "similarity": 0.794
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Iris Proof Mode",
+      "Bunched Implications",
+      "BI",
+      "BIBase",
+      "Separation Logic",
+      "Concurrent Separation Logic",
+      "Separation Conjunction",
+      "Intuitionistic Logic",
+      "Spatial Logic",
+      "Proof Interface",
+      "MoSeL",
+      "Lean 4 Tactics",
+      "Type Class Resolution",
+      "Entailment",
+      "Affine Logic",
+      "Delaborators",
+      "Macro Rules",
+      "EnvsEntails",
+      "CMRA",
+      "OFE",
+      "COFE",
+      "Big Operators",
+      "Separation Logic Tactics",
+      "IPM",
+      "Ordered Families of Equivalences",
+      "Canonical Mixed Radical Algebra",
+      "Tactic Theorems",
+      "Prop Quotation",
+      "Logical Relations",
+      "Data Abstraction"
+    ],
+    "tags": [
+      "separation-logic",
+      "iris",
+      "lean4",
+      "formal-methods",
+      "Interactive Theorem Proving (ITP)",
+      "concurrent-logic",
+      "mosel",
+      "bi-logic",
+      "separation-logic-tactics",
+      "logical-relations",
+      "cmra",
+      "ofe",
+      "higher-order-logic",
+      "Formal Methods & Verification"
+    ],
+    "mined_motifs": [
+      "formal-verification",
+      "lean-prover",
+      "Formal Verification",
+      "Bisimulation",
+      "dependent-types",
+      "Interactive Theorem Proving (ITP)",
+      "Dependent Type Theory",
+      "Formal Methods & Verification",
+      "Order Theory",
+      "logic",
+      "mathematics",
+      "distributed-systems"
+    ],
+    "metaconstellations": [
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 16.41,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "separation-logic",
+          "iris",
+          "lean4",
+          "mosel",
+          "category:Higher-order Concurrent Separation Logic"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 11.01,
+        "matches": [
+          "dependent-types",
+          "formal-verification",
+          "logic"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.198,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 6.871,
+        "matches": [
+          "dependent type theory",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 6.818,
+        "matches": [
+          "formal verification",
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.435,
+        "matches": [
+          "formal-methods"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.000469Z"
+  }
+}

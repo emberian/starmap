@@ -1,0 +1,212 @@
+{
+  "name": "Kale",
+  "description": "A prototype implementation of a polarized type system featuring higher-order unification and bidirectional type checking. The engine manages a context of solved and unsolved existential variables to facilitate type inference across complex constructs including universal/existential quantification and linear-adjacent types. It provides a unified syntax for expressions, values, and patterns, emphasizing modularity in sort and polarity handling.",
+  "tags": [
+    "rust",
+    "type-theory",
+    "bidirectional-typing",
+    "higher-order-unification",
+    "lambda-calculus",
+    "polarized-logic",
+    "existential-types",
+    "compiler-design",
+    "syntax-manipulation"
+  ],
+  "category": "Polarized Type Theory",
+  "concepts": [
+    "Bidirectional Type Checking",
+    "Higher-Order Unification",
+    "Existential Variables",
+    "Universal Quantification",
+    "Monotypes",
+    "Polytypes",
+    "Polarized Logic",
+    "Linear Logic",
+    "Pattern Matching",
+    "Type Substitution",
+    "Context Management",
+    "Syntax Trees",
+    "Sort System",
+    "De Bruijn Indices",
+    "Expression-Value-Pattern Duality"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": false,
+    "sample_files": [
+      "sixtynine/src/lib.rs",
+      "sixtynine/src/calculus.rs"
+    ]
+  },
+  "_hash": "99a0c2651df5d1f9b718741d61d770a0252d69697e811acbffe59caf47e97137",
+  "_path": "/Users/ember/dev/gh/Kale",
+  "_updated_at": "2026-02-14T00:56:24.227994Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Bidirectional Type Checking",
+      "Higher-Order Unification",
+      "Existential Variables",
+      "Universal Quantification",
+      "Monotypes",
+      "Polytypes",
+      "Polarized Logic",
+      "Linear Logic",
+      "Pattern Matching",
+      "Type Substitution",
+      "Context Management",
+      "Syntax Trees",
+      "Sort System",
+      "De Bruijn Indices",
+      "Expression-Value-Pattern Duality"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "type-theory",
+      "bidirectional-typing",
+      "higher-order-unification",
+      "lambda-calculus",
+      "polarized-logic",
+      "existential-types",
+      "Compiler Engineering",
+      "syntax-manipulation"
+    ],
+    "mined_motifs": [
+      "blockchain",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "bison",
+      "flex",
+      "parser",
+      "symbol-table",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 9.653,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.255,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.855,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.442,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 2.66,
+        "matches": []
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 2.66,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.227994Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "803c146519be54d22fcdc16affef5755c8343e5dad99fdc42964be48a1050a23",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:14.913131+00:00"
+  },
+  "mined_motifs": [
+    "blockchain",
+    "Lexical Analysis",
+    "ast",
+    "bison",
+    "flex",
+    "lexer",
+    "parser",
+    "symbol-table",
+    "Tokenization",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.838
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.836
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.835
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.834
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.831
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.831
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.83
+    }
+  ]
+}

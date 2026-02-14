@@ -1,0 +1,268 @@
+{
+  "name": "TurboDiffusion",
+  "description": "TurboDiffusion is a high-performance video generation acceleration framework designed to speed up end-to-end diffusion models by 100-200x with minimal quality degradation. It integrates SageAttention and Sparse-Linear Attention (SLA) for efficient transformer inference, alongside rectified Consistency Models (rCM) for aggressive timestep distillation. The system provides specialized CUDA and Triton kernels, context parallelism, and quantization support for deploying state-of-the-art models like Wan-2.1 and Wan-2.2 on modern hardware.",
+  "tags": [
+    "turbodiffusion",
+    "video-generation",
+    "diffusion-models",
+    "pytorch",
+    "triton",
+    "cuda",
+    "wan-2.1",
+    "distillation",
+    "rcm",
+    "sla",
+    "sparse-attention",
+    "quantization",
+    "inference",
+    "deep-learning",
+    "transformer",
+    "computer-vision"
+  ],
+  "category": "Generative Video Diffusion Acceleration",
+  "concepts": [
+    "TurboDiffusion",
+    "Sparse-Linear Attention",
+    "SageAttention",
+    "rectified Consistency Models",
+    "Timestep Distillation",
+    "Video Diffusion Transformers",
+    "Wan-2.1",
+    "Wan-2.2",
+    "INT8 Quantization",
+    "Low-Precision Inference",
+    "Context Parallelism",
+    "Fully Sharded Data Parallel",
+    "DTensor",
+    "Latent Video Generation",
+    "Text-to-Video",
+    "Image-to-Video",
+    "CUDA Kernels",
+    "Triton Operations",
+    "Jacobian-Vector Products",
+    "Flow Matching",
+    "Rectified Flow",
+    "Euler Sampling",
+    "UniPC Sampler",
+    "Attention Masking",
+    "EMA Weights",
+    "Model Merging",
+    "Synthetic Dataset Generation",
+    "Distributed Checkpointing",
+    "LayerNorm Fusion",
+    "RMSNorm Fusion",
+    "Bitwise Quantization",
+    "Dynamic Resolution"
+  ],
+  "languages": [
+    "Python",
+    "C++",
+    "CUDA",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 237,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "turbodiffusion/SLA/__init__.py",
+      "turbodiffusion/__init__.py",
+      "turbodiffusion/imaginaire/__init__.py",
+      "turbodiffusion/imaginaire/callbacks/__init__.py"
+    ]
+  },
+  "_hash": "9db41175899b7f58bebef691b423b87b5bcef8654ca4968d83c25ed74a7471d6",
+  "_path": "/Users/ember/src/TurboDiffusion",
+  "_updated_at": "2026-02-14T00:56:32.286197Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "146af12f8085e5d6c71c5ab9cb4875d411d0063520938e1ee9fa97b0f250b63b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:55.368796+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "machine-learning",
+    "blockchain",
+    "Ancestral Sampling",
+    "Attention Slicing",
+    "Audio Diffusion",
+    "BitsAndBytes",
+    "CPU Offloading",
+    "Classifier-Free Guidance (CFG)",
+    "ControlNet Adapters",
+    "DDIM",
+    "DPM-Solver"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "diffusers-reference",
+      "path": "/Users/ember/src/diffusers-reference",
+      "similarity": 0.884
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.823
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.802
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.801
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.8
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.798
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.797
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.796
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "TurboDiffusion",
+      "Sparse-Linear Attention",
+      "SageAttention",
+      "rectified Consistency Models",
+      "Timestep Distillation",
+      "Video Diffusion Transformers",
+      "Wan-2.1",
+      "Wan-2.2",
+      "INT8 Quantization",
+      "Low-Precision Inference",
+      "Context Parallelism",
+      "Fully Sharded Data Parallel",
+      "DTensor",
+      "Latent Video Generation",
+      "Text-to-Video",
+      "Image-to-Video",
+      "CUDA Kernels",
+      "Triton Operations",
+      "Jacobian-Vector Products",
+      "Flow Matching",
+      "Rectified Flow",
+      "Euler Sampling",
+      "UniPC Sampler",
+      "Attention Masking",
+      "EMA Weights",
+      "Model Merging",
+      "Synthetic Dataset Generation",
+      "Distributed Checkpointing",
+      "LayerNorm Fusion",
+      "RMSNorm Fusion",
+      "Bitwise Quantization",
+      "Dynamic Resolution"
+    ],
+    "tags": [
+      "turbodiffusion",
+      "video-generation",
+      "diffusion-models",
+      "pytorch",
+      "triton",
+      "cuda",
+      "wan-2.1",
+      "distillation",
+      "rcm",
+      "sla",
+      "sparse-attention",
+      "quantization",
+      "inference",
+      "deep-learning",
+      "transformer",
+      "computer-vision"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "machine-learning",
+      "blockchain",
+      "Ancestral Sampling",
+      "Attention Slicing",
+      "Audio Diffusion",
+      "BitsAndBytes",
+      "CPU Offloading",
+      "Classifier-Free Guidance (CFG)",
+      "ControlNet Adapters",
+      "DDIM",
+      "DPM-Solver"
+    ],
+    "metaconstellations": [
+      {
+        "id": "neural-synthesis-runtimes",
+        "name": "Neural Media Synthesis & Runtimes",
+        "score": 9.701,
+        "matches": [
+          "diffusion-models",
+          "transformer",
+          "text-to-video"
+        ]
+      },
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 8.229,
+        "matches": [
+          "cuda",
+          "quantization"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 4.072,
+        "matches": [
+          "transformer"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 3.91,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 2.525,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.52,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.286197Z"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "name": "mcp-rust-docs",
+  "description": "This Model Context Protocol (MCP) server implementation provides structured access to Rust crate documentation for Large Language Models by fetching and sanitizing content from docs.rs. It utilizes a stdio-based JSON-RPC transport and implements specific HTML-to-plaintext transformations to ensure documentation is both readable and token-efficient for LLM prompts. By exposing a configurable tool interface, it enables AI assistants to autonomously retrieve API references and module definitions during Rust-focused development tasks.",
+  "tags": [
+    "mcp",
+    "rust",
+    "docs-rs",
+    "llm-context",
+    "node-js",
+    "scraping",
+    "stdio",
+    "json-rpc",
+    "documentation-api",
+    "context-window"
+  ],
+  "category": "LLM Context Engineering",
+  "concepts": [
+    "Model Context Protocol (MCP)",
+    "Stdio Transport Layer",
+    "HTML Content Extraction",
+    "Context Window Optimization",
+    "Rust Crate API Discovery",
+    "Zod Schema Validation",
+    "Stateless Tool Execution"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "index.js"
+    ]
+  },
+  "_hash": "59d97bd9458596282088340cfd0441610b463ecaeb4a5d90859d549856fc05a2",
+  "_path": "/Users/ember/src/mcp-rust-docs",
+  "_updated_at": "2026-02-14T00:56:33.165009Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "89274e0e9bd2ee761a6a5103eea6e82c980802467cdca8c874c64fc9763b0fc1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:41.772857+00:00"
+  },
+  "mined_motifs": [
+    "rustdoc",
+    "static-analysis",
+    "cargo",
+    "cli",
+    "documentation-generator",
+    "crates-io",
+    "developer-tools",
+    "Capability Negotiation",
+    "oauth2",
+    "procedural-macros",
+    "sse",
+    "tokio"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.918
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.902
+    },
+    {
+      "name": "crates_llms_txt",
+      "path": "/Users/ember/src/crates_llms_txt",
+      "similarity": 0.884
+    },
+    {
+      "name": "mcp-rust-sdk",
+      "path": "/Users/ember/src/mcp-rust-sdk",
+      "similarity": 0.871
+    },
+    {
+      "name": "rmcp-sdk",
+      "path": "/Users/ember/src/rmcp-sdk",
+      "similarity": 0.859
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.855
+    },
+    {
+      "name": "crate-mcp",
+      "path": "/Users/ember/dev/crate-mcp",
+      "similarity": 0.852
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.842
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "model-context-protocol",
+      "Stdio Transport Layer",
+      "HTML Content Extraction",
+      "Context Window Optimization",
+      "Rust Crate API Discovery",
+      "Zod Schema Validation",
+      "Stateless Tool Execution"
+    ],
+    "tags": [
+      "model-context-protocol",
+      "Rust Language Ecosystem",
+      "docs-rs",
+      "llm-context",
+      "node-js",
+      "scraping",
+      "stdio",
+      "json-rpc",
+      "documentation-api",
+      "context-window"
+    ],
+    "mined_motifs": [
+      "rustdoc",
+      "static-analysis",
+      "cargo",
+      "cli",
+      "documentation-generator",
+      "crates-io",
+      "developer-tools",
+      "Capability Negotiation",
+      "oauth2",
+      "procedural-macros",
+      "sse",
+      "Asynchronous Programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-interoperability-protocols",
+        "name": "Agentic Interoperability Protocols",
+        "score": 7.03,
+        "matches": [
+          "json-rpc",
+          "sse"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.531,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.407,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.355,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 4.025,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.987,
+        "matches": [
+          "rustdoc"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.165009Z"
+  }
+}

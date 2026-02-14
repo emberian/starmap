@@ -1,0 +1,243 @@
+{
+  "name": "persy",
+  "description": "A high-performance transactional persistence engine written in Rust that implements ACID properties through a Copy-on-Write (CoW) architecture. It provides a single-file storage format with support for segmented record management, robust B-Tree indexing, and snapshot isolation. The system features a sophisticated page allocator, write-ahead logging (WAL) for crash recovery, and background operations for deferred flushing and maintenance.",
+  "tags": [
+    "rust",
+    "storage-engine",
+    "acid",
+    "copy-on-write",
+    "b-tree",
+    "snapshot-isolation",
+    "wal",
+    "embedded-database",
+    "persistence",
+    "transactional",
+    "concurrency",
+    "recovery",
+    "indexing",
+    "database-internals"
+  ],
+  "category": "Transactional Storage Engine",
+  "concepts": [
+    "ACID Transactions",
+    "Copy-on-Write (CoW)",
+    "B-Tree Indexing",
+    "Snapshot Isolation",
+    "Write-Ahead Logging (WAL)",
+    "Segmented Storage",
+    "Page Allocation",
+    "Free List Management",
+    "Transactional Recovery",
+    "Multi-Version Concurrency Control (MVCC)",
+    "Lock Management",
+    "Record Serialization",
+    "Background Workers",
+    "Buffer Management",
+    "Crash Consistency",
+    "File-based Storage",
+    "Atomic Commits",
+    "Segment Allocation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 94,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "tests/index.rs",
+      "src/persy.rs",
+      "src/transaction/tx_impl.rs"
+    ]
+  },
+  "_hash": "f52f3e17712038637a4c96a4eebd3caaa30e26b4c70a6fd60ea83d36b956f154",
+  "_path": "/Users/ember/src/persy",
+  "_updated_at": "2026-02-14T00:56:33.404598Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "640958647cb3a922f0556a614ab43887a2c54cd2cf84f369f2d8fb79a65911be",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:52.879823+00:00"
+  },
+  "mined_motifs": [
+    "mvcc",
+    "Crash Recovery",
+    "database",
+    "Block Caching",
+    "FIFO Compaction",
+    "Key-Value Separation",
+    "Memtable",
+    "key-value-store",
+    "acid-transactions",
+    "storage",
+    "RocksDB Storage",
+    "Atomic Operations"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "redb",
+      "path": "/Users/ember/dev/redb",
+      "similarity": 0.872
+    },
+    {
+      "name": "fjall",
+      "path": "/Users/ember/src/fjall",
+      "similarity": 0.831
+    },
+    {
+      "name": "lsm-tree",
+      "path": "/Users/ember/src/lsm-tree",
+      "similarity": 0.824
+    },
+    {
+      "name": "surrealdb",
+      "path": "/Users/ember/src/surrealdb",
+      "similarity": 0.798
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.786
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.784
+    },
+    {
+      "name": "sqlite-es",
+      "path": "/Users/ember/src/sqlite-es",
+      "similarity": 0.783
+    },
+    {
+      "name": "derpfs",
+      "path": "/Users/ember/dev/gh/derpfs",
+      "similarity": 0.781
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "ACID Transactions",
+      "Copy-on-Write (CoW)",
+      "B-Tree Indexing",
+      "Snapshot Isolation",
+      "Write-Ahead Logging (WAL)",
+      "Segmented Storage",
+      "Page Allocation",
+      "Free List Management",
+      "Transactional Recovery",
+      "Multi-Version Concurrency Control (MVCC)",
+      "Lock Management",
+      "Record Serialization",
+      "Background Workers",
+      "Buffer Management",
+      "Crash Consistency",
+      "File-based Storage",
+      "Atomic Commits",
+      "Segment Allocation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "storage-engine",
+      "acid",
+      "copy-on-write",
+      "b-tree",
+      "snapshot-isolation",
+      "wal",
+      "embedded-database",
+      "persistence",
+      "transactional",
+      "Concurrency & Synchronization",
+      "recovery",
+      "indexing",
+      "database-internals"
+    ],
+    "mined_motifs": [
+      "mvcc",
+      "Crash Recovery",
+      "database",
+      "Block Caching",
+      "FIFO Compaction",
+      "Key-Value Separation",
+      "Memtable",
+      "key-value-store",
+      "acid-transactions",
+      "storage",
+      "RocksDB Storage",
+      "Atomic Operations"
+    ],
+    "metaconstellations": [
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 15.408,
+        "matches": [
+          "acid transactions",
+          "b-tree",
+          "copy-on-write",
+          "mvcc",
+          "persistence",
+          "storage-engine"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 13.612,
+        "matches": [
+          "acid",
+          "mvcc",
+          "persistence",
+          "wal",
+          "category:Transactional Storage Engine"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 9.605,
+        "matches": [
+          "acid transactions",
+          "b-tree indexing",
+          "wal"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.318,
+        "matches": [
+          "persistence"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.282,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 2.509,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.404598Z"
+  }
+}

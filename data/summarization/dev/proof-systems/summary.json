@@ -1,0 +1,286 @@
+{
+  "name": "proof-systems",
+  "description": "A comprehensive suite of zero-knowledge proof primitives and systems centered around the Kimchi implementation of the PLONK protocol. It provides highly optimized components for elliptic curve arithmetic on Pasta curves, polynomial commitment schemes, and specialized circuit gates for cryptographic primitives like Keccak and Poseidon. The repository enables recursive proof composition and incrementally verifiable computation (IVC) through the Pickles accumulation scheme and folding-based architectures.",
+  "tags": [
+    "kimchi",
+    "plonk",
+    "zero-knowledge",
+    "cryptography",
+    "mina-protocol",
+    "pasta-curves",
+    "polynomial-commitments",
+    "recursive-snarks",
+    "ivc",
+    "accumulation-schemes",
+    "poseidon-hash",
+    "lookup-tables",
+    "folding-schemes",
+    "arithmetization",
+    "o1vm",
+    "rust"
+  ],
+  "category": "Zero-Knowledge Proof Systems",
+  "concepts": [
+    "PLONK",
+    "Polynomial Commitment Schemes",
+    "Pasta Curves (Pallas/Vesta)",
+    "Recursive SNARKs",
+    "Incrementally Verifiable Computation (IVC)",
+    "Accumulation Schemes",
+    "Custom Gates",
+    "Lookup Tables",
+    "Fiat-Shamir Heuristic",
+    "Multi-Scalar Multiplication (MSM)",
+    "Fast Fourier Transform (FFT)",
+    "Poseidon Hash",
+    "Keccak-256",
+    "Foreign Field Arithmetic",
+    "Range Checks",
+    "Arithmetic Circuits",
+    "Witness Generation",
+    "Permutation Argument",
+    "Logup",
+    "Folding Schemes",
+    "Zero-Knowledge Virtual Machines (zkVM)",
+    "MIPS Emulation",
+    "Sponge Construction",
+    "Algebraic Holographic Proofs",
+    "Maller Optimization",
+    "Constraint Systems",
+    "Prover Indexing",
+    "Verifier Optimization",
+    "Lagrange Basis Evaluations",
+    "Interactive Oracle Proofs (IOP)"
+  ],
+  "languages": [
+    "Rust",
+    "OCaml",
+    "Shell",
+    "TypeScript",
+    "JavaScript",
+    "Nix"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 609,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "package.json",
+      "flake.nix",
+      "Makefile",
+      "arrabbiata/src/decider/mod.rs"
+    ]
+  },
+  "_hash": "285655b41ac58a64a433923180b64d3d2bf03efadbd9ef0b766ba654e9f3a75e",
+  "_path": "/Users/ember/dev/proof-systems",
+  "_updated_at": "2026-02-14T00:56:29.867323Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "PLONK",
+      "Polynomial Commitment Schemes",
+      "Pasta Curves (Pallas/Vesta)",
+      "zero-knowledge-proofs",
+      "Incrementally Verifiable Computation (IVC)",
+      "Accumulation Schemes",
+      "Custom Gates",
+      "Lookup Tables",
+      "Fiat-Shamir Heuristic",
+      "multi-scalar-multiplication",
+      "fast-fourier-transform",
+      "Poseidon Hash",
+      "Keccak-256",
+      "Foreign Field Arithmetic",
+      "Range Checks",
+      "Arithmetic Circuits",
+      "Witness Generation",
+      "Permutation Argument",
+      "Logup",
+      "Folding Schemes",
+      "Zero-Knowledge Virtual Machines (zkVM)",
+      "MIPS Emulation",
+      "Sponge Construction",
+      "Algebraic Holographic Proofs",
+      "Maller Optimization",
+      "Constraint Systems",
+      "Prover Indexing",
+      "Verifier Optimization",
+      "Lagrange Basis Evaluations",
+      "Interactive Oracle Proofs (IOP)"
+    ],
+    "tags": [
+      "kimchi",
+      "plonk",
+      "zero-knowledge-proofs",
+      "cryptography",
+      "Mina Protocol",
+      "pasta-curves",
+      "polynomial-commitments",
+      "Recursive SNARKs",
+      "ivc",
+      "accumulation-schemes",
+      "poseidon-hash",
+      "lookup-tables",
+      "folding-schemes",
+      "arithmetization",
+      "o1vm",
+      "Rust Language Ecosystem"
+    ],
+    "mined_motifs": [
+      "smart-contracts",
+      "Zero-Knowledge Proofs (ZKP)",
+      "arkworks",
+      "elliptic-curves",
+      "Zero-Knowledge Proofs",
+      "Interactive Oracle Proofs",
+      "recursion",
+      "Pasta Curves",
+      "Polynomial Commitments",
+      "zero-knowledge-proofs",
+      "Evaluation Proofs",
+      "Multi-Scalar Multiplication"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 15.441,
+        "matches": [
+          "polynomial commitment schemes",
+          "recursive snarks",
+          "zero-knowledge proofs",
+          "kimchi",
+          "pasta-curves",
+          "plonk"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 14.021,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks",
+          "kimchi",
+          "plonk",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 11.221,
+        "matches": [
+          "polynomial commitment schemes",
+          "zero-knowledge proofs (zkp)",
+          "arkworks",
+          "plonk"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 11.207,
+        "matches": [
+          "mina protocol",
+          "recursive snarks",
+          "pasta-curves",
+          "plonk"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.768,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 7.026,
+        "matches": [
+          "zero-knowledge-proofs",
+          "recursive snarks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.867323Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "874215fb5dedb1d7ae39b6c969c3b7b0a377646d93a1ace92fa7d99e1de4b15f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:24.476744+00:00"
+  },
+  "mined_motifs": [
+    "smart-contracts",
+    "zero-knowledge-proofs",
+    "arkworks",
+    "elliptic-curves",
+    "Zero-Knowledge Proofs",
+    "Interactive Oracle Proofs",
+    "recursion",
+    "Pasta Curves",
+    "Polynomial Commitments",
+    "zk-snarks",
+    "Evaluation Proofs",
+    "Multi-Scalar Multiplication"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.957
+    },
+    {
+      "name": "kimchi-playground",
+      "path": "/Users/ember/dev/kimchi-playground",
+      "similarity": 0.929
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.908
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.905
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.903
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.903
+    },
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.902
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.887
+    }
+  ]
+}

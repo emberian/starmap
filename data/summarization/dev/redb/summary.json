@@ -1,0 +1,287 @@
+{
+  "name": "redb",
+  "description": "A high-performance, ACID-compliant embedded key-value store implemented in pure Rust using a copy-on-write B-tree architecture. It provides multi-version concurrency control (MVCC) for non-blocking concurrent access and features a zero-copy API for efficient data retrieval. The system is designed for crash safety and portability, incorporating advanced storage techniques such as buddy allocation and savepoint-based recovery.",
+  "tags": [
+    "key-value store",
+    "embedded-database",
+    "rust",
+    "acid",
+    "mvcc",
+    "btree",
+    "copy-on-write",
+    "zero-copy",
+    "storage-engine",
+    "persistence",
+    "transactional",
+    "database",
+    "savepoints",
+    "performance",
+    "portability",
+    "data-structures"
+  ],
+  "category": "Copy-on-Write B-Tree Storage Engine",
+  "concepts": [
+    "ACID Transactions",
+    "Multi-Version Concurrency Control (MVCC)",
+    "Copy-on-Write (CoW)",
+    "B-Tree",
+    "Page Management",
+    "Buddy Allocation",
+    "Zero-copy Serialization",
+    "Savepoints",
+    "Crash Recovery",
+    "Storage Backends",
+    "Transactional Memory",
+    "XXH3 Checksumming",
+    "LRU Caching",
+    "Thread Safety",
+    "Key-Value Tables",
+    "Multimap Tables",
+    "Memory Mapping",
+    "Atomic Operations",
+    "Database Compaction",
+    "Page Allocation",
+    "Region Tracking",
+    "Serialization",
+    "Bincode Support",
+    "Backward Compatibility",
+    "Python Bindings",
+    "POSIX I/O",
+    "Windows I/O",
+    "WASI Support",
+    "Fuzz Testing",
+    "Benchmarking",
+    "Table Definitions",
+    "Transaction Isolation",
+    "Durability Levels",
+    "Metadata Management",
+    "Tree Iteration",
+    "Write-Ahead Semantics"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 74,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "pyproject.toml",
+      "src/lib.rs",
+      "src/tree_store/mod.rs",
+      "src/tree_store/page_store/file_backend/mod.rs"
+    ]
+  },
+  "_hash": "95b1432f1634f44bf6da2b4c7d1c9e9988ef34870995077def340b8b9f76bfb0",
+  "_path": "/Users/ember/dev/redb",
+  "_updated_at": "2026-02-14T00:56:29.989098Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "ACID Transactions",
+      "Multi-Version Concurrency Control (MVCC)",
+      "Copy-on-Write (CoW)",
+      "B-Tree",
+      "Page Management",
+      "Buddy Allocation",
+      "Zero-copy Serialization",
+      "Savepoints",
+      "Crash Recovery",
+      "Storage Backends",
+      "Transactional Memory",
+      "XXH3 Checksumming",
+      "LRU Caching",
+      "Thread Safety",
+      "Key-Value Tables",
+      "Multimap Tables",
+      "Memory Mapping",
+      "Atomic Operations",
+      "Database Compaction",
+      "Page Allocation",
+      "Region Tracking",
+      "Data Serialization",
+      "Bincode Support",
+      "Backward Compatibility",
+      "Python Bindings",
+      "POSIX I/O",
+      "Windows I/O",
+      "WASI Support",
+      "Fuzz Testing",
+      "Benchmarking",
+      "Table Definitions",
+      "Transaction Isolation",
+      "Durability Levels",
+      "Metadata Management",
+      "Tree Iteration",
+      "Write-Ahead Semantics"
+    ],
+    "tags": [
+      "key-value store",
+      "embedded-database",
+      "Rust Language Ecosystem",
+      "acid",
+      "mvcc",
+      "btree",
+      "copy-on-write",
+      "zero-copy",
+      "storage-engine",
+      "persistence",
+      "transactional",
+      "database",
+      "savepoints",
+      "performance",
+      "portability",
+      "data-structures"
+    ],
+    "mined_motifs": [
+      "Snapshot Isolation",
+      "key-value-store",
+      "snapshot-isolation",
+      "Block Caching",
+      "FIFO Compaction",
+      "Key-Value Separation",
+      "Memtable",
+      "Concurrency & Synchronization",
+      "storage",
+      "distributed-systems",
+      "rpc",
+      "Atomic Commits"
+    ],
+    "metaconstellations": [
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 18.001,
+        "matches": [
+          "acid transactions",
+          "b-tree",
+          "copy-on-write",
+          "mvcc",
+          "persistence",
+          "storage-engine",
+          "zero-copy",
+          "category:Copy-on-Write B-Tree Storage Engine"
+        ]
+      },
+      {
+        "id": "transactional-event-driven-storage",
+        "name": "Transactional Event-Driven Storage",
+        "score": 10.994,
+        "matches": [
+          "acid",
+          "mvcc",
+          "persistence"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 8.118,
+        "matches": [
+          "distributed-systems",
+          "persistence"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.688,
+        "matches": [
+          "distributed-systems",
+          "rpc"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 5.4,
+        "matches": [
+          "acid transactions"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.314,
+        "matches": [
+          "data serialization"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.989098Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7c088cbd3b47479d1463519d0feff0da8c974693486308bd4010af3a6edb55d1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:27.782578+00:00"
+  },
+  "mined_motifs": [
+    "Snapshot Isolation",
+    "key-value-store",
+    "snapshot-isolation",
+    "Block Caching",
+    "FIFO Compaction",
+    "Key-Value Separation",
+    "Memtable",
+    "concurrency",
+    "storage",
+    "distributed-systems",
+    "rpc",
+    "Atomic Commits"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "persy",
+      "path": "/Users/ember/src/persy",
+      "similarity": 0.872
+    },
+    {
+      "name": "fjall",
+      "path": "/Users/ember/src/fjall",
+      "similarity": 0.841
+    },
+    {
+      "name": "lsm-tree",
+      "path": "/Users/ember/src/lsm-tree",
+      "similarity": 0.831
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.791
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.788
+    },
+    {
+      "name": "redux-rs",
+      "path": "/Users/ember/src/redux-rs",
+      "similarity": 0.777
+    },
+    {
+      "name": "derpfs",
+      "path": "/Users/ember/dev/gh/derpfs",
+      "similarity": 0.777
+    },
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.774
+    }
+  ]
+}

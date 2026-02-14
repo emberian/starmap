@@ -1,0 +1,265 @@
+{
+  "name": "ring",
+  "description": "*ring* is a high-performance, general-purpose cryptographic library for Rust that prioritizes safety, speed, and suitability for constrained environments. It exposes a focused set of primitives—including AEAD, RSA, and Elliptic Curve operations—using a hybrid architecture of safe Rust wrappers, optimized C code, and hand-tuned assembly derived from BoringSSL. The implementation emphasizes constant-time execution and a robust API design to prevent common cryptographic pitfalls in systems-level applications.",
+  "tags": [
+    "cryptography",
+    "rust",
+    "boringssl",
+    "aead",
+    "aes-gcm",
+    "rsa",
+    "ecdsa",
+    "ed25519",
+    "sha2",
+    "hmac",
+    "no-std",
+    "assembly",
+    "constant-time",
+    "x25519",
+    "poly1305",
+    "chacha20"
+  ],
+  "category": "High-Performance Cryptographic Engineering",
+  "concepts": [
+    "Authenticated Encryption with Associated Data (AEAD)",
+    "Galois/Counter Mode (GCM)",
+    "Montgomery Multiplication",
+    "Elliptic Curve Cryptography (ECC)",
+    "RSA Signature Schemes (PKCS#1, PSS)",
+    "Elliptic Curve Diffie-Hellman (ECDH)",
+    "Secure Hash Algorithms (SHA-2, SHA-1)",
+    "Key Derivation Functions (HKDF, PBKDF2)",
+    "Hash-based Message Authentication Code (HMAC)",
+    "Finite Field Arithmetic",
+    "Side-channel Attack Mitigation",
+    "Constant-time Implementation",
+    "ASN.1 DER Encoding",
+    "No-std Runtime Environment",
+    "SIMD-accelerated Cryptography",
+    "Assembly Polyglot (Perlasm)",
+    "NIST Suite B Implementation",
+    "Curve25519 (X25519, Ed25519)",
+    "Poly1305 MAC",
+    "ChaCha20 Stream Cipher",
+    "Modular Exponentiation",
+    "Prime Field Arithmetic",
+    "Jacobian Coordinates",
+    "Montgomery Reduction",
+    "Secure Random Number Generation (CSPRNG)",
+    "Constant-time Comparison",
+    "Big-integer Arithmetic",
+    "X.509 Certificate Foundation (webpki)",
+    "TLS/SSL Primitive Support",
+    "BoringSSL Portability Layer"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "Assembly",
+    "Perl",
+    "Python",
+    "Go",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 254,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/ec/suite_b/ops/ops.rs",
+      "src/rsa/signing.rs",
+      "src/rsa/bigint.rs"
+    ]
+  },
+  "_hash": "74d8576eba0c849478b8d14a9e0a379c3cfd5bed1c9d65cd2c9f9cc2958b3b5a",
+  "_path": "/Users/ember/dev/gh/forks/ring",
+  "_updated_at": "2026-02-14T00:56:26.534532Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Authenticated Encryption with Associated Data (AEAD)",
+      "Galois/Counter Mode (GCM)",
+      "Montgomery Multiplication",
+      "Elliptic Curve Cryptography (ECC)",
+      "RSA Signature Schemes (PKCS#1, PSS)",
+      "Elliptic Curve Diffie-Hellman (ECDH)",
+      "Secure Hash Algorithms (SHA-2, SHA-1)",
+      "Key Derivation Functions (HKDF, PBKDF2)",
+      "Hash-based Message Authentication Code (HMAC)",
+      "Finite Field Arithmetic",
+      "Side-channel Attack Mitigation",
+      "Constant-time Implementation",
+      "ASN.1 DER Encoding",
+      "No-std Runtime Environment",
+      "SIMD-accelerated Cryptography",
+      "Assembly Polyglot (Perlasm)",
+      "NIST Suite B Implementation",
+      "Curve25519 (X25519, Ed25519)",
+      "Poly1305 MAC",
+      "ChaCha20 Stream Cipher",
+      "Modular Exponentiation",
+      "Prime Field Arithmetic",
+      "Jacobian Coordinates",
+      "Montgomery Reduction",
+      "Secure Random Number Generation (CSPRNG)",
+      "Constant-time Comparison",
+      "Big-integer Arithmetic",
+      "X.509 Certificate Foundation (webpki)",
+      "TLS/SSL Primitive Support",
+      "BoringSSL Portability Layer"
+    ],
+    "tags": [
+      "cryptography",
+      "Rust Language Ecosystem",
+      "boringssl",
+      "aead",
+      "aes-gcm",
+      "rsa",
+      "ecdsa",
+      "ed25519",
+      "sha2",
+      "hmac",
+      "assembly",
+      "constant-time",
+      "x25519",
+      "poly1305",
+      "chacha20"
+    ],
+    "mined_motifs": [
+      "side-channel-resistance",
+      "security",
+      "Conditional assignment",
+      "Optimization barriers",
+      "dalek-cryptography",
+      "timing-attacks",
+      "Pseudo-Random Functions (PRF)",
+      "Elliptic Curve Cryptography",
+      "arkworks",
+      "Modular Arithmetic",
+      "Affine Coordinates",
+      "Miller Loop"
+    ],
+    "metaconstellations": [
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.402,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.396,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.301,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 3.987,
+        "matches": [
+          "arkworks"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 3.943,
+        "matches": [
+          "arkworks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 2.568,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.534532Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "26cba0f031aee1ec791cbea5c859e9311d0244c840f370e231d4aa27f5400b7c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:06.651108+00:00"
+  },
+  "mined_motifs": [
+    "side-channel-resistance",
+    "security",
+    "Conditional assignment",
+    "Optimization barriers",
+    "dalek-cryptography",
+    "timing-attacks",
+    "Pseudo-Random Functions (PRF)",
+    "Elliptic Curve Cryptography",
+    "arkworks",
+    "Modular Arithmetic",
+    "Affine Coordinates",
+    "Miller Loop"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "subtle",
+      "path": "/Users/ember/dev/gh/forks/subtle",
+      "similarity": 0.856
+    },
+    {
+      "name": "libb2-sys",
+      "path": "/Users/ember/dev/gh/libb2-sys",
+      "similarity": 0.843
+    },
+    {
+      "name": "crap_rsa",
+      "path": "/Users/ember/dev/gh/crap_rsa",
+      "similarity": 0.841
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.84
+    },
+    {
+      "name": "subtle",
+      "path": "/Users/ember/hellas/subtle",
+      "similarity": 0.838
+    },
+    {
+      "name": "lockstitch",
+      "path": "/Users/ember/src/lockstitch",
+      "similarity": 0.837
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.836
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.834
+    }
+  ]
+}

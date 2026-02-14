@@ -1,0 +1,272 @@
+{
+  "name": "noosphere",
+  "description": "Noosphere is a decentralized, content-addressable protocol designed for collaborative thought and knowledge sharing using a planetary consciousness model. It leverages IPLD-based data structures, UCAN-based authorization, and a custom DHT-driven name system to enable secure, versioned synchronization across diverse platforms. The system provides high-performance Rust core primitives with FFI bindings for Swift, C, and WebAssembly, facilitating peer-to-peer replication and semantic transclusion.",
+  "tags": [
+    "rust",
+    "wasm",
+    "swift",
+    "ipld",
+    "ucan",
+    "dht",
+    "content-addressing",
+    "p2p",
+    "synchronization",
+    "knowledge-graph",
+    "ffi",
+    "replication",
+    "did",
+    "decentralization",
+    "web3"
+  ],
+  "category": "Distributed Content-Addressable Graph Synchronization",
+  "concepts": [
+    "Hash Array Mapped Trie",
+    "Content-Addressable Archive",
+    "Content Identifier",
+    "User Controlled Authorization Networks",
+    "Decentralized Identifiers",
+    "Distributed Hash Table",
+    "Transclusion",
+    "Subtext Semantic Markup",
+    "Sphere Context",
+    "Merkle-DAG",
+    "Versioned Map",
+    "Petname System",
+    "Gateway Syndication",
+    "Capability-based Security",
+    "Peer-to-Peer Replication",
+    "Cryptographic Identity Management",
+    "Block Storage",
+    "UCAN Invocation",
+    "DHT Validator",
+    "CAR Reader",
+    "CAR Writer",
+    "FFI Bindings",
+    "WASM Portability",
+    "CID-linked Data",
+    "Merkle-Clock Timeline",
+    "Conflict-free Synchronization",
+    "Kubo RPC Integration",
+    "Identity Authority",
+    "Replicated State Machine",
+    "Subtext Resolver"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "Swift",
+    "C",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 334,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "c/example/main.c",
+      "rust/noosphere/src/ffi/mod.rs",
+      "rust/noosphere/src/key/mod.rs",
+      "rust/noosphere/src/lib.rs"
+    ]
+  },
+  "_hash": "698e49a34daac01ed501903527654ed8afe70f75e10bad6fbaa27e9ac2d11e24",
+  "_path": "/Users/ember/dev/noosphere",
+  "_updated_at": "2026-02-14T00:56:29.737819Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Hash Array Mapped Trie",
+      "Content-Addressable Archive",
+      "Content Identifier",
+      "User Controlled Authorization Networks",
+      "Decentralized Identifiers",
+      "Distributed Hash Table",
+      "Transclusion",
+      "Subtext Semantic Markup",
+      "Sphere Context",
+      "Merkle-DAG",
+      "Versioned Map",
+      "Petname System",
+      "Gateway Syndication",
+      "Capability-based Security",
+      "Peer-to-Peer Replication",
+      "Cryptographic Identity Management",
+      "Block Storage",
+      "UCAN Invocation",
+      "DHT Validator",
+      "CAR Reader",
+      "CAR Writer",
+      "FFI Bindings",
+      "WASM Portability",
+      "CID-linked Data",
+      "Merkle-Clock Timeline",
+      "Conflict-free Synchronization",
+      "Kubo RPC Integration",
+      "Identity Authority",
+      "Replicated State Machine",
+      "Subtext Resolver"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "swift",
+      "ipld",
+      "ucan",
+      "dht",
+      "Content-Addressable Storage (CAS)",
+      "p2p",
+      "Concurrency & Synchronization",
+      "knowledge-graph",
+      "foreign-function-interface",
+      "replication",
+      "did",
+      "decentralization",
+      "web3"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "cryptography",
+      "Promise Pipelining",
+      "captp",
+      "ocapn",
+      "quorum-certificates",
+      "byzantine-fault-tolerance",
+      "State Machine Replication",
+      "promise-pipelining",
+      "Netlayer Abstraction",
+      "Tor Onion Services"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 11.036,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "p2p"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 8.283,
+        "matches": [
+          "content-addressable storage (cas)",
+          "dht",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 8.24,
+        "matches": [
+          "distributed-systems",
+          "knowledge-graph"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.237,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 8.227,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 6.852,
+        "matches": [
+          "state machine replication",
+          "p2p"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.737819Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c8f1f3bf3450c45af88956c7a6a6ad387b4f88f4cceb0fe67bb91b2e1fae98f1",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:10.252214+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "cryptography",
+    "Promise Pipelining",
+    "captp",
+    "ocapn",
+    "Quorum Certificates",
+    "quorum-certificates",
+    "byzantine-fault-tolerance",
+    "State Machine Replication",
+    "promise-pipelining",
+    "Netlayer Abstraction",
+    "Tor Onion Services"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.807
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.807
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.804
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.803
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.802
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.802
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.8
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.799
+    }
+  ]
+}

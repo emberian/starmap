@@ -1,0 +1,238 @@
+{
+  "name": "Utilities",
+  "description": "A cross-platform C++ system utility library providing foundational abstractions for networking, concurrency, and data serialization. It features a robust socket implementation with WebSocket handshake support, an asynchronous I/O worker pattern, and thread-safe synchronization primitives. The library also includes cryptographic hashing via OpenSSL and WinCrypt, along with custom dynamic array and bit-stream buffers designed for high-performance data handling.",
+  "tags": [
+    "cpp",
+    "sockets",
+    "networking",
+    "websocket",
+    "cryptography",
+    "multithreading",
+    "serialization",
+    "cross-platform",
+    "windows-api",
+    "posix",
+    "buffer-management",
+    "asynchronous-io",
+    "sha512",
+    "sha1",
+    "tcp-server",
+    "tcp-client"
+  ],
+  "category": "Systems Programming Infrastructure",
+  "concepts": [
+    "Asynchronous Event Loop",
+    "RAII Resource Management",
+    "Platform Abstraction Layer",
+    "TCP/IP Networking",
+    "WebSocket Protocol Handshaking",
+    "Bit-level Data Serialization",
+    "Symmetric Cryptographic Primitives",
+    "Semaphore Synchronization",
+    "Thread-safe Memory Access",
+    "Dynamic Buffer Resizing",
+    "IPv4/IPv6 Dual-stack Support",
+    "High-resolution Timing",
+    "Base64 Encoding/Decoding",
+    "UTF-8 Validation",
+    "Atomic State Management",
+    "Callback-driven Architecture"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "CMake"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 22,
+    "has_readme": true,
+    "sample_files": [
+      "TCPServer.cpp",
+      "Socket.cpp",
+      "TCPClient.cpp",
+      "DataStream.cpp",
+      "Cryptography.cpp"
+    ]
+  },
+  "_hash": "012b97b982787579df24e21769b901f15c033aef13f91e0f04c018b2b4cbc8ab",
+  "_path": "/Users/ember/dev/gh/Utilities",
+  "_updated_at": "2026-02-14T00:56:24.343439Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Asynchronous Event Loop",
+      "RAII Resource Management",
+      "Platform Abstraction Layer",
+      "TCP/IP Networking",
+      "WebSocket Protocol Handshaking",
+      "Bit-level Data Serialization",
+      "Symmetric Cryptographic Primitives",
+      "Semaphore Synchronization",
+      "Thread-safe Memory Access",
+      "Dynamic Buffer Resizing",
+      "IPv4/IPv6 Dual-stack Support",
+      "High-resolution Timing",
+      "Base64 Encoding/Decoding",
+      "UTF-8 Validation",
+      "Atomic State Management",
+      "Callback-driven Architecture"
+    ],
+    "tags": [
+      "cpp",
+      "sockets",
+      "networking",
+      "websocket",
+      "cryptography",
+      "Concurrency & Synchronization",
+      "Data Serialization",
+      "cross-platform",
+      "windows-api",
+      "posix",
+      "buffer-management",
+      "Asynchronous Programming",
+      "sha512",
+      "sha1",
+      "tcp-server",
+      "tcp-client"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Asynchronous Programming",
+      "Concurrency & Synchronization",
+      "foreign-function-interface",
+      "performance",
+      "Asynchronous I/O Multiplexing",
+      "Cooperative Multitasking",
+      "Cooperative Yielding",
+      "Coroutine-aware Synchronization",
+      "Event Loop Integration",
+      "Fiber Abstractions",
+      "Global Lock-free Task Queue"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 6.803,
+        "matches": [
+          "foreign-function-interface",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 6.785,
+        "matches": [
+          "rust language ecosystem",
+          "posix"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.416,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.41,
+        "matches": [
+          "posix"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.407,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.381,
+        "matches": [
+          "cryptography"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.343439Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f5e886516468ea1c6dda8aa773c3d97c4331ad228673a62c491f6641138c720e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:21.264908+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "async-io",
+    "concurrency",
+    "ffi",
+    "performance",
+    "Asynchronous I/O Multiplexing",
+    "Cooperative Multitasking",
+    "Cooperative Yielding",
+    "Coroutine-aware Synchronization",
+    "Event Loop Integration",
+    "Fiber Abstractions",
+    "Global Lock-free Task Queue"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.84
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.829
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.825
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.824
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.818
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.817
+    },
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.817
+    },
+    {
+      "name": "libblake2",
+      "path": "/Users/ember/dev/gh/libblake2",
+      "similarity": 0.816
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "name": "qt6",
+  "description": "The Qt 6 meta-repository serving as the primary orchestration layer for the cross-platform application framework's modular architecture. It integrates core C++ libraries, declarative UI runtimes via QML, and extensive platform abstraction layers with a specialized focus on hardware-accelerated rendering and SIMD-optimized performance across desktop, mobile, and embedded targets.",
+  "tags": [
+    "qt6",
+    "cpp",
+    "cmake",
+    "cross-platform",
+    "gui-framework",
+    "qml",
+    "simd-acceleration",
+    "android",
+    "ios",
+    "webassembly",
+    "embedded-systems",
+    "meta-repository",
+    "build-system",
+    "ci-cd",
+    "vulkan",
+    "opengl"
+  ],
+  "category": "Cross-platform Application Framework",
+  "concepts": [
+    "Meta-Object System",
+    "Signal-Slot Architecture",
+    "Declarative UI Composition",
+    "Hardware Abstraction Layer",
+    "SIMD Vectorization",
+    "Cross-platform Build Orchestration",
+    "Dependency Management",
+    "Modular Software Architecture",
+    "Embedded Runtime Environment",
+    "Provisioning Automation",
+    "Graphics Pipeline Abstraction",
+    "Inter-process Communication",
+    "Memory-mapped Properties",
+    "Asset Conditioning",
+    "Resource Management"
+  ],
+  "languages": [
+    "C++",
+    "C",
+    "JavaScript",
+    "QML",
+    "Python",
+    "Shell",
+    "TypeScript",
+    "Java",
+    "Kotlin",
+    "Swift"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 48904,
+    "has_readme": true,
+    "sample_files": [
+      "qtbase/cmake/tests/main.cpp",
+      "qtbase/config.tests/armintrin/main.cpp",
+      "qtbase/config.tests/cxa_thread_atexit/main.c",
+      "qtbase/config.tests/loongarch_simd/main.cpp",
+      "qtbase/config.tests/no_direct_extern_access/main.cpp"
+    ]
+  },
+  "_hash": "40868149e1e1a9929cd1ece79890905afbe8f0143b6a5c3efdf6d10571063fce",
+  "_path": "/Users/ember/src/qt6",
+  "_updated_at": "2026-02-14T00:56:33.412490Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "359109304f94bad174e3fa907937ae7fbafb5fb5d9a7e31a2477d374787d7649",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:53.600950+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Static Analysis",
+    "qt",
+    "qtbase",
+    "toolchain",
+    "Asynchronous IO",
+    "Binary Size Optimization",
+    "Chrome DevTools Protocol Integration",
+    "Cross-Language Build Systems",
+    "Desktop Environment Integration",
+    "Embedded Database Persistence",
+    "Internationalization Architecture"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "qtbase-mkspecs-modules",
+      "path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+      "similarity": 0.826
+    },
+    {
+      "name": "cxx-qt",
+      "path": "/Users/ember/src/cxx-qt",
+      "similarity": 0.82
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.799
+    },
+    {
+      "name": "app-examples-template",
+      "path": "/Users/ember/src/qt6-build/qtbase/doc/global/app-examples-template",
+      "similarity": 0.791
+    },
+    {
+      "name": "llama.cpp",
+      "path": "/Users/ember/src/llama.cpp",
+      "similarity": 0.787
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.786
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.784
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Meta-Object System",
+      "Signal-Slot Architecture",
+      "Declarative UI Composition",
+      "Hardware Abstraction Layer",
+      "SIMD Vectorization",
+      "Cross-platform Build Orchestration",
+      "Dependency Management",
+      "Modular Software Architecture",
+      "Embedded Runtime Environment",
+      "Provisioning Automation",
+      "Graphics Pipeline Abstraction",
+      "Inter-process Communication",
+      "Memory-mapped Properties",
+      "Asset Conditioning",
+      "Resource Management"
+    ],
+    "tags": [
+      "qt6",
+      "cpp",
+      "cmake",
+      "cross-platform",
+      "gui-framework",
+      "qml",
+      "simd-acceleration",
+      "android",
+      "ios",
+      "webassembly",
+      "embedded-systems",
+      "meta-repository",
+      "build-system",
+      "ci-cd",
+      "vulkan",
+      "opengl"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Static Analysis",
+      "qt",
+      "qtbase",
+      "toolchain",
+      "Asynchronous IO",
+      "Binary Size Optimization",
+      "Chrome DevTools Protocol Integration",
+      "Cross-Language Build Systems",
+      "Desktop Environment Integration",
+      "Embedded Database Persistence",
+      "Internationalization Architecture"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 8.068,
+        "matches": [
+          "build-system",
+          "ci-cd"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.307,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.298,
+        "matches": [
+          "vulkan"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.296,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.295,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.288,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.412490Z"
+  }
+}

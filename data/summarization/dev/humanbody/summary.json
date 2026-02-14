@@ -1,0 +1,265 @@
+{
+  "name": "humanbody",
+  "description": "A mechanistic multilevel simulation of human physiology designed to model integrated systems including sleep, digestion, muscle flexion, and immune responses. The project aims to simulate pathological states and disease progression, such as the common cold and IBS, through high-fidelity biological modeling. It evaluates the implementation of these complex biological systems in Julia to achieve high-performance multiscale simulation.",
+  "tags": [
+    "simulation",
+    "physiology",
+    "mechanistic-modeling",
+    "systems-biology",
+    "julia",
+    "human-body",
+    "pathology",
+    "immunology",
+    "metabolism",
+    "muscle-physiology",
+    "disease-modeling",
+    "computational-biology",
+    "multiscale-simulation",
+    "bio-mechanics",
+    "biological-systems"
+  ],
+  "category": "Multiscale Mechanistic Physiology Simulation",
+  "concepts": [
+    "Multilevel Biological Simulation",
+    "Mechanistic Systems Physiology",
+    "Homeostatic Regulation",
+    "Pathological State Modeling",
+    "Gastrointestinal Dynamics",
+    "Immunological Signaling Cascades",
+    "Myofibrillar Repair and Recovery",
+    "Circadian Rhythm Integration",
+    "Disease Progression Trajectories",
+    "Systems Biology Integration",
+    "Multiscale Physiological Modeling",
+    "Metabolic Homeostasis",
+    "Stochastic Biological Processes",
+    "Ordinary Differential Equations",
+    "Agent-Based Modeling",
+    "Discrete Event Simulation",
+    "Viral Pathogenesis",
+    "Inflammatory Response Mechanisms",
+    "Nutrient Absorption Kinetics",
+    "Neuromuscular Coordination",
+    "Metabolic Flux Analysis",
+    "Cellular Signaling Networks",
+    "Organ System Interconnectivity",
+    "Pathogen-Host Interaction",
+    "Microbiome Dynamics",
+    "Sleep-Wake Cycle Regulation",
+    "Myofibrillar Protein Synthesis",
+    "Gastrointestinal Motility",
+    "Immunological Memory",
+    "Cytokine Response Modeling",
+    "Neuroendocrine Control",
+    "Biological Scale Integration",
+    "Kinetic Modeling",
+    "Bio-energetic Modeling",
+    "Tissue-level Homeostasis"
+  ],
+  "languages": [
+    "Julia"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "848f611b4d9af94250d3a1861aa15e18bf7c5ba6392238a01a086a64c365c88a",
+  "_path": "/Users/ember/dev/humanbody",
+  "_updated_at": "2026-02-14T00:56:29.121607Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Multilevel Biological Simulation",
+      "Mechanistic Systems Physiology",
+      "Homeostatic Regulation",
+      "Pathological State Modeling",
+      "Gastrointestinal Dynamics",
+      "Immunological Signaling Cascades",
+      "Myofibrillar Repair and Recovery",
+      "Circadian Rhythm Integration",
+      "Disease Progression Trajectories",
+      "Systems Biology Integration",
+      "Multiscale Physiological Modeling",
+      "Metabolic Homeostasis",
+      "Stochastic Biological Processes",
+      "Ordinary Differential Equations",
+      "Agent-Based Modeling",
+      "Discrete Event Simulation",
+      "Viral Pathogenesis",
+      "Inflammatory Response Mechanisms",
+      "Nutrient Absorption Kinetics",
+      "Neuromuscular Coordination",
+      "Metabolic Flux Analysis",
+      "Cellular Signaling Networks",
+      "Organ System Interconnectivity",
+      "Pathogen-Host Interaction",
+      "Microbiome Dynamics",
+      "Sleep-Wake Cycle Regulation",
+      "Myofibrillar Protein Synthesis",
+      "Gastrointestinal Motility",
+      "Immunological Memory",
+      "Cytokine Response Modeling",
+      "Neuroendocrine Control",
+      "Biological Scale Integration",
+      "Kinetic Modeling",
+      "Bio-energetic Modeling",
+      "Tissue-level Homeostasis"
+    ],
+    "tags": [
+      "real-time-simulation",
+      "physiology",
+      "mechanistic-modeling",
+      "systems-biology",
+      "julia",
+      "human-body",
+      "pathology",
+      "immunology",
+      "metabolism",
+      "muscle-physiology",
+      "disease-modeling",
+      "computational-biology",
+      "multiscale-simulation",
+      "bio-mechanics",
+      "biological-systems"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "visualization",
+      "nextjs",
+      "typescript",
+      "Double buffering",
+      "Moore neighborhood",
+      "cellular-automata",
+      "Adiabatic energy conservation",
+      "Camshaft lobe profile simulation",
+      "Choked flow modeling",
+      "Combustion thermodynamics",
+      "Constraint-based physics solving"
+    ],
+    "metaconstellations": [
+      {
+        "id": "mechanistic-biology",
+        "name": "Mechanistic Systems Physiology",
+        "score": 6.887,
+        "matches": [
+          "human-body",
+          "physiology",
+          "systems-biology"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.742,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 3.988,
+        "matches": [
+          "physiology"
+        ]
+      },
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 3.934,
+        "matches": [
+          "metabolism"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.852,
+        "matches": [
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 2.566,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.121607Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "442ada21c017b3efd671d4fc538673498a39922caf16140e6f2d4215e13391e5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:45.995204+00:00"
+  },
+  "mined_motifs": [
+    "real-time",
+    "visualization",
+    "nextjs",
+    "typescript",
+    "Double buffering",
+    "Moore neighborhood",
+    "cellular-automata",
+    "Adiabatic energy conservation",
+    "Camshaft lobe profile simulation",
+    "Choked flow modeling",
+    "Combustion thermodynamics",
+    "Constraint-based physics solving"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.846
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.827
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.825
+    },
+    {
+      "name": "jarvis",
+      "path": "/Users/ember/dev/gh/forks/jarvis",
+      "similarity": 0.82
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.819
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.818
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.803
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.8
+    }
+  ]
+}

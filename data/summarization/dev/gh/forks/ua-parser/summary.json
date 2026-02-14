@@ -1,0 +1,227 @@
+{
+  "name": "ua-parser",
+  "description": "A multi-language port of Browserscope's user agent parser, providing robust extraction of browser, operating system, and device metadata from User-Agent strings. It utilizes a shared, YAML-based configuration of regular expressions to ensure consistent parsing behavior across JavaScript, Python, Java, C#, PHP, Perl, and Haskell implementations. The system is designed for high-performance telemetry and analytics pipelines requiring precise identification of client-side environments.",
+  "tags": [
+    "user-agent",
+    "parser",
+    "regex",
+    "telemetry",
+    "analytics",
+    "browser-detection",
+    "device-detection",
+    "os-detection",
+    "multi-language",
+    "yaml-config",
+    "browserscope",
+    "cross-platform",
+    "metadata-extraction",
+    "web-traffic",
+    "client-info"
+  ],
+  "category": "User-Agent Analytics",
+  "concepts": [
+    "regular-expression-matching",
+    "pattern-substitution",
+    "cross-language-consistency",
+    "telemetry-processing",
+    "device-fingerprinting",
+    "version-string-normalization",
+    "yaml-serialization",
+    "shared-logic-specification",
+    "unit-testing-fixtures",
+    "backwards-compatibility-results"
+  ],
+  "languages": [
+    "JavaScript",
+    "Python",
+    "Java",
+    "C#",
+    "PHP",
+    "Perl",
+    "Haskell",
+    "D"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 155,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "js/index.js",
+      "py/ua_parser/__init__.py",
+      "py/ua_parser/user_agent_parser.py",
+      "py/ua_parser/user_agent_parser_test.py"
+    ]
+  },
+  "_hash": "a2b832a6b57e678b9735e17770fb20c697ddac62cdfc1451d5a19d8d318d5f9a",
+  "_path": "/Users/ember/dev/gh/forks/ua-parser",
+  "_updated_at": "2026-02-14T00:56:27.017684Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "regular-expression-matching",
+      "pattern-substitution",
+      "cross-language-consistency",
+      "telemetry-processing",
+      "device-fingerprinting",
+      "version-string-normalization",
+      "yaml-serialization",
+      "shared-logic-specification",
+      "unit-testing-fixtures",
+      "backwards-compatibility-results"
+    ],
+    "tags": [
+      "user-agent",
+      "parser",
+      "regex",
+      "telemetry",
+      "analytics",
+      "browser-detection",
+      "device-detection",
+      "os-detection",
+      "multi-language",
+      "yaml-config",
+      "browserscope",
+      "cross-platform",
+      "metadata-extraction",
+      "web-traffic",
+      "client-info"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "java",
+      "API Imitation",
+      "Byte-oriented IO",
+      "Environment Variable Injection",
+      "Error Handling Patterns",
+      "HashMap State Storage",
+      "Process Environment Merging",
+      "Regex-based Lexing",
+      "Twelve-Factor App Methodology",
+      "api-compatibility"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.832,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.447,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.422,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 4.027,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 3.939,
+        "matches": [
+          "telemetry"
+        ]
+      },
+      {
+        "id": "cognitive-systems-ai",
+        "name": "Cognitive Systems & AI",
+        "score": 3.684,
+        "matches": [
+          "category:User-Agent Analytics"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.017684Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bbccf583a173a9ce29fdcb6e4a2395b178dabe21d5cf4b8b5d602b4c77fd8220",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:39.178597+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "compiler-design",
+    "java",
+    "API Imitation",
+    "Byte-oriented IO",
+    "Environment Variable Injection",
+    "Error Handling Patterns",
+    "HashMap State Storage",
+    "Process Environment Merging",
+    "Regex-based Lexing",
+    "Twelve-Factor App Methodology",
+    "api-compatibility"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.843
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.84
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.837
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.837
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.834
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.833
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.832
+    }
+  ]
+}

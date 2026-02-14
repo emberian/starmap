@@ -1,0 +1,238 @@
+{
+  "name": "Baystation12",
+  "description": "Baystation12 is a mature, roleplay-oriented fork of the Space Station 13 simulation engine, leveraging the Dream Maker language to facilitate complex player interactions and environmental systems. It incorporates sophisticated subsystems for atmospheric dynamics, advanced medical procedures, and chemistry, supported by a diverse toolset including Python bots, Java-based asset managers, and C++ network extensions. The repository serves as a foundational platform for high-stakes multiplayer narratives within the BYOND ecosystem.",
+  "tags": [
+    "space-station-13",
+    "ss13",
+    "byond",
+    "dream-maker",
+    "roleplay",
+    "simulation",
+    "multiplayer",
+    "atmospheric-simulation",
+    "game-server",
+    "open-source-game",
+    "irc-bot",
+    "procedural-storytelling"
+  ],
+  "category": "High-Fidelity Roleplay Simulation Framework",
+  "concepts": [
+    "Atmospheric Dynamics",
+    "Chemical Reaction Simulation",
+    "Medical Triage Modeling",
+    "Tile-based Game Engine",
+    "Antagonist Logic",
+    "Markov Chain Communication",
+    "DMI Sprite Manipulation",
+    "Map Merging Algorithms",
+    "Roleplay Mechanics",
+    "Game Server Orchestration",
+    "NanoUI Framework",
+    "Subsystem Scheduling",
+    "Object-Oriented Game Logic",
+    "Z-level Spatial Management",
+    "Affero GPL Licensing",
+    "BYOND Environment Integration",
+    "Event-Driven Interactions",
+    "Administrative Control Panels",
+    "Multiplayer Networking",
+    "Procedural Map Loading"
+  ],
+  "languages": [
+    "Dream Maker",
+    "Python",
+    "JavaScript",
+    "Java",
+    "C++",
+    "C",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 4330,
+    "has_readme": true,
+    "sample_files": [
+      "lib/DLLSocket/main.cpp",
+      "nano/js/libraries/jquery-ui.js",
+      "bot/NanoTrasenBot.py",
+      "tools/dmitool/src/main/java/dmitool/Main.java",
+      "tools/mapmergepy/map_helpers.py"
+    ]
+  },
+  "_hash": "cbc6d1bff8242a83737fd5a55007a9016ed29af1f5e05e4f93dae34f479af8be",
+  "_path": "/Users/ember/dev/gh/forks/Baystation12",
+  "_updated_at": "2026-02-14T00:56:25.050205Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Atmospheric Dynamics",
+      "Chemical Reaction Simulation",
+      "Medical Triage Modeling",
+      "Tile-based Game Engine",
+      "Antagonist Logic",
+      "Markov Chain Communication",
+      "DMI Sprite Manipulation",
+      "Map Merging Algorithms",
+      "Roleplay Mechanics",
+      "Game Server Orchestration",
+      "NanoUI Framework",
+      "Subsystem Scheduling",
+      "Object-Oriented Game Logic",
+      "Z-level Spatial Management",
+      "Affero GPL Licensing",
+      "BYOND Environment Integration",
+      "Event-Driven Interactions",
+      "Administrative Control Panels",
+      "Multiplayer Networking",
+      "Procedural Map Loading"
+    ],
+    "tags": [
+      "space-station-13",
+      "ss13",
+      "byond",
+      "dream-maker",
+      "roleplay",
+      "real-time-simulation",
+      "multiplayer",
+      "atmospheric-simulation",
+      "game-server",
+      "open-source-game",
+      "irc-bot",
+      "procedural-storytelling"
+    ],
+    "mined_motifs": [
+      "cpp",
+      "physics-engine",
+      "real-time-simulation",
+      "procedural-audio",
+      "typescript",
+      "A* Pathfinding",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "westwood-studios",
+      "game-engine",
+      "game-design",
+      "python"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.486,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.447,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.444,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.423,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 3.887,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.623,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.050205Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "658a7fd73c861884c3b5316c96e45f84c827dd0b6564730b1dac080aabd48baa",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:03.263053+00:00"
+  },
+  "mined_motifs": [
+    "cpp",
+    "physics-engine",
+    "real-time",
+    "procedural-audio",
+    "typescript",
+    "A* Pathfinding",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "westwood-studios",
+    "game-logic",
+    "game-design",
+    "python"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.844
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.834
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.826
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.822
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.822
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.822
+    },
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.821
+    },
+    {
+      "name": "slipways-core",
+      "path": "/Users/ember/dev/slipways-core",
+      "similarity": 0.819
+    }
+  ]
+}

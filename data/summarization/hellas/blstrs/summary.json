@@ -1,0 +1,258 @@
+{
+  "name": "blstrs",
+  "description": "A high-performance Rust implementation of the BLS12-381 pairing-friendly elliptic curve construction, utilizing the blst library as a low-level assembly backend. It provides efficient G1, G2, and GT group operations, including bilinear pairings through optimized Miller loops and final exponentiation over a tower of extension fields up to Fp12. The library is specifically engineered for zk-SNARK applications, featuring constant-time execution and support for hardware-accelerated operations via GPU and specialized architectures.",
+  "tags": [
+    "bls12-381",
+    "pairing",
+    "cryptography",
+    "rust",
+    "blst",
+    "zk-snark",
+    "constant-time",
+    "elliptic-curve",
+    "g1",
+    "g2",
+    "gt",
+    "field-extension",
+    "assembly",
+    "serde",
+    "gpu",
+    "msm"
+  ],
+  "category": "Pairing-Friendly Elliptic Curve Cryptography",
+  "concepts": [
+    "BLS12-381",
+    "Bilinear Pairing",
+    "Miller Loop",
+    "Final Exponentiation",
+    "Montgomery Multiplication",
+    "Extension Field Tower",
+    "Sextic Twist",
+    "G1 Projective Coordinates",
+    "G2 Prepared Elements",
+    "Scalar Field Arithmetic",
+    "Base Field Arithmetic",
+    "Target Group GT",
+    "Frobenius Automorphism",
+    "Cofactor Clearing",
+    "Multi-scalar Multiplication (MSM)",
+    "Constant-Time Cryptography",
+    "Affine Coordinate System",
+    "zk-SNARK Primitives",
+    "Roots of Unity",
+    "Fast Fourier Transform (FFT)",
+    "Lexicographic Ordering",
+    "Mixed Curve Arithmetic",
+    "Twisting Isomorphism",
+    "Subgroup Membership",
+    "Towers of Extension Fields",
+    "Point Compression",
+    "Coordinate Normalization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 30,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "benches/bls12_381/mod.rs",
+      "src/lib.rs",
+      "src/tests/mod.rs",
+      "src/scalar.rs"
+    ]
+  },
+  "_hash": "16fbd534f68d04c7979234021f6f3409a09ddd22fc1748a4b701d1961ebb4553",
+  "_path": "/Users/ember/hellas/blstrs",
+  "_updated_at": "2026-02-14T00:56:31.251530Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9b4df3bd006e23e91ebb29a12ba90ba481d84c98bb4b7482e0816d4ab934db9d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:22.770770+00:00"
+  },
+  "mined_motifs": [
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "Scalar Multiplication",
+    "Bilinear Pairings",
+    "finite-fields",
+    "Finite Field Arithmetic",
+    "arkworks",
+    "elliptic-curves",
+    "Field Inversion",
+    "miller-loop",
+    "Affine and Projective Coordinates",
+    "Canonical Serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.984
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.929
+    },
+    {
+      "name": "pairing",
+      "path": "/Users/ember/hellas/pairing",
+      "similarity": 0.921
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/hellas/ark-blst",
+      "similarity": 0.911
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.887
+    },
+    {
+      "name": "o1js-hints",
+      "path": "/Users/ember/dev/o1js-hints",
+      "similarity": 0.866
+    },
+    {
+      "name": "group",
+      "path": "/Users/ember/hellas/group",
+      "similarity": 0.859
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.85
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "BLS12-381",
+      "Bilinear Pairing",
+      "Miller Loop",
+      "Final Exponentiation",
+      "Montgomery Multiplication",
+      "Extension Field Tower",
+      "Sextic Twist",
+      "G1 Projective Coordinates",
+      "G2 Prepared Elements",
+      "Scalar Field Arithmetic",
+      "Base Field Arithmetic",
+      "Target Group GT",
+      "Frobenius Automorphism",
+      "Cofactor Clearing",
+      "multi-scalar-multiplication",
+      "Constant-Time Cryptography",
+      "Affine Coordinate System",
+      "zk-SNARK Primitives",
+      "Roots of Unity",
+      "fast-fourier-transform",
+      "Lexicographic Ordering",
+      "Mixed Curve Arithmetic",
+      "Twisting Isomorphism",
+      "Subgroup Membership",
+      "Towers of Extension Fields",
+      "Point Compression",
+      "Coordinate Normalization"
+    ],
+    "tags": [
+      "bls12-381",
+      "pairing",
+      "cryptography",
+      "Rust Language Ecosystem",
+      "blst",
+      "ZK-SNARKs",
+      "constant-time",
+      "elliptic-curves",
+      "g1",
+      "g2",
+      "gt",
+      "field-extension",
+      "assembly",
+      "serde",
+      "gpu",
+      "multi-scalar-multiplication"
+    ],
+    "mined_motifs": [
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "Scalar Multiplication",
+      "Bilinear Pairings",
+      "finite-fields",
+      "Finite Field Arithmetic",
+      "arkworks",
+      "elliptic-curves",
+      "Field Inversion",
+      "miller-loop",
+      "Affine and Projective Coordinates",
+      "Canonical Serialization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.867,
+        "matches": [
+          "elliptic-curves",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 6.794,
+        "matches": [
+          "cryptography",
+          "bls12-381"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 5.415,
+        "matches": [
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.395,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.272,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 4.004,
+        "matches": [
+          "arkworks"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.251530Z"
+  }
+}

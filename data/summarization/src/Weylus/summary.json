@@ -1,0 +1,262 @@
+{
+  "name": "Weylus",
+  "description": "A cross-platform high-performance remote input and screen mirroring system that transforms mobile devices into low-latency graphic tablets. It leverages OS-native input synthesis, such as the Linux uinput kernel interface, and hardware-accelerated video pipelines including VAAPI, NVENC, and VideoToolbox. The system provides high-fidelity stylus and multi-touch capabilities via a browser-based client and a specialized WebSocket control protocol.",
+  "tags": [
+    "rust",
+    "stylus",
+    "uinput",
+    "ffmpeg",
+    "remote-desktop",
+    "wayland",
+    "pipewire",
+    "vaapi",
+    "nvenc",
+    "videotoolbox",
+    "low-latency",
+    "touchscreen",
+    "x11",
+    "winapi",
+    "cross-platform",
+    "input-synthesis"
+  ],
+  "category": "Remote Peripheral Emulation and Display Orchestration",
+  "concepts": [
+    "uinput kernel interface",
+    "X11/Xlib window management",
+    "PipeWire screen casting",
+    "GStreamer media pipelines",
+    "VAAPI video acceleration",
+    "NVENC hardware encoding",
+    "VideoToolbox framework",
+    "CoreGraphics display capture",
+    "WinAPI desktop duplication",
+    "Desktop Duplication API",
+    "WebSocket-based control protocol",
+    "Asynchronous Rust (Tokio)",
+    "FFmpeg C-FFI bindings",
+    "Pressure and tilt sensitivity synthesis",
+    "Virtual monitor orchestration",
+    "XDG Desktop Portals",
+    "Multi-touch event injection",
+    "Headless server operation",
+    "TLS proxy integration",
+    "Hardware-accelerated pixel format conversion",
+    "FLTK-based GUI orchestration",
+    "Desktop automation via autopilot",
+    "D-Bus service interaction",
+    "Real-time video streaming",
+    "Cross-platform input abstraction"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "TypeScript",
+    "Shell",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 64,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/capturable/mod.rs",
+      "src/input/mod.rs",
+      "src/main.rs",
+      "ts/lib.ts"
+    ]
+  },
+  "_hash": "ce91d8a93f84f89a73618ca6e15404d8a064698f28d864f0c900d25ece75606f",
+  "_path": "/Users/ember/src/Weylus",
+  "_updated_at": "2026-02-14T00:56:32.291692Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "510a13736e09a1070114549f867d78a71ea0ee316bd8f9b628c62cca38867854",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:56.335785+00:00"
+  },
+  "mined_motifs": [
+    "monaco-editor",
+    "ioctl",
+    "WebAssembly Compilation Pipeline",
+    "browser-ide",
+    "cheerpx",
+    "webassembly",
+    "x86-emulation",
+    "linux-input",
+    "virtualization",
+    "systems-programming",
+    "TCP/IP Stack Emulation",
+    "alpine-linux"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lan-mouse",
+      "path": "/Users/ember/src/lan-mouse",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.799
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.796
+    },
+    {
+      "name": "evdev",
+      "path": "/Users/ember/dev/gh/evdev",
+      "similarity": 0.795
+    },
+    {
+      "name": "codrawer-bridge",
+      "path": "/Users/ember/dev/codrawer-bridge",
+      "similarity": 0.793
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.793
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.791
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/-live-dev-env-abcdeez",
+      "similarity": 0.79
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "uinput kernel interface",
+      "X11/Xlib window management",
+      "PipeWire screen casting",
+      "GStreamer media pipelines",
+      "VAAPI video acceleration",
+      "NVENC hardware encoding",
+      "VideoToolbox framework",
+      "CoreGraphics display capture",
+      "WinAPI desktop duplication",
+      "Desktop Duplication API",
+      "WebSocket-based control protocol",
+      "Asynchronous Rust (Tokio)",
+      "FFmpeg C-FFI bindings",
+      "Pressure and tilt sensitivity synthesis",
+      "Virtual monitor orchestration",
+      "XDG Desktop Portals",
+      "Multi-touch event injection",
+      "Headless server operation",
+      "TLS proxy integration",
+      "Hardware-accelerated pixel format conversion",
+      "FLTK-based GUI orchestration",
+      "Desktop automation via autopilot",
+      "D-Bus service interaction",
+      "Real-time video streaming",
+      "Cross-platform input abstraction"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "stylus",
+      "uinput",
+      "ffmpeg",
+      "remote-desktop",
+      "wayland",
+      "pipewire",
+      "vaapi",
+      "nvenc",
+      "videotoolbox",
+      "low-latency",
+      "touchscreen",
+      "x11",
+      "winapi",
+      "cross-platform",
+      "input-synthesis"
+    ],
+    "mined_motifs": [
+      "monaco-editor",
+      "ioctl",
+      "WebAssembly Compilation Pipeline",
+      "browser-ide",
+      "cheerpx",
+      "webassembly",
+      "x86-emulation",
+      "linux-input",
+      "virtualization",
+      "Systems Programming",
+      "TCP/IP Stack Emulation",
+      "alpine-linux"
+    ],
+    "metaconstellations": [
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 8.162,
+        "matches": [
+          "virtualization",
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.118,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 6.866,
+        "matches": [
+          "wayland",
+          "ioctl"
+        ]
+      },
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 6.806,
+        "matches": [
+          "virtualization",
+          "uinput"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.761,
+        "matches": [
+          "webassembly",
+          "cheerpx"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.361,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.291692Z"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "name": "TEMP-rust-png",
+  "description": "A pure-Rust implementation of a PNG decoder and encoder, originally developed as a fork of rust-png. It features a manual implementation of the DEFLATE compression algorithm for stream-based decompression of IDAT chunks. The library manages low-level PNG structures including IHDR metadata, color type mapping, and scanline filtering for various bit depths and color formats.",
+  "tags": [
+    "rust",
+    "png",
+    "image-codec",
+    "deflate",
+    "compression",
+    "graphics",
+    "bitstream",
+    "codec",
+    "image-decoding",
+    "image-encoding",
+    "data-compression",
+    "servo-project"
+  ],
+  "category": "Digital Imaging and Compression",
+  "concepts": [
+    "PNG File Format",
+    "DEFLATE Decompression",
+    "Huffman Coding",
+    "CRC-32",
+    "Scanline Filtering",
+    "Color Type Mapping",
+    "Bit Depth Handling",
+    "Adam7 Interlacing",
+    "Chunk-based Parsing",
+    "IDAT Streaming",
+    "IHDR Metadata",
+    "Palette-based Images"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "lib.rs",
+      "inflate.rs"
+    ]
+  },
+  "_hash": "01f0568b060a91a7c57190054c01111d960f446790a4b7e141cb7bac79ba150f",
+  "_path": "/Users/ember/dev/gh/TEMP-rust-png",
+  "_updated_at": "2026-02-14T00:56:24.264514Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "PNG File Format",
+      "DEFLATE Decompression",
+      "Huffman Coding",
+      "CRC-32",
+      "Scanline Filtering",
+      "Color Type Mapping",
+      "Bit Depth Handling",
+      "Adam7 Interlacing",
+      "Chunk-based Parsing",
+      "IDAT Streaming",
+      "IHDR Metadata",
+      "Palette-based Images"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "png",
+      "image-codec",
+      "deflate",
+      "compression",
+      "Computer Graphics & Rendering",
+      "bitstream",
+      "codec",
+      "image-decoding",
+      "image-encoding",
+      "data-compression",
+      "servo-project"
+    ],
+    "mined_motifs": [
+      "image-processing",
+      "jpeg",
+      "LZW Compression",
+      "Lanczos Resampling",
+      "pixel-manipulation",
+      "color-conversion",
+      "quantization",
+      "lz4",
+      "Alpha Compositing",
+      "Bayer Filtering",
+      "CRC-32 Integrity",
+      "Discrete Cosine Transform"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-llm-runtimes",
+        "name": "High-Performance LLM Runtimes",
+        "score": 5.404,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.388,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.38,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 3.879,
+        "matches": [
+          "quantization"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.601,
+        "matches": []
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.6,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.264514Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a7c6b9a447cb10f8b008664b271b615c616037666341e555e426cca61cfd5336",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:18.981459+00:00"
+  },
+  "mined_motifs": [
+    "image-processing",
+    "jpeg",
+    "LZW Compression",
+    "Lanczos Resampling",
+    "pixel-manipulation",
+    "color-conversion",
+    "quantization",
+    "lz4",
+    "Alpha Compositing",
+    "Bayer Filtering",
+    "CRC-32 Integrity",
+    "Discrete Cosine Transform"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-image",
+      "path": "/Users/ember/dev/gh/forks/rust-image",
+      "similarity": 0.915
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.856
+    },
+    {
+      "name": "libjpeg",
+      "path": "/Users/ember/src/qt6-build/qtbase/src/3rdparty/libjpeg",
+      "similarity": 0.849
+    },
+    {
+      "name": "blosc-sys",
+      "path": "/Users/ember/dev/gh/blosc-sys",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.838
+    },
+    {
+      "name": "Pillow",
+      "path": "/Users/ember/dev/gh/forks/Pillow",
+      "similarity": 0.834
+    },
+    {
+      "name": "mica",
+      "path": "/Users/ember/src/mica",
+      "similarity": 0.831
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.831
+    }
+  ]
+}

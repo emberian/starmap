@@ -1,0 +1,228 @@
+{
+  "name": "blog.rust-lang.org",
+  "description": "The official static site repository for the Rust programming language blog, utilizing the Jekyll framework to facilitate technical communication regarding language design and ecosystem milestones. It preserves the historical narrative of Rust’s development, including the transition to 1.0, the introduction of Cargo, and the formalization of its core memory safety and concurrency models. The project integrates Liquid templating and Sass for modular styling and automated syndication through Atom/RSS feeds.",
+  "tags": [
+    "jekyll",
+    "rust-lang",
+    "static-site-generator",
+    "markdown",
+    "liquid",
+    "sass",
+    "blogging",
+    "technical-documentation",
+    "oss-governance",
+    "syndication",
+    "web-development"
+  ],
+  "category": "Static Technical Content Delivery",
+  "concepts": [
+    "Memory Safety",
+    "Ownership",
+    "Borrowing",
+    "Fearless Concurrency",
+    "Traits",
+    "Algebraic Data Types",
+    "Pattern Matching",
+    "Cargo Package Manager",
+    "API Stability",
+    "Release Engineering",
+    "Static Site Generation",
+    "Template Engines",
+    "Liquid",
+    "SCSS",
+    "Atom Feed",
+    "Historical Documentation",
+    "Compiler Evolution",
+    "Rust 1.0 Timeline",
+    "Zero-Cost Abstractions",
+    "Systems Programming Community"
+  ],
+  "languages": [
+    "Ruby",
+    "Markdown",
+    "HTML",
+    "SCSS",
+    "YAML"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 30,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "aa4f207b0d7a9124fead54a7fc98b0b50e822501be70749ecf3e07bff6dd4920",
+  "_path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+  "_updated_at": "2026-02-14T00:56:25.319979Z",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Memory Safety",
+      "Ownership",
+      "Borrowing",
+      "Fearless Concurrency",
+      "Traits",
+      "Algebraic Data Types",
+      "Pattern Matching",
+      "Cargo Package Manager",
+      "API Stability",
+      "Release Engineering",
+      "Static Site Generation",
+      "Template Engines",
+      "Liquid",
+      "SCSS",
+      "Atom Feed",
+      "Historical Documentation",
+      "Compiler Evolution",
+      "Rust 1.0 Timeline",
+      "Zero-Cost Abstractions",
+      "Systems Programming Community"
+    ],
+    "tags": [
+      "jekyll",
+      "Rust Language Ecosystem",
+      "static-site-generator",
+      "markdown",
+      "liquid",
+      "sass",
+      "blogging",
+      "technical-documentation",
+      "oss-governance",
+      "syndication",
+      "web-development"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "Systems Programming",
+      "github-pages",
+      "rfc-process",
+      "lexical-analysis",
+      "Archival Documentation",
+      "Asynchronous Resource Loading",
+      "Browser Compatibility Shims",
+      "CSS Preprocessing",
+      "Compiler Design"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.329,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.582,
+        "matches": [
+          "markdown"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.559,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.536,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.525,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.741,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.319979Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e866babe72d08cf9e1b26ceb81352b3fe5a1d97c72ef23d62c3abb7ac321e455",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:17.333975+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "compiler-design",
+    "systems-programming",
+    "github-pages",
+    "rustc",
+    "rfc-process",
+    "Tokenization",
+    "Archival Documentation",
+    "Asynchronous Resource Loading",
+    "Browser Compatibility Shims",
+    "CSS Preprocessing",
+    "Compiler Design"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cmr.github.io",
+      "path": "/Users/ember/dev/gh/cmr.github.io",
+      "similarity": 0.901
+    },
+    {
+      "name": "meeting-minutes",
+      "path": "/Users/ember/dev/gh/forks/meeting-minutes",
+      "similarity": 0.89
+    },
+    {
+      "name": "gfx-rs.github.io",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+      "similarity": 0.881
+    },
+    {
+      "name": "rust-wiki-backup",
+      "path": "/Users/ember/dev/gh/forks/rust-wiki-backup",
+      "similarity": 0.881
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.88
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.872
+    }
+  ]
+}

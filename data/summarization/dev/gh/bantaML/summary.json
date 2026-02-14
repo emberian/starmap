@@ -1,0 +1,230 @@
+{
+  "name": "bantaML",
+  "description": "A high-performance Standard ML and Lisp implementation leveraging a Rust-based runtime with C-interoperability. The system features a custom bytecode interpreter or tree-walking evaluator with support for first-class continuations, manual memory management via a C-style object model, and an extensible builtin system using procedural macros. It appears to be a transcription or port of a C-based Lisp engine (tiny-lisp) into a memory-safe environment with low-level FFIs.",
+  "tags": [
+    "rust",
+    "compiler-design",
+    "language-runtime",
+    "standard-ml",
+    "lisp-interpreter",
+    "ffi",
+    "metaprogramming",
+    "bytecode",
+    "continuations",
+    "garbage-collection",
+    "procedural-macros",
+    "c2rust",
+    "virtual-machine"
+  ],
+  "category": "Language Runtime Engineering",
+  "concepts": [
+    "first-class continuations",
+    "environment-based evaluation",
+    "bytecode interpretation",
+    "tail-call optimization",
+    "C-interoperability",
+    "tagged unions",
+    "procedural macro attributes",
+    "manual memory layout",
+    "symbol interning",
+    "lexical scoping",
+    "garbage collection integration",
+    "recursive descent parsing",
+    "builtin function registration"
+  ],
+  "languages": [
+    "Rust",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 19,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "macros/src/lib.rs",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/tl/mod.rs"
+    ]
+  },
+  "_hash": "a8be7a87c188e762c70278369a1331ffeae0669f7461c9ee631bf619cb5030d2",
+  "_path": "/Users/ember/dev/gh/bantaML",
+  "_updated_at": "2026-02-14T00:56:24.451807Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "first-class continuations",
+      "environment-based evaluation",
+      "bytecode interpretation",
+      "tail-call optimization",
+      "C-interoperability",
+      "tagged unions",
+      "procedural macro attributes",
+      "manual memory layout",
+      "symbol interning",
+      "lexical scoping",
+      "garbage collection integration",
+      "recursive descent parsing",
+      "builtin function registration"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "language-runtime",
+      "standard-ml",
+      "lisp-interpreter",
+      "foreign-function-interface",
+      "metaprogramming",
+      "bytecode",
+      "continuations",
+      "garbage-collection",
+      "procedural-macros",
+      "c2rust",
+      "virtual-machine"
+    ],
+    "mined_motifs": [
+      "interpreter",
+      "Standard ML",
+      "AOT Compilation",
+      "AST",
+      "foreign-function-interface",
+      "Type Inference",
+      "compiler-design",
+      "Functional Programming",
+      "PolyML",
+      "Formal Verification Infrastructure",
+      "JIT Compilation",
+      "cli"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 7.915,
+        "matches": [
+          "ast",
+          "bytecode",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 7.828,
+        "matches": [
+          "foreign-function-interface",
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 7.706,
+        "matches": [
+          "compiler-design",
+          "bytecode",
+          "category:Language Runtime Engineering"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 7.597,
+        "matches": [
+          "compiler engineering",
+          "bytecode",
+          "category:Language Runtime Engineering"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 5.235,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.059,
+        "matches": [
+          "jit compilation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.451807Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c7099f515d0393a543f8e1780355176300c3c1c1a1f59fd7902a88b8180d720b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:31.377723+00:00"
+  },
+  "mined_motifs": [
+    "interpreter",
+    "Standard ML",
+    "AOT Compilation",
+    "Abstract Syntax Tree",
+    "Foreign Function Interface",
+    "Type Inference",
+    "compiler",
+    "Functional Programming",
+    "PolyML",
+    "Formal Verification Infrastructure",
+    "JIT Compilation",
+    "cli"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/RuPaulyML",
+      "similarity": 0.809
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.791
+    },
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/gh/RuPaulyML",
+      "similarity": 0.787
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.766
+    },
+    {
+      "name": "cbfi",
+      "path": "/Users/ember/dev/gh/cbfi-rs",
+      "similarity": 0.748
+    },
+    {
+      "name": "sol",
+      "path": "/Users/ember/dev/gh/forks/sol",
+      "similarity": 0.745
+    },
+    {
+      "name": "rust",
+      "path": "/Users/ember/dev/rust",
+      "similarity": 0.735
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.728
+    }
+  ]
+}

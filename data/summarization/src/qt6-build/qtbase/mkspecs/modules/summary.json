@@ -1,0 +1,216 @@
+{
+  "name": "qtbase-mkspecs-modules",
+  "description": "This directory serves as the centralized registration and configuration point for Qt modules within the qmake build system. It facilitates the discovery and integration of individual Qt components by hosting .pri files that define module-specific metadata, include paths, and linking requirements. This modular architecture allows the Qt framework to dynamically adapt the build environment based on the specific set of libraries and tools available in the current installation.",
+  "tags": [
+    "qt",
+    "qmake",
+    "build-system",
+    "modular-architecture",
+    "pri-files",
+    "qtbase",
+    "configuration-management",
+    "meta-programming",
+    "cpp-framework"
+  ],
+  "category": "Build System Meta-configuration",
+  "concepts": [
+    "Module Registration",
+    "Dependency Injection",
+    "Build Feature Discovery",
+    "Toolchain Integration",
+    "Cross-platform Build Orchestration",
+    "QMake PRI Specification",
+    "Meta-data Propagation",
+    "Component Discovery",
+    "Build Environment Normalization",
+    "Conditional Linking",
+    "In-source Configuration",
+    "Header Path Resolution",
+    "Library Dependency Mapping",
+    "Plugin Integration Support",
+    "Build-time Feature Toggling",
+    "Software Component Modularization"
+  ],
+  "languages": [
+    "QMake"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "8fc66b6a43e9a84bf0717e179a6f6ae3127f6908b7aee706d7dc24727e8b2186",
+  "_path": "/Users/ember/src/qt6-build/qtbase/mkspecs/modules",
+  "_updated_at": "2026-02-14T00:56:33.440610Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a535f0815859f4b230cdbfaff3b8db9474b25ad30c8e73ca503c0a394ce5d406",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:55.848490+00:00"
+  },
+  "mined_motifs": [
+    "automation",
+    "bindings",
+    "ffi",
+    "rust",
+    "systems-programming",
+    "Information Architecture",
+    "QDoc Macros",
+    "qdoc",
+    "technical-writing",
+    "Bundle Specification",
+    "CLI Interface",
+    "Compatibility Layering"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.843
+    },
+    {
+      "name": "simplebuilder",
+      "path": "/Users/ember/dev/gh/simplebuilder",
+      "similarity": 0.841
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.841
+    },
+    {
+      "name": "app-examples-template",
+      "path": "/Users/ember/src/qt6-build/qtbase/doc/global/app-examples-template",
+      "similarity": 0.839
+    },
+    {
+      "name": "cxx-qt",
+      "path": "/Users/ember/src/cxx-qt",
+      "similarity": 0.836
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.834
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.833
+    },
+    {
+      "name": "tools-doc-front-page",
+      "path": "/Users/ember/src/qt6-build/qtbase/doc/global/tools-doc-front-page",
+      "similarity": 0.826
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Module Registration",
+      "Dependency Injection",
+      "Build Feature Discovery",
+      "Toolchain Integration",
+      "Cross-platform Build Orchestration",
+      "QMake PRI Specification",
+      "Meta-data Propagation",
+      "Component Discovery",
+      "Build Environment Normalization",
+      "Conditional Linking",
+      "In-source Configuration",
+      "Header Path Resolution",
+      "Library Dependency Mapping",
+      "Plugin Integration Support",
+      "Build-time Feature Toggling",
+      "Software Component Modularization"
+    ],
+    "tags": [
+      "qt",
+      "qmake",
+      "build-system",
+      "modular-architecture",
+      "pri-files",
+      "qtbase",
+      "configuration-management",
+      "meta-programming",
+      "cpp-framework"
+    ],
+    "mined_motifs": [
+      "automation",
+      "Foreign Function Interface",
+      "foreign-function-interface",
+      "Rust Language Ecosystem",
+      "Systems Programming",
+      "Information Architecture",
+      "QDoc Macros",
+      "qdoc",
+      "technical-writing",
+      "Bundle Specification",
+      "CLI Interface",
+      "Compatibility Layering"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 10.965,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.409,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.386,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.367,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.364,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.337,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.440610Z"
+  }
+}

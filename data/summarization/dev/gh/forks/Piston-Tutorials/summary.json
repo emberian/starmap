@@ -1,0 +1,218 @@
+{
+  "name": "Piston-Tutorials",
+  "description": "A structured repository of educational resources and example implementations for the Piston game engine ecosystem in Rust. It provides modular tutorials covering windowing abstractions, OpenGL backends, and event loop management using SDL2 and custom graphics pipelines. The project includes a dedicated Markdown compiler utility for managing tutorial documentation and relative asset path resolution.",
+  "tags": [
+    "rust",
+    "piston-engine",
+    "game-development",
+    "graphics-programming",
+    "opengl",
+    "sdl2",
+    "tutorials",
+    "event-loop",
+    "rendering-pipeline",
+    "cross-platform",
+    "educational-resources"
+  ],
+  "category": "Game Engine Educational Architecture",
+  "concepts": [
+    "Immediate-mode rendering abstractions",
+    "Hardware-accelerated graphics pipelines",
+    "Asynchronous event polling",
+    "Delta-time based state updates",
+    "OpenGL context management",
+    "Windowing system abstraction",
+    "Coordinate system transformations",
+    "Relative asset path resolution",
+    "Markdown documentation compilation",
+    "Trait-based window interfaces",
+    "Shader versioning support",
+    "Modular game loop design"
+  ],
+  "languages": [
+    "Rust",
+    "Markdown"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 9,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "getting-started/src/main.rs",
+      "tutorial_util/main.rs"
+    ]
+  },
+  "_hash": "e61acea2bf4fb4156869b83011219f69088332d6d088f24591ed37bb4def23ee",
+  "_path": "/Users/ember/dev/gh/forks/Piston-Tutorials",
+  "_updated_at": "2026-02-14T00:56:25.110380Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Immediate-mode rendering abstractions",
+      "Hardware-accelerated graphics pipelines",
+      "Asynchronous event polling",
+      "Delta-time based state updates",
+      "OpenGL context management",
+      "Windowing system abstraction",
+      "Coordinate system transformations",
+      "Relative asset path resolution",
+      "Markdown documentation compilation",
+      "Trait-based window interfaces",
+      "Shader versioning support",
+      "Modular game loop design"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "piston-engine",
+      "game-engine",
+      "Computer Graphics & Rendering",
+      "opengl",
+      "sdl2",
+      "tutorials",
+      "Asynchronous Programming",
+      "rendering-pipeline",
+      "cross-platform",
+      "educational-resources"
+    ],
+    "mined_motifs": [
+      "glsl",
+      "systems-programming",
+      "cpp",
+      "Vertex Buffer Objects (VBO)",
+      "glfw",
+      "gpu-programming",
+      "Computer Graphics & Rendering",
+      "vao",
+      "vbo",
+      "Shader Compilation",
+      "Vertex Array Objects (VAO)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.899,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.885,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.852,
+        "matches": [
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.415,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.409,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.409,
+        "matches": [
+          "game-engine"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.110380Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b7d1a97d9e5ee40537989f4de78c4ba82c63e003c0c4c1457bb421e3188c3035",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:10.181262+00:00"
+  },
+  "mined_motifs": [
+    "glsl",
+    "low-level",
+    "cpp",
+    "Vertex Buffer Objects (VBO)",
+    "glfw",
+    "gpu-programming",
+    "rendering",
+    "computer-graphics",
+    "vao",
+    "vbo",
+    "Shader Compilation",
+    "Vertex Array Objects (VAO)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.852
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.851
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.847
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.841
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.839
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.834
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.834
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.833
+    }
+  ]
+}

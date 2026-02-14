@@ -1,0 +1,269 @@
+{
+  "name": "minataur2",
+  "description": "A high-performance blockchain explorer and archive management platform engineered for the Mina Protocol, emphasizing real-time state visualization and historical data integrity. It leverages a PostgreSQL backend with specialized triggers and views to index recursive zero-knowledge state transitions, ZK-app interactions, and canonical chain transitions. The system delivers low-latency network insights through a unified GraphQL API and WebSocket-driven frontend, supporting validator performance auditing and peer-to-peer topology mapping.",
+  "tags": [
+    "mina-protocol",
+    "blockchain-explorer",
+    "archive-node",
+    "graphql",
+    "websockets",
+    "postgresql",
+    "zkapps",
+    "real-time-analytics",
+    "block-production",
+    "staking",
+    "peer-discovery",
+    "berkeley-hardfork",
+    "node-js",
+    "sql-triggers",
+    "pug-templates"
+  ],
+  "category": "Mina Protocol Archive Management & State Visualization",
+  "concepts": [
+    "Succinct Blockchain Architecture",
+    "Recursive Zero-Knowledge Proofs",
+    "Canonical Chain Consensus",
+    "Mina Archive Node Synchronization",
+    "ZK-App Transaction Auditing",
+    "Ouroboros Samasika Proof-of-Stake",
+    "Epoch and Slot Scheduling",
+    "Staking Ledger Analysis",
+    "Validator Uptime Monitoring",
+    "Peer-to-Peer Network Localization",
+    "GraphQL Schema Resolution",
+    "WebSocket Event Streaming",
+    "PostgreSQL Relational Mapping",
+    "Ledger Merkle Root Verification",
+    "Genesis Constant Configuration",
+    "Hard Fork State Management",
+    "Mempool Transaction Visualization",
+    "VRF Output Verification",
+    "Coinbase Reward Distribution",
+    "Internal Command Processing",
+    "Snark-Work Marketplace Analytics",
+    "Global Slot Tracking",
+    "Account Nonce Management",
+    "ISP and Geo-IP Mapping",
+    "Database Routine Optimization",
+    "Cryptographic Address Validation",
+    "Blockchain Height Synchronization",
+    "Network Peer Discovery",
+    "Transaction Fee Analysis",
+    "State Hash Verification"
+  ],
+  "languages": [
+    "JavaScript",
+    "SQL",
+    "Pug",
+    "Less",
+    "GraphQL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 169,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "server/GraphQL/fetcher/index.js",
+      "server/GraphQL/resolvers/index.js",
+      "server/Views/js/account/index.js",
+      "server/Views/js/accounts/index.js"
+    ]
+  },
+  "_hash": "d0b5b4b042b9ca0bffed99f1afcdc48b727b98928fefe883dfe9101fe15cb63a",
+  "_path": "/Users/ember/dev/minataur2",
+  "_updated_at": "2026-02-14T00:56:29.393651Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Succinct Blockchain Architecture",
+      "Recursive Zero-Knowledge Proofs",
+      "Canonical Chain Consensus",
+      "Mina Archive Node Synchronization",
+      "ZK-App Transaction Auditing",
+      "Ouroboros Samasika Proof-of-Stake",
+      "Epoch and Slot Scheduling",
+      "Staking Ledger Analysis",
+      "Validator Uptime Monitoring",
+      "Peer-to-Peer Network Localization",
+      "GraphQL Schema Resolution",
+      "WebSocket Event Streaming",
+      "PostgreSQL Relational Mapping",
+      "Ledger Merkle Root Verification",
+      "Genesis Constant Configuration",
+      "Hard Fork State Management",
+      "Mempool Transaction Visualization",
+      "VRF Output Verification",
+      "Coinbase Reward Distribution",
+      "Internal Command Processing",
+      "Snark-Work Marketplace Analytics",
+      "Global Slot Tracking",
+      "Account Nonce Management",
+      "ISP and Geo-IP Mapping",
+      "Database Routine Optimization",
+      "Cryptographic Address Validation",
+      "Blockchain Height Synchronization",
+      "Network Peer Discovery",
+      "Transaction Fee Analysis",
+      "State Hash Verification"
+    ],
+    "tags": [
+      "Mina Protocol",
+      "blockchain-explorer",
+      "archive-node",
+      "graphql",
+      "websockets",
+      "postgresql",
+      "zkapps",
+      "real-time-analytics",
+      "block-production",
+      "staking",
+      "peer-discovery",
+      "berkeley-hardfork",
+      "node-js",
+      "sql-triggers",
+      "pug-templates"
+    ],
+    "mined_motifs": [
+      "Zero-Knowledge Proofs (ZKP)",
+      "blockchain",
+      "smart-contracts",
+      "cryptography",
+      "libp2p",
+      "Kimchi Proof System",
+      "Rust Language Ecosystem",
+      "zero-knowledge-proofs",
+      "Staged Ledger",
+      "proof-of-stake",
+      "Recursive SNARKs",
+      "succinct-blockchain"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 11.075,
+        "matches": [
+          "kimchi proof system",
+          "mina protocol",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.284,
+        "matches": [
+          "zero-knowledge-proofs",
+          "kimchi proof system",
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.265,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 5.5,
+        "matches": [
+          "recursive snarks"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 5.497,
+        "matches": [
+          "zero-knowledge proofs (zkp)"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.484,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.393651Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e9587e05415d51d0a61d3c5f8b998597a5209165bce5954191edd08ed7199a9b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:01.960228+00:00"
+  },
+  "mined_motifs": [
+    "zero-knowledge-proofs",
+    "blockchain",
+    "smart-contracts",
+    "cryptography",
+    "libp2p",
+    "Kimchi Proof System",
+    "rust",
+    "Recursive SNARKs",
+    "Staged Ledger",
+    "proof-of-stake",
+    "recursive-snarks",
+    "succinct-blockchain"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina",
+      "path": "/Users/ember/dev/mina",
+      "similarity": 0.902
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.894
+    },
+    {
+      "name": "mina-stealth-fixes",
+      "path": "/Users/ember/dev/mina-stealth-fixes",
+      "similarity": 0.885
+    },
+    {
+      "name": "openmina",
+      "path": "/Users/ember/dev/openmina",
+      "similarity": 0.879
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.879
+    },
+    {
+      "name": "gitops-infrastructure",
+      "path": "/Users/ember/dev/gitops-infrastructure",
+      "similarity": 0.865
+    },
+    {
+      "name": "mina3",
+      "path": "/Users/ember/dev/mina3",
+      "similarity": 0.864
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.862
+    }
+  ]
+}

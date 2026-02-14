@@ -1,0 +1,217 @@
+{
+  "name": "cmr32",
+  "description": "cmr32 is a Linux-native reimplementation of the Irvine32 assembly library using NASM, designed to provide a full-featured alternative to the original MASM-based library for x86-32 systems. It maintains strict API compatibility with the Irvine32 specification while enabling development in Unix-like environments without reliance on Windows-specific toolchains. The project emphasizes interoperability through cdecl-compliant interfaces, allowing seamless integration and testing between assembly routines and high-level C code.",
+  "tags": [
+    "x86-32",
+    "nasm",
+    "irvine32",
+    "linux",
+    "assembly",
+    "c-interop",
+    "cdecl",
+    "low-level",
+    "systems-programming",
+    "portability",
+    "x86-architecture"
+  ],
+  "category": "x86-32 Assembly Library Porting",
+  "concepts": [
+    "x86-32 architecture",
+    "NASM syntax",
+    "Irvine32 API compatibility",
+    "cdecl calling convention",
+    "C/Assembly interoperability",
+    "Application Binary Interface (ABI)",
+    "Linux system calls",
+    "Assembly string manipulation",
+    "Register preservation",
+    "Unit testing for assembly",
+    "Static library linking",
+    "Instruction set architecture (ISA)"
+  ],
+  "languages": [
+    "Assembly",
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "tests/string.c"
+    ]
+  },
+  "_hash": "ca71a151b88fd191baf8f1a86f7e14ec12a5b6773ea575fbfb8346768d5b32c7",
+  "_path": "/Users/ember/dev/gh/cmr32",
+  "_updated_at": "2026-02-14T00:56:24.776392Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "x86-32 architecture",
+      "NASM syntax",
+      "Irvine32 API compatibility",
+      "cdecl calling convention",
+      "C/Assembly interoperability",
+      "Application Binary Interface (ABI)",
+      "Linux system calls",
+      "Assembly string manipulation",
+      "Register preservation",
+      "Unit testing for assembly",
+      "Static library linking",
+      "Instruction set architecture (ISA)"
+    ],
+    "tags": [
+      "x86-32",
+      "nasm",
+      "irvine32",
+      "linux",
+      "assembly",
+      "Foreign Function Interface",
+      "cdecl",
+      "systems-programming",
+      "Systems Programming",
+      "portability",
+      "x86-architecture"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "foreign-function-interface",
+      "toolchain",
+      "posix",
+      "x86_64",
+      "systems-programming",
+      "ELF Header Manipulation",
+      "Polyglot Binaries",
+      "Static Linking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 12.331,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.559,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.172,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.352,
+        "matches": [
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.309,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 2.556,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.776392Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a78741a1758f62ac9a06757862e819211e6dfdfc613084cadb71a83a332d592e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:40.012977+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "ffi",
+    "toolchain",
+    "posix",
+    "x86_64",
+    "system-programming",
+    "ELF Header Manipulation",
+    "Polyglot Binaries",
+    "Static Linking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.822
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.816
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.813
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.811
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.809
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.807
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.807
+    },
+    {
+      "name": "cosmopolitan",
+      "path": "/Users/ember/src/cosmopolitan",
+      "similarity": 0.806
+    }
+  ]
+}

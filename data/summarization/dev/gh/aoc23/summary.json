@@ -1,0 +1,193 @@
+{
+  "name": "aoc23",
+  "description": "aoc23 appears to be a exploratory project using OCaml. The available files suggest focus areas around dune, day12, day1, day10.",
+  "tags": [
+    "OCaml",
+    "dune",
+    "day12",
+    "day1",
+    "day10",
+    "day13",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7",
+    "day8",
+    "main",
+    "project"
+  ],
+  "category": "Exploratory",
+  "concepts": [
+    "dune",
+    "day12",
+    "day1",
+    "day10",
+    "day13",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7",
+    "day8",
+    "main",
+    "project"
+  ],
+  "languages": [
+    "OCaml"
+  ],
+  "maturity": "exploratory",
+  "_hash": "1fda88cb11eaee17588fa95fb746c8991a375b37eb661b163d09675023dfd978",
+  "_path": "/Users/ember/dev/gh/aoc23",
+  "_updated_at": "2026-02-14T00:56:24.420319Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "dune",
+      "day12",
+      "day1",
+      "day10",
+      "day13",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "day6",
+      "day7",
+      "day8",
+      "main",
+      "project"
+    ],
+    "tags": [
+      "OCaml",
+      "dune",
+      "day12",
+      "day1",
+      "day10",
+      "day13",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "day6",
+      "day7",
+      "day8",
+      "main",
+      "project"
+    ],
+    "mined_motifs": [
+      "test",
+      "Shell",
+      "readme",
+      "type",
+      "build",
+      "JavaScript",
+      "types",
+      "audit",
+      "cargo",
+      "day11",
+      "input",
+      "Rust Language Ecosystem"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.493,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.201,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.027,
+        "matches": [
+          "cargo"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.420319Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0073a7616d60f89810d6336f821ef8824124806eecb60f0835ee7ad836c6abf2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:28.486370+00:00"
+  },
+  "mined_motifs": [
+    "test",
+    "Shell",
+    "readme",
+    "type",
+    "build",
+    "JavaScript",
+    "types",
+    "audit",
+    "cargo",
+    "day11",
+    "input",
+    "Rust"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "aoc",
+      "path": "/Users/ember/dev/aoc",
+      "similarity": 0.891
+    },
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.703
+    },
+    {
+      "name": "opam-repository",
+      "path": "/Users/ember/dev/gh/forks/opam-repository",
+      "similarity": 0.702
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.686
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.684
+    },
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.648
+    },
+    {
+      "name": "coda_net2",
+      "path": "/Users/ember/dev/gh/coda_net2",
+      "similarity": 0.646
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.641
+    }
+  ]
+}

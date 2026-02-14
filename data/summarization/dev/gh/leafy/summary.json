@@ -1,0 +1,193 @@
+{
+  "name": "leafy",
+  "description": "leafy is a minimalist Lua-based hierarchical router that utilizes recursive table traversal and metatable-driven defaults to resolve URI-style paths into callable handlers. It implements a flexible dispatch protocol where path segments are mapped to table keys, supporting dynamic capture and nested routing through a state-aware default lookup mechanism. The library is designed as a zero-dependency primitive for high-performance Lua applications requiring predictable and extensible request routing.",
+  "tags": [
+    "lua",
+    "routing",
+    "dispatch",
+    "path-resolution",
+    "minimalist",
+    "metatables",
+    "rockspec",
+    "busted-tests"
+  ],
+  "category": "Hierarchical Resource Routing",
+  "concepts": [
+    "path-based dispatching",
+    "recursive table lookup",
+    "metatable-based defaults",
+    "dynamic route capturing",
+    "callable resolution",
+    "path segment normalization",
+    "stateful route handlers",
+    "zero-dependency architecture"
+  ],
+  "languages": [
+    "Lua"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "f0db8bcce6fe64dae21c22fc95a12a39354bef49c7ce0fad5a078d5aadaa6ecb",
+  "_path": "/Users/ember/dev/gh/leafy",
+  "_updated_at": "2026-02-14T00:56:27.565916Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "path-based dispatching",
+      "recursive table lookup",
+      "metatable-based defaults",
+      "dynamic route capturing",
+      "callable resolution",
+      "path segment normalization",
+      "stateful route handlers",
+      "zero-dependency architecture"
+    ],
+    "tags": [
+      "lua",
+      "routing",
+      "dispatch",
+      "path-resolution",
+      "minimalist",
+      "metatables",
+      "rockspec",
+      "busted-tests"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "middleware",
+      "luarocks",
+      "rest-api",
+      "web-framework",
+      "Resource Acquisition Is Initialization (RAII)",
+      "WebAssembly",
+      "controller-dispatch",
+      "dynamic-path-segmentation",
+      "error-handling-middleware",
+      "http-method-matching"
+    ],
+    "metaconstellations": [
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.24,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.237,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.236,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.232,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.229,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.429,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.565916Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "413d333f25405cf423139950ae8bed0ce513d2ef9a37e2a710108e3757279693",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:57.907823+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "middleware",
+    "luarocks",
+    "rest-api",
+    "web-framework",
+    "resource-management",
+    "wasm",
+    "webassembly",
+    "controller-dispatch",
+    "dynamic-path-segmentation",
+    "error-handling-middleware",
+    "http-method-matching"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tweed",
+      "path": "/Users/ember/dev/gh/tweed",
+      "similarity": 0.828
+    },
+    {
+      "name": "wsapi",
+      "path": "/Users/ember/dev/gh/forks/wsapi",
+      "similarity": 0.804
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.779
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.763
+    },
+    {
+      "name": "mount",
+      "path": "/Users/ember/dev/gh/forks/mount",
+      "similarity": 0.761
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.76
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.76
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.76
+    }
+  ]
+}

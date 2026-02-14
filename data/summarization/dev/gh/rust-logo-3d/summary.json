@@ -1,0 +1,208 @@
+{
+  "name": "rust-logo-3d",
+  "description": "This repository provides high-fidelity 3D geometric representations of the Rust programming language logo. It includes source assets in Blender's native format and exported STL meshes, enabling seamless workflows for 3D printing and digital rendering. The models accurately preserve the intricate gear and letterform topology required for consistent brand reproduction across physical and virtual environments.",
+  "tags": [
+    "3d-model",
+    "rust-lang",
+    "blender",
+    "stl",
+    "3d-printing",
+    "brand-assets",
+    "cad-assets",
+    "digital-fabrication",
+    "graphics"
+  ],
+  "category": "3D Asset Design & Digital Fabrication",
+  "concepts": [
+    "3D Mesh Representation",
+    "Blender Workspace Configuration",
+    "Stereolithography (STL) Export",
+    "Brand Asset Digitization",
+    "Surface Topology",
+    "Polygonal Modeling",
+    "Digital Prototyping",
+    "3D Printing Ready Assets",
+    "Visual Identity Modeling",
+    "CAD Interoperability",
+    "Geometric Encoding",
+    "Rendering Environment Setup",
+    "Manifold Geometry",
+    "Coordinate System Alignment"
+  ],
+  "languages": [],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "881ac48bcebb2193ebf0bef95f7d75b6d80e24730a27869473741beb664aecdb",
+  "_path": "/Users/ember/dev/gh/rust-logo-3d",
+  "_updated_at": "2026-02-14T00:56:28.563061Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "3D Mesh Representation",
+      "Blender Workspace Configuration",
+      "Stereolithography (STL) Export",
+      "Brand Asset Digitization",
+      "Surface Topology",
+      "Polygonal Modeling",
+      "Digital Prototyping",
+      "3D Printing Ready Assets",
+      "Visual Identity Modeling",
+      "CAD Interoperability",
+      "Geometric Encoding",
+      "Rendering Environment Setup",
+      "Manifold Geometry",
+      "Coordinate System Alignment"
+    ],
+    "tags": [
+      "3d-model",
+      "Rust Language Ecosystem",
+      "blender",
+      "stl",
+      "3d-printing",
+      "brand-assets",
+      "cad-assets",
+      "digital-fabrication",
+      "Computer Graphics & Rendering"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Compiler Engineering",
+      "3d-graphics",
+      "visualization",
+      "lexical-analysis",
+      "Procedural Generation",
+      "Resource Acquisition Is Initialization (RAII)",
+      "3D Primitive Assembly",
+      "Coordinate Transformations",
+      "Depth Buffer Management",
+      "Direct-Mode Drawing",
+      "Fixed-Function Emulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.518,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.503,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.492,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.489,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.46,
+        "matches": [
+          "lexical-analysis"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.442,
+        "matches": [
+          "procedural generation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.563061Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "36bdc71faa9be547c554241487bbada7884acdf8540e692abfc80fed286e8b82",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:22.231080+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "compiler-design",
+    "3d-graphics",
+    "visualization",
+    "Tokenization",
+    "procedural-generation",
+    "resource-management",
+    "3D Primitive Assembly",
+    "Coordinate Transformations",
+    "Depth Buffer Management",
+    "Direct-Mode Drawing",
+    "Fixed-Function Emulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.882
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.871
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.866
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.866
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.865
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.864
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.863
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.858
+    }
+  ]
+}

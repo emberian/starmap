@@ -1,0 +1,216 @@
+{
+  "name": "serde_bare",
+  "description": "A robust implementation of the BARE (Binary Application Record Encoding) format for Rust, leveraging the Serde serialization framework. It provides efficient, non-self-describing binary serialization with native support for variable-length integers and no_std environments. The project ensures protocol interoperability through extensive cross-language benchmarking against Go-based reference implementations.",
+  "tags": [
+    "serde",
+    "bare",
+    "rust",
+    "serialization",
+    "deserialization",
+    "binary-encoding",
+    "no-std",
+    "variable-length-integers",
+    "data-interchange",
+    "performance"
+  ],
+  "category": "Binary Serialization Formats",
+  "concepts": [
+    "LEB128 variable-length integers",
+    "Serde data model mapping",
+    "Non-self-describing binary protocols",
+    "Schema-defined data structures",
+    "Fixed-width integer primitives",
+    "Optional type encoding",
+    "Variant tag indexing",
+    "No-std memory safety",
+    "Cross-language protocol compliance",
+    "Binary message framing",
+    "Zero-copy deserialization",
+    "Stream-based I/O serialization"
+  ],
+  "languages": [
+    "Rust",
+    "Go"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/de.rs",
+      "src/ser.rs",
+      "src/error.rs"
+    ]
+  },
+  "_hash": "35a1a2eb2f89a2aa6e52cea9cd9125b63f360106cc8aa0cdd67a7d2a724a1fc7",
+  "_path": "/Users/ember/hellas/serde_bare",
+  "_updated_at": "2026-02-14T00:56:31.951189Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d6999769adc265c3d1881f0339de836dcc7948b5b699683139313a6247fa896e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:46.367226+00:00"
+  },
+  "mined_motifs": [
+    "zero-copy",
+    "memory-layout",
+    "binary-protocol",
+    "capnproto",
+    "schema-compiler",
+    "rpc",
+    "Canonicalization",
+    "binary-format",
+    "racket",
+    "Attribute Reflection",
+    "Generic Type Reflection",
+    "Procedural Macros"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.905
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.898
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.893
+    },
+    {
+      "name": "byteorder",
+      "path": "/Users/ember/dev/gh/forks/byteorder",
+      "similarity": 0.886
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/gh/serde-reflect",
+      "similarity": 0.885
+    },
+    {
+      "name": "serde-reflect",
+      "path": "/Users/ember/dev/serde-reflect",
+      "similarity": 0.883
+    },
+    {
+      "name": "syrup",
+      "path": "/Users/ember/src/syrup",
+      "similarity": 0.879
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.86
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "LEB128 variable-length integers",
+      "Serde data model mapping",
+      "Non-self-describing binary protocols",
+      "Schema-defined data structures",
+      "Fixed-width integer primitives",
+      "Optional type encoding",
+      "Variant tag indexing",
+      "No-std memory safety",
+      "Cross-language protocol compliance",
+      "Binary message framing",
+      "Zero-copy deserialization",
+      "Stream-based I/O serialization"
+    ],
+    "tags": [
+      "serde",
+      "bare",
+      "Rust Language Ecosystem",
+      "Data Serialization",
+      "deserialization",
+      "binary-encoding",
+      "variable-length-integers",
+      "data-interchange",
+      "performance"
+    ],
+    "mined_motifs": [
+      "zero-copy",
+      "memory-layout",
+      "binary-protocol",
+      "capnproto",
+      "schema-compiler",
+      "rpc",
+      "Canonicalization",
+      "binary-format",
+      "racket",
+      "Attribute Reflection",
+      "Generic Type Reflection",
+      "Procedural Macros"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 8.401,
+        "matches": [
+          "binary-format",
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 6.954,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.473,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 4.032,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 3.991,
+        "matches": [
+          "rpc"
+        ]
+      },
+      {
+        "id": "storage-internals",
+        "name": "Storage Engines & Data Durability",
+        "score": 3.778,
+        "matches": [
+          "zero-copy"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.951189Z"
+  }
+}

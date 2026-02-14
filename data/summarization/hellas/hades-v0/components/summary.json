@@ -1,0 +1,211 @@
+{
+  "name": "components",
+  "description": "A specialized library of Yew-based UI components for the Hades visualization platform, tailored for the Morpheus protocol. It provides high-level abstractions for rendering Directed Acyclic Graphs (DAGs), temporal sequence diagrams, and interactive block editors to facilitate deep inspection of protocol execution states. The system leverages Rust and WebAssembly to provide performant, reactive interfaces for debugging complex distributed process transitions and data flows.",
+  "tags": [
+    "rust",
+    "yew",
+    "webassembly",
+    "visualization",
+    "morpheus-protocol",
+    "dag-visualization",
+    "sequence-diagrams",
+    "distributed-systems",
+    "protocol-debugging",
+    "ui-library",
+    "reactive-ui",
+    "hades-tooling"
+  ],
+  "category": "Distributed Protocol Visualization",
+  "concepts": [
+    "Directed Acyclic Graph Rendering",
+    "Temporal Sequence Mapping",
+    "Component-Based UI Architecture",
+    "Protocol State Inspection",
+    "Reactive State Management",
+    "Web-based Protocol Debugging",
+    "Block-level Data Transformation",
+    "Process Lifecycle Monitoring",
+    "Wasm-driven UI Updates"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": false,
+    "sample_files": [
+      "mod.rs"
+    ]
+  },
+  "_hash": "be0afa90a5ba4cd0401dce42fbb3c330c45fa136dcf1c318381c857dcf172348",
+  "_path": "/Users/ember/hellas/hades-v0/components",
+  "_updated_at": "2026-02-14T00:56:31.572942Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "946782bb913a42484363433852bf271ee6223822915db615f5abd9050c49b52f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:31.614168+00:00"
+  },
+  "mined_motifs": [
+    "byzantine-fault-tolerance",
+    "cross-platform",
+    "wasm",
+    "state-machine",
+    "Consensus Safety",
+    "Directed Acyclic Graph (DAG)",
+    "Gossip Protocols",
+    "Leader Election",
+    "quorum-certificates",
+    "State Machine Replication",
+    "Byzantine Fault Tolerance (BFT)",
+    "Quorum Certificates"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "visualizers",
+      "path": "/Users/ember/hellas/hades-v0/visualizers",
+      "similarity": 0.913
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.813
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.788
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/shylem/xilem",
+      "similarity": 0.787
+    },
+    {
+      "name": "yeet.plus",
+      "path": "/Users/ember/dev/gh/yeet.plus",
+      "similarity": 0.778
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.775
+    },
+    {
+      "name": "minataur2",
+      "path": "/Users/ember/dev/minataur2",
+      "similarity": 0.773
+    },
+    {
+      "name": "xilem",
+      "path": "/Users/ember/src/xilem",
+      "similarity": 0.772
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Directed Acyclic Graph Rendering",
+      "Temporal Sequence Mapping",
+      "Component-Based UI Architecture",
+      "Protocol State Inspection",
+      "Reactive State Management",
+      "Web-based Protocol Debugging",
+      "Block-level Data Transformation",
+      "Process Lifecycle Monitoring",
+      "Wasm-driven UI Updates"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "yew",
+      "webassembly",
+      "visualization",
+      "morpheus-protocol",
+      "dag-visualization",
+      "sequence-diagrams",
+      "distributed-systems",
+      "protocol-debugging",
+      "ui-library",
+      "reactive-ui",
+      "hades-tooling"
+    ],
+    "mined_motifs": [
+      "byzantine-fault-tolerance",
+      "cross-platform",
+      "WebAssembly",
+      "state-machine",
+      "Consensus Safety",
+      "directed-acyclic-graph",
+      "Gossip Protocols",
+      "Leader Election",
+      "quorum-certificates",
+      "State Machine Replication"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 10.94,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.068,
+        "matches": [
+          "distributed-systems",
+          "consensus safety",
+          "gossip protocols"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 8.068,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.331,
+        "matches": [
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.314,
+        "matches": [
+          "gossip protocols"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.286,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.572942Z"
+  }
+}

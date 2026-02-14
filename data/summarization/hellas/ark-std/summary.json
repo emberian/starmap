@@ -1,0 +1,230 @@
+{
+  "name": "ark-std",
+  "description": "A specialized compatibility layer and standard library abstraction for the arkworks zkSNARK ecosystem, designed to facilitate development in restricted no_std environments. It provides essential primitives including specialized I/O traits, error handling, performance tracing macros, and deterministic random number generation for cryptographic testing. The library also introduces a streaming model abstraction through custom iterable traits to support high-performance vector and matrix operations required for zero-knowledge proof systems.",
+  "tags": [
+    "rust",
+    "no_std",
+    "zksnark",
+    "cryptography",
+    "arkworks",
+    "streaming",
+    "perf-tracing",
+    "io-abstraction",
+    "zero-knowledge",
+    "embedded-rust",
+    "parallel-computing",
+    "rng",
+    "trait-abstraction",
+    "bare-metal"
+  ],
+  "category": "Zero-Knowledge Proof Systems",
+  "concepts": [
+    "Conditional Compilation",
+    "Standard Library Shimming",
+    "Trait-based I/O",
+    "Deterministic RNG",
+    "Wall-clock Profiling",
+    "Double-Ended Iteration",
+    "Feature Flags",
+    "Parallel Iterators",
+    "Memory Allocation Shims",
+    "Error Trait Implementation",
+    "Streaming Model Abstraction",
+    "Zero-cost Abstractions"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 18,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/io/mod.rs",
+      "src/iterable/mod.rs",
+      "src/lib.rs",
+      "src/io/error.rs"
+    ]
+  },
+  "_hash": "01a88f417ceb4b10d9ad21799978b3a0b78f01f31e8fdec396b2340c5bc4b7f6",
+  "_path": "/Users/ember/hellas/ark-std",
+  "_updated_at": "2026-02-14T00:56:31.240479Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f80e3a5aa951231a9ec45496253833ca1675d82e2e4a626dfb64b9715f2ea34c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:20.841464+00:00"
+  },
+  "mined_motifs": [
+    "Recursive SNARKs",
+    "mina-protocol",
+    "Multi-Scalar Multiplication",
+    "Finite Field Arithmetic",
+    "poseidon-hash",
+    "Elliptic Curve Cryptography",
+    "blockchain",
+    "smart-contracts",
+    "typescript",
+    "zero-knowledge-proofs",
+    "Foreign Field Arithmetic",
+    "kimchi"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.88
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.855
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.848
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.847
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.846
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.845
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.838
+    },
+    {
+      "name": "kimchi-playground",
+      "path": "/Users/ember/dev/kimchi-playground",
+      "similarity": 0.833
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Conditional Compilation",
+      "Standard Library Shimming",
+      "Trait-based I/O",
+      "Deterministic RNG",
+      "Wall-clock Profiling",
+      "Double-Ended Iteration",
+      "Feature Flags",
+      "Parallel Iterators",
+      "Memory Allocation Shims",
+      "Error Trait Implementation",
+      "Streaming Model Abstraction",
+      "Zero-cost Abstractions"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "ZK-SNARKs",
+      "cryptography",
+      "arkworks",
+      "streaming",
+      "perf-tracing",
+      "io-abstraction",
+      "zero-knowledge-proofs",
+      "embedded-rust",
+      "concurrency",
+      "rng",
+      "trait-abstraction",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "Multi-Scalar Multiplication",
+      "Finite Field Arithmetic",
+      "poseidon-hash",
+      "Elliptic Curve Cryptography",
+      "blockchain",
+      "smart-contracts",
+      "typescript",
+      "Zero-Knowledge Proofs (ZKP)",
+      "Foreign Field Arithmetic",
+      "kimchi"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.689,
+        "matches": [
+          "zero-knowledge-proofs",
+          "arkworks",
+          "kimchi",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 9.672,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 8.293,
+        "matches": [
+          "mina protocol",
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.215,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 6.888,
+        "matches": [
+          "zero-knowledge proofs (zkp)",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.491,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.240479Z"
+  }
+}

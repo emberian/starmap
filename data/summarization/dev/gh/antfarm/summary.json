@@ -1,0 +1,249 @@
+{
+  "name": "antfarm",
+  "description": "A hybrid simulation framework integrating a Java-based Processing 4 cellular automata engine with a Unity 3D visualization layer via a RESTful HTTP synchronization bridge. The system implements complex pheromone-driven agent behaviors using weighted random walks and path-reversal heuristics, while the Unity frontend enables immersive gestural interaction through Ultraleap hand-tracking modules. This architecture facilitates real-time state serialization and remote action execution between decoupled simulation and rendering runtimes.",
+  "tags": [
+    "cellular-automata",
+    "unity-xr",
+    "processing4",
+    "ultraleap-tracking",
+    "pheromone-logic",
+    "simulation-bridge",
+    "rest-integration",
+    "pathfinding-algorithm",
+    "ant-colony-optimization",
+    "distributed-simulation",
+    "hand-gestures",
+    "java-backend",
+    "csharp-frontend",
+    "spatial-computing",
+    "real-time-rendering"
+  ],
+  "category": "Distributed Simulation Rendering",
+  "concepts": [
+    "pheromone evolution logic",
+    "weighted random walk algorithms",
+    "cellular automata grid mechanics",
+    "RESTful state synchronization",
+    "inter-process communication over HTTP",
+    "Unity-Processing runtime integration",
+    "Ultraleap gestural interaction",
+    "path history reversal heuristics",
+    "landmark-based navigation shortcuts",
+    "spatial grid simulation",
+    "HTTP-based simulation bridge",
+    "JSON state serialization",
+    "autonomous agent modeling",
+    "emergent biological behavior",
+    "pheromone decay mechanics",
+    "VR interaction design",
+    "asynchronous simulation loops",
+    "multi-runtime state management",
+    "distributed rendering architectures",
+    "biologically-inspired computation",
+    "TCP socket configuration",
+    "real-time data serialization",
+    "cross-platform simulation synchronization",
+    "gestural input mapping",
+    "agent-based modeling"
+  ],
+  "languages": [
+    "Java",
+    "C#",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1562,
+    "has_readme": true,
+    "sample_files": [
+      "java/src/main/java/antfarm/CellMap.java",
+      "java/src/main/java/antfarm/UnityConnector.java",
+      "java/src/main/java/antfarm/Ant2.java",
+      "java/src/main/java/antfarm/Cell.java",
+      "java/src/main/java/antfarm/Run.java"
+    ]
+  },
+  "_hash": "b05ecdcf3e64e3e7ce5a1c2cb968b50c1ba5896492923842f38fffdffcf4abad",
+  "_path": "/Users/ember/dev/gh/antfarm",
+  "_updated_at": "2026-02-14T00:56:24.410006Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "pheromone evolution logic",
+      "weighted random walk algorithms",
+      "cellular automata grid mechanics",
+      "RESTful state synchronization",
+      "inter-process communication over HTTP",
+      "Unity-Processing runtime integration",
+      "Ultraleap gestural interaction",
+      "path history reversal heuristics",
+      "landmark-based navigation shortcuts",
+      "spatial grid simulation",
+      "HTTP-based simulation bridge",
+      "JSON state serialization",
+      "autonomous agent modeling",
+      "emergent biological behavior",
+      "pheromone decay mechanics",
+      "VR interaction design",
+      "asynchronous simulation loops",
+      "multi-runtime state management",
+      "distributed rendering architectures",
+      "biologically-inspired computation",
+      "TCP socket configuration",
+      "real-time data serialization",
+      "cross-platform simulation synchronization",
+      "gestural input mapping",
+      "agent-based modeling"
+    ],
+    "tags": [
+      "cellular-automata",
+      "unity-xr",
+      "processing4",
+      "ultraleap-tracking",
+      "pheromone-logic",
+      "simulation-bridge",
+      "rest-integration",
+      "pathfinding-algorithm",
+      "ant-colony-optimization",
+      "distributed-simulation",
+      "hand-gestures",
+      "java-backend",
+      "csharp-frontend",
+      "spatial-computing",
+      "Computer Graphics & Rendering"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "visualization",
+      "Double buffering",
+      "Moore neighborhood",
+      "react",
+      "webgl",
+      "Rust Language Ecosystem",
+      "typescript",
+      "vite",
+      "Cellular replication rules",
+      "Discrete dynamical systems",
+      "Dynamic asset scaling"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 7.924,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata",
+          "category:Distributed Simulation Rendering"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.819,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.334,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.612,
+        "matches": []
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 2.591,
+        "matches": []
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 2.59,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.410006Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0737d017ed736a1172b17c7e6683f46e2eae1d3debf6b72caa4be8c39c77f473",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:27.898590+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "visualization",
+    "Double buffering",
+    "Moore neighborhood",
+    "react",
+    "webgl",
+    "rust",
+    "typescript",
+    "vite",
+    "Cellular replication rules",
+    "Discrete dynamical systems",
+    "Dynamic asset scaling"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.84
+    },
+    {
+      "name": "jarvis",
+      "path": "/Users/ember/dev/gh/forks/jarvis",
+      "similarity": 0.831
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.827
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.822
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.809
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.809
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.808
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.806
+    }
+  ]
+}

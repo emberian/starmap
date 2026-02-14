@@ -1,0 +1,250 @@
+{
+  "name": "tulip",
+  "description": "Tulip is a high-concurrency, open-source team collaboration server implementing a unique topic-based threading model to facilitate organized asynchronous communication. It leverages a Python/Django backend with a Tornado-powered real-time event system and a sophisticated TypeScript frontend to provide an enterprise-grade messaging experience. The project encompasses comprehensive modules for multi-tenant administration, automated billing via Stripe, and an extensible integration framework.",
+  "tags": [
+    "team-chat",
+    "django",
+    "typescript",
+    "real-time",
+    "messaging",
+    "postgresql",
+    "multi-tenant",
+    "stripe-integration",
+    "webhooks",
+    "asynchronous-communication",
+    "open-source",
+    "enterprise-software"
+  ],
+  "category": "Threaded Real-time Communication System",
+  "concepts": [
+    "Topic-based Threading",
+    "Real-time Event Streaming",
+    "Multi-tenant Realm Architecture",
+    "Role-Based Access Control",
+    "Billing and Subscription Lifecycle",
+    "Markdown Content Rendering",
+    "Full-text Search Indexing",
+    "Webhook Integration Middleware",
+    "Push Notification Dispatching",
+    "RESTful API Architecture",
+    "Database Schema Evolution",
+    "LDAP and SAML Authentication",
+    "Distributed Task Queuing",
+    "Internationalization and Localization",
+    "Rate Limiting and Circuit Breaking",
+    "Static Type Analysis",
+    "Automated Integration Testing",
+    "OAuth2 Authentication Flow",
+    "Client-side State Synchronization",
+    "Server-side Template Rendering",
+    "Zero-downtime Migrations",
+    "Data Export and Import Tooling",
+    "WebSocket Communication",
+    "Content Security Policy Management",
+    "Bot Framework API",
+    "Analytics Data Aggregation"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 8929,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "pyproject.toml",
+      "confirmation/__init__.py",
+      "corporate/models/__init__.py",
+      "tools/documentation_crawler/documentation_crawler/spiders/__init__.py"
+    ]
+  },
+  "_hash": "f72ebfe2842cb4a7a8525a515a3d238951784445399863adb2317c810d49f0c8",
+  "_path": "/Users/ember/dev/gh/forks/tulip",
+  "_updated_at": "2026-02-14T00:56:27.009431Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Topic-based Threading",
+      "Real-time Event Streaming",
+      "Multi-tenant Realm Architecture",
+      "Role-Based Access Control",
+      "Billing and Subscription Lifecycle",
+      "Markdown Content Rendering",
+      "Full-text Search Indexing",
+      "Webhook Integration Middleware",
+      "Push Notification Dispatching",
+      "RESTful API Architecture",
+      "Database Schema Evolution",
+      "LDAP and SAML Authentication",
+      "Distributed Task Queuing",
+      "Internationalization and Localization",
+      "Rate Limiting and Circuit Breaking",
+      "Static Type Analysis",
+      "Automated Integration Testing",
+      "OAuth2 Authentication Flow",
+      "Client-side State Synchronization",
+      "Server-side Template Rendering",
+      "Zero-downtime Migrations",
+      "Data Export and Import Tooling",
+      "WebSocket Communication",
+      "Content Security Policy Management",
+      "Bot Framework API",
+      "Analytics Data Aggregation"
+    ],
+    "tags": [
+      "team-chat",
+      "django",
+      "typescript",
+      "real-time-simulation",
+      "messaging",
+      "postgresql",
+      "multi-tenant",
+      "stripe-integration",
+      "webhooks",
+      "asynchronous-communication",
+      "open-source",
+      "enterprise-software"
+    ],
+    "mined_motifs": [
+      "python",
+      "rest-api",
+      "SCIM integration",
+      "topic-threading",
+      "distributed-systems",
+      "irc-bot",
+      "jquery",
+      "2FA authentication",
+      "Asynchronous collaboration",
+      "Automated deployment",
+      "Bot framework",
+      "Content delivery networking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.666,
+        "matches": [
+          "distributed-systems",
+          "category:Threaded Real-time Communication System"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.466,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.466,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.466,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.466,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.411,
+        "matches": [
+          "real-time-simulation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.009431Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "500d6f87e20ef5fb0f26ef84463d5e2d8bd0c1cef7b8b793c9b28d6512b6fed8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:38.462517+00:00"
+  },
+  "mined_motifs": [
+    "python",
+    "rest-api",
+    "SCIM integration",
+    "topic-threading",
+    "distributed-systems",
+    "irc-bot",
+    "jquery",
+    "2FA authentication",
+    "Asynchronous collaboration",
+    "Automated deployment",
+    "Bot framework",
+    "Content delivery networking"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tulip.fg-goose.online",
+      "path": "/Users/ember/dev/tulip.fg-goose.online",
+      "similarity": 0.94
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.916
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.842
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.84
+    },
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.839
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.839
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.838
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.834
+    }
+  ]
+}

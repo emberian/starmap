@@ -1,0 +1,233 @@
+{
+  "name": "piday-automata",
+  "description": "A Python-based simulation framework for cellular automata, leveraging Pygame for real-time visualization on Raspberry Pi hardware. It provides modular implementations for Conway's Game of Life and a stochastic forest fire model, incorporating sprite-based animations for tree growth and combustion cycles. The project demonstrates grid-based state management, Moore neighborhood analysis, and interactive event-driven simulation control.",
+  "tags": [
+    "cellular-automata",
+    "pygame",
+    "raspberry-pi",
+    "python",
+    "conway-game-of-life",
+    "forest-fire",
+    "simulation",
+    "stochastic-simulation",
+    "grid-based",
+    "visualization",
+    "real-time",
+    "interactive"
+  ],
+  "category": "Cellular Automata Simulation",
+  "concepts": [
+    "Moore neighborhood",
+    "Stochastic state transitions",
+    "Grid-based data structures",
+    "Sprite animation",
+    "Real-time rendering",
+    "Event-driven GUI",
+    "Emergent behavior",
+    "State machine logic",
+    "Simulation ticking",
+    "Interactive visualization",
+    "Discrete dynamical systems",
+    "Neighbor discovery",
+    "Surface blitting",
+    "Dynamic asset scaling",
+    "Double buffering",
+    "Frame rate stabilization",
+    "Probability-based modeling",
+    "Cellular replication rules",
+    "Forest fire ecology simulation"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 28,
+    "has_readme": true,
+    "sample_files": [
+      "forest_fire.py",
+      "gui.py",
+      "world.py",
+      "conway.py"
+    ]
+  },
+  "_hash": "92b41d54522ee0e8d63ad93990d4b1048fd66dc8ab56f8b9287151eac05084bd",
+  "_path": "/Users/ember/dev/gh/piday-automata",
+  "_updated_at": "2026-02-14T00:56:28.058070Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Moore neighborhood",
+      "Stochastic state transitions",
+      "Grid-based data structures",
+      "Sprite animation",
+      "Real-time rendering",
+      "Event-driven GUI",
+      "Emergent behavior",
+      "State machine logic",
+      "Simulation ticking",
+      "Interactive visualization",
+      "Discrete dynamical systems",
+      "Neighbor discovery",
+      "Surface blitting",
+      "Dynamic asset scaling",
+      "Double buffering",
+      "Frame rate stabilization",
+      "Probability-based modeling",
+      "Cellular replication rules",
+      "Forest fire ecology simulation"
+    ],
+    "tags": [
+      "cellular-automata",
+      "pygame",
+      "raspberry-pi",
+      "python",
+      "conway-game-of-life",
+      "forest-fire",
+      "real-time-simulation",
+      "stochastic-simulation",
+      "grid-based",
+      "visualization",
+      "interactive"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "game-of-life",
+      "Totalistic Rules",
+      "egui",
+      "GPGPU Compute",
+      "WebAssembly",
+      "webgpu",
+      "wgpu",
+      "wgsl",
+      "nextjs",
+      "typescript",
+      "ANSI-based grid visualization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.107,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "category:Cellular Automata Simulation"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.804,
+        "matches": [
+          "real-time rendering",
+          "wgpu"
+        ]
+      },
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 5.537,
+        "matches": [
+          "stochastic-simulation"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.475,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.455,
+        "matches": [
+          "emergent behavior"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.445,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.058070Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ee39a908b645b0f155c041ab0bb61873d6b6d246ccd91e3e15b7d5b618fad507",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:10.271283+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "game-of-life",
+    "Totalistic Rules",
+    "egui",
+    "gpgpu",
+    "wasm",
+    "webgpu",
+    "wgpu",
+    "wgsl",
+    "nextjs",
+    "typescript",
+    "ANSI-based grid visualization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.886
+    },
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.857
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.854
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.847
+    },
+    {
+      "name": "byzzbench",
+      "path": "/Users/ember/dev/byzzbench",
+      "similarity": 0.845
+    },
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.845
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.845
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.842
+    }
+  ]
+}

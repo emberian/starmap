@@ -1,0 +1,233 @@
+{
+  "name": "rust-bitmap",
+  "description": "A dense bitmap implementation in Rust designed for storing small, fixed-width bit-slices within a contiguous memory block. It bypasses standard collection overhead by using raw pointer management and manual bounds checking to ensure efficient bit-packing and retrieval. The library provides safe interfaces for allocating and accessing packed data, utilizing bitwise operations to handle slices that cross byte boundaries.",
+  "tags": [
+    "bitmap",
+    "rust",
+    "bit-packing",
+    "data-structures",
+    "memory-management",
+    "unsafe-rust",
+    "performance",
+    "systems-programming"
+  ],
+  "category": "Bit-Packed Data Structures",
+  "concepts": [
+    "Dense Bitmap",
+    "Bit-Slicing",
+    "Manual Memory Management",
+    "Pointer Arithmetic",
+    "Raw Pointers",
+    "Packed Storage",
+    "Bitwise Operations",
+    "Fixed-Width Integers",
+    "Overflow Checking",
+    "Zero-Cost Abstractions",
+    "Byte Alignment",
+    "Memory Safety",
+    "Resource Acquisition Is Initialization (RAII)",
+    "Drop Trait",
+    "Memory Layout",
+    "Bit Masking",
+    "Little-Endian Bit Mapping",
+    "Unsafe Rust",
+    "Vector Deconstruction",
+    "Manual Allocation",
+    "Capacity Management",
+    "Pointer Offsets",
+    "Checked Arithmetic",
+    "In-place Updates",
+    "Bounds Validation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "8cbadfbad24d32f4ee2a0b25fc9111355c54814bab1598b7c5bdb26376bc7702",
+  "_path": "/Users/ember/dev/gh/rust-bitmap",
+  "_updated_at": "2026-02-14T00:56:28.140987Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Dense Bitmap",
+      "Bit-Slicing",
+      "Memory Management",
+      "Pointer Arithmetic",
+      "Raw Pointers",
+      "Packed Storage",
+      "Bitwise Operations",
+      "Fixed-Width Integers",
+      "Overflow Checking",
+      "Zero-Cost Abstractions",
+      "Byte Alignment",
+      "Memory Safety",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Drop Trait",
+      "Memory Layout",
+      "Bit Masking",
+      "Little-Endian Bit Mapping",
+      "Unsafe Rust",
+      "Vector Deconstruction",
+      "Manual Allocation",
+      "Capacity Management",
+      "Pointer Offsets",
+      "Checked Arithmetic",
+      "In-place Updates",
+      "Bounds Validation"
+    ],
+    "tags": [
+      "bitmap",
+      "Rust Language Ecosystem",
+      "bit-packing",
+      "data-structures",
+      "Memory Management",
+      "unsafe-rust",
+      "performance",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "foreign-function-interface",
+      "bit-manipulation",
+      "Operator Overloading",
+      "Resource Acquisition Is Initialization (RAII)",
+      "reference-counting",
+      "Foreign Function Interface",
+      "Bit-level addressing",
+      "Bitwise masking",
+      "Boolean algebra"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.047,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.309,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.294,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.487,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.394,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.667,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.140987Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "15d939b858452a95d5d7c6df35335eb0f2a164a221d7ea0280ae49e370a94987",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:17.915999+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "ffi",
+    "bit-manipulation",
+    "system-programming",
+    "Operator Overloading",
+    "resource-management",
+    "reference-counting",
+    "Foreign Function Interface (FFI)",
+    "bindings",
+    "Bit-level addressing",
+    "Bitwise masking",
+    "Boolean algebra"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "fixedbitset",
+      "path": "/Users/ember/dev/gh/forks/fixedbitset",
+      "similarity": 0.926
+    },
+    {
+      "name": "bitflags",
+      "path": "/Users/ember/dev/gh/forks/bitflags",
+      "similarity": 0.905
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.863
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.862
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.861
+    },
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.86
+    },
+    {
+      "name": "cons-list",
+      "path": "/Users/ember/dev/gh/forks/cons-list",
+      "similarity": 0.859
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.855
+    }
+  ]
+}

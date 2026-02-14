@@ -1,0 +1,212 @@
+{
+  "name": "libreDSSP",
+  "description": "An open-source interpreter for DSSP (Dialog System for Structured Programming), a Soviet stack-based language originally developed for the Setun ternary computer. The implementation provides a modular execution environment with support for core dictionary words, user-defined functions, and multi-stack management in a C-based runtime. It features integrated GNU Readline support for an interactive REPL and maintains high fidelity to the original language's concatenative programming philosophy.",
+  "tags": [
+    "interpreter",
+    "stack-machine",
+    "concatenative-language",
+    "soviet-computing",
+    "forth-like",
+    "dssp",
+    "ternary-computer-heritage",
+    "setun",
+    "c",
+    "repl",
+    "compiler-design",
+    "domain-specific-language"
+  ],
+  "category": "Stack-based Language Implementation",
+  "concepts": [
+    "Dictionary-based lookup",
+    "Data stack manipulation",
+    "Command stack execution",
+    "Word definition threading",
+    "Coreword primitives",
+    "Post-fix notation",
+    "Lexical parsing",
+    "Symbolic addressing"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 17,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "corewords.c",
+      "util.c",
+      "dict.c",
+      "dssp.c"
+    ]
+  },
+  "_hash": "d9205756cd35e5b11bad8e7f8505990836ef1f563d69561fb2ea387f029c560a",
+  "_path": "/Users/ember/dev/gh/forks/libreDSSP",
+  "_updated_at": "2026-02-14T00:56:25.991430Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Dictionary-based lookup",
+      "Data stack manipulation",
+      "Command stack execution",
+      "Word definition threading",
+      "Coreword primitives",
+      "Post-fix notation",
+      "Lexical Analysis",
+      "Symbolic addressing"
+    ],
+    "tags": [
+      "interpreter",
+      "stack-machine",
+      "concatenative-language",
+      "soviet-computing",
+      "forth-like",
+      "dssp",
+      "ternary-computer-heritage",
+      "setun",
+      "c",
+      "repl",
+      "Compiler Engineering",
+      "domain-specific-language"
+    ],
+    "mined_motifs": [
+      "Lexical Scoping",
+      "Rust Language Ecosystem",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "symbol-table",
+      "lisp",
+      "parser",
+      "systems-programming",
+      "Arithmetic Expression Evaluation",
+      "Assembly Emission",
+      "Backus-Naur Form (BNF)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.699,
+        "matches": [
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.303,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.503,
+        "matches": [
+          "lexical analysis"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.464,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.461,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 4.091,
+        "matches": [
+          "parser"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.991430Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1a8c4285ca496e3ed7ccd9ee4942c7c1ed9c1d8c0d63d6662728367fada75f98",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:51.966628+00:00"
+  },
+  "mined_motifs": [
+    "Lexical Scoping",
+    "rust",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "symbol-table",
+    "lisp",
+    "parser",
+    "system-programming",
+    "Arithmetic Expression Evaluation",
+    "Assembly Emission",
+    "Backus-Naur Form (BNF)"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.861
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.86
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.858
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.85
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.845
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.844
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.841
+    }
+  ]
+}

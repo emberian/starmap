@@ -1,0 +1,238 @@
+{
+  "name": "alexandria-web-client",
+  "description": "A web-based client interface for the Alexandria library management system, developed for the Clarkson Open Source Institute. It implements a search-and-display workflow using jQuery and Bootstrap 3, backed by a Flask-based Python server for API simulation and asset serving. The application manages book metadata, including ISBNs and availability, through dynamic DOM manipulation and asynchronous request handling.",
+  "tags": [
+    "web-client",
+    "library-management",
+    "jquery",
+    "bootstrap",
+    "flask",
+    "python",
+    "clarkson-open-source-institute",
+    "frontend",
+    "rest-api",
+    "legacy-web",
+    "html5",
+    "css3",
+    "glyphicons",
+    "single-page-interface"
+  ],
+  "category": "Library Information System (LIS) Interface",
+  "concepts": [
+    "RESTful API Consumption",
+    "DOM Manipulation",
+    "Static Asset Serving",
+    "Client-Side Rendering",
+    "Library Cataloging",
+    "Asynchronous Data Fetching",
+    "Responsive UI Design",
+    "Metadata Visualization",
+    "Dynamic Table Generation",
+    "JSON Parsing",
+    "Event-Driven Programming",
+    "CSS Theming",
+    "Grid Systems",
+    "Stub API Implementation",
+    "Font Embedding",
+    "Route Mapping",
+    "Template Rendering",
+    "ISBN Processing",
+    "Asset Pipeline Management",
+    "Middleware Integration",
+    "State Persistence",
+    "Cross-Browser Compatibility",
+    "Media Query Implementation"
+  ],
+  "languages": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 20,
+    "has_readme": true,
+    "sample_files": [
+      "jquery/static/js/jquery.js",
+      "jquery/static/js/bootstrap.min.js",
+      "jquery/static/js/alexandria.js",
+      "jquery/server.py",
+      "jquery/static/js/npm.js"
+    ]
+  },
+  "_hash": "859bdf3e91084d6e46fa5e3f6d7ada95066ac599b249e818ba0af4ea01cf8be6",
+  "_path": "/Users/ember/dev/gh/alexandria-web-client",
+  "_updated_at": "2026-02-14T00:56:24.400205Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "RESTful API Consumption",
+      "DOM Manipulation",
+      "Static Asset Serving",
+      "Client-Side Rendering",
+      "Library Cataloging",
+      "Asynchronous Data Fetching",
+      "Responsive UI Design",
+      "Metadata Visualization",
+      "Dynamic Table Generation",
+      "JSON Parsing",
+      "Event-Driven Programming",
+      "CSS Theming",
+      "Grid Systems",
+      "Stub API Implementation",
+      "Font Embedding",
+      "Route Mapping",
+      "Template Rendering",
+      "ISBN Processing",
+      "Asset Pipeline Management",
+      "Middleware Integration",
+      "State Persistence",
+      "Cross-Browser Compatibility",
+      "Media Query Implementation"
+    ],
+    "tags": [
+      "web-client",
+      "library-management",
+      "jquery",
+      "bootstrap",
+      "flask",
+      "python",
+      "clarkson-open-source-institute",
+      "frontend",
+      "rest-api",
+      "legacy-web",
+      "html5",
+      "css3",
+      "glyphicons",
+      "single-page-interface"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Data Serialization",
+      "backend",
+      "cryptographic-hashing",
+      "entity-relational-mapping",
+      "external-service-integration",
+      "google-books-api",
+      "inventory-state-tracking",
+      "iron-framework",
+      "isbn-api",
+      "isbn-metadata-retrieval"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.481,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.474,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.711,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.702,
+        "matches": []
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.676,
+        "matches": []
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 2.67,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.400205Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1ba46f586f5248bb8607e2f2bd050bf81702a9ceb33debd87647e091340e086f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:26.891478+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "serialization",
+    "backend",
+    "cryptographic-hashing",
+    "entity-relational-mapping",
+    "external-service-integration",
+    "google-books-api",
+    "inventory-state-tracking",
+    "iron-framework",
+    "isbn-api",
+    "isbn-metadata-retrieval",
+    "json-serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.899
+    },
+    {
+      "name": "alexandria-common",
+      "path": "/Users/ember/dev/gh/alexandria-common",
+      "similarity": 0.884
+    },
+    {
+      "name": "alexandria-client",
+      "path": "/Users/ember/dev/gh/alexandria-client",
+      "similarity": 0.879
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.878
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.855
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.855
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.852
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.852
+    }
+  ]
+}

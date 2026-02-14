@@ -24,6 +24,7 @@
             --chip-bg: rgba(18, 30, 45, 0.82);
             --chip-border: rgba(135, 193, 217, 0.55);
             --project-star: #f0d8a4;
+            --own-project-star: #ff9d00;
             --concept-star: #7cb8aa;
             --category-star: #91b7d6;
         }
@@ -36,10 +37,7 @@
             height: 100%;
             margin: 0;
             overflow: hidden;
-            background: radial-gradient(circle at 18% 22%, rgba(80, 124, 157, 0.22), transparent 42%),
-                        radial-gradient(circle at 81% 14%, rgba(145, 92, 54, 0.16), transparent 37%),
-                        radial-gradient(circle at 62% 76%, rgba(85, 130, 111, 0.18), transparent 48%),
-                        linear-gradient(165deg, var(--bg-void), var(--bg-haze) 45%, var(--bg-nebula));
+            background: var(--bg-void);
             color: var(--text-main);
             font-family: 'Space Mono', ui-monospace, Menlo, monospace;
         }
@@ -50,42 +48,109 @@
             height: 100vh;
         }
 
-        #starfield {
+        #nebula {
             position: absolute;
             inset: 0;
             width: 100%;
             height: 100%;
             z-index: 0;
+            opacity: 0.8;
+        }
+
+        #starfield {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
             opacity: 0.65;
+            pointer-events: none;
         }
 
         #graph {
             position: absolute;
             inset: 0;
-            z-index: 1;
+            z-index: 2;
             width: 100%;
             height: 100%;
         }
 
-        #graph svg {
-            width: 100%;
-            height: 100%;
-            display: block;
+        /* Experience Overlay */
+        #overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            background: radial-gradient(circle at center, var(--bg-nebula), var(--bg-void));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 1.2s ease, visibility 1.2s;
+        }
+
+        #overlay.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .start-btn {
+            font-family: 'Cinzel', serif;
+            background: transparent;
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            padding: 18px 36px;
+            font-size: 1.2rem;
+            letter-spacing: 0.2em;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.4s ease;
+            box-shadow: 0 0 20px rgba(197, 174, 117, 0.1);
+        }
+
+        .start-btn:hover {
+            background: var(--accent-gold);
+            color: var(--bg-void);
+            box-shadow: 0 0 40px rgba(197, 174, 117, 0.3);
+        }
+
+        .start-hint {
+            margin-top: 20px;
+            color: var(--text-dim);
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        #audioControl {
+            position: absolute;
+            bottom: 18px;
+            right: 18px;
+            z-index: 10;
+            pointer-events: auto;
+            opacity: 0.6;
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            text-decoration: underline;
+        }
+
+        #audioControl:hover {
+            opacity: 1;
         }
 
         .hud {
             position: absolute;
             top: 18px;
             left: 18px;
-            right: 18px;
             z-index: 5;
-            display: grid;
-            grid-template-columns: minmax(260px, 420px) minmax(200px, 1fr);
+            display: flex;
+            flex-direction: column;
             gap: 12px;
             pointer-events: none;
             opacity: 0;
             transform: translateY(-8px);
             transition: opacity 500ms ease, transform 650ms ease;
+            max-width: 420px;
         }
 
         .loaded .hud {
@@ -131,9 +196,45 @@
         .control-panel {
             padding: 12px 14px;
             display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 10px;
+            flex-direction: column;
+            gap: 12px;
+            width: 420px;
+        }
+
+        .view-toggle-group {
+            display: flex;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 99px;
+            padding: 4px;
+            border: 1px solid rgba(135, 193, 217, 0.2);
+            width: 100%;
+            pointer-events: auto;
+        }
+
+        .view-btn {
+            flex: 1;
+            padding: 8px 12px;
+            border-radius: 99px;
+            border: none;
+            background: transparent;
+            color: var(--text-dim);
+            font-size: 0.75rem;
+            font-family: 'Cinzel', serif;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .view-btn.active {
+            background: var(--accent-gold);
+            color: var(--bg-void);
+            font-weight: 700;
+            box-shadow: 0 0 15px rgba(197, 174, 117, 0.3);
+        }
+
+        .view-btn:hover:not(.active) {
+            color: var(--text-main);
+            background: rgba(135, 193, 217, 0.1);
         }
 
         .control-panel input,
@@ -152,9 +253,41 @@
             flex: 1 1 200px;
         }
 
+        .search-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex: 1 1 200px;
+            min-width: 180px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding-right: 32px;
+        }
+
+        .search-clear {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            user-select: none;
+            display: none;
+            pointer-events: auto;
+        }
+
+        .search-container input:not(:placeholder-shown) + .search-clear {
+            display: block;
+        }
+
+        .search-clear:hover {
+            color: var(--accent-gold);
+        }
+
         .control-panel button {
             cursor: pointer;
-            transition: border-color 220ms ease, transform 220ms ease;
+            transition: border-color 220ms ease, transform 220ms ease, background 220ms ease;
         }
 
         .control-panel button:hover {
@@ -233,10 +366,10 @@
 
         .details {
             position: absolute;
-            top: 108px;
+            top: 18px;
             right: 18px;
-            width: min(370px, calc(100vw - 36px));
-            max-height: calc(100vh - 190px);
+            width: min(380px, calc(100vw - 36px));
+            max-height: calc(100vh - 160px);
             z-index: 5;
             overflow: auto;
             padding: 14px 16px;
@@ -331,40 +464,86 @@
             font-family: 'Cinzel', serif;
         }
 
-        .link {
-            stroke: var(--line-base);
-            stroke-width: 1.05;
-            stroke-linecap: round;
-        }
-
         .node {
             cursor: pointer;
+            transition: opacity 250ms ease, stroke 250ms ease, stroke-width 250ms ease;
         }
 
-        .node.category {
-            fill: var(--category-star);
+        .node.selected {
+            stroke: var(--accent-gold) !important;
+            stroke-width: 3px !important;
+            animation: selected-pulse 2s infinite ease-in-out;
         }
 
-        .node.project {
-            fill: var(--project-star);
+        @keyframes selected-pulse {
+            0% { filter: drop-shadow(0 0 2px var(--accent-gold)) url(#star-glow); }
+            50% { filter: drop-shadow(0 0 8px var(--accent-gold)) url(#star-glow); }
+            100% { filter: drop-shadow(0 0 2px var(--accent-gold)) url(#star-glow); }
         }
 
-        .node.concept {
-            fill: var(--concept-star);
+        .node.my-projects {
+            stroke: var(--accent-gold);
+            stroke-width: 1.5;
+        }
+
+        .node.interests {
+            opacity: 0.65;
         }
 
         .label {
             fill: #d8e6ef;
             font-size: 10px;
             text-shadow: 0 0 8px rgba(4, 9, 15, 0.95);
-            pointer-events: none;
+            pointer-events: auto;
+            cursor: pointer;
         }
 
-        .label.category {
+        .label.landmark {
             font-family: 'Cinzel', serif;
-            font-size: 13px;
+            font-size: 12px;
             fill: #dfd1ab;
             letter-spacing: 0.03em;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 60px;
+            right: 18px;
+            z-index: 5;
+            padding: 10px 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            max-height: 260px;
+            overflow-y: auto;
+            opacity: 0;
+            transition: opacity 600ms ease;
+        }
+
+        .loaded .legend {
+            opacity: 1;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            cursor: pointer;
+            padding: 2px 0;
+            transition: color 200ms ease;
+        }
+
+        .legend-item:hover {
+            color: var(--text-main);
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
         }
 
         .empty {
@@ -464,13 +643,26 @@
             .title {
                 font-size: 1.02rem;
             }
+
+            .legend {
+                bottom: 50px;
+                right: 12px;
+                max-height: 180px;
+            }
         }
     </style>
 </head>
 <body>
+    <div id="overlay">
+        <button class="start-btn" id="startBtn">Initialize Atlas</button>
+        <div class="start-hint">Commence synchronization and audio alignment</div>
+    </div>
+
     <div id="app">
+        <canvas id="nebula"></canvas>
         <canvas id="starfield"></canvas>
         <div id="graph"></div>
+        <div id="audioControl">Mute Audio</div>
 
         <div class="hud">
             <section class="panel title-panel">
@@ -480,24 +672,33 @@
             </section>
 
             <section class="panel control-panel">
-                <input id="searchInput" type="search" placeholder="Search project or concept" autocomplete="off" />
+                <div class="view-toggle-group">
+                    <button class="view-btn active" id="viewCore" title="Show only original works and contributions">Ember's Galaxy</button>
+                    <button class="view-btn" id="viewAll" title="Show all projects including interests">Known Universe</button>
+                </div>
+                <div class="search-container">
+                    <input id="searchInput" type="search" placeholder="Search project or concept" autocomplete="off" />
+                    <span class="search-clear" id="searchClear">&times;</span>
+                </div>
                 <select id="categorySelect">
                     <option value="all">All categories</option>
                 </select>
-                <label class="toggle">
-                    <input id="conceptToggle" type="checkbox" checked /> Concepts
-                </label>
-                <label class="toggle">
-                    <input id="liveToggle" type="checkbox" checked /> Live Sync
-                </label>
-                <button id="refreshBtn" type="button">Sync Now</button>
-                <button id="recenterBtn" type="button">Recenter</button>
+                <div style="display: flex; gap: 15px; align-items: center; pointer-events: auto;">
+                    <label class="toggle">
+                        <input id="liveToggle" type="checkbox" checked /> Live Sync
+                    </label>
+                </div>
+                <div style="display: flex; gap: 8px; pointer-events: auto;">
+                    <button id="refreshBtn" type="button" style="flex: 1;">Sync Now</button>
+                    <button id="recenterBtn" type="button" style="flex: 1;">Recenter</button>
+                </div>
                 <span class="sync-status" id="syncStatus">Sync idle</span>
             </section>
         </div>
 
         <aside class="panel details" id="detailsPanel"></aside>
 
+        <div class="legend panel" id="categoryLegend"></div>
         <div class="chips" id="chips"></div>
         <div class="tooltip" id="tooltip"></div>
         <div class="empty" id="emptyState"></div>
@@ -505,6 +706,306 @@
     </div>
 
     <script>
+        class NebulaBackground {
+            constructor(canvasId) {
+                this.canvas = document.getElementById(canvasId);
+                this.gl = this.canvas.getContext('webgl');
+                if (!this.gl) return;
+
+                this.program = this.createProgram();
+                this.initBuffers();
+                this.resize();
+                window.addEventListener('resize', () => this.resize());
+            }
+
+            createProgram() {
+                const vs = `
+                    attribute vec2 position;
+                    void main() { gl_Position = vec4(position, 0.0, 1.0); }
+                `;
+                const fs = `
+                    precision highp float;
+                    uniform float time;
+                    uniform vec2 resolution;
+
+                    float noise(vec2 p) {
+                        return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453);
+                    }
+
+                    float smooth_noise(vec2 p) {
+                        vec2 i = floor(p);
+                        vec2 f = fract(p);
+                        f = f * f * (3.0 - 2.0 * f);
+                        float a = noise(i);
+                        float b = noise(i + vec2(1.0, 0.0));
+                        float c = noise(i + vec2(0.0, 1.0));
+                        float d = noise(i + vec2(1.0, 1.0));
+                        return mix(mix(a, b, f.x), mix(c, d, f.x), f.y);
+                    }
+
+                    float fbm(vec2 p) {
+                        float v = 0.0;
+                        float a = 0.5;
+                        for (int i = 0; i < 5; i++) {
+                            v += a * smooth_noise(p);
+                            p *= 2.0;
+                            a *= 0.5;
+                        }
+                        return v;
+                    }
+
+                    void main() {
+                        vec2 uv = gl_FragCoord.xy / resolution.xy;
+                        vec2 p = uv - 0.5;
+                        p.x *= resolution.x / resolution.y;
+                        
+                        float r = length(p);
+                        
+                        // Periodic Swirl: instead of winding infinitely, it "breathes" in and out
+                        float swirlIntensity = 0.6 * sin(time * 0.2);
+                        float a = atan(p.y, p.x) + swirlIntensity / (r + 0.8);
+                        vec2 uvWarped = vec2(cos(a), sin(a)) * r;
+                        
+                        // Drifting base coordinates
+                        vec2 uvDrift = p + vec2(sin(time * 0.05) * 0.1, time * 0.02);
+                        
+                        // Blend the two for complex but stable motion
+                        vec2 uvFinal = mix(uvDrift, uvWarped, 0.4);
+
+                        float n = fbm(uvFinal * 2.0 + time * 0.03);
+                        float n2 = fbm(uvFinal * 3.0 - time * 0.02);
+                        float n3 = fbm(uvFinal * 4.0 + n * 0.4);
+                        
+                        vec3 color1 = vec3(0.01, 0.03, 0.07); // Void
+                        vec3 color2 = vec3(0.15, 0.05, 0.25); // Magenta/Purple
+                        vec3 color3 = vec3(0.05, 0.2, 0.3);  // Cyan/Teal
+                        
+                        vec3 finalColor = mix(color1, color2, n * 1.3);
+                        finalColor = mix(finalColor, color3, n2 * n3 * 1.6);
+                        
+                        finalColor += pow(n3, 10.0) * 0.4; // Star clouds
+                        finalColor *= 1.3 - r; // Vignette
+                        
+                        gl_FragColor = vec4(finalColor, 1.0);
+                    }
+                `;
+
+                const vShader = this.compileShader(this.gl.VERTEX_SHADER, vs);
+                const fShader = this.compileShader(this.gl.FRAGMENT_SHADER, fs);
+                const prog = this.gl.createProgram();
+                this.gl.attachShader(prog, vShader);
+                this.gl.attachShader(prog, fShader);
+                this.gl.linkProgram(prog);
+                return prog;
+            }
+
+            compileShader(type, src) {
+                const s = this.gl.createShader(type);
+                this.gl.shaderSource(s, src);
+                this.gl.compileShader(s);
+                return s;
+            }
+
+            initBuffers() {
+                const buf = this.gl.createBuffer();
+                this.gl.bindBuffer(this.gl.ARRAY_BUFFER, buf);
+                this.gl.bufferData(this.gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), this.gl.STATIC_DRAW);
+                const pos = this.gl.getAttribLocation(this.program, 'position');
+                this.gl.enableVertexAttribArray(pos);
+                this.gl.vertexAttribPointer(pos, 2, this.gl.FLOAT, false, 0, 0);
+            }
+
+            resize() {
+                const ratio = window.devicePixelRatio || 1;
+                this.canvas.width = window.innerWidth * ratio;
+                this.canvas.height = window.innerHeight * ratio;
+                this.gl.viewport(0, 0, this.canvas.width, this.canvas.height);
+            }
+
+            render(t) {
+                if (!this.gl) return;
+                this.gl.useProgram(this.program);
+                this.gl.uniform1f(this.gl.getUniformLocation(this.program, 'time'), t * 0.001);
+                this.gl.uniform2f(this.gl.getUniformLocation(this.program, 'resolution'), this.canvas.width, this.canvas.height);
+                this.gl.drawArrays(this.gl.TRIANGLE_STRIP, 0, 4);
+            }
+        }
+
+        class GenerativeComposer {
+            constructor() {
+                this.ctx = null;
+                this.masterGain = null;
+                this.compressor = null;
+                this.playing = false;
+                this.timer = null;
+                this.scale = [174.61, 207.65, 233.08, 261.63, 311.13, 349.23]; // F Minor Pentatonic
+            }
+
+            init() {
+                this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                this.compressor = this.ctx.createDynamicsCompressor();
+                this.compressor.threshold.value = -24;
+                this.compressor.knee.value = 30;
+                this.compressor.ratio.value = 12;
+                this.compressor.attack.value = 0.003;
+                this.compressor.release.value = 0.25;
+
+                this.masterGain = this.ctx.createGain();
+                this.masterGain.gain.value = 0.2;
+
+                this.masterGain.connect(this.compressor);
+                this.compressor.connect(this.ctx.destination);
+
+                this.startBass();
+                this.startPads();
+                this.startMelodyLoop();
+                this.startPercussionLoop();
+                this.playing = true;
+            }
+
+            createNoiseBuffer() {
+                const bufferSize = this.ctx.sampleRate * 2;
+                const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+                const data = buffer.getChannelData(0);
+                for (let i = 0; i < bufferSize; i++) {
+                    data[i] = Math.random() * 2 - 1;
+                }
+                return buffer;
+            }
+
+            startPercussionLoop() {
+                const noiseBuffer = this.createNoiseBuffer();
+                const playHit = () => {
+                    if (this.playing) {
+                        const source = this.ctx.createBufferSource();
+                        source.buffer = noiseBuffer;
+                        
+                        const filter = this.ctx.createBiquadFilter();
+                        filter.type = 'highpass';
+                        filter.frequency.value = 5000;
+                        
+                        const gain = this.ctx.createGain();
+                        gain.gain.setValueAtTime(0.02, this.ctx.currentTime);
+                        gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.1);
+                        
+                        source.connect(filter);
+                        filter.connect(gain);
+                        gain.connect(this.masterGain);
+                        
+                        source.start();
+                        source.stop(this.ctx.currentTime + 0.1);
+                    }
+                    setTimeout(() => playHit(), 500); // 120 BPM quarter notes
+                };
+                playHit();
+            }
+
+            startBass() {
+                const playPulse = () => {
+                    if (this.playing) {
+                        const osc = this.ctx.createOscillator();
+                        const gain = this.ctx.createGain();
+                        osc.type = 'triangle';
+                        osc.frequency.setValueAtTime(43.65, this.ctx.currentTime); // Low F
+                        osc.frequency.exponentialRampToValueAtTime(30, this.ctx.currentTime + 0.5);
+                        
+                        gain.gain.setValueAtTime(0, this.ctx.currentTime);
+                        gain.gain.linearRampToValueAtTime(0.3, this.ctx.currentTime + 0.1);
+                        gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.8);
+                        
+                        osc.connect(gain);
+                        gain.connect(this.masterGain);
+                        osc.start();
+                        osc.stop(this.ctx.currentTime + 1);
+                    }
+                    setTimeout(() => playPulse(), 2000); // Steady 2s pulse
+                };
+                playPulse();
+            }
+
+            startPads() {
+                const freqs = [87.31, 130.81, 174.61, 207.65, 261.63];
+                freqs.forEach(f => {
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    const lfo = this.ctx.createOscillator();
+                    const lfoGain = this.ctx.createGain();
+
+                    osc.type = 'sawtooth';
+                    osc.frequency.value = f + (Math.random() - 0.5);
+                    
+                    // Filter for that "dope" synth feel
+                    const filter = this.ctx.createBiquadFilter();
+                    filter.type = 'lowpass';
+                    filter.frequency.value = 400;
+                    filter.Q.value = 5;
+
+                    lfo.frequency.value = 0.1 + Math.random() * 0.1;
+                    lfoGain.gain.value = 200;
+                    lfo.connect(lfoGain);
+                    lfoGain.connect(filter.frequency);
+                    lfo.start();
+
+                    gain.gain.value = 0;
+                    osc.connect(filter);
+                    filter.connect(gain);
+                    gain.connect(this.masterGain);
+                    
+                    osc.start();
+                    gain.gain.linearRampToValueAtTime(0.05, this.ctx.currentTime + 5);
+                });
+            }
+
+            startMelodyLoop() {
+                const delay = this.ctx.createDelay();
+                delay.delayTime.value = 0.4;
+                const feedback = this.ctx.createGain();
+                feedback.gain.value = 0.4;
+                
+                delay.connect(feedback);
+                feedback.connect(delay);
+                delay.connect(this.masterGain);
+
+                const playNote = () => {
+                    if (this.playing && Math.random() > 0.4) {
+                        const freq = this.scale[Math.floor(Math.random() * this.scale.length)] * (Math.random() > 0.8 ? 2 : 1);
+                        const osc = this.ctx.createOscillator();
+                        const gain = this.ctx.createGain();
+                        
+                        osc.type = 'sine';
+                        osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+                        
+                        gain.gain.setValueAtTime(0, this.ctx.currentTime);
+                        gain.gain.linearRampToValueAtTime(0.1, this.ctx.currentTime + 0.05);
+                        gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.5);
+                        
+                        osc.connect(gain);
+                        gain.connect(delay);
+                        gain.connect(this.masterGain);
+                        
+                        osc.start();
+                        osc.stop(this.ctx.currentTime + 1);
+                    }
+                    setTimeout(() => playNote(), 500 + Math.random() * 1500);
+                };
+                playNote();
+            }
+
+            toggle() {
+                if (!this.ctx) {
+                    this.init();
+                    return true;
+                }
+                this.playing = !this.playing;
+                if (this.playing) {
+                    this.masterGain.gain.setTargetAtTime(0.2, this.ctx.currentTime, 1.0);
+                } else {
+                    this.masterGain.gain.setTargetAtTime(0, this.ctx.currentTime, 0.5);
+                }
+                return this.playing;
+            }
+        }
+
         const state = {
             allProjects: [],
             interests: null,
@@ -514,7 +1015,7 @@
             nodesById: new Map(),
             neighbors: new Map(),
             graphData: null,
-            simulation: null,
+            topCategories: [],
             zoom: null,
             svg: null,
             g: null,
@@ -522,9 +1023,9 @@
             height: window.innerHeight,
             selectedId: null,
             hoveredId: null,
+            viewMode: "core", // core | all
             searchTerm: "",
             category: "all",
-            showConcepts: true,
             liveSync: true,
             syncIntervalMs: 12000,
             syncTimer: null,
@@ -542,36 +1043,45 @@
         const tooltip = document.getElementById("tooltip");
         const searchInput = document.getElementById("searchInput");
         const categorySelect = document.getElementById("categorySelect");
-        const conceptToggle = document.getElementById("conceptToggle");
         const liveToggle = document.getElementById("liveToggle");
         const refreshBtn = document.getElementById("refreshBtn");
         const recenterBtn = document.getElementById("recenterBtn");
         const syncStatus = document.getElementById("syncStatus");
         const toastStack = document.getElementById("toastStack");
+        
+        const nebula = new NebulaBackground('nebula');
+        const composer = new GenerativeComposer();
 
         function deriveInterests(projects) {
             const count = (arr) => {
                 const map = new Map();
                 arr.forEach((item) => {
-                    const key = String(item || "").trim();
-                    if (!key) return;
-                    map.set(key, (map.get(key) || 0) + 1);
+                    const original = String(item || "").trim();
+                    if (!original) return;
+                    const key = original.toLowerCase();
+                    const existing = map.get(key) || { name: original, count: 0 };
+                    existing.count += 1;
+                    // Prefer the version with more capitals or just the first one found
+                    if (original !== key && original.length > 0) {
+                        existing.name = original;
+                    }
+                    map.set(key, existing);
                 });
-                return [...map.entries()].sort((a, b) => b[1] - a[1]);
+                return [...map.values()].sort((a, b) => b.count - a.count);
             };
 
             const embeddingReady = projects.filter((p) => p.embedding_ready).length;
             const totalProjects = projects.length;
 
             return {
-                top_categories: count(projects.map((p) => p.category)).slice(0, 8).map(([name, count]) => ({ name, count })),
-                top_concepts: count(projects.flatMap((p) => p.concepts || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
-                top_tags: count(projects.flatMap((p) => p.tags || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
-                top_mined_motifs: count(projects.flatMap((p) => p.mined_motifs || [])).slice(0, 14).map(([name, count]) => ({ name, count })),
+                top_categories: count(projects.map((p) => p.category)).slice(0, 12).map((x) => ({ name: x.name, count: x.count })),
+                top_concepts: count(projects.flatMap((p) => p.concepts || [])).slice(0, 20).map((x) => ({ name: x.name, count: x.count })),
+                top_tags: count(projects.flatMap((p) => p.tags || [])).slice(0, 20).map((x) => ({ name: x.name, count: x.count })),
+                top_mined_motifs: count(projects.flatMap((p) => p.mined_motifs || [])).slice(0, 20).map((x) => ({ name: x.name, count: x.count })),
                 top_metaconstellations: count(
                     projects.flatMap((p) => (p.metaconstellations || []).map((m) => m.name || m))
-                ).slice(0, 10).map(([name, count]) => ({ name, count })),
-                top_languages: count(projects.flatMap((p) => p.languages || [])).slice(0, 10).map(([name, count]) => ({ name, count })),
+                ).slice(0, 10).map((x) => ({ name: x.name, count: x.count })),
+                top_languages: count(projects.flatMap((p) => p.languages || [])).slice(0, 10).map((x) => ({ name: x.name, count: x.count })),
                 embedding_coverage: {
                     ready: embeddingReady,
                     total: totalProjects,
@@ -613,6 +1123,7 @@
                 metaconstellations,
                 embedding,
                 embedding_ready: Boolean(raw.embedding_ready || embedding),
+                attribution: raw.attribution || "interests",
                 languages: Array.isArray(raw.languages) ? raw.languages : [],
                 display_path: raw.display_path || raw._path || "",
             };
@@ -745,9 +1256,6 @@
             if (!state.allProjects.length) {
                 setEmpty("No summaries found in ~/.summarization. Run `cargo run --manifest-path ~/dev/starmap/resummarize/Cargo.toml --` first.", true);
                 detailsPanel.innerHTML = `<h2>Atlas Offline</h2><p>Once summaries exist, this map will cluster projects into constellations and motifs.</p>`;
-                if (state.simulation) {
-                    state.simulation.stop();
-                }
                 d3.select("#graph").selectAll("*").remove();
                 state.svg = null;
                 state.g = null;
@@ -828,6 +1336,10 @@
         function currentProjects() {
             const search = state.searchTerm.trim().toLowerCase();
             return state.allProjects.filter((project) => {
+                if (state.viewMode === "core" && project.attribution === "interests") {
+                    return false;
+                }
+
                 if (state.category !== "all" && project.category !== state.category) {
                     return false;
                 }
@@ -857,47 +1369,32 @@
                 .filter(Boolean);
         }
 
-        function buildGraphData(projects, showConcepts) {
-            const nodes = [];
-            const links = [];
+        // Category color palette for scatter plot
+        const CATEGORY_PALETTE = [
+            "#c5ae75", "#87c1d9", "#72b8a5", "#d4917a",
+            "#9b8ec4", "#8bc478", "#d4c478", "#c47878",
+        ];
+        const CATEGORY_OTHER_COLOR = "#7a9ab5";
 
-            const categoryMap = new Map();
-            const conceptCounter = new Map();
-
-            projects.forEach((project) => {
-                const category = project.category || "Exploratory";
-                if (!categoryMap.has(category)) {
-                    categoryMap.set(category, {
-                        id: `category:${category}`,
-                        label: category,
-                        type: "category",
-                        r: 16,
-                        category,
-                    });
-                }
-
-                const mergedConcepts = [...new Set([
-                    ...(project.concepts || []),
-                    ...(project.tags || []),
-                    ...(project.mined_motifs || []),
-                ])]
-                    .map((x) => String(x || "").trim())
-                    .filter(Boolean)
-                    .slice(0, 10);
-
-                mergedConcepts.forEach((concept) => {
-                    conceptCounter.set(concept, (conceptCounter.get(concept) || 0) + 1);
-                });
+        function buildCategoryColorScale(projects) {
+            const catCounts = new Map();
+            projects.forEach(p => {
+                const cat = p.category || "Other";
+                catCounts.set(cat, (catCounts.get(cat) || 0) + 1);
             });
-
-            const conceptWhitelist = [...conceptCounter.entries()]
+            const topCats = [...catCounts.entries()]
                 .sort((a, b) => b[1] - a[1])
-                .slice(0, 45)
-                .map(([name]) => name);
-            const conceptSet = new Set(conceptWhitelist);
+                .slice(0, CATEGORY_PALETTE.length)
+                .map(([cat]) => cat);
+            state.topCategories = topCats;
+            return (category) => {
+                const idx = topCats.indexOf(category);
+                return idx >= 0 ? CATEGORY_PALETTE[idx] : CATEGORY_OTHER_COLOR;
+            };
+        }
 
-            categoryMap.forEach((node) => nodes.push(node));
-
+        function buildGraphData(projects) {
+            const nodes = [];
             projects.forEach((project) => {
                 const projectId = `project:${project.name}:${project.display_path}`;
                 nodes.push({
@@ -906,56 +1403,63 @@
                     type: "project",
                     project,
                     category: project.category,
+                    attribution: project.attribution,
                     r: 5 + Math.min(7, (project.concepts.length + project.tags.length + project.mined_motifs.length) * 0.3),
                 });
+            });
+            return { nodes };
+        }
 
-                links.push({
-                    source: projectId,
-                    target: `category:${project.category || "Exploratory"}`,
-                    type: "belongs",
+        function buildNeighborIndex(nodes) {
+            const neighbors = new Map();
+            nodes.forEach(n => neighbors.set(n.id, new Set([n.id])));
+
+            // Index concepts to find projects that share them
+            const conceptIndex = new Map();
+            nodes.forEach(n => {
+                if (n.type !== "project") return;
+                const allConcepts = [
+                    ...(n.project.concepts || []),
+                    ...(n.project.tags || []),
+                    ...(n.project.mined_motifs || []),
+                ];
+                allConcepts.forEach(c => {
+                    const key = c.toLowerCase();
+                    if (!conceptIndex.has(key)) conceptIndex.set(key, []);
+                    conceptIndex.get(key).push(n.id);
                 });
+            });
 
-                if (showConcepts) {
-                    const concepts = [...new Set([
-                        ...(project.concepts || []),
-                        ...(project.tags || []),
-                        ...(project.mined_motifs || []),
-                    ])]
-                        .filter((concept) => conceptSet.has(concept))
-                        .slice(0, 9);
+            // Also use motif_neighbors from embeddings
+            nodes.forEach(n => {
+                if (n.type !== "project") return;
+                const mn = n.project.motif_neighbors || [];
+                mn.forEach(neighbor => {
+                    const otherId = nodes.find(o =>
+                        o.type === "project" &&
+                        o.project.name === neighbor.name
+                    )?.id;
+                    if (otherId && otherId !== n.id) {
+                        neighbors.get(n.id).add(otherId);
+                        neighbors.get(otherId).add(n.id);
+                    }
+                });
+            });
 
-                    concepts.forEach((concept) => {
-                        const conceptId = `concept:${concept}`;
-                        if (!nodes.some((n) => n.id === conceptId)) {
-                            nodes.push({
-                                id: conceptId,
-                                label: concept,
-                                type: "concept",
-                                concept,
-                                r: 3 + Math.min(5, Math.sqrt(conceptCounter.get(concept) || 1)),
-                                count: conceptCounter.get(concept) || 1,
-                            });
+            // Connect projects sharing concepts (limit to concepts with <= 20 projects to avoid mega-hubs)
+            conceptIndex.forEach((ids) => {
+                if (ids.length < 2 || ids.length > 20) return;
+                ids.forEach(a => {
+                    ids.forEach(b => {
+                        if (a !== b) {
+                            neighbors.get(a).add(b);
+                            neighbors.get(b).add(a);
                         }
-
-                        links.push({
-                            source: projectId,
-                            target: conceptId,
-                            type: "motif",
-                        });
                     });
-                }
+                });
             });
 
-            const deduped = [];
-            const seen = new Set();
-            nodes.forEach((node) => {
-                if (!seen.has(node.id)) {
-                    seen.add(node.id);
-                    deduped.push(node);
-                }
-            });
-
-            return { nodes: deduped, links };
+            return neighbors;
         }
 
         function setupScene() {
@@ -983,28 +1487,30 @@
                 .join("feMergeNode")
                 .attr("in", (d) => d);
 
-            const linkGradient = defs.append("linearGradient")
-                .attr("id", "link-gradient")
-                .attr("x1", "0%")
-                .attr("y1", "0%")
-                .attr("x2", "100%")
-                .attr("y2", "100%");
-            linkGradient.append("stop").attr("offset", "0%").attr("stop-color", "rgba(126, 168, 196, 0.35)");
-            linkGradient.append("stop").attr("offset", "100%").attr("stop-color", "rgba(217, 196, 145, 0.15)");
-
             state.g = state.svg.append("g");
-            state.g.append("g").attr("class", "link-layer");
             state.g.append("g").attr("class", "node-layer");
             state.g.append("g").attr("class", "label-layer");
 
             state.zoom = d3.zoom()
-                .scaleExtent([0.35, 4.2])
+                .scaleExtent([0.35, 6])
                 .on("zoom", (event) => {
                     state.g.attr("transform", event.transform);
+                    updateLabelVisibility(event.transform.k);
                 });
 
             state.svg.call(state.zoom);
             recenter();
+        }
+
+        function updateLabelVisibility(k) {
+            if (!state.g) return;
+            state.g.select(".label-layer").selectAll("text")
+                .attr("visibility", d => {
+                    if (d.landmark) return "visible";
+                    if (k >= 2.0) return "visible";
+                    if (k >= 1.2 && d.r >= 7) return "visible";
+                    return "hidden";
+                });
         }
 
         function recenter() {
@@ -1014,204 +1520,190 @@
         }
 
         function renderGraph() {
-            if (!state.allProjects.length) {
-                return;
-            }
-
-            if (!state.svg) {
-                setupScene();
-            }
-
-            if (state.simulation) {
-                state.simulation.stop();
-            }
+            if (!state.allProjects.length) return;
+            if (!state.svg) setupScene();
 
             state.filteredProjects = currentProjects();
-            const graphData = buildGraphData(state.filteredProjects, state.showConcepts);
+            const graphData = buildGraphData(state.filteredProjects);
             state.graphData = graphData;
 
             state.nodesById = new Map(graphData.nodes.map((n) => [n.id, n]));
-            state.neighbors = new Map();
-            graphData.links.forEach((link) => {
-                const source = typeof link.source === "string" ? link.source : link.source.id;
-                const target = typeof link.target === "string" ? link.target : link.target.id;
-                if (!state.neighbors.has(source)) state.neighbors.set(source, new Set([source]));
-                if (!state.neighbors.has(target)) state.neighbors.set(target, new Set([target]));
-                state.neighbors.get(source).add(target);
-                state.neighbors.get(target).add(source);
+            state.neighbors = buildNeighborIndex(graphData.nodes);
+
+            // Position from UMAP coordinates
+            const padding = 80;
+            const xScale = d3.scaleLinear().domain([0, 1]).range([padding, state.width - padding]);
+            const yScale = d3.scaleLinear().domain([0, 1]).range([padding, state.height - padding]);
+
+            graphData.nodes.forEach(node => {
+                const p = node.project;
+                if (p && p.umap_x != null && p.umap_y != null) {
+                    node.x = xScale(p.umap_x);
+                    node.y = yScale(p.umap_y);
+                } else {
+                    node.x = state.width / 2 + (Math.random() - 0.5) * 200;
+                    node.y = state.height / 2 + (Math.random() - 0.5) * 200;
+                }
             });
 
-            const categoryNodes = graphData.nodes.filter((n) => n.type === "category");
-            const radius = Math.min(state.width, state.height) * 0.29;
-            categoryNodes.forEach((node, index) => {
-                const angle = (index / Math.max(1, categoryNodes.length)) * Math.PI * 2 - Math.PI / 2;
-                node.fx = state.width / 2 + Math.cos(angle) * radius;
-                node.fy = state.height / 2 + Math.sin(angle) * radius;
-            });
+            // Mark landmarks (top N by richness)
+            const sorted = [...graphData.nodes].sort((a, b) => b.r - a.r);
+            sorted.slice(0, 12).forEach(n => { n.landmark = true; });
 
-            const linkLayer = state.g.select(".link-layer");
+            const categoryColor = buildCategoryColorScale(state.filteredProjects);
             const nodeLayer = state.g.select(".node-layer");
             const labelLayer = state.g.select(".label-layer");
 
-            const links = linkLayer.selectAll("line")
-                .data(graphData.links, (d) => `${d.source.id || d.source}->${d.target.id || d.target}`)
-                .join("line")
-                .attr("class", "link")
-                .attr("stroke", "url(#link-gradient)")
-                .attr("stroke-width", (d) => d.type === "belongs" ? 1.5 : 1.0)
-                .attr("stroke-opacity", (d) => d.type === "belongs" ? 0.45 : 0.26);
+            nodeLayer.selectAll("circle")
+                .data(graphData.nodes, d => d.id)
+                .join(
+                    enter => enter.append("circle")
+                        .attr("cx", d => d.x)
+                        .attr("cy", d => d.y)
+                        .attr("r", 0)
+                        .attr("opacity", 0)
+                        .call(e => e.transition().duration(500)
+                            .attr("r", d => d.r)
+                            .attr("opacity", 1)),
+                    update => update
+                        .call(u => u.transition().duration(500)
+                            .attr("cx", d => d.x)
+                            .attr("cy", d => d.y)
+                            .attr("r", d => d.r)),
+                    exit => exit
+                        .call(e => e.transition().duration(300)
+                            .attr("r", 0).attr("opacity", 0).remove())
+                )
+                .attr("class", d => `node project ${d.attribution || ""}`.trim())
+                .attr("fill", d => categoryColor(d.category))
+                .attr("stroke", d => d.attribution === "my-projects" ? "var(--accent-gold)" : "rgba(250, 231, 186, 0.35)")
+                .attr("stroke-width", d => d.attribution === "my-projects" ? 1.5 : 0.8)
+                .attr("filter", "url(#star-glow)");
 
-            const nodes = nodeLayer.selectAll("circle")
-                .data(graphData.nodes, (d) => d.id)
-                .join("circle")
-                .attr("class", (d) => `node ${d.type}`)
-                .attr("r", (d) => d.r)
-                .attr("stroke", (d) => d.type === "project" ? "rgba(250, 231, 186, 0.65)" : "rgba(146, 191, 214, 0.35)")
-                .attr("stroke-width", (d) => d.type === "project" ? 1.1 : 0.8)
-                .attr("filter", "url(#star-glow)")
-                .call(d3.drag()
-                    .on("start", (event, d) => {
-                        if (!event.active) state.simulation.alphaTarget(0.24).restart();
-                        d.fx = d.x;
-                        d.fy = d.y;
-                    })
-                    .on("drag", (event, d) => {
-                        d.fx = event.x;
-                        d.fy = event.y;
-                    })
-                    .on("end", (event, d) => {
-                        if (!event.active) state.simulation.alphaTarget(0);
-                        if (d.type !== "category") {
-                            d.fx = null;
-                            d.fy = null;
-                        }
-                    })
-                );
+            labelLayer.selectAll("text")
+                .data(graphData.nodes, d => d.id)
+                .join(
+                    enter => enter.append("text")
+                        .attr("x", d => d.x + d.r + 4)
+                        .attr("y", d => d.y + 3)
+                        .attr("opacity", 0)
+                        .call(e => e.transition().duration(500).attr("opacity", 0.9)),
+                    update => update
+                        .call(u => u.transition().duration(500)
+                            .attr("x", d => d.x + d.r + 4)
+                            .attr("y", d => d.y + 3)),
+                    exit => exit.call(e => e.transition().duration(300).attr("opacity", 0).remove())
+                )
+                .attr("class", d => d.landmark ? "label landmark" : "label")
+                .text(d => d.label);
 
-            const labels = labelLayer.selectAll("text")
-                .data(graphData.nodes.filter((d) => d.type === "category" || (d.type === "project" && d.r >= 7.5) || (d.type === "concept" && (d.count || 0) >= 3)), (d) => d.id)
-                .join("text")
-                .attr("class", (d) => `label ${d.type}`)
-                .text((d) => d.label);
+            // Apply current zoom level to label visibility
+            const currentTransform = d3.zoomTransform(state.svg.node());
+            updateLabelVisibility(currentTransform.k);
+
+            // Event handlers
+            state.svg.on("click", (event) => {
+                if (event.target.tagName === "svg") {
+                    state.selectedId = null;
+                    applyHighlight(null);
+                    renderOverview();
+                }
+            });
 
             const onHover = (event, d) => {
                 state.hoveredId = d.id;
                 applyHighlight(d.id);
                 showTooltip(event, d);
             };
-
             const onMove = (event) => {
                 tooltip.style.left = `${event.pageX + 14}px`;
                 tooltip.style.top = `${event.pageY - 14}px`;
             };
-
             const onOut = () => {
                 state.hoveredId = null;
                 hideTooltip();
                 applyHighlight(state.selectedId);
             };
-
-            nodes.on("mouseover", onHover)
-                .on("mousemove", onMove)
-                .on("mouseout", onOut)
-                .on("click", (_, d) => {
+            const onClick = (event, d) => {
+                event.stopPropagation();
+                if (state.selectedId === d.id) {
+                    state.selectedId = null;
+                    applyHighlight(null);
+                    renderOverview();
+                } else {
                     state.selectedId = d.id;
                     applyHighlight(d.id);
                     renderDetails(d);
-                });
+                }
+            };
 
-            labels.on("mouseover", onHover)
+            nodeLayer.selectAll("circle")
+                .on("mouseover", onHover)
                 .on("mousemove", onMove)
                 .on("mouseout", onOut)
-                .on("click", (_, d) => {
-                    state.selectedId = d.id;
-                    applyHighlight(d.id);
-                    renderDetails(d);
-                });
+                .on("click", onClick);
 
-            state.simulation = d3.forceSimulation(graphData.nodes)
-                .force("link", d3.forceLink(graphData.links).id((d) => d.id).distance((d) => d.type === "belongs" ? 102 : 132).strength((d) => d.type === "belongs" ? 0.8 : 0.16))
-                .force("charge", d3.forceManyBody().strength((d) => d.type === "category" ? -560 : d.type === "project" ? -180 : -100))
-                .force("center", d3.forceCenter(state.width / 2, state.height / 2))
-                .force("collide", d3.forceCollide().radius((d) => d.r + (d.type === "category" ? 22 : 7)).iterations(2))
-                .force("project-orbit", d3.forceRadial((d) => d.type === "project" ? Math.min(state.width, state.height) * 0.19 : Math.min(state.width, state.height) * 0.32, state.width / 2, state.height / 2).strength((d) => d.type === "project" ? 0.07 : 0.02))
-                .on("tick", () => {
-                    links
-                        .attr("x1", (d) => d.source.x)
-                        .attr("y1", (d) => d.source.y)
-                        .attr("x2", (d) => d.target.x)
-                        .attr("y2", (d) => d.target.y);
-
-                    nodes
-                        .attr("cx", (d) => d.x)
-                        .attr("cy", (d) => d.y);
-
-                    labels
-                        .attr("x", (d) => d.x + d.r + 4)
-                        .attr("y", (d) => d.y + 3);
-                });
+            labelLayer.selectAll("text")
+                .on("mouseover", onHover)
+                .on("mousemove", onMove)
+                .on("mouseout", onOut)
+                .on("click", onClick);
 
             if (state.selectedId && !state.nodesById.has(state.selectedId)) {
                 state.selectedId = null;
             }
 
             applyHighlight(state.selectedId);
+            renderLegend(categoryColor);
             renderOverview();
         }
 
+        function renderLegend(colorScale) {
+            const legendEl = document.getElementById("categoryLegend");
+            if (!legendEl || !state.topCategories) return;
+            const items = state.topCategories.map((cat, i) =>
+                `<div class="legend-item" data-category="${escapeHtml(cat)}"><span class="legend-dot" style="background:${CATEGORY_PALETTE[i]}"></span>${escapeHtml(cat)}</div>`
+            );
+            items.push(`<div class="legend-item" data-category=""><span class="legend-dot" style="background:${CATEGORY_OTHER_COLOR}"></span>Other</div>`);
+            legendEl.innerHTML = items.join("");
+            legendEl.querySelectorAll(".legend-item").forEach(el => {
+                el.addEventListener("click", () => {
+                    const cat = el.getAttribute("data-category");
+                    categorySelect.value = cat || "all";
+                    state.category = cat || "all";
+                    renderGraph();
+                });
+            });
+        }
+
         function applyHighlight(centerId) {
-            const links = state.g.select(".link-layer").selectAll("line");
             const nodes = state.g.select(".node-layer").selectAll("circle");
             const labels = state.g.select(".label-layer").selectAll("text");
 
             if (!centerId || !state.neighbors.has(centerId)) {
-                links.attr("stroke-opacity", (d) => d.type === "belongs" ? 0.45 : 0.26)
-                    .attr("stroke", "url(#link-gradient)")
-                    .attr("stroke-width", (d) => d.type === "belongs" ? 1.5 : 1.0);
-                nodes.attr("opacity", 1).attr("stroke-width", (d) => d.type === "project" ? 1.1 : 0.8);
+                nodes.attr("opacity", 1);
+                nodes.classed("selected", false);
                 labels.attr("opacity", 0.9);
+                const currentK = d3.zoomTransform(state.svg.node()).k;
+                updateLabelVisibility(currentK);
                 return;
             }
 
             const active = state.neighbors.get(centerId);
 
-            links
-                .attr("stroke", (d) => {
-                    const source = d.source.id || d.source;
-                    const target = d.target.id || d.target;
-                    return active.has(source) && active.has(target) ? "var(--line-active)" : "rgba(110, 132, 148, 0.18)";
-                })
-                .attr("stroke-width", (d) => {
-                    const source = d.source.id || d.source;
-                    const target = d.target.id || d.target;
-                    return active.has(source) && active.has(target) ? 2.1 : 0.7;
-                })
-                .attr("stroke-opacity", (d) => {
-                    const source = d.source.id || d.source;
-                    const target = d.target.id || d.target;
-                    return active.has(source) && active.has(target) ? 0.92 : 0.15;
-                });
-
             nodes
-                .attr("opacity", (d) => active.has(d.id) ? 1 : 0.2)
-                .attr("stroke-width", (d) => d.id === centerId ? 2.4 : (d.type === "project" ? 1.1 : 0.9));
+                .classed("selected", d => d.id === centerId)
+                .attr("opacity", d => active.has(d.id) ? 1 : 0.12);
 
             labels
-                .attr("opacity", (d) => active.has(d.id) || d.id === centerId ? 1 : 0.15);
+                .attr("opacity", d => active.has(d.id) ? 1 : 0.08)
+                .attr("visibility", d => active.has(d.id) ? "visible" : (d.landmark ? "visible" : "hidden"));
         }
 
         function showTooltip(event, node) {
-            let body = "";
-            if (node.type === "project") {
-                body = `<strong>${escapeHtml(node.project.name)}</strong>${escapeHtml(node.project.category)}<br>${escapeHtml(node.project.display_path || "")}`;
-            } else if (node.type === "category") {
-                const count = state.filteredProjects.filter((p) => p.category === node.category).length;
-                body = `<strong>${escapeHtml(node.label)}</strong>${count} projects in this constellation`;
-            } else {
-                body = `<strong>${escapeHtml(node.label)}</strong>Shared motif across ${(node.count || 0)} projects`;
-            }
-
-            tooltip.innerHTML = body;
+            if (node.type !== "project") return;
+            const p = node.project;
+            tooltip.innerHTML = `<strong>${escapeHtml(p.name)}</strong>${escapeHtml(p.category)}<br>${escapeHtml(p.display_path || "")}`;
             tooltip.style.opacity = "1";
             tooltip.style.left = `${event.pageX + 14}px`;
             tooltip.style.top = `${event.pageY - 14}px`;
@@ -1226,8 +1718,9 @@
         }
 
         function projectListByConcept(concept) {
+            const key = concept.toLowerCase();
             return state.filteredProjects
-                .filter((p) => [...(p.concepts || []), ...(p.tags || []), ...(p.mined_motifs || [])].includes(concept))
+                .filter((p) => [...(p.concepts || []), ...(p.tags || []), ...(p.mined_motifs || [])].some(c => c.toLowerCase() === key))
                 .slice(0, 10);
         }
 
@@ -1283,23 +1776,31 @@
         function renderDetails(node) {
             if (node.type === "project") {
                 const p = node.project;
-                const conceptPills = [...new Set([...(p.concepts || []), ...(p.tags || [])])]
-                    .slice(0, 12)
-                    .map((c) => `<span class="pill">${escapeHtml(c)}</span>`)
-                    .join("");
-                const minedPills = [...new Set([...(p.mined_motifs || [])])]
-                    .slice(0, 10)
-                    .map((c) => `<span class="pill">${escapeHtml(c)}</span>`)
-                    .join("");
+                const makePills = (arr, limit) => [...new Set(arr)].slice(0, limit).map((c) => `<span class="pill">${escapeHtml(c)}</span>`).join("");
+
+                const conceptPills = makePills([...(p.concepts || []), ...(p.tags || [])], 12);
+                const minedPills = makePills(p.mined_motifs || [], 10);
                 const metaconstellationPills = projectMetaconstellationNames(p)
                     .slice(0, 8)
                     .map((m) => `<span class="pill">${escapeHtml(m)}</span>`)
                     .join("");
+                const langPills = makePills(p.languages || [], 8);
 
-                const langPills = (p.languages || [])
-                    .slice(0, 8)
-                    .map((l) => `<span class="pill">${escapeHtml(l)}</span>`)
-                    .join("");
+                // Raw ground-truth values for comparison.
+                const rawCategory = p.raw_category || p.category;
+                const rawConcepts = p.raw_concepts || p.concepts || [];
+                const rawTags = p.raw_tags || p.tags || [];
+                const rawMined = p.raw_mined_motifs || p.mined_motifs || [];
+                const hasRawCategory = rawCategory && rawCategory !== p.category;
+                const rawConceptSet = [...new Set([...rawConcepts, ...rawTags])];
+                const alignedConceptSet = [...new Set([...(p.concepts || []), ...(p.tags || [])])];
+                const hasRawConcepts = rawConceptSet.join("|") !== alignedConceptSet.join("|");
+                const hasRawMined = rawMined.join("|") !== (p.mined_motifs || []).join("|");
+
+                const staleBadge = p.alignment_stale ? `<span class="pill" style="background:var(--accent-rust);color:#fff;font-size:0.7rem">alignment stale</span> ` : "";
+                const rawCategoryLine = hasRawCategory ? `<p class="meta-line">Raw category: ${escapeHtml(rawCategory)}</p>` : "";
+                const rawConceptPills = hasRawConcepts ? `<h3>Raw Concepts</h3><div class="pill-row">${makePills(rawConceptSet, 14) || '<span class="pill">None</span>'}</div>` : "";
+                const rawMinedPills = hasRawMined ? `<h3>Raw Mined Motifs</h3><div class="pill-row">${makePills(rawMined, 10) || '<span class="pill">None</span>'}</div>` : "";
 
                 const neighborItems = (p.motif_neighbors || [])
                     .slice(0, 6)
@@ -1314,15 +1815,25 @@
                     ? `${escapeHtml(p.embedding.model || "embedding")} · dim ${escapeHtml(String(p.embedding.dim || "?"))}`
                     : "No embedding metadata";
 
+                const attrMap = {
+                    "my-projects": "Ember Original",
+                    "contributed": "Contributed",
+                    "interests": "Workspace Interest"
+                };
+                const attrLabel = attrMap[p.attribution] || p.attribution;
+
                 detailsPanel.innerHTML = `
                     <h2>${escapeHtml(p.name)}</h2>
                     <p>${escapeHtml(p.description)}</p>
-                    <h3>${escapeHtml(p.category)}</h3>
+                    <h3>${escapeHtml(p.category)} · <span style="color:var(--accent-gold)">${escapeHtml(attrLabel)}</span> ${staleBadge}</h3>
+                    ${rawCategoryLine}
                     <div class="pill-row">${langPills || '<span class="pill">Language unknown</span>'}</div>
                     <h3>Motifs</h3>
                     <div class="pill-row">${conceptPills || '<span class="pill">No motifs extracted</span>'}</div>
+                    ${rawConceptPills}
                     <h3>Mined Motifs</h3>
                     <div class="pill-row">${minedPills || '<span class="pill">No mined motifs</span>'}</div>
+                    ${rawMinedPills}
                     <h3>Metaconstellations</h3>
                     <div class="pill-row">${metaconstellationPills || '<span class="pill">Unassigned</span>'}</div>
                     <h3>Semantic Neighbors</h3>
@@ -1333,24 +1844,7 @@
                 return;
             }
 
-            if (node.type === "category") {
-                const projects = projectListByCategory(node.category);
-                detailsPanel.innerHTML = `
-                    <h2>${escapeHtml(node.label)}</h2>
-                    <p>${projects.length} mapped projects currently belong to this constellation.</p>
-                    <h3>Projects</h3>
-                    <ul>${projects.map((p) => `<li>${escapeHtml(p.name)}</li>`).join("") || "<li>No projects</li>"}</ul>
-                `;
-                return;
-            }
-
-            const projects = projectListByConcept(node.concept || node.label);
-            detailsPanel.innerHTML = `
-                <h2>${escapeHtml(node.label)}</h2>
-                <p>This motif links ${node.count || 0} projects in the visible map.</p>
-                <h3>Linked Projects</h3>
-                <ul>${projects.map((p) => `<li>${escapeHtml(p.name)} <span style="color:#9ab0c1">(${escapeHtml(p.category)})</span></li>`).join("") || "<li>No linked projects</li>"}</ul>
-            `;
+            // Concept/category nodes removed — scatter is project-only
         }
 
         function renderChips() {
@@ -1400,6 +1894,59 @@
         }
 
         function setupEvents() {
+            const startBtn = document.getElementById("startBtn");
+            const overlay = document.getElementById("overlay");
+            const audioControl = document.getElementById("audioControl");
+
+            const viewCore = document.getElementById("viewCore");
+            const viewAll = document.getElementById("viewAll");
+
+            viewCore.addEventListener("click", () => {
+                state.viewMode = "core";
+                viewCore.classList.add("active");
+                viewAll.classList.remove("active");
+                renderGraph();
+            });
+
+            viewAll.addEventListener("click", () => {
+                state.viewMode = "all";
+                viewAll.classList.add("active");
+                viewCore.classList.remove("active");
+                renderGraph();
+            });
+
+            startBtn.addEventListener("click", () => {
+                composer.init();
+                overlay.classList.add("hidden");
+                showToast("Synchronization sequence active", "ok");
+            });
+
+            audioControl.addEventListener("click", () => {
+                const playing = composer.toggle();
+                audioControl.textContent = playing ? "Mute Audio" : "Unmute Audio";
+            });
+
+            const searchClear = document.getElementById("searchClear");
+            searchClear.addEventListener("click", () => {
+                searchInput.value = "";
+                state.searchTerm = "";
+                renderGraph();
+            });
+
+            document.addEventListener("keydown", (event) => {
+                if (event.key === "Escape") {
+                    if (state.selectedId) {
+                        state.selectedId = null;
+                        applyHighlight(null);
+                        renderOverview();
+                    } else if (state.searchTerm) {
+                        searchInput.value = "";
+                        state.searchTerm = "";
+                        renderGraph();
+                    }
+                }
+            });
+
             searchInput.addEventListener("input", () => {
                 state.searchTerm = searchInput.value;
                 renderGraph();
@@ -1407,11 +1954,6 @@
 
             categorySelect.addEventListener("change", () => {
                 state.category = categorySelect.value;
-                renderGraph();
-            });
-
-            conceptToggle.addEventListener("change", () => {
-                state.showConcepts = conceptToggle.checked;
                 renderGraph();
             });
 
@@ -1483,6 +2025,7 @@
         }
 
         function animateStarfield(t = 0) {
+            nebula.render(t);
             if (!starCtx) {
                 requestAnimationFrame(animateStarfield);
                 return;

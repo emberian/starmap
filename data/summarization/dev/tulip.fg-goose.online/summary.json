@@ -1,0 +1,265 @@
+{
+  "name": "tulip.fg-goose.online",
+  "description": "Zulip is a high-performance, open-source team chat application that utilizes a unique topic-based threading model to bridge synchronous and asynchronous communication. It features a robust Python/Django backend with a Tornado-based real-time push system, integrated with PostgreSQL, Redis, and RabbitMQ for scalability. The platform includes comprehensive sub-systems for analytics, billing via Stripe, and an extensive API for bot and integration development.",
+  "tags": [
+    "team-chat",
+    "messaging",
+    "real-time",
+    "asynchronous",
+    "django",
+    "python",
+    "typescript",
+    "topic-threading",
+    "open-source",
+    "collaboration",
+    "server",
+    "webhooks",
+    "billing",
+    "analytics",
+    "push-notifications",
+    "api"
+  ],
+  "category": "Real-time Collaborative Messaging System",
+  "concepts": [
+    "Topic-based threading",
+    "Asynchronous collaboration",
+    "Event-driven architecture",
+    "Relational database migrations",
+    "Stripe billing integration",
+    "Static analysis with Mypy",
+    "Automated deployment",
+    "Websocket push system",
+    "Markdown rendering",
+    "RBAC permissions",
+    "Bot framework",
+    "Data export/import",
+    "SCIM integration",
+    "2FA authentication",
+    "S3 storage",
+    "Image processing",
+    "Unit testing",
+    "Internationalization",
+    "Webhook integrations",
+    "LDAP authentication",
+    "RabbitMQ orchestration",
+    "Redis caching",
+    "Tornado event loop",
+    "Full-text search",
+    "Message queuing",
+    "OAuth2 authentication",
+    "Email mirroring",
+    "Social authentication",
+    "Content delivery networking"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Shell",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 30412,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "pyproject.toml",
+      "confirmation/__init__.py",
+      "corporate/models/__init__.py",
+      "tools/documentation_crawler/documentation_crawler/spiders/__init__.py"
+    ]
+  },
+  "_hash": "5afb9fce55e9faaae70ff41aa2c87877dbc8244f0bf97ba1a92243b8bbe57d40",
+  "_path": "/Users/ember/dev/tulip.fg-goose.online",
+  "_updated_at": "2026-02-14T00:56:30.955472Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e94de3f09acdfa778ce5972712a2d9a56704aad227989210ea2bcb3cee3fa986",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:00.419585+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "enterprise-software",
+    "postgresql",
+    "distributed-systems",
+    "rest-api",
+    "async-rust",
+    "tokio",
+    "axum",
+    "Analytics Data Aggregation",
+    "Automated Integration Testing",
+    "Billing and Subscription Lifecycle",
+    "Bot Framework API"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tulip",
+      "path": "/Users/ember/dev/gh/forks/tulip",
+      "similarity": 0.94
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.922
+    },
+    {
+      "name": "zulip-api",
+      "path": "/Users/ember/dev/zulip-api",
+      "similarity": 0.847
+    },
+    {
+      "name": "conduit",
+      "path": "/Users/ember/src/conduit",
+      "similarity": 0.835
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.822
+    },
+    {
+      "name": "alexandria-web-client",
+      "path": "/Users/ember/dev/gh/alexandria-web-client",
+      "similarity": 0.821
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.821
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.819
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Topic-based threading",
+      "Asynchronous collaboration",
+      "Event-driven architecture",
+      "Relational database migrations",
+      "Stripe billing integration",
+      "Static analysis with Mypy",
+      "Automated deployment",
+      "Websocket push system",
+      "Markdown rendering",
+      "RBAC permissions",
+      "Bot framework",
+      "Data export/import",
+      "SCIM integration",
+      "2FA authentication",
+      "S3 storage",
+      "Image processing",
+      "Unit testing",
+      "Internationalization",
+      "Webhook integrations",
+      "LDAP authentication",
+      "RabbitMQ orchestration",
+      "Redis caching",
+      "Tornado event loop",
+      "Full-text search",
+      "Message queuing",
+      "OAuth2 authentication",
+      "Email mirroring",
+      "Social authentication",
+      "Content delivery networking"
+    ],
+    "tags": [
+      "team-chat",
+      "messaging",
+      "real-time-simulation",
+      "asynchronous",
+      "django",
+      "python",
+      "typescript",
+      "topic-threading",
+      "open-source",
+      "collaboration",
+      "server",
+      "webhooks",
+      "billing",
+      "analytics",
+      "push-notifications",
+      "api"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "enterprise-software",
+      "postgresql",
+      "distributed-systems",
+      "rest-api",
+      "rust",
+      "Asynchronous Programming",
+      "axum",
+      "Analytics Data Aggregation",
+      "Automated Integration Testing",
+      "Billing and Subscription Lifecycle",
+      "Bot Framework API"
+    ],
+    "metaconstellations": [
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.409,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.408,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.407,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.407,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.407,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.392,
+        "matches": [
+          "asynchronous programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.955472Z"
+  }
+}

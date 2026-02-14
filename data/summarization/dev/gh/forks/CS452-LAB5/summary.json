@@ -1,0 +1,245 @@
+{
+  "name": "CS452-LAB5",
+  "description": "A low-level computer graphics implementation in Rust focused on the OpenGL programmable pipeline and texture mapping. The project demonstrates the manual configuration of Vertex Array Objects (VAO) and Vertex Buffer Objects (VBO) to render textured primitives using custom GLSL shaders. It employs early-stage Rust idioms and external C-bindings for windowing and OpenGL context orchestration.",
+  "tags": [
+    "opengl",
+    "rust",
+    "glsl",
+    "glfw",
+    "hgl",
+    "graphics-programming",
+    "texture-mapping",
+    "vbo",
+    "vao",
+    "shader-programming",
+    "computer-graphics",
+    "low-level",
+    "rendering-engine",
+    "primitive-assembly"
+  ],
+  "category": "Hardware-Accelerated Computer Graphics",
+  "concepts": [
+    "OpenGL 3.1",
+    "GLSL 1.40",
+    "Vertex Array Objects",
+    "Vertex Buffer Objects",
+    "Texture Mapping",
+    "UV Coordinate Interpolation",
+    "Fragment Shading",
+    "Vertex Shading",
+    "Sampler2D Uniforms",
+    "Image Data Buffering",
+    "GLFW Windowing",
+    "OpenGL Context Initialization",
+    "Graphics Pipeline State Management",
+    "Viewport Transformation",
+    "Color Buffer Clearing",
+    "Linear Interpolation Filtering",
+    "Texture Address Modes",
+    "Attribute Pointer Configuration",
+    "Shading Language Compilation",
+    "Program Linking",
+    "Legacy Rust Runtime",
+    "FFI",
+    "Double Buffering"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": true,
+    "sample_files": [
+      "main.rs"
+    ]
+  },
+  "_hash": "507ce548a9d86e2a7fcf1e4fe41d1d70714a28108c482cd02ecd2dcc9676933c",
+  "_path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+  "_updated_at": "2026-02-14T00:56:25.081970Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "OpenGL 3.1",
+      "GLSL 1.40",
+      "Vertex Array Objects",
+      "Vertex Buffer Objects",
+      "Texture Mapping",
+      "UV Coordinate Interpolation",
+      "Fragment Shading",
+      "Vertex Shading",
+      "Sampler2D Uniforms",
+      "Image Data Buffering",
+      "GLFW Windowing",
+      "OpenGL Context Initialization",
+      "Graphics Pipeline State Management",
+      "Viewport Transformation",
+      "Color Buffer Clearing",
+      "Linear Interpolation Filtering",
+      "Texture Address Modes",
+      "Attribute Pointer Configuration",
+      "Shading Language Compilation",
+      "Program Linking",
+      "Legacy Rust Runtime",
+      "foreign-function-interface",
+      "Double Buffering"
+    ],
+    "tags": [
+      "opengl",
+      "Rust Language Ecosystem",
+      "glsl",
+      "glfw",
+      "hgl",
+      "Computer Graphics & Rendering",
+      "texture-mapping",
+      "vbo",
+      "vao",
+      "shader-programming",
+      "systems-programming",
+      "rendering-engine",
+      "primitive-assembly"
+    ],
+    "mined_motifs": [
+      "Computer Graphics & Rendering",
+      "graphics-api",
+      "Vertex Array Objects (VAO)",
+      "shader-compilation",
+      "cgmath",
+      "Input Polling",
+      "OpenGL Core Profile",
+      "Shader Compilation",
+      "Vertex Buffer Objects (VBO)",
+      "cpp"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.484,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.291,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 7.021,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.994,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.455,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 4.127,
+        "matches": [
+          "glsl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.081970Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f62b9c7de96977570c202fd967f8e3771b670a30e69c7069d1ba0a90f38ebc72",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:06.538842+00:00"
+  },
+  "mined_motifs": [
+    "rendering",
+    "graphics-api",
+    "graphics",
+    "Vertex Array Objects (VAO)",
+    "shader-compilation",
+    "cgmath",
+    "real-time-rendering",
+    "Input Polling",
+    "OpenGL Core Profile",
+    "Shader Compilation",
+    "Vertex Buffer Objects (VBO)",
+    "cpp"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.917
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.914
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.897
+    },
+    {
+      "name": "CS452-LAB2",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB2",
+      "similarity": 0.896
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.893
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.889
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.879
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.877
+    }
+  ]
+}

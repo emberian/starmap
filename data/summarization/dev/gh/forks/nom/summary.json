@@ -1,0 +1,244 @@
+{
+  "name": "nom",
+  "description": "Network Object Mirroring (NOM) is a lightweight Python framework for transparent distributed object systems, enabling seamless access and mutation of remote objects across network boundaries. It implements a custom binary serialization protocol over UDP transport, utilizing dynamic proxies to intercept and forward Python magic methods to remote references. The system supports bidirectional communication, remote callbacks, and extensible security through an authentication interface for attribute-level access control.",
+  "tags": [
+    "python",
+    "rpc",
+    "distributed-objects",
+    "networking",
+    "udp",
+    "serialization",
+    "proxy-pattern",
+    "peer-to-peer",
+    "concurrency",
+    "middleware",
+    "binary-protocol",
+    "mirroring",
+    "introspection"
+  ],
+  "category": "Distributed Object Systems",
+  "concepts": [
+    "Transparent Networking",
+    "Remote Reference Management",
+    "Dynamic Proxying",
+    "Binary Serialization",
+    "Object-ID Mapping",
+    "Peer-to-Peer Architecture",
+    "Attribute Access Interception",
+    "UDP-based Communication",
+    "Threaded Service Execution",
+    "Remote Callback Execution",
+    "Attribute-level Security",
+    "Magic Method Interception",
+    "Transaction ID Management",
+    "Deferred Result Execution",
+    "Object Translation",
+    "Packet Serialization",
+    "Socket Multiplexing",
+    "Concurrent Request Handling",
+    "Distributed State Mutation",
+    "Protocol Tagging",
+    "Type-specific Serializers",
+    "Synchronous RPC Emulation"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 8,
+    "has_readme": true,
+    "sample_files": [
+      "__init__.py",
+      "service.py",
+      "serialize.py",
+      "proxy.py",
+      "packet.py"
+    ]
+  },
+  "_hash": "c254611aeae5ecdbeff03ab6f47ff4922f3da59dc83075e1659d1ee4558b423c",
+  "_path": "/Users/ember/dev/gh/forks/nom",
+  "_updated_at": "2026-02-14T00:56:26.222158Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Transparent Networking",
+      "Remote Reference Management",
+      "Dynamic Proxying",
+      "Binary Serialization",
+      "Object-ID Mapping",
+      "Peer-to-Peer Architecture",
+      "Attribute Access Interception",
+      "UDP-based Communication",
+      "Threaded Service Execution",
+      "Remote Callback Execution",
+      "Attribute-level Security",
+      "Magic Method Interception",
+      "Transaction ID Management",
+      "Deferred Result Execution",
+      "Object Translation",
+      "Packet Serialization",
+      "Socket Multiplexing",
+      "Concurrent Request Handling",
+      "Distributed State Mutation",
+      "Protocol Tagging",
+      "Type-specific Serializers",
+      "Synchronous RPC Emulation"
+    ],
+    "tags": [
+      "python",
+      "rpc",
+      "distributed-objects",
+      "networking",
+      "udp",
+      "Data Serialization",
+      "proxy-pattern",
+      "peer-to-peer",
+      "Concurrency & Synchronization",
+      "middleware",
+      "binary-protocol",
+      "mirroring",
+      "introspection"
+    ],
+    "mined_motifs": [
+      "distributed-systems",
+      "Promise Pipelining",
+      "captp",
+      "ocapn",
+      "promise-pipelining",
+      "Message Dispatching",
+      "p2p",
+      "Distributed Garbage Collection",
+      "cryptography",
+      "capability-security",
+      "racket",
+      "Message Serialization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 11.083,
+        "matches": [
+          "captp",
+          "distributed-systems",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 6.882,
+        "matches": [
+          "distributed-systems",
+          "rpc"
+        ]
+      },
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 5.526,
+        "matches": [
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.482,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.481,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.48,
+        "matches": [
+          "p2p",
+          "rpc"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.222158Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "d1314e0d01ac7d16a1472aff1e31c1d15894cda8db22364f0dd783800b90f336",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:58.400484+00:00"
+  },
+  "mined_motifs": [
+    "distributed-systems",
+    "Promise Pipelining",
+    "captp",
+    "ocapn",
+    "promise-pipelining",
+    "Message Dispatching",
+    "p2p",
+    "Distributed Garbage Collection",
+    "cryptography",
+    "capability-security",
+    "racket",
+    "Message Serialization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.87
+    },
+    {
+      "name": "tbot",
+      "path": "/Users/ember/dev/gh/tbot",
+      "similarity": 0.857
+    },
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.854
+    },
+    {
+      "name": "glosco",
+      "path": "/Users/ember/dev/glosco",
+      "similarity": 0.853
+    },
+    {
+      "name": "ocapn-test-suite",
+      "path": "/Users/ember/src/ocapn-test-suite",
+      "similarity": 0.849
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.847
+    },
+    {
+      "name": "playground",
+      "path": "/Users/ember/dev/playground",
+      "similarity": 0.847
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.845
+    }
+  ]
+}

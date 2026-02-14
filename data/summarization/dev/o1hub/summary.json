@@ -1,0 +1,204 @@
+{
+  "name": "o1hub",
+  "description": "A centralized engineering coordination platform designed to consolidate development workflows and track organizational project status across disparate toolchains. The system focuses on integrating GitHub and ZenHub telemetry into a unified dashboard for idea management, incorporating automated synchronization cycles and Slack-based ChatOps interfaces.",
+  "tags": [
+    "engineering-ops",
+    "project-tracking",
+    "workflow-automation",
+    "dashboard",
+    "github-api",
+    "zenhub-integration",
+    "slack-bot",
+    "internal-tooling",
+    "dev-productivity"
+  ],
+  "category": "Engineering Operations Infrastructure",
+  "concepts": [
+    "workflow orchestration",
+    "project telemetry aggregation",
+    "issue tracking integration",
+    "automated status reporting",
+    "idea lifecycle management",
+    "ChatOps",
+    "developer productivity engineering",
+    "synchronous notification systems",
+    "centralized dashboarding",
+    "cross-platform data synchronization",
+    "SDLC automation",
+    "engineering project visibility",
+    "internal tool integration",
+    "API-driven project management",
+    "operational telemetry",
+    "repository metadata management"
+  ],
+  "languages": [],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 1,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "f33ef877a41f70d585987f428c59fe5bf396fe05ae024efa77bd1a11b42d7c30",
+  "_path": "/Users/ember/dev/o1hub",
+  "_updated_at": "2026-02-14T00:56:29.742892Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "workflow orchestration",
+      "project telemetry aggregation",
+      "issue tracking integration",
+      "automated status reporting",
+      "idea lifecycle management",
+      "ChatOps",
+      "developer productivity engineering",
+      "synchronous notification systems",
+      "centralized dashboarding",
+      "cross-platform data synchronization",
+      "SDLC automation",
+      "engineering project visibility",
+      "internal tool integration",
+      "API-driven project management",
+      "operational telemetry",
+      "repository metadata management"
+    ],
+    "tags": [
+      "engineering-ops",
+      "project-tracking",
+      "workflow-automation",
+      "dashboard",
+      "github-api",
+      "zenhub-integration",
+      "slack-bot",
+      "internal-tooling",
+      "dev-productivity"
+    ],
+    "mined_motifs": [
+      "terminal-ui",
+      "context-management",
+      "vim",
+      "Agent Lifecycle Supervision",
+      "Agent Presence Tracking",
+      "Agent Role Specialization",
+      "Agent-to-Agent Messaging",
+      "Asynchronous Task Chains",
+      "Busy/Sleep Mode Arbitration",
+      "Cognitive Loop Monitoring",
+      "Context Expertise Retrieval",
+      "Convex Persistence Layer"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.452,
+        "matches": [
+          "context-management"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 4.096,
+        "matches": [
+          "chatops"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.71,
+        "matches": []
+      },
+      {
+        "id": "declarative-infrastructure",
+        "name": "Declarative Infrastructure Orchestration",
+        "score": 2.71,
+        "matches": []
+      },
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 2.672,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 2.671,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.742892Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "14dfb1cb31a785cf1d33a12e1d3f3b6fc332cbd4d5798f46444a4e8425e8ec91",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:10.776224+00:00"
+  },
+  "mined_motifs": [
+    "terminal-ui",
+    "context-management",
+    "vim",
+    "Agent Lifecycle Supervision",
+    "Agent Presence Tracking",
+    "Agent Role Specialization",
+    "Agent-to-Agent Messaging",
+    "Asynchronous Task Chains",
+    "Busy/Sleep Mode Arbitration",
+    "Cognitive Loop Monitoring",
+    "Context Expertise Retrieval",
+    "Convex Persistence Layer"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.866
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.86
+    },
+    {
+      "name": "dotfiles",
+      "path": "/Users/ember/dev/gh/dotfiles",
+      "similarity": 0.852
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.85
+    },
+    {
+      "name": "vundle",
+      "path": "/Users/ember/dev/gh/forks/vundle",
+      "similarity": 0.85
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.848
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.847
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.846
+    }
+  ]
+}

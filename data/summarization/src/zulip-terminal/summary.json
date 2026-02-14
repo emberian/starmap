@@ -1,0 +1,270 @@
+{
+  "name": "zulip-terminal",
+  "description": "zulip-terminal appears to be a zero-knowledge proofs project using Python. The available files suggest focus areas around test, init, narrow, send.",
+  "tags": [
+    "Python",
+    "test",
+    "init",
+    "narrow",
+    "send",
+    "messages",
+    "topic",
+    "data",
+    "emoji",
+    "fetch",
+    "gruvbox",
+    "lint",
+    "message",
+    "unicode",
+    "autocomplete1",
+    "autocomplete2"
+  ],
+  "category": "Zero-Knowledge Proofs",
+  "concepts": [
+    "test",
+    "init",
+    "narrow",
+    "send",
+    "messages",
+    "topic",
+    "data",
+    "emoji",
+    "fetch",
+    "gruvbox",
+    "lint",
+    "message",
+    "unicode",
+    "autocomplete1",
+    "autocomplete2",
+    "boxes",
+    "buttons",
+    "check",
+    "code",
+    "color",
+    "core",
+    "current",
+    "dark",
+    "developer",
+    "dockerfile",
+    "edit",
+    "helper",
+    "hotkeys",
+    "keys",
+    "light",
+    "model",
+    "platform",
+    "pull",
+    "read",
+    "readme",
+    "reply",
+    "request",
+    "server",
+    "stream",
+    "symbols"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "maturity": "exploratory",
+  "_hash": "f37c247ca2ed2bc86760f528d97dfa9f444e4d3734b0bc32567dda72e0ec6b3d",
+  "_path": "/Users/ember/src/zulip-terminal",
+  "_updated_at": "2026-02-14T00:56:34.227850Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a9d642c07f0d26ba3bb481deefeb8cb91f1888712528c4135b1912ddfc411a08",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T08:00:19.720758+00:00"
+  },
+  "mined_motifs": [
+    "dune",
+    "intf",
+    "ledger",
+    "state",
+    "hash",
+    "snark",
+    "transition",
+    "C",
+    "OCaml",
+    "Shell",
+    "block",
+    "types"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.754
+    },
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.727
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.708
+    },
+    {
+      "name": "github-api-testing",
+      "path": "/Users/ember/dev/gh/github-api-testing",
+      "similarity": 0.699
+    },
+    {
+      "name": "biscuit-java",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-java",
+      "similarity": 0.69
+    },
+    {
+      "name": "thy-of-ocaml",
+      "path": "/Users/ember/dev/thy-of-ocaml",
+      "similarity": 0.69
+    },
+    {
+      "name": "miniblog",
+      "path": "/Users/ember/dev/gh/miniblog",
+      "similarity": 0.684
+    },
+    {
+      "name": "Zulip",
+      "path": "/Users/ember/dev/tulip2",
+      "similarity": 0.683
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "test",
+      "init",
+      "narrow",
+      "send",
+      "messages",
+      "topic",
+      "data",
+      "emoji",
+      "fetch",
+      "gruvbox",
+      "lint",
+      "message",
+      "unicode",
+      "autocomplete1",
+      "autocomplete2",
+      "boxes",
+      "buttons",
+      "check",
+      "code",
+      "color",
+      "core",
+      "current",
+      "dark",
+      "developer",
+      "dockerfile",
+      "edit",
+      "helper",
+      "hotkeys",
+      "keys",
+      "light",
+      "model",
+      "platform",
+      "pull",
+      "read",
+      "readme",
+      "reply",
+      "request",
+      "server",
+      "stream",
+      "symbols"
+    ],
+    "tags": [
+      "Python",
+      "test",
+      "init",
+      "narrow",
+      "send",
+      "messages",
+      "topic",
+      "data",
+      "emoji",
+      "fetch",
+      "gruvbox",
+      "lint",
+      "message",
+      "unicode",
+      "autocomplete1",
+      "autocomplete2"
+    ],
+    "mined_motifs": [
+      "dune",
+      "intf",
+      "ledger",
+      "state",
+      "hash",
+      "ZK-SNARKs",
+      "transition",
+      "C",
+      "OCaml",
+      "Shell",
+      "block",
+      "types"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 6.195,
+        "matches": [
+          "zk-snarks",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 3.323,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 3.319,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 3.308,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 3.304,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 2.13,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:34.227850Z"
+  }
+}

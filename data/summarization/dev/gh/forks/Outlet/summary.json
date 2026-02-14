@@ -1,0 +1,247 @@
+{
+  "name": "Outlet",
+  "description": "Outlet is an anarchic repository framework designed to investigate the limits of unconstrained pull request integration and collaborative state transitions. By maintaining an unconditional merge policy for any external contribution, the project serves as a low-entropy sink for exploring decentralized version control dynamics and automated contribution pipelines.",
+  "tags": [
+    "git",
+    "github",
+    "pull-request",
+    "fork",
+    "collaboration",
+    "open-source",
+    "sandbox",
+    "integration",
+    "experiment",
+    "dvcs",
+    "version-control"
+  ],
+  "category": "Decentralized Contribution Dynamics",
+  "concepts": [
+    "Pull Request Integration",
+    "Distributed Version Control",
+    "Git State Transitions",
+    "Anarchic Contribution Model",
+    "Repository Forking",
+    "Upstream Synchronization",
+    "Downstream Integration",
+    "Collaborative Software Development",
+    "Commit Serialization",
+    "Branch Management",
+    "Metadata Evolution",
+    "Repository Governance",
+    "Open Source Ecosystems",
+    "Merge Conflicts",
+    "Change Tracking",
+    "Patch Management",
+    "Automated Workflows",
+    "Social Coding",
+    "Distributed Ledger",
+    "Diffing Algorithms",
+    "Repository Entropy",
+    "CI/CD Orchestration",
+    "Development Paradigms",
+    "Version Control Systems",
+    "Contribution Friction",
+    "Software Lifecycle",
+    "Public Contributions",
+    "Git Reflog",
+    "HEAD Management",
+    "State Consistency"
+  ],
+  "languages": [
+    "Markdown",
+    "Plaintext"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "146f5287d7316df299eab69d1cb63dbd0c3a0a54f88767b17935bbc131307744",
+  "_path": "/Users/ember/dev/gh/forks/Outlet",
+  "_updated_at": "2026-02-14T00:56:25.097331Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Pull Request Integration",
+      "Distributed Version Control",
+      "Git State Transitions",
+      "Anarchic Contribution Model",
+      "Repository Forking",
+      "Upstream Synchronization",
+      "Downstream Integration",
+      "Collaborative Software Development",
+      "Commit Serialization",
+      "Branch Management",
+      "Metadata Evolution",
+      "Repository Governance",
+      "Open Source Ecosystems",
+      "Merge Conflicts",
+      "Change Tracking",
+      "Patch Management",
+      "Automated Workflows",
+      "Social Coding",
+      "Distributed Ledger",
+      "Diffing Algorithms",
+      "Repository Entropy",
+      "CI/CD Orchestration",
+      "Development Paradigms",
+      "Version Control Systems",
+      "Contribution Friction",
+      "Software Lifecycle",
+      "Public Contributions",
+      "Git Reflog",
+      "HEAD Management",
+      "State Consistency"
+    ],
+    "tags": [
+      "git",
+      "github",
+      "pull-request",
+      "fork",
+      "collaboration",
+      "open-source",
+      "sandbox",
+      "integration",
+      "experiment",
+      "dvcs",
+      "version-control"
+    ],
+    "mined_motifs": [
+      "github-api",
+      "Formal Specification",
+      "distributed-systems",
+      "Gist Synchronization",
+      "Metadata Tracking",
+      "Repository Management",
+      "Snippet Archival",
+      "Versioned Fragments",
+      "archival",
+      "code-snippets",
+      "github-gists",
+      "local-management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-observability",
+        "name": "Distributed Observability & Knowledge Graphs",
+        "score": 5.323,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.322,
+        "matches": [
+          "archival"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.319,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.319,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.318,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 5.313,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.097331Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1e8114be3e6849ca8b44c60890f8dc14a369f6939302f2e3e3f2eb9c8c1317c2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:08.131862+00:00"
+  },
+  "mined_motifs": [
+    "github-api",
+    "Formal Specification",
+    "distributed-systems",
+    "Gist Synchronization",
+    "Metadata Tracking",
+    "Repository Management",
+    "Snippet Archival",
+    "Versioned Fragments",
+    "archival",
+    "code-snippets",
+    "github-gists",
+    "local-management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gists",
+      "path": "/Users/ember/dev/gh/gists",
+      "similarity": 0.806
+    },
+    {
+      "name": "github-api-testing",
+      "path": "/Users/ember/dev/gh/github-api-testing",
+      "similarity": 0.8
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.799
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.797
+    },
+    {
+      "name": "imperious",
+      "path": "/Users/ember/dev/gh/imperious",
+      "similarity": 0.794
+    },
+    {
+      "name": "ocapn",
+      "path": "/Users/ember/src/ocapn",
+      "similarity": 0.789
+    },
+    {
+      "name": "alexandria",
+      "path": "/Users/ember/dev/gh/alexandria",
+      "similarity": 0.782
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.782
+    }
+  ]
+}

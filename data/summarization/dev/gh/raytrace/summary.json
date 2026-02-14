@@ -1,0 +1,214 @@
+{
+  "name": "raytrace",
+  "description": "A low-level hardware-accelerated raytracer prototype implemented in Rust using the legacy gfx-rs graphics stack. It utilizes GLFW for window management and OpenGL-based shaders to project and display raytraced buffers directly to the screen via texture manipulation. The implementation demonstrates early idiomatic Rust patterns such as procedural macros for shader parameters and vertex format declarations.",
+  "tags": [
+    "rust",
+    "opengl",
+    "raytracing",
+    "gfx-rs",
+    "glfw",
+    "glsl",
+    "graphics-programming",
+    "low-level",
+    "real-time-rendering",
+    "shader-programming",
+    "cgmath",
+    "procedural-macros"
+  ],
+  "category": "Hardware-Accelerated Real-Time Rendering",
+  "concepts": [
+    "GPU Texture Upload",
+    "Shader-based Projection",
+    "Vertex Attribute Mapping",
+    "Modern OpenGL Contexts",
+    "Real-time Framebuffer Blitting",
+    "Rasterization-assisted Raytracing",
+    "Async Render Queues",
+    "Graphics Pipeline Abstraction",
+    "Cross-platform Windowing",
+    "Buffer Lifecycle Management"
+  ],
+  "languages": [
+    "Rust",
+    "GLSL"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "9d0b5b29b0489a2ae2412124915e1312dfc324e469efa2e0286e59192da1f251",
+  "_path": "/Users/ember/dev/gh/raytrace",
+  "_updated_at": "2026-02-14T00:56:28.098601Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "GPU Texture Upload",
+      "Shader-based Projection",
+      "Vertex Attribute Mapping",
+      "Modern OpenGL Contexts",
+      "Real-time Framebuffer Blitting",
+      "Rasterization-assisted Raytracing",
+      "Async Render Queues",
+      "Graphics Pipeline Abstraction",
+      "Cross-platform Windowing",
+      "Buffer Lifecycle Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "opengl",
+      "Computer Graphics & Rendering",
+      "gfx-rs",
+      "glfw",
+      "glsl",
+      "systems-programming",
+      "shader-programming",
+      "cgmath",
+      "procedural-macros"
+    ],
+    "mined_motifs": [
+      "Texture Mapping",
+      "Computer Graphics & Rendering",
+      "vao",
+      "vbo",
+      "graphics-api",
+      "hardware-abstraction",
+      "gpu-programming",
+      "graphics-engine",
+      "GPGPU Compute",
+      "piston"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.494,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.992,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 6.964,
+        "matches": [
+          "gpgpu compute",
+          "glsl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.503,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.467,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 4.205,
+        "matches": [
+          "opengl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.098601Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "671f8cee7904e60a96b8860a77825560a59d6529619de3eb090562289ae75e9f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:13.637366+00:00"
+  },
+  "mined_motifs": [
+    "Texture Mapping",
+    "computer-graphics",
+    "vao",
+    "vbo",
+    "graphics-api",
+    "hardware-abstraction",
+    "gpu-programming",
+    "rendering",
+    "graphics",
+    "graphics-engine",
+    "gpgpu",
+    "piston"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.914
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.897
+    },
+    {
+      "name": "kiss3d",
+      "path": "/Users/ember/dev/gh/forks/kiss3d",
+      "similarity": 0.883
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitheap/shitting_furiously",
+      "similarity": 0.882
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.881
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.88
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitting_furiously",
+      "similarity": 0.874
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.873
+    }
+  ]
+}

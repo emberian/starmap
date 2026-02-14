@@ -1,0 +1,293 @@
+{
+  "name": "arkworks-algebra",
+  "description": "A comprehensive Rust-based suite of high-performance algebraic primitives optimized for the construction and verification of zero-knowledge succinct non-interactive arguments (zkSNARKs). It provides strictly-typed abstractions for finite fields, elliptic curve groups, and polynomial arithmetic, leveraging handwritten assembly (ADX/BMI2) for low-level arithmetic acceleration on x86_64 architectures. The codebase implements a broad spectrum of pairing-friendly curves, R1CS-compatible arithmetic circuits, and efficient point compression algorithms required for scalable decentralized computation.",
+  "tags": [
+    "zksnarks",
+    "cryptography",
+    "rust",
+    "finite-fields",
+    "elliptic-curves",
+    "pairings",
+    "polynomials",
+    "fft",
+    "r1cs",
+    "bls12-381",
+    "bls12-377",
+    "bn254",
+    "arkworks",
+    "serialization",
+    "assembly",
+    "zero-knowledge"
+  ],
+  "category": "zkSNARK Algebraic Cryptography",
+  "concepts": [
+    "Finite Field Arithmetic",
+    "Prime Field Extensions",
+    "Pairing-Friendly Curves",
+    "Short Weierstrass Curves",
+    "Twisted Edwards Curves",
+    "Polynomial Arithmetic",
+    "Fast Fourier Transforms",
+    "R1CS Constraints",
+    "Multi-Scalar Multiplication",
+    "Point Compression",
+    "ADX Assembly Backend",
+    "2-adic Fields",
+    "Scalar Multiplication",
+    "Isogeny Computations",
+    "Serialization Protocols",
+    "Uncompressed Serialization",
+    "Multilinear Polynomials",
+    "Multivariate Polynomials",
+    "Univariate Polynomials",
+    "Cycle of Curves",
+    "BN Curves",
+    "BLS Curves",
+    "BW6 Curves",
+    "CP6 Curves",
+    "MNT Curves",
+    "GLV Optimization",
+    "SWU Mapping",
+    "Hash-to-Curve",
+    "No-Std Compatibility",
+    "Generic Abstractions",
+    "Cryptographic Primality",
+    "Embedding Degree",
+    "Twist Types",
+    "Jacobian Coordinates",
+    "Projective Coordinates",
+    "Affine Coordinates",
+    "Pairing Engines",
+    "Field Inversion",
+    "Square Root Calculation",
+    "Zero-Knowledge Proofs"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "SageMath",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 698,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "bench-templates/src/lib.rs",
+      "bench-templates/src/macros/mod.rs",
+      "curves/bls12_377/src/constraints/mod.rs"
+    ]
+  },
+  "_hash": "8864fcf9a7261a53e8e72f13018fe01fa6d630205318f31bc248893eb2e6b0ca",
+  "_path": "/Users/ember/hellas/algebra",
+  "_updated_at": "2026-02-14T00:56:31.228112Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2527a0921ce9497d0fbd14c5a8761d10ea6fcd08a54ab327adfda38e6f973893",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:19.496533+00:00"
+  },
+  "mined_motifs": [
+    "Recursive SNARKs",
+    "mina-protocol",
+    "Sponge Construction",
+    "poseidon-hash",
+    "Succinctness",
+    "polynomial-commitments",
+    "Arithmetic Circuits",
+    "Multi-Scalar Multiplication (MSM)",
+    "Evaluation Proofs",
+    "Poseidon Hash Function",
+    "Elliptic Curve Cryptography",
+    "Accumulation Schemes"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.931
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/proof-systems",
+      "similarity": 0.903
+    },
+    {
+      "name": "proof-systems",
+      "path": "/Users/ember/dev/gh/forks/proof-systems",
+      "similarity": 0.897
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.889
+    },
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.887
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.882
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/hellas/poly-commit",
+      "similarity": 0.878
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.873
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Finite Field Arithmetic",
+      "Prime Field Extensions",
+      "Pairing-Friendly Curves",
+      "Short Weierstrass Curves",
+      "Twisted Edwards Curves",
+      "Polynomial Arithmetic",
+      "fast-fourier-transform",
+      "R1CS Constraints",
+      "Multi-Scalar Multiplication",
+      "Point Compression",
+      "ADX Assembly Backend",
+      "2-adic Fields",
+      "Scalar Multiplication",
+      "Isogeny Computations",
+      "Serialization Protocols",
+      "Uncompressed Serialization",
+      "Multilinear Polynomials",
+      "Multivariate Polynomials",
+      "Univariate Polynomials",
+      "Cycle of Curves",
+      "BN Curves",
+      "BLS Curves",
+      "BW6 Curves",
+      "CP6 Curves",
+      "MNT Curves",
+      "GLV Optimization",
+      "SWU Mapping",
+      "Hash-to-Curve",
+      "No-Std Compatibility",
+      "Generic Abstractions",
+      "Cryptographic Primality",
+      "Embedding Degree",
+      "Twist Types",
+      "Jacobian Coordinates",
+      "Projective Coordinates",
+      "Affine Coordinates",
+      "Pairing Engines",
+      "Field Inversion",
+      "Square Root Calculation",
+      "Zero-Knowledge Proofs"
+    ],
+    "tags": [
+      "ZK-SNARKs",
+      "cryptography",
+      "Rust Language Ecosystem",
+      "finite-fields",
+      "elliptic-curves",
+      "pairings",
+      "polynomials",
+      "fast-fourier-transform",
+      "r1cs",
+      "bls12-381",
+      "bls12-377",
+      "bn254",
+      "arkworks",
+      "Data Serialization",
+      "assembly",
+      "zero-knowledge-proofs"
+    ],
+    "mined_motifs": [
+      "zero-knowledge-proofs",
+      "Mina Protocol",
+      "Sponge Construction",
+      "poseidon-hash",
+      "Succinctness",
+      "polynomial-commitments",
+      "Arithmetic Circuits",
+      "multi-scalar-multiplication",
+      "Evaluation Proofs",
+      "Poseidon Hash Function",
+      "Elliptic Curve Cryptography",
+      "Accumulation Schemes"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 11.201,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 11.131,
+        "matches": [
+          "cryptography",
+          "zero-knowledge-proofs",
+          "bls12-381",
+          "poseidon-hash"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 8.365,
+        "matches": [
+          "mina protocol",
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 6.985,
+        "matches": [
+          "zero-knowledge proofs",
+          "r1cs"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.592,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.59,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.228112Z"
+  }
+}

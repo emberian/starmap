@@ -1,0 +1,255 @@
+{
+  "name": "CakeML",
+  "description": "CakeML is a verified implementation of a significant subset of Standard ML, developed within the HOL4 theorem prover. It features a bootstrapped, end-to-end verified compiler that targets multiple architectures including x86-64, ARM, and RISC-V. The project provides a formally verified ecosystem encompassing a standard basis library, a verified HOL theorem prover (Candle), and characteristic formulae for program verification.",
+  "tags": [
+    "cakeml",
+    "verified-compiler",
+    "hol4",
+    "standard-ml",
+    "formal-verification",
+    "theorem-proving",
+    "bootstrap",
+    "isa-semantics",
+    "runtime-verification",
+    "garbage-collection",
+    "ffi",
+    "candle-prover",
+    "characteristic-formulae",
+    "pancake-compiler",
+    "type-inference",
+    "asl"
+  ],
+  "category": "Verified Compiler Construction",
+  "concepts": [
+    "Mechanized Semantics",
+    "Compiler Bootstrapping",
+    "Proof-Producing Translation",
+    "Big-Step Semantics",
+    "Small-Step Semantics",
+    "Refining Abstract to Concrete Syntax",
+    "Machine Code Verification",
+    "Verified Garbage Collection",
+    "Total Correctness Proofs",
+    "Interactive Theorem Proving",
+    "Program Logic",
+    "Foreign Function Interface",
+    "Instruction Set Architecture Emulation",
+    "Type Safety Proofs",
+    "Real Number Optimization",
+    "Monadic State",
+    "Symbolic Execution",
+    "Register Allocation",
+    "Control Flow Graph Optimization",
+    "Verified Lexing and Parsing"
+  ],
+  "languages": [
+    "OCaml",
+    "Standard ML",
+    "C",
+    "Python",
+    "Shell",
+    "Assembly"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 1774,
+    "has_readme": true,
+    "sample_files": [
+      "examples/deflate/translation/compilation/tests/eduroam-linux-CUoT-Eduroam.py",
+      "unverified/ocaml-syntax/preprocessor.ml",
+      "unverified/ocaml-syntax/formatted.ml",
+      "unverified/ocaml-syntax/tests/boyer.ml",
+      "candle/prover/candle_boot.ml"
+    ]
+  },
+  "_hash": "b8c2a3e17458c9698c67440f7b8e3135111b5fb6733648e6600b25df90c2591b",
+  "_path": "/Users/ember/dev/CakeML",
+  "_updated_at": "2026-02-14T00:56:23.352183Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "formal-methods",
+      "Compiler Bootstrapping",
+      "Proof-Producing Translation",
+      "Big-Step Semantics",
+      "Small-Step Semantics",
+      "Refining Abstract to Concrete Syntax",
+      "Machine Code Verification",
+      "Verified Garbage Collection",
+      "Total Correctness Proofs",
+      "formal-verification",
+      "Program Logic",
+      "foreign-function-interface",
+      "Instruction Set Architecture Emulation",
+      "Type Safety Proofs",
+      "Real Number Optimization",
+      "Monadic State",
+      "Symbolic Execution",
+      "Register Allocation",
+      "Control Flow Graph Optimization",
+      "Verified Lexing and Parsing"
+    ],
+    "tags": [
+      "cakeml",
+      "verified-compiler",
+      "hol4",
+      "standard-ml",
+      "formal-methods",
+      "Interactive Theorem Proving (ITP)",
+      "bootstrap",
+      "isa-semantics",
+      "runtime-verification",
+      "garbage-collection",
+      "foreign-function-interface",
+      "candle-prover",
+      "characteristic-formulae",
+      "pancake-compiler",
+      "type-inference",
+      "asl"
+    ],
+    "mined_motifs": [
+      "formal-verification",
+      "compiler-design",
+      "dependent-types",
+      "Inductive Definitions",
+      "Verification Condition Generation",
+      "formal-semantics",
+      "AST",
+      "Type Inference",
+      "x86-64",
+      "Term Rewriting",
+      "automated-reasoning",
+      "Interactive Theorem Proving (ITP)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 11.08,
+        "matches": [
+          "formal-methods",
+          "verified-compiler",
+          "cakeml",
+          "hol4"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 8.251,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 8.251,
+        "matches": [
+          "dependent-types",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.244,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.102,
+        "matches": [
+          "foreign-function-interface",
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.768,
+        "matches": [
+          "ast",
+          "compiler-design"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.352183Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "6b5a97556e36ac2d0466415e78d9d5469cb5a550e5ba08655e7ff025d7b2605d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:17.380406+00:00"
+  },
+  "mined_motifs": [
+    "formal-methods",
+    "compiler",
+    "dependent-types",
+    "Inductive Definitions",
+    "Verification Condition Generation",
+    "formal-semantics",
+    "Abstract Syntax Trees",
+    "Type Inference",
+    "x86-64",
+    "Term Rewriting",
+    "automated-reasoning",
+    "proof-assistant"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.858
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.842
+    },
+    {
+      "name": "HOL4",
+      "path": "/Users/ember/dev/HOL",
+      "similarity": 0.842
+    },
+    {
+      "name": "FStar",
+      "path": "/Users/ember/dev/FStar",
+      "similarity": 0.823
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.821
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.814
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.808
+    },
+    {
+      "name": "lean",
+      "path": "/Users/ember/dev/gh/forks/lean",
+      "similarity": 0.808
+    }
+  ]
+}

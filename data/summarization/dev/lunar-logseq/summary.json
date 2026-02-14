@@ -1,0 +1,220 @@
+{
+  "name": "lunar-logseq",
+  "description": "A networked knowledge base and organizational graph implemented via Logseq, specifically tailored for systems engineering and technical project management. It encapsulates detailed documentation on seL4 summit proceedings, ASIC hardware specifications, and infrastructure scaling protocols, alongside collaborative onboarding workflows for distributed engineering teams.",
+  "tags": [
+    "logseq",
+    "org-mode",
+    "systems-engineering",
+    "knowledge-base",
+    "sel4",
+    "asic",
+    "infrastructure",
+    "technical-onboarding",
+    "zettelkasten",
+    "documentation"
+  ],
+  "category": "Systems Engineering Knowledge Management",
+  "concepts": [
+    "Networked Thought",
+    "Knowledge Graphs",
+    "Hardware Specification",
+    "Formal Methods",
+    "Micro-kernel Architecture",
+    "Technical Onboarding",
+    "Systems Infrastructure",
+    "Zettelkasten Methodology",
+    "Personal Knowledge Management (PKM)",
+    "Org-mode Data Interoperability",
+    "Journal-based Workflows",
+    "Project Coordination",
+    "ASIC Lifecycle",
+    "Configuration Management",
+    "Markdown Documentation",
+    "Collaborative Documentation"
+  ],
+  "languages": [
+    "Org-mode",
+    "Markdown",
+    "EDN",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 63,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "c2f34b12daa6c87e07c851cdcc7f5d34471f9d730c80731f1e0986039d69be2b",
+  "_path": "/Users/ember/dev/lunar-logseq",
+  "_updated_at": "2026-02-14T00:56:29.319174Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Networked Thought",
+      "Knowledge Graphs",
+      "Hardware Specification",
+      "Formal Methods",
+      "Micro-kernel Architecture",
+      "Technical Onboarding",
+      "Systems Infrastructure",
+      "Zettelkasten Methodology",
+      "Personal Knowledge Management (PKM)",
+      "Org-mode Data Interoperability",
+      "Journal-based Workflows",
+      "Project Coordination",
+      "ASIC Lifecycle",
+      "Configuration Management",
+      "Markdown Documentation",
+      "Collaborative Documentation"
+    ],
+    "tags": [
+      "logseq",
+      "org-mode",
+      "systems-engineering",
+      "knowledge-base",
+      "sel4",
+      "asic",
+      "infrastructure",
+      "technical-onboarding",
+      "zettelkasten",
+      "documentation"
+    ],
+    "mined_motifs": [
+      "Bidirectional Linking",
+      "Linked Data",
+      "pkm",
+      "markdown",
+      "Zettelkasten Method",
+      "Static Site Generation",
+      "IP Address Management",
+      "clarkson-university",
+      "mdbook",
+      "server-management",
+      "systems-administration",
+      "static-site-generator"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-assurance-systems",
+        "name": "High-Assurance Systems & Verification",
+        "score": 6.782,
+        "matches": [
+          "formal methods",
+          "sel4"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 5.459,
+        "matches": [
+          "documentation"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.41,
+        "matches": [
+          "markdown"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.974,
+        "matches": [
+          "mdbook"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 3.934,
+        "matches": [
+          "sel4"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 3.91,
+        "matches": [
+          "sel4"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.319174Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e22c5324cab34805b912babcd4490ac949342fdab2112d27cf3df00d57c1469c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:52.802931+00:00"
+  },
+  "mined_motifs": [
+    "Bidirectional Linking",
+    "Linked Data",
+    "pkm",
+    "markdown",
+    "Zettelkasten Method",
+    "Static Site Generation",
+    "IP Address Management",
+    "clarkson-university",
+    "mdbook",
+    "server-management",
+    "systems-administration",
+    "static-site-generator"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ticklogseq",
+      "path": "/Users/ember/dev/ticklogseq",
+      "similarity": 0.849
+    },
+    {
+      "name": "'logseq",
+      "path": "/Users/ember/dev/shitheap/'logseq",
+      "similarity": 0.848
+    },
+    {
+      "name": "library-project",
+      "path": "/Users/ember/dev/gh/library-project",
+      "similarity": 0.834
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/gh/forks/cosi-book",
+      "similarity": 0.829
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/o1hub",
+      "similarity": 0.812
+    },
+    {
+      "name": "erp",
+      "path": "/Users/ember/dev/erp",
+      "similarity": 0.81
+    },
+    {
+      "name": "cosi-book",
+      "path": "/Users/ember/dev/cosi-book",
+      "similarity": 0.807
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.802
+    }
+  ]
+}

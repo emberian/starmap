@@ -1,0 +1,90 @@
+{
+  "name": "univ190",
+  "description": "univ190 appears to be a exploratory project using mixed tooling. The available files suggest focus areas around paper1.",
+  "tags": [
+    "paper1"
+  ],
+  "category": "Exploratory",
+  "concepts": [
+    "paper1"
+  ],
+  "languages": [],
+  "maturity": "exploratory",
+  "_hash": "fac145dcffff19bb74e18db2302aed0f2556ba5e0e671ad6c8877ce8f8e18d1e",
+  "_path": "/Users/ember/dev/gh/univ190",
+  "_updated_at": "2026-02-11T08:55:27.450025Z",
+  "_alignment": {
+    "category": "Exploratory",
+    "concepts": [
+      "paper1"
+    ],
+    "tags": [
+      "paper1"
+    ],
+    "mined_motifs": [
+      "readme"
+    ],
+    "metaconstellations": [],
+    "aligner": "gemini",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-11T08:55:27.450013Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "81e7cb74db6d4ff8e31d01c8462d94e89ea20f9d8e5458e7f53f387491962969",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:35.458842+00:00"
+  },
+  "mined_motifs": [
+    "readme"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.778
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.755
+    },
+    {
+      "name": "fuckin_bullshit",
+      "path": "/Users/ember/dev/shitheap/fuckin_bullshit",
+      "similarity": 0.744
+    },
+    {
+      "name": "emberian",
+      "path": "/Users/ember/dev/gh/emberian",
+      "similarity": 0.736
+    },
+    {
+      "name": "esgea",
+      "path": "/Users/ember/dev/shitheap/esgea",
+      "similarity": 0.733
+    },
+    {
+      "name": "spw-workbench",
+      "path": "/Users/ember/src/spw-workbench/__MACOSX/spw-workbench",
+      "similarity": 0.728
+    },
+    {
+      "name": "ants",
+      "path": "/Users/ember/dev/shitheap/ants",
+      "similarity": 0.726
+    },
+    {
+      "name": "jourtress",
+      "path": "/Users/ember/dev/shitheap/jourtress",
+      "similarity": 0.72
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "name": "cs444-lab1",
+  "description": "A custom Unix shell implementation developed for a systems programming course using pre-1.0 Rust and direct libc bindings. It bypasses higher-level standard library abstractions to manually manage process lifecycles via fork/exec, handle POSIX signals, and implement I/O redirection and job control.",
+  "tags": [
+    "shell",
+    "systems-programming",
+    "rust",
+    "posix",
+    "libc",
+    "process-management",
+    "job-control",
+    "unix-programming"
+  ],
+  "category": "Operating Systems Pedagogy",
+  "concepts": [
+    "Process Forking",
+    "Unix Signals",
+    "I/O Redirection",
+    "Job Control",
+    "Command History",
+    "Environment Variable Management",
+    "FFI (Foreign Function Interface)",
+    "PID Management",
+    "System Calls",
+    "POSIX Compliance",
+    "Terminal Multiplexing",
+    "File Descriptor Manipulation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": [
+      "main.rs"
+    ]
+  },
+  "_hash": "98c95a4257a8d5394c8ff34a23e33e37665bfbcb3eacc617f3e0c09d1f6eecee",
+  "_path": "/Users/ember/dev/gh/cs444-lab1",
+  "_updated_at": "2026-02-14T00:56:24.887239Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Process Forking",
+      "Unix Signals",
+      "I/O Redirection",
+      "Job Control",
+      "Command History",
+      "Environment Variable Management",
+      "FFI (Foreign Function Interface)",
+      "PID Management",
+      "System Calls",
+      "POSIX Compliance",
+      "Terminal Multiplexing",
+      "File Descriptor Manipulation"
+    ],
+    "tags": [
+      "shell",
+      "Systems Programming",
+      "Rust Language Ecosystem",
+      "posix",
+      "libc",
+      "process-management",
+      "job-control",
+      "systems-programming"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "linux",
+      "systems-programming",
+      "IO Control",
+      "ioctl",
+      "syscalls",
+      "x86_64",
+      "AST",
+      "functional-programming",
+      "Lexical Analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 12.46,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.633,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.285,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 8.249,
+        "matches": [
+          "ast",
+          "lexical analysis"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.848,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 4.053,
+        "matches": [
+          "libc"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.887239Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "18e79ee4e4f4fdd393351766a1130ffa871f08de47a3739a1e79a213f4af76d5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:50.630829+00:00"
+  },
+  "mined_motifs": [
+    "ffi",
+    "linux",
+    "low-level",
+    "Foreign Function Interface",
+    "IO Control",
+    "ioctl",
+    "system-programming",
+    "syscalls",
+    "x86_64",
+    "abstract-syntax-tree",
+    "functional-programming",
+    "lexical-analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.878
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.868
+    },
+    {
+      "name": "signal",
+      "path": "/Users/ember/dev/gh/forks/signal",
+      "similarity": 0.863
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.849
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.843
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.841
+    },
+    {
+      "name": "grease-bench",
+      "path": "/Users/ember/dev/gh/forks/grease-bench",
+      "similarity": 0.837
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.834
+    }
+  ]
+}

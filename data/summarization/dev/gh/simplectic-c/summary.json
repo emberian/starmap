@@ -1,0 +1,214 @@
+{
+  "name": "simplectic-c",
+  "description": "A lightweight C implementation of Simplectic Noise, a variation of simplex noise designed for efficient multi-dimensional procedural generation. The library provides 2D, 3D, and 4D noise functions using an optimized coordinate skewing and unskewing approach with an internal Xorshift-based permutation table. It is structured as a standalone library with minimal dependencies, providing both static and shared objects for integration into graphics pipelines or simulation environments.",
+  "tags": [
+    "noise-generation",
+    "procedural-generation",
+    "simplex-noise",
+    "simplectic-noise",
+    "graphics-programming",
+    "c-library",
+    "mathematical-optimization",
+    "xorshift",
+    "pseudo-random",
+    "coordinate-skewing",
+    "2d-noise",
+    "3d-noise",
+    "4d-noise"
+  ],
+  "category": "Procedural Content Generation",
+  "concepts": [
+    "Simplex Noise",
+    "Simplectic Noise",
+    "Coordinate Skewing",
+    "Permutation Table",
+    "Pseudo-random Number Generation",
+    "Barycentric Coordinates",
+    "Grid-based Interpolation",
+    "Xorshift PRNG",
+    "Lattice-based Noise",
+    "Higher-dimensional Sampling"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "simplectic.c",
+      "simplectic.h",
+      "example.c"
+    ]
+  },
+  "_hash": "7ff455203a16bb68d8761885aee8a51a00e41a8f55e6aafe7db8b662255a8a61",
+  "_path": "/Users/ember/dev/gh/simplectic-c",
+  "_updated_at": "2026-02-14T00:56:28.657696Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Simplex Noise",
+      "Simplectic Noise",
+      "Coordinate Skewing",
+      "Permutation Table",
+      "Pseudo-random Number Generation",
+      "Barycentric Coordinates",
+      "Grid-based Interpolation",
+      "Xorshift PRNG",
+      "Lattice-based Noise",
+      "Higher-dimensional Sampling"
+    ],
+    "tags": [
+      "noise-generation",
+      "Procedural Generation",
+      "simplex-noise",
+      "simplectic-noise",
+      "Computer Graphics & Rendering",
+      "c-library",
+      "mathematical-optimization",
+      "xorshift",
+      "pseudo-random",
+      "coordinate-skewing",
+      "2d-noise",
+      "3d-noise",
+      "4d-noise"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "math-library",
+      "functional-programming",
+      "Real-time Rendering",
+      "Coherent Noise",
+      "Coordinate Skewing/Unskewing",
+      "Fractional Brownian Motion (fBm)",
+      "Gradient Noise",
+      "Interpolation (Lerp)",
+      "Lacunarity",
+      "Multi-dimensional Sampling (2D/3D/4D)",
+      "Octave Summation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.579,
+        "matches": [
+          "procedural generation",
+          "category:Procedural Content Generation"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.352,
+        "matches": [
+          "computer graphics & rendering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.346,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 5.331,
+        "matches": [
+          "real-time rendering"
+        ]
+      },
+      {
+        "id": "bioscientific-simulation-spatial",
+        "name": "Bioscientific Simulation & Spatial Systems",
+        "score": 3.63,
+        "matches": [
+          "category:Procedural Content Generation"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.553,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.657696Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a58299ec1a0d41847a5abff40cfe61e400fdf7569f3b3a72d91ed55183781499",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:30.298861+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "math-library",
+    "functional-programming",
+    "Real-time Rendering",
+    "Coherent Noise",
+    "Coordinate Skewing/Unskewing",
+    "Fractional Brownian Motion (fBm)",
+    "Gradient Noise",
+    "Interpolation (Lerp)",
+    "Lacunarity",
+    "Multi-dimensional Sampling (2D/3D/4D)",
+    "Octave Summation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "noise-rs",
+      "path": "/Users/ember/dev/gh/forks/noise-rs",
+      "similarity": 0.9
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.82
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.813
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.808
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.808
+    },
+    {
+      "name": "good_night",
+      "path": "/Users/ember/dev/shitheap/good_night",
+      "similarity": 0.807
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.806
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.804
+    }
+  ]
+}

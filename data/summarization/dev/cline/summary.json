@@ -1,0 +1,222 @@
+{
+  "name": "cline",
+  "description": "An autonomous agentic coding assistant for VS Code that leverages Claude 3.5 Sonnet to execute complex development workflows. It integrates deeply with the IDE via private APIs for terminal execution, file system manipulation, and headless browser interaction. The system employs the Model Context Protocol (MCP) for tool extension and uses tree-sitter for AST-based code analysis.",
+  "tags": [
+    "ai-agent",
+    "vs-code-extension",
+    "autonomous-coding",
+    "mcp",
+    "claude-3-5-sonnet",
+    "tree-sitter",
+    "browser-automation",
+    "terminal-integration",
+    "llm-orchestration",
+    "typescript",
+    "react",
+    "agentic-ai",
+    "software-engineering-automation"
+  ],
+  "category": "Agentic Software Engineering Environment",
+  "concepts": [
+    "Agentic Tool Use",
+    "AST-based Code Navigation",
+    "Human-in-the-loop Governance",
+    "Model Context Protocol (MCP)",
+    "Sliding Window Prompt Management",
+    "Headless Browser Debugging",
+    "Incremental Context Injection",
+    "Diff-based File Synchronization",
+    "Multi-provider LLM Abstraction",
+    "VS Code Terminal Shell Integration",
+    "Static Analysis for Proactive Bug Fixing",
+    "Prompt Cache Optimization",
+    "Token Usage Analytics"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "TSX",
+    "CSS",
+    "HTML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 140,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/api/index.ts",
+      "src/core/assistant-message/index.ts",
+      "src/core/mentions/index.ts",
+      "src/core/sliding-window/index.ts"
+    ]
+  },
+  "_hash": "d9f99058cb0728f13ddd9e3d502e89c4b330b04db078f4fefb8a5c265dcd33e5",
+  "_path": "/Users/ember/dev/cline",
+  "_updated_at": "2026-02-14T00:56:23.704719Z",
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Agentic Tool Use",
+      "AST-based Code Navigation",
+      "Human-in-the-loop Governance",
+      "model-context-protocol",
+      "Sliding Window Prompt Management",
+      "Headless Browser Debugging",
+      "Incremental Context Injection",
+      "Diff-based File Synchronization",
+      "Multi-provider LLM Abstraction",
+      "VS Code Terminal Shell Integration",
+      "Static Analysis for Proactive Bug Fixing",
+      "Prompt Cache Optimization",
+      "Token Usage Analytics"
+    ],
+    "tags": [
+      "ai-agent",
+      "vs-code-extension",
+      "autonomous-coding",
+      "model-context-protocol",
+      "claude-3-5-sonnet",
+      "tree-sitter",
+      "browser-automation",
+      "terminal-integration",
+      "llm-orchestration",
+      "typescript",
+      "react",
+      "agentic-ai",
+      "software-engineering-automation"
+    ],
+    "mined_motifs": [
+      "vscode-extension",
+      "Language Server Protocol",
+      "diagnostics",
+      "language-server",
+      "context-management",
+      "lsp",
+      "Child Process Communication",
+      "Conflict-Free Replicated Data Types",
+      "Event-driven Architecture",
+      "collaboration",
+      "ide"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 12.414,
+        "matches": [
+          "context-management",
+          "llm-orchestration",
+          "model-context-protocol",
+          "agentic tool use"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.316,
+        "matches": [
+          "agentic-ai"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.274,
+        "matches": [
+          "conflict-free replicated data types"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 2.587,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.578,
+        "matches": []
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.57,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.704719Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1e81f87ccd7f5f9284d0485834a5f278c2b0c95e5f242fc95c1db0545016bee4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:50.662360+00:00"
+  },
+  "mined_motifs": [
+    "vscode-extension",
+    "Language Server Protocol",
+    "diagnostics",
+    "language-server",
+    "context-management",
+    "lsp",
+    "Child Process Communication",
+    "Conflict-free Replicated Data Types (CRDT)",
+    "Event-driven Architecture",
+    "collaboration",
+    "crdt",
+    "ide"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.85
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.847
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.847
+    },
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.827
+    },
+    {
+      "name": "Zed",
+      "path": "/Users/ember/dev/zed",
+      "similarity": 0.821
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/gh/vscode-rustup",
+      "similarity": 0.817
+    },
+    {
+      "name": "open-collaboration-tools",
+      "path": "/Users/ember/dev/open-collaboration-tools",
+      "similarity": 0.815
+    },
+    {
+      "name": "vscode-rustup",
+      "path": "/Users/ember/dev/vscode-rustup",
+      "similarity": 0.814
+    }
+  ]
+}

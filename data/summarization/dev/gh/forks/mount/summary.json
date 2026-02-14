@@ -1,0 +1,194 @@
+{
+  "name": "mount",
+  "description": "A mounting middleware for the Iron web framework that enables hierarchical request routing. It utilizes a prefix-based Trie structure to dispatch requests to handlers while rewriting request paths to be relative to the mount point. The implementation preserves the original URL context within the request extensions for downstream middleware access.",
+  "tags": [
+    "rust",
+    "iron-framework",
+    "middleware",
+    "routing",
+    "trie",
+    "http-proxy",
+    "url-rewriting",
+    "web-server",
+    "request-dispatch"
+  ],
+  "category": "Web Middleware Routing",
+  "concepts": [
+    "Prefix-based Routing",
+    "Sequence Trie Data Structures",
+    "Request Path Normalization",
+    "Middleware Composition",
+    "Context Preservation",
+    "In-place Path Mutation",
+    "Hierarchical Dispatching"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/mount.rs",
+      "examples/mount.rs",
+      "examples/double_mount.rs"
+    ]
+  },
+  "_hash": "5625e6ca15608f3dd1896f058b22451bbc84e2c3b61d1256b94a2812a13d0d0b",
+  "_path": "/Users/ember/dev/gh/forks/mount",
+  "_updated_at": "2026-02-14T00:56:26.205364Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Prefix-based Routing",
+      "Sequence Trie Data Structures",
+      "Request Path Normalization",
+      "Middleware Composition",
+      "Context Preservation",
+      "In-place Path Mutation",
+      "Hierarchical Dispatching"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "iron-framework",
+      "middleware",
+      "routing",
+      "trie",
+      "http-proxy",
+      "url-rewriting",
+      "web-server",
+      "request-dispatch"
+    ],
+    "mined_motifs": [
+      "http-server",
+      "web-framework",
+      "Middleware Pattern",
+      "web-development",
+      "Static File Serving",
+      "Integration Testing",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "backend",
+      "microservice",
+      "Asynchronous Programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.197,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.143,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 2.349,
+        "matches": []
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 2.349,
+        "matches": []
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.349,
+        "matches": []
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 2.349,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.205364Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2283a91a73b84494139c2ceffab024bbd2ba9b2e1bc608a77f3c0ea9ac2c7992",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:55.723805+00:00"
+  },
+  "mined_motifs": [
+    "http-server",
+    "web-framework",
+    "Middleware Pattern",
+    "web-development",
+    "Static File Serving",
+    "Integration Testing",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "backend",
+    "microservice",
+    "tokio"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "static",
+      "path": "/Users/ember/dev/gh/forks/static",
+      "similarity": 0.812
+    },
+    {
+      "name": "persistent",
+      "path": "/Users/ember/dev/gh/forks/persistent",
+      "similarity": 0.81
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.775
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.766
+    },
+    {
+      "name": "tweed",
+      "path": "/Users/ember/dev/gh/tweed",
+      "similarity": 0.765
+    },
+    {
+      "name": "leafy",
+      "path": "/Users/ember/dev/gh/leafy",
+      "similarity": 0.761
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.76
+    },
+    {
+      "name": "iron-test",
+      "path": "/Users/ember/dev/gh/forks/iron-test",
+      "similarity": 0.758
+    }
+  ]
+}

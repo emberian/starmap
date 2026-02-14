@@ -1,0 +1,272 @@
+{
+  "name": "thy-of-ocaml",
+  "description": "thy-of-ocaml appears to be a zero-knowledge proofs project using OCaml, JavaScript, Shell. The available files suggest focus areas around types, gadts, type, function.",
+  "tags": [
+    "OCaml",
+    "JavaScript",
+    "Shell",
+    "types",
+    "gadts",
+    "type",
+    "function",
+    "modules",
+    "disabled",
+    "local",
+    "module",
+    "signature",
+    "definition",
+    "functor",
+    "more",
+    "name"
+  ],
+  "category": "Zero-Knowledge Proofs",
+  "concepts": [
+    "types",
+    "gadts",
+    "type",
+    "function",
+    "modules",
+    "disabled",
+    "local",
+    "module",
+    "signature",
+    "definition",
+    "functor",
+    "more",
+    "name",
+    "open",
+    "pervasives",
+    "record",
+    "recursion",
+    "undraw",
+    "with",
+    "attribute",
+    "basics",
+    "dune",
+    "list",
+    "readme",
+    "tree",
+    "anonymous",
+    "application",
+    "axiom",
+    "builtin",
+    "cast",
+    "cfml",
+    "class",
+    "configuration",
+    "coqofocaml",
+    "coqproject",
+    "defined",
+    "existential",
+    "existentials",
+    "explicit",
+    "extensible"
+  ],
+  "languages": [
+    "OCaml",
+    "JavaScript",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "f2eb3aaf6f5beb77183a36fb119f1c86a5689358c930bf0491f3f423b2bc9d01",
+  "_path": "/Users/ember/dev/thy-of-ocaml",
+  "_updated_at": "2026-02-14T00:56:30.862856Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "40611e088c62f8062cd387ef75510296b633ca12f1d8726232cb772d8d999a24",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:56.892207+00:00"
+  },
+  "mined_motifs": [
+    "test",
+    "main",
+    "intf",
+    "ledger",
+    "state",
+    "C",
+    "Python",
+    "data",
+    "hash",
+    "snark",
+    "transition",
+    "build"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mina-src",
+      "path": "/Users/ember/dev/mina-src",
+      "similarity": 0.827
+    },
+    {
+      "name": "mina2",
+      "path": "/Users/ember/dev/mina2",
+      "similarity": 0.803
+    },
+    {
+      "name": "learn-ocaml-beta",
+      "path": "/Users/ember/src/learn-ocaml-beta",
+      "similarity": 0.753
+    },
+    {
+      "name": "opam-repository",
+      "path": "/Users/ember/dev/gh/forks/opam-repository",
+      "similarity": 0.734
+    },
+    {
+      "name": "o1js",
+      "path": "/Users/ember/dev/o1js",
+      "similarity": 0.719
+    },
+    {
+      "name": "SAL",
+      "path": "/Users/ember/dev/gh/SAL",
+      "similarity": 0.693
+    },
+    {
+      "name": "zulip-terminal",
+      "path": "/Users/ember/src/zulip-terminal",
+      "similarity": 0.69
+    },
+    {
+      "name": "aoc23",
+      "path": "/Users/ember/dev/gh/aoc23",
+      "similarity": 0.684
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "types",
+      "gadts",
+      "type",
+      "function",
+      "modules",
+      "disabled",
+      "local",
+      "module",
+      "signature",
+      "definition",
+      "functor",
+      "more",
+      "name",
+      "open",
+      "pervasives",
+      "record",
+      "recursion",
+      "undraw",
+      "with",
+      "attribute",
+      "basics",
+      "dune",
+      "list",
+      "readme",
+      "tree",
+      "anonymous",
+      "application",
+      "axiom",
+      "builtin",
+      "cast",
+      "cfml",
+      "class",
+      "configuration",
+      "coqofocaml",
+      "coqproject",
+      "defined",
+      "existential",
+      "existentials",
+      "explicit",
+      "extensible"
+    ],
+    "tags": [
+      "OCaml",
+      "JavaScript",
+      "Shell",
+      "types",
+      "gadts",
+      "type",
+      "function",
+      "modules",
+      "disabled",
+      "local",
+      "module",
+      "signature",
+      "definition",
+      "functor",
+      "more",
+      "name"
+    ],
+    "mined_motifs": [
+      "test",
+      "main",
+      "intf",
+      "ledger",
+      "state",
+      "C",
+      "Python",
+      "data",
+      "hash",
+      "ZK-SNARKs",
+      "transition",
+      "build"
+    ],
+    "metaconstellations": [
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 6.149,
+        "matches": [
+          "zk-snarks",
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography",
+        "name": "Verifiable Cryptography & Zero-Knowledge",
+        "score": 3.295,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 3.271,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 3.265,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 3.262,
+        "matches": [
+          "category:Zero-Knowledge Proofs"
+        ]
+      },
+      {
+        "id": "trustless-compute",
+        "name": "Trustless Compute & ZK Privacy",
+        "score": 2.076,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.862856Z"
+  }
+}

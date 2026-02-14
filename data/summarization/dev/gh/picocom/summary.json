@@ -1,0 +1,228 @@
+{
+  "name": "picocom",
+  "description": "A minimal, low-footprint dumb-terminal emulation program designed for manual modem configuration, testing, and serial port debugging. It incorporates a specialized terminal-management library that abstracts termios(3) complexities into a simplified, state-managed interface. Optimized for embedded systems with a minimal memory footprint, the utility supports character mapping, DTR signaling, and external file-transfer protocol integration.",
+  "tags": [
+    "serial-communication",
+    "terminal-emulation",
+    "unix-tty",
+    "termios",
+    "embedded-systems",
+    "modem-configuration",
+    "uart-debugging",
+    "rs232",
+    "c-programming",
+    "low-memory-footprint",
+    "uucp-locking",
+    "file-transfer"
+  ],
+  "category": "Serial Terminal Emulation",
+  "concepts": [
+    "TTY Device Management",
+    "Asynchronous Serial Communication",
+    "Baud Rate Configuration",
+    "Flow Control Negotiation",
+    "UUCP HDB Locking",
+    "DTR Line Signaling",
+    "Character Translation Mapping",
+    "Hardware Break Condition Generation",
+    "termios Abstraction Layer",
+    "Terminal State Restoration",
+    "External Process Invocation",
+    "Input/Output Queue Flushing",
+    "Parity and Data Bit Modulation",
+    "Local Echo Emulation",
+    "Signal-Driven Cleanup",
+    "Stripped Binary Optimization"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 17,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "picocom.c",
+      "term.c",
+      "term.h"
+    ]
+  },
+  "_hash": "bce80abe959ddcf2ee95d0c49ecf50b80603f25adef6351e58945de8840956fd",
+  "_path": "/Users/ember/dev/gh/picocom",
+  "_updated_at": "2026-02-14T00:56:28.050620Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "TTY Device Management",
+      "Asynchronous Serial Communication",
+      "Baud Rate Configuration",
+      "Flow Control Negotiation",
+      "UUCP HDB Locking",
+      "DTR Line Signaling",
+      "Character Translation Mapping",
+      "Hardware Break Condition Generation",
+      "termios Abstraction Layer",
+      "Terminal State Restoration",
+      "External Process Invocation",
+      "Input/Output Queue Flushing",
+      "Parity and Data Bit Modulation",
+      "Local Echo Emulation",
+      "Signal-Driven Cleanup",
+      "Stripped Binary Optimization"
+    ],
+    "tags": [
+      "serial-communication",
+      "terminal-emulation",
+      "unix-tty",
+      "termios",
+      "embedded-systems",
+      "modem-configuration",
+      "uart-debugging",
+      "rs232",
+      "c-programming",
+      "low-memory-footprint",
+      "uucp-locking",
+      "file-transfer"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "posix",
+      "foreign-function-interface",
+      "isa",
+      "Rust Language Ecosystem",
+      "Systems Programming",
+      "Asynchronous Mail Synchronization",
+      "Backup & Restore Automation",
+      "Console-based Email Management",
+      "Custom URI Handling",
+      "Directory Colorization",
+      "Environment Variable Management"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 9.505,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.49,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.128,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.351,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 3.92,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.494,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.050620Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "dd2b96270a89fe7b2445029403d8d927a4eab52ee298851edcc3b35043d5f057",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:09.559663+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "posix",
+    "ffi",
+    "isa",
+    "rust",
+    "systems-programming",
+    "Asynchronous Mail Synchronization",
+    "Backup & Restore Automation",
+    "Console-based Email Management",
+    "Custom URI Handling",
+    "Directory Colorization",
+    "Environment Variable Management"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "dotfiles",
+      "path": "/Users/ember/dev/gh/dotfiles",
+      "similarity": 0.82
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.8
+    },
+    {
+      "name": "bfcpu",
+      "path": "/Users/ember/dev/gh/bfcpu",
+      "similarity": 0.8
+    },
+    {
+      "name": "good_night",
+      "path": "/Users/ember/dev/shitheap/good_night",
+      "similarity": 0.792
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.791
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.788
+    },
+    {
+      "name": "terminfo-rs",
+      "path": "/Users/ember/dev/gh/terminfo-rs",
+      "similarity": 0.787
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.783
+    }
+  ]
+}

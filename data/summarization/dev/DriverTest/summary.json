@@ -1,0 +1,245 @@
+{
+  "name": "DriverTest",
+  "description": "DriverTest is a macOS kernel extension (KEXT) prototype implemented in C, targeting the Darwin kernel via the Mach-O module interface. It establishes the foundational lifecycle hooks required for kernel-mode execution, specifically implementing the start and stop routines for module management. The codebase serves as a minimal scaffold for low-level system programming, with internal documentation suggesting an initial exploration into MIDI-related hardware drivers.",
+  "tags": [
+    "macOS",
+    "Darwin",
+    "Kernel",
+    "KEXT",
+    "Driver",
+    "C",
+    "Mach",
+    "Xcode",
+    "System",
+    "Low-level",
+    "MIDI",
+    "Mach-O",
+    "Kernel-mode"
+  ],
+  "category": "Darwin Kernel Extension Development",
+  "concepts": [
+    "Kernel Extension (KEXT)",
+    "Mach Kernel Interface",
+    "Kernel Module Lifecycle",
+    "Darwin Operating System",
+    "Kernel Programming",
+    "kmod_info_t",
+    "kern_return_t",
+    "System-level C",
+    "Hardware Driver Development",
+    "Mach-O Execution",
+    "Kernel Memory Management",
+    "I/O Kit Foundations",
+    "Kernel Mode Execution",
+    "Kernel-User Bridge",
+    "Device Driver Prototyping",
+    "MIDI Interface Implementation",
+    "Xcode Project Configuration",
+    "Info.plist Metadata",
+    "Kernel Linking",
+    "Low-level Hardware Access",
+    "Kernel Entry Points",
+    "Kernel Module Registration",
+    "Darwin Driver Infrastructure"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "DriverTest/DriverTest.c"
+    ]
+  },
+  "_hash": "bc18c1c58a8d9eb2dc0a1ad72620b433439d194b9edeeb4bf498741b1375cee2",
+  "_path": "/Users/ember/dev/DriverTest",
+  "_updated_at": "2026-02-14T00:56:23.362795Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Kernel Extension (KEXT)",
+      "Mach Kernel Interface",
+      "Kernel Module Lifecycle",
+      "Darwin Operating System",
+      "Kernel Programming",
+      "kmod_info_t",
+      "kern_return_t",
+      "System-level C",
+      "Hardware Driver Development",
+      "Mach-O Execution",
+      "Kernel Memory Management",
+      "I/O Kit Foundations",
+      "Kernel Mode Execution",
+      "Kernel-User Bridge",
+      "Device Driver Prototyping",
+      "MIDI Interface Implementation",
+      "Xcode Project Configuration",
+      "Info.plist Metadata",
+      "Kernel Linking",
+      "Low-level Hardware Access",
+      "Kernel Entry Points",
+      "Kernel Module Registration",
+      "Darwin Driver Infrastructure"
+    ],
+    "tags": [
+      "macOS",
+      "Darwin",
+      "Kernel",
+      "KEXT",
+      "Driver",
+      "C",
+      "Mach",
+      "Xcode",
+      "System",
+      "systems-programming",
+      "MIDI",
+      "Mach-O",
+      "Kernel-mode"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "linux",
+      "Systems Programming",
+      "IO Control",
+      "ioctl",
+      "posix",
+      "Code Generation",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 10.843,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.433,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 8.093,
+        "matches": [
+          "kernel",
+          "darwin",
+          "kext"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.061,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 5.291,
+        "matches": [
+          "code generation"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.239,
+        "matches": [
+          "intermediate representation"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.362795Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "321da573f5c56ee796b8642992e9db6402af013d200c3537933506b34beca2b2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:17.934325+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "ffi",
+    "linux",
+    "systems-programming",
+    "Foreign Function Interface",
+    "IO Control",
+    "ioctl",
+    "posix",
+    "Code Generation",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.796
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.779
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.776
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.774
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.774
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.773
+    },
+    {
+      "name": "MessagesTest",
+      "path": "/Users/ember/dev/MessagesTest",
+      "similarity": 0.772
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.771
+    }
+  ]
+}

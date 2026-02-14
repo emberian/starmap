@@ -1,0 +1,212 @@
+{
+  "name": "multiway-tug",
+  "description": "A terminal-based implementation of a competitive area-control card game. It features a custom game engine managing deck shuffling, player hand states, and multi-objective scoring mechanics across distinct territorial markers.",
+  "tags": [
+    "tui",
+    "game-engine",
+    "area-control",
+    "card-game",
+    "ratatui",
+    "rust",
+    "state-machine",
+    "serialization",
+    "procedural-generation",
+    "crossterm",
+    "rng",
+    "smallvec"
+  ],
+  "category": "Area Control Game Engine",
+  "concepts": [
+    "Game State Serialization",
+    "Terminal User Interface",
+    "Resource Competition",
+    "Monte Carlo RNG",
+    "Conditional Feature Compilation",
+    "Abstract Game Mechanics",
+    "Event-Driven Input Handling",
+    "In-Memory State Transitions"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/mechanics.rs",
+      "src/tui.rs"
+    ]
+  },
+  "_hash": "95baf6d24a7edcf6447ff44922e6e7933e9675bf05b3121d0a11763bacb18bf9",
+  "_path": "/Users/ember/dev/multiway-tug",
+  "_updated_at": "2026-02-14T00:56:29.713789Z",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Game State Serialization",
+      "Terminal User Interface",
+      "Resource Competition",
+      "Monte Carlo RNG",
+      "Conditional Feature Compilation",
+      "Abstract Game Mechanics",
+      "Event-Driven Input Handling",
+      "In-Memory State Transitions"
+    ],
+    "tags": [
+      "tui",
+      "game-engine",
+      "area-control",
+      "card-game",
+      "ratatui",
+      "Rust Language Ecosystem",
+      "state-machine",
+      "Data Serialization",
+      "Procedural Generation",
+      "crossterm",
+      "rng",
+      "smallvec"
+    ],
+    "mined_motifs": [
+      "terminal-ui",
+      "WebAssembly",
+      "collision-detection",
+      "board-game",
+      "Component-based UI",
+      "real-time-simulation",
+      "leptos",
+      "game-ai",
+      "minimax",
+      "ANSI Escape Sequences",
+      "Action Selection",
+      "Area Control"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.762,
+        "matches": [
+          "procedural generation",
+          "minimax"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.697,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.4,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.383,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.303,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.296,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.713789Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "67bb04134a397b1326e54222bd1d54ab9579d98964703efe5b26d1ac33e81fc0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:06.732234+00:00"
+  },
+  "mined_motifs": [
+    "terminal-ui",
+    "wasm",
+    "collision-detection",
+    "board-game",
+    "Component-based UI",
+    "simulation",
+    "leptos",
+    "game-ai",
+    "minimax",
+    "ANSI Escape Sequences",
+    "Action Selection",
+    "Area Control"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "multiway-tug",
+      "path": "/Users/ember/dev/gh/multiway-tug",
+      "similarity": 0.943
+    },
+    {
+      "name": "one-hour-roguelike",
+      "path": "/Users/ember/dev/gh/one-hour-roguelike",
+      "similarity": 0.828
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.813
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.808
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.806
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.802
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/automatafl",
+      "similarity": 0.798
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.792
+    }
+  ]
+}

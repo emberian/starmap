@@ -1,0 +1,263 @@
+{
+  "name": "zwobot",
+  "description": "zwobot is a multi-model LLM orchestration framework and Zulip agent that leverages mistral.rs for local inference across isolated conversation topics. It integrates a modular suite of subsystems including Rhai-based scriptable game logic, Spween narrative execution, and a comprehensive RPG mechanics library to provide interactive, multi-character roleplaying experiences. The architecture features a React-based widget system for rich chat interactions and includes an MCP server implementation for cross-platform model context sharing.",
+  "tags": [
+    "rust",
+    "zulip",
+    "llm",
+    "local-inference",
+    "mistral-rs",
+    "rhai",
+    "spween",
+    "rpg-engine",
+    "mcp-server",
+    "typescript",
+    "react",
+    "wasm",
+    "multi-agent",
+    "chat-ops",
+    "narrative-design",
+    "game-engine"
+  ],
+  "category": "Local LLM Agent Orchestration",
+  "concepts": [
+    "Local Inference",
+    "Multi-Model Concurrency",
+    "Topic-Isolated LLM Contexts",
+    "GGUF Quantization",
+    "Character Personality Injection",
+    "Scriptable Game Logic",
+    "Rhai Scripting Engine",
+    "Narrative State Machines",
+    "Spween Scene Execution",
+    "Model Context Protocol (MCP)",
+    "Reactive Chat Widgets",
+    "Multi-Agent Roleplaying",
+    "Distributed Bot Framework",
+    "Dice-Based Mechanics",
+    "Turn-Based Combat Tracking",
+    "Conversation History Buffering",
+    "GPU-Accelerated Inference",
+    "Mistral.rs Integration",
+    "WebAssembly (WASM) Interop",
+    "Hot-Reloading Game Scripts",
+    "TOML-Based Configuration",
+    "Async Event Loop",
+    "Shared State Persistence",
+    "Puppet Identity Injection",
+    "Rich Embed Serialization",
+    "CLI Agent Management",
+    "Tulip Framework Architecture",
+    "Context-Aware Prompt Engineering",
+    "Roleplaying System Prompts",
+    "Modular Workspace Design"
+  ],
+  "languages": [
+    "Rust",
+    "TypeScript",
+    "JavaScript",
+    "Rhai"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 488,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/debate/src/lib.rs",
+      "crates/llm/src/lib.rs",
+      "crates/playground-wasm/src/lib.rs",
+      "crates/rhai-games/src/api/mod.rs"
+    ]
+  },
+  "_hash": "e6866a9026ea9fd7384e82e2dced7fefee0a38209d892b6c9c428ad4567304d2",
+  "_path": "/Users/ember/dev/zwobot",
+  "_updated_at": "2026-02-14T00:56:31.016217Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "07301e93ff0eeac14fbe0a9107c1a4c37545d38536ec57eab6c625a878eb46a2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:08.499143+00:00"
+  },
+  "mined_motifs": [
+    "leptos",
+    "narrative-engine",
+    "state-management",
+    "ai-agents",
+    "vite",
+    "async-runtime",
+    "asynchronous-message-handling",
+    "autonomous-agent",
+    "command-telemetry",
+    "diffusion-models",
+    "diffusion-pipelines",
+    "discord-bot"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "qwobot",
+      "path": "/Users/ember/dev/qwobot",
+      "similarity": 0.796
+    },
+    {
+      "name": "blackwing",
+      "path": "/Users/ember/dev/bw-exp0",
+      "similarity": 0.79
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.779
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.756
+    },
+    {
+      "name": "neocadia",
+      "path": "/Users/ember/dev/neocadia",
+      "similarity": 0.755
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.746
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.743
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "AI & Machine Learning",
+    "concepts": [
+      "Local Inference",
+      "Multi-Model Concurrency",
+      "Topic-Isolated LLM Contexts",
+      "GGUF Quantization",
+      "Character Personality Injection",
+      "Scriptable Game Logic",
+      "Rhai Scripting Engine",
+      "Narrative State Machines",
+      "Spween Scene Execution",
+      "model-context-protocol",
+      "Reactive Chat Widgets",
+      "Multi-Agent Roleplaying",
+      "Distributed Bot Framework",
+      "Dice-Based Mechanics",
+      "Turn-Based Combat Tracking",
+      "Conversation History Buffering",
+      "GPU-Accelerated Inference",
+      "Mistral.rs Integration",
+      "WebAssembly (WASM) Interop",
+      "Hot-Reloading Game Scripts",
+      "TOML-Based Configuration",
+      "Async Event Loop",
+      "Shared State Persistence",
+      "Puppet Identity Injection",
+      "Rich Embed Serialization",
+      "CLI Agent Management",
+      "Tulip Framework Architecture",
+      "Context-Aware Prompt Engineering",
+      "Roleplaying System Prompts",
+      "Modular Workspace Design"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "zulip",
+      "Large Language Model Inference",
+      "mistral-rs",
+      "rhai",
+      "spween",
+      "rpg-engine",
+      "Model Context Protocol",
+      "typescript",
+      "react",
+      "WebAssembly",
+      "multi-agent",
+      "chat-ops",
+      "narrative-design",
+      "game-engine"
+    ],
+    "mined_motifs": [
+      "leptos",
+      "narrative-engine",
+      "state-management",
+      "ai-agents",
+      "vite",
+      "async-runtime",
+      "asynchronous-message-handling",
+      "autonomous-agent",
+      "command-telemetry",
+      "diffusion-models",
+      "diffusion-pipelines",
+      "discord-bot"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 9.22,
+        "matches": [
+          "large language model inference",
+          "model context protocol",
+          "category:Local LLM Agent Orchestration"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 7.973,
+        "matches": [
+          "ai-agents",
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.639,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.242,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.237,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.235,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.016217Z"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "name": "kiss3d",
+  "description": "A minimalist real-time 3D graphics engine for Rust designed for rapid prototyping and scientific visualization via a high-level, 'one-liner' API. It abstracts low-level OpenGL complexities by providing a simplified scene graph, automated resource management for shaders and textures, and built-in support for interactive cameras and common geometric primitives.",
+  "tags": [
+    "rust",
+    "opengl",
+    "3d-graphics",
+    "graphics-engine",
+    "scene-graph",
+    "real-time-rendering",
+    "visualization",
+    "glfw",
+    "nalgebra",
+    "shader-abstraction",
+    "mesh-rendering",
+    "post-processing",
+    "procedural-generation",
+    "obj-loader"
+  ],
+  "category": "Real-time 3D Rendering",
+  "concepts": [
+    "Scene Graph Hierarchy",
+    "Arc-ball Camera",
+    "First-person Camera",
+    "Post-processing Pipelines",
+    "Shader Uniform Mapping",
+    "Vertex Attribute Abstraction",
+    "Texture Mapping",
+    "Resource Lifecycle Management",
+    "Event Propagation",
+    "Procedural Geometry Generation",
+    "Deferred Rendering Targets",
+    "Framebuffer Management",
+    "Immediate-mode-like API",
+    "Relativistic Rendering Emulation",
+    "Linear Algebra Integration",
+    "OBJ/MTL Asset Loading"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 82,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/builtin/mod.rs",
+      "src/camera/mod.rs",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "5b68a4d0b8adde177ad783dfc854eee2eb299aba49ce48827417422859425ebb",
+  "_path": "/Users/ember/dev/gh/forks/kiss3d",
+  "_updated_at": "2026-02-14T00:56:25.924900Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Scene Graph Hierarchy",
+      "Arc-ball Camera",
+      "First-person Camera",
+      "Post-processing Pipelines",
+      "Shader Uniform Mapping",
+      "Vertex Attribute Abstraction",
+      "Texture Mapping",
+      "Resource Lifecycle Management",
+      "Event Propagation",
+      "Procedural Geometry Generation",
+      "Deferred Rendering Targets",
+      "Framebuffer Management",
+      "Immediate-mode-like API",
+      "Relativistic Rendering Emulation",
+      "Linear Algebra Integration",
+      "OBJ/MTL Asset Loading"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "opengl",
+      "3d-graphics",
+      "graphics-engine",
+      "scene-graph",
+      "Computer Graphics & Rendering",
+      "visualization",
+      "glfw",
+      "nalgebra",
+      "shader-abstraction",
+      "mesh-rendering",
+      "post-processing",
+      "Procedural Generation",
+      "obj-loader"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "glsl",
+      "graphics-api",
+      "Computer Graphics & Rendering",
+      "shader-programming",
+      "Graphics Pipeline Abstraction",
+      "cgmath",
+      "Vertex Array Objects (VAO)",
+      "type-safety",
+      "Rust Language Ecosystem"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 11.121,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 8.181,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl",
+          "category:Real-time 3D Rendering"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.984,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.501,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.49,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.481,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.924900Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b8d7c4ffa45ac1d68e1a8409229415c046a512f2553432bf300b9290d59935c3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:44.561530+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "glsl",
+    "graphics-api",
+    "rendering",
+    "shader-programming",
+    "Graphics Pipeline Abstraction",
+    "cgmath",
+    "graphics-programming",
+    "graphics",
+    "Vertex Array Objects (VAO)",
+    "type-safety",
+    "rust-lang"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.916
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.9
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.883
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.882
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.874
+    },
+    {
+      "name": "rust-logo-3d",
+      "path": "/Users/ember/dev/gh/rust-logo-3d",
+      "similarity": 0.863
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.862
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.862
+    }
+  ]
+}

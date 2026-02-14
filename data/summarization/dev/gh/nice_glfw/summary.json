@@ -1,0 +1,216 @@
+{
+  "name": "nice_glfw",
+  "description": "A Rust utility library providing a robust WindowBuilder for GLFW with automated OpenGL context selection. It implements a fallback mechanism for context creation, attempting to initialize modern Core Profile contexts (3.2+) before falling back to legacy versions to ensure maximum hardware compatibility.",
+  "tags": [
+    "rust",
+    "glfw",
+    "opengl",
+    "graphics",
+    "windowing",
+    "context-creation",
+    "ffi",
+    "gl-context",
+    "graphics-api",
+    "rendering-pipeline"
+  ],
+  "category": "Graphics Hardware Abstraction",
+  "concepts": [
+    "OpenGL Core Profile",
+    "Forward Compatibility",
+    "Context Hints",
+    "Builder Pattern",
+    "Fallback Selection Logic",
+    "Resource Initialization",
+    "Hardware Abstraction Layer",
+    "GLFW Bindings",
+    "Window Management",
+    "Version Negotiation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "examples/simple/src/main.rs",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "ceae5686c66166216f06d4e96e18edbf236ac1aa9544adb7acf1f6592cb8ef8b",
+  "_path": "/Users/ember/dev/gh/nice_glfw",
+  "_updated_at": "2026-02-14T00:56:27.826548Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "OpenGL Core Profile",
+      "Forward Compatibility",
+      "Context Hints",
+      "Builder Pattern",
+      "Fallback Selection Logic",
+      "Resource Initialization",
+      "Hardware Abstraction Layer",
+      "GLFW Bindings",
+      "Window Management",
+      "Version Negotiation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "glfw",
+      "opengl",
+      "Computer Graphics & Rendering",
+      "windowing",
+      "context-creation",
+      "foreign-function-interface",
+      "gl-context",
+      "graphics-api",
+      "rendering-pipeline"
+    ],
+    "mined_motifs": [
+      "glsl",
+      "systems-programming",
+      "Computer Graphics & Rendering",
+      "texture-mapping",
+      "cross-platform",
+      "type-safety",
+      "Foreign Function Interface",
+      "hardware-abstraction",
+      "Vertex Array Objects",
+      "Vertex Buffer Objects",
+      "vao",
+      "vbo"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 10.815,
+        "matches": [
+          "graphics-api",
+          "glsl",
+          "opengl",
+          "vbo",
+          "category:Graphics Hardware Abstraction"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.241,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.201,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.911,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.387,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 5.348,
+        "matches": [
+          "opengl",
+          "category:Graphics Hardware Abstraction"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.826548Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "53101ae4f64e09e18204ee9970408e98705bb25a95859b23fce12f2f796c11c6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:06.207400+00:00"
+  },
+  "mined_motifs": [
+    "glsl",
+    "low-level",
+    "rendering",
+    "texture-mapping",
+    "cross-platform",
+    "type-safety",
+    "bindings",
+    "hardware-abstraction",
+    "Vertex Array Objects",
+    "Vertex Buffer Objects",
+    "vao",
+    "vbo"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mach-glfw",
+      "path": "/Users/ember/dev/peters-broken-shit/libs/mach-glfw",
+      "similarity": 0.882
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.877
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.872
+    },
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.869
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.863
+    },
+    {
+      "name": "gl-rs",
+      "path": "/Users/ember/dev/gh/forks/gl-rs",
+      "similarity": 0.858
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.857
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.857
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "name": "protoproto2",
+  "description": "A research sandbox for the Hellas Protocol, a high-throughput decentralized compute network employing an object-centric state model and the Morpheus BFT consensus. The architecture utilizes a DAG-based block structure with dual-phase execution to maintain performance during network instability. It incorporates the Muchin simulation framework for deterministic protocol modeling and Leptos-based interactive visualization tools.",
+  "tags": [
+    "blockchain",
+    "consensus",
+    "bft",
+    "dag",
+    "distributed-systems",
+    "decentralized-compute",
+    "rust",
+    "leptos",
+    "cryptography",
+    "state-machine",
+    "simulation",
+    "parallel-execution",
+    "content-addressed-storage",
+    "threshold-signatures"
+  ],
+  "category": "Byzantine Fault-Tolerant Consensus & Decentralized Compute Architecture",
+  "concepts": [
+    "Byzantine Fault Tolerance",
+    "Directed Acyclic Graph (DAG)",
+    "Object-centric State Model",
+    "State Machine Replication",
+    "Bounded Counter Accounts",
+    "Threshold Cryptography",
+    "Deterministic Replay",
+    "Event Journaling",
+    "Content-addressed Storage",
+    "Pure Functional Action Processing",
+    "View-based Consensus",
+    "Parallel Transaction Execution",
+    "Automata-based Modeling",
+    "Interactive Protocol Debugging",
+    "Formal Verification Priming"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "HTML",
+    "SCSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 136,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "hades/src/main.rs",
+      "hellas-morpheus/src/lib.rs",
+      "hellas-morpheus/src/logic/mod.rs",
+      "hellas-morpheus/src/storage/mod.rs"
+    ]
+  },
+  "_hash": "ab9ecfd4da0e7690cf2f3447496c4690dcdcdaa9b7e2abf198e774dd0cc4bf69",
+  "_path": "/Users/ember/hellas/protoproto2",
+  "_updated_at": "2026-02-14T00:56:31.930708Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3df28f8b411adf0adf75ea69f85735ea4651b3e2a724ba7884d33f5a6fa28cd5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:44.068981+00:00"
+  },
+  "mined_motifs": [
+    "byzantine-fault-tolerance",
+    "Quorum Certificates (QC)",
+    "consensus-protocol",
+    "Byzantine Fault Tolerance (BFT)",
+    "quorum-certificates",
+    "wasm",
+    "deterministic-simulation",
+    "DAG-based Consensus",
+    "View Management",
+    "state-machine-replication",
+    "p2p",
+    "Quorum Certificates"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.932
+    },
+    {
+      "name": "devvber",
+      "path": "/Users/ember/hellas/devvber",
+      "similarity": 0.896
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.894
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/hellas/proto-dumping-ground",
+      "similarity": 0.886
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.877
+    },
+    {
+      "name": "hellas-morpheus",
+      "path": "/Users/ember/hellas/hellas-morpheus",
+      "similarity": 0.85
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.843
+    },
+    {
+      "name": "original-stingrayish-protocol",
+      "path": "/Users/ember/hellas/original-stingrayish-protocol",
+      "similarity": 0.839
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "distributed-systems",
+      "directed-acyclic-graph",
+      "Object-centric State Model",
+      "State Machine Replication",
+      "Bounded Counter Accounts",
+      "Threshold Cryptography",
+      "Deterministic Replay",
+      "Event Journaling",
+      "Content-addressed Storage",
+      "Pure Functional Action Processing",
+      "View-based Consensus",
+      "Parallel Transaction Execution",
+      "Automata-based Modeling",
+      "Interactive Protocol Debugging",
+      "Formal Verification Priming"
+    ],
+    "tags": [
+      "blockchain",
+      "consensus",
+      "distributed-systems",
+      "directed-acyclic-graph",
+      "decentralized-compute",
+      "Rust Language Ecosystem",
+      "leptos",
+      "cryptography",
+      "state-machine",
+      "real-time-simulation",
+      "parallel-execution",
+      "Content-Addressable Storage (CAS)",
+      "threshold-signatures"
+    ],
+    "mined_motifs": [
+      "byzantine-fault-tolerance",
+      "quorum-certificates",
+      "Distributed Consensus",
+      "WebAssembly",
+      "deterministic-simulation",
+      "DAG-based Consensus",
+      "View Management",
+      "state-machine-replication",
+      "p2p"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 13.927,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph",
+          "quorum-certificates",
+          "state-machine-replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 12.341,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "consensus",
+          "distributed-systems",
+          "state-machine-replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 9.659,
+        "matches": [
+          "distributed consensus",
+          "state machine replication",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 8.141,
+        "matches": [
+          "distributed-systems",
+          "p2p"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 8.121,
+        "matches": [
+          "cryptography",
+          "threshold-signatures"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 6.855,
+        "matches": [
+          "content-addressable storage (cas)",
+          "p2p"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.930708Z"
+  }
+}

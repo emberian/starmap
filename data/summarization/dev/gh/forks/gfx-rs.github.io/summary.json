@@ -1,0 +1,225 @@
+{
+  "name": "gfx-rs.github.io",
+  "description": "The repository serves as the official Jekyll-based technical portal for the gfx-rs project, facilitating the dissemination of documentation and project updates for the Rust graphics ecosystem. It implements a responsive frontend architecture utilizing the Bootstrap framework to ensure accessible content delivery across various client environments. The site structure follows standard static site generation patterns for hosting project announcements and low-level graphics abstraction specifications on GitHub Pages.",
+  "tags": [
+    "jekyll",
+    "github-pages",
+    "static-site-generator",
+    "bootstrap",
+    "gfx-rs",
+    "rust-graphics",
+    "web-documentation",
+    "responsive-design",
+    "css3",
+    "html5",
+    "markdown"
+  ],
+  "category": "Graphics Abstraction Ecosystem Documentation",
+  "concepts": [
+    "Jekyll Static Site Generation",
+    "GitHub Pages Deployment",
+    "Bootstrap UI Framework",
+    "Responsive Web Design",
+    "Technical Content Authoring",
+    "Markdown Transformation",
+    "Liquid Templating Engine",
+    "Static Asset Optimization",
+    "Project Communication Hub",
+    "Low-level Graphics Abstraction",
+    "Rust Language Ecosystem",
+    "Syntax Highlighting Integration",
+    "YAML-based Configuration",
+    "Web Performance Optimization",
+    "Front-end Component Architecture",
+    "Version-controlled Documentation"
+  ],
+  "languages": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Markdown",
+    "YAML"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 13,
+    "has_readme": false,
+    "sample_files": [
+      "js/bootstrap.min.js"
+    ]
+  },
+  "_hash": "286b7c7fa52d9757edd323e662c3ad6859f06cde3e8a085c92487b97c92d9e15",
+  "_path": "/Users/ember/dev/gh/forks/gfx-rs.github.io",
+  "_updated_at": "2026-02-14T00:56:25.554902Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Jekyll Static Site Generation",
+      "GitHub Pages Deployment",
+      "Bootstrap UI Framework",
+      "Responsive Web Design",
+      "Technical Content Authoring",
+      "Markdown Transformation",
+      "Liquid Templating Engine",
+      "Static Asset Optimization",
+      "Project Communication Hub",
+      "Low-level Graphics Abstraction",
+      "Rust Language Ecosystem",
+      "Syntax Highlighting Integration",
+      "YAML-based Configuration",
+      "Web Performance Optimization",
+      "Front-end Component Architecture",
+      "Version-controlled Documentation"
+    ],
+    "tags": [
+      "jekyll",
+      "github-pages",
+      "static-site-generator",
+      "bootstrap",
+      "gfx-rs",
+      "rust-graphics",
+      "web-documentation",
+      "responsive-design",
+      "css3",
+      "html5",
+      "markdown"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "graphics-api",
+      "systems-programming",
+      "hardware-abstraction",
+      "Computer Graphics & Rendering",
+      "Memory Safety",
+      "opengl",
+      "Command Queue Management",
+      "Rasterization Pipeline",
+      "Linear Algebra",
+      "Texture Mapping"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.901,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.82,
+        "matches": [
+          "graphics-api",
+          "opengl"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 5.488,
+        "matches": [
+          "markdown"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.443,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.437,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 4.078,
+        "matches": [
+          "opengl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.554902Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "7f83fe40f20a1a57c51f87aaf1d132135f5d4e0720983a86e304316464045ccf",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:34.889333+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "graphics-api",
+    "low-level",
+    "hardware-abstraction",
+    "rendering",
+    "Memory Safety",
+    "opengl",
+    "Command Queue Management",
+    "Rasterization Pipeline",
+    "linear-algebra",
+    "Texture Mapping",
+    "computer-graphics"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.902
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.881
+    },
+    {
+      "name": "metal-sketch",
+      "path": "/Users/ember/dev/gh/rust-metal-sketch",
+      "similarity": 0.866
+    },
+    {
+      "name": "imm3d",
+      "path": "/Users/ember/dev/gh/imm3d",
+      "similarity": 0.856
+    },
+    {
+      "name": "computer-graphics-book",
+      "path": "/Users/ember/dev/gh/computer-graphics-book",
+      "similarity": 0.853
+    },
+    {
+      "name": "color-rs",
+      "path": "/Users/ember/dev/gh/forks/color-rs",
+      "similarity": 0.846
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.846
+    },
+    {
+      "name": "rust-gpu-tools",
+      "path": "/Users/ember/hellas/rust-gpu-tools",
+      "similarity": 0.844
+    }
+  ]
+}

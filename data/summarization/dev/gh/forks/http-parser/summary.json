@@ -1,0 +1,243 @@
+{
+  "name": "http-parser",
+  "description": "A high-performance, zero-allocation HTTP message parser written in C, designed for use in streaming network applications. It implements a robust finite-state machine to handle requests and responses without performing system calls or internal buffering, supporting features like chunked transfer encoding and protocol upgrades. The library provides a callback-based interface for extracting headers, URLs, and message bodies with minimal memory overhead, typically requiring only 40 bytes per stream.",
+  "tags": [
+    "http-parsing",
+    "c-library",
+    "zero-copy",
+    "state-machine",
+    "web-server",
+    "networking",
+    "low-level",
+    "performance",
+    "no-dependencies",
+    "asynchronous-io",
+    "streaming-parser",
+    "node-js",
+    "embedded-systems",
+    "rfc-compliance",
+    "chunked-encoding",
+    "protocol-upgrade"
+  ],
+  "category": "HTTP Protocol Parsing",
+  "concepts": [
+    "streaming-parser",
+    "finite-state-machine",
+    "zero-allocation",
+    "callback-architecture",
+    "interrupted-parsing",
+    "persistent-connections",
+    "chunked-transfer-encoding",
+    "protocol-upgrade",
+    "header-extraction",
+    "url-parsing",
+    "buffer-overflow-protection",
+    "no-syscalls",
+    "low-memory-footprint",
+    "stateless-design",
+    "message-stream-abstraction",
+    "http-request-response-handling",
+    "reentrancy",
+    "message-framing",
+    "keep-alive-management",
+    "stream-synchronization"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "test.c",
+      "http_parser.c",
+      "http_parser.h",
+      "contrib/parsertrace.c"
+    ]
+  },
+  "_hash": "3c45fa7c09c0792999a2045faac522e29a504612ec9a9eae2a271ed747abea1c",
+  "_path": "/Users/ember/dev/gh/forks/http-parser",
+  "_updated_at": "2026-02-14T00:56:25.613211Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "streaming-parser",
+      "finite-state-machine",
+      "zero-allocation",
+      "callback-architecture",
+      "interrupted-parsing",
+      "persistent-connections",
+      "chunked-transfer-encoding",
+      "protocol-upgrade",
+      "header-extraction",
+      "url-parsing",
+      "buffer-overflow-protection",
+      "no-syscalls",
+      "low-memory-footprint",
+      "stateless-design",
+      "message-stream-abstraction",
+      "http-request-response-handling",
+      "reentrancy",
+      "message-framing",
+      "keep-alive-management",
+      "stream-synchronization"
+    ],
+    "tags": [
+      "http-parsing",
+      "c-library",
+      "zero-copy",
+      "state-machine",
+      "web-server",
+      "networking",
+      "systems-programming",
+      "performance",
+      "no-dependencies",
+      "Asynchronous Programming",
+      "streaming-parser",
+      "node-js",
+      "embedded-systems",
+      "rfc-compliance",
+      "chunked-encoding",
+      "protocol-upgrade"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "parser",
+      "Data Serialization",
+      "cross-platform",
+      "lexical-analysis",
+      "Asynchronous I/O Multiplexing",
+      "Cooperative Multitasking",
+      "Cooperative Yielding",
+      "Coroutine-aware Synchronization",
+      "Event Loop Integration",
+      "Fiber Abstractions",
+      "Global Lock-free Task Queue"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.79,
+        "matches": [
+          "parser"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 6.782,
+        "matches": [
+          "lexical-analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.426,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.422,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.41,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.389,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.613211Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f6cc0b5fc5943270bcb4150c600664671951ae1714b3dacde7ca27270645db4b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:40.009431+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "parser",
+    "serialization",
+    "cross-platform",
+    "lexer",
+    "Asynchronous I/O Multiplexing",
+    "Cooperative Multitasking",
+    "Cooperative Yielding",
+    "Coroutine-aware Synchronization",
+    "Event Loop Integration",
+    "Fiber Abstractions",
+    "Global Lock-free Task Queue"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.832
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.828
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.824
+    },
+    {
+      "name": "glosco",
+      "path": "/Users/ember/dev/glosco",
+      "similarity": 0.824
+    },
+    {
+      "name": "xml-rs",
+      "path": "/Users/ember/dev/gh/forks/xml-rs",
+      "similarity": 0.824
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.823
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.818
+    },
+    {
+      "name": "ua-parser",
+      "path": "/Users/ember/dev/gh/forks/ua-parser",
+      "similarity": 0.817
+    }
+  ]
+}

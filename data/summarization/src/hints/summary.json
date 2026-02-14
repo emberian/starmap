@@ -1,0 +1,239 @@
+{
+  "name": "hints",
+  "description": "A cryptographic library for computing and verifying weighted threshold signatures using the arkworks ecosystem. It implements a scheme based on KZG10 polynomial commitments over the BLS12-381 pairing-friendly curve to enable efficient proving of committee-based weight distributions. The system utilizes structured reference strings and polynomial arithmetic to generate succinct proofs of threshold attainment.",
+  "tags": [
+    "cryptography",
+    "threshold-signatures",
+    "kzg-commitments",
+    "bls12-381",
+    "arkworks",
+    "pairings",
+    "polynomial-commitments",
+    "weighted-signatures",
+    "rust",
+    "zero-knowledge",
+    "msm",
+    "finite-fields",
+    "elliptic-curves"
+  ],
+  "category": "Weighted Threshold Signatures",
+  "concepts": [
+    "KZG10 Polynomial Commitments",
+    "BLS12-381 Pairing-Friendly Curves",
+    "Lagrange Interpolation",
+    "Evaluation Domains",
+    "Vanishing Polynomials",
+    "Multi-Scalar Multiplication (MSM)",
+    "Universal Structured Reference String (SRS)",
+    "Pairing-based Cryptography",
+    "Finite Field Arithmetic",
+    "Dense Polynomials",
+    "Threshold Cryptography",
+    "Weighted Secret Sharing",
+    "Zero-Knowledge Proving",
+    "Roots of Unity",
+    "Polynomial Division",
+    "Elliptic Curve Group Operations",
+    "Crossbeam Parallelism",
+    "Batch Verification"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/main.rs",
+      "src/kzg.rs",
+      "src/utils.rs"
+    ]
+  },
+  "_hash": "662d708533238543cb3342ca3b1e718ae2f5e4c4050bcba47e924eedbc4aa777",
+  "_path": "/Users/ember/src/hints",
+  "_updated_at": "2026-02-14T00:56:32.994348Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "637983234e2be22d881c41d484aca1079096a488f38eea7f49577f704f500ca5",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:27.610535+00:00"
+  },
+  "mined_motifs": [
+    "Succinctness",
+    "Affine Coordinates",
+    "Projective Coordinates",
+    "Multi-Scalar Multiplication",
+    "zksnark",
+    "Multivariate Polynomials",
+    "Pairing-Friendly Curves",
+    "Univariate Polynomials",
+    "Elliptic Curve Cryptography",
+    "Miller Loop",
+    "Cofactor Clearing",
+    "Final Exponentiation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "ark-blst",
+      "path": "/Users/ember/dev/gh/forks/ark-blst",
+      "similarity": 0.868
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/dev/gh/forks/poly-commit",
+      "similarity": 0.85
+    },
+    {
+      "name": "ark-crypto-primitives",
+      "path": "/Users/ember/hellas/crypto-primitives",
+      "similarity": 0.845
+    },
+    {
+      "name": "poly-commit",
+      "path": "/Users/ember/hellas/poly-commit",
+      "similarity": 0.839
+    },
+    {
+      "name": "blst",
+      "path": "/Users/ember/hellas/blst",
+      "similarity": 0.831
+    },
+    {
+      "name": "blstrs",
+      "path": "/Users/ember/dev/gh/forks/blstrs",
+      "similarity": 0.83
+    },
+    {
+      "name": "kimchi-playground",
+      "path": "/Users/ember/dev/kimchi-playground",
+      "similarity": 0.826
+    },
+    {
+      "name": "arkworks-algebra",
+      "path": "/Users/ember/hellas/algebra",
+      "similarity": 0.823
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "KZG10 Polynomial Commitments",
+      "BLS12-381 Pairing-Friendly Curves",
+      "Lagrange Interpolation",
+      "Evaluation Domains",
+      "Vanishing Polynomials",
+      "multi-scalar-multiplication",
+      "Universal Structured Reference String (SRS)",
+      "Pairing-based Cryptography",
+      "Finite Field Arithmetic",
+      "Dense Polynomials",
+      "Threshold Cryptography",
+      "Weighted Secret Sharing",
+      "Zero-Knowledge Proving",
+      "Roots of Unity",
+      "Polynomial Division",
+      "Elliptic Curve Group Operations",
+      "Crossbeam Parallelism",
+      "Batch Verification"
+    ],
+    "tags": [
+      "cryptography",
+      "threshold-signatures",
+      "kzg-commitments",
+      "bls12-381",
+      "arkworks",
+      "pairings",
+      "polynomial-commitments",
+      "weighted-signatures",
+      "Rust Language Ecosystem",
+      "zero-knowledge-proofs",
+      "multi-scalar-multiplication",
+      "finite-fields",
+      "elliptic-curves"
+    ],
+    "mined_motifs": [
+      "Succinctness",
+      "Affine Coordinates",
+      "Projective Coordinates",
+      "Multi-Scalar Multiplication",
+      "ZK-SNARKs",
+      "Multivariate Polynomials",
+      "Pairing-Friendly Curves",
+      "Univariate Polynomials",
+      "Elliptic Curve Cryptography",
+      "Miller Loop",
+      "Cofactor Clearing",
+      "Final Exponentiation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 15.013,
+        "matches": [
+          "cryptography",
+          "threshold-signatures",
+          "zero-knowledge-proofs",
+          "bls12-381",
+          "kzg-commitments",
+          "category:Weighted Threshold Signatures"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 9.644,
+        "matches": [
+          "elliptic-curves",
+          "zero-knowledge-proofs",
+          "arkworks"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 8.237,
+        "matches": [
+          "kzg-commitments",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "succinct-cryptography",
+        "name": "Succinct Cryptography & Proof Systems",
+        "score": 5.431,
+        "matches": [
+          "zk-snarks"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 5.431,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.415,
+        "matches": [
+          "cryptography"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.994348Z"
+  }
+}

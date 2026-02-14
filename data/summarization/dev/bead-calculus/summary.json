@@ -1,0 +1,256 @@
+{
+  "name": "bead-calculus",
+  "description": "A kinetic puzzle engine implementing operational semantics for string diagrams through a particle-based 'bead' simulation. It formalizes proof-theoretic transformations as graph rewrites, including the interchange law for tensor composition and the snake equation for compact-closed structures. The system serves as an interactive environment for verifying invariants in traced monoidal categories and concurrent signal processing.",
+  "tags": [
+    "category-theory",
+    "graph-rewriting",
+    "string-diagrams",
+    "particle-simulation",
+    "typescript",
+    "react",
+    "zustand",
+    "vite",
+    "formal-methods",
+    "diagrammatic-reasoning",
+    "monoidal-categories",
+    "operational-semantics",
+    "equational-logic",
+    "compositional-modeling"
+  ],
+  "category": "Traced Monoidal Category Theory",
+  "concepts": [
+    "Traced Monoidal Categories",
+    "Compact Closed Categories",
+    "Interchange Law",
+    "Yanking",
+    "Snake Equation",
+    "Dinaturality",
+    "Graph Rewriting",
+    "Operational Semantics",
+    "Tensor Composition",
+    "Conservation Invariants",
+    "Signal Processing",
+    "Categorical Logic",
+    "Feedback Loops",
+    "Compositional Semantics",
+    "Concurrent Simulation",
+    "Visual Formal Methods",
+    "Linear Logic",
+    "Geometry of Interaction",
+    "Interaction Nets",
+    "Resource-sensitive Duplication",
+    "Canonical Form Reduction",
+    "Observational Equivalence",
+    "Equational Reasoning",
+    "Boundary Algebra",
+    "Additive Color Mixing",
+    "Phase Alignment",
+    "Frequency Multiplication",
+    "Combinatorial Games"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 31,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/levels/tutorial.ts",
+      "src/components/Canvas.tsx",
+      "src/core/rewrite.ts",
+      "src/core/simulation.ts"
+    ]
+  },
+  "_hash": "c0112b6bac0c791986ff424dad8724efc1bf6a6ce48a82aaf17db1c84736ba2f",
+  "_path": "/Users/ember/dev/bead-calculus",
+  "_updated_at": "2026-02-14T00:56:23.577800Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Traced Monoidal Categories",
+      "Compact Closed Categories",
+      "Interchange Law",
+      "Yanking",
+      "Snake Equation",
+      "Dinaturality",
+      "Graph Rewriting",
+      "Operational Semantics",
+      "Tensor Composition",
+      "Conservation Invariants",
+      "Signal Processing",
+      "category-theory",
+      "Feedback Loops",
+      "Compositional Semantics",
+      "Concurrent Simulation",
+      "Visual Formal Methods",
+      "Linear Logic",
+      "Geometry of Interaction",
+      "Interaction Nets",
+      "Resource-sensitive Duplication",
+      "Canonical Form Reduction",
+      "Observational Equivalence",
+      "Equational Reasoning",
+      "Boundary Algebra",
+      "Additive Color Mixing",
+      "Phase Alignment",
+      "Frequency Multiplication",
+      "Combinatorial Games"
+    ],
+    "tags": [
+      "category-theory",
+      "graph-rewriting",
+      "string-diagrams",
+      "particle-simulation",
+      "typescript",
+      "react",
+      "zustand",
+      "vite",
+      "formal-verification",
+      "diagrammatic-reasoning",
+      "monoidal-categories",
+      "operational-semantics",
+      "equational-logic",
+      "compositional-modeling"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "blockchain",
+      "Attention Mechanisms",
+      "CPU Kernel Optimization",
+      "Categorical Composition",
+      "Categorical Semantics",
+      "Embedding Lookups",
+      "Graph-based Intermediate Representation",
+      "Large Language Model Inference",
+      "Layer Normalization",
+      "Matrix Multiplication Kernels",
+      "Memory Mapping"
+    ],
+    "metaconstellations": [
+      {
+        "id": "topological-information-design",
+        "name": "Topological Information Design",
+        "score": 8.316,
+        "matches": [
+          "category-theory",
+          "monoidal-categories"
+        ]
+      },
+      {
+        "id": "algebraic-optimization-compilers",
+        "name": "Algebraic Optimization & Categorical Compilers",
+        "score": 5.5,
+        "matches": [
+          "category-theory"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 5.428,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.428,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 5.426,
+        "matches": [
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.386,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.577800Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3bb16184ffd173dd3ffd001a0632a31139caaf59449773c73c377e83c4f10683",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:36.120801+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "blockchain",
+    "Attention Mechanisms",
+    "CPU Kernel Optimization",
+    "Categorical Composition",
+    "Categorical Semantics",
+    "Embedding Lookups",
+    "Graph-based Intermediate Representation",
+    "Large Language Model Inference",
+    "Layer Normalization",
+    "Matrix Multiplication Kernels",
+    "Memory Mapping"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.834
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.812
+    },
+    {
+      "name": "Kale",
+      "path": "/Users/ember/dev/gh/Kale",
+      "similarity": 0.807
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.806
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.806
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.802
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.801
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.801
+    }
+  ]
+}

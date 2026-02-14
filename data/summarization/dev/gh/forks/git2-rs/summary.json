@@ -1,0 +1,244 @@
+{
+  "name": "git2-rs",
+  "description": "Safe and idiomatic Rust bindings to the libgit2 C library for comprehensive Git repository management and manipulation. The crate provides high-level abstractions for the Git object model, including commit graph traversal, diffing engines, and index management, while ensuring memory safety through Rust's ownership system. It supports advanced features such as custom smart transport registration, credential helpers, and thread-safe repository access.",
+  "tags": [
+    "git",
+    "libgit2",
+    "rust",
+    "ffi",
+    "vcs",
+    "bindings",
+    "repository-management",
+    "git-transport",
+    "git-index",
+    "git-diff",
+    "thread-safety",
+    "systems-programming"
+  ],
+  "category": "Git Repository Infrastructure",
+  "concepts": [
+    "Foreign Function Interface (FFI)",
+    "Resource Acquisition Is Initialization (RAII)",
+    "Git Object Model",
+    "Version Control Interoperability",
+    "Static Typing for C APIs",
+    "Network Transport Layers",
+    "Delta Compression",
+    "Refspec Parsing",
+    "Smart Subtransport Registration",
+    "Credential Helper Protocols",
+    "Git Index Specification",
+    "Commit Graph Traversal",
+    "Reference Lifecycle Management",
+    "Oid Serialization",
+    "Blame Algorithms",
+    "Treebuilder Manipulation",
+    "Submodule Recursive State",
+    "Revwalk Iteration",
+    "Packbuilder Stream Generation",
+    "Signature Management",
+    "Checkout Notification Callbacks",
+    "Diff Delta Analysis",
+    "Configuration Key-Value Stores",
+    "Remote Callback Synchronization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 71,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "git2-curl/src/lib.rs",
+      "libgit2-sys/lib.rs",
+      "src/lib.rs",
+      "systest/src/main.rs"
+    ]
+  },
+  "_hash": "754bf1364d8dc9141f9da7fc63b795121ff046b852b8cf7f11a9dab142c046e0",
+  "_path": "/Users/ember/dev/gh/forks/git2-rs",
+  "_updated_at": "2026-02-14T00:56:25.563597Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "foreign-function-interface",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Git Object Model",
+      "Version Control Interoperability",
+      "Static Typing for C APIs",
+      "Network Transport Layers",
+      "Delta Compression",
+      "Refspec Parsing",
+      "Smart Subtransport Registration",
+      "Credential Helper Protocols",
+      "Git Index Specification",
+      "Commit Graph Traversal",
+      "Reference Lifecycle Management",
+      "Oid Serialization",
+      "Blame Algorithms",
+      "Treebuilder Manipulation",
+      "Submodule Recursive State",
+      "Revwalk Iteration",
+      "Packbuilder Stream Generation",
+      "Signature Management",
+      "Checkout Notification Callbacks",
+      "Diff Delta Analysis",
+      "Configuration Key-Value Stores",
+      "Remote Callback Synchronization"
+    ],
+    "tags": [
+      "git",
+      "libgit2",
+      "Rust Language Ecosystem",
+      "foreign-function-interface",
+      "vcs",
+      "Foreign Function Interface",
+      "repository-management",
+      "git-transport",
+      "git-index",
+      "git-diff",
+      "Concurrency & Synchronization",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "cross-platform",
+      "Resource Acquisition Is Initialization (RAII)",
+      "cli",
+      "Attribute Filtering",
+      "Conflict Resolution",
+      "Content-Addressable Storage (CAS)",
+      "D/F Conflicts",
+      "Index Staging",
+      "Object Database (ODB)",
+      "Packfile Processing",
+      "Reflog Management",
+      "Rename Detection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.085,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.523,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.509,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.496,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.447,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 5.397,
+        "matches": [
+          "content-addressable storage (cas)"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.563597Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "9afa923ab4d659eb17ebd2dbf1e5133b94164343b1d776651846ea0280b5a49e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:35.811418+00:00"
+  },
+  "mined_motifs": [
+    "cross-platform",
+    "resource-management",
+    "cli",
+    "Attribute Filtering",
+    "Conflict Resolution",
+    "Content-Addressable Storage",
+    "D/F Conflicts",
+    "Index Staging",
+    "Object Database (ODB)",
+    "Packfile Processing",
+    "Reflog Management",
+    "Rename Detection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.893
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.864
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.862
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.861
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.858
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.856
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.854
+    }
+  ]
+}

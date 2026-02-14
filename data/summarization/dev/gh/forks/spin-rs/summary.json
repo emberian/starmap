@@ -1,0 +1,230 @@
+{
+  "name": "spin-rs",
+  "description": "A low-level Rust synchronization library providing spin-based primitives including Mutex, RwLock, and Once. Architected for efficiency in no_std and bare-metal environments, it leverages atomic operations and hardware-specific relaxation instructions to provide thread safety without requiring operating system scheduler support.",
+  "tags": [
+    "rust",
+    "spinlock",
+    "mutex",
+    "rwlock",
+    "no_std",
+    "concurrency",
+    "atomic",
+    "systems-programming",
+    "bare-metal",
+    "thread-safety",
+    "raii",
+    "memory-ordering"
+  ],
+  "category": "Shared-Memory Synchronization",
+  "concepts": [
+    "Spinlocks",
+    "Atomic Compare-and-Swap",
+    "RAII Lock Guards",
+    "Interior Mutability",
+    "Reader-Writer Lock Contention",
+    "Memory Ordering (Acquire/Release/SeqCst)",
+    "CPU Relaxation (PAUSE instruction)",
+    "Static Constant Initialization",
+    "Lock Poisoning Avoidance",
+    "Zero-cost Abstractions",
+    "UnsafeCell Management",
+    "Atomic Busy-loops",
+    "Feature-gated Core Intrinsics",
+    "Global Initialization States",
+    "Non-blocking Synchronization",
+    "Nightly Unstable Features",
+    "Shared-Exclusive Access Patterns",
+    "Hardware-level Optimization",
+    "Thread Contention Management",
+    "Recursive Read-Lock Support",
+    "Busy-waiting Loops"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 10,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/rw_lock.rs",
+      "src/mutex.rs",
+      "src/once.rs"
+    ]
+  },
+  "_hash": "cde44617cebb9e0c6f544ab9a350dd7298b60933dd3abbc7c5e124bf5b09ae4c",
+  "_path": "/Users/ember/dev/gh/forks/spin-rs",
+  "_updated_at": "2026-02-14T00:56:26.761863Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Spinlocks",
+      "Atomic Compare-and-Swap",
+      "RAII Lock Guards",
+      "Interior Mutability",
+      "Reader-Writer Lock Contention",
+      "Memory Ordering (Acquire/Release/SeqCst)",
+      "CPU Relaxation (PAUSE instruction)",
+      "Static Constant Initialization",
+      "Lock Poisoning Avoidance",
+      "Zero-cost Abstractions",
+      "UnsafeCell Management",
+      "Atomic Busy-loops",
+      "Feature-gated Core Intrinsics",
+      "Global Initialization States",
+      "Non-blocking Synchronization",
+      "Nightly Unstable Features",
+      "Shared-Exclusive Access Patterns",
+      "Hardware-level Optimization",
+      "Thread Contention Management",
+      "Recursive Read-Lock Support",
+      "Busy-waiting Loops"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "spinlock",
+      "mutex",
+      "rwlock",
+      "Concurrency & Synchronization",
+      "atomic",
+      "Systems Programming",
+      "Resource Acquisition Is Initialization (RAII)",
+      "memory-ordering"
+    ],
+    "mined_motifs": [
+      "Mutual Exclusion",
+      "Concurrency & Synchronization",
+      "Atomic Operations",
+      "Memory Consistency",
+      "POSIX Threads",
+      "Resource Contention",
+      "Thread Synchronization",
+      "c",
+      "pthreads",
+      "Context Switching",
+      "Shared Mutable State"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.192,
+        "matches": [
+          "context switching",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.148,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.384,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 3.971,
+        "matches": [
+          "atomic"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.547,
+        "matches": []
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.546,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.761863Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "92355c110c5d90c8c0442c95559386e1a15df0a0f31e19ef227d8025cdb4346c",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:31.453739+00:00"
+  },
+  "mined_motifs": [
+    "Mutual Exclusion",
+    "synchronization",
+    "Atomic Operations",
+    "Memory Consistency",
+    "POSIX Threads",
+    "Resource Contention",
+    "Thread Synchronization",
+    "c",
+    "multithreading",
+    "pthreads",
+    "Context Switching",
+    "Shared Mutable State"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.847
+    },
+    {
+      "name": "cs444-lab5",
+      "path": "/Users/ember/dev/gh/cs444-lab5",
+      "similarity": 0.828
+    },
+    {
+      "name": "fun-with-threads",
+      "path": "/Users/ember/dev/gh/forks/fun-with-threads",
+      "similarity": 0.828
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.823
+    },
+    {
+      "name": "libfringe",
+      "path": "/Users/ember/dev/gh/forks/libfringe",
+      "similarity": 0.821
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.821
+    },
+    {
+      "name": "persistent",
+      "path": "/Users/ember/dev/gh/forks/persistent",
+      "similarity": 0.821
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.817
+    }
+  ]
+}

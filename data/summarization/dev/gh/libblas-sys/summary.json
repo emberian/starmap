@@ -1,0 +1,220 @@
+{
+  "name": "libblas-sys",
+  "description": "A low-level Rust FFI crate providing native bindings to the BLAS and LAPACK linear algebra libraries, with a primary focus on the OpenBLAS implementation. It features a custom build script to automate the compilation of bundled OpenBLAS source code or link against system-provided libraries, ensuring thread-safe numerical routines are available for Rust applications. The project bridges the gap between high-performance Fortran/C routines and the Rust type system using a minimalist sys-style interface.",
+  "tags": [
+    "blas",
+    "lapack",
+    "openblas",
+    "ffi",
+    "rust-sys",
+    "linear-algebra",
+    "numerical-computing",
+    "fortran-bindings",
+    "system-bindings",
+    "low-level",
+    "scientific-computing"
+  ],
+  "category": "Numerical Linear Algebra Bindings",
+  "concepts": [
+    "Basic Linear Algebra Subprograms",
+    "Linear Algebra Package",
+    "Foreign Function Interface (FFI)",
+    "Static Linking",
+    "Dynamic Linking",
+    "Build Automation",
+    "Fortran-C Interoperability",
+    "OpenBLAS Integration",
+    "Vector-Matrix Operations",
+    "Thread-safe Numerics",
+    "Hardware-specific Optimization",
+    "Compilation Toolchains",
+    "ABI Stability",
+    "Memory Layout"
+  ],
+  "languages": [
+    "Rust",
+    "C",
+    "Fortran"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 5,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "build.rs"
+    ]
+  },
+  "_hash": "dbe7c13c5507ae84ff425b14da7aa10472542750eeae82202270e1c5687dabf9",
+  "_path": "/Users/ember/dev/gh/libblas-sys",
+  "_updated_at": "2026-02-14T00:56:27.597042Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Basic Linear Algebra Subprograms",
+      "Linear Algebra Package",
+      "foreign-function-interface",
+      "Static Linking",
+      "Dynamic Linking",
+      "Build Automation",
+      "Fortran-C Interoperability",
+      "OpenBLAS Integration",
+      "Vector-Matrix Operations",
+      "Thread-safe Numerics",
+      "Hardware-specific Optimization",
+      "Compilation Toolchains",
+      "ABI Stability",
+      "Memory Layout"
+    ],
+    "tags": [
+      "blas",
+      "lapack",
+      "openblas",
+      "foreign-function-interface",
+      "rust-sys",
+      "Linear Algebra",
+      "numerical-computing",
+      "fortran-bindings",
+      "system-bindings",
+      "systems-programming",
+      "scientific-computing"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "Foreign Function Interface",
+      "foreign-function-interface",
+      "Conditional Compilation",
+      "netlib",
+      "static-linking",
+      "sys-crate",
+      "hpc",
+      "linux",
+      "Systems Programming",
+      "Basic Linear Algebra Subprograms (BLAS)",
+      "CBLAS Interface"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 11.074,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.321,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.508,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.452,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 3.585,
+        "matches": [
+          "category:Numerical Linear Algebra Bindings"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 2.708,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.597042Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f6a364c6319f5af820afd003f60f0194055461c32b98ad92f83cc8c7cb0c9ab8",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:00.716251+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "bindings",
+    "Foreign Function Interface",
+    "Conditional Compilation",
+    "netlib",
+    "static-linking",
+    "sys-crate",
+    "hpc",
+    "linux",
+    "systems-programming",
+    "Basic Linear Algebra Subprograms (BLAS)",
+    "CBLAS Interface"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "libblas-sys",
+      "path": "/Users/ember/dev/gh/forks/libblas-sys-1",
+      "similarity": 0.963
+    },
+    {
+      "name": "liblapack-sys",
+      "path": "/Users/ember/dev/gh/forks/liblapack-sys",
+      "similarity": 0.939
+    },
+    {
+      "name": "blas",
+      "path": "/Users/ember/dev/gh/forks/blas",
+      "similarity": 0.894
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-gmp",
+      "path": "/Users/ember/dev/gh/forks/rust-gmp",
+      "similarity": 0.881
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.867
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.866
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.863
+    }
+  ]
+}

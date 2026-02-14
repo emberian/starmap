@@ -1,0 +1,210 @@
+{
+  "name": "interval-heap",
+  "description": "A Rust implementation of a double-ended priority queue (DEPQ) leveraging the interval heap data structure for efficient dual-end extremum management. The library facilitates O(1) access and O(log n) mutation for both minimum and maximum elements by organizing a binary tree where each node encapsulates a closed interval containing its descendants. It is engineered for no_std environments and supports arbitrary ordering logic via externalized comparators.",
+  "tags": [
+    "rust",
+    "priority-queue",
+    "depq",
+    "interval-heap",
+    "data-structures",
+    "no-std",
+    "binary-tree",
+    "min-max",
+    "algorithm",
+    "collections",
+    "binary-heap"
+  ],
+  "category": "Double-Ended Priority Queues",
+  "concepts": [
+    "Interval Heap",
+    "Double-Ended Priority Queue",
+    "Binary Tree",
+    "Amortized Complexity",
+    "Sift-up",
+    "Sift-down",
+    "no_std",
+    "Custom Comparators",
+    "Linear Array Mapping",
+    "Heapification",
+    "Total Ordering",
+    "In-place Algorithm"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "deploy-docs.sh"
+    ]
+  },
+  "_hash": "ca214cab7e24551a88559a347fb9f153b00100702902f776dddf94ad9fcd510e",
+  "_path": "/Users/ember/dev/interval-heap",
+  "_updated_at": "2026-02-14T00:56:29.144712Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Interval Heap",
+      "Double-Ended Priority Queue",
+      "Binary Tree",
+      "Amortized Complexity",
+      "Sift-up",
+      "Sift-down",
+      "Rust Language Ecosystem",
+      "Custom Comparators",
+      "Linear Array Mapping",
+      "Heapification",
+      "Total Ordering",
+      "In-place Algorithm"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "priority-queue",
+      "depq",
+      "interval-heap",
+      "data-structures",
+      "binary-tree",
+      "min-max",
+      "algorithm",
+      "collections",
+      "binary-heap"
+    ],
+    "mined_motifs": [
+      "Memory Management",
+      "Resource Acquisition Is Initialization (RAII)",
+      "systems-programming",
+      "Asynchronous Programming",
+      "networking",
+      "Amortized O(1) Insertion",
+      "Binary Addition Analogy",
+      "Binomial Heap",
+      "Binomial Tree",
+      "Carry Propagation",
+      "Forest of Trees"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.221,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.394,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.374,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.367,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.593,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.584,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.144712Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e3708188849c3042088d04aa6bb553596fa8f3c6d4e5a32c912eb3805f335655",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:48.395708+00:00"
+  },
+  "mined_motifs": [
+    "Manual Memory Management",
+    "memory-management",
+    "resource-management",
+    "low-level",
+    "async-io",
+    "networking",
+    "Amortized O(1) Insertion",
+    "Binary Addition Analogy",
+    "Binomial Heap",
+    "Binomial Tree",
+    "Carry Propagation",
+    "Forest of Trees"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "tj-binomheap",
+      "path": "/Users/ember/dev/shitheap/tj-binomheap",
+      "similarity": 0.89
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.839
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.833
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.832
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.83
+    },
+    {
+      "name": "rust-incidents",
+      "path": "/Users/ember/dev/gh/forks/rust-incidents",
+      "similarity": 0.827
+    },
+    {
+      "name": "simplesched",
+      "path": "/Users/ember/dev/gh/forks/simplesched",
+      "similarity": 0.823
+    },
+    {
+      "name": "rust-zmq",
+      "path": "/Users/ember/dev/gh/forks/rust-zmq",
+      "similarity": 0.818
+    }
+  ]
+}

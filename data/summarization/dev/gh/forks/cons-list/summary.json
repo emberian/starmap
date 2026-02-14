@@ -1,0 +1,191 @@
+{
+  "name": "cons-list",
+  "description": "A robust implementation of an immutable singly-linked list in Rust, leveraging reference counting for efficient structural sharing. It provides common functional programming primitives such as head, tail, and prepend operations while ensuring memory safety through a manual iterative Drop implementation to prevent stack overflow on deep list structures.",
+  "tags": [
+    "rust",
+    "data-structures",
+    "functional-programming",
+    "linked-list",
+    "immutable",
+    "structural-sharing",
+    "reference-counting"
+  ],
+  "category": "Persistent Data Structures",
+  "concepts": [
+    "Cons List",
+    "Reference Counting",
+    "Structural Sharing",
+    "Immutable Data Structures",
+    "Iterative Drop",
+    "Lisp-style Lists",
+    "Persistent Collections",
+    "Memory Management"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 6,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "deploy-docs.sh"
+    ]
+  },
+  "_hash": "c8bdacfd975eb705116bc9f182fca2658dbe435f17ef841ac2dcd093cffd18ad",
+  "_path": "/Users/ember/dev/gh/forks/cons-list",
+  "_updated_at": "2026-02-14T00:56:25.459998Z",
+  "_alignment": {
+    "category": "Data & Storage",
+    "concepts": [
+      "Cons List",
+      "Reference Counting",
+      "Structural Sharing",
+      "Immutable Data Structures",
+      "Iterative Drop",
+      "Lisp-style Lists",
+      "Persistent Collections",
+      "Memory Management"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "data-structures",
+      "functional-programming",
+      "linked-list",
+      "immutable",
+      "structural-sharing",
+      "reference-counting"
+    ],
+    "mined_motifs": [
+      "Memory Management",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Depth-First Search",
+      "Interior Mutability",
+      "Object Graph Traversal",
+      "Reference Cycle Detection",
+      "Smart Pointers",
+      "Trait-based Polymorphism",
+      "Weak Reference Cleanup",
+      "cycle-collection",
+      "cyclic-references"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.29,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.452,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 2.666,
+        "matches": []
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 2.664,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.661,
+        "matches": []
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 2.652,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.459998Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c443872eae052e337bf1350957effa9b89591e474903596d341c07be80d70a5b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:22.889831+00:00"
+  },
+  "mined_motifs": [
+    "Manual Memory Management",
+    "memory-management",
+    "resource-management",
+    "Depth-First Search",
+    "Interior Mutability",
+    "Object Graph Traversal",
+    "Reference Cycle Detection",
+    "Smart Pointers",
+    "Trait-based Polymorphism",
+    "Weak Reference Cleanup",
+    "cycle-collection",
+    "cyclic-references"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.859
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.852
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.846
+    },
+    {
+      "name": "linalg",
+      "path": "/Users/ember/dev/gh/linalg",
+      "similarity": 0.842
+    },
+    {
+      "name": "fmodel-rust",
+      "path": "/Users/ember/src/fmodel-rust",
+      "similarity": 0.842
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.839
+    }
+  ]
+}

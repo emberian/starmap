@@ -1,0 +1,173 @@
+{
+  "name": "minesweep",
+  "description": "minesweep appears to be a developer tooling project using C, C/C++, Shell. The available files suggest focus areas around grid, bench, build, readme.",
+  "tags": [
+    "C",
+    "C/C++",
+    "Shell",
+    "grid",
+    "bench",
+    "build",
+    "readme",
+    "test"
+  ],
+  "category": "Developer Tooling",
+  "concepts": [
+    "grid",
+    "bench",
+    "build",
+    "readme",
+    "test"
+  ],
+  "languages": [
+    "C",
+    "C/C++",
+    "Shell"
+  ],
+  "maturity": "exploratory",
+  "_hash": "3c45e6121055c03e00092bda4f4dbd93034269b0d1f9e3466401cf6fbfa7cb08",
+  "_path": "/Users/ember/dev/gh/minesweep",
+  "_updated_at": "2026-02-14T00:56:27.798022Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "grid",
+      "bench",
+      "build",
+      "readme",
+      "test"
+    ],
+    "tags": [
+      "C",
+      "C/C++",
+      "Shell",
+      "grid",
+      "bench",
+      "build",
+      "readme",
+      "test"
+    ],
+    "mined_motifs": [
+      "package",
+      "config",
+      "cargo",
+      "install",
+      "makefile",
+      "manifest",
+      "JavaScript",
+      "Python",
+      "main",
+      "compiler-design",
+      "clean",
+      "compile"
+    ],
+    "metaconstellations": [
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 4.852,
+        "matches": [
+          "cargo",
+          "category:Developer Tooling"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 4.779,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 3.375,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.277,
+        "matches": [
+          "cargo"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 2.038,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.798022Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a826a8d4fc1a310991cf3d3e16cc88900bee34771761750cf7f0a7ced52cafc9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:04.470697+00:00"
+  },
+  "mined_motifs": [
+    "package",
+    "config",
+    "cargo",
+    "install",
+    "makefile",
+    "manifest",
+    "JavaScript",
+    "Python",
+    "main",
+    "compiler",
+    "clean",
+    "compile"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cargo",
+      "path": "/Users/ember/dev/gh/forks/cargo",
+      "similarity": 0.685
+    },
+    {
+      "name": "-live-dev-env2-abcdeez",
+      "path": "/Users/ember/dev/-live-dev-env2-abcdeez",
+      "similarity": 0.664
+    },
+    {
+      "name": "macports-ports",
+      "path": "/Users/ember/dev/macports-ports",
+      "similarity": 0.656
+    },
+    {
+      "name": "coda_net2",
+      "path": "/Users/ember/dev/gh/coda_net2",
+      "similarity": 0.656
+    },
+    {
+      "name": "spw-workbench",
+      "path": "/Users/ember/src/spw-workbench/__MACOSX/spw-workbench",
+      "similarity": 0.655
+    },
+    {
+      "name": "o1hub",
+      "path": "/Users/ember/dev/shitheap/o1hub",
+      "similarity": 0.646
+    },
+    {
+      "name": "shits-fucked-yo",
+      "path": "/Users/ember/dev/shitheap/shits-fucked-yo",
+      "similarity": 0.645
+    }
+  ]
+}

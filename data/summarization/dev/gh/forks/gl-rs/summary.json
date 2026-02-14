@@ -1,0 +1,222 @@
+{
+  "name": "gl-rs",
+  "description": "A comprehensive OpenGL function pointer loader and binding generator for Rust. It parses Khronos XML registry files to produce type-safe, performant bindings for OpenGL, OpenGL ES, EGL, WGL, and GLX using various generation strategies including global statics and context-aware structs.",
+  "tags": [
+    "opengl",
+    "rust",
+    "graphics",
+    "bindings",
+    "code-generation",
+    "khronos",
+    "gles",
+    "egl",
+    "wgl",
+    "glx",
+    "ffi",
+    "function-pointers",
+    "loader"
+  ],
+  "category": "Graphics API Binding Generation",
+  "concepts": [
+    "Function pointer loading",
+    "Type-safe FFI",
+    "XML Registry parsing",
+    "Conditional compilation",
+    "Compile-time code generation",
+    "Global state management",
+    "Context-local function dispatch",
+    "API fallbacks",
+    "Trait-based generators"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 30,
+    "has_readme": true,
+    "sample_files": [
+      "gl/src/lib.rs",
+      "gl_common/src/lib.rs",
+      "gl_generator/generators/mod.rs",
+      "gl_generator/lib.rs",
+      "gl_tests/src/lib.rs"
+    ]
+  },
+  "_hash": "83592e6e96dc32ee9ddfb7f86a158e2c3760f8d0dad28431d3c37669d11234f6",
+  "_path": "/Users/ember/dev/gh/forks/gl-rs",
+  "_updated_at": "2026-02-14T00:56:25.569809Z",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Function pointer loading",
+      "Type-safe FFI",
+      "XML Registry parsing",
+      "Conditional compilation",
+      "Compile-time code generation",
+      "Global state management",
+      "Context-local function dispatch",
+      "API fallbacks",
+      "Trait-based generators"
+    ],
+    "tags": [
+      "opengl",
+      "Rust Language Ecosystem",
+      "Computer Graphics & Rendering",
+      "Foreign Function Interface",
+      "Compiler Engineering",
+      "khronos",
+      "gles",
+      "egl",
+      "wgl",
+      "glx",
+      "foreign-function-interface",
+      "function-pointers",
+      "loader"
+    ],
+    "mined_motifs": [
+      "glsl",
+      "graphics-api",
+      "Computer Graphics & Rendering",
+      "glfw",
+      "texture-mapping",
+      "vao",
+      "vbo",
+      "systems-programming",
+      "Vertex Array Objects (VAO)",
+      "shader-programming",
+      "type-safety"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 12.351,
+        "matches": [
+          "graphics-api",
+          "shader-programming",
+          "glsl",
+          "opengl",
+          "vbo"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.178,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.141,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 6.901,
+        "matches": [
+          "vertex array objects (vao)",
+          "opengl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.866,
+        "matches": [
+          "computer graphics & rendering",
+          "opengl"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.336,
+        "matches": [
+          "foreign function interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.569809Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "f71827eacc4eb64bd37c8b7f14118e8b737cdacf104dcdd2abc526b4f13be792",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:36.458177+00:00"
+  },
+  "mined_motifs": [
+    "glsl",
+    "graphics-api",
+    "rendering",
+    "glfw",
+    "texture-mapping",
+    "vao",
+    "vbo",
+    "low-level",
+    "Vertex Array Objects (VAO)",
+    "shader-programming",
+    "graphics-programming",
+    "type-safety"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "hgl-rs",
+      "path": "/Users/ember/dev/gh/hgl-rs",
+      "similarity": 0.894
+    },
+    {
+      "name": "glium",
+      "path": "/Users/ember/dev/gh/forks/glium",
+      "similarity": 0.889
+    },
+    {
+      "name": "gfx-rs",
+      "path": "/Users/ember/dev/gh/forks/gfx-rs",
+      "similarity": 0.873
+    },
+    {
+      "name": "CS452-LAB5",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB5",
+      "similarity": 0.86
+    },
+    {
+      "name": "nice_glfw",
+      "path": "/Users/ember/dev/gh/nice_glfw",
+      "similarity": 0.858
+    },
+    {
+      "name": "CS452-LAB3",
+      "path": "/Users/ember/dev/gh/forks/CS452-LAB3",
+      "similarity": 0.839
+    },
+    {
+      "name": "raytrace",
+      "path": "/Users/ember/dev/gh/raytrace",
+      "similarity": 0.836
+    },
+    {
+      "name": "OPENGL",
+      "path": "/Users/ember/dev/gh/OPENGL",
+      "similarity": 0.834
+    }
+  ]
+}

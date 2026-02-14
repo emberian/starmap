@@ -1,0 +1,235 @@
+{
+  "name": "Jai-Code-Collection",
+  "description": "A comprehensive repository of standalone HTML5 applications, featuring a diverse array of casual games, multimedia players, and WASM-powered emulators. The project centers on the HGP (HTML Game Player) and HCS (HTML Computer System) frameworks, showcasing the delivery of complex web runtimes and utility tools via portable, single-file architectures. It serves as both a distribution hub for browser-native software and a playground for exploring client-side persistence and interactive web simulations.",
+  "tags": [
+    "html5-games",
+    "n64-emulator",
+    "wasm",
+    "browser-utilities",
+    "hgp",
+    "hcs",
+    "retro-gaming",
+    "client-side-storage",
+    "web-runtime",
+    "sandbox",
+    "single-file-apps",
+    "javascript-games",
+    "canvas-api",
+    "portable-software",
+    "browser-emulation"
+  ],
+  "category": "Browser-Native Application Runtimes",
+  "concepts": [
+    "WebAssembly Emulation",
+    "Client-side Persistence",
+    "Single-page Application Architecture",
+    "DOM Manipulation",
+    "Game Loop Implementation",
+    "Multimedia Playback Integration",
+    "LocalStorage Management",
+    "Cross-platform Web Deployment",
+    "Sandboxed Environments",
+    "Canvas Rendering",
+    "Interactive System Simulation",
+    "Algebraic Math Solvers",
+    "Real-time Client-side Communication",
+    "Virtual Storage Systems",
+    "HTML5 API Integration",
+    "JavaScript Logic Encapsulation",
+    "Mobile-Responsive Game Design",
+    "Event-Driven Programming"
+  ],
+  "languages": [
+    "HTML",
+    "JavaScript",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 45,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "45a895313a492704b2e87acb09c9db3b447e7eac2cb2f2d0e3d3d4fc928fc9cd",
+  "_path": "/Users/ember/src/Jai-Code-Collection",
+  "_updated_at": "2026-02-14T00:56:32.011429Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "08e73bf9897506063c8a2f11b7f5d09a57a2e9b4ea11c91dff6c1594cc286eb6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:53.297616+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "webassembly",
+    "monaco-editor",
+    "toolchain",
+    "TCP/IP Stack Emulation",
+    "alpine-linux",
+    "riscv",
+    "tinyemu",
+    "WebAssembly Compilation Pipeline",
+    "browser-ide",
+    "cheerpx",
+    "x86-emulation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/live_dev_env4",
+      "similarity": 0.847
+    },
+    {
+      "name": "abcdeez-live-dev-env",
+      "path": "/Users/ember/dev/-live-dev-env-abcdeez",
+      "similarity": 0.831
+    },
+    {
+      "name": "rust_live_env",
+      "path": "/Users/ember/dev/rust_live_env",
+      "similarity": 0.822
+    },
+    {
+      "name": "rustc.js",
+      "path": "/Users/ember/dev/rustc.js",
+      "similarity": 0.818
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.815
+    },
+    {
+      "name": "envmap-sample",
+      "path": "/Users/ember/dev/envmap-sample",
+      "similarity": 0.81
+    },
+    {
+      "name": "-live-web-editor-abcdeez",
+      "path": "/Users/ember/dev/-live-web-editor-abcdeez",
+      "similarity": 0.809
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.805
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "WebAssembly Emulation",
+      "Client-side Persistence",
+      "Single-page Application Architecture",
+      "DOM Manipulation",
+      "Game Loop Implementation",
+      "Multimedia Playback Integration",
+      "LocalStorage Management",
+      "Cross-platform Web Deployment",
+      "Sandboxed Environments",
+      "Canvas Rendering",
+      "Interactive System Simulation",
+      "Algebraic Math Solvers",
+      "Real-time Client-side Communication",
+      "Virtual Storage Systems",
+      "HTML5 API Integration",
+      "JavaScript Logic Encapsulation",
+      "Mobile-Responsive Game Design",
+      "Event-Driven Programming"
+    ],
+    "tags": [
+      "html5-games",
+      "n64-emulator",
+      "WebAssembly",
+      "browser-utilities",
+      "hgp",
+      "hcs",
+      "retro-gaming",
+      "client-side-storage",
+      "web-runtime",
+      "sandbox",
+      "single-file-apps",
+      "javascript-games",
+      "canvas-api",
+      "portable-software",
+      "browser-emulation"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "webassembly",
+      "monaco-editor",
+      "toolchain",
+      "TCP/IP Stack Emulation",
+      "alpine-linux",
+      "riscv",
+      "tinyemu",
+      "WebAssembly Compilation Pipeline",
+      "browser-ide",
+      "cheerpx",
+      "x86-emulation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "emulated-system-runtimes",
+        "name": "Emulated System Runtimes",
+        "score": 6.871,
+        "matches": [
+          "riscv",
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 6.802,
+        "matches": [
+          "webassembly",
+          "tinyemu"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.785,
+        "matches": [
+          "webassembly",
+          "cheerpx"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.405,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 5.4,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.391,
+        "matches": [
+          "riscv"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.011429Z"
+  }
+}

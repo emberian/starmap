@@ -1,0 +1,179 @@
+{
+  "name": "RuPaulyML",
+  "description": "An exploratory project inferred to be related to the PolyML implementation of Standard ML, likely focusing on runtime internals, compiler extensions, or a custom dialect. The name suggests a thematic or experimental variation on the traditional PolyML environment, aligning with interest in formal methods and high-performance runtimes.",
+  "tags": [
+    "Standard ML",
+    "PolyML",
+    "Functional Programming",
+    "Runtime Systems",
+    "Compiler Design"
+  ],
+  "category": "Programming Language Implementation",
+  "concepts": [
+    "Type Inference",
+    "Metaprogramming",
+    "Runtime Compilation",
+    "Memory Management",
+    "Symbolic Computation"
+  ],
+  "languages": [
+    "Standard ML"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 0,
+    "has_readme": false,
+    "sample_files": []
+  },
+  "_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "_path": "/Users/ember/dev/gh/RuPaulyML",
+  "_updated_at": "2026-02-14T00:56:24.252484Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Type Inference",
+      "Metaprogramming",
+      "Runtime Compilation",
+      "Memory Management",
+      "Symbolic Computation"
+    ],
+    "tags": [
+      "Standard ML",
+      "PolyML",
+      "Functional Programming",
+      "Runtime Systems",
+      "Compiler Design"
+    ],
+    "mined_motifs": [
+      "functional-programming",
+      "Rust Language Ecosystem",
+      "Lexical Scoping",
+      "AOT Compilation",
+      "Bytecode Interpretation",
+      "foreign-function-interface",
+      "Formal Verification Infrastructure",
+      "AST",
+      "Register Allocation",
+      "compiler-design",
+      "x86-64"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 6.78,
+        "matches": [
+          "ast",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 5.37,
+        "matches": [
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.312,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.306,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.305,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 3.951,
+        "matches": [
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.252484Z"
+  },
+  "attribution": "interests",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "657e2a2f22f95bebed2ad2bcfd213a08f9183cac95999f234f83adaacd2cd2ad",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:17.801130+00:00"
+  },
+  "mined_motifs": [
+    "functional-programming",
+    "rust",
+    "Lexical Scoping",
+    "AOT Compilation",
+    "Bytecode Interpretation",
+    "Foreign Function Interface",
+    "Formal Verification Infrastructure",
+    "Abstract Syntax Tree",
+    "ffi",
+    "Register Allocation",
+    "compiler",
+    "x86-64"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "RuPaulyML",
+      "path": "/Users/ember/dev/RuPaulyML",
+      "similarity": 0.875
+    },
+    {
+      "name": "Poly/ML",
+      "path": "/Users/ember/dev/polyml",
+      "similarity": 0.846
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.809
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.801
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.794
+    },
+    {
+      "name": "bantamlisp",
+      "path": "/Users/ember/dev/bantaML",
+      "similarity": 0.79
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.788
+    }
+  ]
+}

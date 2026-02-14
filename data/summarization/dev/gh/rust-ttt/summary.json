@@ -1,0 +1,221 @@
+{
+  "name": "rust-ttt",
+  "description": "An implementation of the Tic-Tac-Toe game engine in early-dialect Rust, featuring a modular architecture that decouples core game logic from terminal-based I/O. The system employs a recursive Minimax algorithm for optimal adversarial search, supporting automated player decision-making and various human-agent interaction modes. Architectural robustness is maintained through polymorphic reader and writer abstractions, facilitating comprehensive unit testing of board state transitions and AI heuristics.",
+  "tags": [
+    "rust",
+    "tic-tac-toe",
+    "minimax",
+    "game-ai",
+    "cli",
+    "adversarial-search",
+    "zero-sum-game",
+    "unit-testing",
+    "terminal-ui",
+    "board-game",
+    "game-theory"
+  ],
+  "category": "Adversarial Search Algorithms",
+  "concepts": [
+    "Minimax algorithm",
+    "Zero-sum game theory",
+    "Heuristic evaluation",
+    "Game tree traversal",
+    "Terminal user interface",
+    "Strategy pattern",
+    "Interface abstraction",
+    "Mock objects",
+    "Board state representation",
+    "Recursive optimization",
+    "Input/Output decoupling",
+    "Adversarial modeling",
+    "State transition validation",
+    "Early Rust syntax"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "stable",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "src/main.rs",
+      "src/board.rs",
+      "src/ai.rs",
+      "src/console_output.rs",
+      "src/game.rs"
+    ]
+  },
+  "_hash": "d940253b35f3b10ab8d9acc5b4b376a31c1a3aae10dcb5b42c8e147bd70f8693",
+  "_path": "/Users/ember/dev/gh/rust-ttt",
+  "_updated_at": "2026-02-14T00:56:28.594850Z",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Minimax algorithm",
+      "Zero-sum game theory",
+      "Heuristic evaluation",
+      "Game tree traversal",
+      "Terminal user interface",
+      "Strategy pattern",
+      "Interface abstraction",
+      "Mock objects",
+      "Board state representation",
+      "Recursive optimization",
+      "Input/Output decoupling",
+      "Adversarial modeling",
+      "State transition validation",
+      "Rust Language Ecosystem"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "tic-tac-toe",
+      "minimax",
+      "game-ai",
+      "cli",
+      "adversarial-search",
+      "zero-sum-game",
+      "unit-testing",
+      "terminal-ui",
+      "board-game",
+      "game-theory"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "parser",
+      "s-expression",
+      "Recursive Descent Parsing",
+      "foreign-function-interface",
+      "Depth-First Search"
+    ],
+    "metaconstellations": [
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.101,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.694,
+        "matches": [
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 6.915,
+        "matches": [
+          "adversarial-search",
+          "minimax"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.528,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.514,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.503,
+        "matches": [
+          "foreign-function-interface"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.594850Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "778ac7cdf02abc7a9d52d43a87454d5a7536b695451b9919c039508f3b71a254",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:24.353068+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Tokenization",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "parser",
+    "s-expression",
+    "tokenization",
+    "Recursive Descent Parsing",
+    "Foreign Function Interface (FFI)",
+    "ffi",
+    "Depth-First Search"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.87
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.868
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.865
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.861
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.859
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.857
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.857
+    }
+  ]
+}

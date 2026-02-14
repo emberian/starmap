@@ -1,0 +1,255 @@
+{
+  "name": "buckeye",
+  "description": "Buckeye is a multi-modal computational physics suite for neutronics and hydrodynamic simulation, primarily focused on evaluating the criticality of exotic fissile geometries through Monte Carlo and deterministic methods. It implements a continuous-energy Monte Carlo transport engine alongside a coupled hydro-neutronics solver that accounts for radiation-dominated equations of state and shock-induced expansion. The framework leverages Rust and WGPU for hardware-accelerated particle tracking and Manim for high-fidelity visualization of nuclear kinetics and implosion dynamics.",
+  "tags": [
+    "neutron-transport",
+    "monte-carlo",
+    "criticality-analysis",
+    "hydrodynamics",
+    "gpgpu",
+    "physics-simulation",
+    "wgpu",
+    "manim",
+    "fission-kinetics",
+    "pu-239",
+    "nuclear-physics",
+    "equation-of-state",
+    "neutron-kinetics"
+  ],
+  "category": "Computational Neutronics and Hydrodynamics",
+  "concepts": [
+    "Continuous-energy cross sections",
+    "k-eigenvalue power iteration",
+    "Watt fission spectrum",
+    "Shannon entropy monitoring",
+    "Transport-corrected diffusion",
+    "Two-group theory",
+    "Thomas-Fermi ionization",
+    "Radiation pressure",
+    "Shock physics",
+    "Point kinetics",
+    "Neutron leakage",
+    "Superellipsoid geometry",
+    "Jezebel benchmark",
+    "Macroscopic cross-sections",
+    "Scattering kinematics",
+    "Fission bank normalization",
+    "Track-length estimators",
+    "Time-dependent neutronics",
+    "WGPU compute shaders",
+    "Ray tracing",
+    "Reaction channels",
+    "Prompt supercriticality",
+    "Collision density",
+    "Fermi energy",
+    "Degeneracy pressure"
+  ],
+  "languages": [
+    "Python",
+    "Rust",
+    "Julia",
+    "WGSL"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2913,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "gpu/runner/src/main.rs",
+      "gpu/shader/src/lib.rs",
+      "gpu/src/main.rs",
+      "main.py"
+    ]
+  },
+  "_hash": "a66ddc147422fcd103dd9d4ed7e2af6af55d2071fe1e9942ee531e9df8719037",
+  "_path": "/Users/ember/dev/buckeye",
+  "_updated_at": "2026-02-14T00:56:23.620266Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Continuous-energy cross sections",
+      "k-eigenvalue power iteration",
+      "Watt fission spectrum",
+      "Shannon entropy monitoring",
+      "Transport-corrected diffusion",
+      "Two-group theory",
+      "Thomas-Fermi ionization",
+      "Radiation pressure",
+      "Shock physics",
+      "Point kinetics",
+      "Neutron leakage",
+      "Superellipsoid geometry",
+      "Jezebel benchmark",
+      "Macroscopic cross-sections",
+      "Scattering kinematics",
+      "Fission bank normalization",
+      "Track-length estimators",
+      "Time-dependent neutronics",
+      "WGPU compute shaders",
+      "Ray tracing",
+      "Reaction channels",
+      "Prompt supercriticality",
+      "Collision density",
+      "Fermi energy",
+      "Degeneracy pressure"
+    ],
+    "tags": [
+      "neutron-transport",
+      "monte-carlo",
+      "criticality-analysis",
+      "hydrodynamics",
+      "GPGPU Compute",
+      "physics-simulation",
+      "wgpu",
+      "manim",
+      "fission-kinetics",
+      "pu-239",
+      "nuclear-physics",
+      "equation-of-state",
+      "neutron-kinetics"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "physics-engine",
+      "real-time-simulation",
+      "cellular-automata",
+      "glsl",
+      "Model Context Protocol",
+      "fluid-dynamics",
+      "procedural-audio",
+      "GPGPU Compute",
+      "Totalistic Rules",
+      "egui"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 9.398,
+        "matches": [
+          "gpgpu compute",
+          "ray tracing",
+          "glsl"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 9.343,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "fluid-dynamics",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 6.606,
+        "matches": [
+          "physics-engine",
+          "hydrodynamics"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 5.122,
+        "matches": [
+          "cellular-automata",
+          "physics-simulation"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.097,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.079,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.620266Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "da6a6189bb7844c3320b14a2b5d86a10287f6477c168ed1ddaf2a5494f271297",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:41.931510+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "physics-engine",
+    "simulation",
+    "cellular-automata",
+    "glsl",
+    "mcp-server",
+    "fluid-dynamics",
+    "procedural-audio",
+    "real-time",
+    "compute-shader",
+    "Totalistic Rules",
+    "egui"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "plymouth-rock",
+      "path": "/Users/ember/dev/plymouth-rock",
+      "similarity": 0.815
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.727
+    },
+    {
+      "name": "friskingdom",
+      "path": "/Users/ember/dev/friskingdom",
+      "similarity": 0.724
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.723
+    },
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.718
+    },
+    {
+      "name": "mesmerize",
+      "path": "/Users/ember/dev/shitheap/tjmes",
+      "similarity": 0.718
+    },
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.716
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.714
+    }
+  ]
+}

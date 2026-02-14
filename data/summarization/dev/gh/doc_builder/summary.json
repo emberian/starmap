@@ -1,0 +1,229 @@
+{
+  "name": "doc_builder",
+  "description": "A Rust-based build utility designed to automate the generation and aggregation of library documentation for the Octayn project. It orchestrates Git operations and rustdoc execution across multiple repositories specified in a JSON manifest, producing a centralized static HTML index for cross-crate discovery.",
+  "tags": [
+    "rust",
+    "rustdoc",
+    "documentation",
+    "automation",
+    "git",
+    "ci-cd",
+    "static-site-generator",
+    "crate-management",
+    "build-tool"
+  ],
+  "category": "Documentation Build Orchestration",
+  "concepts": [
+    "rustdoc automation",
+    "Git repository synchronization",
+    "JSON-driven build configuration",
+    "Subprocess execution management",
+    "Static index generation",
+    "Multi-repository workspace management",
+    "Pre-1.0 Rust environment",
+    "Automated library documentation aggregation",
+    "Command-line argument parsing",
+    "Environment variable manipulation",
+    "Serial task scheduling",
+    "Filesystem state validation",
+    "Error-resilient build loops",
+    "JSON serialization and deserialization",
+    "HTML boilerplate generation",
+    "Repository branch tracking",
+    "Remote origin synchronization",
+    "Crate root resolution",
+    "Metadata-driven documentation sites",
+    "Deployment pipeline orchestration"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": true,
+    "sample_files": [
+      "main.rs"
+    ]
+  },
+  "_hash": "252e096b092e1e18be74ad5cb9cb5cfb5784c4c1ce0c9908f2368da9d68f611b",
+  "_path": "/Users/ember/dev/gh/doc_builder",
+  "_updated_at": "2026-02-14T00:56:24.988742Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "rustdoc automation",
+      "Git repository synchronization",
+      "JSON-driven build configuration",
+      "Subprocess execution management",
+      "Static index generation",
+      "Multi-repository workspace management",
+      "Pre-1.0 Rust environment",
+      "Automated library documentation aggregation",
+      "Command-line argument parsing",
+      "Environment variable manipulation",
+      "Serial task scheduling",
+      "Filesystem state validation",
+      "Error-resilient build loops",
+      "JSON serialization and deserialization",
+      "HTML boilerplate generation",
+      "Repository branch tracking",
+      "Remote origin synchronization",
+      "Crate root resolution",
+      "Metadata-driven documentation sites",
+      "Deployment pipeline orchestration"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "rustdoc",
+      "documentation",
+      "automation",
+      "git",
+      "ci-cd",
+      "static-site-generator",
+      "crate-management",
+      "build-tool"
+    ],
+    "mined_motifs": [
+      "static-analysis",
+      "cli",
+      "cargo",
+      "documentation-generator",
+      "docs-rs",
+      "markdown",
+      "llm-context",
+      "model-context-protocol",
+      "Configuration-as-Code registry",
+      "Continuous deployment for technical documentation",
+      "Doc-builder integration",
+      "Git-based documentation registry"
+    ],
+    "metaconstellations": [
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 9.66,
+        "matches": [
+          "documentation",
+          "automation",
+          "cargo",
+          "ci-cd"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 8.254,
+        "matches": [
+          "automation",
+          "markdown"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 6.786,
+        "matches": [
+          "ci-cd",
+          "cargo"
+        ]
+      },
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 5.414,
+        "matches": [
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.407,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.349,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.988742Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c1752c00eeb79b96d92276316e277bb6da9b9e2e03edd3fc54b5f36301e5ff3d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:56.769462+00:00"
+  },
+  "mined_motifs": [
+    "static-analysis",
+    "cli",
+    "cargo",
+    "documentation-generator",
+    "docs-rs",
+    "markdown",
+    "llm-context",
+    "mcp",
+    "Configuration-as-Code registry",
+    "Continuous deployment for technical documentation",
+    "Doc-builder integration",
+    "Git-based documentation registry"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "docs",
+      "path": "/Users/ember/dev/gh/docs",
+      "similarity": 0.902
+    },
+    {
+      "name": "rustdoc-md",
+      "path": "/Users/ember/src/rustdoc-md",
+      "similarity": 0.854
+    },
+    {
+      "name": "public-docs",
+      "path": "/Users/ember/dev/public-docs",
+      "similarity": 0.838
+    },
+    {
+      "name": "rust-docs-mcp",
+      "path": "/Users/ember/src/rust-docs-mcp",
+      "similarity": 0.838
+    },
+    {
+      "name": "rustdoc_ng",
+      "path": "/Users/ember/dev/gh/rustdoc_ng",
+      "similarity": 0.828
+    },
+    {
+      "name": "cargo-lite",
+      "path": "/Users/ember/dev/gh/cargo-lite",
+      "similarity": 0.82
+    },
+    {
+      "name": "mcp-rust-docs",
+      "path": "/Users/ember/src/mcp-rust-docs",
+      "similarity": 0.817
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.816
+    }
+  ]
+}

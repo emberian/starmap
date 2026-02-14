@@ -1,0 +1,209 @@
+{
+  "name": "term",
+  "description": "A low-level Rust library for terminal abstraction, providing robust support for terminfo database parsing and cross-platform terminal formatting. It implements a unified trait-based interface that abstracts over Unix-style ANSI escape sequences via terminfo and native Win32 Console API calls for Windows compatibility. The engine includes a complete terminfo parameter expansion system and database discovery logic following ncurses conventions.",
+  "tags": [
+    "rust",
+    "terminfo",
+    "ansi-escape-codes",
+    "win32-console",
+    "terminal-color",
+    "tui-library",
+    "ncurses-compatible",
+    "terminal-emulation",
+    "cli-formatting"
+  ],
+  "category": "Terminal Emulation and Interface Abstraction",
+  "concepts": [
+    "terminfo parsing",
+    "parameter expansion",
+    "ANSI escape sequences",
+    "Win32 Console API",
+    "capability discovery",
+    "trait-based abstraction",
+    "cross-platform compatibility",
+    "terminal color spaces",
+    "ncurses database discovery",
+    "byte-level parser"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 45,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/terminfo/mod.rs",
+      "src/terminfo/parm.rs",
+      "src/terminfo/parser/names.rs"
+    ]
+  },
+  "_hash": "17479444c19ef1788951f082fe7c3898356646a1f0c3b3843cfa046cd4324d3b",
+  "_path": "/Users/ember/dev/gh/forks/term",
+  "_updated_at": "2026-02-14T00:56:26.979057Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "terminfo parsing",
+      "parameter expansion",
+      "ANSI escape sequences",
+      "Win32 Console API",
+      "capability discovery",
+      "trait-based abstraction",
+      "cross-platform compatibility",
+      "terminal color spaces",
+      "ncurses database discovery",
+      "byte-level parser"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "terminfo",
+      "ansi-escape-codes",
+      "win32-console",
+      "terminal-color",
+      "tui-library",
+      "ncurses-compatible",
+      "terminal-emulation",
+      "cli-formatting"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "foreign-function-interface",
+      "Systems Programming",
+      "posix",
+      "unix",
+      "Memory Management",
+      "Process Management",
+      "IO Control",
+      "ioctl"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 10.791,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 9.362,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.009,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.189,
+        "matches": [
+          "memory management"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 3.717,
+        "matches": [
+          "ioctl"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.367,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.979057Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a02860a1c71a621d50bc1070e80c0d7c68a54b021272d88962571f2c0c4eb4af",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:35.165978+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "ffi",
+    "systems-programming",
+    "Foreign Function Interface",
+    "posix",
+    "system-programming",
+    "unix",
+    "Foreign Function Interface (FFI)",
+    "Memory Management",
+    "Process Management",
+    "IO Control",
+    "ioctl"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "terminfo-rs",
+      "path": "/Users/ember/dev/gh/terminfo-rs",
+      "similarity": 0.895
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.809
+    },
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.76
+    },
+    {
+      "name": "winapi-rs",
+      "path": "/Users/ember/dev/gh/forks/winapi-rs",
+      "similarity": 0.757
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.756
+    },
+    {
+      "name": "picocom",
+      "path": "/Users/ember/dev/gh/picocom",
+      "similarity": 0.756
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.755
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.75
+    }
+  ]
+}

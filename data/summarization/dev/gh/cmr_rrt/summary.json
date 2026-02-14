@@ -1,0 +1,232 @@
+{
+  "name": "cmr_rrt",
+  "description": "A Python-based implementation of Rapidly-exploring Random Trees (RRT) integrated with ROS for non-holonomic robot motion planning. It utilizes spatial indexing via R-trees and numerical optimization with SciPy to solve kinodynamic steering problems in 2D image-based occupancy maps.",
+  "tags": [
+    "rrt",
+    "motion-planning",
+    "robotics",
+    "ros",
+    "kinodynamic-planning",
+    "path-finding",
+    "r-tree",
+    "python2",
+    "scipy-optimize",
+    "collision-detection",
+    "occupancy-map",
+    "turtlebot",
+    "holonomic-constraints",
+    "visualization",
+    "tk-inter",
+    "trajectory-optimization"
+  ],
+  "category": "Kinodynamic Motion Planning",
+  "concepts": [
+    "Rapidly-exploring Random Trees",
+    "Non-holonomic constraints",
+    "State-space sampling",
+    "Kinematic simulation",
+    "Nearest neighbor search",
+    "R-tree spatial indexing",
+    "Numerical optimization",
+    "Collision detection in occupancy grids",
+    "ROS node communication",
+    "Path planning heuristics",
+    "Control input estimation",
+    "Differential constraints",
+    "Euler integration",
+    "Configuration space",
+    "Boundary value problem (BVP) steering"
+  ],
+  "languages": [
+    "Python",
+    "CMake"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": true,
+    "sample_files": [
+      "src/holonomic_turtle.py",
+      "src/rrt.py",
+      "src/map.py",
+      "src/rrt_planner.py",
+      "src/tree.py"
+    ]
+  },
+  "_hash": "8fab8fc25dd5106f1d798f9bc6519ec1d89ec738b9b96291de3c3838cdbd93d1",
+  "_path": "/Users/ember/dev/gh/cmr_rrt",
+  "_updated_at": "2026-02-14T00:56:24.783396Z",
+  "_alignment": {
+    "category": "Multimedia & Creative",
+    "concepts": [
+      "Rapidly-exploring Random Trees",
+      "Non-holonomic constraints",
+      "State-space sampling",
+      "Kinematic simulation",
+      "Nearest neighbor search",
+      "R-tree spatial indexing",
+      "Numerical optimization",
+      "Collision detection in occupancy grids",
+      "ROS node communication",
+      "Path planning heuristics",
+      "Control input estimation",
+      "Differential constraints",
+      "Euler integration",
+      "Configuration space",
+      "Boundary value problem (BVP) steering"
+    ],
+    "tags": [
+      "rrt",
+      "motion-planning",
+      "robotics",
+      "ros",
+      "kinodynamic-planning",
+      "path-finding",
+      "r-tree",
+      "python2",
+      "scipy-optimize",
+      "collision-detection",
+      "occupancy-map",
+      "turtlebot",
+      "holonomic-constraints",
+      "visualization",
+      "tk-inter",
+      "trajectory-optimization"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Double buffering",
+      "Moore neighborhood",
+      "cellular-automata",
+      "systems-programming",
+      "Asynchronous Event Handling",
+      "CMake Build Orchestration",
+      "Feedback Control Loops",
+      "Inter-process Communication",
+      "Message Queuing"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.599,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.191,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.18,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.18,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.747,
+        "matches": [
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 2.38,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.783396Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e577ad8b837f9c975905775cb6b8800bbf9fbcd90c80cd90ea746912e342c196",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:40.769840+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "real-time",
+    "resource-management",
+    "Double buffering",
+    "Moore neighborhood",
+    "cellular-automata",
+    "low-level",
+    "Asynchronous Event Handling",
+    "CMake Build Orchestration",
+    "Feedback Control Loops",
+    "Inter-process Communication",
+    "Message Queuing"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "cs465-hw1",
+      "path": "/Users/ember/dev/gh/cs465-hw1",
+      "similarity": 0.792
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.76
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.754
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.748
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.746
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.746
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.744
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.742
+    }
+  ]
+}

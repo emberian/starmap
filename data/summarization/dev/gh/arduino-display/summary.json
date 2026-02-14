@@ -1,0 +1,214 @@
+{
+  "name": "arduino-display",
+  "description": "A collection of low-level AVR C firmware routines for driving multiplexed four-digit seven-segment displays via direct register manipulation. The project implements hardware-specific bit-masking and GPIO control using Atmel's Data Direction and Port registers to manage segment illumination and digit switching. It includes various test patterns for binary counting, character rendering, and manual multiplexing logic.",
+  "tags": [
+    "avr",
+    "firmware",
+    "c",
+    "seven-segment",
+    "gpio",
+    "multiplexing",
+    "bare-metal",
+    "atmel-avr",
+    "embedded-systems",
+    "display-driver"
+  ],
+  "category": "AVR Bare-metal Firmware",
+  "concepts": [
+    "Register-level I/O",
+    "Data Direction Registers (DDR)",
+    "Port Registers (PORT)",
+    "Multiplexed Display Control",
+    "Bitwise Masking",
+    "Segment Encoding",
+    "Character Look-up Tables",
+    "Busy-wait Delays",
+    "Hardware Abstraction",
+    "Binary-coded Decimal Visualization",
+    "Common Anode/Cathode Logic"
+  ],
+  "languages": [
+    "C"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 10,
+    "has_readme": true,
+    "sample_files": [
+      "seven-segment.h",
+      "bincount.c",
+      "arke.c",
+      "all.c",
+      "chartest.c"
+    ]
+  },
+  "_hash": "abd9914ff72fd64e88f10fd12fbc76d6146e331507d95d02e227ecf9df0b11b4",
+  "_path": "/Users/ember/dev/gh/arduino-display",
+  "_updated_at": "2026-02-14T00:56:24.426377Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Register-level I/O",
+      "Data Direction Registers (DDR)",
+      "Port Registers (PORT)",
+      "Multiplexed Display Control",
+      "Bitwise Masking",
+      "Segment Encoding",
+      "Character Look-up Tables",
+      "Busy-wait Delays",
+      "Hardware Abstraction",
+      "Binary-coded Decimal Visualization",
+      "Common Anode/Cathode Logic"
+    ],
+    "tags": [
+      "avr",
+      "firmware",
+      "c",
+      "seven-segment",
+      "gpio",
+      "multiplexing",
+      "Systems Programming",
+      "atmel-avr",
+      "embedded-systems",
+      "display-driver"
+    ],
+    "mined_motifs": [
+      "isa",
+      "systems-programming",
+      "toolchain",
+      "Instruction Set Architecture",
+      "assembler",
+      "computer-architecture",
+      "emulator",
+      "functional-programming",
+      "Baud Rate Generation",
+      "Bit Manipulation",
+      "Firmware Engineering",
+      "Hardware Abstraction Layer"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 6.84,
+        "matches": [
+          "instruction set architecture",
+          "isa"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 6.468,
+        "matches": [
+          "systems programming",
+          "category:AVR Bare-metal Firmware"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.38,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.309,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.287,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.209,
+        "matches": [
+          "emulator"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.426377Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5bc82cbe55cc31eaa03786bef8ff8b4f7d99620c7852cd772e4665ceed91bddc",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:29.157548+00:00"
+  },
+  "mined_motifs": [
+    "isa",
+    "low-level",
+    "toolchain",
+    "Instruction Set Architecture",
+    "assembler",
+    "computer-architecture",
+    "emulator",
+    "functional-programming",
+    "Baud Rate Generation",
+    "Bit Manipulation",
+    "Firmware Engineering",
+    "Hardware Abstraction Layer"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "bfcpu",
+      "path": "/Users/ember/dev/gh/bfcpu",
+      "similarity": 0.821
+    },
+    {
+      "name": "homie",
+      "path": "/Users/ember/dev/shitheap/homie",
+      "similarity": 0.82
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.799
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.793
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/shitheap/absass",
+      "similarity": 0.789
+    },
+    {
+      "name": "billary-board",
+      "path": "/Users/ember/dev/billary-board",
+      "similarity": 0.787
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.785
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.784
+    }
+  ]
+}

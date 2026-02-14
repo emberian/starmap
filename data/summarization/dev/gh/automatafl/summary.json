@@ -1,0 +1,260 @@
+{
+  "name": "automatafl",
+  "description": "A distributed multiplayer game platform centered around a cellular automaton board game logic, implemented as a modular Rust workspace. It features a high-performance Axum backend with SQLite/SQLx persistence, a Leptos-based WebAssembly frontend, and shared API models for type-safe communication. The project incorporates real-time WebSocket state synchronization, automated matchmaking, and exploratory reinforcement learning prototypes.",
+  "tags": [
+    "rust",
+    "axum",
+    "leptos",
+    "sqlite",
+    "websockets",
+    "wasm",
+    "cellular-automata",
+    "python",
+    "full-stack",
+    "game-engine",
+    "matchmaking",
+    "sqlx",
+    "distributed-systems",
+    "api-design",
+    "real-time",
+    "reinforcement-learning"
+  ],
+  "category": "Automata-based Multiplayer Game Platform",
+  "concepts": [
+    "Cellular Automata",
+    "Distributed State Synchronization",
+    "WebAssembly",
+    "Asynchronous I/O",
+    "Relational Data Modeling",
+    "RESTful API",
+    "WebSocket Protocol",
+    "Concurrency Control",
+    "Middleware",
+    "Instrumentation",
+    "Reinforcement Learning",
+    "State-Space Search",
+    "Coordinate Geometry",
+    "Matchmaking Algorithms",
+    "User Authentication",
+    "Schema Migrations",
+    "Type-safe API Models",
+    "Real-time Communication",
+    "Component-based UI",
+    "Rating Systems",
+    "Shared-state Concurrency",
+    "Game Rule Enforcement",
+    "Workspace Architecture",
+    "Zero-allocation Data Structures",
+    "Simultaneous Move Resolution"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "SQL",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 86,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "api-models/src/lib.rs",
+      "backend/src/handlers/mod.rs",
+      "backend/src/main.rs",
+      "logic/src/lib.rs"
+    ]
+  },
+  "_hash": "465bc88a8255245f62793926e269f9abcbe20a79484ad23e756b92b197770a3d",
+  "_path": "/Users/ember/dev/gh/automatafl",
+  "_updated_at": "2026-02-14T00:56:24.442441Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "cellular-automata",
+      "Distributed State Synchronization",
+      "WebAssembly",
+      "Asynchronous I/O",
+      "Relational Data Modeling",
+      "RESTful API",
+      "WebSocket Protocol",
+      "Concurrency Control",
+      "Middleware",
+      "Instrumentation",
+      "Reinforcement Learning",
+      "State-Space Search",
+      "Coordinate Geometry",
+      "Matchmaking Algorithms",
+      "User Authentication",
+      "Schema Migrations",
+      "Type-safe API Models",
+      "Real-time Communication",
+      "Component-based UI",
+      "Rating Systems",
+      "Shared-state Concurrency",
+      "Game Rule Enforcement",
+      "Workspace Architecture",
+      "Zero-allocation Data Structures",
+      "Simultaneous Move Resolution"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "axum",
+      "leptos",
+      "sqlite",
+      "websockets",
+      "WebAssembly",
+      "cellular-automata",
+      "python",
+      "full-stack",
+      "game-engine",
+      "matchmaking",
+      "sqlx",
+      "distributed-systems",
+      "api-design",
+      "real-time-simulation",
+      "reinforcement-learning"
+    ],
+    "mined_motifs": [
+      "reactive-ui",
+      "game-server",
+      "Asynchronous Programming",
+      "Administrative Resource Management",
+      "Asynchronous Request Handling",
+      "Automata-based Game Logic",
+      "Broadcast Channel Orchestration",
+      "Concurrent Shared State",
+      "Database Migration Management",
+      "Elo Rating Calculation",
+      "JSON-serialized Game States",
+      "Middleware-based Authorization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 6.946,
+        "matches": [
+          "webassembly",
+          "leptos"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.93,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 6.91,
+        "matches": [
+          "asynchronous programming",
+          "reinforcement-learning"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.549,
+        "matches": [
+          "api-design"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.543,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.542,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.442441Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "15947819e0ebec10be3822313eb276063103734990214b336883ce45106ab96f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:30.624590+00:00"
+  },
+  "mined_motifs": [
+    "reactive-ui",
+    "game-server",
+    "tokio",
+    "Administrative Resource Management",
+    "Asynchronous Request Handling",
+    "Automata-based Game Logic",
+    "Broadcast Channel Orchestration",
+    "Concurrent Shared State",
+    "Database Migration Management",
+    "Elo Rating Calculation",
+    "JSON-serialized Game States",
+    "Middleware-based Authorization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "automatafl-game-server",
+      "path": "/Users/ember/dev/old-automatafl-backend-idea",
+      "similarity": 0.924
+    },
+    {
+      "name": "automatafl-react",
+      "path": "/Users/ember/dev/automatafl-react",
+      "similarity": 0.907
+    },
+    {
+      "name": "webapp2-auto",
+      "path": "/Users/ember/dev/webapp2-auto",
+      "similarity": 0.878
+    },
+    {
+      "name": "rust-ttt",
+      "path": "/Users/ember/dev/gh/rust-ttt",
+      "similarity": 0.847
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.846
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.843
+    },
+    {
+      "name": "jubilant-train",
+      "path": "/Users/ember/dev/gh/jubilant-train",
+      "similarity": 0.842
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.841
+    }
+  ]
+}

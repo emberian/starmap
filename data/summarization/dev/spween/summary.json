@@ -1,0 +1,263 @@
+{
+  "name": "spween",
+  "description": "spween is a game-agnostic domain-specific language and runtime engine designed for implementing complex branching narratives in interactive systems. The architecture implements a full compilation pipeline consisting of a logos-driven lexical analyzer, a recursive descent parser generating an abstract syntax tree, and a trait-based execution runtime. By decoupling state management through a flexible effect-handler interface, it facilitates seamless integration with diverse host environments via native Rust or WebAssembly bindings.",
+  "tags": [
+    "dsl",
+    "narrative",
+    "game-development",
+    "interpreter",
+    "rust",
+    "wasm",
+    "interactive-fiction",
+    "compiler-design",
+    "lexical-analysis",
+    "parsing",
+    "ast",
+    "runtime",
+    "embedded-scripting",
+    "state-management",
+    "markup-language",
+    "webassembly"
+  ],
+  "category": "Narrative Scripting Engine",
+  "concepts": [
+    "Lexical Analysis",
+    "Recursive Descent Parsing",
+    "Abstract Syntax Tree",
+    "Runtime Execution",
+    "State Modification",
+    "WebAssembly Bindings",
+    "YAML Frontmatter Parsing",
+    "Indentation-based Scoping",
+    "Effect Handlers",
+    "Branching Narratives",
+    "Domain-Specific Language",
+    "Tokenization",
+    "Game State Synchronization",
+    "Narrative Markup",
+    "WASM-Interoperability",
+    "Context-Free Grammar",
+    "Diagnostic Error Reporting",
+    "Passage Navigation",
+    "Conditional Expression Evaluation",
+    "Trait-based Abstraction",
+    "Dynamic Typing",
+    "Scripting Runtime",
+    "Metadata Management",
+    "Serialized State"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "TypeScript",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 29,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "playground/src/lib.rs",
+      "src/lib.rs",
+      "src/parser.rs",
+      "src/runtime.rs"
+    ]
+  },
+  "_hash": "9dd9dd82b1ba43646f0e41fb03bf506877631f55c49ed6923b405a6225b6dfa6",
+  "_path": "/Users/ember/dev/spween",
+  "_updated_at": "2026-02-14T00:56:30.391343Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1edaa90493db0227e343aff42687e14ab18440833790f640c085a6c727749267",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:52.911679+00:00"
+  },
+  "mined_motifs": [
+    "lexer",
+    "parser",
+    "bison",
+    "flex",
+    "Intermediate Representation",
+    "Symbol Table Management",
+    "semantic-analysis",
+    "Abstract Syntax Trees",
+    "s-expression",
+    "Lexical Scoping",
+    "compiler",
+    "AST-driven Code Generation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.864
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.857
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.855
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.853
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.847
+    },
+    {
+      "name": "claudesurf",
+      "path": "/Users/ember/dev/claudesurf",
+      "similarity": 0.843
+    },
+    {
+      "name": "sol",
+      "path": "/Users/ember/dev/gh/forks/sol",
+      "similarity": 0.843
+    },
+    {
+      "name": "automatafl",
+      "path": "/Users/ember/dev/gh/automatafl",
+      "similarity": 0.841
+    }
+  ],
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "lexical-analysis",
+      "Recursive Descent Parsing",
+      "AST",
+      "Runtime Execution",
+      "State Modification",
+      "WebAssembly Bindings",
+      "YAML Frontmatter Parsing",
+      "Indentation-based Scoping",
+      "Effect Handlers",
+      "Branching Narratives",
+      "Domain-Specific Language",
+      "Game State Synchronization",
+      "Narrative Markup",
+      "WASM-Interoperability",
+      "Context-Free Grammar",
+      "Diagnostic Error Reporting",
+      "Passage Navigation",
+      "Conditional Expression Evaluation",
+      "Trait-based Abstraction",
+      "Dynamic Typing",
+      "Scripting Runtime",
+      "Metadata Management",
+      "Serialized State"
+    ],
+    "tags": [
+      "dsl",
+      "narrative",
+      "game-engine",
+      "interpreter",
+      "Rust Language Ecosystem",
+      "WebAssembly",
+      "interactive-fiction",
+      "Compiler Engineering",
+      "Lexical Analysis",
+      "parsing",
+      "abstract-syntax-tree",
+      "runtime",
+      "embedded-scripting",
+      "state-management",
+      "markup-language"
+    ],
+    "mined_motifs": [
+      "lexical-analysis",
+      "parser",
+      "bison",
+      "flex",
+      "Intermediate Representation",
+      "Symbol Table Management",
+      "semantic-analysis",
+      "AST",
+      "s-expression",
+      "Lexical Scoping",
+      "compiler-design",
+      "AST-driven Code Generation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 16.74,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression",
+          "compiler-design"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 13.945,
+        "matches": [
+          "abstract-syntax-tree",
+          "compiler-design",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 8.365,
+        "matches": [
+          "dsl",
+          "game-engine"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 8.308,
+        "matches": [
+          "compiler engineering",
+          "intermediate representation"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 6.95,
+        "matches": [
+          "webassembly",
+          "runtime"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.949,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:30.391343Z"
+  }
+}

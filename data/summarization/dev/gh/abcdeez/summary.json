@@ -1,0 +1,246 @@
+{
+  "name": "abcdeez",
+  "description": "An advanced research framework for adaptive graph-coded learning that implements cognitive modeling techniques to help users internalize complex graph-structured knowledge. The system leverages Bayesian learner models and Expected Information Gain (EIG) to optimize task selection, while employing Ex-Gaussian modeling for precise response time analysis. It supports diverse structural topologies including linear sequences, cycles, and partial orders, facilitating the study of mental model navigation and strategy transitions.",
+  "tags": [
+    "rust",
+    "cognitive-science",
+    "adaptive-learning",
+    "bayesian-modeling",
+    "graph-theory",
+    "expected-information-gain",
+    "ex-gaussian",
+    "xilem",
+    "axum",
+    "postgresql",
+    "research-framework",
+    "statistical-analysis",
+    "differential-privacy",
+    "federated-learning",
+    "mental-models"
+  ],
+  "category": "Computational Cognitive Modeling",
+  "concepts": [
+    "Expected Information Gain",
+    "Bayesian Inference",
+    "Graph-Coded Mental Models",
+    "Ex-Gaussian Distribution",
+    "Response Time Analysis",
+    "Topological Sorting",
+    "Hierarchical Bayes",
+    "Spaced Repetition",
+    "Chunking and Boundary Detection",
+    "Transfer Learning",
+    "Latent Node Embeddings",
+    "Bradley-Terry Models",
+    "KL Divergence",
+    "Monte Carlo Sampling",
+    "Differential Privacy Accounting",
+    "Federated Learning Networks",
+    "Mixed Effects Models",
+    "Strategy Mixture Detection",
+    "Symbolic Distance Effect",
+    "Cognitive Strategy Classification"
+  ],
+  "languages": [
+    "Rust",
+    "R",
+    "SQL",
+    "Shell",
+    "JavaScript",
+    "Swift"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 492,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "core/src/compliance/mod.rs",
+      "core/src/core/mod.rs",
+      "core/src/data/mod.rs",
+      "core/src/demo/mod.rs"
+    ]
+  },
+  "_hash": "fdf1ad828bc965f118f8607ee4bd74508e8ca87748c29ee25a1e51e7576cd1e5",
+  "_path": "/Users/ember/dev/gh/abcdeez",
+  "_updated_at": "2026-02-14T00:56:24.353453Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Expected Information Gain",
+      "Bayesian Inference",
+      "Graph-Coded Mental Models",
+      "Ex-Gaussian Distribution",
+      "Response Time Analysis",
+      "Topological Sorting",
+      "Hierarchical Bayes",
+      "Spaced Repetition",
+      "Chunking and Boundary Detection",
+      "Transfer Learning",
+      "Latent Node Embeddings",
+      "Bradley-Terry Models",
+      "KL Divergence",
+      "Monte Carlo Sampling",
+      "Differential Privacy Accounting",
+      "Federated Learning Networks",
+      "Mixed Effects Models",
+      "Strategy Mixture Detection",
+      "Symbolic Distance Effect",
+      "Cognitive Strategy Classification"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cognitive-science",
+      "adaptive-learning",
+      "bayesian-modeling",
+      "graph-theory",
+      "expected-information-gain",
+      "ex-gaussian",
+      "xilem",
+      "axum",
+      "postgresql",
+      "research-framework",
+      "statistical-analysis",
+      "differential-privacy",
+      "federated-learning",
+      "mental-models"
+    ],
+    "mined_motifs": [
+      "spaced-repetition",
+      "Bidirectional Access Mastery",
+      "Bradley-Terry/Luce Accuracy Model",
+      "Chunk Boundary Penalty",
+      "Confusability Matrices",
+      "Hierarchical Bayesian Updates",
+      "Longitudinal Analysis",
+      "Plateau Detection",
+      "Preregistration Compliance",
+      "Strategy Classification",
+      "Topological Navigation",
+      "bayesian-inference"
+    ],
+    "metaconstellations": [
+      {
+        "id": "cognitive-modeling-and-learning",
+        "name": "Cognitive Modeling & Learning",
+        "score": 12.549,
+        "matches": [
+          "bayesian-modeling",
+          "cognitive-science",
+          "graph-theory",
+          "expected information gain"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.176,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 3.728,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "embedded-persistence-storage",
+        "name": "Embedded Persistence & Storage Engines",
+        "score": 3.639,
+        "matches": [
+          "postgresql"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.533,
+        "matches": [
+          "category:Computational Cognitive Modeling"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 2.418,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.353453Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "babc6bba8cd7a05b7af06d547a8d8bbbd599d60558bd6fad1c0bddc8f7ef57c0",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:22.128428+00:00"
+  },
+  "mined_motifs": [
+    "spaced-repetition",
+    "Bidirectional Access Mastery",
+    "Bradley-Terry/Luce Accuracy Model",
+    "Chunk Boundary Penalty",
+    "Confusability Matrices",
+    "Hierarchical Bayesian Updates",
+    "Longitudinal Analysis",
+    "Plateau Detection",
+    "Preregistration Compliance",
+    "Strategy Classification",
+    "Topological Navigation",
+    "bayesian-inference"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "abcdeez2",
+      "path": "/Users/ember/dev/abcdeez2",
+      "similarity": 0.94
+    },
+    {
+      "name": "abcdeez",
+      "path": "/Users/ember/dev/abcdeez",
+      "similarity": 0.929
+    },
+    {
+      "name": "catgrad",
+      "path": "/Users/ember/hellas/eggrad",
+      "similarity": 0.773
+    },
+    {
+      "name": "neural-assemblies",
+      "path": "/Users/ember/dev/neural-assemblies",
+      "similarity": 0.746
+    },
+    {
+      "name": "app.factshift.com",
+      "path": "/Users/ember/dev/app.factshift.com",
+      "similarity": 0.741
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.741
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.738
+    },
+    {
+      "name": "cs344",
+      "path": "/Users/ember/dev/gh/cs344",
+      "similarity": 0.738
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "name": "megastructure-maintenance-crew",
+  "description": "A modular fantasy job simulation engine built with TypeScript and Vite, implementing a complex state-driven narrative within a dreamlike megastructure environment. The system features a specialized 'Dreamscape' navigation layer that calculates spatial familiarity through route traversal metrics to dynamically inject procedural environmental clues. Its architecture leverages a central event bus to coordinate subsystems for multi-phase shift cycles, interactive systems maintenance, and real-time ambient audio synthesis using the Web Audio API.",
+  "tags": [
+    "typescript",
+    "vite",
+    "web-audio-api",
+    "procedural-generation",
+    "game-engine",
+    "simulation",
+    "state-management",
+    "event-driven",
+    "narrative-design",
+    "interactive-fiction",
+    "sci-fi",
+    "dream-logic"
+  ],
+  "category": "Spatial-Cognitive Narrative Simulation",
+  "concepts": [
+    "State-driven Dialogue Trees",
+    "Route Familiarity Heuristics",
+    "Procedural Ambient Audio Synthesis",
+    "Multi-phase Shift Lifecycle",
+    "Event-driven Architecture",
+    "Hotspot-based Navigation",
+    "CSS Procedural Background Generation",
+    "Entropy-driven System Degradation",
+    "Dream-logic Environmental Clues",
+    "Relationship State Tracking",
+    "Web Audio API Oscillator Modulation",
+    "Type-safe Scene Management",
+    "Local Storage State Serialization",
+    "Interactive Maintenance Mechanics",
+    "Dynamic Low-pass Filter Automation",
+    "Shift-based Task Scheduling",
+    "Asynchronous Typewriter Rendering",
+    "Spatial Disorientation Modeling",
+    "UI Layer Abstraction",
+    "Environmental Hint Injection",
+    "Atmospheric Urgency Scaling",
+    "Modular Game Subsystems",
+    "Deterministic State Transitions",
+    "Character Portrait Logic"
+  ],
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 34,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/data/scenes/index.ts",
+      "src/types/index.ts",
+      "src/data/scenes/locations.ts",
+      "src/systems/MaintenanceSystem.ts"
+    ]
+  },
+  "_hash": "508218180b7b1ecccacafd533865e2fe6a9e4756be5b10dc4bf78c7a290157ed",
+  "_path": "/Users/ember/dev/megastructure-maintenance-crew",
+  "_updated_at": "2026-02-14T00:56:29.344268Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "State-driven Dialogue Trees",
+      "Route Familiarity Heuristics",
+      "Procedural Ambient Audio Synthesis",
+      "Multi-phase Shift Lifecycle",
+      "Event-driven Architecture",
+      "Hotspot-based Navigation",
+      "CSS Procedural Background Generation",
+      "Entropy-driven System Degradation",
+      "Dream-logic Environmental Clues",
+      "Relationship State Tracking",
+      "Web Audio API Oscillator Modulation",
+      "Type-safe Scene Management",
+      "Local Storage State Serialization",
+      "Interactive Maintenance Mechanics",
+      "Dynamic Low-pass Filter Automation",
+      "Shift-based Task Scheduling",
+      "Asynchronous Typewriter Rendering",
+      "Spatial Disorientation Modeling",
+      "UI Layer Abstraction",
+      "Environmental Hint Injection",
+      "Atmospheric Urgency Scaling",
+      "Modular Game Subsystems",
+      "Deterministic State Transitions",
+      "Character Portrait Logic"
+    ],
+    "tags": [
+      "typescript",
+      "vite",
+      "web-audio-api",
+      "Procedural Generation",
+      "game-engine",
+      "real-time-simulation",
+      "state-management",
+      "event-driven",
+      "narrative-design",
+      "interactive-fiction",
+      "sci-fi",
+      "dream-logic"
+    ],
+    "mined_motifs": [
+      "multiplayer",
+      "physics-engine",
+      "AST-driven Code Generation",
+      "Achievement-Linked Progression Logic",
+      "Automated Playtest Simulation",
+      "Branching Narrative DSL",
+      "Card-Based Inventory Mechanics",
+      "Chronicle-based Event Logging",
+      "Component-Based Ship Upgrades",
+      "Deterministic Game State Persistence",
+      "Faction Reputation Modeling",
+      "Finite State Machine Controller"
+    ],
+    "metaconstellations": [
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.384,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.366,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 5.357,
+        "matches": [
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.356,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.313,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "deterministic-simulation",
+        "name": "Deterministic & Temporal Simulation",
+        "score": 3.77,
+        "matches": [
+          "physics-engine"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.344268Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "1ea9b11ff1ffac9d0d53080d0b90be86d4cff65045c14109bb3e83c63b11d2b9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:55.753363+00:00"
+  },
+  "mined_motifs": [
+    "multiplayer",
+    "physics-engine",
+    "AST-driven Code Generation",
+    "Achievement-Linked Progression Logic",
+    "Automated Playtest Simulation",
+    "Branching Narrative DSL",
+    "Card-Based Inventory Mechanics",
+    "Chronicle-based Event Logging",
+    "Component-Based Ship Upgrades",
+    "Deterministic Game State Persistence",
+    "Faction Reputation Modeling",
+    "Finite State Machine Controller"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.826
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.815
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.815
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.804
+    },
+    {
+      "name": "Baystation12",
+      "path": "/Users/ember/dev/gh/forks/Baystation12",
+      "similarity": 0.788
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.782
+    },
+    {
+      "name": "chaingang",
+      "path": "/Users/ember/dev/chaingang",
+      "similarity": 0.782
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.779
+    }
+  ]
+}

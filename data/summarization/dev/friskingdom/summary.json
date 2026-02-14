@@ -1,0 +1,246 @@
+{
+  "name": "friskingdom",
+  "description": "Friskingdom is a modular Ultimate Frisbee simulation engine developed in Rust using the Bevy ECS framework, prioritizing authentic disc aerodynamics and wind-field interactions. The architecture decouples core physics from strategic AI behavior and procedural audio synthesis, which includes a custom subtractive synthesizer for real-time sound generation. It features a comprehensive rendering pipeline for stylized stickman animations and dynamic field environments, supported by a suite of developer tools for system debugging and asset generation.",
+  "tags": [
+    "frisbee",
+    "physics-engine",
+    "bevy-engine",
+    "ecs",
+    "aerodynamics",
+    "ai-simulation",
+    "procedural-audio",
+    "rust-game",
+    "ultimate-frisbee",
+    "sports-sim",
+    "synthesizer",
+    "netcode",
+    "stickman-animation",
+    "mcp-server",
+    "vfx-pipeline"
+  ],
+  "category": "Aerodynamic Sports Simulation",
+  "concepts": [
+    "Rigid Body Dynamics",
+    "Laminar Flow Modeling",
+    "Entity Component System",
+    "Hierarchical State Machines",
+    "Subtractive Audio Synthesis",
+    "Spatial Audio Processing",
+    "Bloom Post-Processing",
+    "Procedural Mesh Generation",
+    "Behavioral AI Dispatch",
+    "Wind Velocity Fields",
+    "Fixed-Step Simulation",
+    "State Dump Serialization",
+    "Reactive Commentary Logic",
+    "Envelope Modulation",
+    "Camera Rig Systems",
+    "Integration Testing Scenarios",
+    "Game Flow Orchestration",
+    "Asset Generation Pipelines",
+    "Model Context Protocol",
+    "Distance Fog Rendering",
+    "LTO Optimization",
+    "Workspace-Level Dependency Management"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 147,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "crates/fk-ai/src/lib.rs",
+      "crates/fk-audio/src/crowd/mod.rs",
+      "crates/fk-audio/src/lib.rs",
+      "crates/fk-audio/src/music/mod.rs"
+    ]
+  },
+  "_hash": "ec6987c9513f55f4c867c61a0091d25258026edeaaba1620ebe9003432e04764",
+  "_path": "/Users/ember/dev/friskingdom",
+  "_updated_at": "2026-02-14T00:56:24.116104Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Rigid Body Dynamics",
+      "Laminar Flow Modeling",
+      "Entity Component System",
+      "Hierarchical State Machines",
+      "Subtractive Audio Synthesis",
+      "Spatial Audio Processing",
+      "Bloom Post-Processing",
+      "Procedural Mesh Generation",
+      "Behavioral AI Dispatch",
+      "Wind Velocity Fields",
+      "Fixed-Step Simulation",
+      "State Dump Serialization",
+      "Reactive Commentary Logic",
+      "Envelope Modulation",
+      "Camera Rig Systems",
+      "Integration Testing Scenarios",
+      "Game Flow Orchestration",
+      "Asset Generation Pipelines",
+      "Model Context Protocol",
+      "Distance Fog Rendering",
+      "LTO Optimization",
+      "Workspace-Level Dependency Management"
+    ],
+    "tags": [
+      "frisbee",
+      "physics-engine",
+      "bevy-engine",
+      "ecs",
+      "aerodynamics",
+      "ai-simulation",
+      "procedural-audio",
+      "rust-game",
+      "ultimate-frisbee",
+      "sports-sim",
+      "synthesizer",
+      "netcode",
+      "stickman-animation",
+      "Model Context Protocol",
+      "vfx-pipeline"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "python",
+      "webgl",
+      "thermodynamics",
+      "multiplayer",
+      "game-engine",
+      "Procedural Generation",
+      "LAN relay networking protocol",
+      "UI-based match configuration",
+      "WASM-to-TypeScript interoperability"
+    ],
+    "metaconstellations": [
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 8.263,
+        "matches": [
+          "ecs",
+          "procedural generation"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.545,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.451,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.431,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.43,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.372,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.116104Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "4e84a28c4c5f8e8cdafe93ef841fa65563215d2a19913fbbcb34e54a72af8ac4",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:08.579178+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "simulation",
+    "python",
+    "webgl",
+    "thermodynamics",
+    "real-time",
+    "multiplayer",
+    "game-engine",
+    "procedural-generation",
+    "LAN relay networking protocol",
+    "UI-based match configuration",
+    "WASM-to-TypeScript interoperability"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "frisqueendom",
+      "path": "/Users/ember/dev/frisqueendom",
+      "similarity": 0.896
+    },
+    {
+      "name": "engine-sim",
+      "path": "/Users/ember/src/engine-sim",
+      "similarity": 0.858
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.838
+    },
+    {
+      "name": "accordion-sim",
+      "path": "/Users/ember/dev/accordion-sim",
+      "similarity": 0.836
+    },
+    {
+      "name": "Baystation12",
+      "path": "/Users/ember/dev/gh/forks/Baystation12",
+      "similarity": 0.821
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.82
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.811
+    },
+    {
+      "name": "slipways-core",
+      "path": "/Users/ember/dev/slipways-core",
+      "similarity": 0.81
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "name": "pinatatown",
+  "description": "Pinatatown is an agent-based colony simulation engine developed with Phaser 3 and TypeScript, featuring a sophisticated goal-oriented AI system that governs autonomous entity behaviors through personality traits and perception modeling. The architecture employs an isometric world representation with A* pathfinding, dynamic zone management, and a modular system approach for handling farming, construction, and seasonal environmental cycles. Subsystem communication is orchestrated via a central event bus, enabling emergent gameplay through complex relationship dynamics and predator-prey interactions.",
+  "tags": [
+    "Phaser 3",
+    "TypeScript",
+    "Colony Simulation",
+    "Agent-based AI",
+    "Isometric Engine",
+    "A* Pathfinding",
+    "Resource Economy",
+    "Emergent Behavior",
+    "Event-driven Architecture",
+    "Vite",
+    "Game Design",
+    "Simulation",
+    "Behavioral Modeling",
+    "Game Development"
+  ],
+  "category": "Agent-based Colony Simulation",
+  "concepts": [
+    "Goal-based AI",
+    "Trait-driven Behavior",
+    "Isometric Coordinate Transformation",
+    "A* Pathfinding",
+    "Dynamic Zone Management",
+    "Seasonal Environmental Transitions",
+    "Day/Night Cycle",
+    "Resource Lifecycle Management",
+    "Perception Modeling",
+    "Entity Relationship Graphs",
+    "Mental Break Logic",
+    "Event Bus Communication",
+    "Sprite Depth Sorting",
+    "Crop Growth Simulation",
+    "Building Construction Logic",
+    "Predator-Prey Dynamics",
+    "Species Attraction Requirements",
+    "UI HUD Architecture",
+    "Challenge Framework",
+    "Isometric Tile Mapping",
+    "Priority-based Goal Queuing",
+    "Spatial Partitioning",
+    "Task Assignment Systems",
+    "Entity State Machines",
+    "Isometric Projection",
+    "Sandbox Simulation",
+    "Needs-based Motivation",
+    "Game Loop Orchestration"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 44,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "src/entities/Pinata.ts",
+      "src/scenes/GameScene.ts",
+      "src/systems/BuildingSystem.ts",
+      "src/ui/GameUI.ts"
+    ]
+  },
+  "_hash": "72cdf7ae9e8c5226caf86cae9039be85fee3265520486df129f3d2e5fd269bbc",
+  "_path": "/Users/ember/dev/pinatatown",
+  "_updated_at": "2026-02-14T00:56:29.845966Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Goal-based AI",
+      "Trait-driven Behavior",
+      "Isometric Coordinate Transformation",
+      "A* Pathfinding",
+      "Dynamic Zone Management",
+      "Seasonal Environmental Transitions",
+      "Day/Night Cycle",
+      "Resource Lifecycle Management",
+      "Perception Modeling",
+      "Entity Relationship Graphs",
+      "Mental Break Logic",
+      "Event Bus Communication",
+      "Sprite Depth Sorting",
+      "Crop Growth Simulation",
+      "Building Construction Logic",
+      "Predator-Prey Dynamics",
+      "Species Attraction Requirements",
+      "UI HUD Architecture",
+      "Challenge Framework",
+      "Isometric Tile Mapping",
+      "Priority-based Goal Queuing",
+      "Spatial Partitioning",
+      "Task Assignment Systems",
+      "Entity State Machines",
+      "Isometric Projection",
+      "Sandbox Simulation",
+      "Needs-based Motivation",
+      "Game Loop Orchestration"
+    ],
+    "tags": [
+      "Phaser 3",
+      "TypeScript",
+      "Colony Simulation",
+      "Agent-based AI",
+      "Isometric Engine",
+      "A* Pathfinding",
+      "Resource Economy",
+      "Emergent Behavior",
+      "Event-driven Architecture",
+      "Vite",
+      "Game Design",
+      "real-time-simulation",
+      "Behavioral Modeling",
+      "Game Development"
+    ],
+    "mined_motifs": [
+      "game-design",
+      "cellular-automata",
+      "spatial-computing",
+      "visualization",
+      "canvas-api",
+      "Resource Acquisition Is Initialization (RAII)",
+      "react",
+      "game-engine",
+      "HTTP-based simulation bridge",
+      "JSON state serialization",
+      "RESTful state synchronization",
+      "TCP socket configuration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 6.706,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 6.536,
+        "matches": [
+          "emergent behavior",
+          "category:Agent-based Colony Simulation"
+        ]
+      },
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 5.35,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.335,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 5.156,
+        "matches": [
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 3.763,
+        "matches": [
+          "cellular-automata"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.845966Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bd12e8b3a28c8069f8aade660eb93b5885c9802c05139fc1f35b504927c66d12",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:57:20.950225+00:00"
+  },
+  "mined_motifs": [
+    "game-design",
+    "cellular-automata",
+    "spatial-computing",
+    "visualization",
+    "canvas-api",
+    "resource-management",
+    "react",
+    "game-engine",
+    "HTTP-based simulation bridge",
+    "JSON state serialization",
+    "RESTful state synchronization",
+    "TCP socket configuration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "antfarm",
+      "path": "/Users/ember/dev/gh/antfarm",
+      "similarity": 0.799
+    },
+    {
+      "name": "blackwing-v0",
+      "path": "/Users/ember/dev/blackwing-v0",
+      "similarity": 0.798
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.795
+    },
+    {
+      "name": "tinytable",
+      "path": "/Users/ember/dev/tinytable",
+      "similarity": 0.791
+    },
+    {
+      "name": "green-factory",
+      "path": "/Users/ember/dev/green-factory",
+      "similarity": 0.787
+    },
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.785
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.782
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.782
+    }
+  ]
+}

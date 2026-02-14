@@ -1,0 +1,238 @@
+{
+  "name": "static",
+  "description": "A static file-serving middleware for the Iron web framework that maps URL paths to local filesystem resources. It supports automated directory index resolution, trailing slash redirection for path normalization, and integrates a specialized caching handler using Last-Modified headers for 304 Not Modified responses. The implementation provides a modular interface for serving assets with accurate MIME type detection via conduit-mime-types.",
+  "tags": [
+    "rust",
+    "iron-framework",
+    "middleware",
+    "static-files",
+    "http-server",
+    "caching",
+    "mime-types",
+    "web-development",
+    "filesystem-io",
+    "request-handler"
+  ],
+  "category": "Static Content Delivery Middleware",
+  "concepts": [
+    "Static File Serving",
+    "Middleware Pattern",
+    "HTTP Caching",
+    "MIME Type Resolution",
+    "Directory Indexing",
+    "URL Path Normalization",
+    "304 Not Modified",
+    "HTTP Redirects",
+    "Filesystem Metadata",
+    "Request Routing",
+    "Response Modifiers",
+    "Iron Middleware Pipeline",
+    "Last-Modified Headers",
+    "If-Modified-Since Validation",
+    "URI Path Parsing",
+    "Relative Path Resolution",
+    "Absolute Path Handling",
+    "HTTP 301 Redirects",
+    "HTTP 404 Error Handling",
+    "MIME Database Integration",
+    "Rust Compiler Plugins",
+    "Procedural Macros",
+    "Iron Handler Trait",
+    "Unit Testing",
+    "Integration Testing",
+    "Project Scaffolding",
+    "Crate Aliasing",
+    "Mock Requests"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 12,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "tests/cache.rs",
+      "src/static_handler.rs",
+      "src/cache_handler.rs"
+    ]
+  },
+  "_hash": "0cb64760371af4d421865861f7f51de31716e36a25b89f3cbed16622ece730d7",
+  "_path": "/Users/ember/dev/gh/forks/static",
+  "_updated_at": "2026-02-14T00:56:26.958981Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "Static File Serving",
+      "Middleware Pattern",
+      "HTTP Caching",
+      "MIME Type Resolution",
+      "Directory Indexing",
+      "URL Path Normalization",
+      "304 Not Modified",
+      "HTTP Redirects",
+      "Filesystem Metadata",
+      "Request Routing",
+      "Response Modifiers",
+      "Iron Middleware Pipeline",
+      "Last-Modified Headers",
+      "If-Modified-Since Validation",
+      "URI Path Parsing",
+      "Relative Path Resolution",
+      "Absolute Path Handling",
+      "HTTP 301 Redirects",
+      "HTTP 404 Error Handling",
+      "MIME Database Integration",
+      "Rust Compiler Plugins",
+      "Procedural Macros",
+      "Iron Handler Trait",
+      "Unit Testing",
+      "Integration Testing",
+      "Project Scaffolding",
+      "Crate Aliasing",
+      "Mock Requests"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "iron-framework",
+      "middleware",
+      "static-files",
+      "http-server",
+      "caching",
+      "mime-types",
+      "web-development",
+      "filesystem-io",
+      "request-handler"
+    ],
+    "mined_motifs": [
+      "backend",
+      "routing",
+      "Middleware Composition",
+      "web-framework",
+      "Future-based Concurrency",
+      "TCP Socket Binding",
+      "axum",
+      "microservice",
+      "Asynchronous Programming",
+      "rest-api",
+      "Context Preservation",
+      "Hierarchical Dispatching"
+    ],
+    "metaconstellations": [
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 5.24,
+        "matches": [
+          "asynchronous programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.195,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 2.409,
+        "matches": []
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 2.406,
+        "matches": []
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 2.387,
+        "matches": []
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 2.383,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.958981Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "ab085aae65f3c1ec0988550603b8ec22c01949521af22287553124506eb4aeb3",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:32.917920+00:00"
+  },
+  "mined_motifs": [
+    "backend",
+    "routing",
+    "Middleware Composition",
+    "web-framework",
+    "Future-based Concurrency",
+    "TCP Socket Binding",
+    "axum",
+    "microservice",
+    "tokio",
+    "rest-api",
+    "Context Preservation",
+    "Hierarchical Dispatching"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "mount",
+      "path": "/Users/ember/dev/gh/forks/mount",
+      "similarity": 0.812
+    },
+    {
+      "name": "persistent",
+      "path": "/Users/ember/dev/gh/forks/persistent",
+      "similarity": 0.803
+    },
+    {
+      "name": "iron-test",
+      "path": "/Users/ember/dev/gh/forks/iron-test",
+      "similarity": 0.776
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.775
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.774
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.769
+    },
+    {
+      "name": "alexandria-server",
+      "path": "/Users/ember/dev/gh/alexandria-server",
+      "similarity": 0.767
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.766
+    }
+  ]
+}

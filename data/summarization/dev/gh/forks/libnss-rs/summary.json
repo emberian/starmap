@@ -1,0 +1,218 @@
+{
+  "name": "libnss-rs",
+  "description": "A Rust framework for developing Name Service Switch (NSS) modules, providing safe abstractions and macros for implementing glibc-compatible C dynamic libraries. It supports standard system databases including passwd, shadow, group, and hosts by handling complex C-interop memory management and buffer allocation.",
+  "tags": [
+    "rust",
+    "libnss",
+    "glibc",
+    "ffi",
+    "system-programming",
+    "authentication",
+    "linux-system",
+    "interop",
+    "nss-module",
+    "low-level",
+    "posix"
+  ],
+  "category": "System Name Service Infrastructure",
+  "concepts": [
+    "Foreign Function Interface (FFI)",
+    "Memory Buffer Management",
+    "POSIX User Identity",
+    "Dynamic Linker Configuration",
+    "C-compatible Struct Representation",
+    "Macro-based Code Generation",
+    "Glibc Service Provider Interface",
+    "Database Query Hooks"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 16,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "example-hardcoded/src/lib.rs",
+      "libnss/src/lib.rs",
+      "libnss/src/host.rs",
+      "libnss/src/interop.rs"
+    ]
+  },
+  "_hash": "6ceb102adb7702b6182f06dac445db4f715b0ea0fb5993e2395b310f713f4428",
+  "_path": "/Users/ember/dev/gh/forks/libnss-rs",
+  "_updated_at": "2026-02-14T00:56:25.980576Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "foreign-function-interface",
+      "Memory Buffer Management",
+      "POSIX User Identity",
+      "Dynamic Linker Configuration",
+      "C-compatible Struct Representation",
+      "Macro-based Code Generation",
+      "Glibc Service Provider Interface",
+      "Database Query Hooks"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "libnss",
+      "glibc",
+      "foreign-function-interface",
+      "systems-programming",
+      "authentication",
+      "linux-system",
+      "interop",
+      "nss-module",
+      "posix"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "linux",
+      "foreign-function-interface",
+      "IO Control",
+      "ioctl",
+      "libc",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Memory Management",
+      "Signal Handling",
+      "Reference Counting",
+      "Foreign Function Interface",
+      "Asynchronous I/O"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 12.517,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming",
+          "ioctl",
+          "libc",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 12.49,
+        "matches": [
+          "foreign function interface",
+          "rust language ecosystem",
+          "systems programming",
+          "posix"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 9.721,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)",
+          "libc"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 8.319,
+        "matches": [
+          "posix",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.485,
+        "matches": [
+          "foreign function interface"
+        ]
+      },
+      {
+        "id": "low-level-system-abstractions",
+        "name": "Low-Level System Abstractions",
+        "score": 3.999,
+        "matches": [
+          "ioctl"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.980576Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5e449dadcbcb47ed95eba6fb11e7b99c78168dd09784aa4aaa851e81026eec35",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:50.306908+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "linux",
+    "Foreign Function Interface",
+    "IO Control",
+    "ioctl",
+    "libc",
+    "resource-management",
+    "Memory Management",
+    "Signal Handling",
+    "Reference Counting",
+    "bindings",
+    "Asynchronous I/O"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "nix-rust",
+      "path": "/Users/ember/dev/gh/forks/nix-rust",
+      "similarity": 0.873
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.87
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.863
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.855
+    },
+    {
+      "name": "rust-signal",
+      "path": "/Users/ember/dev/gh/rust-signal",
+      "similarity": 0.853
+    },
+    {
+      "name": "udev-dl",
+      "path": "/Users/ember/dev/gh/udev-dl",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.848
+    },
+    {
+      "name": "dbus-rust",
+      "path": "/Users/ember/dev/gh/forks/dbus-rust",
+      "similarity": 0.843
+    }
+  ]
+}

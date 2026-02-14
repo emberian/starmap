@@ -1,0 +1,234 @@
+{
+  "name": "racket-capnp",
+  "description": "A nascent implementation of the Cap'n Proto serialization protocol for the Racket language, focused on providing efficient, zero-copy data interchange. It implements low-level primitives for word-aligned memory management, pointer-based data traversal, and untyped message access. The project serves as an exploratory foundation for bridging Racket-based capability systems like Spritely Goblins with the Cap'n Proto RPC ecosystem.",
+  "tags": [
+    "racket",
+    "capnp",
+    "serialization",
+    "rpc",
+    "binary-format",
+    "zero-copy",
+    "capability-security",
+    "message-passing",
+    "functional-programming",
+    "data-interchange",
+    "low-level",
+    "wire-format"
+  ],
+  "category": "Zero-copy Serialization Protocols",
+  "concepts": [
+    "Zero-copy serialization",
+    "Binary wire formats",
+    "Word-aligned memory layout",
+    "Capability-based RPC foundations",
+    "Pointer-based data structures",
+    "Message framing",
+    "Segmented message architecture",
+    "Untyped dynamic access",
+    "Offset-based addressing",
+    "Bit-level data manipulation",
+    "Racket byte-vector primitives",
+    "Schema-less traversal",
+    "Message segments",
+    "Root pointers",
+    "Far pointers",
+    "Data alignment constraints",
+    "List encoding",
+    "Struct encoding",
+    "Union encoding",
+    "Canonicalization",
+    "Capability-based addressing"
+  ],
+  "languages": [
+    "Racket"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "30c54c3f16d21ea8ff9e2bef9c117c338ff70219f225f0a0d43f7589851329b2",
+  "_path": "/Users/ember/src/racket-capnp",
+  "_updated_at": "2026-02-14T00:56:33.468317Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "02dd3cd788a69388d9f586c18500c81b1e7965d44fa95e1d36837c4af25d4454",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:59.201159+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "binary-protocol",
+    "capnproto",
+    "schema-compiler",
+    "performance",
+    "lisp",
+    "scheme",
+    "Arena-based Memory Management",
+    "Binary Schema Compilation",
+    "Canonical Memory Mapping",
+    "Endian-agnostic Layout",
+    "In-place Message Mutation"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "capnproto-rust",
+      "path": "/Users/ember/dev/gh/forks/capnproto-rust",
+      "similarity": 0.937
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.919
+    },
+    {
+      "name": "serde_bare",
+      "path": "/Users/ember/hellas/serde_bare",
+      "similarity": 0.893
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.889
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.882
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.882
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.879
+    },
+    {
+      "name": "syrup",
+      "path": "/Users/ember/src/syrup",
+      "similarity": 0.876
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Serialization & Formats",
+    "concepts": [
+      "Zero-copy serialization",
+      "Binary wire formats",
+      "Word-aligned memory layout",
+      "Capability-based RPC foundations",
+      "Pointer-based data structures",
+      "Message framing",
+      "Segmented message architecture",
+      "Untyped dynamic access",
+      "Offset-based addressing",
+      "Bit-level data manipulation",
+      "Racket byte-vector primitives",
+      "Schema-less traversal",
+      "Message segments",
+      "Root pointers",
+      "Far pointers",
+      "Data alignment constraints",
+      "List encoding",
+      "Struct encoding",
+      "Union encoding",
+      "Canonicalization",
+      "Capability-based addressing"
+    ],
+    "tags": [
+      "racket",
+      "capnp",
+      "Data Serialization",
+      "rpc",
+      "binary-format",
+      "zero-copy",
+      "capability-security",
+      "message-passing",
+      "functional-programming",
+      "data-interchange",
+      "systems-programming",
+      "wire-format"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "binary-protocol",
+      "capnproto",
+      "schema-compiler",
+      "performance",
+      "lisp",
+      "scheme",
+      "Arena-based Memory Management",
+      "Binary Schema Compilation",
+      "Canonical Memory Mapping",
+      "Endian-agnostic Layout",
+      "In-place Message Mutation"
+    ],
+    "metaconstellations": [
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 11.058,
+        "matches": [
+          "binary-format",
+          "zero-copy",
+          "capnp",
+          "category:Zero-copy Serialization Protocols"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 7.015,
+        "matches": [
+          "data serialization",
+          "schema-compiler"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 5.59,
+        "matches": [
+          "capability-security"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.559,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.555,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 4.139,
+        "matches": [
+          "rpc"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.468317Z"
+  }
+}

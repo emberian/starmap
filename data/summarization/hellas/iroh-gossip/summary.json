@@ -1,0 +1,242 @@
+{
+  "name": "iroh-gossip",
+  "description": "An implementation of the iroh-gossip protocol providing efficient message dissemination via epidemic broadcast trees. It leverages the HyParView membership protocol for robust peer sampling and the PlumTree algorithm for tree-based gossip, offering a tiered architecture with an IO-less state machine and an optional networking layer integrated with iroh-net.",
+  "tags": [
+    "gossip-protocol",
+    "p2p",
+    "epidemic-broadcast",
+    "rust",
+    "hyparview",
+    "plumtree",
+    "iroh",
+    "membership-protocol",
+    "distributed-systems",
+    "networking",
+    "state-machine",
+    "simulations",
+    "pubsub",
+    "async-rust",
+    "rpc"
+  ],
+  "category": "Epidemic Gossip Protocols",
+  "concepts": [
+    "Epidemic Broadcast Trees",
+    "Partial View Membership",
+    "Eager Push Strategy",
+    "Lazy Push Strategy",
+    "Peer Sampling Service",
+    "IO-less State Machine",
+    "Tree Optimization",
+    "Byzantine Fault Tolerance",
+    "Discrete Event Simulation",
+    "ALPN Multiplexing",
+    "Authenticated Gossip",
+    "Relay-Assisted NAT Traversal",
+    "Message Deduplication",
+    "Active/Passive Peer Views",
+    "Shuffle Operations"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 32,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/net.rs",
+      "src/proto/sim.rs",
+      "src/proto/plumtree.rs"
+    ]
+  },
+  "_hash": "17402c6647772cff93e4ac2afa860eee7edebd11f3f21f088dba00d793c61c0d",
+  "_path": "/Users/ember/hellas/iroh-gossip",
+  "_updated_at": "2026-02-14T00:56:31.619555Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "bd65026bd6cbb826cb5989bfdb1116f01bb0e12f28429d8f29511fe7d6d7ccde",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:37.117278+00:00"
+  },
+  "mined_motifs": [
+    "quic",
+    "content-addressing",
+    "redb",
+    "Byzantine Fault Tolerance (BFT)",
+    "byzantine-fault-tolerance",
+    "Content-Addressable Storage",
+    "Connection State Tracking",
+    "bao",
+    "blake3",
+    "verified-streaming",
+    "quorum-certificates",
+    "consensus-protocol"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "iroh-gossip",
+      "path": "/Users/ember/dev/gh/forks/iroh-gossip",
+      "similarity": 0.928
+    },
+    {
+      "name": "iroh",
+      "path": "/Users/ember/hellas/iroh",
+      "similarity": 0.752
+    },
+    {
+      "name": "iroh-blobs",
+      "path": "/Users/ember/hellas/iroh-blobs",
+      "similarity": 0.723
+    },
+    {
+      "name": "iroh-blobs",
+      "path": "/Users/ember/dev/gh/forks/iroh-blobs",
+      "similarity": 0.72
+    },
+    {
+      "name": "glosco",
+      "path": "/Users/ember/dev/glosco",
+      "similarity": 0.709
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.709
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.705
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.704
+    }
+  ],
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Networking",
+    "concepts": [
+      "Epidemic Broadcast Trees",
+      "Partial View Membership",
+      "Eager Push Strategy",
+      "Lazy Push Strategy",
+      "Peer Sampling Service",
+      "IO-less State Machine",
+      "Tree Optimization",
+      "distributed-systems",
+      "Discrete Event Simulation",
+      "ALPN Multiplexing",
+      "Authenticated Gossip",
+      "Relay-Assisted NAT Traversal",
+      "Message Deduplication",
+      "Active/Passive Peer Views",
+      "Shuffle Operations"
+    ],
+    "tags": [
+      "gossip-protocol",
+      "p2p",
+      "epidemic-broadcast",
+      "Rust Language Ecosystem",
+      "hyparview",
+      "plumtree",
+      "iroh",
+      "membership-protocol",
+      "distributed-systems",
+      "networking",
+      "state-machine",
+      "simulations",
+      "pubsub",
+      "rust",
+      "rpc"
+    ],
+    "mined_motifs": [
+      "quic",
+      "Content-Addressable Storage (CAS)",
+      "redb",
+      "byzantine-fault-tolerance",
+      "Connection State Tracking",
+      "bao",
+      "blake3",
+      "verified-streaming",
+      "quorum-certificates",
+      "Distributed Consensus"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-addressed-p2p",
+        "name": "Content-Addressed P2P Infrastructure",
+        "score": 14.975,
+        "matches": [
+          "p2p",
+          "quic",
+          "verified-streaming",
+          "bao",
+          "blake3",
+          "iroh"
+        ]
+      },
+      {
+        "id": "decentralized-p2p-networking",
+        "name": "Decentralized P2P Networking",
+        "score": 10.76,
+        "matches": [
+          "content-addressable storage (cas)",
+          "quic",
+          "iroh",
+          "p2p"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 9.238,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "distributed-systems",
+          "rpc"
+        ]
+      },
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 7.974,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "quorum-certificates"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 7.932,
+        "matches": [
+          "distributed consensus",
+          "p2p",
+          "rpc"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 7.838,
+        "matches": [
+          "distributed-systems",
+          "p2p"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.619555Z"
+  }
+}

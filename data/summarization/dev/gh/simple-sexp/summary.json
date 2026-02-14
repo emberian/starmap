@@ -1,0 +1,235 @@
+{
+  "name": "simple-sexp",
+  "description": "A minimalist implementation of symbolic expression (S-expression) parsing and serialization leveraging algebraic data types in an early dialect of Rust. It features a recursive descent parser and a peekable character-based lexer to transform string inputs into nested list structures and atomic primitives. The library provides a foundational data model and formatter for Lisp-like data interchange and symbolic computation.",
+  "tags": [
+    "rust",
+    "s-expression",
+    "parsing",
+    "lexer",
+    "ast",
+    "symbolic-logic",
+    "serialization",
+    "lisp",
+    "parser",
+    "tokenization",
+    "syntax-tree"
+  ],
+  "category": "Symbolic Expression Parsing",
+  "concepts": [
+    "S-expressions",
+    "Lexical Analysis",
+    "Recursive Descent Parsing",
+    "Algebraic Data Types",
+    "Symbolic Computation",
+    "Tokenization",
+    "Peekable Iterators",
+    "Abstract Syntax Trees",
+    "Data Serialization",
+    "Lisp Data Structures",
+    "Recursive Data Types",
+    "Functional Programming Patterns",
+    "Pattern Matching",
+    "Character Stream Processing",
+    "String Buffer Management",
+    "Numeric Parsing",
+    "Identity Predicates",
+    "Trait Implementation",
+    "Early Rust Dialect",
+    "Property-based Testing",
+    "Recursive Evaluation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs"
+    ]
+  },
+  "_hash": "36b2554f20ddd87d118691d039bb3c1a25a96b0c9c43fcb60a35306ecafcd4de",
+  "_path": "/Users/ember/dev/gh/simple-sexp",
+  "_updated_at": "2026-02-14T00:56:28.643298Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "S-expressions",
+      "lexical-analysis",
+      "Recursive Descent Parsing",
+      "Algebraic Data Types",
+      "Symbolic Computation",
+      "Peekable Iterators",
+      "AST",
+      "Data Serialization",
+      "Lisp Data Structures",
+      "Recursive Data Types",
+      "Functional Programming Patterns",
+      "Pattern Matching",
+      "Character Stream Processing",
+      "String Buffer Management",
+      "Numeric Parsing",
+      "Identity Predicates",
+      "Trait Implementation",
+      "rust",
+      "Property-based Testing",
+      "Recursive Evaluation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "s-expression",
+      "parsing",
+      "lexical-analysis",
+      "abstract-syntax-tree",
+      "symbolic-logic",
+      "Data Serialization",
+      "lisp",
+      "parser",
+      "syntax-tree"
+    ],
+    "mined_motifs": [
+      "Compiler Engineering",
+      "AST",
+      "Lookahead",
+      "Recursive Descent",
+      "Syntactic Analysis",
+      "Context-Free Grammar",
+      "Non-terminal Symbols",
+      "Production Rules",
+      "Terminal Symbols",
+      "functional-programming",
+      "racket",
+      "Ambiguity Resolution"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 13.989,
+        "matches": [
+          "ast",
+          "parser",
+          "s-expression",
+          "symbolic-logic"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.184,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.602,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.583,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.561,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 4.177,
+        "matches": [
+          "rust"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.643298Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2385b2de748dec80805690d766afa810872e0fbe4ac23131b8e520cd92160a0b",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:28.946341+00:00"
+  },
+  "mined_motifs": [
+    "compiler-design",
+    "Abstract Syntax Tree",
+    "Lookahead",
+    "Recursive Descent",
+    "Syntactic Analysis",
+    "Context-Free Grammar",
+    "Non-terminal Symbols",
+    "Production Rules",
+    "Terminal Symbols",
+    "functional-programming",
+    "racket",
+    "Ambiguity Resolution"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.916
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.909
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.901
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.899
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.891
+    },
+    {
+      "name": "rust-antlr",
+      "path": "/Users/ember/dev/gh/forks/rust-antlr",
+      "similarity": 0.888
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.885
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.882
+    }
+  ]
+}

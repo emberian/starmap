@@ -1,0 +1,223 @@
+{
+  "name": "bantamlisp",
+  "description": "A Rust implementation of the TinyLisp interpreter, primarily derived from C source code via the c2rust transpilation tool. The project integrates environment-based configuration and provides a structured harness for benchmarking and integration testing of the Lisp runtime. It serves as a technical prototype for migrating legacy interpreter logic into a memory-safe systems programming environment while preserving original execution semantics.",
+  "tags": [
+    "rust",
+    "lisp",
+    "tinylisp",
+    "c2rust",
+    "interpreter",
+    "transpilation",
+    "systems-programming",
+    "ffi",
+    "memory-safety",
+    "benchmarking",
+    "envy-config",
+    "cli"
+  ],
+  "category": "Lisp Interpreter Transpilation",
+  "concepts": [
+    "S-expressions",
+    "Source-to-Source Translation",
+    "C-to-Rust Migration",
+    "Unsafe Rust Encapsulation",
+    "Variadic Functions",
+    "External Types",
+    "Environment Variable Configuration",
+    "Integration Testing",
+    "Performance Profiling",
+    "Runtime Environment",
+    "Abstract Syntax Tree",
+    "Lexical Scoping"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 15,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "src/main.rs",
+      "src/config.rs",
+      "benches/benches.rs"
+    ]
+  },
+  "_hash": "01962815a9a7c7d4187dac0f3322b6248d39a75b8fc424646812c5d5f3e26dd0",
+  "_path": "/Users/ember/dev/bantaML",
+  "_updated_at": "2026-02-14T00:56:23.565153Z",
+  "attribution": "my-projects",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "S-expressions",
+      "Source-to-Source Translation",
+      "C-to-Rust Migration",
+      "Unsafe Rust Encapsulation",
+      "Variadic Functions",
+      "External Types",
+      "Environment Variable Configuration",
+      "Integration Testing",
+      "Performance Profiling",
+      "Runtime Environment",
+      "AST",
+      "Lexical Scoping"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "lisp",
+      "tinylisp",
+      "c2rust",
+      "interpreter",
+      "transpilation",
+      "Systems Programming",
+      "foreign-function-interface",
+      "memory-safety",
+      "benchmarking",
+      "envy-config",
+      "cli"
+    ],
+    "mined_motifs": [
+      "parser",
+      "lexical-analysis",
+      "AST",
+      "Lexical Analysis",
+      "Compiler Engineering",
+      "abstract-syntax-tree",
+      "s-expression",
+      "functional-programming",
+      "logic-programming"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 15.329,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "compiler-architecture-synthesis",
+        "name": "Compiler Architecture & Synthesis",
+        "score": 11.131,
+        "matches": [
+          "abstract-syntax-tree",
+          "lexical-analysis",
+          "parser",
+          "s-expression"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.283,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.918,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.518,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.501,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.565153Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "17261a60e0b2dacea7439e03d6ab038c0bb8325c2375dd91379cfc2faacd508e",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:34.598389+00:00"
+  },
+  "mined_motifs": [
+    "parser",
+    "tokenization",
+    "Tokenization",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "compiler-design",
+    "Lexical Analysis",
+    "ast",
+    "lexer",
+    "s-expression",
+    "functional-programming",
+    "logic-programming"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.86
+    },
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.858
+    },
+    {
+      "name": "rust-grammar",
+      "path": "/Users/ember/dev/gh/forks/rust-grammar",
+      "similarity": 0.855
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.855
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.85
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.847
+    }
+  ]
+}

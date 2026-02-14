@@ -1,0 +1,254 @@
+{
+  "name": "itree-program-logic",
+  "description": "A Coq-based framework for constructing modular program logics by integrating Interaction Trees with the Iris separation logic framework. It facilitates the definition of compositional operational semantics and the derivation of adequate program logics for diverse language features, including angelic non-determinism, shared memory, and concurrent thread pools.",
+  "tags": [
+    "Coq",
+    "Iris",
+    "Interaction-Trees",
+    "Program-Logic",
+    "Separation-Logic",
+    "Formal-Semantics",
+    "Adequacy",
+    "Concurrency",
+    "Monadic-Semantics",
+    "Operational-Semantics",
+    "Algebraic-Effects",
+    "Verification",
+    "Ghost-State",
+    "Angelic-Choice",
+    "Non-determinism",
+    "Higher-order-Logic"
+  ],
+  "category": "Compositional Program Logic Construction",
+  "concepts": [
+    "Interaction Trees",
+    "Iris Separation Logic",
+    "Adequacy Proofs",
+    "Monadic Operational Semantics",
+    "Weakest Preconditions",
+    "Angelic Choice",
+    "Ghost State",
+    "Lifting Lemmas",
+    "Threadpool Interleaving",
+    "Heap Semantics",
+    "Effect Interpretation",
+    "Simulation Relations",
+    "Coinductive Reasoning",
+    "Step-indexing",
+    "Resource Algebras",
+    "Algebraic Effects",
+    "Small-step Semantics",
+    "Trace Semantics",
+    "Invariants",
+    "Operational Refinement",
+    "Bisimulation",
+    "ISLA-RISC Integration",
+    "Verification Tactics",
+    "Modular Semantics",
+    "Demonic Choice",
+    "Language-Independent Logics"
+  ],
+  "languages": [
+    "Coq"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 51,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile"
+    ]
+  },
+  "_hash": "5e805681c2dc23b7e5e3a79dde7ec986d6c8563cd4c359d04b321d5853bc773a",
+  "_path": "/Users/ember/src/itree-program-logic",
+  "_updated_at": "2026-02-14T00:56:33.007298Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "32439470fb4dbfe098e3fefa3b8f4ef001f7db49ec92dc5143ebec6bd93f79a9",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:29.613151+00:00"
+  },
+  "mined_motifs": [
+    "formal-verification",
+    "functional-programming",
+    "proof-assistant",
+    "theorem-proving",
+    "Abstract Syntax Trees",
+    "rust",
+    "formal-methods",
+    "lean-prover",
+    "abstract-syntax-tree",
+    "lexical-analysis",
+    "logic-programming",
+    "parser"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "iris-lean",
+      "path": "/Users/ember/src/iris-lean",
+      "similarity": 0.859
+    },
+    {
+      "name": "ConcreteSemantics",
+      "path": "/Users/ember/dev/gh/ConcreteSemantics",
+      "similarity": 0.829
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.78
+    },
+    {
+      "name": "programming_in_lean",
+      "path": "/Users/ember/dev/gh/forks/programming_in_lean",
+      "similarity": 0.777
+    },
+    {
+      "name": "cs341",
+      "path": "/Users/ember/dev/gh/cs341",
+      "similarity": 0.773
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.772
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.771
+    },
+    {
+      "name": "vscode-lean",
+      "path": "/Users/ember/dev/gh/forks/vscode-lean",
+      "similarity": 0.77
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Formal Verification",
+    "concepts": [
+      "Interaction Trees",
+      "Iris Separation Logic",
+      "Adequacy Proofs",
+      "Monadic Operational Semantics",
+      "Weakest Preconditions",
+      "Angelic Choice",
+      "Ghost State",
+      "Lifting Lemmas",
+      "Threadpool Interleaving",
+      "Heap Semantics",
+      "Effect Interpretation",
+      "Simulation Relations",
+      "Coinductive Reasoning",
+      "Step-indexing",
+      "Resource Algebras",
+      "Algebraic Effects",
+      "Small-step Semantics",
+      "Trace Semantics",
+      "Invariants",
+      "Operational Refinement",
+      "Bisimulation",
+      "ISLA-RISC Integration",
+      "Verification Tactics",
+      "Modular Semantics",
+      "Demonic Choice",
+      "Language-Independent Logics"
+    ],
+    "tags": [
+      "Formal Methods & Verification",
+      "Iris",
+      "Interaction-Trees",
+      "Program-Logic",
+      "Separation-Logic",
+      "Formal-Semantics",
+      "Adequacy",
+      "Concurrency & Synchronization",
+      "Monadic-Semantics",
+      "Operational-Semantics",
+      "Algebraic-Effects",
+      "Verification",
+      "Ghost-State",
+      "Angelic-Choice",
+      "Non-determinism",
+      "Higher-order-Logic"
+    ],
+    "mined_motifs": [
+      "formal-methods",
+      "functional-programming",
+      "Interactive Theorem Proving (ITP)",
+      "AST",
+      "Rust Language Ecosystem",
+      "formal-verification",
+      "lean-prover",
+      "Lexical Analysis",
+      "logic-programming",
+      "parser"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 12.266,
+        "matches": [
+          "ast",
+          "lexical analysis",
+          "parser"
+        ]
+      },
+      {
+        "id": "formal-verification-and-mathematical-logic",
+        "name": "Formal Verification & Mathematical Logic",
+        "score": 9.578,
+        "matches": [
+          "formal-verification",
+          "separation-logic",
+          "iris"
+        ]
+      },
+      {
+        "id": "formal-verification-assurance",
+        "name": "Formal Methods & Protocol Assurance",
+        "score": 8.167,
+        "matches": [
+          "formal-methods",
+          "formal-verification"
+        ]
+      },
+      {
+        "id": "metaprogramming-parser-infra",
+        "name": "Metaprogramming & Parser Infrastructure",
+        "score": 6.675,
+        "matches": [
+          "lexical analysis",
+          "ast"
+        ]
+      },
+      {
+        "id": "verifiable-systems-and-semantics",
+        "name": "Verifiable Systems & Semantics",
+        "score": 5.39,
+        "matches": [
+          "formal-methods"
+        ]
+      },
+      {
+        "id": "high-assurance-verification",
+        "name": "High-Assurance & Formal Verification",
+        "score": 5.378,
+        "matches": [
+          "formal-verification"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:33.007298Z"
+  }
+}

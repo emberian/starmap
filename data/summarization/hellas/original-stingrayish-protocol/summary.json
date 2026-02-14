@@ -1,0 +1,261 @@
+{
+  "name": "original-stingrayish-protocol",
+  "description": "A high-throughput decentralized AI compute marketplace protocol implementing an object-centric state model and bounded counter accounts for concurrent spending. It utilizes the Morpheus DAG-based consensus to provide a dual-path execution model featuring a low-latency speculative fast path alongside a finalized slow path. The architecture minimizes on-chain overhead by storing only cryptographic commitments and delegating complex negotiation and compute validation to off-chain actors.",
+  "tags": [
+    "rust",
+    "blockchain",
+    "decentralized-ai",
+    "consensus",
+    "dag",
+    "object-centric",
+    "bounded-counters",
+    "low-latency",
+    "distributed-systems",
+    "ai-compute",
+    "sui-lutris",
+    "morpheus-consensus",
+    "fraud-protection",
+    "smart-clients",
+    "cryptographic-commitments"
+  ],
+  "category": "Decentralized AI Compute Marketplace Protocol",
+  "concepts": [
+    "Object-centric state model",
+    "Bounded counter accounts",
+    "Speculative execution",
+    "DAG-based consensus",
+    "1-QC/2-QC finality mechanics",
+    "Job escrow and settlement",
+    "Validator spending budgets",
+    "FastUnlock protocol",
+    "Off-chain negotiation",
+    "State reconciliation",
+    "Deterministic execution",
+    "Parallel transaction processing",
+    "Content-addressable state",
+    "Cryptographic commitments",
+    "Morpheus consensus",
+    "Multi-signature proofs",
+    "Version merges",
+    "Collective bounded counters",
+    "Conflict resolution",
+    "Transaction effects certificates",
+    "Owned versus shared objects",
+    "Epoch-based locking",
+    "Fraud protection",
+    "Decentralized compute marketplaces",
+    "Catgrad computation graphs",
+    "Provider quotes",
+    "Job agreements",
+    "Challenge periods",
+    "State snapshots",
+    "Replay protection"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "lib.rs",
+      "engine.rs",
+      "objects.rs",
+      "bounded_counter.rs",
+      "transactions.rs"
+    ]
+  },
+  "_hash": "a82bdd6cd09358fa17a3a04d71eec9a2c55b78ba64cbc080569666ab8d6a66b2",
+  "_path": "/Users/ember/hellas/original-stingrayish-protocol",
+  "_updated_at": "2026-02-14T00:56:31.643297Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "0963fed4f2f189ec25a0dc57479131c51d0cf106dcfc0aa93b5608582e149264",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:39.925817+00:00"
+  },
+  "mined_motifs": [
+    "cryptography",
+    "state-machine",
+    "State Machine Replication",
+    "byzantine-fault-tolerance",
+    "Byzantine Fault Tolerance (BFT)",
+    "decentralized-compute",
+    "leptos",
+    "parallel-execution",
+    "bft",
+    "Byzantine Fault Tolerance",
+    "Deterministic Replay",
+    "Threshold Cryptography"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "devvber",
+      "path": "/Users/ember/hellas/devvber",
+      "similarity": 0.871
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/dev/gh/forks/protoproto",
+      "similarity": 0.866
+    },
+    {
+      "name": "protoproto2",
+      "path": "/Users/ember/hellas/protoproto2",
+      "similarity": 0.839
+    },
+    {
+      "name": "protoproto",
+      "path": "/Users/ember/hellas/protoproto",
+      "similarity": 0.793
+    },
+    {
+      "name": "autobahn-artifact",
+      "path": "/Users/ember/src/autobahn-artifact",
+      "similarity": 0.79
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/dev/gh/proto-dumping-ground",
+      "similarity": 0.785
+    },
+    {
+      "name": "proto-dumping-ground",
+      "path": "/Users/ember/hellas/proto-dumping-ground",
+      "similarity": 0.773
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.773
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Object-centric state model",
+      "Bounded counter accounts",
+      "Speculative execution",
+      "DAG-based consensus",
+      "1-QC/2-QC finality mechanics",
+      "Job escrow and settlement",
+      "Validator spending budgets",
+      "FastUnlock protocol",
+      "Off-chain negotiation",
+      "State reconciliation",
+      "Deterministic execution",
+      "Parallel transaction processing",
+      "Content-addressable state",
+      "Cryptographic commitments",
+      "Morpheus consensus",
+      "Multi-signature proofs",
+      "Version merges",
+      "Collective bounded counters",
+      "Conflict resolution",
+      "Transaction effects certificates",
+      "Owned versus shared objects",
+      "Epoch-based locking",
+      "Fraud protection",
+      "Decentralized compute marketplaces",
+      "Catgrad computation graphs",
+      "Provider quotes",
+      "Job agreements",
+      "Challenge periods",
+      "State snapshots",
+      "Replay protection"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "blockchain",
+      "decentralized-ai",
+      "consensus",
+      "directed-acyclic-graph",
+      "object-centric",
+      "bounded-counters",
+      "low-latency",
+      "distributed-systems",
+      "ai-compute",
+      "sui-lutris",
+      "morpheus-consensus",
+      "fraud-protection",
+      "smart-clients",
+      "cryptographic-commitments"
+    ],
+    "mined_motifs": [
+      "cryptography",
+      "state-machine",
+      "State Machine Replication",
+      "byzantine-fault-tolerance",
+      "decentralized-compute",
+      "leptos",
+      "parallel-execution",
+      "distributed-systems",
+      "Deterministic Replay",
+      "Threshold Cryptography"
+    ],
+    "metaconstellations": [
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 10.807,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "consensus",
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "high-performance-consensus",
+        "name": "High-Throughput Distributed Consensus",
+        "score": 8.143,
+        "matches": [
+          "byzantine-fault-tolerance",
+          "directed-acyclic-graph"
+        ]
+      },
+      {
+        "id": "distributed-consensus-fabric",
+        "name": "Distributed Consensus Fabric",
+        "score": 5.454,
+        "matches": [
+          "consensus"
+        ]
+      },
+      {
+        "id": "distributed-consensus",
+        "name": "Distributed Consensus & Real-time State",
+        "score": 5.304,
+        "matches": [
+          "state machine replication"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.207,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-trustless-capability-networks",
+        "name": "Distributed Trustless Capability Networks",
+        "score": 5.206,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.643297Z"
+  }
+}

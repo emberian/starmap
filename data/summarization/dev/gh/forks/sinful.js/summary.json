@@ -1,0 +1,240 @@
+{
+  "name": "sinful.js",
+  "description": "A JavaScript utility library that intentionally augments native prototypes to provide advanced functional programming primitives and robust object manipulation tools. It implements recursive deep copying, partial application, and function composition, alongside a precision-corrected arithmetic suite designed to mitigate standard IEEE 754 floating-point representation errors.",
+  "tags": [
+    "javascript",
+    "functional-programming",
+    "prototype-augmentation",
+    "deep-copy",
+    "memoization",
+    "currying",
+    "composition",
+    "floating-point-correction",
+    "zip-with",
+    "string-interpolation",
+    "utility-library"
+  ],
+  "category": "Functional Prototype Augmentation",
+  "concepts": [
+    "Prototype-based inheritance",
+    "Partial application",
+    "Function composition",
+    "Recursive deep copying",
+    "Closure-based memoization",
+    "Referential transparency",
+    "Floating-point arithmetic correction",
+    "Tuple zipping",
+    "Discrete range generation",
+    "Arithmetic mean calculation",
+    "Geometric mean calculation",
+    "String interpolation",
+    "Array discretization",
+    "Pure functions",
+    "Higher-order functions",
+    "ASCII character sets",
+    "String reversal",
+    "String truncation",
+    "Object property mapping",
+    "Own property iteration",
+    "Key generation for caching",
+    "Referential integrity in cloning",
+    "Discrete intervals",
+    "ZipWith application",
+    "Unique array filtering"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "sinful.js"
+    ]
+  },
+  "_hash": "e5e7c2863804a6d905504f5dc5b25023b0afe857803b13200bef6c7e2a580798",
+  "_path": "/Users/ember/dev/gh/forks/sinful.js",
+  "_updated_at": "2026-02-14T00:56:26.709773Z",
+  "_alignment": {
+    "category": "Distributed Systems",
+    "concepts": [
+      "Prototype-based inheritance",
+      "Partial application",
+      "Function composition",
+      "Recursive deep copying",
+      "Closure-based memoization",
+      "Referential transparency",
+      "Floating-point arithmetic correction",
+      "Tuple zipping",
+      "Discrete range generation",
+      "Arithmetic mean calculation",
+      "Geometric mean calculation",
+      "String interpolation",
+      "Array discretization",
+      "Pure functions",
+      "Higher-order functions",
+      "ASCII character sets",
+      "String reversal",
+      "String truncation",
+      "Object property mapping",
+      "Own property iteration",
+      "Key generation for caching",
+      "Referential integrity in cloning",
+      "Discrete intervals",
+      "ZipWith application",
+      "Unique array filtering"
+    ],
+    "tags": [
+      "javascript",
+      "functional-programming",
+      "prototype-augmentation",
+      "deep-copy",
+      "memoization",
+      "currying",
+      "composition",
+      "floating-point-correction",
+      "zip-with",
+      "string-interpolation",
+      "utility-library"
+    ],
+    "mined_motifs": [
+      "systems-programming",
+      "Data Serialization",
+      "zero-copy",
+      "zero-knowledge-proofs",
+      "blockchain",
+      "Mina Protocol",
+      "o1js",
+      "smart-contracts",
+      "typescript",
+      "verifiable-computing",
+      "Zero-Knowledge Proofs (ZKP)",
+      "zkapp"
+    ],
+    "metaconstellations": [
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.566,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.76,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "high-performance-binary-serialization",
+        "name": "High-Performance Binary Serialization",
+        "score": 5.415,
+        "matches": [
+          "zero-copy"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.415,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.406,
+        "matches": [
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.385,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.709773Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "3f3dfe93f4dbe9ae579a1a5a56f76ec4d162ba7483706a4c296cf34a6cc1d7a6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:26.957469+00:00"
+  },
+  "mined_motifs": [
+    "low-level",
+    "serialization",
+    "zero-copy",
+    "Recursive SNARKs",
+    "blockchain",
+    "mina-protocol",
+    "o1js",
+    "smart-contracts",
+    "typescript",
+    "verifiable-computing",
+    "zero-knowledge-proofs",
+    "zkapp"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "UInt64",
+      "path": "/Users/ember/dev/gh/UInt64",
+      "similarity": 0.858
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.846
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.834
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.831
+    },
+    {
+      "name": "compose",
+      "path": "/Users/ember/dev/gh/compose",
+      "similarity": 0.828
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.823
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.823
+    },
+    {
+      "name": "racket-capnp",
+      "path": "/Users/ember/src/racket-capnp",
+      "similarity": 0.822
+    }
+  ]
+}

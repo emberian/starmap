@@ -1,0 +1,209 @@
+{
+  "name": "pool",
+  "description": "A high-performance object pool for Rust that manages pre-initialized, reusable values to minimize allocation overhead. It supports thread-safe, lock-free returns to the pool and allows for arbitrary byte padding of pooled entries for memory-efficient buffer management.",
+  "tags": [
+    "rust",
+    "object-pool",
+    "lock-free",
+    "memory-management",
+    "resource-pooling",
+    "performance",
+    "concurrency",
+    "buffer-pool",
+    "raii",
+    "no-std-candidate"
+  ],
+  "category": "Concurrent Data Structures",
+  "concepts": [
+    "Object Pool Pattern",
+    "RAII (Resource Acquisition Is Initialization)",
+    "Lock-free Synchronization",
+    "Atomic Operations",
+    "Interior Mutability",
+    "Manual Memory Layout",
+    "Reference Counting (Arc)",
+    "Trait-based Reset Logic",
+    "LIFO Resource Reclaim"
+  ],
+  "languages": [
+    "Rust",
+    "Shell"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 7,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "src/lib.rs",
+      "test/test.rs",
+      "src/reset.rs",
+      "deploy.sh"
+    ]
+  },
+  "_hash": "bb7a7a3882c9c1c5e9c1b168810533a97590a25e7216d90ec524d1b46d4fa0ed",
+  "_path": "/Users/ember/dev/gh/forks/pool",
+  "_updated_at": "2026-02-14T00:56:26.355309Z",
+  "_alignment": {
+    "category": "Concurrency & Async",
+    "concepts": [
+      "Object Pool Pattern",
+      "RAII (Resource Acquisition Is Initialization)",
+      "Lock-free Synchronization",
+      "Atomic Operations",
+      "Interior Mutability",
+      "Manual Memory Layout",
+      "Reference Counting (Arc)",
+      "Trait-based Reset Logic",
+      "LIFO Resource Reclaim"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "object-pool",
+      "lock-free",
+      "Memory Management",
+      "resource-pooling",
+      "performance",
+      "Concurrency & Synchronization",
+      "buffer-pool",
+      "Resource Acquisition Is Initialization (RAII)",
+      "no-std-candidate"
+    ],
+    "mined_motifs": [
+      "Systems Programming",
+      "Concurrency & Synchronization",
+      "reference-counting",
+      "garbage-collection",
+      "Spinlocks",
+      "mutex",
+      "spinlock",
+      "Reference Counting",
+      "Memory Management",
+      "data-structures",
+      "Resource Acquisition Is Initialization (RAII)",
+      "Barrier Synchronization"
+    ],
+    "metaconstellations": [
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 8.088,
+        "matches": [
+          "memory management",
+          "resource acquisition is initialization (raii)"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.03,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.263,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 5.251,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "high-performance-polyglot-runtimes",
+        "name": "High-Performance Polyglot Runtimes",
+        "score": 5.245,
+        "matches": [
+          "garbage-collection"
+        ]
+      },
+      {
+        "id": "performance-engineering-telemetry",
+        "name": "Performance Engineering & Telemetry",
+        "score": 2.444,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:26.355309Z"
+  },
+  "attribution": "contributed",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "5e99c7d28f2813eb045442c9844dc06b883a851d0bcde9648fb31161a916f50d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:01.933306+00:00"
+  },
+  "mined_motifs": [
+    "systems-programming",
+    "thread-safety",
+    "reference-counting",
+    "garbage-collection",
+    "Spinlocks",
+    "mutex",
+    "spinlock",
+    "Reference Counting",
+    "Manual Memory Management",
+    "data-structures",
+    "resource-management",
+    "Barrier Synchronization"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "spin-rs",
+      "path": "/Users/ember/dev/gh/forks/spin-rs",
+      "similarity": 0.816
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.802
+    },
+    {
+      "name": "lazy-static.rs",
+      "path": "/Users/ember/dev/gh/forks/lazy-static.rs",
+      "similarity": 0.801
+    },
+    {
+      "name": "cons-list",
+      "path": "/Users/ember/dev/gh/forks/cons-list",
+      "similarity": 0.798
+    },
+    {
+      "name": "incinerator",
+      "path": "/Users/ember/dev/incinerator",
+      "similarity": 0.797
+    },
+    {
+      "name": "rust-bitmap",
+      "path": "/Users/ember/dev/gh/rust-bitmap",
+      "similarity": 0.792
+    },
+    {
+      "name": "rust-cgroup",
+      "path": "/Users/ember/dev/gh/rust-cgroup",
+      "similarity": 0.786
+    },
+    {
+      "name": "fun-with-threads",
+      "path": "/Users/ember/dev/gh/forks/fun-with-threads",
+      "similarity": 0.782
+    }
+  ]
+}

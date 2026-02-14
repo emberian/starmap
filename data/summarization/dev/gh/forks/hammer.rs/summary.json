@@ -1,0 +1,219 @@
+{
+  "name": "hammer.rs",
+  "description": "A structural command-line argument parser for early Rust environments that utilizes the `serialize::Decoder` trait to map CLI flags directly onto user-defined structs. The library implements automated field name canonicalization from snake_case to kebab-case and provides a configurable infrastructure for short-form aliases. It performs type-safe decoding of primitive types and booleans by iteratively traversing and mutating the underlying argument vector.",
+  "tags": [
+    "rust",
+    "cli",
+    "argparse",
+    "serialization",
+    "decoder",
+    "type-safety",
+    "kebab-case",
+    "flag-parsing",
+    "systems-programming"
+  ],
+  "category": "Structural Argument Decoding",
+  "concepts": [
+    "Structural Decoding",
+    "Field Canonicalization",
+    "Short Flag Aliasing",
+    "Trait-based Argument Mapping",
+    "Command-Line Interface",
+    "Error Handling",
+    "Rust Legacy Syntax",
+    "Primitive Type Casting",
+    "In-place Argument Removal",
+    "Serialization Trait Implementation",
+    "Boolean Flag Detection",
+    "Kebab-case Transformation",
+    "Structural Hydration",
+    "CLI Metadata Configuration",
+    "Type-safe Scalar Parsing",
+    "Argument Vector Mutation"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 3,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "Makefile",
+      "src/hammer.rs"
+    ]
+  },
+  "_hash": "87a35a7fb5c66f6bdbf449585905ea69704c3f7f856958ce66b1acc6591e8e50",
+  "_path": "/Users/ember/dev/gh/forks/hammer.rs",
+  "_updated_at": "2026-02-14T00:56:25.586070Z",
+  "_alignment": {
+    "category": "Developer Tools",
+    "concepts": [
+      "Structural Decoding",
+      "Field Canonicalization",
+      "Short Flag Aliasing",
+      "Trait-based Argument Mapping",
+      "Command-Line Interface",
+      "Error Handling",
+      "Rust Legacy Syntax",
+      "Primitive Type Casting",
+      "In-place Argument Removal",
+      "Serialization Trait Implementation",
+      "Boolean Flag Detection",
+      "Kebab-case Transformation",
+      "Structural Hydration",
+      "CLI Metadata Configuration",
+      "Type-safe Scalar Parsing",
+      "Argument Vector Mutation"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "cli",
+      "argparse",
+      "Data Serialization",
+      "decoder",
+      "type-safety",
+      "kebab-case",
+      "flag-parsing",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "foreign-function-interface",
+      "parser",
+      "Trait Implementation",
+      "systems-programming",
+      "metaprogramming",
+      "AST",
+      "Algebraic Data Types",
+      "Character Stream Processing",
+      "Data Serialization",
+      "rust"
+    ],
+    "metaconstellations": [
+      {
+        "id": "language-engineering",
+        "name": "Language Engineering & Symbolic Computation",
+        "score": 9.675,
+        "matches": [
+          "ast",
+          "parser"
+        ]
+      },
+      {
+        "id": "low-level-systems-runtimes",
+        "name": "Low-Level Systems & Runtimes",
+        "score": 8.269,
+        "matches": [
+          "foreign-function-interface",
+          "systems-programming"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.26,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "structured-information-persistence",
+        "name": "Structured Information Persistence",
+        "score": 5.482,
+        "matches": [
+          "data serialization"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.469,
+        "matches": [
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-runtime-foundations",
+        "name": "Low-Level Runtime Foundations",
+        "score": 4.073,
+        "matches": [
+          "rust"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:25.586070Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "2f10d2d4482443a38dec964d5e1dbda7978fd16227f20982c6b8447395c71a68",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:54:39.037026+00:00"
+  },
+  "mined_motifs": [
+    "ffi",
+    "parser",
+    "Trait Implementation",
+    "system-programming",
+    "Foreign Function Interface",
+    "low-level",
+    "metaprogramming",
+    "Abstract Syntax Trees",
+    "Algebraic Data Types",
+    "Character Stream Processing",
+    "Data Serialization",
+    "Early Rust Dialect"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "simple-sexp",
+      "path": "/Users/ember/dev/gh/simple-sexp",
+      "similarity": 0.855
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.848
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.844
+    },
+    {
+      "name": "tree-generator",
+      "path": "/Users/ember/dev/gh/tree-generator",
+      "similarity": 0.843
+    },
+    {
+      "name": "bitflags",
+      "path": "/Users/ember/dev/gh/forks/bitflags",
+      "similarity": 0.843
+    },
+    {
+      "name": "ioctl",
+      "path": "/Users/ember/dev/gh/ioctl",
+      "similarity": 0.84
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.839
+    },
+    {
+      "name": "linenoise-rs",
+      "path": "/Users/ember/dev/gh/linenoise-rs",
+      "similarity": 0.839
+    }
+  ]
+}

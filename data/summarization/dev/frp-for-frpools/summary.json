@@ -1,0 +1,241 @@
+{
+  "name": "frp-for-frpools",
+  "description": "A literate programming project and implementation suite for functional reactive programming (FRP) based on a high-performance signals architecture. The repository provides a core reactive engine with automated dependency tracking and batching, complemented by optimized integrations for Preact and React, and specialized debugging infrastructure including a custom devtools protocol and UI.",
+  "tags": [
+    "signals",
+    "frp",
+    "reactive-programming",
+    "literate-programming",
+    "preact",
+    "react",
+    "typescript",
+    "devtools",
+    "state-management",
+    "dependency-tracking",
+    "batching",
+    "reactivity-engine",
+    "observer-pattern",
+    "monorepo",
+    "babel-plugin"
+  ],
+  "category": "Reactive State Management Runtimes",
+  "concepts": [
+    "Signals",
+    "Computeds",
+    "Effects",
+    "Batching",
+    "Dependency Tracking",
+    "Literate Programming",
+    "Preact Integration",
+    "React Integration",
+    "Babel Transforms",
+    "DevTools Protocol",
+    "Synchronous Reactivity",
+    "Lazy Evaluation",
+    "Graph Visualization",
+    "WeakMaps",
+    "Linked Lists",
+    "Versioned Updates",
+    "Dirty Checking",
+    "Memoization"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "Markdown",
+    "HTML",
+    "CSS"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 229,
+    "has_readme": false,
+    "sample_files": [
+      "package.json",
+      "preact-signals/docs/demos/animation/index.tsx",
+      "preact-signals/docs/demos/index.tsx",
+      "preact-signals/docs/demos/nesting/index.tsx",
+      "preact-signals/docs/demos/react/nesting/index.tsx"
+    ]
+  },
+  "_hash": "96975235064e2ecd62d170c3c352af85547af19f257ead0ccb85469703a7624a",
+  "_path": "/Users/ember/dev/frp-for-frpools",
+  "_updated_at": "2026-02-14T00:56:24.132330Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "fine-grained-reactivity",
+      "Computeds",
+      "Effects",
+      "Batching",
+      "Dependency Tracking",
+      "Literate Programming",
+      "Preact Integration",
+      "React Integration",
+      "Babel Transforms",
+      "DevTools Protocol",
+      "Synchronous Reactivity",
+      "Lazy Evaluation",
+      "Graph Visualization",
+      "WeakMaps",
+      "Linked Lists",
+      "Versioned Updates",
+      "Dirty Checking",
+      "Memoization"
+    ],
+    "tags": [
+      "fine-grained-reactivity",
+      "frp",
+      "reactive-programming",
+      "literate-programming",
+      "preact",
+      "react",
+      "typescript",
+      "devtools",
+      "state-management",
+      "dependency-tracking",
+      "batching",
+      "reactivity-engine",
+      "observer-pattern",
+      "monorepo",
+      "babel-plugin"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "ssr",
+      "WebAssembly",
+      "hydration",
+      "server-functions",
+      "declarative-ui",
+      "fine-grained-reactivity",
+      "full-stack",
+      "isomorphic",
+      "reactivity",
+      "web-framework"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 15.085,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "server-functions"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.281,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.269,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.256,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.215,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 2.405,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.132330Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "baf14e0126ebee15b5d6ecf690879752ab0816b208c0c54be8134e13510d19e7",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:10.334466+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "ssr",
+    "wasm",
+    "hydration",
+    "server-functions",
+    "declarative-ui",
+    "webassembly",
+    "fine-grained-reactivity",
+    "full-stack",
+    "isomorphic",
+    "reactivity",
+    "web-framework"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "rust-signals",
+      "path": "/Users/ember/src/rust-signals",
+      "similarity": 0.827
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.786
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.783
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/shylem/leptos",
+      "similarity": 0.783
+    },
+    {
+      "name": "leptos-use",
+      "path": "/Users/ember/src/shylem/leptos-use",
+      "similarity": 0.773
+    },
+    {
+      "name": "spween",
+      "path": "/Users/ember/dev/spween",
+      "similarity": 0.761
+    },
+    {
+      "name": "ea-grl",
+      "path": "/Users/ember/dev/ea-grl",
+      "similarity": 0.76
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/shylem/leptos-book",
+      "similarity": 0.758
+    }
+  ]
+}

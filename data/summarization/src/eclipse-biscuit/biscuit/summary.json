@@ -1,0 +1,232 @@
+{
+  "name": "biscuit",
+  "description": "A decentralized authentication and authorization token system designed for offline-capable policy enforcement through attenuated capabilities. It leverages a logic-based language derived from Datalog to express facts, rules, and caveats within cryptographically secured, chained blocks. The system supports programmatic delegation and fine-grained access control using advanced primitives such as Ristretto-based Schnorr signatures and Verifiable Random Functions.",
+  "tags": [
+    "authentication",
+    "authorization",
+    "datalog",
+    "cryptography",
+    "security",
+    "capability-based",
+    "delegation",
+    "attenuation",
+    "policy-language",
+    "distributed-systems",
+    "rust",
+    "specification"
+  ],
+  "category": "Decentralized Capability-based Authorization",
+  "concepts": [
+    "Datalog",
+    "Ristretto",
+    "Schnorr Signatures",
+    "BLS Signatures",
+    "Verifiable Random Functions",
+    "Policy Enforcement",
+    "Symbol Tables",
+    "Ambient Facts",
+    "Transitive Trust",
+    "Token Attenuation",
+    "Cryptographic Chaining",
+    "Capability Theory",
+    "Logical Inference",
+    "Access Control Lists",
+    "Decentralized Identity",
+    "Protobuf Serialization",
+    "Third-party Caveats",
+    "Execution Scopes"
+  ],
+  "languages": [
+    "Rust",
+    "C++",
+    "Protobuf"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 148,
+    "has_readme": true,
+    "sample_files": [
+      "experimentations/biscuit-poc/src/lib.rs",
+      "experimentations/challenge-tokens/biscuit-challenge-tokens/src/lib.rs",
+      "experimentations/datalog/src/lib.rs",
+      "experimentations/gamma/biscuit-gamma/src/lib.rs",
+      "experimentations/pairing/bls/benches/lib.rs"
+    ]
+  },
+  "_hash": "aa352de033d67f4fde91d9a30b7b1cc9a8baeac21af72d3b80e4429ba392b175",
+  "_path": "/Users/ember/src/eclipse-biscuit/biscuit",
+  "_updated_at": "2026-02-14T00:56:32.651207Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "a7f6a7b5ba1bc5d3aa3ca9cc46edd68ffbb69d64d362097d2d1026212995720d",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:59:10.492363+00:00"
+  },
+  "mined_motifs": [
+    "ed25519",
+    "secp256r1",
+    "access-control",
+    "capability-security",
+    "Hierarchical Authorization",
+    "Sealed Tokens",
+    "Third-party Blocks",
+    "Predicate Logic",
+    "Microservices Security",
+    "identity-management",
+    "caveats",
+    "Distributed Garbage Collection"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "biscuit-cli",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-cli",
+      "similarity": 0.925
+    },
+    {
+      "name": "biscuit-rust",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-rust",
+      "similarity": 0.915
+    },
+    {
+      "name": "biscuit-swift",
+      "path": "/Users/ember/src/eclipse-biscuit/biscuit-swift",
+      "similarity": 0.901
+    },
+    {
+      "name": "website",
+      "path": "/Users/ember/src/eclipse-biscuit/website",
+      "similarity": 0.878
+    },
+    {
+      "name": "fly-macaroon",
+      "path": "/Users/ember/src/fly-macaroon",
+      "similarity": 0.848
+    },
+    {
+      "name": "racket-goblins",
+      "path": "/Users/ember/src/racket-goblins",
+      "similarity": 0.803
+    },
+    {
+      "name": "ocapn-rs",
+      "path": "/Users/ember/src/ocapn-rs",
+      "similarity": 0.795
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Cryptography & Security",
+    "concepts": [
+      "Datalog",
+      "Ristretto",
+      "Schnorr Signatures",
+      "BLS Signatures",
+      "Verifiable Random Functions",
+      "Policy Enforcement",
+      "Symbol Tables",
+      "Ambient Facts",
+      "Transitive Trust",
+      "Token Attenuation",
+      "Cryptographic Chaining",
+      "Capability Theory",
+      "Logical Inference",
+      "Access Control Lists",
+      "Decentralized Identity",
+      "Protobuf Serialization",
+      "Third-party Caveats",
+      "Execution Scopes"
+    ],
+    "tags": [
+      "authentication",
+      "authorization",
+      "datalog",
+      "cryptography",
+      "security",
+      "capability-based",
+      "delegation",
+      "attenuation",
+      "policy-language",
+      "distributed-systems",
+      "Rust Language Ecosystem",
+      "specification"
+    ],
+    "mined_motifs": [
+      "ed25519",
+      "secp256r1",
+      "access-control",
+      "capability-security",
+      "Hierarchical Authorization",
+      "Sealed Tokens",
+      "Third-party Blocks",
+      "Predicate Logic",
+      "Microservices Security",
+      "identity-management",
+      "caveats",
+      "Distributed Garbage Collection"
+    ],
+    "metaconstellations": [
+      {
+        "id": "capability-secure-authorization",
+        "name": "Capability-Secure Authorization Networks",
+        "score": 11.136,
+        "matches": [
+          "access-control",
+          "authorization",
+          "datalog"
+        ]
+      },
+      {
+        "id": "capability-security-auth",
+        "name": "Capability Security & Authorization",
+        "score": 11.038,
+        "matches": [
+          "authorization",
+          "capability-security",
+          "access-control",
+          "datalog"
+        ]
+      },
+      {
+        "id": "trustless-computing-substrate",
+        "name": "Trustless Computing Substrate",
+        "score": 5.396,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.392,
+        "matches": [
+          "cryptography"
+        ]
+      },
+      {
+        "id": "distributed-consensus-and-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.385,
+        "matches": [
+          "distributed-systems"
+        ]
+      },
+      {
+        "id": "distributed-consensus-p2p",
+        "name": "Distributed Consensus & P2P",
+        "score": 5.385,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:32.651207Z"
+  }
+}

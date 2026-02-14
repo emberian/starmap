@@ -1,0 +1,221 @@
+{
+  "name": "bfcpu",
+  "description": "A hardware implementation of a CPU architecture based on the Brainfuck ISA, utilizing an AVR-based microcontroller as a bridge. The system implements a custom SPI protocol to facilitate I/O between the CPU core and a USB UART interface, managing bi-directional data flow through master/slave role switching. It provides a low-level hardware abstraction layer for serial communication and peripheral control on Atmel AVR platforms.",
+  "tags": [
+    "brainfuck",
+    "cpu-design",
+    "avr",
+    "spi",
+    "uart",
+    "embedded-c",
+    "arduino",
+    "isa",
+    "microcontroller",
+    "hardware-bridge",
+    "serial-communication",
+    "low-level",
+    "bare-metal"
+  ],
+  "category": "Micro-architecture Implementation",
+  "concepts": [
+    "Instruction Set Architecture",
+    "SPI Master-Slave Switching",
+    "UART Serial Communication",
+    "Interrupt Handling",
+    "Memory-Mapped I/O",
+    "Hardware Abstraction Layer",
+    "Bit Manipulation",
+    "Peripheral Interfacing",
+    "Baud Rate Generation",
+    "Synchronous Serial Transfer",
+    "State Machine I/O",
+    "Firmware Engineering"
+  ],
+  "languages": [
+    "C",
+    "Makefile"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 4,
+    "has_readme": true,
+    "sample_files": [
+      "controller/bf_master.c"
+    ]
+  },
+  "_hash": "cf94357397311939654a82ba2ade05054ca5a15ab61358ed34d96a10a124f6d1",
+  "_path": "/Users/ember/dev/gh/bfcpu",
+  "_updated_at": "2026-02-14T00:56:24.457570Z",
+  "_alignment": {
+    "category": "Systems & Embedded",
+    "concepts": [
+      "Instruction Set Architecture",
+      "SPI Master-Slave Switching",
+      "UART Serial Communication",
+      "Interrupt Handling",
+      "Memory-Mapped I/O",
+      "Hardware Abstraction Layer",
+      "Bit Manipulation",
+      "Peripheral Interfacing",
+      "Baud Rate Generation",
+      "Synchronous Serial Transfer",
+      "State Machine I/O",
+      "Firmware Engineering"
+    ],
+    "tags": [
+      "brainfuck",
+      "cpu-design",
+      "avr",
+      "spi",
+      "uart",
+      "embedded-c",
+      "arduino",
+      "isa",
+      "microcontroller",
+      "hardware-bridge",
+      "serial-communication",
+      "systems-programming",
+      "Systems Programming"
+    ],
+    "mined_motifs": [
+      "Load-Store Architecture",
+      "assembler",
+      "Abstract Interpretation",
+      "FPGA",
+      "MyHDL",
+      "RISC",
+      "Register Allocation",
+      "Rust Language Ecosystem",
+      "SpinalHDL",
+      "computer-architecture",
+      "emulator",
+      "Formal Verification"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-rtl",
+        "name": "ISA Design & Hardware RTL",
+        "score": 9.763,
+        "matches": [
+          "instruction set architecture",
+          "fpga",
+          "isa",
+          "spinalhdl"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 8.226,
+        "matches": [
+          "rust language ecosystem",
+          "systems programming"
+        ]
+      },
+      {
+        "id": "low-level-kernel-and-isa",
+        "name": "Low-Level Kernel & ISA",
+        "score": 5.523,
+        "matches": [
+          "isa"
+        ]
+      },
+      {
+        "id": "verified-systems",
+        "name": "Formal Methods & High-Assurance Systems",
+        "score": 5.498,
+        "matches": [
+          "formal verification"
+        ]
+      },
+      {
+        "id": "formal-verification",
+        "name": "Formal Methods & Logic Verification",
+        "score": 5.487,
+        "matches": [
+          "formal verification"
+        ]
+      },
+      {
+        "id": "systems-foundations",
+        "name": "Embedded Foundations & OS Interfaces",
+        "score": 5.448,
+        "matches": [
+          "systems programming"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:24.457570Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c9f15026f9c357f2ec74e9b17004f34a94b6a21e8c2070a9ebe47cf414e9adfe",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:53:32.056126+00:00"
+  },
+  "mined_motifs": [
+    "Load-Store Architecture",
+    "assembler",
+    "Abstract Interpretation",
+    "FPGA",
+    "MyHDL",
+    "RISC",
+    "Register Allocation",
+    "Rust",
+    "SpinalHDL",
+    "computer-architecture",
+    "emulator",
+    "Formal Verification"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/shitheap/absass",
+      "similarity": 0.868
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/absass",
+      "similarity": 0.862
+    },
+    {
+      "name": "ArkeOS",
+      "path": "/Users/ember/dev/gh/ArkeOS",
+      "similarity": 0.859
+    },
+    {
+      "name": "absass",
+      "path": "/Users/ember/dev/gh/absass",
+      "similarity": 0.859
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.847
+    },
+    {
+      "name": "hellas-consensus",
+      "path": "/Users/ember/hellas/consensus-experiments",
+      "similarity": 0.832
+    },
+    {
+      "name": "capnproto-java",
+      "path": "/Users/ember/src/capnproto-java",
+      "similarity": 0.832
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.83
+    }
+  ]
+}

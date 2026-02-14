@@ -1,0 +1,262 @@
+{
+  "name": "shitheap",
+  "description": "A heterogeneous collection of high-performance experimental artifacts, including optimized Voronoi distance kernels, XML-driven typography engines, and bare-metal Rust runtimes. The repository functions as a distributed digital garden using Syncthing and bare Git remotes to synchronize polyglot implementations of physics engines, generative art, and signal processing routines.",
+  "tags": [
+    "git",
+    "rust",
+    "c",
+    "python",
+    "java",
+    "voronoi",
+    "physics-engine",
+    "typography",
+    "generative-art",
+    "syncthing",
+    "transpilation",
+    "graphics",
+    "font-rendering",
+    "signal-processing",
+    "simulation",
+    "simulation-engine"
+  ],
+  "category": "Experimental Computational Systems & Graphics",
+  "concepts": [
+    "Bare Git Remotes",
+    "Voronoi Distance Optimization",
+    "XML-to-Graphics Layout",
+    "Framebuffer Manipulation",
+    "Fourier Synthesis",
+    "Particle Kinematics",
+    "IIR Filter Design",
+    "Spring-Mass Dynamics",
+    "Sigmoid Signal Shaping",
+    "c2rust Transpilation",
+    "Memory-mapped Font Metrics",
+    "Procedural Art Generation",
+    "Hash-linked Data Structures",
+    "Distributed File Synchronization",
+    "Conflict Resolution via Syncthing",
+    "High-performance C",
+    "Real-time Pygame Visualization",
+    "Processing-based Particle Systems",
+    "No-std Rust",
+    "FFI Integration",
+    "Metrics-driven Typography",
+    "Dynamic Buffer Management",
+    "Cellular Automata",
+    "Discrete Signal Processing",
+    "Computational Geometry"
+  ],
+  "languages": [
+    "Rust",
+    "Python",
+    "C",
+    "Java"
+  ],
+  "maturity": "exploratory",
+  "evidence": {
+    "file_count": 2982,
+    "has_readme": true,
+    "sample_files": [
+      "Mpsp20/contents/src/lib.rs",
+      "Mpsp20/src/lib.rs",
+      "fuckin_bullshit/fuckin_bullshit.rs",
+      "fuckin_bullshit/fuckin_bullshit.c",
+      "Syd's Art Processing/Sydney_DeCyllis_DA_ParticleEngine - Copy/linux-amd64/source/Sydney_DeCyllis_DA_ParticleEngine.java"
+    ]
+  },
+  "_hash": "a9554c9aacd84ffa36b7179f423a0db9494e70c1a37615725865cfa6246e973d",
+  "_path": "/Users/ember/shitheap",
+  "_updated_at": "2026-02-14T00:56:31.971390Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e8fbc60cf29c0a29b0f9315039ac533faebe5c4d54fc9dd2d520dad8015a092f",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:47.682919+00:00"
+  },
+  "mined_motifs": [
+    "gpgpu",
+    "piston",
+    "ray-tracing",
+    "rust-gpu",
+    "vulkan",
+    "vulkano",
+    "graphics-engine",
+    "glsl",
+    "Real-time Simulation",
+    "CPU-accelerated fallback",
+    "Monte Carlo sampling",
+    "Piston windowing integration"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitheap/shitting_furiously",
+      "similarity": 0.74
+    },
+    {
+      "name": "shitting_furiously",
+      "path": "/Users/ember/dev/shitting_furiously",
+      "similarity": 0.731
+    },
+    {
+      "name": "gerphius",
+      "path": "/Users/ember/dev/gh/gerphius",
+      "similarity": 0.714
+    },
+    {
+      "name": "shellspiel",
+      "path": "/Users/ember/dev/gh/forks/shellspiel",
+      "similarity": 0.711
+    },
+    {
+      "name": "eggplant",
+      "path": "/Users/ember/dev/gh/eggplant",
+      "similarity": 0.711
+    },
+    {
+      "name": "noosphere",
+      "path": "/Users/ember/dev/noosphere",
+      "similarity": 0.708
+    },
+    {
+      "name": "Weylus",
+      "path": "/Users/ember/src/Weylus",
+      "similarity": 0.707
+    },
+    {
+      "name": "veloren",
+      "path": "/Users/ember/src/veloren",
+      "similarity": 0.706
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Graphics & Rendering",
+    "concepts": [
+      "Bare Git Remotes",
+      "Voronoi Distance Optimization",
+      "XML-to-Graphics Layout",
+      "Framebuffer Manipulation",
+      "Fourier Synthesis",
+      "Particle Kinematics",
+      "IIR Filter Design",
+      "Spring-Mass Dynamics",
+      "Sigmoid Signal Shaping",
+      "c2rust Transpilation",
+      "Memory-mapped Font Metrics",
+      "Procedural Art Generation",
+      "Hash-linked Data Structures",
+      "Distributed File Synchronization",
+      "Conflict Resolution via Syncthing",
+      "High-performance C",
+      "Real-time Pygame Visualization",
+      "Processing-based Particle Systems",
+      "No-std Rust",
+      "FFI Integration",
+      "Metrics-driven Typography",
+      "Dynamic Buffer Management",
+      "cellular-automata",
+      "Discrete Signal Processing",
+      "Computational Geometry"
+    ],
+    "tags": [
+      "git",
+      "Rust Language Ecosystem",
+      "c",
+      "python",
+      "java",
+      "voronoi",
+      "physics-engine",
+      "typography",
+      "generative-art",
+      "syncthing",
+      "transpilation",
+      "Computer Graphics & Rendering",
+      "font-rendering",
+      "signal-processing",
+      "real-time-simulation",
+      "simulation-engine"
+    ],
+    "mined_motifs": [
+      "GPGPU Compute",
+      "piston",
+      "ray-tracing",
+      "rust-gpu",
+      "vulkan",
+      "vulkano",
+      "graphics-engine",
+      "glsl",
+      "real-time-simulation",
+      "CPU-accelerated fallback",
+      "Monte Carlo sampling",
+      "Piston windowing integration"
+    ],
+    "metaconstellations": [
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 12.126,
+        "matches": [
+          "gpgpu compute",
+          "vulkan",
+          "glsl",
+          "rust-gpu",
+          "vulkano"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 7.901,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "glsl"
+        ]
+      },
+      {
+        "id": "computational-reality-simulation",
+        "name": "Computational Reality Simulation",
+        "score": 6.511,
+        "matches": [
+          "computer graphics & rendering",
+          "cellular-automata"
+        ]
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 5.12,
+        "matches": [
+          "physics-engine"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.063,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "performance-graphics-abstraction",
+        "name": "Performance Graphics & Rendering",
+        "score": 3.655,
+        "matches": [
+          "vulkan"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.971390Z"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "name": "claudesurf",
+  "description": "A context management and memory persistence layer for Claude Code CLI that replicates Windsurf-style session continuity. It hooks into the LLM compaction lifecycle to capture architectural decisions and pending tasks before summarization, enabling seamless state restoration across sessions via a structured MCP-based backend.",
+  "tags": [
+    "claude-code",
+    "context-management",
+    "memory-persistence",
+    "mcp-server",
+    "llm-compaction",
+    "session-restore",
+    "workflow-automation",
+    "ai-agents"
+  ],
+  "category": "Autonomous Agent Infrastructure",
+  "concepts": [
+    "Context Window Management",
+    "Pre-compaction Hooking",
+    "Session Checkpointing",
+    "Token Saturation Monitoring",
+    "Heuristic Context Zoning",
+    "Structured Memory Retrieval",
+    "MCP Tool Integration",
+    "Subagent Handoffs",
+    "Lifecycle Event Mapping",
+    "A/B Evaluation Harness"
+  ],
+  "languages": [
+    "TypeScript",
+    "Shell",
+    "Python",
+    "JavaScript"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 294,
+    "has_readme": true,
+    "sample_files": [
+      "package.json",
+      "opencode-plugin/index.ts",
+      "src/index.ts",
+      "claude-code/package/sdk-tools.d.ts",
+      "eval/results/ab-20260110-212503/control-output/eval-control-20260110-212503-improvements/pdf-generation/server.ts"
+    ]
+  },
+  "_hash": "5ca0638bd7f4d6a76c2cc6c242afb033fc9fad062c0eb9226782a50258844415",
+  "_path": "/Users/ember/dev/claudesurf",
+  "_updated_at": "2026-02-14T00:56:23.695317Z",
+  "attribution": "contributed",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Context Window Management",
+      "Pre-compaction Hooking",
+      "Session Checkpointing",
+      "Token Saturation Monitoring",
+      "Heuristic Context Zoning",
+      "Structured Memory Retrieval",
+      "MCP Tool Integration",
+      "Subagent Handoffs",
+      "Lifecycle Event Mapping",
+      "A/B Evaluation Harness"
+    ],
+    "tags": [
+      "claude-code",
+      "context-management",
+      "memory-persistence",
+      "Model Context Protocol",
+      "llm-compaction",
+      "session-restore",
+      "workflow-automation",
+      "ai-agents"
+    ],
+    "mined_motifs": [
+      "model-context-protocol",
+      "typescript",
+      "convex",
+      "JSON-RPC 2.0",
+      "zero-knowledge-proofs",
+      "blockchain",
+      "Mina Protocol",
+      "o1js",
+      "smart-contracts",
+      "verifiable-computing",
+      "Zero-Knowledge Proofs (ZKP)"
+    ],
+    "metaconstellations": [
+      {
+        "id": "agentic-software-engineering",
+        "name": "Agentic Software Engineering",
+        "score": 11.154,
+        "matches": [
+          "ai-agents",
+          "context-management",
+          "model-context-protocol"
+        ]
+      },
+      {
+        "id": "zero-knowledge-and-verifiable-compute",
+        "name": "Zero-Knowledge & Verifiable Compute",
+        "score": 9.631,
+        "matches": [
+          "o1js",
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-cryptography-zk",
+        "name": "Verifiable Cryptography (ZK)",
+        "score": 6.819,
+        "matches": [
+          "zero-knowledge-proofs",
+          "o1js"
+        ]
+      },
+      {
+        "id": "agentic-ai",
+        "name": "Agentic AI & Protocol Interop",
+        "score": 5.551,
+        "matches": [
+          "model context protocol"
+        ]
+      },
+      {
+        "id": "privacy-preserving-cryptographic-protocols",
+        "name": "Privacy-Preserving Cryptographic Protocols",
+        "score": 5.448,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      },
+      {
+        "id": "verifiable-compute-and-zk",
+        "name": "Verifiable Compute & Succinct Proofs",
+        "score": 5.43,
+        "matches": [
+          "zero-knowledge-proofs"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:23.695317Z"
+  },
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "11d468114cb6041f4bb8a3b919e4bd233a2c2537c9c28eb34365070a1c141127",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:52:49.826171+00:00"
+  },
+  "mined_motifs": [
+    "mcp",
+    "Model Context Protocol (MCP)",
+    "typescript",
+    "convex",
+    "JSON-RPC 2.0",
+    "Recursive SNARKs",
+    "blockchain",
+    "mina-protocol",
+    "o1js",
+    "smart-contracts",
+    "verifiable-computing",
+    "zero-knowledge-proofs"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "contextOS",
+      "path": "/Users/ember/src/contextOS",
+      "similarity": 0.894
+    },
+    {
+      "name": "mcp-language-server",
+      "path": "/Users/ember/src/mcp-language-server",
+      "similarity": 0.87
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/zkbox",
+      "similarity": 0.86
+    },
+    {
+      "name": "zkbox",
+      "path": "/Users/ember/dev/gh/zkbox",
+      "similarity": 0.857
+    },
+    {
+      "name": "cs445",
+      "path": "/Users/ember/dev/gh/cs445",
+      "similarity": 0.851
+    },
+    {
+      "name": "cline",
+      "path": "/Users/ember/dev/cline",
+      "similarity": 0.85
+    }
+  ]
+}

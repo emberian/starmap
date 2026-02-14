@@ -1,0 +1,227 @@
+{
+  "name": "tweed",
+  "description": "tweed is a minimalist, WSAPI-compatible Lua web framework that utilizes hierarchical table structures for route definition instead of traditional pattern matching. It provides a lightweight middleware layer for request/response handling and type-safe parameter extraction while maintaining a strict microframework philosophy that excludes templating and persistence. The framework integrates with the WSAPI specification to ensure compatibility across diverse Lua web servers and leverages the leafy library for internal dispatch logic.",
+  "tags": [
+    "lua",
+    "wsapi",
+    "web-framework",
+    "routing",
+    "microframework",
+    "http-server",
+    "rest-api",
+    "middleware",
+    "luarocks",
+    "web-middleware"
+  ],
+  "category": "WSAPI Web Framework",
+  "concepts": [
+    "table-driven-routing",
+    "request-response-abstraction",
+    "wsapi-integration",
+    "middleware-filters",
+    "parameter-binding",
+    "controller-dispatch",
+    "http-verb-dispatch",
+    "nested-routes",
+    "query-string-parsing",
+    "error-handling-middleware",
+    "luarocks-distribution",
+    "wsapi-environment-integration",
+    "http-method-matching",
+    "route-variable-extraction",
+    "type-coercion-filters",
+    "leafy-dispatch-engine",
+    "metatable-based-routing",
+    "restful-resource-mapping",
+    "stateless-controller-execution",
+    "dynamic-path-segmentation",
+    "uri-template-binding"
+  ],
+  "languages": [
+    "Lua"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 10,
+    "has_readme": true,
+    "sample_files": []
+  },
+  "_hash": "ee59bb290478959fa5cb8fda7c56b4a76846191f396da8b06f10d92a820845a7",
+  "_path": "/Users/ember/dev/gh/tweed",
+  "_updated_at": "2026-02-14T00:56:28.696406Z",
+  "_alignment": {
+    "category": "Web & Services",
+    "concepts": [
+      "table-driven-routing",
+      "request-response-abstraction",
+      "wsapi-integration",
+      "middleware-filters",
+      "parameter-binding",
+      "controller-dispatch",
+      "http-verb-dispatch",
+      "nested-routes",
+      "query-string-parsing",
+      "error-handling-middleware",
+      "luarocks-distribution",
+      "wsapi-environment-integration",
+      "http-method-matching",
+      "route-variable-extraction",
+      "type-coercion-filters",
+      "leafy-dispatch-engine",
+      "metatable-based-routing",
+      "restful-resource-mapping",
+      "stateless-controller-execution",
+      "dynamic-path-segmentation",
+      "uri-template-binding"
+    ],
+    "tags": [
+      "lua",
+      "wsapi",
+      "web-framework",
+      "routing",
+      "microframework",
+      "http-server",
+      "rest-api",
+      "middleware",
+      "luarocks",
+      "web-middleware"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "hydration",
+      "server-functions",
+      "ssr",
+      "client-side-rendering",
+      "declarative-ui",
+      "fine-grained-reactivity",
+      "full-stack",
+      "isomorphic",
+      "reactivity",
+      "WebAssembly"
+    ],
+    "metaconstellations": [
+      {
+        "id": "isomorphic-reactive-ui-foundations",
+        "name": "Isomorphic Reactive UI Foundations",
+        "score": 15.042,
+        "matches": [
+          "fine-grained-reactivity",
+          "hydration",
+          "ssr",
+          "webassembly",
+          "server-functions"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.24,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "high-performance-runtimes",
+        "name": "High-Performance Runtimes & Polyglot Execution",
+        "score": 5.239,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.225,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.179,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "intelligent-agent-infrastructure",
+        "name": "Intelligent Agent Infrastructure",
+        "score": 2.391,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:28.696406Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "fa9f5e997740d5453ff3b9727cd23733b0675f305de6f86b5dbf0a7dbc1dd9a6",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:33.652872+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "hydration",
+    "server-functions",
+    "ssr",
+    "client-side-rendering",
+    "declarative-ui",
+    "fine-grained-reactivity",
+    "full-stack",
+    "isomorphic",
+    "reactivity",
+    "signals",
+    "wasm"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "wsapi",
+      "path": "/Users/ember/dev/gh/forks/wsapi",
+      "similarity": 0.869
+    },
+    {
+      "name": "leafy",
+      "path": "/Users/ember/dev/gh/leafy",
+      "similarity": 0.828
+    },
+    {
+      "name": "Express",
+      "path": "/Users/ember/src/express",
+      "similarity": 0.808
+    },
+    {
+      "name": "queue",
+      "path": "/Users/ember/dev/gh/queue",
+      "similarity": 0.787
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/dev/leptos",
+      "similarity": 0.784
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/ember@54.212.243.200",
+      "similarity": 0.77
+    },
+    {
+      "name": "leptos",
+      "path": "/Users/ember/src/leptos",
+      "similarity": 0.769
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.768
+    }
+  ]
+}

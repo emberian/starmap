@@ -1,0 +1,222 @@
+{
+  "name": "jubilant-train",
+  "description": "A memory-efficient implementation of Conway's Game of Life in Rust utilizing bitset-backed spatial representations for optimized state transitions. The engine employs double-buffering for grid updates and Moore neighborhood evaluation via coordinate-to-linear index mapping with safety-conscious wrapping arithmetic. The project also provides utility components for parsing Run Length Encoded (RLE) pattern files and converting them to coordinate-based Life 1.06 specifications.",
+  "tags": [
+    "game-of-life",
+    "cellular-automata",
+    "rust",
+    "bitset",
+    "rle",
+    "life-1-06",
+    "simulation-engine",
+    "performance-optimization",
+    "grid-processing",
+    "pattern-parsing"
+  ],
+  "category": "Cellular Automata Simulation",
+  "concepts": [
+    "Moore neighborhood",
+    "Double buffering",
+    "Bitset-backed spatial representation",
+    "Linear indexing",
+    "Run Length Encoding (RLE)",
+    "Life 1.06 coordinate format",
+    "State transition logic",
+    "Wrapping arithmetic",
+    "Coordinate mapping",
+    "Discrete time simulation",
+    "Grid serialization",
+    "Memory-efficient data structures",
+    "Input stream processing",
+    "Neighborhood lookup optimization",
+    "Pattern interoperability",
+    "ANSI-based grid visualization"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "maturity": "prototype",
+  "evidence": {
+    "file_count": 11,
+    "has_readme": false,
+    "sample_files": [
+      "Cargo.toml",
+      "rle_to_106/src/main.rs",
+      "src/main.rs"
+    ]
+  },
+  "_hash": "9cf8a00cc40d27289739cecb42ba83d7b52f345cce8a52456f551d7c469da314",
+  "_path": "/Users/ember/dev/gh/jubilant-train",
+  "_updated_at": "2026-02-14T00:56:27.552709Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Moore neighborhood",
+      "Double buffering",
+      "Bitset-backed spatial representation",
+      "Linear indexing",
+      "Run Length Encoding (RLE)",
+      "Life 1.06 coordinate format",
+      "State transition logic",
+      "Wrapping arithmetic",
+      "Coordinate mapping",
+      "Discrete time simulation",
+      "Grid serialization",
+      "Memory-efficient data structures",
+      "Input stream processing",
+      "Neighborhood lookup optimization",
+      "Pattern interoperability",
+      "ANSI-based grid visualization"
+    ],
+    "tags": [
+      "game-of-life",
+      "cellular-automata",
+      "Rust Language Ecosystem",
+      "bitset",
+      "rle",
+      "life-1-06",
+      "simulation-engine",
+      "performance-optimization",
+      "grid-processing",
+      "pattern-parsing"
+    ],
+    "mined_motifs": [
+      "real-time-simulation",
+      "Totalistic Rules",
+      "egui",
+      "GPGPU Compute",
+      "WebAssembly",
+      "webgpu",
+      "wgpu",
+      "wgsl",
+      "Compiler Engineering",
+      "cellular-automata",
+      "Stochastic State Transitions",
+      "Cellular replication rules"
+    ],
+    "metaconstellations": [
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 8.13,
+        "matches": [
+          "real-time-simulation",
+          "cellular-automata",
+          "category:Cellular Automata Simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.518,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "language-substrate-engineering",
+        "name": "Language Substrate Engineering",
+        "score": 5.517,
+        "matches": [
+          "compiler engineering"
+        ]
+      },
+      {
+        "id": "hardware-acceleration",
+        "name": "Graphics & GPGPU Acceleration",
+        "score": 5.51,
+        "matches": [
+          "gpgpu compute"
+        ]
+      },
+      {
+        "id": "systems-runtimes",
+        "name": "High-Performance Runtimes & WASM",
+        "score": 5.499,
+        "matches": [
+          "webassembly"
+        ]
+      },
+      {
+        "id": "browser-hosted-system-emulation",
+        "name": "Browser-Hosted System Emulation",
+        "score": 5.486,
+        "matches": [
+          "webassembly"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.552709Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "e479c1ba67c4916903dcbef934bab555e8fb06d1aab4414ba6b23c5f7238b4ea",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:55:56.781954+00:00"
+  },
+  "mined_motifs": [
+    "simulation",
+    "Totalistic Rules",
+    "egui",
+    "gpgpu",
+    "wasm",
+    "webgpu",
+    "wgpu",
+    "wgsl",
+    "compiler-design",
+    "Cellular Automata",
+    "Stochastic State Transitions",
+    "Cellular replication rules"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "piday-automata",
+      "path": "/Users/ember/dev/gh/piday-automata",
+      "similarity": 0.886
+    },
+    {
+      "name": "rust-cfg",
+      "path": "/Users/ember/dev/gh/rust-cfg",
+      "similarity": 0.867
+    },
+    {
+      "name": "caca2",
+      "path": "/Users/ember/dev/caca2",
+      "similarity": 0.867
+    },
+    {
+      "name": "rust-dotenv",
+      "path": "/Users/ember/dev/gh/rust-dotenv",
+      "similarity": 0.858
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.857
+    },
+    {
+      "name": "caca",
+      "path": "/Users/ember/dev/caca",
+      "similarity": 0.856
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.853
+    },
+    {
+      "name": "rust-cc",
+      "path": "/Users/ember/dev/gh/rust-cc",
+      "similarity": 0.853
+    }
+  ]
+}

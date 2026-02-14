@@ -10,63 +10,35 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
 import re
-import subprocess
 import sys
 from collections import Counter
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from starmap_lib import (
+    GeminiClient,
+    as_string,
+    as_string_list,
+    canonical_json,
+    dedup,
+    now_rfc3339,
+    read_summary,
+    resolve_shadow_root,
+    write_summary,
+)
 
 IGNORE_DIRS = {
-    ".git",
-    ".hg",
-    ".svn",
-    ".jj",
-    "node_modules",
-    "target",
-    "dist",
-    "build",
-    "_build",
-    ".venv",
-    "venv",
-    "__pycache__",
-    ".next",
-    ".turbo",
-    ".cache",
-    "vendor",
-    "coverage",
-    "tmp",
+    ".git", ".hg", ".svn", ".jj", "node_modules", "target", "dist", "build",
+    "_build", ".venv", "venv", "__pycache__", ".next", ".turbo", ".cache",
+    "vendor", "coverage", "tmp",
 }
 
 SOURCE_EXTENSIONS = {
-    ".rs",
-    ".py",
-    ".ts",
-    ".tsx",
-    ".js",
-    ".jsx",
-    ".go",
-    ".java",
-    ".kt",
-    ".swift",
-    ".c",
-    ".cc",
-    ".cpp",
-    ".h",
-    ".hpp",
-    ".ml",
-    ".mli",
-    ".scala",
-    ".clj",
-    ".cljs",
-    ".sh",
-    ".nix",
-    ".sol",
-    ".zig",
+    ".rs", ".py", ".ts", ".tsx", ".js", ".jsx", ".go", ".java", ".kt",
+    ".swift", ".c", ".cc", ".cpp", ".h", ".hpp", ".ml", ".mli", ".scala",
+    ".clj", ".cljs", ".sh", ".nix", ".sol", ".zig",
 }
 
 MAX_STRUCTURE_FILES = 220
@@ -78,189 +50,23 @@ MAX_TAGS = 16
 MAX_LANGUAGES = 12
 
 LANGUAGE_BY_EXTENSION = {
-    ".rs": "Rust",
-    ".py": "Python",
-    ".ts": "TypeScript",
-    ".tsx": "TypeScript",
-    ".js": "JavaScript",
-    ".jsx": "JavaScript",
-    ".go": "Go",
-    ".java": "Java",
-    ".kt": "Kotlin",
-    ".swift": "Swift",
-    ".c": "C",
-    ".cc": "C++",
-    ".cpp": "C++",
-    ".h": "C/C++",
-    ".hpp": "C++",
-    ".ml": "OCaml",
-    ".mli": "OCaml",
-    ".scala": "Scala",
-    ".clj": "Clojure",
-    ".cljs": "ClojureScript",
-    ".sh": "Shell",
-    ".nix": "Nix",
-    ".sol": "Solidity",
-    ".zig": "Zig",
+    ".rs": "Rust", ".py": "Python", ".ts": "TypeScript", ".tsx": "TypeScript",
+    ".js": "JavaScript", ".jsx": "JavaScript", ".go": "Go", ".java": "Java",
+    ".kt": "Kotlin", ".swift": "Swift", ".c": "C", ".cc": "C++", ".cpp": "C++",
+    ".h": "C/C++", ".hpp": "C++", ".ml": "OCaml", ".mli": "OCaml",
+    ".scala": "Scala", ".clj": "Clojure", ".cljs": "ClojureScript",
+    ".sh": "Shell", ".nix": "Nix", ".sol": "Solidity", ".zig": "Zig",
 }
 
 STOPWORDS = {
-    "the",
-    "and",
-    "for",
-    "with",
-    "from",
-    "into",
-    "this",
-    "that",
-    "repo",
-    "project",
-    "src",
-    "lib",
-    "app",
-    "core",
-    "test",
-    "tests",
-    "docs",
-    "examples",
-    "example",
-    "bin",
-    "cmd",
-    "tool",
-    "tools",
-    "internal",
-    "common",
+    "the", "and", "for", "with", "from", "into", "this", "that", "repo",
+    "project", "src", "lib", "app", "core", "test", "tests", "docs",
+    "examples", "example", "bin", "cmd", "tool", "tools", "internal", "common",
 }
-
-
-@dataclass
-class GeminiResult:
-    ok: bool
-    stdout: str
-    stderr: str
-    status: int
-
-
-def now_rfc3339() -> str:
-    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
-
-
-def resolve_shadow_root(explicit: str | None) -> Path:
-    if explicit:
-        return Path(explicit).expanduser()
-    env_value = os.environ.get("STARMAP_SHADOW_ROOT")
-    if env_value:
-        return Path(env_value).expanduser()
-    candidates = [
-        Path("~/.summarize").expanduser(),
-        Path("~/.summarization").expanduser(),
-    ]
-    best_path: Path | None = None
-    best_count = -1
-    for candidate in candidates:
-        if not candidate.exists():
-            continue
-        try:
-            count = sum(1 for _ in candidate.rglob("summary.json"))
-        except OSError:
-            count = 0
-        if count > best_count:
-            best_count = count
-            best_path = candidate
-    if best_path:
-        return best_path
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    return candidates[0]
-
-
-def extract_json_object(text: str) -> str | None:
-    start = text.find("{")
-    if start < 0:
-        return None
-
-    depth = 0
-    in_string = False
-    escaped = False
-    for idx in range(start, len(text)):
-        ch = text[idx]
-        if in_string:
-            if escaped:
-                escaped = False
-                continue
-            if ch == "\\":
-                escaped = True
-                continue
-            if ch == '"':
-                in_string = False
-            continue
-
-        if ch == '"':
-            in_string = True
-            continue
-        if ch == "{":
-            depth += 1
-            continue
-        if ch == "}":
-            depth -= 1
-            if depth == 0:
-                return text[start : idx + 1]
-    return None
-
-
-def run_gemini(
-    gemini_bin: str,
-    prompt: str,
-    gemini_args: list[str],
-    verbose: bool,
-) -> GeminiResult:
-    cmd = [gemini_bin, *gemini_args, "-p", prompt, "--output-format", "text"]
-    if verbose:
-        print(f"[debug] gemini cmd: {' '.join(cmd[:4])} ...", file=sys.stderr)
-    try:
-        proc = subprocess.run(
-            cmd,
-            check=False,
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-        )
-    except FileNotFoundError:
-        return GeminiResult(
-            ok=False,
-            stdout="",
-            stderr=f"binary not found: {gemini_bin}",
-            status=127,
-        )
-    except OSError as err:
-        return GeminiResult(ok=False, stdout="", stderr=str(err), status=1)
-
-    return GeminiResult(
-        ok=proc.returncode == 0,
-        stdout=proc.stdout or "",
-        stderr=proc.stderr or "",
-        status=proc.returncode,
-    )
-
-
-def parse_gemini_json(result: GeminiResult) -> tuple[dict[str, Any] | None, str | None]:
-    if not result.ok:
-        return None, f"gemini_nonzero_exit:{result.status}:{result.stderr.strip()[:200]}"
-    blob = extract_json_object(result.stdout.strip())
-    if not blob:
-        return None, "gemini_no_json"
-    try:
-        parsed = json.loads(blob)
-    except json.JSONDecodeError:
-        return None, "gemini_invalid_json"
-    if not isinstance(parsed, dict):
-        return None, "gemini_non_object_json"
-    return parsed, None
 
 
 def read_text(path: Path, max_chars: int) -> str:
@@ -387,6 +193,8 @@ def compact_summary_for_judge(summary: dict[str, Any]) -> dict[str, Any]:
         "tags": summary.get("tags", []),
         "concepts": summary.get("concepts", []),
         "languages": summary.get("languages", []),
+        "mined_motifs": summary.get("mined_motifs", []),
+        "attribution": summary.get("attribution", "interests"),
     }
 
 
@@ -483,36 +291,11 @@ def build_repair_prompt(
     )
 
 
-def as_string(value: Any) -> str:
-    if not isinstance(value, str):
-        return ""
-    return value.strip()
-
-
-def as_string_list(value: Any) -> list[str]:
-    if not isinstance(value, list):
-        return []
-    out: list[str] = []
-    for item in value:
-        if isinstance(item, str):
-            trimmed = item.strip()
-            if trimmed:
-                out.append(trimmed)
-    return out
-
-
 def dedup_strings(values: list[str], max_len: int) -> list[str]:
-    out: list[str] = []
-    seen: set[str] = set()
-    for value in values:
-        key = value.casefold()
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(value)
-        if max_len > 0 and len(out) >= max_len:
-            break
-    return out
+    result = dedup(values)
+    if max_len > 0:
+        result = result[:max_len]
+    return result
 
 
 def sanitize_repair(
@@ -587,6 +370,16 @@ def sanitize_repair(
     out["evidence"] = evidence
     out["_updated_at"] = now_rfc3339()
 
+    for key in (
+        "mined_motifs",
+        "_motif_neighbors",
+        "attribution",
+        "_embedding",
+        "_alignment",
+    ):
+        if key in existing and key not in out:
+            out[key] = existing[key]
+
     prior_hash = sha256_text(json.dumps(existing, sort_keys=True, ensure_ascii=False))
     out["_repair"] = {
         "repaired_at": now_rfc3339(),
@@ -602,28 +395,6 @@ def sanitize_repair(
     }
 
     return out
-
-
-def read_summary(path: Path) -> dict[str, Any] | None:
-    try:
-        with path.open("r", encoding="utf-8") as handle:
-            raw = json.load(handle)
-    except (OSError, json.JSONDecodeError):
-        return None
-    if not isinstance(raw, dict):
-        return None
-    return raw
-
-
-def write_summary(path: Path, summary: dict[str, Any]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as handle:
-        json.dump(summary, handle, ensure_ascii=False, indent=2, sort_keys=False)
-        handle.write("\n")
-
-
-def canonical_json(value: Any) -> str:
-    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
 def detect_weak(judge: dict[str, Any], min_confidence: float, max_weak_score: int) -> bool:
@@ -645,24 +416,13 @@ def detect_weak(judge: dict[str, Any], min_confidence: float, max_weak_score: in
     return weak or score_value <= max_weak_score
 
 
-def summary_files(shadow_root: Path) -> list[Path]:
-    if not shadow_root.exists():
-        return []
-    return sorted(shadow_root.rglob("summary.json"))
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Repair weak summaries under ~/.summarization with Gemini.",
     )
     parser.add_argument("--shadow-root", default=None, help="Root with summary.json files.")
     parser.add_argument("--gemini-bin", default="gemini", help="Gemini CLI binary.")
-    parser.add_argument(
-        "--gemini-arg",
-        action="append",
-        default=[],
-        help="Extra arg passed to Gemini (repeatable).",
-    )
+    parser.add_argument("--gemini-arg", action="append", default=[], help="Extra Gemini arg (repeatable).")
     parser.add_argument("--min-confidence", type=float, default=0.55)
     parser.add_argument("--max-weak-score", type=int, default=60)
     parser.add_argument("--limit", type=int, default=0)
@@ -672,7 +432,7 @@ def main() -> int:
     args = parser.parse_args()
 
     root = resolve_shadow_root(args.shadow_root)
-    files = summary_files(root)
+    files = sorted(root.rglob("summary.json")) if root.exists() else []
     if args.limit > 0:
         files = files[: args.limit]
 
@@ -680,8 +440,11 @@ def main() -> int:
         print(f"No summary files found under {root}", file=sys.stderr)
         return 1
 
+    gemini = GeminiClient(gemini_bin=args.gemini_bin, gemini_args=args.gemini_arg, verbose=args.verbose)
+
     print(f"Shadow root: {root}")
     print(f"Summary files: {len(files)}")
+    print(f"Gemini: {args.gemini_bin}")
     if args.dry_run:
         print("Mode: dry-run")
 
@@ -692,12 +455,7 @@ def main() -> int:
         summary = read_summary(summary_path)
         if summary is None:
             stats["invalid_json"] += 1
-            report_events.append(
-                {
-                    "file": str(summary_path),
-                    "status": "invalid_json",
-                }
-            )
+            report_events.append({"file": str(summary_path), "status": "invalid_json"})
             print(f"[{idx}/{len(files)}] invalid_json  {summary_path}")
             continue
 
@@ -705,52 +463,41 @@ def main() -> int:
         context = gather_project_context(project_path)
 
         judge_prompt = build_judge_prompt(summary, context)
-        judge_call = run_gemini(args.gemini_bin, judge_prompt, args.gemini_arg, args.verbose)
-        judge, judge_err = parse_gemini_json(judge_call)
+        judge, judge_err = gemini.generate_json(judge_prompt)
         if judge is None:
             stats["judge_error"] += 1
-            report_events.append(
-                {
-                    "file": str(summary_path),
-                    "path": as_string(summary.get("_path")),
-                    "status": "judge_error",
-                    "error": judge_err,
-                }
-            )
+            report_events.append({
+                "file": str(summary_path),
+                "path": as_string(summary.get("_path")),
+                "status": "judge_error",
+                "error": judge_err,
+            })
             print(f"[{idx}/{len(files)}] judge_error   {as_string(summary.get('_path'))}")
             continue
 
         is_weak = detect_weak(judge, args.min_confidence, args.max_weak_score)
         if not is_weak:
             stats["strong"] += 1
-            report_events.append(
-                {
-                    "file": str(summary_path),
-                    "path": as_string(summary.get("_path")),
-                    "status": "strong",
-                    "judge": {
-                        "score": judge.get("score"),
-                        "confidence": judge.get("confidence"),
-                    },
-                }
-            )
+            report_events.append({
+                "file": str(summary_path),
+                "path": as_string(summary.get("_path")),
+                "status": "strong",
+                "judge": {"score": judge.get("score"), "confidence": judge.get("confidence")},
+            })
             print(f"[{idx}/{len(files)}] strong        {as_string(summary.get('_path'))}")
             continue
 
         repair_prompt = build_repair_prompt(summary, judge, context)
-        repair_call = run_gemini(args.gemini_bin, repair_prompt, args.gemini_arg, args.verbose)
-        repaired_raw, repair_err = parse_gemini_json(repair_call)
+        repaired_raw, repair_err = gemini.generate_json(repair_prompt)
         if repaired_raw is None:
             stats["repair_error"] += 1
-            report_events.append(
-                {
-                    "file": str(summary_path),
-                    "path": as_string(summary.get("_path")),
-                    "status": "repair_error",
-                    "judge": judge,
-                    "error": repair_err,
-                }
-            )
+            report_events.append({
+                "file": str(summary_path),
+                "path": as_string(summary.get("_path")),
+                "status": "repair_error",
+                "judge": judge,
+                "error": repair_err,
+            })
             print(f"[{idx}/{len(files)}] repair_error  {as_string(summary.get('_path'))}")
             continue
 
@@ -766,15 +513,13 @@ def main() -> int:
             stats["weak_unchanged"] += 1
             status = "weak_unchanged"
 
-        report_events.append(
-            {
-                "file": str(summary_path),
-                "path": as_string(summary.get("_path")),
-                "status": status,
-                "judge": judge,
-                "changed": changed,
-            }
-        )
+        report_events.append({
+            "file": str(summary_path),
+            "path": as_string(summary.get("_path")),
+            "status": status,
+            "judge": judge,
+            "changed": changed,
+        })
         print(f"[{idx}/{len(files)}] {status:<13} {as_string(summary.get('_path'))}")
 
     report = {

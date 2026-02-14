@@ -1,0 +1,205 @@
+{
+  "name": "CnC_Tiberian_Dawn",
+  "description": "Original source code for Command & Conquer: Tiberian Dawn, a seminal real-time strategy game. The codebase implements the complete game engine logic, including unit pathfinding, AI state machines, map rendering, and network protocols for DOS/Win32 platforms.",
+  "tags": [
+    "real-time-strategy",
+    "game-engine",
+    "pathfinding",
+    "finite-state-machine",
+    "dos-gaming",
+    "legacy-codebase",
+    "watcom",
+    "tasm",
+    "retro-gaming"
+  ],
+  "category": "Real-Time Strategy Engine",
+  "concepts": [
+    "Pathfinding AI",
+    "Sprite Rendering",
+    "Tile-based Map Systems",
+    "Deterministic Lockstep Networking",
+    "Unit State Machines",
+    "Resource Management Logic",
+    "DirectX 5 Integration",
+    "DPMI Protected Mode",
+    "Custom File Formats (MIX)",
+    "VQA Video Playback"
+  ],
+  "languages": [
+    "C++",
+    "Assembly",
+    "C"
+  ],
+  "maturity": "archival",
+  "evidence": {
+    "file_count": 334,
+    "has_readme": true,
+    "sample_files": [
+      "Makefile",
+      "SIDEBAR.CPP",
+      "CELL.CPP",
+      "FOOT.CPP",
+      "ADATA.CPP"
+    ]
+  },
+  "_hash": "35335187f0e0a59eda07eaadc154a8d7261297372ea0d2f5e8d58370cf9fa2f0",
+  "_path": "/Users/ember/src/CnC_Tiberian_Dawn",
+  "_updated_at": "2026-02-14T00:56:31.994522Z",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "10540b321b9c36f5b1cafe0af68b0a39c002ec2f21f0c3e381982b50845942d2",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:58:51.100200+00:00"
+  },
+  "mined_motifs": [
+    "cpp",
+    "A* Pathfinding",
+    "westwood-studios",
+    "command-and-conquer",
+    "legacy-code",
+    "rts",
+    "Particle System Buffering",
+    "Terrain Rendering",
+    "game-logic",
+    "Network Synchronization",
+    "networking",
+    "game-development"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "CnC_Red_Alert",
+      "path": "/Users/ember/src/CnC_Red_Alert",
+      "similarity": 0.949
+    },
+    {
+      "name": "CnC_Generals_Zero_Hour",
+      "path": "/Users/ember/src/CnC_Generals_Zero_Hour",
+      "similarity": 0.923
+    },
+    {
+      "name": "CnC_Renegade",
+      "path": "/Users/ember/src/CnC_Renegade",
+      "similarity": 0.916
+    },
+    {
+      "name": "lets-build-a-compiler",
+      "path": "/Users/ember/dev/gh/lets-build-a-compiler",
+      "similarity": 0.851
+    },
+    {
+      "name": "pyspades",
+      "path": "/Users/ember/dev/gh/pyspades",
+      "similarity": 0.845
+    },
+    {
+      "name": "sicp",
+      "path": "/Users/ember/dev/gh/sicp",
+      "similarity": 0.845
+    },
+    {
+      "name": "libgit2",
+      "path": "/Users/ember/dev/gh/forks/libgit2",
+      "similarity": 0.844
+    },
+    {
+      "name": "connectfour",
+      "path": "/Users/ember/dev/gh/connectfour",
+      "similarity": 0.841
+    }
+  ],
+  "attribution": "interests",
+  "_alignment": {
+    "category": "Games",
+    "concepts": [
+      "Pathfinding AI",
+      "Sprite Rendering",
+      "Tile-based Map Systems",
+      "Deterministic Lockstep Networking",
+      "Unit State Machines",
+      "Resource Management Logic",
+      "DirectX 5 Integration",
+      "DPMI Protected Mode",
+      "Custom File Formats (MIX)",
+      "VQA Video Playback"
+    ],
+    "tags": [
+      "real-time-strategy",
+      "game-engine",
+      "pathfinding",
+      "finite-state-machine",
+      "dos-gaming",
+      "legacy-codebase",
+      "watcom",
+      "tasm",
+      "retro-gaming"
+    ],
+    "mined_motifs": [
+      "cpp",
+      "A* Pathfinding",
+      "westwood-studios",
+      "command-and-conquer",
+      "legacy-code",
+      "rts",
+      "Particle System Buffering",
+      "Terrain Rendering",
+      "game-engine",
+      "Network Synchronization",
+      "networking"
+    ],
+    "metaconstellations": [
+      {
+        "id": "legacy-engine-research",
+        "name": "Legacy RTS Engine Architecture",
+        "score": 11.12,
+        "matches": [
+          "game-engine",
+          "pathfinding",
+          "rts"
+        ]
+      },
+      {
+        "id": "procedural-worldbuilding",
+        "name": "Procedural Worldbuilding & Simulation",
+        "score": 5.608,
+        "matches": [
+          "pathfinding"
+        ]
+      },
+      {
+        "id": "deterministic-simulation-and-narrative",
+        "name": "Deterministic Simulation & Narrative",
+        "score": 5.512,
+        "matches": [
+          "game-engine"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 2.696,
+        "matches": []
+      },
+      {
+        "id": "autonomous-simulation",
+        "name": "Autonomous Agents & Game Simulation",
+        "score": 2.695,
+        "matches": []
+      },
+      {
+        "id": "computational-physics-and-physiology",
+        "name": "Computational Physics & Physiology",
+        "score": 2.68,
+        "matches": []
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:31.994522Z"
+  }
+}

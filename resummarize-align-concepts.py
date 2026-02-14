@@ -9,156 +9,29 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
-import re
-import subprocess
 import sys
 from collections import Counter, defaultdict
-from dataclasses import dataclass
-from datetime import datetime, timezone
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from starmap_lib import (
+    GeminiClient,
+    as_string,
+    as_string_list,
+    cosine_similarity,
+    dedup,
+    load_embeddings,
+    now_rfc3339,
+    read_summary,
+    resolve_shadow_root,
+    slugify,
+    write_summary,
+)
 
-def now_rfc3339() -> str:
-    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-
-
-def resolve_shadow_root(explicit: str | None) -> Path:
-    if explicit:
-        return Path(explicit).expanduser()
-    env_value = os.environ.get("STARMAP_SHADOW_ROOT")
-    if env_value:
-        return Path(env_value).expanduser()
-    candidates = [
-        Path("~/.summarize").expanduser(),
-        Path("~/.summarization").expanduser(),
-    ]
-    best_path: Path | None = None
-    best_count = -1
-    for candidate in candidates:
-        if not candidate.exists():
-            continue
-        try:
-            count = sum(1 for _ in candidate.rglob("summary.json"))
-        except OSError:
-            count = 0
-        if count > best_count:
-            best_count = count
-            best_path = candidate
-    if best_path:
-        return best_path
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    return candidates[0]
-
-
-def slugify(value: str) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
-    return slug or "meta"
-
-
-def as_string(value: Any) -> str:
-    if not isinstance(value, str):
-        return ""
-    return value.strip()
-
-
-def as_string_list(value: Any) -> list[str]:
-    if not isinstance(value, list):
-        return []
-    out: list[str] = []
-    for item in value:
-        if isinstance(item, str):
-            text = item.strip()
-            if text:
-                out.append(text)
-    return out
-
-
-def dedup(values: list[str]) -> list[str]:
-    out: list[str] = []
-    seen: set[str] = set()
-    for value in values:
-        key = value.casefold()
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(value)
-    return out
-
-
-def extract_json_object(text: str) -> str | None:
-    start = text.find("{")
-    if start < 0:
-        return None
-
-    depth = 0
-    in_string = False
-    escaped = False
-    for idx in range(start, len(text)):
-        ch = text[idx]
-        if in_string:
-            if escaped:
-                escaped = False
-                continue
-            if ch == "\\":
-                escaped = True
-                continue
-            if ch == '"':
-                in_string = False
-            continue
-
-        if ch == '"':
-            in_string = True
-            continue
-        if ch == "{":
-            depth += 1
-        elif ch == "}":
-            depth -= 1
-            if depth == 0:
-                return text[start : idx + 1]
-    return None
-
-
-def run_gemini(
-    gemini_bin: str,
-    gemini_args: list[str],
-    prompt: str,
-    verbose: bool,
-) -> tuple[dict[str, Any] | None, str | None]:
-    cmd = [gemini_bin, *gemini_args, "-p", prompt, "--output-format", "text"]
-    if verbose:
-        print(f"[debug] running gemini: {gemini_bin}", file=sys.stderr)
-    try:
-        proc = subprocess.run(
-            cmd,
-            check=False,
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-        )
-    except FileNotFoundError:
-        return None, f"gemini binary not found: {gemini_bin}"
-    except OSError as err:
-        return None, f"failed to execute gemini: {err}"
-
-    if proc.returncode != 0:
-        err = (proc.stderr or "").strip()
-        return None, f"gemini exit {proc.returncode}: {err[:300]}"
-
-    blob = extract_json_object((proc.stdout or "").strip())
-    if not blob:
-        return None, "gemini returned no JSON object"
-
-    try:
-        parsed = json.loads(blob)
-    except json.JSONDecodeError as err:
-        return None, f"invalid JSON from gemini: {err}"
-    if not isinstance(parsed, dict):
-        return None, "gemini JSON root must be an object"
-    return parsed, None
+# ---------------------------------------------------------------------------
+# Data model
+# ---------------------------------------------------------------------------
 
 
 @dataclass
@@ -177,25 +50,22 @@ class SummaryRecord:
         return dedup([*self.concepts, *self.tags, *self.mined_motifs])
 
 
-def read_summary(path: Path) -> dict[str, Any] | None:
-    try:
-        with path.open("r", encoding="utf-8") as handle:
-            data = json.load(handle)
-    except (OSError, json.JSONDecodeError):
-        return None
-    if not isinstance(data, dict):
-        return None
-    return data
+@dataclass
+class AliasEntry:
+    canonical: str
+    confidence: float
 
 
-def write_summary(path: Path, data: dict[str, Any]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as handle:
-        json.dump(data, handle, ensure_ascii=False, indent=2, sort_keys=False)
-        handle.write("\n")
+# ---------------------------------------------------------------------------
+# Loading
+# ---------------------------------------------------------------------------
 
 
-def load_records(shadow_root: Path, limit: int) -> list[SummaryRecord]:
+def load_records(
+    shadow_root: Path,
+    limit: int,
+    since: str | None = None,
+) -> list[SummaryRecord]:
     files = sorted(shadow_root.rglob("summary.json"))
     if limit > 0:
         files = files[:limit]
@@ -205,6 +75,11 @@ def load_records(shadow_root: Path, limit: int) -> list[SummaryRecord]:
         raw = read_summary(file)
         if raw is None:
             continue
+        # Incremental: only include projects updated after `since`.
+        if since:
+            updated_at = as_string(raw.get("_updated_at"))
+            if updated_at and updated_at <= since:
+                continue
         project_path = as_string(raw.get("_path")) or str(file)
         name = as_string(raw.get("name")) or Path(project_path).name or "Unnamed"
         category = as_string(raw.get("category")) or "Exploratory"
@@ -226,8 +101,65 @@ def load_records(shadow_root: Path, limit: int) -> list[SummaryRecord]:
     return out
 
 
-def canonical_json(value: Any) -> str:
-    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+# ---------------------------------------------------------------------------
+# Embedding-based term clustering
+# ---------------------------------------------------------------------------
+
+
+def compute_term_embeddings(
+    records: list[SummaryRecord],
+    project_embeddings: dict[str, list[float]],
+) -> dict[str, list[float]]:
+    """Compute a pseudo-embedding for each term by averaging project embeddings."""
+    term_vectors: dict[str, list[list[float]]] = defaultdict(list)
+
+    for record in records:
+        vec = project_embeddings.get(record.project_path)
+        if vec is None:
+            continue
+        for term in record.terms:
+            term_vectors[term.casefold()].append(vec)
+
+    term_embeddings: dict[str, list[float]] = {}
+    for term_key, vecs in term_vectors.items():
+        if not vecs:
+            continue
+        dim = len(vecs[0])
+        avg = [sum(v[d] for v in vecs) / len(vecs) for d in range(dim)]
+        term_embeddings[term_key] = avg
+
+    return term_embeddings
+
+
+def cluster_terms_by_embedding(
+    term_embeddings: dict[str, list[float]],
+    threshold: float = 0.82,
+) -> list[list[str]]:
+    """Greedy clustering: pick seed, absorb similar terms, repeat."""
+    remaining = set(term_embeddings.keys())
+    clusters: list[list[str]] = []
+
+    while remaining:
+        seed = remaining.pop()
+        cluster = [seed]
+        seed_vec = term_embeddings[seed]
+        to_remove = []
+        for other in remaining:
+            sim = cosine_similarity(seed_vec, term_embeddings[other])
+            if sim is not None and sim >= threshold:
+                cluster.append(other)
+                to_remove.append(other)
+        for item in to_remove:
+            remaining.discard(item)
+        if len(cluster) > 1:
+            clusters.append(sorted(cluster))
+
+    return clusters
+
+
+# ---------------------------------------------------------------------------
+# Prompt building (chunked)
+# ---------------------------------------------------------------------------
 
 
 def top_terms(records: list[SummaryRecord], max_terms: int) -> list[dict[str, Any]]:
@@ -245,13 +177,7 @@ def top_terms(records: list[SummaryRecord], max_terms: int) -> list[dict[str, An
             {"name": category, "count": c}
             for category, c in categories_by_term[term].most_common(4)
         ]
-        out.append(
-            {
-                "term": term,
-                "count": count,
-                "categories": top_categories,
-            }
-        )
+        out.append({"term": term, "count": count, "categories": top_categories})
     return out
 
 
@@ -271,16 +197,21 @@ def project_cards(records: list[SummaryRecord], max_projects: int) -> list[dict[
     return cards
 
 
-def build_prompt(
+def build_chunk_prompt(
     records: list[SummaryRecord],
+    embedding_clusters: list[list[str]] | None,
     max_terms: int,
     max_projects: int,
+    is_reconciliation: bool = False,
 ) -> str:
     category_counter: Counter[str] = Counter(record.category for record in records)
-    category_summary = [{"name": name, "count": count} for name, count in category_counter.most_common(24)]
+    observed_categories = [name for name, _ in category_counter.most_common(200)]
+    category_summary = [
+        {"name": name, "count": count} for name, count in category_counter.most_common(50)
+    ]
 
-    instructions = {
-        "task": "Align near-duplicate concepts/tags/motifs and propose metaconstellations.",
+    instructions: dict[str, Any] = {
+        "task": "Align near-duplicate concepts/tags/motifs AND categories, and propose metaconstellations.",
         "output_schema": {
             "alignments": [
                 {
@@ -288,6 +219,12 @@ def build_prompt(
                     "aliases": ["string aliases that should map to canonical"],
                     "confidence": "number 0-1",
                     "rationale": "short string",
+                }
+            ],
+            "category_alignments": [
+                {
+                    "canonical": "string canonical category",
+                    "aliases": ["string aliases/near-duplicates that should map to canonical"],
                 }
             ],
             "metaconstellations": [
@@ -310,15 +247,23 @@ def build_prompt(
             "Metaconstellations should be cross-project strategic themes, not single-repo labels.",
             "Prefer 6-18 metaconstellations.",
             "Only use terms from provided inputs for aliases/include/exclude when possible.",
+            "Align overlapping categories (e.g. 'Zero Knowledge' -> 'Zero-Knowledge Proofs').",
+            "Use the embedding_clusters hint to validate which terms are likely synonyms.",
         ],
     }
 
-    payload = {
+    payload: dict[str, Any] = {
         "summary_count": len(records),
+        "observed_categories": observed_categories,
         "category_distribution": category_summary,
         "top_terms": top_terms(records, max_terms),
         "project_cards": project_cards(records, max_projects),
     }
+
+    if embedding_clusters:
+        payload["embedding_clusters"] = [
+            {"terms": cluster} for cluster in embedding_clusters[:60]
+        ]
 
     return (
         f"{json.dumps(instructions, ensure_ascii=False)}\n\n"
@@ -326,14 +271,31 @@ def build_prompt(
     )
 
 
+# ---------------------------------------------------------------------------
+# Sanitization
+# ---------------------------------------------------------------------------
+
+
 def sanitize_alignment_output(
     raw: dict[str, Any],
     observed_terms: set[str],
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    observed_categories: set[str],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, str]]:
     observed_lower = {term.casefold(): term for term in observed_terms}
+    cat_lower = {c.casefold(): c for c in observed_categories}
 
     alignments_raw = raw.get("alignments")
+    cat_alignments_raw = raw.get("category_alignments")
     metaraw = raw.get("metaconstellations")
+
+    category_map: dict[str, str] = {}
+    for item in cat_alignments_raw if isinstance(cat_alignments_raw, list) else []:
+        canonical = as_string(item.get("canonical"))
+        if not canonical:
+            continue
+        for alias in as_string_list(item.get("aliases")):
+            if alias.casefold() in cat_lower:
+                category_map[alias.casefold()] = canonical
 
     alignments: list[dict[str, Any]] = []
     alias_owner: dict[str, tuple[float, str]] = {}
@@ -445,29 +407,88 @@ def sanitize_alignment_output(
 
     clean_metas = list(by_id.values())
     clean_metas.sort(key=lambda x: x["name"].casefold())
-    return clean_alignments, clean_metas
+    return clean_alignments, clean_metas, category_map
 
 
-def build_alias_map(alignments: list[dict[str, Any]]) -> dict[str, str]:
-    alias_map: dict[str, str] = {}
+def merge_chunk_results(
+    chunk_results: list[tuple[list[dict], list[dict], dict[str, str]]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, str]]:
+    """Merge alignment results from multiple chunks."""
+    all_alignments: dict[str, dict[str, Any]] = {}
+    all_metas: dict[str, dict[str, Any]] = {}
+    all_category_map: dict[str, str] = {}
+
+    for alignments, metas, cat_map in chunk_results:
+        # Merge alignments by canonical — higher confidence wins.
+        for a in alignments:
+            canonical = a["canonical"]
+            existing = all_alignments.get(canonical)
+            if not existing:
+                all_alignments[canonical] = dict(a)
+            else:
+                existing["aliases"] = dedup(existing["aliases"] + a["aliases"])
+                existing["confidence"] = max(
+                    existing.get("confidence", 0.5),
+                    a.get("confidence", 0.5),
+                )
+
+        # Merge metaconstellations by id.
+        for m in metas:
+            meta_id = m["id"]
+            existing = all_metas.get(meta_id)
+            if not existing:
+                all_metas[meta_id] = dict(m)
+            else:
+                existing["concepts"] = dedup(existing["concepts"] + m.get("concepts", []))[:40]
+                existing["categories"] = dedup(existing["categories"] + m.get("categories", []))[:20]
+                existing["include_terms"] = dedup(existing["include_terms"] + m.get("include_terms", []))[:40]
+                existing["exclude_terms"] = dedup(existing["exclude_terms"] + m.get("exclude_terms", []))[:30]
+
+        all_category_map.update(cat_map)
+
+    merged_alignments = sorted(all_alignments.values(), key=lambda x: x["canonical"].casefold())
+    merged_metas = sorted(all_metas.values(), key=lambda x: x["name"].casefold())
+    return merged_alignments, merged_metas, all_category_map
+
+
+# ---------------------------------------------------------------------------
+# Alias map + normalization
+# ---------------------------------------------------------------------------
+
+
+def build_alias_map(alignments: list[dict[str, Any]]) -> dict[str, AliasEntry]:
+    alias_map: dict[str, AliasEntry] = {}
     for item in alignments:
         canonical = as_string(item.get("canonical"))
         if not canonical:
             continue
+        confidence = float(item.get("confidence", 0.5))
         for alias in as_string_list(item.get("aliases")):
-            alias_map[alias.casefold()] = canonical
+            alias_map[alias.casefold()] = AliasEntry(canonical=canonical, confidence=confidence)
     return alias_map
 
 
-def normalize_terms(terms: list[str], alias_map: dict[str, str]) -> list[str]:
+def normalize_terms(
+    terms: list[str],
+    alias_map: dict[str, AliasEntry],
+    min_confidence: float = 0.6,
+) -> list[str]:
     mapped = []
     for term in terms:
-        canonical = alias_map.get(term.casefold(), term)
-        mapped.append(canonical)
+        entry = alias_map.get(term.casefold())
+        if entry and entry.confidence >= min_confidence:
+            mapped.append(entry.canonical)
+        else:
+            mapped.append(term)
     return dedup(mapped)
 
 
-def score_project_for_meta(
+# ---------------------------------------------------------------------------
+# Metaconstellation scoring (hybrid: lexical + embedding)
+# ---------------------------------------------------------------------------
+
+
+def lexical_score_for_meta(
     project_terms: set[str],
     project_category: str,
     meta: dict[str, Any],
@@ -501,12 +522,66 @@ def score_project_for_meta(
     return score, matches
 
 
+def compute_meta_centroids(
+    metaconstellations: list[dict[str, Any]],
+    records: list[SummaryRecord],
+    alias_map: dict[str, AliasEntry],
+    project_embeddings: dict[str, list[float]],
+) -> dict[str, list[float]]:
+    """Compute centroids for each metaconstellation via first-pass lexical assignment."""
+    meta_projects: dict[str, list[str]] = {m["id"]: [] for m in metaconstellations}
+
+    for record in records:
+        aligned_terms = normalize_terms(record.concepts + record.tags + record.mined_motifs, alias_map)
+        project_terms = {x.casefold() for x in aligned_terms}
+        for meta in metaconstellations:
+            lex_score, _ = lexical_score_for_meta(project_terms, record.category, meta)
+            if lex_score >= 2.0:
+                meta_projects[meta["id"]].append(record.project_path)
+
+    centroids: dict[str, list[float]] = {}
+    for meta_id, paths in meta_projects.items():
+        vecs = [project_embeddings[p] for p in paths if p in project_embeddings]
+        if not vecs:
+            continue
+        dim = len(vecs[0])
+        avg = [sum(v[d] for v in vecs) / len(vecs) for d in range(dim)]
+        centroids[meta_id] = avg
+
+    return centroids
+
+
+def score_project_for_meta(
+    project_path: str,
+    project_terms: set[str],
+    project_category: str,
+    meta: dict[str, Any],
+    project_embeddings: dict[str, list[float]],
+    meta_centroids: dict[str, list[float]],
+) -> tuple[float, list[str]]:
+    lex_score, matches = lexical_score_for_meta(project_terms, project_category, meta)
+
+    # Embedding-based boost.
+    embed_score = 0.0
+    meta_id = meta.get("id", "")
+    centroid = meta_centroids.get(meta_id)
+    proj_vec = project_embeddings.get(project_path)
+    if centroid is not None and proj_vec is not None:
+        sim = cosine_similarity(proj_vec, centroid)
+        if sim is not None and sim > 0.5:
+            embed_score = sim * 3.0
+
+    return lex_score + embed_score, matches
+
+
 def assign_metaconstellations(
     record: SummaryRecord,
     aligned_concepts: list[str],
     aligned_tags: list[str],
     aligned_mined: list[str],
     metaconstellations: list[dict[str, Any]],
+    project_embeddings: dict[str, list[float]],
+    meta_centroids: dict[str, list[float]],
 ) -> list[dict[str, Any]]:
     project_terms = {x.casefold() for x in dedup([*aligned_concepts, *aligned_tags, *aligned_mined])}
     if not project_terms:
@@ -514,7 +589,14 @@ def assign_metaconstellations(
 
     scored: list[dict[str, Any]] = []
     for meta in metaconstellations:
-        score, matches = score_project_for_meta(project_terms, record.category, meta)
+        score, matches = score_project_for_meta(
+            record.project_path,
+            project_terms,
+            record.category,
+            meta,
+            project_embeddings,
+            meta_centroids,
+        )
         if score < 2.0:
             continue
         scored.append(
@@ -528,6 +610,11 @@ def assign_metaconstellations(
 
     scored.sort(key=lambda x: (-float(x["score"]), x["name"].casefold()))
     return scored[:6]
+
+
+# ---------------------------------------------------------------------------
+# Artifact writing
+# ---------------------------------------------------------------------------
 
 
 def write_metaconstellation_artifact(
@@ -569,33 +656,37 @@ def write_metaconstellation_artifact(
     return target
 
 
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Align concept/motif vocabulary with Gemini and generate metaconstellations.",
     )
     parser.add_argument("--shadow-root", default=None, help="Summary root (default: autodetect).")
     parser.add_argument("--gemini-bin", default="gemini", help="Gemini CLI binary.")
-    parser.add_argument(
-        "--gemini-arg",
-        action="append",
-        default=[],
-        help="Extra Gemini arg (repeatable).",
-    )
+    parser.add_argument("--gemini-arg", action="append", default=[], help="Extra Gemini arg (repeatable).")
     parser.add_argument("--max-terms", type=int, default=380)
     parser.add_argument("--max-project-cards", type=int, default=220)
+    parser.add_argument("--chunk-size", type=int, default=80, help="Projects per Gemini chunk.")
+    parser.add_argument("--min-confidence", type=float, default=0.6, help="Min alignment confidence.")
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--since", default=None, help="ISO timestamp for incremental alignment.")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--verbose", action="store_true")
     parser.add_argument("--report-file", default=None)
     args = parser.parse_args()
 
     shadow_root = resolve_shadow_root(args.shadow_root)
-    records = load_records(shadow_root, args.limit)
+    records = load_records(shadow_root, args.limit, since=args.since)
     if not records:
         print(f"No summary.json files found under {shadow_root}", file=sys.stderr)
         return 1
 
     observed_terms = {term for record in records for term in record.terms}
+    observed_categories = {record.category for record in records}
     if not observed_terms:
         print("No concepts/tags/motifs found to align.", file=sys.stderr)
         return 1
@@ -603,17 +694,77 @@ def main() -> int:
     print(f"Shadow root: {shadow_root}")
     print(f"Projects loaded: {len(records)}")
     print(f"Unique terms: {len(observed_terms)}")
+    print(f"Unique categories: {len(observed_categories)}")
+    print(f"Gemini: {args.gemini_bin}")
+    if args.since:
+        print(f"Incremental since: {args.since}")
     if args.dry_run:
         print("Mode: dry-run")
 
-    prompt = build_prompt(records, max(50, args.max_terms), max(50, args.max_project_cards))
-    model_output, model_err = run_gemini(args.gemini_bin, args.gemini_arg, prompt, args.verbose)
-    if model_output is None:
-        print(f"Gemini failed: {model_err}", file=sys.stderr)
-        return 2
+    # Load project embeddings.
+    project_embeddings = load_embeddings(shadow_root)
+    embed_count = sum(1 for r in records if r.project_path in project_embeddings)
+    print(f"Embeddings available: {embed_count}/{len(records)}")
 
-    alignments, metaconstellations = sanitize_alignment_output(model_output, observed_terms)
+    # Pre-cluster terms using embedding similarity.
+    embedding_clusters: list[list[str]] | None = None
+    if project_embeddings:
+        term_embeddings = compute_term_embeddings(records, project_embeddings)
+        if term_embeddings:
+            embedding_clusters = cluster_terms_by_embedding(term_embeddings)
+            print(f"Embedding term clusters: {len(embedding_clusters)}")
+
+    # Chunk records for Gemini calls.
+    gemini = GeminiClient(gemini_bin=args.gemini_bin, gemini_args=args.gemini_arg, verbose=args.verbose)
+    chunk_size = max(20, args.chunk_size)
+    chunks = [records[i : i + chunk_size] for i in range(0, len(records), chunk_size)]
+    print(f"Gemini chunks: {len(chunks)} (size {chunk_size})")
+
+    chunk_results: list[tuple[list[dict], list[dict], dict[str, str]]] = []
+
+    if len(chunks) == 1:
+        # Single chunk — simple path.
+        prompt = build_chunk_prompt(
+            chunks[0], embedding_clusters, max(50, args.max_terms), max(50, args.max_project_cards)
+        )
+        model_output, model_err = gemini.generate_json(prompt)
+        if model_output is None:
+            print(f"Gemini failed: {model_err}", file=sys.stderr)
+            return 2
+        result = sanitize_alignment_output(model_output, observed_terms, observed_categories)
+        chunk_results.append(result)
+    else:
+        # Multi-chunk: build prompts and run concurrently.
+        prompts = []
+        for chunk in chunks:
+            prompt = build_chunk_prompt(
+                chunk, embedding_clusters, max(50, args.max_terms // len(chunks)), max(50, args.max_project_cards // len(chunks))
+            )
+            prompts.append(prompt)
+
+        print(f"Running {len(prompts)} Gemini calls concurrently...")
+        batch_results = gemini.generate_json_batch(prompts, concurrency=3)
+
+        for i, (model_output, model_err) in enumerate(batch_results):
+            if model_output is None:
+                print(f"Gemini chunk {i+1} failed: {model_err}", file=sys.stderr)
+                continue
+            result = sanitize_alignment_output(model_output, observed_terms, observed_categories)
+            chunk_results.append(result)
+
+        if not chunk_results:
+            print("All Gemini chunks failed.", file=sys.stderr)
+            return 2
+
+    # Merge chunk results.
+    alignments, metaconstellations, category_map = merge_chunk_results(chunk_results)
     alias_map = build_alias_map(alignments)
+
+    # Compute metaconstellation centroids for hybrid scoring.
+    meta_centroids = compute_meta_centroids(
+        metaconstellations, records, alias_map, project_embeddings,
+    )
+    print(f"Metaconstellation centroids computed: {len(meta_centroids)}/{len(metaconstellations)}")
 
     changed_count = 0
     assigned_count = 0
@@ -621,16 +772,12 @@ def main() -> int:
     project_events: list[dict[str, Any]] = []
 
     for index, record in enumerate(records, start=1):
-        before = dict(record.raw)
         raw = dict(record.raw)
 
-        aligned_concepts = normalize_terms(record.concepts, alias_map)
-        aligned_tags = normalize_terms(record.tags, alias_map)
-        aligned_mined = normalize_terms(record.mined_motifs, alias_map)
-
-        raw["concepts"] = aligned_concepts
-        raw["tags"] = aligned_tags
-        raw["mined_motifs"] = aligned_mined
+        aligned_concepts = normalize_terms(record.concepts, alias_map, args.min_confidence)
+        aligned_tags = normalize_terms(record.tags, alias_map, args.min_confidence)
+        aligned_mined = normalize_terms(record.mined_motifs, alias_map, args.min_confidence)
+        aligned_category = category_map.get(record.category.casefold(), record.category)
 
         assigned = assign_metaconstellations(
             record,
@@ -638,22 +785,33 @@ def main() -> int:
             aligned_tags,
             aligned_mined,
             metaconstellations,
+            project_embeddings,
+            meta_centroids,
         )
-        raw["metaconstellations"] = assigned
         if assigned:
             assigned_count += 1
         project_meta_index[record.project_path] = assigned
 
-        raw["_updated_at"] = now_rfc3339()
-        raw["_alignment"] = {
-            "aligned_at": now_rfc3339(),
+        proposed_alignment = {
+            "category": aligned_category,
+            "concepts": aligned_concepts,
+            "tags": aligned_tags,
+            "mined_motifs": aligned_mined,
+            "metaconstellations": assigned,
             "aligner": "gemini",
             "alignment_count": len(alignments),
             "metaconstellation_count": len(metaconstellations),
         }
 
-        changed = canonical_json(before) != canonical_json(raw)
+        existing = raw.get("_alignment") or {}
+        existing_comparable = {
+            k: v for k, v in existing.items() if k != "aligned_at"
+        }
+        changed = existing_comparable != proposed_alignment
         if changed:
+            proposed_alignment["aligned_at"] = now_rfc3339()
+            raw["_alignment"] = proposed_alignment
+            raw["_updated_at"] = now_rfc3339()
             changed_count += 1
             if not args.dry_run:
                 write_summary(record.summary_file, raw)
@@ -691,6 +849,9 @@ def main() -> int:
             "metaconstellations": len(metaconstellations),
             "projects_updated": changed_count,
             "projects_with_metaconstellations": assigned_count,
+            "embedding_coverage": f"{embed_count}/{len(records)}",
+            "embedding_clusters": len(embedding_clusters) if embedding_clusters else 0,
+            "meta_centroids": len(meta_centroids),
         },
         "artifact_file": str(artifact_path),
         "project_events": project_events,
@@ -712,7 +873,7 @@ def main() -> int:
         "Summary: "
         f"projects={len(records)}, terms={len(observed_terms)}, "
         f"alignments={len(alignments)}, metaconstellations={len(metaconstellations)}, "
-        f"updated={changed_count}"
+        f"updated={changed_count}, embeddings={embed_count}/{len(records)}"
     )
     print(f"Artifact: {artifact_path}")
     print(f"Report: {report_file}")

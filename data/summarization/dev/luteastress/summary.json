@@ -1,0 +1,240 @@
+{
+  "name": "luteastress",
+  "description": "A hybrid Python/Rust computational framework for investigating menstrual cycle synchrony via shared environmental stressors. It implements both a stochastic phase-oscillator model with asymmetric stress sensitivity and a high-fidelity mechanistic ODE system simulating the neuroendocrine GnRH/LH/FSH cascade and HPA axis modulation.",
+  "tags": [
+    "computational-biology",
+    "systems-biology",
+    "endocrinology",
+    "monte-carlo-simulation",
+    "ode-solver",
+    "rust-pyo3",
+    "circadian-rhythms",
+    "stochastic-oscillators",
+    "sensitivity-analysis",
+    "neuroendocrinology",
+    "parameter-sweep",
+    "menstrual-cycle",
+    "hpa-axis",
+    "gnrh-pulse-generator",
+    "circular-statistics",
+    "biological-synchronization"
+  ],
+  "category": "Neuroendocrine Systems Modeling",
+  "concepts": [
+    "Phase Response Curve (PRC)",
+    "GnRH Pulse Generator Dynamics",
+    "Ornstein-Uhlenbeck Process",
+    "Rayleigh Test for Non-uniformity",
+    "Follicle Recruitment Dynamics",
+    "HPA-HPG Axis Interaction",
+    "Mean Resultant Length (R)",
+    "Onset Synchrony Index (OSI)",
+    "Kuramoto Oscillator Forcing",
+    "Autocorrelated Noise (AR1)",
+    "Heaviside Gating Functions",
+    "Follicular Atresia Modeling",
+    "Log-normal Stress Distribution",
+    "Phase-dependent Delay Mechanisms",
+    "Stochastic Phase-Delay (SPD)",
+    "Neurokinin B (KNDy) Neuron Dynamics"
+  ],
+  "languages": [
+    "Python",
+    "Rust"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 73,
+    "has_readme": true,
+    "sample_files": [
+      "pyproject.toml",
+      "native/src/lib.rs",
+      "native/src/mechanistic.rs",
+      "run_study.py",
+      "native/src/simulation.rs"
+    ]
+  },
+  "_hash": "750a700d1a550be7f98d6b36a827c3b34893f55e336373b21d9503c219f6a4af",
+  "_path": "/Users/ember/dev/luteastress",
+  "_updated_at": "2026-02-14T00:56:29.325184Z",
+  "_alignment": {
+    "category": "Simulation & Modeling",
+    "concepts": [
+      "Phase Response Curve (PRC)",
+      "GnRH Pulse Generator Dynamics",
+      "Ornstein-Uhlenbeck Process",
+      "Rayleigh Test for Non-uniformity",
+      "Follicle Recruitment Dynamics",
+      "HPA-HPG Axis Interaction",
+      "Mean Resultant Length (R)",
+      "Onset Synchrony Index (OSI)",
+      "Kuramoto Oscillator Forcing",
+      "Autocorrelated Noise (AR1)",
+      "Heaviside Gating Functions",
+      "Follicular Atresia Modeling",
+      "Log-normal Stress Distribution",
+      "Phase-dependent Delay Mechanisms",
+      "Stochastic Phase-Delay (SPD)",
+      "Neurokinin B (KNDy) Neuron Dynamics"
+    ],
+    "tags": [
+      "computational-biology",
+      "systems-biology",
+      "endocrinology",
+      "monte-carlo-simulation",
+      "ode-solver",
+      "rust-pyo3",
+      "circadian-rhythms",
+      "stochastic-oscillators",
+      "sensitivity-analysis",
+      "neuroendocrinology",
+      "parameter-sweep",
+      "menstrual-cycle",
+      "hpa-axis",
+      "gnrh-pulse-generator",
+      "circular-statistics",
+      "biological-synchronization"
+    ],
+    "mined_motifs": [
+      "Rust Language Ecosystem",
+      "real-time-simulation",
+      "distributed-systems",
+      "Pseudo-random Number Generation",
+      "Biomathematics",
+      "Clinical-Simulation",
+      "Coupled differential equations",
+      "Drug administration modeling",
+      "Endocrine feedback loops",
+      "Estradiol synthesis",
+      "FSH sensitivity variability",
+      "Follicle destiny classification"
+    ],
+    "metaconstellations": [
+      {
+        "id": "biological-physiological-modeling",
+        "name": "Biological & Physiological Modeling",
+        "score": 6.84,
+        "matches": [
+          "biological-synchronization",
+          "circadian-rhythms",
+          "endocrinology"
+        ]
+      },
+      {
+        "id": "mechanistic-biology",
+        "name": "Mechanistic Systems Physiology",
+        "score": 6.716,
+        "matches": [
+          "circadian-rhythms",
+          "systems-biology",
+          "category:Neuroendocrine Systems Modeling"
+        ]
+      },
+      {
+        "id": "biomathematical-systems",
+        "name": "Biomathematical Systems Modeling",
+        "score": 6.704,
+        "matches": [
+          "sensitivity-analysis",
+          "endocrine feedback loops"
+        ]
+      },
+      {
+        "id": "graphics-physical-simulation",
+        "name": "Graphics & Physical Simulation",
+        "score": 5.008,
+        "matches": [
+          "real-time-simulation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 4.995,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "event-sourced-algebraic-persistence",
+        "name": "Event-Sourced Algebraic Persistence",
+        "score": 4.968,
+        "matches": [
+          "distributed-systems"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:29.325184Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "c39155226145481d858c659956ede4dda724a6c07ff87d8942c133c18dc67081",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:53.685672+00:00"
+  },
+  "mined_motifs": [
+    "rust",
+    "simulation",
+    "distributed-systems",
+    "Pseudo-random Number Generation",
+    "Biomathematics",
+    "Clinical-Simulation",
+    "Coupled differential equations",
+    "Drug administration modeling",
+    "Endocrine feedback loops",
+    "Estradiol synthesis",
+    "FSH sensitivity variability",
+    "Follicle destiny classification"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "GynCycle",
+      "path": "/Users/ember/src/GynCycle",
+      "similarity": 0.812
+    },
+    {
+      "name": "orb.farm",
+      "path": "/Users/ember/dev/orb.farm",
+      "similarity": 0.699
+    },
+    {
+      "name": "fireflies",
+      "path": "/Users/ember/dev/fireflies",
+      "similarity": 0.695
+    },
+    {
+      "name": "libnss-rs",
+      "path": "/Users/ember/dev/gh/forks/libnss-rs",
+      "similarity": 0.689
+    },
+    {
+      "name": "abcdeez2",
+      "path": "/Users/ember/dev/abcdeez2",
+      "similarity": 0.688
+    },
+    {
+      "name": "state_machine_exp",
+      "path": "/Users/ember/src/state_machine_exp",
+      "similarity": 0.686
+    },
+    {
+      "name": "mrmeistopheles",
+      "path": "/Users/ember/dev/mrmeistopheles",
+      "similarity": 0.685
+    },
+    {
+      "name": "brorb",
+      "path": "/Users/ember/dev/brorb",
+      "similarity": 0.682
+    }
+  ]
+}

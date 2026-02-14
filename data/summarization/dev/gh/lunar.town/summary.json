@@ -1,0 +1,241 @@
+{
+  "name": "lunar.town",
+  "description": "A technical content publishing platform and personal web infrastructure utilizing a Rust workspace for utility tooling and AsciiDoc for structured authoring. The system employs the Oranda landing page generator alongside custom mdBook templates, integrating Rusty Object Notation (RON) for configuration and layout management. It features a bespoke aesthetic characterized by terminal-inspired CSS and is configured for automated cross-platform distribution via cargo-dist.",
+  "tags": [
+    "rust",
+    "asciidoc",
+    "ron",
+    "mdbook",
+    "oranda",
+    "cargo-dist",
+    "static-site",
+    "dns-management",
+    "handlebars",
+    "prismjs",
+    "web-infrastructure",
+    "agpl-3.0"
+  ],
+  "category": "Technical Content Publishing & Site Infrastructure",
+  "concepts": [
+    "Static Site Generation",
+    "Structured Document Authoring",
+    "Rust Workspace Management",
+    "CI/CD Pipeline Automation",
+    "Technical Blogging",
+    "Custom Theme Development",
+    "Metadata Serialization",
+    "Cross-platform Build Systems",
+    "Terminal-Inspired UI Design",
+    "Handlebars Template Engine",
+    "Syntax Highlighting Integration",
+    "DNS Record Configuration",
+    "Project Landing Page Optimization",
+    "Document Object Modeling",
+    "Automated Software Distribution",
+    "Open Source Licensing Compliance",
+    "Asset Pipeline Management",
+    "Responsive Web Design",
+    "Front-matter Configuration",
+    "Versioned Content Delivery"
+  ],
+  "languages": [
+    "Rust",
+    "JavaScript",
+    "AsciiDoc",
+    "CSS",
+    "Handlebars",
+    "RON",
+    "TOML"
+  ],
+  "maturity": "active",
+  "evidence": {
+    "file_count": 29,
+    "has_readme": true,
+    "sample_files": [
+      "Cargo.toml",
+      "l/src/main.rs",
+      "z/src/main.rs"
+    ]
+  },
+  "_hash": "8ee4619dfe0ecc9ae5b275e8d4eca8662c574e2e3cd58e5544f95c3ffdf5745f",
+  "_path": "/Users/ember/dev/gh/lunar.town",
+  "_updated_at": "2026-02-14T00:56:27.631461Z",
+  "_alignment": {
+    "category": "Compilers & Languages",
+    "concepts": [
+      "Static Site Generation",
+      "Structured Document Authoring",
+      "Rust Workspace Management",
+      "CI/CD Pipeline Automation",
+      "Technical Blogging",
+      "Custom Theme Development",
+      "Metadata Serialization",
+      "Cross-platform Build Systems",
+      "Terminal-Inspired UI Design",
+      "Handlebars Template Engine",
+      "Syntax Highlighting Integration",
+      "DNS Record Configuration",
+      "Project Landing Page Optimization",
+      "Document Object Modeling",
+      "Automated Software Distribution",
+      "Open Source Licensing Compliance",
+      "Asset Pipeline Management",
+      "Responsive Web Design",
+      "Front-matter Configuration",
+      "Versioned Content Delivery"
+    ],
+    "tags": [
+      "Rust Language Ecosystem",
+      "asciidoc",
+      "ron",
+      "mdbook",
+      "oranda",
+      "cargo-dist",
+      "static-site",
+      "dns-management",
+      "handlebars",
+      "prismjs",
+      "web-infrastructure",
+      "agpl-3.0"
+    ],
+    "mined_motifs": [
+      "static-site-generator",
+      "pelican",
+      "markdown",
+      "Rust Language Ecosystem",
+      "automation",
+      "Automated Link Validation",
+      "newsletter",
+      "stork-search",
+      "Jinja2 Templating",
+      "python",
+      "Stack Safety",
+      "Type-Based Alias Analysis"
+    ],
+    "metaconstellations": [
+      {
+        "id": "content-infrastructure-archival",
+        "name": "Content Infrastructure & Archival",
+        "score": 10.929,
+        "matches": [
+          "automation",
+          "markdown",
+          "newsletter",
+          "pelican"
+        ]
+      },
+      {
+        "id": "automation-robotics-mcp",
+        "name": "Automation, Robotics & MCP",
+        "score": 5.295,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "low-level-systems-craft",
+        "name": "Low-Level Systems Craft",
+        "score": 5.235,
+        "matches": [
+          "rust language ecosystem"
+        ]
+      },
+      {
+        "id": "developer-productivity-meta-orchestration",
+        "name": "Meta-Orchestration & Tooling",
+        "score": 3.936,
+        "matches": [
+          "automation"
+        ]
+      },
+      {
+        "id": "developer-experience-documentation-engines",
+        "name": "Developer Experience & Documentation Engines",
+        "score": 3.858,
+        "matches": [
+          "mdbook"
+        ]
+      },
+      {
+        "id": "automated-build-and-delivery",
+        "name": "Automated Build & Delivery",
+        "score": 3.819,
+        "matches": [
+          "oranda"
+        ]
+      }
+    ],
+    "aligner": "taxonomy-v1",
+    "alignment_count": 66,
+    "metaconstellation_count": 81,
+    "aligned_at": "2026-02-14T00:56:27.631461Z"
+  },
+  "attribution": "my-projects",
+  "_embedding": {
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "backend": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "backend_kind": "mistralrs-local",
+    "backend_url": "mistralrs://Qwen/Qwen3-Embedding-8B",
+    "instruction": "Represent this software project summary for clustering and motif mining",
+    "text_hash": "b9a07a00e092754726218fe7df6f884fe6654d3a26a6e7b5b68c01537bd089ef",
+    "normalized": true,
+    "dim": 4096,
+    "updated_at": "2026-02-11T07:56:03.331838+00:00"
+  },
+  "mined_motifs": [
+    "static-site-generator",
+    "pelican",
+    "markdown",
+    "rust-lang",
+    "automation",
+    "Automated Link Validation",
+    "newsletter",
+    "stork-search",
+    "Jinja2 Templating",
+    "python",
+    "Stack Safety",
+    "Type-Based Alias Analysis"
+  ],
+  "_motif_neighbors": [
+    {
+      "name": "this-week-in-rust",
+      "path": "/Users/ember/dev/gh/forks/this-week-in-rust",
+      "similarity": 0.82
+    },
+    {
+      "name": "blog",
+      "path": "/Users/ember/dev/gh/blog",
+      "similarity": 0.81
+    },
+    {
+      "name": "this-week-in-rust",
+      "path": "/Users/ember/dev/this-week-in-rust",
+      "similarity": 0.81
+    },
+    {
+      "name": "blog.rust-lang.org",
+      "path": "/Users/ember/dev/gh/forks/blog.rust-lang.org",
+      "similarity": 0.807
+    },
+    {
+      "name": "docs",
+      "path": "/Users/ember/dev/gh/docs",
+      "similarity": 0.805
+    },
+    {
+      "name": "cmr.github.io",
+      "path": "/Users/ember/dev/gh/cmr.github.io",
+      "similarity": 0.784
+    },
+    {
+      "name": "doc_builder",
+      "path": "/Users/ember/dev/gh/doc_builder",
+      "similarity": 0.772
+    },
+    {
+      "name": "leptos-book",
+      "path": "/Users/ember/src/shylem/leptos-book",
+      "similarity": 0.77
+    }
+  ]
+}
